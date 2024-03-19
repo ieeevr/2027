@@ -1113,7 +1113,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section {
 audio,canvas,video {
     display: inline-block;
     *display: inline;
-    width: 90%;
+    width: 70%;
     *zoom:1}
 
 audio:not([controls]) {
