@@ -1,0 +1,69 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+//light blue: #00aeef
+//dark blue:  #00204b
+//warning red: #841525
+
+// The colours in the 2022 color scheme
+$theme-yellow: #14b2d7;
+$theme-yellow-light: #fffbed;
+$theme-teal: #009cb4;
+$theme-navy: #103b62;
+$theme-text: #363636;
+
+$link-color: $theme-teal !default;
+$primary-color: $theme-yellow !default;
+$warning-color: #841525 !default;
+
+//$link-color: #00aeef !default;
+//$primary-color: #00aeef !default;
+//$warning-color: #841525 !default;
+
+
+#myBtnTop { // move to the top button
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: $theme-yellow;
+  color: $theme-text;
+  cursor: pointer;
+  padding: 15px;
+  border-color: 1px solid white;
+  border-radius: 4px;
+}
+
+@media(hover: hover) and (pointer: fine){
+    #myBtnTop:hover {
+    background-color: $theme-navy;
+    color: #f2f2f2;
+    }
+}
+
+b, strong {
+    color: $theme-yellow;
+}
+
+
+::-moz-selection { /* Code for Firefox */
+  color: $theme-text;
+  background: $theme-yellow;
+}
+
+::selection {
+  color: $theme-text;
+  background: $theme-yellow;
+}
+
+
+
+
+

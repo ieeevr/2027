@@ -1,0 +1,371 @@
+.ui-accordion .ui-accordion-content {
+	padding: 1em .7em;
+}
+/****************************************************************************************************
+* GRID SCHEDULE LAYOUT: https://css-tricks.com/building-a-conference-schedule-with-css-grid
+****************************************************************************************************/
+@media screen and (min-width:700px) {    
+    /* .schedule Notes
+    Note 1:
+    Use 24hr time for gridline names for simplicity
+
+    Note 2: Use "auto" instead of "1fr" for a more compact schedule where height of a slot is not proportional to the session length. Implementing a "compact" shortcode attribute might make sense for this!
+    Try 0.5fr for more compact equal rows. I don't quite understand how that works :)
+    */
+    .schedule-sat {
+        display: grid;
+        grid-gap: .3em;
+        grid-template-rows:
+        [tracks] auto 
+        [time-0730] 0.25fr [time-0745] 0.25fr
+        [time-0800] 0.25fr [time-0815] 0.25fr [time-0830] 0.25fr [time-0845] 0.25fr 
+        [time-0900] 0.25fr [time-0915] 0.25fr [time-0930] 0.25fr [time-0945] 0.25fr 
+        [time-1000] auto [time-1030] 0.25fr [time-1045] 0.25fr 
+        [time-1100] 0.25fr [time-1115] 0.25fr [time-1130] 0.25fr [time-1145] 0.25fr 
+        [time-1200] 1.0fr 
+        [time-1330] 0.25fr [time-1345] 0.25fr 
+        [time-1400] 0.25fr [time-1415] 0.25fr [time-1430] 0.25fr [time-1445] 0.25fr             
+        [time-1500] 0.25fr [time-1515] 0.25fr [time-1530] auto
+        [time-1600] 0.25fr [time-1615] 0.25fr [time-1630] 0.25fr [time-1645] 0.25fr 
+        [time-1700] 0.25fr [time-1715] 0.25fr [time-1730];
+        
+        grid-template-columns:
+        [times] 2.1em [track-0-start] 1.5em [track-0-end track-1-start] .2fr [track-1-end track-2-start] .2fr [track-2-end track-3-start] .2fr [track-3-end track-4-start] .2fr [track-4-end track-5-start] .2fr [track-5-end track-6-start] .2fr [track-6-end track-7-start] .2fr [track-7-end track-8-start] .2fr [track-8-end];
+   }
+
+    .schedule-sun {
+        display: grid;
+        grid-gap: .3em;
+        grid-template-rows:
+            [tracks] auto 
+            [time-0730] 0.25fr [time-0745] 0.25fr
+            [time-0800] 0.25fr [time-0815] 0.25fr [time-0830] 0.25fr [time-0845] 0.25fr 
+            [time-0900] 0.25fr [time-0915] 0.25fr [time-0930] 0.25fr [time-0945] 0.25fr 
+            [time-1000] auto [time-1030] 0.25fr [time-1045] 0.25fr 
+            [time-1100] 0.25fr [time-1115] 0.25fr [time-1130] 0.25fr [time-1145] 0.25fr 
+            [time-1200] 0.25fr [time-1230] 0.25fr 
+            [time-1300] 0.25fr [time-1330] 0.25fr [time-1345] 0.25fr 
+            [time-1400] 0.25fr [time-1415] 0.25fr [time-1430] 0.25fr [time-1445] 0.25fr             
+            [time-1500] 0.25fr [time-1515] 0.25fr [time-1530] auto
+            [time-1600] 0.25fr [time-1615] 0.25fr [time-1630] 0.25fr [time-1645] 0.25fr 
+            [time-1700] 0.25fr [time-1715] 0.25fr [time-1730];
+        
+        grid-template-columns:
+        [times] 2.1em [track-0-start] 1.5em [track-0-end track-1-start] .2fr [track-1-end track-2-start] .2fr [track-2-end track-3-start] .2fr [track-3-end track-4-start] .2fr [track-4-end track-5-start] .2fr [track-5-end track-6-start] .2fr [track-6-end track-7-start] .2fr [track-7-end track-8-start] .2fr [track-8-end];
+    }
+    
+    .schedule-mon {
+        display: grid;
+        grid-gap: .3em;
+        grid-template-rows:
+            [tracks] auto 
+            [time-0800] 0.4fr [time-0815] 0.4fr [time-0830] 0.4fr [time-0845] 0.4fr 
+            [time-0900] 0.4fr [time-0915] 0.4fr [time-0930] 0.4fr [time-0945] 0.4fr 
+            [time-1000] 0.4fr [time-1015] 0.4fr [time-1030] 0.4fr [time-1045] 0.4fr 
+            [time-1100] 0.4fr [time-1115] 0.4fr [time-1130] 0.4fr [time-1145] 0.4fr 
+            [time-1200] 0.4fr [time-1215] 0.4fr [time-1230] 0.4fr [time-1245] 0.4fr 
+            [time-1300] 0.4fr [time-1315] 0.4fr [time-1330] 0.4fr [time-1345] 0.4fr 
+            [time-1400] 0.4fr [time-1415] 0.4fr [time-1430] 0.4fr [time-1445] 0.4fr             
+            [time-1500] 0.4fr [time-1515] 0.4fr [time-1530] 0.4fr [time-1545] 0.4fr 
+            [time-1600] 0.4fr [time-1615] 0.4fr [time-1630] 0.4fr [time-1645] 0.4fr 
+            [time-1700] 0.4fr [time-1715] 0.4fr [time-1730] 0.4fr [time-1745] 0.4fr 
+            [time-1800] 0.4fr [time-1815] 0.4fr [time-1830] 0.4fr [time-1845] 0.4fr 
+            [time-1900];
+
+            grid-template-columns:
+            [times] 2.1em [track-0-start] 1.5em [track-0-end track-1-start] .5fr [track-1-end track-2-start] .5fr [track-2-end track-3-start] .5fr [track-3-end track-4-start] .4fr  [track-4-end];
+    }
+    
+    .schedule-tue {
+        display: grid;
+        grid-gap: .3em;
+        grid-template-rows:
+            [tracks] auto 
+            [time-0800] 0.4fr [time-0815] 0.4fr [time-0830] 0.4fr [time-0845] 0.4fr 
+            [time-0900] 0.4fr [time-0915] 0.4fr [time-0930] 0.4fr [time-0945] 0.4fr 
+            [time-1000] 0.4fr [time-1015] 0.4fr [time-1030] 0.4fr [time-1045] 0.4fr 
+            [time-1100] 0.4fr [time-1115] 0.4fr [time-1130] 0.4fr [time-1145] 0.4fr 
+            [time-1200] 0.4fr [time-1215] 0.4fr [time-1230] 0.4fr [time-1245] 0.4fr 
+            [time-1300] 0.4fr [time-1315] 0.4fr [time-1330] 0.4fr [time-1345] 0.4fr 
+            [time-1400] 0.4fr [time-1415] 0.4fr [time-1430] 0.4fr [time-1445] 0.4fr             
+            [time-1500] 0.4fr [time-1515] 0.4fr [time-1530] 0.4fr [time-1545] 0.4fr 
+            [time-1600] 0.4fr [time-1615] 0.4fr [time-1630] 0.4fr [time-1645] 0.4fr 
+            [time-1700] 0.4fr [time-1715] 0.4fr [time-1730] 0.4fr;             
+
+            grid-template-columns:
+            [times] 2.1em [track-0-start] 1.5em [track-0-end track-1-start] .5fr [track-1-end track-2-start] .5fr [track-2-end track-3-start] .5fr [track-3-end track-4-start] .4fr  [track-4-end];
+        }
+    
+    .schedule-wed {
+        display: grid;
+        grid-gap: .3em;
+        grid-template-rows:
+            [tracks] auto 
+            [time-0800] 0.4fr [time-0815] 0.4fr [time-0830] 0.4fr [time-0845] 0.4fr 
+            [time-0900] 0.4fr [time-0915] 0.4fr [time-0930] 0.4fr [time-0945] 0.4fr 
+            [time-1000] 0.4fr [time-1015] 0.4fr [time-1030] 0.4fr [time-1045] 0.4fr 
+            [time-1100] 0.4fr [time-1115] 0.4fr [time-1130] 0.4fr [time-1145] 0.4fr 
+            [time-1200] 0.4fr [time-1215] 0.4fr [time-1230] 0.4fr [time-1245] 0.4fr 
+            [time-1300] 0.4fr [time-1315] 0.4fr [time-1330] 0.4fr [time-1345] 0.4fr 
+            [time-1400] 0.4fr [time-1415] 0.4fr [time-1430] 0.4fr [time-1445] 0.4fr             
+            [time-1500] 0.4fr [time-1515] 0.4fr [time-1530] 0.4fr [time-1545] 0.4fr 
+            [time-1600] 0.4fr [time-1615] 0.4fr [time-1630] 0.4fr [time-1645] 0.4fr 
+            [time-1700] 0.4fr [time-1715] 0.4fr [time-1730] 0.4fr [time-1745] 0.4fr 
+            [time-1800] 0.4fr [time-1815] 0.4fr [time-1830] 0.4fr [time-1845] 0.4fr
+            [time-1900] 0.4fr [time-1915] 0.4fr [time-1930] 0.4fr [time-1945] 0.4fr 
+            [time-2000] 0.4fr [time-2015] 0.4fr [time-2030] 0.4fr [time-2045] 0.4fr [time-2100];
+           
+            grid-template-columns:
+            [times] 2.1em [track-0-start] 1.5em [track-0-end track-1-start] .5fr [track-1-end track-2-start] .5fr [track-2-end track-3-start] .5fr [track-3-end track-4-start] .4fr  [track-4-end];
+        }
+    
+    .schedule-thu {
+        display: grid;
+        grid-gap: .3em;
+        grid-template-rows:
+            [tracks] auto 
+            [time-0830] 0.4fr [time-0845] 0.4fr 
+            [time-0900] 0.4fr [time-0915] 0.4fr [time-0930] 0.4fr [time-0945] 0.4fr 
+            [time-1000] 0.4fr [time-1015] 0.4fr [time-1030] 0.4fr [time-1045] 0.4fr 
+            [time-1100] 0.4fr [time-1115] 0.4fr [time-1130] 0.4fr [time-1145] 0.4fr 
+            [time-1200] 0.4fr [time-1215] 0.4fr [time-1230] 0.4fr [time-1245] 0.4fr 
+            [time-1300] 0.4fr [time-1315] 0.4fr [time-1330] 0.4fr [time-1345] 0.4fr 
+            [time-1400] 0.4fr [time-1415] 0.4fr [time-1430] 0.4fr [time-1445] 0.4fr             
+            [time-1500] 0.4fr [time-1515] 0.4fr [time-1530] 0.4fr [time-1545] 0.4fr 
+            [time-1600] 0.4fr [time-1615] 0.4fr [time-1630] 0.4fr [time-1645] 0.4fr 
+            [time-1700];
+            
+            grid-template-columns:
+            [times] 2.1em [track-0-start] 1.5em [track-0-end track-1-start] .5fr [track-1-end track-2-start] .5fr [track-2-end track-3-start] .5fr [track-3-end track-4-start] .4fr  [track-4-end];
+        }
+}
+
+.time-slot {
+    text-decoration: none;
+    grid-column: times;
+    font-weight: bold;
+    color: #0c5789;    
+    font-size:.7em !important;
+}
+
+.track-slot {
+    display: none; /* hidden on small screens and browsers without grid support */
+}
+
+.rotate_reg{
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    font-size:1.2em !important;
+}
+
+@supports( display:grid ) {
+    @media screen and (min-width:700px) {
+        .track-slot {
+            display: block;
+            padding: 10px 5px 5px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            background-color: rgba(255,255,255,.9);
+        }
+    }
+}
+
+/* Small-screen & fallback styles */
+.session {
+    margin-bottom: 1em;
+}
+
+@supports( display:grid ) {
+    @media screen and (min-width: 700px) {
+        .session {
+            margin: 0;
+        } 
+    }
+}
+
+/*************************
+* VISUAL STYLES
+* Design-y stuff ot particularly important to the demo
+*************************/
+.session {
+    padding: .3em .5em;
+    border-radius: 2px;
+    font-size: 14px;
+    box-shadow:
+        rgba(255,255,255,.6) 1px 1px 0,
+        rgba(0,0,0,.3) 4px 4px 0;
+}
+
+.session-title,
+.session-time,
+.session-track,
+.session-presenter {
+    display: block;
+    font-size: .85em !important;
+}
+
+.session-title {
+    margin: 0;
+    line-height: 1.2;
+    font-family: -apple-system,BlinkMacSystemFont,"Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
+    font-weight: bold;
+}
+
+.session-title a {
+    color: #fff;
+    text-decoration-style: solid;
+
+    &:hover {
+        text-decoration-style: none;
+    }  
+}
+.smalltext{    
+    font-size: .85em !important;
+}
+
+.overview_update { 
+    background-color:#f7e925 !important; 
+    color:#000 !important; 
+    font-weight: bold !important; 
+    margin-bottom: 5px !important;
+    font-size: .8em !important;}
+
+
+
+.track-slot{
+    font-size:.75em;
+}
+
+.track-registration{
+    background-color:  #0c5789;;
+    color: #fff;
+}
+
+/* Saturday & Sunday */
+.track-workshop {
+    background-color: #b7f5bd;
+    color: #000;
+}
+.track-workshop a{    
+    color: #000 !important;
+}
+
+.track-tutorials{
+    background-color: #fce2c5;
+    color: #000;
+}
+.track-tutorials a{    
+    color: #000 !important;
+}
+
+.track-consortium{
+    background-color: #fff5c2;
+    color: #000;
+}
+.track-consortium a{    
+    color: #000 !important;
+}
+
+.track-f3{
+    background-color: #a8f2ff;
+    color: #000;
+}
+.track-f3 a{    
+    color: #000 !important;
+}
+
+.track-main {
+    background-color: #04c585;
+    color: #000;
+}
+.track-main a{    
+    color: #000 !important;
+}
+
+.track-keynote {
+    background-color: #d72d79;
+    color: #fff;
+}
+
+.track-fireworks {
+    background: #b7f5bd;
+    color: #000;
+}
+.track-fireworks a{    
+    color: #000 !important;
+}
+.track-papers {
+    background-color: #d0c3e9;
+    color: #000;
+}
+.track-papers a{    
+    color: #000 !important;
+}
+
+.track-special-session{
+    background-color: #fbbaa7;
+    color: #000;
+}
+.track-special-session a{    
+    color: #000 !important;
+}
+
+.track-demos{
+    background-color: #52daf2;
+    color: #000;
+}
+.track-demos a{    
+    color: #000 !important;
+}
+
+.track-pd3dui{
+    background-color: #1dc2ae;
+    color: #000;
+}
+.track-pd3dui a{    
+    color: #000 !important;
+}
+
+
+
+
+.track-all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #e8f5ff;
+    color: #000;
+    box-shadow: none;
+}
+
+.text {
+    max-width: 750px;
+    font-size: 18px;
+    margin: 0 auto 50px;
+}
+
+.meta {
+    color: #555;
+    font-style: italic;
+}
+
+.meta a {
+    color: #555;
+}
+
+hr {
+    margin: 40px 0;
+}  
+
+@media screen and (max-width:700px) {
+    .time-slot{
+        display:none;
+    }
+    
+    .rotate_reg{
+        writing-mode: horizontal-tb;
+        transform: none;
+        font-size: .85em !important;
+    }
+}

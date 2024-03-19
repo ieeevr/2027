@@ -1,0 +1,14 @@
+Installer jekyll - https://jekyllrb.com/docs/
+Télécharger le contenu du Git IEEE VR 2025
+Aller dans la console et faire 
+- gem install jekyll bundler (si ce n'est pas déjà fait)
+- bundle init
+Marquer dans le fichier Gemfile créé les lignes suivantes (avec le numéro de Ruby à jour) :
+"""
+ruby '3.2.3'
+
+gem 'minimal-mistakes-jekyll'
+"""
+
+- bundle exec jekyll serve
+

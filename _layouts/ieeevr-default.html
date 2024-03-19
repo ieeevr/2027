@@ -1,0 +1,75 @@
+---
+layout: default
+---
+<!-- For all browsers -->
+<script src="https://kit.fontawesome.com/4eee35f757.js"></script>
+<link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}?version=20240318">
+<link rel="stylesheet" href="{{ '/assets/css/tableStyles.css' | relative_url }}?version=20240318">
+<link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}?version=20240318">
+
+<button onclick="topFunction()" id="myBtnTop" title="Go to top">Top</button>
+
+<script>
+    var mybutton = document.getElementById("myBtnTop");
+
+    window.onscroll = function() {
+        scrollFunction()
+    };
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+    }
+
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+</script>
+
+<div id="main" role="main">
+    <article class="splash" style="margin:0px;" itemscope itemtype="https://schema.org/CreativeWork">
+         <!-- banner -->
+         <a href={{ "/" | relative_url }}><img class="ieeevrbanner" src={{ "/assets/images/IEEEVR_2025_LogoBanner.jpg" | relative_url }} alt="The official banner for the IEEE Conference on Virtual Reality + User Interfaces, comprised of a Kiwi wearing a VR headset overlaid on an image of Mount Cook and a braided river."></a>
+       
+        <!-- content -->
+        <section class="page__content" itemprop="text">
+            <div class="row">
+                <!-- Main Content -->
+                {{ content }}
+            </div>
+
+            <!--  footer -->
+            <div class="ieeevrfooter">
+                <hr>
+                <div>
+                    <a href="https://www.ieee.org" target="_new" style="margin-left: 2rem;">
+                        <img src={{ "/assets/images/sponsors/ieee-logo-white.svg" | relative_url }} alt="IEEE" style="height: 35px;">
+                    </a>
+                    <a  href="https://www.computer.org" target="_new" style="margin-left: 2rem;">
+                        <img src={{ "/assets/images/sponsors/ieee-cs-logo-white.svg" | relative_url }} alt="IEEE Computer Society" style="height: 35px;">
+                    </a>
+                    <a href="http://vgtc.org" target="_new" style="margin-left: 2rem;">
+                        <img src={{ "/assets/images/sponsors/ieee-vgtc-logo-white.svg" | relative_url }} alt="IEEE Visualization and Graphics Technical Community" style="height: 35px;">
+                    </a>
+                </div>
+                <p style="text-align:center ! important;">©IEEE VR Conference 2025, Sponsored by the IEEE Computer Society and the Visualization and Graphics Technical Committee</p>
+            </div>
+        </section>
+
+    </article>
+</div>
