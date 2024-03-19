@@ -1114,7 +1114,9 @@ audio,canvas,video {
     display: inline-block;
     *display: inline;
     *zoom:1}
-
+video {
+max-width: 1280px;
+}
 audio:not([controls]) {
     display: none
 }
