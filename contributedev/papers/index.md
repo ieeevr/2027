@@ -4,7 +4,7 @@ title: "Past Conferences"
 subtitle: "IEEE VR 2024"
 title_separator: "|"
 ---
-
+<meta name="robots" content="noindex">
 <div>
     <h1 id="cfp-conference"> Call for Papers<div class="floatRight"><span class="programSm"></span></div></h1>
     <p>
