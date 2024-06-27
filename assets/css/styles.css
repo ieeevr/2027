@@ -30,7 +30,7 @@
 
     .topnav a:hover,
     .dropdown:hover .dropbtn {
-        background-color: #12a6c9 !important;
+        background-color: #df7603 !important;
         color: #fff !important;
         font-weight: bold;
     }
@@ -168,7 +168,7 @@
     .ieeevrbanner {
         margin-top: 20px;
         padding: 0px;
-        border-radius: 40px 40px 40px 40px;
+        border-radius: 40px 40px 0px 0px;
     }
 
     .column {
@@ -291,7 +291,7 @@
     }
 
     .ieeevrmsgbox { /* Any boxes with the theme-primary color as background */
-      background-color: #12a6c9;;
+      background-color: #df7603;;
       border-radius: 7px;
       padding: 25px;
       margin-bottom: 20px;
@@ -448,7 +448,7 @@
     font-size: 0.8rem;
     text-align: left;
     padding: 0rem;
-    color: #12a6c9 !important;
+    color: #df7603 !important;
     background: #ffffff;
     cursor: pointer;
     border-radius: 7px;
@@ -529,7 +529,7 @@
 
 .confsponsors-type {
     background: #066569;
-    background: linear-gradient(45deg, #df7603, #066569, #12a6c9);
+    background: linear-gradient(45deg, #df7603, #066569, #df7603);
     line-height: 35px;
     border-radius: 20px;
     margin-top: 5px;
@@ -1465,7 +1465,7 @@ blockquote {
     padding-left: 1em;
     padding-right: 1em;
     font-style: italic;
-    border-left: 0.25em solid #12a6c9;
+    border-left: 0.25em solid #df7603;
 }
 
 blockquote cite {
@@ -1783,7 +1783,7 @@ input[disabled],select[disabled],textarea[disabled],input[readonly],select[reado
 }
 
 input:focus,textarea:focus {
-    border-color: #12a6c9;
+    border-color: #df7603;
     outline: 0;
     outline: thin dotted \9;
     box-shadow: inset 0 1px 3px rgba(0,0,0,0.06),0 0 5px rgba(245,114,94,0.7)
@@ -2023,7 +2023,7 @@ tr,td,th {
 }
 
 .btn--primary:hover {
-    background-color: #12a6c9 !important;
+    background-color: #df7603 !important;
     color: #fff !important;
 }
 
@@ -2726,7 +2726,7 @@ figcaption {
 
 .pagination li a.current,.pagination li a.current.disabled {
     color: #fff;
-    background: #12a6c9
+    background: #df7603
 }
 
 .pagination li a.disabled {
@@ -2863,7 +2863,7 @@ figcaption {
     left: 0;
     bottom: 0;
     height: 4px;
-    background: #12a6c9;
+    background: #df7603;
     width: 100%;
     -webkit-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
@@ -3120,7 +3120,7 @@ figcaption {
 .toc .nav__title {
     color: #fff;
     font-size: .75em;
-    background: #12a6c9;
+    background: #df7603;
     border-top-left-radius: 4px;
     border-top-right-radius: 4px
 }
@@ -3278,7 +3278,7 @@ figcaption {
     height: 2rem;
     border: 0;
     outline: none;
-    color: #12a6c9;
+    color: #df7603;
     background-color: transparent;
     cursor: pointer;
     -webkit-transition: 0.2s;
@@ -3391,13 +3391,13 @@ figcaption {
 }
 
 .archive__item-title .ais-Highlight {
-    color: #12a6c9;
+    color: #df7603;
     font-style: normal;
     text-decoration: underline
 }
 
 .archive__item-excerpt .ais-Highlight {
-    color: #12a6c9;
+    color: #df7603;
     font-style: normal;
     font-weight: bold
 }
@@ -3967,7 +3967,7 @@ body:hover .visually-hidden a,body:hover .visually-hidden input,body:hover .visu
     position: relative;
     width: 1.5rem;
     height: .25rem;
-    background: #12a6c9;
+    background: #df7603;
     margin: auto;
     -webkit-transition: 0.3s;
     transition: 0.3s
@@ -3979,7 +3979,7 @@ body:hover .visually-hidden a,body:hover .visually-hidden input,body:hover .visu
     left: 0;
     width: 1.5rem;
     height: .25rem;
-    background: #12a6c9;
+    background: #df7603;
     -webkit-transition: 0.3s;
     transition: 0.3s
 }
@@ -5510,7 +5510,7 @@ body {
 .flexbox {
     display: flex;
     flex-flow: row wrap;
-    background-color:#12a6c9;
+    background-color:#df7603;
     padding-bottom: 20px;
     text-align: center;
 }
@@ -5538,7 +5538,7 @@ body {
 .padding_top_small{padding-top: 20px;}
 .padding_top_xsmall{padding-top: 10px;}
 .resource_inner_div{background-color:#FFFFFF; padding: 10px; margin-bottom: 20px; text-align: center ! important}
-.resource_outer_div{background-color:#12a6c9; padding: 20px;}
+.resource_outer_div{background-color:#df7603; padding: 20px;}
 .padding_left_medium{padding-left: 35px !important;}
 .padding_left_small{padding-left: 20px !important;}
 .padding_right_small{padding-right: 20px !important;}

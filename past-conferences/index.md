@@ -9,6 +9,16 @@ title_separator: "|"
     <h1 id="past-conferences"> Past Conferences </h1>
     <div>
         <p>
+            <strong style="color:black">IEEE Virtual Reality 2024 <i>(Orlando, Florida, USA)</i></strong>
+            <br>
+            <a href="https://ieeevr.org/2024" class="specialLink" target="_blank">Website</a>
+            &nbsp;|&nbsp;
+            <a href="https://ieeexplore.ieee.org/xpl/conhome/10536145/proceeding" class="specialLink" target="_blank">Proceedings</a>
+        </p>
+    </div>
+    <hr>
+	<div>
+        <p>
             <strong style="color:black">IEEE Virtual Reality 2023 <i>(Shanghai, China)</i></strong>
             <br>
             <a href="https://ieeevr.org/2023" class="specialLink" target="_blank">Website</a>
