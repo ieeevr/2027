@@ -68,6 +68,9 @@ title_separator: "|"
 		email = "xrfuturefaculty2025"; 		
 		xrfuturefaculty.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";		
 
+		email = "environment2025"; 		
+		environment.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";		
+
 		
 	});
 </script>
@@ -94,6 +97,14 @@ title_separator: "|"
 		<li><span class="bold">Tabitha Peck</span> &#x2012; <i>Davidson College, USA</i></li>
 		<li><span class="bold">Voicu Popescu</span> &#x2012; <i>Purdue University, USA</i></li>
 		<li><span class="bold">Luciana Nedel</span> &#x2012; <i>Federal University of Rio Grande do Sul, Brazil</i></li>
+	</ul>
+</div>
+
+<div>
+	<h2>Environmental Impact Reduction and Awareness Chairs <div class="floatRight"><span id="environment"></span></div></h2>
+	<ul>
+		<li><span class="bold">Ludovic Hoyet</span> &#x2012; <i>Inria, France</i></li>
+		<li><span class="bold">Marc Macé</span> &#x2012; <i>CNRS, France</i></li>
 	</ul>
 </div>
 <div>
