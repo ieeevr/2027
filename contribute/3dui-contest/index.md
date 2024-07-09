@@ -48,9 +48,11 @@ title_separator: "|"
             <li>Novelty of the 3DUI design</li>
             <li>Enjoyment and engagement (fun)</li>
         </ol>
+    </p>
+    <p>
+    
         Selected contestants will be required to provide a software demonstration of their solutions using the OpenXR standard, ensuring compatibility with consumer mixed-reality hardware.
     </p>
-    
 
     <h2 id="eligibility">Eligibility</h2>
     <p>
@@ -82,7 +84,7 @@ title_separator: "|"
 
     <h2 id="teams">Teams</h2>
     <p>
-        Teams of up to <span class="bold">ten people</span> may submit solutions.
+        Teams of <span class="bold">up to ten people</span> may submit solutions.
     </p>
     
     <h2 id="paper">Paper</h2>
