@@ -107,10 +107,10 @@ title_separator: "|"
 <div>
 	<h2>3DUI Contest Chairs <div class="floatRight"><span id="contest"></span></div></h2>
 	<ul>
-		<li><span class="bold">Jean-Marie Normand</span> &#x2012; <i>Ecole Central Nantes, France</i></li>
 		<li><span class="bold">Jean-Rémy Chardonnet</span> &#x2012; <i>Arts et Metiers Institute of Technology, France</i></li>
-		<li><span class="bold">Tim Weissker</span> &#x2012; <i>RWTH Aachen University, Germany</i></li>
 		<li><span class="bold">Manuela Chessa</span> &#x2012; <i>University of Genoa, Italy</i></li>
+		<li><span class="bold">Jean-Marie Normand</span> &#x2012; <i>Ecole Central Nantes, France</i></li>
+		<li><span class="bold">Tim Weissker</span> &#x2012; <i>RWTH Aachen University, Germany</i></li>
 	</ul>
 </div>
 <div>
