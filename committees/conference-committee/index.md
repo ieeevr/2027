@@ -173,7 +173,7 @@ title_separator: "|"
 		<li><span class="bold">Justine	Saint-Aubert</span> &#x2012; <i>CNRS, France</i></li>
 		<li><span class="bold">Jerald	Thomas</span> &#x2012; <i>University of Wisconsin - Milwaukee, USA</i></li>
 		<li><span class="bold">Daniel 	Roth</span> &#x2012; <i>Technical University of Munich, Germany</i></li>
-		<li><span class="bold">Andrea 	Bönsch</span> &#x2012; <i>RTWH Aachen University, Germany</i></li>
+		<li><span class="bold">Andrea 	Bönsch</span> &#x2012; <i>RWTH Aachen University, Germany</i></li>
 	</ul>
 </div>
 <div>
