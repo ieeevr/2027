@@ -173,7 +173,7 @@ title_separator: "|"
 		<li><span class="bold">Justine	Saint-Aubert</span> &#x2012; <i>CNRS, France</i></li>
 		<li><span class="bold">Jerald	Thomas</span> &#x2012; <i>University of Wisconsin - Milwaukee, USA</i></li>
 		<li><span class="bold">Daniel 	Roth</span> &#x2012; <i>Technical University of Munich, Germany</i></li>
-		<li><span class="bold">Andrea 	Bönsch</span> &#x2012; <i>RTW Aachen University, Germany</i></li>
+		<li><span class="bold">Andrea 	Bönsch</span> &#x2012; <i>RTWH Aachen University, Germany</i></li>
 	</ul>
 </div>
 <div>
@@ -190,7 +190,7 @@ title_separator: "|"
 	<ul>
 		<li><span class="bold">Yann Glemarec</span> &#x2012; <i>Inria, France</i></li>
 		<li><span class="bold">Sylvia Pan</span> &#x2012; <i>Goldsmiths, University of London, UK</i></li>
-		<li><span class="bold">Alexandre Kabyl</span> &#x2012; <i>Université Paris-Saclay, France</i></li>
+		<li><span class="bold">Alexandre Kabil</span> &#x2012; <i>CNRS, France</i></li>
 		<li><span class="bold">Rajiv Khadka</span> &#x2012; <i>Idaho National Laboratory, USA</i></li>
 		<li><span class="bold">Takefumi	Hiraki</span> &#x2012; <i>Clusters Metaverse Lab, Japan</i></li>
 	</ul>
