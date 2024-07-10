@@ -119,7 +119,7 @@ title_separator: "|"
 		<li><span class="bold">Kiyoshi Kiyokawa</span> &#x2012; <i>NAIST, Japan</i></li>
 		<li><span class="bold">Frank Steinicke</span> &#x2012; <i>University Hamburg, Germany</i></li>
 		<li><span class="bold">Stefania Serafin</span> &#x2012; <i>Aalborg University, Denmark</i></li>
-		<li><span class="bold">Amine Chellali</span> &#x2012; <i>Université Paris Saclay, France</i></li>
+		<li><span class="bold">Amine Chellali</span> &#x2012; <i>Université d'Evry Paris-Saclay, France</i></li>
 	</ul>
 </div>
 <div>
