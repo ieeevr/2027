@@ -147,7 +147,7 @@ title_separator: "|"
 		<li><span class="bold">Franck Multon</span> &#x2012; <i>Inria, France</i></li>
 		<li><span class="bold">Philippe Guillotel</span> &#x2012; <i>Interdigital, France</i></li>
 		<li><span class="bold">Christian Sandor</span> &#x2012; <i>Université Paris-Saclay, France</i></li>
-		<li><span class="bold">Gabriel Zachmann</span> &#x2012; <i>Bremen University, Germany</i></li>
+		<li><span class="bold">Gabriel Zachmann</span> &#x2012; <i>University of Bremen, Germany</i></li>
 		<li><span class="bold">Frank Guan</span> &#x2012; <i>Singapore Institute of Technology, Singapore</i></li>
 		<li><span class="bold">Masahiko Inami</span> &#x2012; <i>University of Tokyo, Japan</i></li>
 	</ul>
@@ -182,7 +182,7 @@ title_separator: "|"
 		<li><span class="bold">Christos	Mousas</span> &#x2012; <i>Purdue University, USA</i></li>
 		<li><span class="bold">Mohammed	Safayet Arefin</span> &#x2012; <i>Colorado State University, USA</i></li>
 		<li><span class="bold">Lauren Buck</span> &#x2012; <i>Trinity College Dublin, Ireland</i></li>
-		<li><span class="bold">Daniel Zielasko</span> &#x2012; <i>RWTH Aachen University, Germany</i></li>
+		<li><span class="bold">Daniel Zielasko</span> &#x2012; <i>Trier University, Germany</i></li>
 	</ul>
 </div>
 <div>
@@ -201,7 +201,7 @@ title_separator: "|"
 		<li><span class="bold">Geoffrey Gorisse</span> &#x2012; <i>ENSAM, France</i></li>
 		<li><span class="bold">Kangsoo Kim</span> &#x2012; <i>University of Calgary, Canada</i></li>
 		<li><span class="bold">Ana Serrano</span> &#x2012; <i>Universidad de Zaragoza, Spain</i></li>
-		<li><span class="bold">Thomas Pietzrak</span> &#x2012; <i>Université de Lille, France</i></li>
+		<li><span class="bold">Thomas Pietrzak</span> &#x2012; <i>Université de Lille, France</i></li>
 	</ul>
 </div>
 <div>
@@ -232,7 +232,7 @@ title_separator: "|"
 <div>
 	<h2>Workshop Chairs  <div class="floatRight"><span id="workshops"></span></div></h2>
 	<ul>
-		<li><span class="bold">Rebecca	Fribourg</span> &#x2012; <i>Ecole Central Nantes, France</i></li>
+		<li><span class="bold">Rebecca	Fribourg</span> &#x2012; <i>École Centrale Nantes, France</i></li>
 		<li><span class="bold">Hugo	Brument</span> &#x2012; <i>TU Wien, Austria</i></li>
 		<li><span class="bold">Dirk	Reiners</span> &#x2012; <i>University of Central Florida, USA</i></li>
 		<li><span class="bold">Carolin	Wienrich</span> &#x2012; <i>Julius-Maximilians Universität Würzburg, Germany</i></li>
