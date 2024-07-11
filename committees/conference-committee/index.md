@@ -164,7 +164,7 @@ title_separator: "|"
 	<ul>
 		<li><span class="bold">Edith Blin</span> &#x2012; <i>Inria, France</i></li>
 		<li><span class="bold">Nathalie	Denis</span> &#x2012; <i>Inria, France</i></li>
-		<li><span class="bold">Gwen	Laennec</span> &#x2012; <i>Inria, France</i></li>
+		<li><span class="bold">Gwenaelle Lannec</span> &#x2012; <i>Inria, France</i></li>
 	</ul>
 </div>
 <div>
