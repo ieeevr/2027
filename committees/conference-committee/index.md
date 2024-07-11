@@ -67,6 +67,9 @@ title_separator: "|"
 
 		email = "environment2025"; 		
 		environment.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";		
+		
+		email = "onlineexperience2025"; 		
+		onlineexperience.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";		
 
 		
 	});
@@ -104,6 +107,15 @@ title_separator: "|"
 		<li><span class="bold">Marc Macé</span> &#x2012; <i>CNRS, France</i></li>
 	</ul>
 </div>
+<div>
+	<h2>On-line Experience Chairs<div class="floatRight"><span id="onlineexperience"></span></div></h2>
+	<ul>
+		<li><span class="bold">Florian Nouviale</span> &#x2012; <i>INSA, France</i></li>
+		<li><span class="bold">Kyle Johnson</span> &#x2012; <i>University Of Georgia, USA</i></li>
+		<li><span class="bold">Brook Bowers</span> &#x2012; <i>University Of Georgia, USA</i></li>
+	</ul>
+</div>
+
 <div>
 	<h2>3DUI Contest Chairs <div class="floatRight"><span id="contest"></span></div></h2>
 	<ul>
