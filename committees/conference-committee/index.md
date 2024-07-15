@@ -62,8 +62,6 @@ title_separator: "|"
 		email = "workshops2025"; 		
 		workshops.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
 		
-		email = "xrfuturefaculty2025"; 		
-		xrfuturefaculty.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";		
 
 		email = "environment2025"; 		
 		environment.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";		
@@ -77,7 +75,9 @@ title_separator: "|"
 		email = "onlineexperience2025"; 		
 		onlineexperience.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
 
-		
+		email = "xrfuturefaculty2025"; 		
+		xrfuturefaculty.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";		
+
 		
 	});
 </script>
@@ -224,6 +224,12 @@ title_separator: "|"
 	</ul>
 </div>
 <div>
+	<h2>Social Events Chairs  <div class="floatRight"><span id="socialevents"></span></div></h2>
+	<ul>
+		<li><span class="bold">Julien Pettré</span> &#x2012; <i>Inria, France</i></li>
+	</ul>
+</div>
+<div>
 	<h2>Student Volunteers Chairs <div class="floatRight"><span id="studentvolunteers"></span></div></h2>			
 	<ul>
 		<li><span class="bold">Claudio Pacchierotti</span> &#x2012; <i>CNRS, France</i></li>
@@ -258,12 +264,6 @@ title_separator: "|"
 	</ul>
 </div>
 
-<div>
-	<h2>Social Events Chairs  <div class="floatRight"><span id="socialevents"></span></div></h2>
-	<ul>
-		<li><span class="bold">Julien Pettré</span> &#x2012; <i>Inria, France</i></li>
-	</ul>
-</div>
 <div>
 	<h2>XR Gallery Chairs  <div class="floatRight"><span id="art"></span></div></h2>
 	<ul>
