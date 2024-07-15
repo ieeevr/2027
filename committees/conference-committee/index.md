@@ -227,6 +227,7 @@ title_separator: "|"
 	<h2>Social Events Chairs  <div class="floatRight"><span id="socialevents"></span></div></h2>
 	<ul>
 		<li><span class="bold">Julien Pettré</span> &#x2012; <i>Inria, France</i></li>
+		<li><span class="bold">Rob Lindeman</span> &#x2012; <i>HIT Lab, New Zealand</i></li>
 	</ul>
 </div>
 <div>
