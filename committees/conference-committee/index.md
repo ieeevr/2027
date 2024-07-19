@@ -114,6 +114,15 @@ title_separator: "|"
 		<li><span class="bold">Marc Macé</span> &#x2012; <i>CNRS, France</i></li>
 	</ul>
 </div>
+
+<div>
+	<h2>XR Gallery Chairs  <div class="floatRight"><span id="art"></span></div></h2>
+	<ul>
+		<li><span class="bold">Valérie Gouranton</span> &#x2012; <i>INSA Rennes, France</i></li>
+		<li><span class="bold">Katja Zibrek</span> &#x2012; <i>Inria, France</i></li>
+	</ul>
+</div>
+
 <div>
 	<h2>On-line Experience Chairs<div class="floatRight"><span id="onlineexperience"></span></div></h2>
 	<ul>
@@ -265,13 +274,6 @@ title_separator: "|"
 	</ul>
 </div>
 
-<div>
-	<h2>XArt Gallery Chairs  <div class="floatRight"><span id="art"></span></div></h2>
-	<ul>
-		<li><span class="bold">Valérie Gouranton</span> &#x2012; <i>INSA Rennes, France</i></li>
-		<li><span class="bold">Katja Zibrek</span> &#x2012; <i>Inria, France</i></li>
-	</ul>
-</div>
 
 <!--- <div>
 	<h2>XR Future Faculty Forum Chairs  <div class="floatRight"><span id="xrfuturefaculty"></span></div></h2>
