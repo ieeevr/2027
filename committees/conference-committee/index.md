@@ -101,9 +101,11 @@ title_separator: "|"
 <div>
 	<h2>XR Gallery Chairs  <div class="floatRight"><span id="art"></span></div></h2>
 	<ul>
-		<li><span class="bold">Valérie Gouranton</span> &#x2012; <i>INSA Rennes, France</i></li>
-		<li><span class="bold">Katja Zibrek</span> &#x2012; <i>Inria, France</i></li>
 		<li><span class="bold">Rémi Cambuzat</span> &#x2012; <i>Inria, France</i></li>
+		<li><span class="bold">Valérie Gouranton</span> &#x2012; <i>IRISA Rennes, France</i></li>
+		<li><span class="bold">Jüergen Hagler</span> &#x2012; <i>Ars Electronica, Austria</i></li>
+		<li><span class="bold">Roland Haring</span> &#x2012; <i>Ars Electronica, Austria</i></li>
+		<li><span class="bold">Katja Zibrek</span> &#x2012; <i>Inria, France</i></li>
 	</ul>
 </div>
 
