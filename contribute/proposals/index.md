@@ -102,7 +102,7 @@ title_separator: "|"
                     <li>Technical needs, setup time, and procedures.</li>
                 </ul>
             </li>
-            <li>Your contact informations: full names, affiliation and email address</li>
+            <li>Your contact information: full names, affiliation and email address</li>
         </ul>
         <p>
         Supplementary material, such as videos, press kit ... , are also encouraged to accompany the abstract submission and describe your artistic process.
