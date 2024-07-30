@@ -32,7 +32,7 @@ title_separator: "|"
     <h2 id="important-dates">Important Dates - ALL DEADLINES ARE ANYWHERE ON EARTH (AOE)
     </h2>
     <ul>
-        <li><b>October 31, 2024:</b>Submission of abstracts.</li>
+        <li><b>October 31, 2024:</b> Submission of abstracts.</li>
         <li><b>November 28, 2024:</b> Notification of acceptance.</li>
         <li><b>February 13, 2025:</b> Camera-ready version.</li>
     </ul>
@@ -62,8 +62,13 @@ title_separator: "|"
             <li>What would be the implication of a faithful simulation of an ancestor based solely on their private diaries or literary correspondence? </li>
             <li>...</li>
         </ul>
+        </p>
+        <p>
+
+
         The exhibition will primarily focus on interactive XR art installations, while also welcoming non-XR art installations, such as performances or any other digital media questioning the nature of reality in our increasingly digital world. 
-        </p><p>
+        </p>
+        <p>
         Accepted submission will be showcased at the dedicated space for the XR Gallery during the entire duration of the IEEEVR conference, excluding the days of workshops <strong>(March 8-12 2025, Saint-Malo, France)</strong>. Discussions are underway to arrange a public exhibition in the days following the conference.
 
     
@@ -87,7 +92,6 @@ title_separator: "|"
             <li>Title of XR Gallery submission</li>
             <li>A statement of intent providing a brief description of your art project and how it addresses the proposed topic of XR Gallery.</li>
             <li>Representative images of the project</li>
-            <li>The equipment and technical information required for its realization:  (including light, sound, network needs)</li>
             <li>The equipment and technical information required for its realization:
                 <ul>
                     <li>Preferred space needs (in square meters: height x width x depth)</li>
@@ -98,7 +102,7 @@ title_separator: "|"
                     <li>Technical needs, setup time, and procedures.</li>
                 </ul>
             </li>
-            <li>our contact informations: full names, affiliation and email address</li>
+            <li>Your contact informations: full names, affiliation and email address</li>
         </ul>
         <p>
         Supplementary material, such as videos, press kit ... , are also encouraged to accompany the abstract submission and describe your artistic process.
@@ -114,8 +118,6 @@ title_separator: "|"
                 <li>A statement of intent providing a brief description of your art project and how it addresses the proposed topic of XR Gallery.</li>
                 <li>Representative images of the project</li>
                 <li>The equipment and technical information required for its realization:  (including light, sound, network needs)</li>
-                
-                <li>our contact informations: full names, affiliation and email address</li>
             </ul>
 
 
