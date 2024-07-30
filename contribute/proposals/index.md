@@ -1,6 +1,6 @@
 ---
 layout: ieeevr-default
-title: "Research Demos"
+title: "XR Gallery"
 subtitle: "IEEE VR 2025"
 title_separator: "|"
 ---
