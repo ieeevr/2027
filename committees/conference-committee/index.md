@@ -99,6 +99,16 @@ title_separator: "|"
 </div>
 
 <div>
+	<h2>Program Chairs <div class="floatRight"><span id="program"></span></div></h2>
+	<ul>
+		<li><span class="bold">Daisuke Iwai</span> &#x2012; <i>Osaka University, Japan</i></li>
+		<li><span class="bold">Tabitha Peck</span> &#x2012; <i>Davidson College, USA</i></li>
+		<li><span class="bold">Voicu Popescu</span> &#x2012; <i>Purdue University, USA</i></li>
+		<li><span class="bold">Luciana Nedel</span> &#x2012; <i>Federal University of Rio Grande do Sul, Brazil</i></li>
+	</ul>
+</div>
+
+<div>
 	<h2>XR Gallery Chairs  <div class="floatRight"><span id="art"></span></div></h2>
 	<ul>
 		<li><span class="bold">Rémi Cambuzat</span> &#x2012; <i>Inria, France</i></li>
@@ -106,16 +116,6 @@ title_separator: "|"
 		<li><span class="bold">Jüergen Hagler</span> &#x2012; <i>Ars Electronica, Austria</i></li>
 		<li><span class="bold">Roland Haring</span> &#x2012; <i>Ars Electronica, Austria</i></li>
 		<li><span class="bold">Katja Zibrek</span> &#x2012; <i>Inria, France</i></li>
-	</ul>
-</div>
-
-<div>
-	<h2>Program Chairs <div class="floatRight"><span id="program"></span></div></h2>
-	<ul>
-		<li><span class="bold">Daisuke Iwai</span> &#x2012; <i>Osaka University, Japan</i></li>
-		<li><span class="bold">Tabitha Peck</span> &#x2012; <i>Davidson College, USA</i></li>
-		<li><span class="bold">Voicu Popescu</span> &#x2012; <i>Purdue University, USA</i></li>
-		<li><span class="bold">Luciana Nedel</span> &#x2012; <i>Federal University of Rio Grande do Sul, Brazil</i></li>
 	</ul>
 </div>
 

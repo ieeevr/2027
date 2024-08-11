@@ -151,6 +151,7 @@ title_separator: "|"
     <h2 id="due">Camera-ready version due: February 13, 2025</h2>
     <p>
         For accepted submission, a final version of the note of intent (max 5 pages, VGTC format ) and a promotional video (max 3min) is expected for public release by the camera-ready deadline (13 February 2025).
+        Accepted abstract papers will be included in the IEEE Xplore as part of the VRW proceedings (XR Gallery track).
     </p>
     <h2 id="contacts">Contacts <div class="floatRight"><span class="art"></span></div></h2>	
     <p>
