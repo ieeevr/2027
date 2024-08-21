@@ -67,7 +67,7 @@ title_separator: "|"
     <h2 id="submission-guidelines">Submission Guidelines</h2>
     <div class="notice--info alignCenter bold" style="font-size: 0.9em !important;">
         Submissions will be accepted through Precision Conference Solutions this year.<br />
-        <a href="https://new.precisionconference.com/vr24a" title="https://new.precisionconference.com/vr24a" target="_blank">https://new.precisionconference.com/vr24a</a>
+        <a href="https://new.precisionconference.com/vr25a" title="https://new.precisionconference.com/vr25a" target="_blank">https://new.precisionconference.com/vr25a</a>
     </div>
     <p><b>IMPORTANT:</b> IEEE VR 2025 uses a DOUBLE-BLIND review process. Failure to anonymize submissions will result in desk rejection.</p>
     <p style="text-align: left ! important;">
