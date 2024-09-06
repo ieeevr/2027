@@ -34,7 +34,7 @@ title_separator: "|"
     <ul>
         <li><b>October 31, 2024:</b> Submission of abstracts.</li>
         <li><b>November 28, 2024:</b> Notification of acceptance.</li>
-        <li><b style="color: red"><s>February 13</s></b><b>January 28, 2025:</b> Camera-ready version.</li>
+        <li><b>January 28, 2025:</b> Camera-ready version.</li>
     </ul>
  
   
@@ -148,9 +148,9 @@ title_separator: "|"
 
         </p>
 
-    <h2 id="due">Camera-ready version due: <b style="color: red"><s>February 13</s></b>January 28, 2025</h2>
+    <h2 id="due">Camera-ready version due: January 28, 2025</h2>
     <p>
-        For accepted submission, a final version of the note of intent (max 5 pages, VGTC format ) and a promotional video (max 3min) is expected for public release by the camera-ready deadline (<b style="color: red"><s>February 13</s></b>January 28 2025).
+        For accepted submission, a final version of the note of intent (max 5 pages, VGTC format ) and a promotional video (max 3min) is expected for public release by the camera-ready deadline (</b>January 28 2025).
         Accepted abstract papers will be included in the IEEE Xplore as part of the VRW proceedings (XR Gallery track).
     </p>
     <h2 id="contacts">Contacts <div class="floatRight"><span class="art"></span></div></h2>	
