@@ -32,9 +32,6 @@ title_separator: "|"
         <strong style="color: black">IEEE VR 2025: the 32<sup>nd</sup> IEEE Conference on Virtual Reality and 3D User Interfaces</strong><br />
             March 8-12, 2025 | Saint-Malo, France
     </p>
-    <div class="ieeevrmsgbox bold">
-        Updates to this call for papers are likely. The dates and summaries of changes of all updates will be listed here.
-    </div>
 
     <h2 id="overview">Overview</h2>
     <p>
