@@ -182,6 +182,8 @@ title_separator: "|"
 		<li><span class="bold">Gabriel Zachmann</span> &#x2012; <i>University of Bremen, Germany</i></li>
 		<li><span class="bold">Frank Guan</span> &#x2012; <i>Singapore Institute of Technology, Singapore</i></li>
 		<li><span class="bold">Masahiko Inami</span> &#x2012; <i>University of Tokyo, Japan</i></li>
+		<li><span class="bold">Arnulph Fuhrmann</span> &#x2012; <i>TH Köln, Germany</i></li>
+		<li><span class="bold">Thomas Odaker</span> &#x2012; <i>Leibniz Supercomputing Centre, Germany</i></li>
 	</ul>
 </div>
 <div>
