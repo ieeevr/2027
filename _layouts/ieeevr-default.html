@@ -139,7 +139,32 @@ layout: default
         <section class="page__content" itemprop="text">
             <div class="row">
                 <!-- Main Content -->
-                {{ content }}
+                <!-- left sidebar -->
+                <div class="column left">
+                    {{ content }}
+                </div>
+                <div class="column center"></div>
+
+                <!-- right sidebar -->
+                <div class="column right alignCenter"> 
+                    <div class="confsponsors" id="sponsors">
+                        <div>
+                            <a href="https://www.ieee.org" target="_new" style="width:30%;"><img src={{ "/assets/images/sponsors/ieee-logo-white.svg" | relative_url }} alt="IEEE" style="height: 35px;"></a>&nbsp;
+                            <a href="https://www.computer.org" target="_new" style="width:30%;"><img src={{ "/assets/images/sponsors/ieee-cs-logo-white.svg" | relative_url }} alt="IEEE Computer Society" style="height: 35px;"></a>
+                            <a href="http://vgtc.org" target="_new" style="width:30%;"><img src={{ "/assets/images/sponsors/ieee-vgtc-logo-white.svg" | relative_url }} alt="IEEE Visualization and Graphics Technical Community" style="height: 35px;"></a>
+                        </div>
+                        
+                        <br>
+                        <hr class = "social-hr"> 
+                        <div>
+                            <ul class="social-icons">
+                                <li><a href="https://facebook.com/ieeevr"><img src={{ "/assets/images/social/Facebook.png" | relative_url }} alt="Facebook" /></a></li>
+                                <li><a href="http://www.twitter.com/ieeevr"><img src={{ "/assets/images/social/twitter.png" | relative_url }} alt='Twitter' /></a></li>
+                            	<li><a href="https://www.linkedin.com/showcase/ieee-vr-conference-on-virtual-reality-and-3d-user-interfaces/"><img src={{ "/assets/images/social/linkedin.png" | relative_url }} alt="LinkedIn" /></a></li>
+			    </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <!--  footer -->

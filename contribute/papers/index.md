@@ -32,9 +32,6 @@ title_separator: "|"
         <strong style="color: black">IEEE VR 2025: the 32<sup>nd</sup> IEEE Conference on Virtual Reality and 3D User Interfaces</strong><br />
             March 8-12, 2025 | Saint-Malo, France
     </p>
-    <div class="ieeevrmsgbox bold">
-        Updates to this call for papers are likely. The dates and summaries of changes of all updates will be listed here.
-    </div>
 
     <h2 id="overview">Overview</h2>
     <p>
@@ -56,7 +53,7 @@ title_separator: "|"
         <b>The submission deadlines will be strictly enforced. Requests for extensions will not be honored.</b>
     </p>
     <ul>
-        <li><b>September 11, 2024</b>:   Abstracts due <b>(REQUIRED)</b></li>
+        <li><s><b>September 11, 2024</b>:   Abstracts due <b>(REQUIRED)</b></s></li>
         <li><b>September 18, 2024</b>:   Submissions due</li>
         <li><b>December 10, 2024</b>:   Initial notifications</li>
         <li><b>January 2, 2025</b>:   Revised submissions due</li> 
