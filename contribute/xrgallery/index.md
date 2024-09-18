@@ -85,39 +85,35 @@ title_separator: "|"
 
     </p>
 
-    <h2 id="submission">Submission</h2>
+    <h2 id="submission">Submission <strong style="color: red">(NEW)</strong></h2>
     <p>
-        In order to apply, submit a 1-2 page abstract (in .pdf format see below) describing your artistic project on the PCS system (<a href="https://new.precisionconference.com/vr"  target="_blank">https://new.precisionconference.com/vr</a>). The abstract should include:
+        In order to apply, submit the following information directly to the  PCS system: (<a href="https://new.precisionconference.com/vr"  target="_blank">https://new.precisionconference.com/vr</a>). The abstract should include:
         <ul>
-            <li>Title of XR Gallery submission</li>
-            <li>A statement of intent providing a brief description of your art project and how it addresses the proposed topic of XR Gallery.</li>
-            <li>Representative images of the project</li>
-            <li>The equipment and technical information required for its realization:
+            <li>Abstract (1000 words) with the following required information:
                 <ul>
-                    <li>Preferred space needs (in square meters: height x width x depth)</li>
-                    <li>Lighting Requirements and lighting emission (how much light your art piece is casting light)</li>
-                    <li>Sound Requirements and sound emission</li>
-                    <li>Network needs (Prefer a wired network when feasible)</li>
-                    <li>Electrical needs</li>
-                    <li>Technical needs, setup time, and procedures.</li>
+                    <li>Description of the art piece</li>
+                    <li>How it fits into the scope of XR Gallery 2025</li>
+                    <li>Implementation (how it will be executed, e.g., HMD or screen-based project, performance, etc)</li>
                 </ul>
             </li>
-            <li>Your contact information: full names, affiliation and email address</li>
+            <li>Representative image</li>
+            <li>Video (max 5 min, max size 150MB)</li>
+            <li>The equipment and technical information required</li>
         </ul>
         <p>
-        Supplementary material, such as videos, press kit ... , are also encouraged to accompany the abstract submission and describe your artistic process.
+        Any supplementary material (press kit, portfolio, ..) which shows your previous work is also welcomed but not required!
         </p>
 
     </p>
 
-    <h2 id="selection">Selection Process</h2>
+    <h2 id="selection">Selection Process<strong style="color: red"> (NEW)</strong></h2>
         <p>
             Each submission will be examined by a panel of external assessor from the digital arts fields and XR research communities, on the basis of the following criteria:
             <ul>
                 <li>Originality</li>
-                <li>A statement of intent providing a brief description of your art project and how it addresses the proposed topic of XR Gallery.</li>
-                <li>Representative images of the project</li>
-                <li>The equipment and technical information required for its realization:  (including light, sound, network needs)</li>
+                <li>How well it fits in the scope of the XR Gallery</li>
+                <li>Representative video and image</li>
+                <li>The equipment and technical information required for its realization: (including light, sound, network needs)</li>
             </ul>
 
 
@@ -135,23 +131,20 @@ title_separator: "|"
         </p>
         <p>
 
-            Submissions must be in English and must be prepared in the IEEE Computer Society VGTC format (<a href="https://tc.computer.org/vgtc/publications/conference/"  target="_blank">https://tc.computer.org/vgtc/publications/conference/</a>) and submitted as PDF.  We highly encourage authors to use the LaTeX template (<a href="https://github.com/ieeevgtc/vgtc_conference_latex/releases"  target="_blank">https://github.com/ieeevgtc/vgtc_conference_latex/releases</a>). 
+            Authors who are unfamiliar with the formalism expected by our community will be able to draw inspiration from the essays edited in the Siggraph 2023 Art Gallery proceeding  (<a href="https://dl.acm.org/doi/proceedings/10.1145/3588428"  target="_blank">https://dl.acm.org/doi/proceedings/10.1145/3588428</a>). 
         </p>
-        <p>
-
-            Authors unfamiliar with the Latex software can use theirs software of your choice (Ideally word, template here: <a href="https://github.com/ieeevgtc/vgtc_conference_word/releases/tag/2024.02.14"  target="_blank">https://github.com/ieeevgtc/vgtc_conference_word/releases/tag/2024.02.14</a>) as long as it respects the  VGTC format (<a href="https://ieeecs-media.computer.org/tc-media/sites/49/2024/02/26230749/vgtc-conference-24-02.pdf"  target="_blank">https://ieeecs-media.computer.org/tc-media/sites/49/2024/02/26230749/vgtc-conference-24-02.pdf</a>) and submitted as a PDF. 
-        </p>
-        <p>
-
-            Authors who are unfamiliar with the formalism expected by our community will be able to draw inspiration from the essays edited in the <i>Siggraph 2023 Art Gallery proceeding</i>  (<a href="https://dl.acm.org/doi/proceedings/10.1145/3588428"  target="_blank">https://dl.acm.org/doi/proceedings/10.1145/3588428</a>). 
 
 
-        </p>
+
 
     <h2 id="due">Camera-ready version due: January 28, 2025</h2>
     <p>
-        For accepted submission, a final version of the note of intent (max 5 pages, VGTC format ) and a promotional video (max 3min) is expected for public release by the camera-ready deadline (</b>January 28 2025).
-        Accepted abstract papers will be included in the IEEE Xplore as part of the VRW proceedings (XR Gallery track).
+        All accepted submissions must be prepared in the IEEE Computer Society VGTC format (<a href="https://tc.computer.org/vgtc/publications/conference/"  target="_blank">https://tc.computer.org/vgtc/publications/conference/</a>) and submitted as a 1-2 page PDF. We highly encourage authors to use the LaTeX template (<a href="https://github.com/ieeevgtc/vgtc_conference_latex/releases"  target="_blank">https://github.com/ieeevgtc/vgtc_conference_latex/releases</a>).
+        </p><p>
+        Authors unfamiliar with the Latex software can use theirs software of your choice (Ideally word, template here: <a href="https://github.com/ieeevgtc/vgtc_conference_word/releases/tag/2024.02.14"  target="_blank">https://github.com/ieeevgtc/vgtc_conference_word/releases/tag/2024.02.14</a>) as long as it respects the VGTC format (<a href="https://ieeecs-media.computer.org/tc-media/sites/49/2024/02/26230749/vgtc-conference-24-02.pdf"  target="_blank">https://ieeecs-media.computer.org/tc-media/sites/49/2024/02/26230749/vgtc-conference-24-02.pdf</a>) and submitted as a PDF.
+        </p><p>
+        These  papers will be included in the IEEE Xplore as part of the VRW proceedings (XR Gallery track).
+
     </p>
     <h2 id="contacts">Contacts <div class="floatRight"><span class="art"></span></div></h2>	
     <p>
