@@ -68,6 +68,6 @@ title_separator: "|"
     </p>
     <h2>How to Buy Paris Metro Tickets Online</h2>
     <p>
-        To make your travel experience in Paris more convenient, you can purchase metro tickets online through the app <a href="https://www.iledefrance-mobilites.fr/en">Ile de France Mobilité</a>, the app <a href="https://    www.ratp.fr/en/apps/bonjour-ratp">Bonjour RATP</a>, or the app <a href="https://www.sncf-connect.com/en-en/tools/mobile-app">SNCF Connect</a>. Mobile tickets will be added to your phone. Various ticket options are available,     including single rides, daily passes, and multi-day passes for unlimited travel. Online payment is secure, and instructions are provided in multiple languages to ensure ease of use for international travellers.
+        To make your travel experience in Paris more convenient, you can purchase metro tickets online through the app <a href="https://www.iledefrance-mobilites.fr/en">Ile de France Mobilité</a>, the app <a href="https://www.ratp.fr/en/apps/bonjour-ratp">Bonjour RATP</a>, or the app <a href="https://www.sncf-connect.com/en-en/tools/mobile-app">SNCF Connect</a>. Mobile tickets will be added to your phone. Various ticket options are available,     including single rides, daily passes, and multi-day passes for unlimited travel. Online payment is secure, and instructions are provided in multiple languages to ensure ease of use for international travellers.
     </p>
 </div>
