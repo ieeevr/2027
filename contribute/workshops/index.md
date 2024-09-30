@@ -88,7 +88,7 @@ title_separator: "|"
                     <li style="font-size: inherit;">The workshop website.</li>
                     <li style="font-size: inherit;">A brief overview and description of the workshop (500 words or less).</li>
                     <li style="font-size: inherit;">A list of the workshop's topics.</li>
-                    <li style="font-size: inherit;">The workshop's format and submission guidelines including, for example, speakers, discussion format, duration, topics, types of acceptable papers (e.g., research papers, position papers), acceptable lengths, and acceptable format (i.e., TVCG format).</li>
+                    <li style="font-size: inherit;">The workshop's format and submission guidelines including, for example, speakers, discussion format, duration, topics, types of acceptable papers (e.g., research papers, position papers), acceptable lengths, and acceptable format. Please follow the IEEE Computer Society VGTC conference format (<a href="https://tc.computer.org/vgtc/publications/conference/" target="_blank">https://tc.computer.org/vgtc/publications/conference/</a>).</li>
                     <li style="font-size: inherit;">A list of important dates (if applicable to the format), including
                         <ul>
                             <li style="font-size: inherit;">Abstract deadline (if applicable).</li>
