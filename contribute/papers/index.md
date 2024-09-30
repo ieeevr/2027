@@ -1,6 +1,6 @@
 ---
 layout: ieeevr-default
-title: "Call for Papers"
+title: "Papers"
 subtitle: "IEEE VR 2025"
 title_separator: "|"
 ---
