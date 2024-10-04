@@ -32,7 +32,6 @@ title_separator: "|"
         <strong style="color: black">IEEE VR 2025: the 32<sup>nd</sup> IEEE Conference on Virtual Reality and 3D User Interfaces</strong><br />
             March 8-12, 2025 | Saint-Malo, France
     </p>
-
     <h2 id="overview">Overview</h2>
     <p>
         IEEE VR 2025 seeks original, high-quality papers in all areas related to virtual reality (VR), including augmented reality (AR), mixed reality (MR), and 3D user interfaces (3DUIs). This year there is again a SINGLE submission deadline for a unified review process for both the IEEE TVCG and the conference only papers. The possible outcomes of this unified process are:
@@ -46,7 +45,6 @@ title_separator: "|"
     <p>
         <b>Inquiries: <a target="_blank" href="mailto:program2025@ieeevr.org">program2025@ieeevr.org</a> </b> <span id="program"></span>
     </p>
-
     <h2 id="important-dates"> Important Dates </h2>
     <p>
         Each deadline is 23:59:59 AoE (Anywhere on Earth) == GMT/UTC-12:00 on the stated day, no matter where the submitter is located. 
@@ -54,7 +52,7 @@ title_separator: "|"
     </p>
     <ul>
         <li><s><b>September 11, 2024</b>:   Abstracts due <b>(REQUIRED)</b></s></li>
-        <li><b>September 18, 2024</b>:   Submissions due</li>
+        <li><s><b>September 18, 2024</b>:   Submissions due</s></li>
         <li><b>December 10, 2024</b>:   Initial notifications</li>
         <li><b>January 2, 2025</b>:   Revised submissions due</li> 
         <li><b>January 9, 2025</b>:    Final notifications</li>
