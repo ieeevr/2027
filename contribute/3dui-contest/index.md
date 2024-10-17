@@ -51,7 +51,7 @@ title_separator: "|"
     </p>
     <p>
     
-        Selected contestants will be required to provide a software demonstration of their solutions using the OpenXR standard, ensuring compatibility with consumer mixed-reality hardware.
+        Selected contestants will be required to provide a software demonstration of their solutions at the conference.
     </p>
 
     <h2 id="eligibility">Eligibility</h2>
@@ -68,7 +68,6 @@ title_separator: "|"
                     <li> … covers the topics of <strong>“United for Planet Earth: Promoting Environmental Sustainability in Collaborative Virtual Environments”</strong>. </li>
                     <li> … describes which 3DUI techniques have been created and/or extended.</li>
                     <li> … is documented with a video (between 3 and 5 minutes) as well as a standalone executable.</li>
-                    <li>… is compatible with the OpenXR standard (<a href = "https://www.khronos.org/openxr">https://www.khronos.org/openxr</a>)</li>
                 </ul>
             </li>
             <li>The developed 3DUI should ...
