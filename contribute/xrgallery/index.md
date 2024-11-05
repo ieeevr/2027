@@ -31,7 +31,7 @@ title_separator: "|"
     <h2 id="important-dates">Important Dates - ALL DEADLINES ARE ANYWHERE ON EARTH (AOE)
     </h2>
     <ul>
-        <li><b>October 31, 2024:</b> Submission of abstracts.</li>
+        <li><s><b>October 31, 2024:</b> Submission of abstracts.</s></li>
         <li><b>November 28, 2024:</b> Notification of acceptance.</li>
         <li><b>January 28, 2025:</b> Camera-ready version.</li>
     </ul> 

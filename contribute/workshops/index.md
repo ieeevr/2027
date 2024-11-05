@@ -26,7 +26,7 @@ title_separator: "|"
         Each deadline is 23:59:59 AoE (Anywhere on Earth) == GMT/UTC-12:00 on the stated day, no matter where the submitter is located.
     </p>
     <ul>
-        <li><b>November 04, 2024</b>: Proposals and CFPs due</li>
+        <li><s><b>November 04, 2024</b>: Proposals and CFPs due</s></li>
         <li><b>November 11, 2024</b>: Notification of results</li>
         <li><b>January 09, 2025</b>: Latest accepted workshop paper notification (only applies if the workshop organizers want proceedings included in the digital library)</li>
         <li><b>January 16, 2025</b>: Camera-ready submission of workshop papers for inclusion in the IEEE Digital Library (only applies if the workshop organizers want proceedings included in the digital library)</li>
