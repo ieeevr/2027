@@ -9,7 +9,7 @@ title_separator: "|"
     <h2>A quality accommodation</h2>
     <p>
       The city of Saint-Malo offers nearly 3,000 rooms, 900 of which are within walking distance. <br><br>
-      You will be able to stay in charming hotels with character or in hotels belonging to large hotel groups, according to your tastes and desires. Most of the hotels are located in the heart of the Intra-Muros or on the seafront overlooking the great beach of Le Sillon, less than 10 minutes walk from the Grand Large.<br><br>
+      You will be able to stay in charming hotels or hotels belonging to large hotel groups, according to your tastes and desires.  Most of the hotels are located in the heart of the Intra-Muros or on the seafront overlooking the great beach of Le Sillon, less than 10 minutes walk from the Grand Large.<br><br>
         
     - 5-star hotels: 264 rooms<br>
     - 4-star hotels: 515 rooms<br>
