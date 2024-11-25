@@ -43,7 +43,6 @@ title_separator: "|"
         <ul>
             <li>free registration*</li>
             <li>hotel accommodation for non-local volunteers when possible (shared with one or two other SVs) </li>
-            <li>an exclusive student volunteer shirt</li>
         </ul>
     </p>
     <p>
