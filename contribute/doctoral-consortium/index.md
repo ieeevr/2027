@@ -43,6 +43,7 @@ title_separator: "|"
             <li>A <strong style="color: black">Position paper</strong>:  Submissions should be two pages in length (including references) prepared in IEEE Computer Society VGTC format (see <a href=" https://tc.computer.org/vgtc/publications/conference/" target="_blank"> https://tc.computer.org/vgtc/publications/conference/</a> ). This position paper must clearly motivate, discuss, and summarize the proposed PhD research, describe how the research fits into and advances research in the field, and report on your progress. You may additionally focus on a more specific area of the research if desired. In the concluding section, you should identify two to three questions or areas for improvement that you would like to discuss during the doctoral consortium.</li>
             <li>A two-page <strong style="color: black">Curriculum Vitae</strong>.</li>
         </ol>
+        <strong style="color: black">Anonymity is not required.</strong>
         <div class="notice--info">
             <b class="notice--text">Submissions received after the deadline will not be considered.</b>
         </div>
