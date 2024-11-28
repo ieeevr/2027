@@ -33,7 +33,7 @@ title_separator: "|"
     <ul>
         <li><s><b>October 31, 2024:</b> Submission of abstracts.</s></li>
         <li><b>November 28, 2024:</b> Notification of acceptance.</li>
-        <li><b>January 28, 2025:</b> Camera-ready version.</li>
+        <li><b>January 22, 2025:</b> Camera-ready version.</li>
     </ul> 
     <h2 id="Overview">Overview</h2>
     <p>
