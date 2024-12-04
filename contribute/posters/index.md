@@ -36,7 +36,7 @@ title_separator: "|"
     <h2 id="important-dates">Important Dates</h2>
         <p>
             <ul>
-                <li><s><b>December 03, 2024</b></s><strong style="color: red">December 04, 2024:</strong> Two-page extended abstract and optional material submission due</li>
+                <li><s><b>December 03, 2024</b></s><strong style="color: red">December 04, 2024:</strong> Two-page extended abstract and optional material submission due. <b> The recent Overleaf downtime may have affected many authors' submission preparations, resulting in a one-day deadline extension</b></li>
                 <li><b>January 09, 2025:</b> Notification of results</li>
                 <li><b>January 16, 2025:</b> Camera-ready material and copyright submission via IEEE CPS (to be published in the conference’s abstract and workshop proceedings) and PCS (poster, video, teaser image and other additional materials)</li>
             </ul>
