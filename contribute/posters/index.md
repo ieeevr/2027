@@ -36,9 +36,9 @@ title_separator: "|"
     <h2 id="important-dates">Important Dates</h2>
         <p>
             <ul>
-                <li><s><b>December 04, 2024</b></s> Two-page extended abstract and optional material submission due. The recent Overleaf downtime may have affected many authors' submission preparations, resulting in a one-day deadline extension until December 04.</li>
-                <li><b>January 09, 2025:</b> Notification of results</li>
-                <li><b>January 16, 2025:</b> Camera-ready material and copyright submission via IEEE CPS (to be published in the conference’s abstract and workshop proceedings) and PCS (poster, video, teaser image and other additional materials)</li>
+                <li><s><b>December 04, 2024</b></s> Two-page extended abstract and optional material submission due. The recent Overleaf downtime may have affected many authors' submission preparations, resulting in a one-day deadline extension ending on December 04.</li>
+                <li><b>January 09, 2025:</b> Notification of results.</li>
+                <li><b>January 16, 2025:</b> Camera-ready material and copyright submission via IEEE CPS (to be published in the conference’s abstract and workshop proceedings) and PCS (poster, video, teaser image and other additional materials).</li>
             </ul>
         </p>
     <p>Each deadline is 23:59:59 AoE (Anywhere on Earth) == GMT/UTC-12:00 on the stated day, irrespective of the submitter’s location.<b> The submission deadlines will be strictly enforced. Requests for extensions will not be honored.</b></p>
