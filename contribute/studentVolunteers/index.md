@@ -1,6 +1,6 @@
 ---
 layout: ieeevr-default
-title: "Workshops"
+title: "Student Volunteers"
 subtitle: "IEEE VR 2025"
 title_separator: "|"
 ---
@@ -43,6 +43,7 @@ title_separator: "|"
         <ul>
             <li>free registration*</li>
             <li>hotel accommodation for non-local volunteers when possible (shared with one or two other SVs) </li>
+            <li>complimentary lunch for the five days of the conference</li>
         </ul>
     </p>
     <p>
