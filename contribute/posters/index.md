@@ -114,8 +114,9 @@ title_separator: "|"
             <p>
             All video material (part 1 and 2) should be submitted via PCS in a self-extracting zip container.  Part 3 (the link) has a separate field in PCS to upload in text form.
             Further refined video instructions will follow early in January 2025.
-            </p><p>
+            </p>
         <h3 id="accepted_poster_presentation">Information on slide</h3>
+        <p>
             We will provide a slide template in PowerPoint format that needs to be filled out with the following information:
             <ol>
                 <li>The poster title</li>
