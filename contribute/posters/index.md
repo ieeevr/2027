@@ -100,7 +100,7 @@ title_separator: "|"
             <b>Information on the video preparation</b>
             For the camera ready submission, we ask you for two uploads regarding a teaser video. The video is supposed to be a 45-60 second teaser video that highlights the contribution of your poster. Note that due to time and space constraints, there is no poster fast forward this year, and this teaser video will serve as a substitute. 
             <ol>
-            <li>1. The video should highlight the contribution of the poster and start with a short title (5 seconds) that is based on the conference slide template. The uploaded video must meet the following requirements:
+            <li>The video should highlight the contribution of the poster and start with a short title (5 seconds) that is based on the conference slide template. The uploaded video must meet the following requirements:
             <ul>
                 <li>Resolution: 1080p (HD - 1920x1080 progressive - Aspect ratio: 16:9)</li>
                 <li>Speech should be clearly audible and text should be readable</li>
@@ -119,6 +119,7 @@ title_separator: "|"
             <li>The author names (and affiliations)</li>
             <li>A teaser image</li>
             <li>Optionally: a QR code linking to a YouTube upload of the video described above </li>
+            </ol>
             Some details such as the poster ID and booth number will be added by the poster chairs later on once the program is finalized, so those portions should be left empty.
             Further refined slide preparation instructions will follow early in January 2025.
         </p>
