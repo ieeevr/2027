@@ -95,6 +95,33 @@ title_separator: "|"
         <p>
             Authors of accepted posters are expected to address any recommendations and conditions of acceptance prior to the final submission of camera-ready materials. This will be verified by the primary reviewer.
         </p>
+    <h2 id="accepted_poster_presentation">Accepted Poster Submission Instructions</h2>
+        <p>
+            <b>Information on the video preparation</b>
+            For the camera ready submission, we ask you for two uploads regarding a teaser video. The video is supposed to be a 45-60 second teaser video that highlights the contribution of your poster. Note that due to time and space constraints, there is no poster fast forward this year, and this teaser video will serve as a substitute. 
+            <ol>
+            <li>1. The video should highlight the contribution of the poster and start with a short title (5 seconds) that is based on the conference slide template. The uploaded video must meet the following requirements:
+            <ul>
+                <li>Resolution: 1080p (HD - 1920x1080 progressive - Aspect ratio: 16:9)</li>
+                <li>Speech should be clearly audible and text should be readable</li>
+                <li>Videos should be compiled to a .mp4 container format with H.264 compression</li>
+                <li>The max file size should be 100 MB</li>
+            </ul></li>
+            <li> A timestamped closed-caption file using the VTT format. For reasons of accessibility, a caption file with an informative description should be included, even if you present audio descriptions. Captions should not be burnt into the video (i.e. no open-captions). Automated captions can be created, for example, via youtube or otter.ai. Alternatively you can create a transcript and convert it to a caption file, for example via an unlisted youtube video.</li>
+            <li>A youtube link to the video that is uploaded as an unlisted youtube video.</li>
+            </ol>
+            All video material (part 1 and 2) should be submitted via PCS in a self-extracting zip container.  Part 3 (the link) has a separate field in PCS to upload in text form.
+            Further refined video instructions will follow early in January 2025.
+            <b>Information on slide </b>
+            We will provide a slide template in PowerPoint format that needs to be filled out with the following information:
+            <ol>
+            <li>The poster title</li>
+            <li>The author names (and affiliations)</li>
+            <li>A teaser image</li>
+            <li>Optionally: a QR code linking to a YouTube upload of the video described above </li>
+            Some details such as the poster ID and booth number will be added by the poster chairs later on once the program is finalized, so those portions should be left empty.
+            Further refined slide preparation instructions will follow early in January 2025.
+        </p>
     <h2 id="poster_presentation">Poster Presentation</h2>
         <p>
             There will be three dedicated days for poster presentations throughout the conference week. Each accepted poster will be assigned to <b>one</b> specific day and will have multiple presentation slots throughout that day, e.g., during coffee breaks, to maximize exposure and interaction with conference attendees. During the poster presentation, one or more authors need to be physically present at their poster to discuss their work with other attendees.
