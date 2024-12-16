@@ -86,7 +86,7 @@ title_separator: "|"
         Each paper should include an evaluation of its contributions, such as user studies, benchmarking and/or comparison with existing systems/techniques/methods.
     </p>
     <p>
-        <b>Submission Length:</b> We welcome paper submissions between 4 and 9 pages, not including references. Submissions may include an additional 2 pages of references. Authors are encouraged to submit videos to aid the program committee in reviewing their submissions.
+        <b>Submission Length:</b> We welcome paper submissions between 4 and 9 pages, not including references. Submissions may include an additional 2 pages of references. Supplementary materials should be provided in a separate file. Authors are encouraged to submit videos to aid the program committee in reviewing their submissions.
     </p>
     <p>
         All paper submissions must be formatted using the IEEE Computer Society VGTC conference format (<a href="https://tc.computer.org/vgtc/publications/conference/" target="_blank">https://tc.computer.org/vgtc/publications/conference/</a>). Accepted papers and posters will have to be formatted by the authors according to the relevant camera-ready guidelines.
