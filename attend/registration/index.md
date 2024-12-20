@@ -48,18 +48,24 @@ title_separator: "|"
 
 <h1 id="registration">Registration  <div class="floatRight"><span id="register"></span></div></h1>
 <p>
-	<strong style="color: black">IEEE VR 2024: The 32<sup>nd</sup> IEEE Conference on Virtual Reality and 3D User Interfaces </strong>
+	<strong style="color: black">IEEE VR 2025: The 32<sup>nd</sup> IEEE Conference on Virtual Reality and 3D User Interfaces </strong>
 	<br>
 	March 8-12, 2025 | Saint-Malo, France
 	<br>
 </p>
 
-<p class="alignCenter">
+<!--<p class="alignCenter">
 	<a href="javascript:openRegistration('Member')" class="btn registration_button">IEEE Member Registration</a>
 	<a href="javascript:openRegistration('Non-Member')" class="btn registration_button">IEEE Non-Member Registration</a>		
-</p>
+</p>-->
+<div class="ieeevrmsgbox bold alignCenter">
+        <div class = "ieeevrmsgboxInside med">
+		   The registration is now open! Please clic <strong><a target="_blank" href="https://v4.event-vert.org/en/ieeevr2025/">here</a></strong> to register.<br/>
+		   Please read the following terms and conditions provided hereafter.
+        </div>
+</div>
 <p>
-    Registration payments for this conference will be handled through <b>VERTCOM</b>. Please keep your email confirmation to modify your registration.
+    Registration payments for this conference are handled through <b>VERTCOM</b> (Conference Registration Service). Please keep your email confirmation to modify your registration.
 </p>
 
 <div id="accordion">
@@ -69,10 +75,10 @@ title_separator: "|"
 		<p>We are looking forward to welcoming you at the IEEE VR 2025 conference, for this very special week of exchanges about innovative research and advances in VR, AR, XR and 3D user interfaces. 
 		After reviewing the sections below, please use the buttons above to register to IEEE VR 2025.</p>
 		<ul>
-			<li><b>5 February, 2025</b>: Deadline for all authors to register and for scientific works to be included in the conference program and publications.</li>
-			<li><b>5 February, 2025</b>: Early registration ends.</li>	
-			<li><b>Visa Information Contact</b>: Contact <a target="_blank" href="mailto:edith.blin@inria.fr">visa2025@ieeevr.org</a>.</li>
-			<li><b>Conference Registration Services</b>: Contact <a target="_blank" href="mailto:colloque@agence-vert.com">colloque@agence-vert.com</a>.</li>	
+			<li><b>February 5th, 2025</b>: Deadline for all authors to register and for scientific works to be included in the conference program and publications.</li>
+			<li><b>February 5th, 2025</b>: Early registration ends.</li>	
+			<li><b>Visa Information Contact</b>: Contact <a target="_blank" href="mailto:visa2025@ieeevr.org ">visa2025@ieeevr.org</a>.</li>
+			<li><b>Conference Registration Services</b>: Contact <a target="_blank" href="mailto:register2025@ieeevr.org">register2025@ieeevr.org</a>.</li>	
 		</ul>
 		<p class="italic">
 			Note: All deadlines are at 11:59 PM AOE on the stated date and all rates listed are in Euros (exempted of VAT).			
@@ -86,7 +92,7 @@ title_separator: "|"
 			At least one author per accepted <b>contribution</b>  published in the IEEE Digital Library (main conference paper/workshop paper/poster/research demo/3DUI contest) must be registered as an <b>AUTHOR</b> to the <span class="bold">FULL conference</span> (from Saturday 8 to Wednesday 12) at the rate of <span class="bold">full Member/Non-Member registration</span> regardless of whether or not he/she is a student.
 		</p>
 		<ul>
-			<li>The registration deadline for authors is <span class="bold">5 February, 2025.</span></li>
+			<li>The registration deadline for authors is <span class="bold">February 5th, 2025.</span></li>
 			<li>Author registrations are <span class="bold">not refundable</span> and must be processed no later than <span class="bold">February 5, 2025</span> for their work to be included in the conference program and publications.</li>		
 			<li>Author registration requires a submission track and submission ID.</li>
 			<li>To register, open the Registration form using one of the buttons above. Under the REGISTRATION ITEMS  section, select  “Author registration”.</li>
@@ -161,7 +167,7 @@ title_separator: "|"
 	</div>
 </div>
 <div>	
-	<h4>Fees: Early Registration Ending February 5th, 2025 (AoE)</h4>
+	<h4>Fees: Early Registration until February 5th, 2025 (AoE) Euros (€)</h4>
 	<div>
 		<table class="registration-table">
 			<tr>
@@ -214,7 +220,7 @@ title_separator: "|"
 	</div>
 </div>
 <div>
-	<h4>Fees: Registration After 14 February 2025</h4>
+	<h4>Fees: Late Registration from February 6th, 2025 (AoE) Euros (€)</h4>
 	<div>
 		<table class="registration-table">
 			<tr>
@@ -265,15 +271,26 @@ title_separator: "|"
 		</table>		
 	</div>
 </div>
-
+<div>
+	<h4>Additional Tickets</h4>
+	<div>
+		<p>
+		If you need to purchase additional tickets for the reception or banquet, the prices are:
+			<ul>
+				<li><b>Welcome reception on Monday night, 10 March 2025: 40 € (Euros)</b></li>
+				<li><b>Gala dinner on Tuesday night, 11 March 2025: 130 € (Euros) </b></li>
+			</ul>
+		</p>
+	</div>
+</div>
 <div>
 	<h4>Visa Invitation Letters</h4>
 	<div>
 		<p>
-			During the registration process you will be offered the opportunity to request a visa invitation letter. If you do so, one will be automatically generated when your registration is complete, using your name, organization, and address + accepted papier title. <span class="bold">Please note that if you request a visa invitation letter, your registration cannot be cancelled.</span> Requests for letters containing additional information, such as date of birth or passport information (number, date of issue, expiration date, place of issue), may be e-mailed to: <a target="_blank" href="mailto:edith.blin@inria.fr">visa2025@ieeevr.org</a>. 
+			During the registration process you will be offered the opportunity to request a visa invitation letter. If you do so, one will be automatically generated when your registration is complete, using your name, organization, and address + accepted papier title. <span class="bold">Please note that if you request a visa invitation letter, your registration cannot be cancelled.</span> Requests for letters containing additional information, such as date of birth or passport information (number, date of issue, expiration date, place of issue), may be e-mailed to: <a target="_blank" href="mailto:visa2025@ieeevr.org ">visa2025@ieeevr.org</a>. 
 		</p>
 		<p>
-		<span class="bold">For presenting authors</span>: If you need to start the visa process before the final notification, we encourage the presenting author to register to the conference before the final notification so we can issue the invitation letter. Exceptionally, the registered author could request a refund if the final notification has a negative outcome (paper rejected).
+		<span class="bold">For journal and conference papers authors</span>: If you need to start the visa process before the final notification, we encourage the presenting author to register to the conference before the final notification (January 9th, 2025) so we can issue the invitation letter. Exceptionally, the registered author could request a refund if the final notification has a negative outcome (paper rejected).
 		</p>
 		<p>For the other situations, we strongly encourage authors to register right after the final notification is provided. We will deliver the visa invitation letters as soon as possible. In any case, we encourage authors to anticipate potential delays during the visa process.
 		</p>
@@ -283,7 +300,7 @@ title_separator: "|"
 	<h4>Cancellation Policy</h4>
 	<div>
 		<p>
-			All refund/cancellation requests must be received in writing to  <a target="_blank" href="mailto:colloque@agence-vert.com">colloque@agence-vert.com</a> by February 6, 2025 11:59 PM AoE Time.
+			All refund/cancellation requests must be received in writing to  <a target="_blank" href="mailto:register2025@ieeevr.org">register2025@ieeevr.org</a> by February 16th, 2025 11:59 PM AoE Time.
 		</p>
 		<p>
 			Registration cancelled until February 16th will be refunded 80% of the registration fees. Registration cancelled from February 17th will not be eligible for a refund.
@@ -291,7 +308,7 @@ title_separator: "|"
 			Note:
 			<ul>
 				<li>Author registrations are non-refundable.</li>
-				<li>Registrations where a Visa invitation was requested cannot be cancelled.</li>
+				<li>Registrations for which a Visa invitation letter was obtained are no-refundable (one exception applies only for journal and conference papers authors – see above).</li>
 			</ul>
 		</p>
 	</div>
