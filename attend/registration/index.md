@@ -73,7 +73,7 @@ title_separator: "|"
 	<h4 id="item-1">IEEE VR 2025 Registration</h4>	
 	<div>		
 		<p>We are looking forward to welcoming you at the IEEE VR 2025 conference, for this very special week of exchanges about innovative research and advances in VR, AR, XR and 3D user interfaces. 
-		After reviewing the sections below, please use the buttons above to register to IEEE VR 2025.</p>
+		After reviewing the sections below, please use the link above to register to IEEE VR 2025.</p>
 		<ul>
 			<li><b>February 5th, 2025</b>: Deadline for all authors to register and for scientific works to be included in the conference program and publications.</li>
 			<li><b>February 5th, 2025</b>: Early registration ends.</li>	
@@ -95,7 +95,7 @@ title_separator: "|"
 			<li>The registration deadline for authors is <span class="bold">February 5th, 2025.</span></li>
 			<li>Author registrations are <span class="bold">not refundable</span> and must be processed no later than <span class="bold">February 5, 2025</span> for their work to be included in the conference program and publications.</li>		
 			<li>Author registration requires a submission track and submission ID.</li>
-			<li>To register, open the Registration form using one of the buttons above. Under the REGISTRATION ITEMS  section, select  “Author registration”.</li>
+			<li>To register, open the Registration form using the link above. Under the REGISTRATION ITEMS  section, select  “Author registration”.</li>
 			<li>Each author registration is valid for <span class="bold">TWO</span> accepted contributions (if applicable).</li>	
 		</ul>
 	</div>
