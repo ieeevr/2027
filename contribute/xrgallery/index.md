@@ -69,7 +69,7 @@ title_separator: "|"
         </p><p>
         We will have an important inclusion criterion, and we particularly want to include the achievements of minorities. If you think you do fit within such criterions and face issues which prevent you from applying, please do not hesitate to contact us (see contact email).   
     </p>
-    <h2 id="submission">Submission <strong style="color: red">(NEW)</strong></h2>
+    <h2 id="submission">Submission <strong style="color: red"></strong></h2>
     <p>
         In order to apply, submit the following information directly to the  PCS system: (<a href="https://new.precisionconference.com/vr"  target="_blank">https://new.precisionconference.com/vr</a>). The abstract should include:
         <ul>
@@ -88,7 +88,7 @@ title_separator: "|"
         Any supplementary material (press kit, portfolio, ..) which shows your previous work is also welcomed but not required! Anonymising the material is not necessary here.
         </p>
     </p>
-    <h2 id="selection">Selection Process<strong style="color: red"> (NEW)</strong></h2>
+    <h2 id="selection">Selection Process<strong style="color: red"></strong></h2>
         <p>
             Each submission will be examined by a panel of external assessor from the digital arts fields and XR research communities, on the basis of the following criteria:
             <ul>
@@ -109,7 +109,7 @@ title_separator: "|"
         <p>
             Authors who are unfamiliar with the formalism expected by our community will be able to draw inspiration from the essays edited in the Siggraph 2023 Art Gallery proceeding  (<a href="https://dl.acm.org/doi/proceedings/10.1145/3588428"  target="_blank">https://dl.acm.org/doi/proceedings/10.1145/3588428</a>). 
         </p>
-    <h2 id="due">Camera-ready version due: January 28, 2025</h2>
+    <h2 id="due">Camera-ready version due: January 22, 2025</h2>
     <p>
         All accepted submissions must be prepared in the IEEE Computer Society VGTC format (<a href="https://tc.computer.org/vgtc/publications/conference/"  target="_blank">https://tc.computer.org/vgtc/publications/conference/</a>) and submitted as a 1-2 page PDF. We highly encourage authors to use the LaTeX template (<a href="https://github.com/ieeevgtc/vgtc_conference_latex/releases"  target="_blank">https://github.com/ieeevgtc/vgtc_conference_latex/releases</a>).
         </p><p>
