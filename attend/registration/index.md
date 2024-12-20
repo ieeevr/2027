@@ -61,7 +61,7 @@ title_separator: "|"
 <div class="ieeevrmsgbox bold alignCenter">
         <div class = "ieeevrmsgboxInside med">
 		   The registration is now open! Please click <strong><a target="_blank" href="https://v4.event-vert.org/en/ieeevr2025/">here</a></strong> to register.<br/>
-		   Please read the following terms and conditions provided hereafter.
+		   Please read the terms and conditions provided hereafter.
         </div>
 </div>
 <p>
