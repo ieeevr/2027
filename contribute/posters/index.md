@@ -98,7 +98,7 @@ title_separator: "|"
     <h2 id="accepted_poster_presentation">Accepted Poster Submission Instructions</h2>
     <h3 id="accepted_poster_presentation">Information on the video preparation</h3>
         <p>
-            For the camera ready submission, we ask you for two uploads regarding a teaser video. The video is supposed to be a 45-60 second teaser video that highlights the contribution of your poster. Note that due to time and space constraints, there is no poster fast forward this year, and this teaser video will serve as a substitute. 
+            For the camera ready submission, we ask you for two uploads regarding a <b>teaser video</b>. The video is supposed to be a 45-60 second teaser video that highlights the contribution of your poster. Note that due to time and space constraints, there is no poster fast forward this year, and this teaser video will serve as a substitute.  
             <ol>
                 <li>The video should highlight the contribution of the poster and start with a short title (5 seconds) that is based on the conference slide template. The uploaded video must meet the following requirements:
                 <ul>
@@ -107,13 +107,21 @@ title_separator: "|"
                     <li>Videos should be compiled to a .mp4 container format with H.264 compression</li>
                     <li>The max file size should be 100 MB</li>
                 </ul></li>
-                <li> A timestamped closed-caption file using the VTT format. For reasons of accessibility, a caption file with an informative description should be included, even if you present audio descriptions. Captions should not be burnt into the video (i.e. no open-captions). Automated captions can be created, for example, via youtube or otter.ai. Alternatively you can create a transcript and convert it to a caption file, for example via an unlisted youtube video.</li>
-                <li>A youtube link to the video that is uploaded as an unlisted youtube video.</li>
+                <li>A timestamped closed-caption file using the VTT format. For reasons of accessibility, a caption file with an informative description should be included, even if you present audio descriptions. Captions should not be burnt into the video (i.e. no open-captions). Automated captions can be created, for example, via YouTube or otter.ai. Alternatively you can create a transcript and convert it to a caption file, for example via a YouTube video.</li>
+                <li>A link to the video that is uploaded as a public or unlisted (NOT private) YouTube video.</li>
             </ol>
             </p>
             <p>
-            All video material (part 1 and 2) should be submitted via PCS in a self-extracting zip container.  Part 3 (the link) has a separate field in PCS to upload in text form.
-            Further refined video instructions will follow early in January 2025.
+            All video material (part 1 and 2) should be submitted via PCS in a self-extracting zip container via the camera-ready submission form.  Part 3 (the link) has a separate field in camera-ready form.
+            </p>
+            <p>
+            Tools that could be considered (and offer some free functionality) creating / compressing your videos: OBS Studio, Youtube, Clipchamp, Davinci Resolve, Handbrake, Freemake, FFMpeg
+            </p>
+            <p>
+            Tools that could be considered creating closed captions: Youtube, otter.ai.; you can also create/edit closed-captions using the vtt text file, for more information, consider searching for “create vtt file” in your search engine of preference
+            </p>
+            <p>
+            The Diversity, Equity, Inclusion, and Accessibility (DEIA) Chairs have provided guidelines for making submitted videos accessible: <a href="https://ieeevr.org/2025/assets/attend/VR2025_PDF-Video_Accessibility_Instructions.pdf" target="_blank">https://ieeevr.org/2025/assets/attend/VR2025_PDF-Video_Accessibility_Instructions.pdf</a>. Read this document carefully and adhere to the provided guidelines
             </p>
         <h3 id="accepted_poster_presentation">Information on slide</h3>
         <p>
@@ -128,6 +136,9 @@ title_separator: "|"
         <p>
             Some details such as the poster ID and booth number will be added by the poster chairs later on once the program is finalized, so those portions should be left empty.
             Further refined slide preparation instructions will follow early in January 2025.
+        </p>
+        <p>
+        It was previously stated that this slide would be required by the camera-ready deadline. That is no longer the case, and the Poster Chairs will reach out to the authors of accepted submissions with further instructions at a later date.
         </p>
     <h2 id="poster_presentation">Poster Presentation</h2>
         <p>
