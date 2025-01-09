@@ -54,9 +54,9 @@ title_separator: "|"
         <li><s><b>September 11, 2024</b>:   Abstracts due <b>(REQUIRED)</b></s></li>
         <li><s><b>September 18, 2024</b>:   Submissions due</s></li>
         <li><s><b>December 10, 2024</b>:   Initial notifications</s></li>
-        <li><s><b>January <s>2</s>6, 2025</b>:   Revised submissions due</s></li> 
-        <li><b>January <s>9</s>13, 2025</b>:    Final notifications</li>
-        <li><b>January <s>16</s>20, 2025</b>:    Camera-ready materials due</li>
+        <li><s><b>January 6, 2025</b>:   Revised submissions due</s></li> 
+        <li><b><s>January 9, 2025</s><strong style="color: red">January 13, 2025</strong></b>:    Final notifications</li>
+        <li><b><s>January 16, 2025</s><strong style="color: red">January 20, 2025</strong></b>:    Camera-ready materials due</li>
     </ul>
 
     <h2 id="submission-guidelines">Submission Guidelines</h2>
