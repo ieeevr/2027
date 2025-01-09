@@ -27,7 +27,7 @@ title_separator: "|"
     </p>
     <ul>
         <li><s><b>November 04, 2024</b>: Proposals and CFPs due</s></li>
-        <li><b><s>November 11, 2024</s><strong style="color: red">November 15, 2024</strong></b>: Notification of results</li>
+        <li><s><b>November 15, 2024</b>: Notification of results</s></li>
         <li><b><s>January 9, 2025</s><strong style="color: red">January 12, 2025</strong></b>: Latest accepted workshop paper notification (only applies if the workshop organizers want proceedings included in the digital library)</li>
         <li><b><s>January 16, 2025</s><strong style="color: red">January 20, 2025</strong></b>: Camera-ready submission of workshop papers for inclusion in the IEEE Digital Library (only applies if the workshop organizers want proceedings included in the digital library)</li>
         <li><b>March 8-9, 2025</b>: Workshops (held on the first two days of the conference)</li>
