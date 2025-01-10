@@ -285,13 +285,6 @@ title_separator: "|"
 		<li><span class="bold">Anthony Sorel</span> &#x2012; <i>Rennes 2 University, France</i></li>
 	</ul>
 </div>
-<div>
-	<h2>VR Lab Tour Chairs  <div class="floatRight"><span id="labtour"></span></div></h2>
-	<ul>
-		<li><span class="bold">Ronan Gaugne</span> &#x2012; <i>Rennes University, France</i></li>
-		<li><span class="bold">Anthony Sorel</span> &#x2012; <i>Rennes 2 University, France</i></li>
-	</ul>
-</div>
 
 <!--- <div>
 	<h2>XR Future Faculty Forum Chairs  <div class="floatRight"><span id="xrfuturefaculty"></span></div></h2>
