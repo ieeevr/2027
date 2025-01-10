@@ -21,8 +21,8 @@ title_separator: "|"
         email = "eventconduct"; 		
 		$(".eventconductSm").html("<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>");
 
-	email = "labtour2025"; 		
-		$(".labtour2025").html("<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>");
+		email = "labtour"; 		
+		$(".labtourSm").html("<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>");
 
         email = "swan"; 
 		var domain = "acm.org"; 		
@@ -30,7 +30,7 @@ title_separator: "|"
 	});
 </script>
 <div>
-    <h1>VR Lab tour<div class="floatRight"><span class="labtour2025"></span></div></h1>
+    <h1>VR Lab tour<div class="floatRight"><span class="labtourSm"></span></div></h1>
     <p>
         The VR Lab tour is planned the day before the conference, on March 7th between 1:30pm  and 5:30pm, in the city of Rennes, which is located 1 hour by bus from Saint-Malo. A specific registration (done through the conference registration system) is required and it is limited to 100 places only. At the end of the visit, all attendants will be given the possibility to be taken to Saint-Malo by bus (estimated arrival to Saint-Malo at 7pm).
     </p>
