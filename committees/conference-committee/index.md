@@ -12,8 +12,6 @@ title_separator: "|"
 		email = "general2025"; 		
 		general.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
 		
-		
-
 		email = "program2025"; 
 		program.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
 		
@@ -78,7 +76,8 @@ title_separator: "|"
 		email = "xrfuturefaculty2025"; 		
 		xrfuturefaculty.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";		
 
-		
+		email = "labtour2025"; 		
+		labtour.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";	
 	});
 </script>
 <h1>Conference Committee</h1>
@@ -277,6 +276,13 @@ title_separator: "|"
 		<li><span class="bold">Hugo	Brument</span> &#x2012; <i>TU Wien, Austria</i></li>
 		<li><span class="bold">Dirk	Reiners</span> &#x2012; <i>University of Central Florida, USA</i></li>
 		<li><span class="bold">Carolin	Wienrich</span> &#x2012; <i>Julius-Maximilians Universität Würzburg, Germany</i></li>
+	</ul>
+</div>
+<div>
+	<h2>VR Lab Tour Chairs  <div class="floatRight"><span id="labtour"></span></div></h2>
+	<ul>
+		<li><span class="bold">Ronan Gaugne</span> &#x2012; <i>Rennes University, France</i></li>
+		<li><span class="bold">Anthony Sorel</span> &#x2012; <i>Rennes 2 University, France</i></li>
 	</ul>
 </div>
 
