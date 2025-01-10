@@ -21,8 +21,17 @@ title_separator: "|"
         email = "eventconduct"; 		
 		$(".eventconductSm").html("<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>");
 
-		email = "labtour"; 		
+		email = "register2025"; 		
+		register.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";  
+
+		email = "labtour2025"; 		
+		labtour.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";  
+		
+		
 		$(".labtourSm").html("<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>");
+
+	    email = "registration+VR"; 		
+		$(".registration").html("<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain_ieee + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain_ieee + "</a></i></span>");          
 
         email = "swan"; 
 		var domain = "acm.org"; 		
@@ -30,7 +39,7 @@ title_separator: "|"
 	});
 </script>
 <div>
-    <h1>VR Lab tour<div class="floatRight"><span class="labtourSm"></span></div></h1>
+    <h1>VR Lab tour<div class="floatRight"><span class="labtour"></span></div></h1>
     <p>
         The VR Lab tour is planned the day before the conference, on March 7th between 1:30pm  and 5:30pm, in the city of Rennes, which is located 1 hour by bus from Saint-Malo. A specific registration (done through the conference registration system) is required and it is limited to 100 places only. At the end of the visit, all attendants will be given the possibility to be taken to Saint-Malo by bus (estimated arrival to Saint-Malo at 7pm).
     </p>
