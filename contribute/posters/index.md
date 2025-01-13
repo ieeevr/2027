@@ -100,7 +100,7 @@ title_separator: "|"
         <p>
             For the camera ready submission, we ask you for two uploads regarding a <b>teaser video</b>. The video is supposed to be a 45-60 second teaser video that highlights the contribution of your poster. Note that due to time and space constraints, there is no poster fast forward this year, and this teaser video will serve as a substitute.  
             <ol>
-                <li>The video should highlight the contribution of the poster and start with a short title (5 seconds) that is based on the conference slide template. The uploaded video must meet the following requirements:
+                <li>The video should highlight the contribution of the poster and start with a short title (5 seconds). The uploaded video must meet the following requirements:
                 <ul>
                     <li>Resolution: 1080p (HD - 1920x1080 progressive - Aspect ratio: 16:9)</li>
                     <li>Speech should be clearly audible and text should be readable</li>
@@ -115,13 +115,13 @@ title_separator: "|"
             All video material (part 1 and 2) should be submitted via PCS in a self-extracting zip container via the camera-ready submission form.  Part 3 (the link) has a separate field in camera-ready form.
             </p>
             <p>
-            Tools that could be considered (and offer some free functionality) creating / compressing your videos: OBS Studio, Youtube, Clipchamp, Davinci Resolve, Handbrake, Freemake, FFMpeg
+            Tools that could be considered (and offer some free functionality) creating / compressing your videos: OBS Studio, Youtube, Clipchamp, Davinci Resolve, Handbrake, Freemake, FFMpeg.
             </p>
             <p>
-            Tools that could be considered creating closed captions: Youtube, otter.ai.; you can also create/edit closed-captions using the vtt text file, for more information, consider searching for “create vtt file” in your search engine of preference
+            Tools that could be considered creating closed captions: Youtube, otter.ai.; you can also create/edit closed-captions using the vtt text file, for more information, consider searching for “create vtt file” in your search engine of preference.
             </p>
             <p>
-            The Diversity, Equity, Inclusion, and Accessibility (DEIA) Chairs have provided guidelines for making submitted videos accessible: <a href="https://ieeevr.org/2025/assets/attend/VR2025_PDF-Video_Accessibility_Instructions.pdf" target="_blank">https://ieeevr.org/2025/assets/attend/VR2025_PDF-Video_Accessibility_Instructions.pdf</a>. Read this document carefully and adhere to the provided guidelines
+            The Diversity, Equity, Inclusion, and Accessibility (DEIA) Chairs have provided guidelines for making submitted videos accessible: <a href="https://ieeevr.org/2025/assets/attend/VR2025_PDF-Video_Accessibility_Instructions.pdf" target="_blank">https://ieeevr.org/2025/assets/attend/VR2025_PDF-Video_Accessibility_Instructions.pdf</a>. Read this document carefully and adhere to the provided guidelines.
             </p>
         <h3 id="accepted_poster_presentation">Information on slide</h3>
         <p>
@@ -135,7 +135,6 @@ title_separator: "|"
         </p>
         <p>
             Some details such as the poster ID and booth number will be added by the poster chairs later on once the program is finalized, so those portions should be left empty.
-            Further refined slide preparation instructions will follow early in January 2025.
         </p>
         <p>
         It was previously stated that this slide would be required by the camera-ready deadline. That is no longer the case, and the Poster Chairs will reach out to the authors of accepted submissions with further instructions at a later date.
