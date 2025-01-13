@@ -28,7 +28,7 @@ title_separator: "|"
    Each deadline is 23:59:59 AoE (Anywhere on Earth) == GMT/UTC-12:00 on the stated day, no matter where the submitter is located.
    </p>
     <ul>
-        <li><b>January 07, 2025:</b> Tutorial submissions due (AOE)</li>
+        <li><s><b>January 07, 2025:</b> Tutorial submissions due (AOE)</s></li>
         <li><b>January 14, 2025:</b> Acceptance notification</li>
         <li><b>January 21, 2025:</b> Advance program descriptions for IEEE VR 2025 website due</li>
     </ul>

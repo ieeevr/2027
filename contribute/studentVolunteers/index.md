@@ -24,7 +24,7 @@ title_separator: "|"
      <p class="alignCenter"><a href="https://forms.gle/Wu8Hw6qcEaYtezR59" class="btn btn--info" target="_blank">Apply to be a Student Volunteer</a>  
     <h2 id="important-dates"> Important Dates </h2>
     <ul>
-        <li><b>December 10th, 2024:</b> Open student volunteer applications</li>
+        <li><s><b>December 10th, 2024:</b> Open student volunteer applications</s></li>
         <li><b>January 13th, 2025:</b> Close student volunteer applications</li>
         <li><b>January 23th, 2025:</b> Student volunteer notification of acceptance</li>
     </ul>
