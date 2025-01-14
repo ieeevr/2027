@@ -26,7 +26,7 @@ title_separator: "|"
 <div>
     <h2 id="important-dates">Important Dates</h2>
     <ul>
-        <li><b>January 13 Monday, 2025:</b> Two-page abstract and video material submission.</li>
+        <li><s><b>January 13 Monday, 2025:</b> Two-page abstract and video material submission.</s></li>
         <li><b>January 21 Tuesday, 2025:</b> Notification of results.</li>
         <li><b>January 28 Tuesday, 2025:</b> Camera-ready two-page abstract and final video material submission with a 3-5 min video teaser.</li>
     </ul>

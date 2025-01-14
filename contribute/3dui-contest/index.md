@@ -27,7 +27,7 @@ title_separator: "|"
     </p>
     <h2 id="important-dates"> Important Dates - All deadlines are Anywhere on Earth (AoE)</h2>
     <ul>        
-        <li><b>January 13, 2025:</b> Submission of two-page abstract and video </li>
+        <li><s><b>January 13, 2025:</b> Submission of two-page abstract and video</s> </li>
         <li><b>January 21, 2025:</b> Notification of which entries are accepted </li>
         <li><b>January 28, 2025:</b> Camera-ready version</li>
     </ul>
