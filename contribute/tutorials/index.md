@@ -29,7 +29,7 @@ title_separator: "|"
    </p>
     <ul>
         <li><s><b>January 07, 2025:</b> Tutorial submissions due (AOE)</s></li>
-        <li><b>January 14, 2025:</b> Acceptance notification</li>
+        <li><s><b>January 14, 2025:</b> Acceptance notification</s></li>
         <li><b>January 21, 2025:</b> Advance program descriptions for IEEE VR 2025 website due</li>
     </ul>
     <h2 id="overview">Overview</h2>
