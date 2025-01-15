@@ -286,10 +286,15 @@ title_separator: "|"
 	</ul>
 </div>
 
-<!--- <div>
+<div>
 	<h2>XR Future Faculty Forum Chairs  <div class="floatRight"><span id="xrfuturefaculty"></span></div></h2>
 	<ul>
-		<li><span class="bold">Unkown</span> &#x2012; <i>Unkown</i></li>
+		<li><span class="bold">Niall L. Williams</span> &#x2012; <i>New York University, USA</i></li>
+		<li><span class="bold">Cassidy R. Nelson</span> &#x2012; <i> Ohio University, USA</i></li>
+		<li><span class="bold">Lee Lisle</span> &#x2012; <i> Virginia Tech, USA</i></li>
+		<li><span class="bold">Radha Kumaran</span> &#x2012; <i>University of California, Santa Barbara, USA</i></li>
+		<li><span class="bold">Jeanne Hecquard</span> &#x2012; <i>Inria, France</i></li>
+		<li><span class="bold">Matt Gottsacker</span> &#x2012; <i>University of Central Florida, USA</i></li>
 	</ul>
-</div> --->
+</div>
 
