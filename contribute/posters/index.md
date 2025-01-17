@@ -40,8 +40,8 @@ title_separator: "|"
                 <li><s><b>January 09, 2025:</b></s> Notification of results.</li>
                 <li><s><b>January 16, 2025:</b></s> Camera-ready material via PCS (2-page extended abstract, teaser video, and other additional materials).</li>
             </ul>
-			Information about camera-ready material and copyright submission on IEEE CPS, teaser slide, and poster will come at a later date.
         </p>
+	<p>Information about camera-ready material and copyright submission on IEEE CPS, teaser slide, and poster will come at a later date.</p>
     <p>Each deadline is 23:59:59 AoE (Anywhere on Earth) == GMT/UTC-12:00 on the stated day, irrespective of the submitter’s location.<b> The submission deadlines will be strictly enforced. Requests for extensions will not be honored.</b></p>
     <h2 id="submission-guidelines">Submission Guidelines</h2>
     <div class="notice--info alignCenter bold" style="font-size: 0.9em !important;">
