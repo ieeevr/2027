@@ -41,18 +41,26 @@ title_separator: "|"
         Here is some important information to help you take part in this organised visit. This page will be updated regularly with any useful information.
     </p>
 	<ul>
-		<li>In the IEEE VR registration form, we ask you if you are interested in visiting Mont Saint-Michel. Our intention is to estimate the number of attendees who may be interested in the visit to help us organise the trip. You will be able to change your mind, register for the visit even if you leave the box unchecked, or conversely, not attend even if you have ticked the box. But, importantly, if you are considering going, please tick the box on the registration form to help the planning.</li>
-		<li>The cost of the visit is not included in the conference registration fee. When the time comes (about 1 month before the conference), we will ask you to confirm your participation by paying the registration fee for the visit to the Mont. We will let you know as soon as possible how much this fee will be, but the principle of a group visit will be to keep it to a minimum, while giving you access to a guided tour for a better visiting experience. This registration will therefore cover at least the cost of transport to the Mont, plus any additional costs for meals and the guided tour of the Mont, which will be optional.</li>
-		<li>The initial plan for the visit is this one:
+		<li><strong>Registration form:</strong> In the IEEE VR registration form, we ask you if you are interested in visiting Mont Saint-Michel. Our intention is to estimate the number of attendees who may be interested in the visit to help us organise the trip. You will be able to change your mind, register for the visit even if you leave the box unchecked, or conversely, not attend even if you have ticked the box. But, importantly, if you are considering going, please tick the box on the registration form to help the planning.</li>
+		<li><strong>Cost and Inclusions:</strong>
 			<ul>
-				<li style="font-size: inherit;">The visit takes place on Thursday, 13th March, 2025, the day after the conference.</li>
-				<li style="font-size: inherit;">Leave Saint-Malo around 10am to be at the Mont Saint-Michel around 11am.</li>
-				<li style="font-size: inherit;">Leave the Mont Saint-Michel around 4pm, to be back in Saint Malo around 5pm.</li>
-				<li style="font-size: inherit;">The transportation will be by bus.</li>
-				<li style="font-size: inherit;">You can enjoy a free visit of the Mont on your own, visit the abbey (ticket is needed), and/or register for a guided visit of the Mont and of the abbey, and/or register for an organised meal.</li>
-				<li style="font-size: inherit;">Number of total possible registrations to the guided tour or the organized meal will be limited.</li>
+				<li style="font-size: inherit;">The cost of the visit is not included in the conference registration fee. When the time comes (about 1 month before the conference), we will ask you to confirm your participation by paying the registration fee for the visit to Mont Saint-Michel.</li>
+				<li style="font-size: inherit;">The cost of the visit is €65 per person. This includes transportation from Saint-Malo to Mont Saint-Michel and back, as well as a guided tour in English.</li>
 			</ul>
 		</li>
+		<li><strong>Schedule:</strong>
+			<ul>
+				<li style="font-size: inherit;">Morning Departure: 9:00 AM from Saint-Malo by 50-seat coach, departing from the Esplanade St. Vincent (coach drop-off point, close to the Conference Center), heading to parking lot P7 at Mont Saint-Michel.</li>
+				<li style="font-size: inherit;">Arrival: Meet the guides upon arrival at the parking lot (1 guide per group of 35 people).</li>
+				<li style="font-size: inherit;">Shuttle to Mont Saint-Michel: Departure with the guide to take the shuttle to Mont Saint-Michel.</li>
+				<li style="font-size: inherit;">Guided Tour of the Abbey: English guided tour from 11:00 AM to 12:30 PM, with groups of up to 35 people.</li>
+				<li style="font-size: inherit;">Free Time for Lunch: Enjoy free time to have lunch and free visit.</li>
+				<li style="font-size: inherit;">Afternoon Departure: At 2:30 PM, return from Mont Saint-Michel using the free shuttle to parking lot P7.</li>
+				<li style="font-size: inherit;">Return Trip: 3:00 PM departure from parking lot P7 back to Saint-Malo, including a stop at Saint-Malo train station.</li>
+			</ul>
+		</li>
+		<li><strong>Luggage Information:</strong> You are welcome to bring your luggage with you. It will be safely stored in the bus during the visit.</li>
+		<li><strong>Important Warning:</strong> If you plan to venture onto the sands, please be aware that this is the site of the largest tides in Europe, with the sea rising very quickly. There are also areas of quicksand. For your safety, do not venture onto the sands without a guide.</li>
 	</ul>
     <p>
         Once again, we would like to ask you not to hesitate to indicate your wish to take part in this visit via the IEEE VR registration form. By selecting this option, we will collect your email, which will facilitate our future communications about the Mont Saint-Michel visit and allow us to size and plan this event in the best possible way.
