@@ -26,7 +26,7 @@ title_separator: "|"
     <ul>
         <li><s><b>November 25<sup>th</sup>, 2024 23:59 AoE:</b> Submission deadline.</s></li>
         <li><s><b>January 10<sup>th</sup>, 2025 23:59 AoE:</b> Notification of acceptance.</s></li>
-        <li><b>January 24<sup>th</sup>, 2025 23:59 AoE:</b> Camera-ready.</li>
+        <li><b>January 27<sup>th</sup>, 2025 23:59 AoE:</b> Camera-ready.</li>
     </ul>
     <h2 id="Overview">Overview</h2>
     <p>

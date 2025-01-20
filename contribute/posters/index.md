@@ -37,10 +37,11 @@ title_separator: "|"
         <p>
             <ul>
                 <li><s><b>December 04, 2024</b></s> Two-page extended abstract and optional material submission due. The recent Overleaf downtime may have affected many authors' submission preparations, resulting in a one-day deadline extension ending on December 04.</li>
-                <li><s><b>January 09, 2025:</b> Notification of results.</s></li>
-                <li><b>January 16, 2025:</b> Camera-ready material and copyright submission via IEEE CPS (to be published in the conference’s abstract and workshop proceedings) and PCS (poster, video, teaser image and other additional materials).</li>
+                <li><s><b>January 09, 2025:</b></s> Notification of results.</li>
+                <li><s><b>January 16, 2025:</b></s> Camera-ready material via PCS (2-page extended abstract, teaser video, and other additional materials).</li>
             </ul>
         </p>
+	<p>Information about camera-ready material and copyright submission on IEEE CPS, teaser slide, and poster will come at a later date.</p>
     <p>Each deadline is 23:59:59 AoE (Anywhere on Earth) == GMT/UTC-12:00 on the stated day, irrespective of the submitter’s location.<b> The submission deadlines will be strictly enforced. Requests for extensions will not be honored.</b></p>
     <h2 id="submission-guidelines">Submission Guidelines</h2>
     <div class="notice--info alignCenter bold" style="font-size: 0.9em !important;">
@@ -144,7 +145,7 @@ title_separator: "|"
             There will be three dedicated days for poster presentations throughout the conference week. Each accepted poster will be assigned to <b>one</b> specific day and will have multiple presentation slots throughout that day, e.g., during coffee breaks, to maximize exposure and interaction with conference attendees. During the poster presentation, one or more authors need to be physically present at their poster to discuss their work with other attendees.
         </p>
         <p>
-            Due to the number of anticipated posters and other time constraints, there will not be a traditional poster fast-forward session at this year’s conference. Instead, <b>authors of accepted posters will be asked to provide a 30 to 60 second teaser video with their final submission, which will be showcased on the conference website, and a teaser image, which will be showcased at the conference venue.</b> We will share more details including video requirements, teaser image requirements, and the anticipated date of presentation with the authors of accepted posters shortly after the notification of the results.
+            Due to the number of anticipated posters and other time constraints, there will not be a traditional poster fast-forward session at this year’s conference. Instead, <b>authors of accepted posters will be asked to provide a 45 to 60 second teaser video with their final submission, which will be showcased on the conference website, and a teaser image, which will be showcased at the conference venue.</b> We will share more details including video requirements, teaser image requirements, and the anticipated date of presentation with the authors of accepted posters shortly after the notification of the results.
         </p>
     <h2 id="best_poster_awards">Best Poster Awards</h2>
     <p>
