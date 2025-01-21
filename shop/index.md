@@ -47,7 +47,7 @@ title_separator: "|"
 		Thank you for contributing to our sustainability efforts!
 	</p>
 	<div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap; margin-bottom: 20px;">
-        <img src="/dev/assets/images/AtelierMrCoton.png" alt="Logo Atelier Mr Coton" style="flex: 1 1 20%; max-width: 20%; height: auto;">
-        <img src="/dev/assets/images/AtelierTextileFr.png" alt="Logo Atelier Textile Fr" style="flex: 1 1 20%; max-width: 20%; height: auto;">
+        <img src="/2025/assets/images/AtelierMrCoton.png" alt="Logo Atelier Mr Coton" style="flex: 1 1 20%; max-width: 20%; height: auto;">
+        <img src="/2025/assets/images/AtelierTextileFr.png" alt="Logo Atelier Textile Fr" style="flex: 1 1 20%; max-width: 20%; height: auto;">
     </div>
 </div>
