@@ -314,7 +314,7 @@ title_separator: "|"
 	</div>
 </div>
 <div>
-	<h4 id="faq">Registation FAQ</h4>
+	<h4 id="faq">FAQ - Frequently Asked Questions</h4>
 	<div>
 	<ol>
 		<li style="color: #F5725E:"><strong>When do I need to select the “Author Registration” option?</strong><br/>
