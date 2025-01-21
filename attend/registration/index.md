@@ -313,4 +313,40 @@ title_separator: "|"
 		</p>
 	</div>
 </div>
+<div>
+<h2 id="faq">Registation FAQ</h2>
+	<ol>
+		<li style="color: #F5725E:"><strong>When do I need to select the “Author Registration” option?</strong><br/>
+			In case you are the author of a conference paper/journal paper/invited TVCG paper/workshop paper published in the digital library/poster/research demo/3DUI contest and that no other author is registered yet. Such author registration is needed and mandatory to make sure that your publication is finally accepted in the conference program and/or proceedings.
+			</li> 
+		<li style="color: #F5725E:"><strong>How many papers/publications can be validated by one Author Registration?</strong><br/>
+			Each registered author can validate <b>only two</b> conference paper/journal paper/invited TVCG paper/workshop paper published in the digital library/poster/research demo/3DUI contest.
+			For example, if you have 1 conference paper, 1 TVCG invited paper and 1 demo, you need 2 " Author Registration". To do so, the most convenient way is that a co-author of a paper/publication makes the second registration. </li>
+		<li style="color: #F5725E:"><strong>Can an author register as a "General Participant", while they actually present a paper?</strong><br/>
+			Yes. As long as the paper has one author registered as " Author Registration" to validate the paper, another registered participant can present the paper.</li>
+		<li style="color: #F5725E:"><strong>Can I benefit from a Student discount with an Author registration ?</strong><br/>
+			No, if you register as an Author, you are not eligible for the Student discount. However, you can still benefit from the IEEE Member discount.</li>
+		<li style="color: #F5725E:"><strong>I am invited to present a paper previously published on TVCG. What category should I register as?</strong><br/>
+			You should use the same category as "Author Registration".</li>
+		<li style="color: #F5725E:"><strong>What number should I provide to register as an invited TVCG paper author?</strong><br/>
+		You should indicate your full Paper DOI, eg: 10.1109/TVCG.20nn.ddddddd (as listed on TVCG).</li>
+		<li style="color: #F5725E:"><strong>What is an Invited TVCG paper?</strong><br/>
+		Invited TVCG papers are those manuscripts previously published in IEEE TVCG journal and invited for an oral presentation at the conference. Not to be confused with IEEE VR 2025 Journal Papers published in the special issue.</li>
+		<li style="color: #F5725E:"><strong>As a paper/publication author, how can I get a VISA invitation letter? </strong><br/>
+	During your registration you should indicate your need for a VISA invitation letter and provide the requested information in the registration form. Once your registration is made and your payment is accepted your visa invitation letter can be obtained very rapidly in an automatic way. If you do not receive it in the following couple of days, or if you need this letter very fast after your registration, or in case of any other related issue you can send an email to : <a target="_blank" href="mailto:visa2025@ieeevr.org">visa2025@ieeevr.org</a>
+		</li>
+		<li style="color: #F5725E:"><strong>As a Doctoral Consortium presenter, do I need an Author Registration?</strong><br/>
+	No. You do not need an Author Registration as a Doctoral Consortium presenter. If, in addition to your DC presentation, you have a conference paper/journal paper/invited TVCG paper/workshop paper published in the digital library/poster/research demo/3DUI contest, then you need an author registration.
+		</li>
+		<li style="color: #F5725E:"><strong>Can I make multiple registrations? </strong><br/>
+	No, you can only register once.
+		</li>
+		<li style="color: #F5725E:"><strong>I am a Student Volunteer and I benefit from a complimentary registration but I am also the author of a paper. Which registration type should I select?</strong><br/>
+Each paper requires an Author registration so either one of your co-author can take the Author registration for this paper, or you still need to select the Author registration for yourself.
+		</li>
+		<li style="color: #F5725E:"><strong>I benefit from a complimentary registration for a workshop/tutorial, but I would like to attend the entire conference. Which registration type should I select? </strong><br/>
+		You must select the Conference-Only registration, and then let us know when your payment has been accepted. Then, we will manually upgrade your registration to a Full-Conference registration.		</li>
+	</ol>
+	If you have further questions, please contact register2025[at]ieeevr.org.
+</div>
 </div>
