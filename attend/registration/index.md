@@ -347,6 +347,6 @@ Each paper requires an Author registration so either one of your co-author can t
 		<li style="color: #F5725E:"><strong>I benefit from a complimentary registration for a workshop/tutorial, but I would like to attend the entire conference. Which registration type should I select? </strong><br/>
 		You must select the Conference-Only registration, and then let us know when your payment has been accepted. Then, we will manually upgrade your registration to a Full-Conference registration.		</li>
 	</ol>
-	If you have further questions, please contact register2023[at]ieeevr.org.
+	If you have further questions, please contact register2025[at]ieeevr.org.
 </div>
 </div>
