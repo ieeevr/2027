@@ -1,6 +1,6 @@
 ---
 layout: ieeevr-default
-title: "Shop IEEE VR 2025"
+title: "Store IEEE VR 2025"
 subtitle: "IEEE VR 2025"
 title_separator: "|"
 ---
@@ -13,7 +13,7 @@ title_separator: "|"
 	});
 </script>
 <div>
-    <h1>Shop IEEE VR 2025</h1>
+    <h1>Store IEEE VR 2025</h1>
     <p>This year, in line with our sustainability policy, we are reducing the distribution of conference goodies. However, for those who are interested, we are offering the opportunity to purchase the official IEEE VR 2025 merchandise.</p>
     <h2 id="overview">Available Items</h2>
     <p>
