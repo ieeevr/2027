@@ -56,7 +56,7 @@ title_separator: "|"
         <li><s><b>December 10, 2024</b>:   Initial notifications</s></li>
         <li><s><b>January 6, 2025</b>:   Revised submissions due</s></li> 
         <li><s><b>January 13, 2025</b>:    Final notifications</s></li>
-        <li><b><s>January 20, 2025</b>:    Camera-ready materials due</s></li>
+        <li><s><b>January 20, 2025</b>:    Camera-ready materials due</s></li>
     </ul>
 
     <h2 id="submission-guidelines">Submission Guidelines</h2>
