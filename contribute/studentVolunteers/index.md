@@ -26,7 +26,7 @@ title_separator: "|"
     <ul>
         <li><s><b>December 10th, 2024:</b> Open student volunteer applications</s></li>
         <li><s><b>January 13th, 2025:</b> Close student volunteer applications</s></li>
-        <li><b>January 23th, 2025:</b> Student volunteer notification of acceptance</li>
+        <li><s><b>January 23th, 2025:</b> Student volunteer notification of acceptance</s></li>
     </ul>
     <p>
         Dedicated and enthusiastic student volunteers (SVs) are crucial for the organization of a successful conference. Serving as a student volunteer is also a great chance to meet and interact with scientists from the field of Virtual Reality. 
