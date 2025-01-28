@@ -60,6 +60,11 @@ title_separator: "|"
                             </div>
                         </div>
                     </div>
+                {% endif %}                      
+                {% if workshop.agenda %}
+                    <div class="content-inner">
+                        <p><a href="https://ieeevr.org/2025/assets/{{ workshop.agenda }}" target="_blank">Agenda</a></p>
+                    </div>
                 {% endif %}
                             
                 <!-- Only show the 'workshop papers' toggle if there's actually something to show -->
