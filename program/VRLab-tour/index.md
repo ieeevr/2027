@@ -30,8 +30,14 @@ title_separator: "|"
 	});
 </script>
 <div>
-    <h1>VR Lab tour<div class="floatRight"><span class="labtour"></span></div></h1>
-    <p>
+    <div class="ieeevrmsgbox bold alignCenter">
+        <div class = "ieeevrmsgboxInside med">
+			<!--<img src="/2025/assets/images/program/overview.png" alt="Program overview. It is separated into three main parts: 1. Pre-conference event, 2. Conference, 3.Post-conference event">-->
+           Given the strong interest in participating in the VR Lab Tour, we will close the submission of participation intentions on the registration form on the early bird deadline, February 5, 2025 (AoE). After this date, a random selection will be conducted, and we will contact you promptly to confirm your participation.  In case of withdrawal, it will be important to notify us as soon as possible so that we can proceed with the waiting list. Thank you for your understanding and cooperation.
+        </div>
+    </div>
+	<h1>VR Lab tour<div class="floatRight"><span class="labtour"></span></div></h1>
+	<p>
         The VR Lab tour is planned the day before the conference, on March 7th between 1:30pm and 5:30pm, in the city of Rennes, which is located 1 hour by bus from Saint-Malo. A specific registration (done through the conference registration system) is required and it is limited to 100 places only. All attendants to the VR lab tour will be requested to gather at the Rennes Train station at 12:45pm. The <a href="https://maps.app.goo.gl/dptTDF3Fgq6dhXZr5" target="_blank">Rennes train station</a> is easily accessible from a wide range of locations. At the end of the visit, all attendants will be given the possibility to be taken to Saint-Malo by bus (estimated arrival to Saint-Malo at 7pm).
     </p>
     <p>
