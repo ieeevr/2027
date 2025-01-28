@@ -52,7 +52,7 @@ title_separator: "|"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 {% endif %}                
-                {% if workshop.abstract %}
+                {% if workshop.abstract and workshop.abstract != "TBD" %}
                     <div id="{{ workshop.id }}" class="wrap-collabsible"> <input id="collapsible{{ workshop.id }}" class="toggle" type="checkbox"> <label for="collapsible{{ workshop.id }}" class="lbl-toggle">Workshop Description</label>
                         <div class="collapsible-content">
                             <div class="content-inner">
