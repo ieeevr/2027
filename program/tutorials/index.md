@@ -8,7 +8,7 @@ title_separator: "|"
 <div>
     <table class="styled-table">
         <tr>
-             <th colspan="4">Tutorials (Timezone: Orlando, Florida USA UTC-4)</th>
+             <th colspan="4">Tutorials (Timezone: Saint-Malo France UTC+1)</th>
         </tr>
         {% for tutorial in site.data.tutorials %}
             <tr>
