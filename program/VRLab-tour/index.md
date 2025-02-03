@@ -33,7 +33,7 @@ title_separator: "|"
     <div class="ieeevrmsgbox bold alignCenter">
         <div class = "ieeevrmsgboxInside med">
 			<!--<img src="/2025/assets/images/program/overview.png" alt="Program overview. It is separated into three main parts: 1. Pre-conference event, 2. Conference, 3.Post-conference event">-->
-           Given the strong interest in participating in the VR Lab Tour, we will close the submission of participation intentions on the registration form on the early bird deadline, February 5, 2025 (AoE). After this date, a random selection will be conducted, and we will contact you promptly to confirm your participation.  In case of withdrawal, it will be important to notify us as soon as possible so that we can proceed with the waiting list. Thank you for your understanding and cooperation.
+           Given the strong interest in participating in the VR Lab Tour, <strong>we will close the submission of participation intentions on the registration form on the early bird deadline, February 5, 2025 (AoE)</strong>. After this date, a random selection will be conducted, and we will contact you promptly to confirm your participation.  In case of withdrawal, it will be important to notify us as soon as possible so that we can proceed with the waiting list. Thank you for your understanding and cooperation.
         </div>
     </div>
 	<h1>VR Lab tour<div class="floatRight"><span class="labtour"></span></div></h1>
