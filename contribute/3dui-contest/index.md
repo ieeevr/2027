@@ -29,7 +29,7 @@ title_separator: "|"
     <ul>        
         <li><s><b>January 13, 2025:</b> Submission of two-page abstract and video</s> </li>
         <li><s><b>January 21, 2025:</b> Notification of which entries are accepted</s> </li>
-        <li><b>January 28, 2025:</b> Camera-ready version</li>
+        <li><s><b>January 28, 2025:</b> Camera-ready version</s></li>
     </ul>
     <h2 id="Overview">Overview</h2>
     <p>
