@@ -9,7 +9,7 @@ title: "IEEEVR VGTC Awards"
         The IEEE VGTC Virtual Reality Awards recognize and honor individuals who have made a significant contribution to our broadly defined virtual, augmented, mixed, and extended reality community through their research and/or service. 
     </p>
     <p>
-        Except for the Outstanding Dissertation Award (those nominations closed in September), all nominations are due by <strong>January 5<sup>th</sup>, 2025</strong>.  In 2025 for the first time, we will recognize all of the VGTC VR award winners at both IEEE VR and IEEE ISMAR.  Recipients may choose to receive their award at either conference.
+        Except for the Outstanding Dissertation Award (those nominations closed in September), all nominations were due by <strong>January 5<sup>th</sup>, 2025</strong>.  In 2025 for the first time, we will recognize all of the VGTC VR award winners at both IEEE VR and IEEE ISMAR.  Recipients may choose to receive their award at either conference.
     </p>
     <ul class="extraSpacing">
         <li>
