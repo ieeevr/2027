@@ -23,7 +23,7 @@ title_separator: "|"
     <div>
         {% for gallery in art %}
             <!-- gallery title matter -->
-            <h2 class="padding_top_xsmall" id="{{ gallery.id }}">Exposition: {{ gallery.title }} </h2> 
+            <h2 class="padding_top_xsmall" id="{{ gallery.id }}">Exhibit: {{ gallery.title }} </h2> 
             <!-- <p class="small">{{ gallery.day }}, {{ gallery.starttime }}-{{ gallery.endtime }} ({{ gallery.timezone }}), Room: {{ gallery.room }}</p>                -->
             <div>
                 {% if gallery.artist %}
