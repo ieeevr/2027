@@ -10,7 +10,7 @@ title_separator: "|"
     <h1 id="call-for-art"> XR Gallery </h1>
       <table class="styled-table">
         <tr>
-            <th colspan="4">Exhibitions : Monday 10th (9:30 AM) to Wednesday 12th (3PM) (Timezone: (Saint-Malo, France UTC+1))</th>
+            <th colspan="4">Exhibit : Monday 10th (9:30 AM) to Wednesday 12th (3PM) (Timezone: (Saint-Malo, France UTC+1))</th>
         </tr>                   
         {% assign art = site.data.xrgallery | sort: "id" %}
         {% for gallery in art %}
