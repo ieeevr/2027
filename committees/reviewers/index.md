@@ -1,12 +1,12 @@
 ---
 layout: ieeevr-default
 title: "Reviewers"
-subtitle: "IEEE VR 2024"
+subtitle: "IEEE VR 2025"
 title_separator: "|"
 ---
 
 <div>
-    <h1> IEEE VR 2023 Reviewers for Papers </h1>
+    <h1> IEEE VR 2025 Reviewers for Papers </h1>
     <table class="styled-table valignTop small">
         <colgroup>
         <col span="1" style="width: 33.3%;">
