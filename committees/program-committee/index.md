@@ -20,4 +20,10 @@ title_separator: "|"
             {%if member.Subcommittee == "Supercommittee"%}<li><strong>{{ member.Familyname }}, {{ member.Firstname }} {%if member.Middleinitial %}{{ member.Middleinitial }} {% endif %}</strong> - <i>{{ member.Affil1Institution }}, {{ member.Affil1Country }}</i></li>{% endif %}
         {% endfor %} 
     </ul>
+	<h2>Committee</h2>
+    <ul>
+        {% for member in site.data.vr_program_committee_without_emails %} 
+            {%if member.Subcommittee == "Committee"%}<li><strong>{{ member.Familyname }}, {{ member.Firstname }} {%if member.Middleinitial %}{{ member.Middleinitial }} {% endif %}</strong> - <i>{{ member.Affil1Institution }}, {{ member.Affil1Country }}</i></li>{% endif %}
+        {% endfor %} 
+    </ul>
 </div>
