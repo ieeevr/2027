@@ -7,7 +7,7 @@ Radiance Fields (NeRF) and 3D Gaussian Splattings (3DGS) enable us to
 replicate complex real-world elements. This paradigm shift in graphics
 lets us revisit the way of capturing, storing, and replicating the real
 world and rethink what to bring in virtual reality (VR). This tutorial
-provides an opportunity for learning the basics to ""start with"" future
+provides an opportunity for learning the basics to 'start with' future
 VR research around the topic. Namely, the attendees will learn the
 principles of view synthesis using machine learning technology and
 practical aspects of implementations using open-source projects. It also
