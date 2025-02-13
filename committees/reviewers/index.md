@@ -25,7 +25,7 @@ title_separator: "|"
         <col span="1" style="width: 33.3%;">
         </colgroup>
         {% tablerow reviewer in site.data.reviewersPosters cols:3 %}
-            <strong>{{ reviewer.Firstname }} {{ reviewer.Middleinitial }} {{ reviewer.Familyname }}</strong> - <i>{{ reviewer.Lab }} {{ reviewer.Institution }}, {{ reviewer.Country }}</i>
+            <strong>{{ reviewer.Familyname }}, {{ reviewer.Firstname }} </strong> - <i>{{ reviewer.Lab }} {{ reviewer.Institution }}, {{ reviewer.Country }}</i>
         {% endtablerow %}
     </table>
 </div>
