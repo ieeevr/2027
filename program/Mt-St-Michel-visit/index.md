@@ -27,6 +27,16 @@ title_separator: "|"
 	});
 </script>
 <div>
+	<div class="ieeevrmsgbox bold alignCenter">
+        <div class = "ieeevrmsgboxInside med">
+			To book your visit to Mont Saint-Michel, please follow these instructions and make your reservation before February 16, 2025:
+			<ul>
+				<li>Log in to your profile page using your surname and registration reference (IEEEVR2025-xxx).</li>
+				<li>Click on the "Edit my visit options" button, select the number of tickets you need (€65 per person), and complete the payment online by credit card.</li>
+			</ul>
+			Please note that the number of places is limited.
+        </div>
+    </div>
     <h1>Optional visit to the Mont Saint Michel on Thursday 13th March, 2025<div class="floatRight"><span class="eventconductSm"></span></div></h1>
 	<div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap; margin-bottom: 20px;">
         <img src="/dev/assets/images/program/Mt-St-Michel.png" alt="Photo of the Mont Saint Michel." style="flex: 1 1 80%; max-width: 80%; height: auto;">
