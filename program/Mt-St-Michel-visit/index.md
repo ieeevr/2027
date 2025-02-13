@@ -27,6 +27,7 @@ title_separator: "|"
 	});
 </script>
 <div>
+	<h1>Optional visit to the Mont Saint Michel on Thursday 13th March, 2025<div class="floatRight"><span class="eventconductSm"></span></div></h1>
 	<div class="ieeevrmsgbox bold">
         <div class = "ieeevrmsgboxInside med">
 			To book your visit to Mont Saint-Michel, please follow these instructions and make your reservation before February 16, 2025:
@@ -37,7 +38,6 @@ title_separator: "|"
 			Please note that the number of places is limited.
         </div>
     </div>
-    <h1>Optional visit to the Mont Saint Michel on Thursday 13th March, 2025<div class="floatRight"><span class="eventconductSm"></span></div></h1>
 	<div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap; margin-bottom: 20px;">
         <img src="/dev/assets/images/program/Mt-St-Michel.png" alt="Photo of the Mont Saint Michel." style="flex: 1 1 80%; max-width: 80%; height: auto;">
     </div>
