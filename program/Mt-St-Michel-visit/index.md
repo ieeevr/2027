@@ -27,7 +27,7 @@ title_separator: "|"
 	});
 </script>
 <div>
-	<div class="ieeevrmsgbox bold alignCenter">
+	<div class="ieeevrmsgbox bold">
         <div class = "ieeevrmsgboxInside med">
 			To book your visit to Mont Saint-Michel, please follow these instructions and make your reservation before February 16, 2025:
 			<ul>
