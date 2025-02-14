@@ -47,7 +47,7 @@ title_separator: "|"
                             {% if acpaper.ids == paper.ids  %} 
                                 <div>
                                     <p class="font_70">
-                                    {{ acpaper.contactauthor }}
+                                    <span class="bold">{{ acpaper.contactauthor }}</span>
                                     </p>
                                 </div>
                                 {% if acpaper.abstract %}
