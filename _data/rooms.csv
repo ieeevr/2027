@@ -1,0 +1,46 @@
+id,session,room,starttime,endtime,name
+0,1,A,11:15,12:15,Chateaubriand
+1,1,B,11:15,12:15,Maupertuis
+2,1,C,11:15,12:15,Lammenais 1/2
+3,1,D,11:15,12:15,Lammenais 3/4/5
+4,2,A,14:00,15:00,Chateaubriand
+5,2,B,14:00,15:00,Maupertuis
+6,2,C,14:00,15:00,Lammenais 1/2
+7,2,D,14:00,15:00,Lammenais 3/4/5
+8,3,B,15:15,16:15,Maupertuis
+9,3,D,15:15,16:15,Lammenais 3/4/5
+10,4,B,17:15,18:15,Maupertuis
+11,4,C,17:15,18:15,Lammenais 1/2
+12,4,D,17:15,18:15,Lammenais 3/4/5
+13,5,A,08:30,09:30,Chateaubriand
+14,5,B,08:30,09:30,Maupertuis
+15,5,C,08:30,09:30,Lammenais 1/2
+16,5,D,08:30,09:30,Lammenais 3/4/5
+17,6,A,11:15,12:15,Chateaubriand
+18,6,B,11:15,12:15,Maupertuis
+19,6,C,11:15,12:15,Lammenais 1/2
+20,6,D,11:15,12:15,Lammenais 3/4/5
+21,7,A,14:00,15:00,Chateaubriand
+22,7,B,14:00,15:00,Maupertuis
+23,7,C,14:00,15:00,Lammenais 1/2
+24,7,D,14:00,15:00,Lammenais 3/4/5
+25,8,B,15:15,16:15,Maupertuis
+26,8,D,15:15,16:15,Lammenais 3/4/5
+27,9,A,17:15,18:15,Chateaubriand
+28,9,B,17:15,18:15,Maupertuis
+29,9,C,17:15,18:15,Lammenais 1/2
+30,9,D,17:15,18:15,Lammenais 3/4/5
+31,10,A,08:30,09:30,Chateaubriand
+32,10,B,08:30,09:30,Maupertuis
+33,10,C,08:30,09:30,Lammenais 1/2
+34,10,D,08:30,09:30,Lammenais 3/4/5
+35,11,A,11:15,12:15,Chateaubriand
+36,11,B,11:15,12:15,Maupertuis
+37,11,C,11:15,12:15,Lammenais 1/2
+38,11,D,11:15,12:15,Lammenais 3/4/5
+39,12,A,14:00,15:00,Chateaubriand
+40,12,B,14:00,15:00,Maupertuis
+41,12,C,14:00,15:00,Lammenais 1/2
+42,12,D,14:00,15:00,Lammenais 3/4/5
+43,13,B,15:15,16:15,Maupertuis
+44,13,D,15:15,16:15,Lammenais 3/4/5

@@ -1,40 +1,46 @@
-id,name,day,starttime,endtime,timezone,sessionchair,room,discord-category
-MO1G,"Tracking and Motion Capture","Monday, 18 March 2024",14:00,15:00,"Orlando, Florida USA UTC-4",Manuela Chessa,Fantasia Ballroom G,
-MO1H,"Social Applications","Monday, 18 March 2024",14:00,15:00,"Orlando, Florida USA UTC-4",Mary Whitton,Fantasia Ballroom H,
-MO1J,"Embodiment, Avatars and Presence","Monday, 18 March 2024",14:00,15:00,"Orlando, Florida USA UTC-4",Rebecca Fribourg,Fantasia Ballroom J,
-MO2G,"Psycho- and Sociocultural Dimensions of Virtual Identities","Monday, 18 March 2024",15:30,17:00,"Orlando, Florida USA UTC-4",Eric Hodgson,Fantasia Ballroom G,
-MO2H,"Multimodal Input and Interaction","Monday, 18 March 2024",15:30,17:00,"Orlando, Florida USA UTC-4",Mayra Donaji Barrera Machuca,Fantasia Ballroom H,
-MO2J,"Perception and Cognition","Monday, 18 March 2024",15:30,17:00,"Orlando, Florida USA UTC-4",Bobby Bodenheimer,Fantasia Ballroom J,
-TU1G,"3D Interaction and Touch","Tuesday, 19 March 2024",8:30,9:45,"Orlando, Florida USA UTC-4",Bruce Thomas,Fantasia Ballroom G,
-TU1H,"Multisensory Interfaces","Tuesday, 19 March 2024",8:30,9:45,"Orlando, Florida USA UTC-4",Daniel Roth,Fantasia Ballroom H,
-TU1J,"Evaluating Immersion: UX and Interaction","Tuesday, 19 March 2024",8:30,9:45,"Orlando, Florida USA UTC-4",Doug Bowman,Fantasia Ballroom J,
-TU2G,"Locomotion and Redirection","Tuesday, 19 March 2024",13:30,15:00,"Orlando, Florida USA UTC-4",Evan Ruma Rosenberg,Fantasia Ballroom G,
-TU2H,"Projections","Tuesday, 19 March 2024",13:30,15:00,"Orlando, Florida USA UTC-4",Bruce Thomas,Fantasia Ballroom H,
-TU2J,"3D Interaction and Teleoperation","Tuesday, 19 March 2024",13:30,15:00,"Orlando, Florida USA UTC-4",Tim Weisker,Fantasia Ballroom J,
-TU3G,"3D Interaction and Modality","Tuesday, 19 March 2024",15:30,17:00,"Orlando, Florida USA UTC-4",Francisco Raul Ortega,Fantasia Ballroom G,
-TU3H,"Perception in Navigation, Locomotion and Redirection","Tuesday, 19 March 2024",15:30,17:00,"Orlando, Florida USA UTC-4",Anne Hélène Olivier ,Fantasia Ballroom H,
-TU3J,"User Experience","Tuesday, 19 March 2024",15:30,17:00,"Orlando, Florida USA UTC-4",Luciana Nedel,Fantasia Ballroom J,
-WE1G,"360 Video","Wednesday, 20 March 2024",8:30,9:45,"Orlando, Florida USA UTC-4",Dirk  Reiners ,Fantasia Ballroom G,
-WE1H,"Immersive Analytics and Visualization","Wednesday, 20 March 2024",8:30,9:45,"Orlando, Florida USA UTC-4",Wolfgang Stuerzlinger,Fantasia Ballroom H,
-WE1J,"Industrial and Sports Applications","Wednesday, 20 March 2024",8:30,9:45,"Orlando, Florida USA UTC-4",Ooi Chun Wei,Fantasia Ballroom J,
-WE2G,"3D Authoring","Wednesday, 20 March 2024",10:15,11:15,"Orlando, Florida USA UTC-4",Yalong Yang,Fantasia Ballroom G,
-WE2H,"Gaze","Wednesday, 20 March 2024",10:15,11:15,"Orlando, Florida USA UTC-4",Alexander Plopski,Fantasia Ballroom H,
-WE2J,"Collaboration","Wednesday, 20 March 2024",10:15,11:15,"Orlando, Florida USA UTC-4",Kangsoo Kim,Fantasia Ballroom J,
-WE3G,"Haptics","Wednesday, 20 March 2024",11:30,12:30,"Orlando, Florida USA UTC-4",Maud Marchal,Fantasia Ballroom G,
-WE3H,"Healthcare Applications","Wednesday, 20 March 2024",11:30,12:30,"Orlando, Florida USA UTC-4",Regis Kopper,Fantasia Ballroom H,
-WE3J,"Human Factors and Ergonomics","Wednesday, 20 March 2024",11:30,12:30,"Orlando, Florida USA UTC-4",Isaac Cho,Fantasia Ballroom J,
-WE4G,"Perception in AR, MR and Near-Eye Displays","Wednesday, 20 March 2024",13:30,15:00,"Orlando, Florida USA UTC-4",Daisuke Iwai,Fantasia Ballroom G,
-WE4H,"Rendering and Displays","Wednesday, 20 March 2024",13:30,15:00,"Orlando, Florida USA UTC-4",Shohei Mori,Fantasia Ballroom H,
-WE4J,"Experiences, Cybersickness and Presence","Wednesday, 20 March 2024",13:30,15:00,"Orlando, Florida USA UTC-4",Victoria Interrante,Fantasia Ballroom J,
-TH1G,"Distributed Systems and Telepresence","Thursday, 21 March 2024",8:30,9:45,"Orlando, Florida USA UTC-4",Andrew Chalmers,Fantasia Ballroom G,
-TH1H,"Multimodal Perception and Experiences","Thursday, 21 March 2024",8:30,9:45,"Orlando, Florida USA UTC-4",John Quarles,Fantasia Ballroom H,
-TH1J,"Depth and Distance Perception","Thursday, 21 March 2024",8:30,9:45,"Orlando, Florida USA UTC-4",Guillaume Moreau,Fantasia Ballroom J,
-TH2G,"Touch, Tangible, and Gesture Interfaces","Thursday, 21 March 2024",10:15,11:15,"Orlando, Florida USA UTC-4",Rob Lindeman,Fantasia Ballroom G,
-TH2H,"Graphics and Crowds","Thursday, 21 March 2024",10:15,11:15,"Orlando, Florida USA UTC-4",Julien Pettre,Fantasia Ballroom H,
-TH2J,"Ethics in VR","Thursday, 21 March 2024",10:15,11:15,"Orlando, Florida USA UTC-4",Daniel Medeiros,Fantasia Ballroom J,
-TH3G,"Modeling and Simulation","Thursday, 21 March 2024",11:30,12:30,"Orlando, Florida USA UTC-4",Ben Lok,Fantasia Ballroom G,
-TH3H,"Software","Thursday, 21 March 2024",11:30,12:30,"Orlando, Florida USA UTC-4",Takefumi Hiraki,Fantasia Ballroom H,
-TH3J,"Localization and Tracking","Thursday, 21 March 2024",11:30,12:30,"Orlando, Florida USA UTC-4",Yuichi Hiroi,Fantasia Ballroom J,
-TH4G,"Education Applications","Thursday, 21 March 2024",13:30,15:00,"Orlando, Florida USA UTC-4",Pablo Figueroa,Fantasia Ballroom G,
-TH4H,"Virtual Interaction and Embodiment","Thursday, 21 March 2024",13:30,15:00,"Orlando, Florida USA UTC-4",Frank Steinicke,Fantasia Ballroom H,
-TH4J,"Locomotion and Navigation","Thursday, 21 March 2024",13:30,15:00,"Orlando, Florida USA UTC-4",Jerald Thomas,Fantasia Ballroom J,
+id,session,room,name,day
+0,1,A,"Avatar Representation",Monday
+1,1,B,"Perception",Monday
+2,1,C, XR technology infrastructure,Monday
+3,1,D, Tracking and sensing,Monday
+4,2,A,"Immersive Learning",Monday
+5,2,B, Redirection,Monday
+6,2,C, Multimodal Interaction and Audio Perception,Monday
+7,2,D,"Ethical",Monday
+8,3,B,"Co-Presence",Monday
+9,3,D, Haptic interfaces and rendering,Monday
+10,4,B, Immersive analytics and visualization,Monday
+11,4,C, Human factors and ergonomics,Monday
+12,4,D, Evaluation methods,Monday
+13,5,A, Navigation and Locomotion Strategies,Tuesday
+14,5,B, Modeling and simulation,Tuesday
+15,5,C, Collaborative interactions,Tuesday
+16,5,D, Input devices,Tuesday
+17,6,A, Spatial Experiences and AI-Driven Content Generation ,Tuesday
+18,6,B,"Virtual Agents",Tuesday
+19,6,C,"Exploring Perception",Tuesday
+20,6,D, Next-Generation Display Technologies and Visual Processing,Tuesday
+21,7,A, 3D user interfaces,Tuesday
+22,7,B,"Cognitive Load",Tuesday
+23,7,C, Therapy and rehabilitation,Tuesday
+24,7,D, Enhancing Immersive Experiences,Tuesday
+25,8,B, Visual Perception and Interaction,Tuesday
+26,8,D, Tactile interfaces and haptic feedback,Tuesday
+27,9,A, Immersive Experiences,Tuesday
+28,9,B, Perception and cognition,Tuesday
+29,9,C, Display Technologies and Rendering Techniques,Tuesday
+30,9,D,"Presence",Tuesday
+31,10,A,"Immersive Applications for Training",Wednesday
+32,10,B, Enhancing Interaction and Feedback in Virtual and Cross-Reality Systems,Wednesday
+33,10,C, Interactive Experience and System Usability,Wednesday
+34,10,D, 3D authoring,Wednesday
+35,11,A,"Perception",Wednesday
+36,11,B, Accessibility of immersive interfaces,Wednesday
+37,11,C,"Embodiment",Wednesday
+38,11,D, Social Interaction and Collaboration,Wednesday
+39,12,A, Cybersickness,Wednesday
+40,12,B, Locomotion and Spatial Awareness,Wednesday
+41,12,C, User experience and usability,Wednesday
+42,12,D, Teleoperation and telepresence,Wednesday
+43,13,B, Immersive applications and 3DUI,Wednesday
+44,13,D, Computer graphics techniques,Wednesday
