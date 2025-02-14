@@ -21,19 +21,20 @@ title_separator: "|"
         {% endfor %}
     </table> 
     <div>
-    <h2> Introduction <h2>
+    <h2> Introduction </h2>
     <p>We are delighted to invite you to the first edition of the XR Gallery at IEEEVR 2025. Our aim is to foster creative thought and discussion between artists and researchers while providing an exciting art exhibition and live performances during the conference. </p>
     <p>
-    The XR Gallery will have four main events:
-    <ul>
-        <li>Workshop - Edges of Reality: Bridging the gap between scientific research and immersive arts, designed to spark creative dialogue between artists and researchers </li>
-        <li>Exhibition - Artist will showcase stationary art pieces throughout the main conference</li>
-        <li>Performances - Interactive art performances which will be scheduled at specific times during the conference </li>
-        <li>Exhibit at the Welcome reception - The audience will be invited to a special showcasing of the art project “ReVerie” in the Amphitheatre during the conference’s welcome reception.  </li>
-    </ul>
+        The XR Gallery will have four main events:
+        <ul>
+            <li>Workshop - Edges of Reality: Bridging the gap between scientific research and immersive arts, designed to spark creative dialogue between artists and researchers </li>
+            <li>Exhibition - Artist will showcase stationary art pieces throughout the main conference</li>
+            <li>Performances - Interactive art performances which will be scheduled at specific times during the conference </li>
+            <li>Exhibit at the Welcome reception - The audience will be invited to a special showcasing of the art project “ReVerie” in the Amphitheatre during the conference’s welcome reception.  </li>
+        </ul>
     </p>
     </div>
-    <h2> Workshop <h2>
+    <div>
+    <h2> Workshop </h2>
     <p><b>Title: </b> <i>Edges of Reality: Bridging the gap between scientific research and immersive arts - XR Gallery Workshop </i></p>
     <p><b>Organiser: </b> XR Gallery Committee </p>
     <p>Emerging immersive technologies offer immense creative possibilities while also posing significant challenges by blurring the lines between fact and fiction, truth and fabrication. As our perception of reality undergoes an unprecedented transformation, we need new, creative ways to cope and reflect on these changes. </p>
