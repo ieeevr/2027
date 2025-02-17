@@ -102,12 +102,12 @@ id,session,room,type,presenter,ids,title
 100,6,D, , ,P1131, Slim Diffractive Waveguide Glasses for Beaming Displays with Enhanced Head Orientation Tolerance
 101,6,D, , ,P1155, LAPIG: Language Guided Projector Image Generation with Surface Adaptation and Stylization
 102,6,D, , ,P1548, Privacy-Enabled Parallax Display
-103,6D, Remote, ,P1391, Frequency-aware Uncertainty Gaussian Splatting for Dynamic Scene Reconstruction
+103,6,D, Remote, ,P1391, Frequency-aware Uncertainty Gaussian Splatting for Dynamic Scene Reconstruction
 105,7,A, , ,P2117, Beyond the Phone: Exploring Phone-XR Integration through Multi-View Transitions for Real-World Applications
 106,7,A, , ,P1204, Order Up! Multimodal Interaction Techniques for Notifications in Augmented Reality
 107,7,A, , ,P1335, SeamlessVR: Bridging the Immersive to Non-Immersive Visualization Divide
 108,7,A, , ,P1974, Evaluating 3D Visual Comparison Techniques for Change Detection in Virtual Reality
-109,7A, Remote (probably), ,P1225, FocalSelect: Improving Occluded Objects Acquisition with Heuristic Selection and Disambiguation in Virtual Reality
+109,7,A, Remote (probably), ,P1225, FocalSelect: Improving Occluded Objects Acquisition with Heuristic Selection and Disambiguation in Virtual Reality
 110,7,B, , ,P2355,"Predicting and Explaining Cognitive Load,  Attention,  and Working Memory in Virtual Multitasking"
 111,7,B, , ,P2367,"Immersion,  Attention,  and Collaboration in Spatial Computing: A Study on Work Performance with Apple Vision Pro"
 112,7,B, , ,P2370, Cognitive Load Inference Using Physiological Markers in Virtual Reality
@@ -136,13 +136,13 @@ id,session,room,type,presenter,ids,title
 135,9,A, , ,P1269, Visual Presentation Method for Paranormal Phenomena Through Binocular Rivalry Induced by Dichoptic Color Differences
 136,9,A, , ,P1985, Movement- and Traffic-based User Identification in Commercial Virtual Reality Applications: Threats and Opportunities
 137,9,A, , ,P2089, Evaluating the Impact of Immersiveness in Virtual Reality Simulations on Anxiety Reduction for MRI Procedures: A Preliminary Study
-138,9A, , Tobias Langlotz,P2137, From Picks to Pixels: An Exploration of Virtual Reality in Geoscience Education
+138,9,A, , Tobias Langlotz,P2137, From Picks to Pixels: An Exploration of Virtual Reality in Geoscience Education
 139,9,A, , ,P2300, Designing VR Music Game for Stress Reduction
 140,9,B, , ,P1101, Seeing is not Thinking: Testing Capabilities of VR to Promote Perspective-Taking
 141,9,B, , ,P1110, When Fear Overshadows Perceived Plausibility: The Influence of Incongruencies on Acrophobia in VR
 142,9,B, , ,P1111, Interpupillary to Inter-Camera Distance of Video See-Through AR and its Impact on Depth Perception
 143,9,B, , ,P1328, Brain Signatures of Time Perception in Virtual Reality
-144,9B, Remote, ,P1228, Adaptive Score Alignment Learning for Continual Perceptual Quality Assessment of 360-Degree Videos in Virtual Reality
+144,9,B, Remote, ,P1228, Adaptive Score Alignment Learning for Continual Perceptual Quality Assessment of 360-Degree Videos in Virtual Reality
 145,9,C, , ,P1574, Color Correction for Occlusion-Capable Optical See-Through Head-Mounted Displays by Using Phase-Modulation
 146,9,C, , ,P1620, SRBF-Gaussian: Streaming-Optimized 3D Gaussian Splatting
 147,9,C, , ,P2028, DPCS: Path Tracing-based Differentiable Projector-Camera Systems
@@ -150,9 +150,9 @@ id,session,room,type,presenter,ids,title
 149,9,C, , ,P2397, Silo: Half-Gigapixel Cylindrical Stereoscopic Immersive Display
 150,9,D, , ,P1510, Am I (Not) a Ghost? Leveraging Affordances to Study the Impact of Avatar/Interaction Coherence on Embodiment and Plausibility in Virtual Reality
 151,9,D, , ,P1177, Illuminating the Scene: How Virtual Environments and Learning Modes Shape Film Lighting Mastery in Virtual Reality
-152,9D, Remote, ,P1288, Tap into Reality: Understanding the Impact of Interactions on Presence and Reaction Time in Mixed Reality
-153,9D, Remote, ,P1289, Reaction Time as a Proxy for Presence in Mixed Reality Environments with Break-In Presence
-154,9D, Remote, ,P1737,"One Body,  But Four Hands: Exploring the Role of Virtual Hands in Virtual Co-embodiment"
+152,9,D, Remote, ,P1288, Tap into Reality: Understanding the Impact of Interactions on Presence and Reaction Time in Mixed Reality
+153,9,D, Remote, ,P1289, Reaction Time as a Proxy for Presence in Mixed Reality Environments with Break-In Presence
+154,9,D, Remote, ,P1737,"One Body,  But Four Hands: Exploring the Role of Virtual Hands in Virtual Co-embodiment"
 155,10,A, , ,P1728, AR Fitness Dog: The Effects of a User-Mimicking Interactive Virtual Pet on User Experience and Social Presence in Physical Exercise
 156,10,A, , ,P1864, PaRUS: A Virtual Reality Shopping Method Focusing on Contextual Information between Products and Real Usage Scenes
 157,10,A, , ,P1049, Enhancing Patient Acceptance of Robotic Ultrasound through Conversational Virtual Agent and Immersive Visualizations
@@ -182,7 +182,7 @@ id,session,room,type,presenter,ids,title
 181,11,B, , ,P1462, BoundaryScreen: Summoning the Home Screen in VR via Walking Outward
 182,11,B, , ,P2391, Comparing Vibrotactile and Skin-Stretch Haptic Feedback for Conveying Spatial Information of Virtual Objects to Blind VR Users
 183,11,B, , ,P2403, Exploring Aiming Techniques for Blind People in Virtual Reality
-184,11B, remote, ,P1461, SummonBrush: Enhancing Touch Interaction on Large XR User Interfaces by Augmenting Users Hands with Virtual Brushes
+184,11,B, remote, ,P1461, SummonBrush: Enhancing Touch Interaction on Large XR User Interfaces by Augmenting Users Hands with Virtual Brushes
 185,11,C, , ,PTVCG15, Utilizing Gaze-Contingent Rendering to Maintain Visual Attention in Educational VR
 186,11,C, , ,P1986,"The Hidden Face of the Proteus Effect: Deindividuation,  Embodiment and Identification"
 187,11,C, , ,P2177, Immersive Tailoring of Embodied Agents Using Large Language Models
