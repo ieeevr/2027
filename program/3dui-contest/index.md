@@ -65,7 +65,7 @@ title_separator: "|"
             </tr>
             <tr>
                 <td>Awards</td>
-                <td>Thursday,&nbsp;12&nbsp;March</td>                
+                <td>Wednesday,&nbsp;12&nbsp;March</td>                
                 <td>17:15&#8209;18:15</td>        
             </tr>
         </tbody>
