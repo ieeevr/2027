@@ -18,7 +18,7 @@ title_separator: "|"
            A more detailed view will be provided soon.<br>
            <span class="main_view"><hr></span>
            <div class="alignCenter main_view">Quick Links: <a href="#pre">Pre-Conference</a>&nbsp;&nbsp;<a href="#full"> Main Conference</a></div>
-           <div class="italic med" style="text-align: right;">Updated: December 19th, 2025 </div>
+           <div class="italic med" style="text-align: right;">Updated: December 19th, 2024 </div>
         </div>
     </div>
 	<div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap; margin-bottom: 20px;">
