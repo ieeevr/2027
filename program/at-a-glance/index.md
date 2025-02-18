@@ -24,7 +24,7 @@ title_separator: "|"
 	<div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap; margin-bottom: 20px;">
 		<img src="/2025/assets/images/program/overview.png" alt="Map of France with the main locations of the events in Rennes, St Malo and Mt St Michel." style="flex: 1 1 60%; max-width: 60%; height: auto;">
 	</div>
-    <div class="main_view">
+    <div>
         <h2 id="pre">Pre-Conference</h2>
 		<img style="width: 80%;" src="/2025/assets/images/program/Pre-conference.png" alt="Pre-conference program overview.">
         <!--<iframe src="{{"/assets/program/vr2025_overall_schedule-36-public-pre.pdf" | relative_url }}#zoom=40" 
