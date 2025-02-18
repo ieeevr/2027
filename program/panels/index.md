@@ -31,7 +31,13 @@ title_separator: "|"
     </p>
     <p>
         <strong>Panelists</strong><br />
-        {{ panel.panelists }}
+		<ul>
+		{% for panelist in site.data.panelists_{{ panel.name }} %}
+			<li>
+				<b>{{ panelist.name }}</b>: {{ panelist.description }}
+			</li>
+		{% endfor %}
+		</ul>
     </p>
 	<p>
         <strong>Technical background</strong><br />
