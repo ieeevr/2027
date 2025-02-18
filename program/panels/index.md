@@ -1,6 +1,6 @@
 ---
 layout: ieeevr-default
-title: "Visit to the Mont Saint Michel"
+title: "Panels"
 subtitle: "IEEE VR 2025"
 title_separator: "|"
 ---
@@ -27,12 +27,12 @@ title_separator: "|"
 	});
 </script>
 <div>
-	<h1>Optional visit to the Mont Saint Michel on Thursday 13th March, 2025<div class="floatRight"><span class="eventconductSm"></span></div></h1>
+	<h1>Mixed Reality Panel IEEE VR 2025</h1>
 	<div class="ieeevrmsgbox bold">
         <div class = "ieeevrmsgboxInside med">
 			To book your visit to Mont Saint-Michel, please follow these instructions and make your reservation before February 16, 2025:
 			<ul>
-				<li><a href="https://v4.event-vert.org/en/ieeevr2025/login.html" target="_blank">Click here</a> to log in to your profile page using your surname and registration reference (IEEEVR2025-xxx).</li>
+				<li>Log in to your profile page using your surname and registration reference (IEEEVR2025-xxx).</li>
 				<li>Click on the "Edit my visit options" button, select the number of tickets you need (€65 per person), and complete the payment online by credit card.</li>
 			</ul>
 			Please note that the number of places is limited.
