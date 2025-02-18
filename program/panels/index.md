@@ -19,3 +19,30 @@ title_separator: "|"
 		{% endfor %}
 	</table>
 </div>
+{% for panel in site.data.panels %}
+<br />
+<div id="{{ panel.id }}">
+    <center><strong><big>{{ panel.name }}</big></strong></center>
+    <br />
+    <center><small>{{ panel.day }}, {{ panel.start }} - {{ panel.end }} ({{ panel.timezone }})<br>Room: {{ panel.room }}</small></center>
+    <p>
+        <strong>Presentation</strong><br />
+        {{ panel.presentation }}
+    </p>
+    <p>
+        <strong>Panelists</strong><br />
+		<ul>
+		{% for panelist in site.data.panelists_{{ panel.name }} %}
+			<li>
+				<b>{{ panelist.name }}</b>: {{ panelist.description }}
+			</li>
+		{% endfor %}
+		</ul>
+    </p>
+	<p>
+        <strong>Technical background</strong><br />
+        {{ panel.technicalbackground }}
+    </p>
+    <hr>
+</div>
+{% endfor %}
