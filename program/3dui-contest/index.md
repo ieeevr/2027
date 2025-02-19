@@ -39,7 +39,7 @@ title_separator: "|"
     <table class="program-table">
         <thead>
             <tr>
-                <th colspan="4">3DUI&nbsp;Contest&nbsp;Schedule (Timezone: Saint-Malo, France UTC+1)</th>
+                <th colspan="4">3DUI Contest Schedule (Timezone: Saint-Malo, France UTC+1)</th>
             </tr>
         </thead>
         <tbody>           
