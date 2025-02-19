@@ -53,19 +53,19 @@ title_separator: "|"
                 <td>3DUI&nbsp;Contest Booths&nbsp;Open</td>
                 <td>Monday,&nbsp;10&nbsp;March</td>                
                 <td>16:15&#8209;17:00</td>       
-                <td style="width:25%">Room:&nbsp;Surcouf,&nbsp;Cézembre,&nbsp;Vauban</td>      
+                <td style="width:25%">Room:&nbsp;Vauban</td>      
             </tr>            
              <tr>
                 <td>3DUI&nbsp;Contest Booths&nbsp;Open</td>
                 <td>Tuesday,&nbsp;11&nbsp;March</td>                
                 <td>9:30&#8209;10:00, 13:15&#8209;14:00, 15:15&#8209;17:15</td>       
-                <td style="width:25%">Room:&nbsp;Surcouf,&nbsp;Cézembre,&nbsp;Vauban</td>    
+                <td style="width:25%">Room:&nbsp;Vauban</td>    
             </tr>
             <tr>
                 <td>3DUI&nbsp;Contest Booths&nbsp;Open</td>
                 <td>Wednesday,&nbsp;12&nbsp;March</td>                
                 <td>9:30&#8209;10:00, 13:15&#8209;14:00</td>       
-                <td style="width:25%">Room:&nbsp;Surcouf,&nbsp;Cézembre,&nbsp;Vauban</td>    
+                <td style="width:25%">Room:&nbsp;Vauban</td>    
             </tr>
             <tr>
                 <td>Awards</td>
