@@ -17,7 +17,7 @@ title_separator: "|"
                 <td>
                     {% for a in site.data.awards %}  
                         {% if a.type == 'Demo' %}
-                            {% if a.id == demo.id %}
+                            {% if a.id == demo.demoid %}
                                 {% if a.award == 'Best Demo' %}
                                     <a href="{{ "/awards/conference-awards" | relative_url }}#demo-best"><img src= "{{ "/assets/images/awards/best.png" | relative_url }}" title="Best Research Demo Award" alt="Best Research Demo Award"></a>
                                 {% endif %}                                                    
@@ -28,7 +28,7 @@ title_separator: "|"
                         {% endif %}
                     {% endfor %}
                 </td>
-                <td class="medLarge"><a href="#{{ demo.id }}">{{ demo.title }} (ID:&nbsp;{{ demo.id }})</a></td>
+                <td class="medLarge"><a href="#{{ demo.demoid }}">{{ demo.title }} (ID:&nbsp;{{ demo.demoid }})</a></td>
             </tr>
         {% endfor %}
     </table>
@@ -59,7 +59,7 @@ title_separator: "|"
         {% assign j = j | plus:1 %}
         <!--{% for a in site.data.awards %}  
             {% if a.type == 'Demo' %}
-                {% if a.id == demo.id %}
+                {% if a.id == demo.demoid %}
                     {% if a.award == 'Best Demo' %}
                         <div class="align-left"><a href="{{ "/awards/conference-awards" | relative_url }}#demo-best"><img src= "{{ "/assets/images/awards/best.png" | relative_url }}" title="Best Research Demo Award" alt="Best Research Demo Award"></a></div>
                     {% endif %}                                                    
@@ -69,8 +69,8 @@ title_separator: "|"
                 {% endif %}
             {% endif %}
         {% endfor %}-->
-        <p class="medLarge" id="{{ demo.id }}" style="margin-bottom: 0.3em;">
-            <strong>{{ demo.title }} </strong><!--(ID:{{ demo.demoid }})-->
+        <p class="medLarge" id="{{ demo.demoid }}" style="margin-bottom: 0.3em;">
+            <strong>{{ demo.title }} </strong> (ID:{{ demo.demoid }})
         </p>
         <p>
         Hall: {{ demo.hall}}, Booth ID : {{demo.booth}}
