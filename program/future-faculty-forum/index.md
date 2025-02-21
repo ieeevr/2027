@@ -94,7 +94,7 @@ title_separator: "|"
         <tr>
             <td class="bold">10:45</td>
             <td class="bold">11:45</td>
-            <td class="bold">Tutorial: Review and Critique of Application Materials (Research, Teaching, and Diversity Statements) </td>
+            <td class="bold">Tutorial: Professor Application Process</td>
         </tr>       
         <tr>
             <td class="bold">11:45</td>
@@ -109,7 +109,7 @@ title_separator: "|"
         <tr>
             <td class="bold">14:00</td>
             <td class="bold">15:00</td>
-            <td class="bold">Tutorial: Professor Application Process</td>
+            <td class="bold">Tutorial: Review and Critique of Application Materials (Research, Teaching, and Diversity Statements)</td>
         </tr>       
         <tr>
             <td class="bold">15:00</td>
