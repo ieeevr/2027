@@ -19,13 +19,13 @@ title_separator: "|"
     </div>
     <div>
         <h2 id="ground">Ground level</h2>
-		<img style="width: 80%;" src="/2025/assets/images/ground.jpg" alt="Layout of the ground level.">
+		<img style="width: 80%;" src="/2025/assets/maps/ground.jpg" alt="Layout of the ground level.">
         <h2 id="first">First level</h2>
-		<img style="width: 80%;" src="/2025/assets/images/level1.jpg" alt="Layout of the first level.">
+		<img style="width: 80%;" src="/2025/assets/maps/level1.jpg" alt="Layout of the first level.">
         <h2 id="second">Second level</h2>
-		<img style="width: 80%;" src="/2025/assets/images/level2.jpg" alt="Layout of the second level.">
+		<img style="width: 80%;" src="/2025/assets/maps/level2.jpg" alt="Layout of the second level.">
         <h2 id="third">Third level</h2>
-		<img style="width: 80%;" src="/2025/assets/images/level3.jpg" alt="Layout of the third level.">
+		<img style="width: 80%;" src="/2025/assets/maps/level3.jpg" alt="Layout of the third level.">
     </div>
 </div>
 
