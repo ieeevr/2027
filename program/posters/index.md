@@ -8,7 +8,7 @@ title_separator: "|"
 
 <h1>Posters</h1>
 <div>
-<p> <b>Each day, talk with the authors: 9:30‑10:00, 13:15‑14:00, 16:15‑17:15 (Timezone: Saint-Malo, France UTC+1)</b> </p>
+<p> <b>Each day, talk with the authors: 9:15‑9:45, 13:00‑13:45, 16:00‑17:00 (Timezone: Saint-Malo, France UTC+1)</b> </p>
     <table class="styled-table">
         <tr>
             {% for day in site.data.postersDays %}
@@ -75,6 +75,37 @@ title_separator: "|"
                         </div>                           
                         {% endif %}
                     </div>
+                {% endif %}
+            {% endfor %}            
+            {% assign j = 0 %}
+            {% for poster in site.data.postersDC %}
+                {% if poster.PosterCategory == cat.name %}
+                    {% if j == 0 %}
+                        {% assign j = 1 %}
+                        <h3> Doctoral Consortium Posters </h3>
+                    {% endif %}
+                    {% for dc in site.data.dc %}
+                        {% if dc.id == poster.id %}
+                            <div style="margin-left: 25px;">                                  
+                                <p class="medLarge" id="{{ paper.id }}" style="margin-bottom: 0.3em;">
+                                    <strong>{{ poster.title }} (Booth ID: {{ poster.BoothID }}) </strong>
+                                </p>
+                                <p class="font_70">
+                                    <span class="bold">{{ dc.name | strip }}</span>, <i>{{ dc.affiliation | strip }}</i><br />
+                                </p>
+                                {% if poster.abstract %}
+                                    <div id="abstract_{{ poster.BoothID }}" class="wrap-collabsible" style="margin-top: 0px; padding-top: 0px; margin-bottom: 0px;"> <input id="collapsibleabstract{{ poster.BoothID }}" class="toggle" type="checkbox"> 
+                                        <label for="collapsibleabstract{{ poster.BoothID }}" class="lbl-toggle">Abstract</label>
+                                        <div class="collapsible-content">
+                                            <div class="content-inner">
+                                                <p>{{ poster.abstract }}</p>
+                                            </div>
+                                        </div>
+                                    </div>   
+                                {% endif %}
+                            </div>                    
+                        {% endif %}
+                    {% endfor %}
                 {% endif %}
             {% endfor %}
         {% endfor %}
