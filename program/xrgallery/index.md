@@ -8,6 +8,12 @@ title_separator: "|"
 
 <div>
     <h1 id="call-for-art"> XR Gallery </h1>
+	<div class="ieeevrmsgbox bold alignCenter">
+        <div class = "ieeevrmsgboxInside med">
+			<!--<img src="/2025/assets/images/program/overview.png" alt="Program overview. It is separated into three main parts: 1. Pre-conference event, 2. Conference, 3.Post-conference event">-->
+           Ars Electronica will be on site to identify works that can be proposed to the curatorial team to be reviewed for invitation to the Ars Electronica festival.
+        </div>
+    </div>
       <table class="styled-table">
         <tr>
             <th colspan="4">Exhibit : Monday 10th (9:30 AM) to Wednesday 12th (3PM) (Timezone: (Saint-Malo, France UTC+1))</th>
