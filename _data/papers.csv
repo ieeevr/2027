@@ -76,7 +76,7 @@ id,session,room,type,presenter,ids,title
 74,5,B, , ,PTVCG8, EventPointMesh: Human Mesh Recovery Solely From Event Point Clouds
 75,5,C, , ,P1234, Environment Spatial Restitution for Remote Physical AR Collaboration
 76,5,C, , ,P1738, Do We Still Need Human Instructors? Investigating Automated Methods for Motor Skill Learning in Virtual Co-embodiment
-77,5,C, , ,P1836, Just stop doing everything for now!'': Understanding security attacks in remote collaborative mixed-reality
+77,5,C, , ,P1836, Just stop doing everything for now!: Understanding security attacks in remote collaborative mixed-reality
 78,5,C, , ,P1858, Investigating the Influence of Playback Interactivity during Guided Tours for Asynchronous Collaboration in Virtual Reality
 79,5,C, , ,P1890, TeamPortal: Exploring Virtual Reality Collaboration Through Shared and Manipulating Parallel Views
 80,5,D, , ,P1425, CoordAuth: Hands-Free Two-Factor Authentication in Virtual Reality Leveraging Head-Eye Coordination
@@ -172,7 +172,7 @@ id,session,room,type,presenter,ids,title
 171,10,D, , ,P1241, GO-NeRF: Generating Objects in Neural Radiance Fields for Virtual Reality Content Creation
 172,10,D, , ,P1499, Which Side is the Top? A User Study to Compare Visual Assets for Component Orientation in Assembly with Augmented Reality
 173,10,D, , ,P1066, Usability Evaluation of Integrated and Separated Interfaces in an Immersive Authoring Tool based on Panoramic Videos
-174,10,D, , ,P1992, Virtual Reality Impacts on Novice Programmersâ€™ Self-efficacy
+174,10,D, , ,P1992, Virtual Reality Impacts on Novice Programmers' Self-efficacy
 175,11,A, , ,P1563, A Comparison of the Effects of Older Age on Homing Performance in Real and Virtual Environments
 176,11,A, , ,P1702,"Sensitivity to Redirected Walking Considering Gaze,  Posture,  and Luminance"
 177,11,A, , ,P1815, When Flames Feel Real in Augmented Reality: Effects of Plausibility and Placement of Virtual Flames on the Burning Hand Illusion and Physiological Responses
@@ -210,7 +210,7 @@ id,session,room,type,presenter,ids,title
 210,12,D, , ,P1518, Intuitive Visual Feedback in Virtual Reality for the Teleoperation of Robots
 211,12,D, , ,P1648, MRUnion: Asymmetric Task-Aware 3D Mutual Scene Generation of Dissimilar Spaces for Mixed Reality Telepresence
 212,12,D, , ,P1676, Influence of Audiovisual Realism on Communication Behaviour in Group-to-Group Telepresence
-213,12,D, , ,P2026, VASA-Rig: Audio-Driven 3D Facial Animation with `Live&#39; Mood Dynamics in Virtual Reality
+213,12,D, , ,P2026, VASA-Rig: Audio-Driven 3D Facial Animation with 'Live' Mood Dynamics in Virtual Reality
 214,12,D, , ,P2305, SensARy Substitution: Augmented Reality Techniques to Enhance Force Perception in Touchless Robot Control
 215,13,B, , ,P2350, Investigating the Impact of Voice-only and Embodied Conversational Virtual Agents on Mixed Reality Puzzle Solving
 216,13,B, , ,P2124, ResponsiveView: Enhancing 3D Artifact Viewing Experience in VR Museums
