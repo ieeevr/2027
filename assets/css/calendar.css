@@ -17,41 +17,39 @@
         grid-gap: .3em;
         grid-template-rows:
         [tracks] auto 
-        [time-0730] 0.25fr [time-0745] 0.25fr
         [time-0800] 0.25fr [time-0815] 0.25fr [time-0830] 0.25fr [time-0845] 0.25fr 
         [time-0900] 0.25fr [time-0915] 0.25fr [time-0930] 0.25fr [time-0945] 0.25fr 
-        [time-1000] auto [time-1030] 0.25fr [time-1045] 0.25fr 
+        [time-1000] 0.1fr [time-1015] auto [time-1045] 0.1fr 
         [time-1100] 0.25fr [time-1115] 0.25fr [time-1130] 0.25fr [time-1145] 0.25fr 
-        [time-1200] 1.0fr 
-        [time-1330] 0.25fr [time-1345] 0.25fr 
+		[time-1200] 0.25fr [time-1215] 0.25fr [time-1230] auto 
         [time-1400] 0.25fr [time-1415] 0.25fr [time-1430] 0.25fr [time-1445] 0.25fr             
-        [time-1500] 0.25fr [time-1515] 0.25fr [time-1530] auto
-        [time-1600] 0.25fr [time-1615] 0.25fr [time-1630] 0.25fr [time-1645] 0.25fr 
-        [time-1700] 0.25fr [time-1715] 0.25fr [time-1730];
+        [time-1500] 0.25fr [time-1515] 0.25fr [time-1530] 0.25fr [time-1545] auto
+		[time-1600] auto [time-1615] 0.25fr [time-1630] 0.25fr [time-1645] 0.25fr 
+        [time-1700] 0.25fr [time-1715] 0.25fr [time-1730] 0.25fr [time-1745] 0.25fr
+        [time-1800] auto [time-1830];
         
         grid-template-columns:
-        [times] 2.1em [track-0-start] 1.5em [track-0-end track-1-start] .2fr [track-1-end track-2-start] .2fr [track-2-end track-3-start] .2fr [track-3-end track-4-start] .2fr [track-4-end track-5-start] .2fr [track-5-end track-6-start] .2fr [track-6-end track-7-start] .2fr [track-7-end track-8-start] .2fr [track-8-end];
-   }
+        [times] 2.1em [track-0-start] 1.5em [track-0-end track-1-start] .2fr [track-1-end track-2-start] .2fr [track-2-end track-3-start] .2fr [track-3-end track-4-start] .2fr [track-4-end track-5-start] .2fr [track-5-end track-6-start] .2fr [track-6-end track-7-start] .2fr [track-7-end track-8-start] .2fr [track-8-end track-9-start] .2fr [track-9-end track-10-start] .2fr [track-10-end track-11-start] .2fr [track-11-end];
+    }
 
     .schedule-sun {
         display: grid;
         grid-gap: .3em;
         grid-template-rows:
-            [tracks] auto 
-            [time-0730] 0.25fr [time-0745] 0.25fr
-            [time-0800] 0.25fr [time-0815] 0.25fr [time-0830] 0.25fr [time-0845] 0.25fr 
-            [time-0900] 0.25fr [time-0915] 0.25fr [time-0930] 0.25fr [time-0945] 0.25fr 
-            [time-1000] auto [time-1030] 0.25fr [time-1045] 0.25fr 
-            [time-1100] 0.25fr [time-1115] 0.25fr [time-1130] 0.25fr [time-1145] 0.25fr 
-            [time-1200] 0.25fr [time-1230] 0.25fr 
-            [time-1300] 0.25fr [time-1330] 0.25fr [time-1345] 0.25fr 
-            [time-1400] 0.25fr [time-1415] 0.25fr [time-1430] 0.25fr [time-1445] 0.25fr             
-            [time-1500] 0.25fr [time-1515] 0.25fr [time-1530] auto
-            [time-1600] 0.25fr [time-1615] 0.25fr [time-1630] 0.25fr [time-1645] 0.25fr 
-            [time-1700] 0.25fr [time-1715] 0.25fr [time-1730];
+        [tracks] auto 
+        [time-0800] 0.25fr [time-0815] 0.25fr [time-0830] 0.25fr [time-0845] 0.25fr 
+        [time-0900] 0.25fr [time-0915] 0.25fr [time-0930] 0.25fr [time-0945] 0.25fr 
+        [time-1000] 0.1fr [time-1015] auto [time-1045] 0.1fr 
+        [time-1100] 0.25fr [time-1115] 0.25fr [time-1130] 0.25fr [time-1145] 0.25fr 
+		[time-1200] 0.25fr [time-1215] 0.25fr [time-1230] auto 
+        [time-1400] 0.25fr [time-1415] 0.25fr [time-1430] 0.25fr [time-1445] 0.25fr             
+        [time-1500] 0.25fr [time-1515] 0.25fr [time-1530] 0.25fr [time-1545] auto
+		[time-1600] auto [time-1615] 0.25fr [time-1630] 0.25fr [time-1645] 0.25fr 
+        [time-1700] 0.25fr [time-1715] 0.25fr [time-1730] 0.25fr [time-1745] 0.25fr
+        [time-1800];
         
         grid-template-columns:
-        [times] 2.1em [track-0-start] 1.5em [track-0-end track-1-start] .2fr [track-1-end track-2-start] .2fr [track-2-end track-3-start] .2fr [track-3-end track-4-start] .2fr [track-4-end track-5-start] .2fr [track-5-end track-6-start] .2fr [track-6-end track-7-start] .2fr [track-7-end track-8-start] .2fr [track-8-end];
+        [times] 2.1em [track-0-start] 1.5em [track-0-end track-1-start] .2fr [track-1-end track-2-start] .2fr [track-2-end track-3-start] .2fr [track-3-end track-4-start] .2fr [track-4-end track-5-start] .2fr [track-5-end track-6-start] .2fr [track-6-end track-7-start] .2fr [track-7-end track-8-start] .2fr [track-8-end track-9-start] .2fr [track-9-end track-10-start] .2fr [track-10-end];
     }
     
     .schedule-mon {
@@ -69,11 +67,11 @@
             [time-1500] 0.4fr [time-1515] 0.4fr [time-1530] 0.4fr [time-1545] 0.4fr 
             [time-1600] 0.4fr [time-1615] 0.4fr [time-1630] 0.4fr [time-1645] 0.4fr 
             [time-1700] 0.4fr [time-1715] 0.4fr [time-1730] 0.4fr [time-1745] 0.4fr 
-            [time-1800] 0.4fr [time-1815] 0.4fr [time-1830] 0.4fr [time-1845] 0.4fr 
-            [time-1900];
+            [time-1800] 0.4fr [time-1815] 0.4fr [time-1830] 0.4fr [time-1845] auto
+            [time-2045];
 
             grid-template-columns:
-            [times] 2.1em [track-0-start] 1.5em [track-0-end track-1-start] .5fr [track-1-end track-2-start] .5fr [track-2-end track-3-start] .5fr [track-3-end track-4-start] .4fr  [track-4-end];
+            [times] 2.1em [track-0-start] 1.5em [track-0-end track-1-start] .2fr [track-1-end track-2-start] .2fr [track-2-end track-3-start] .2fr [track-3-end track-4-start] .2fr [track-4-end track-5-start] .2fr [track-5-end track-6-start] .2fr [track-6-end track-7-start] .2fr [track-7-end];
     }
     
     .schedule-tue {
@@ -90,11 +88,13 @@
             [time-1400] 0.4fr [time-1415] 0.4fr [time-1430] 0.4fr [time-1445] 0.4fr             
             [time-1500] 0.4fr [time-1515] 0.4fr [time-1530] 0.4fr [time-1545] 0.4fr 
             [time-1600] 0.4fr [time-1615] 0.4fr [time-1630] 0.4fr [time-1645] 0.4fr 
-            [time-1700] 0.4fr [time-1715] 0.4fr [time-1730] 0.4fr;             
+            [time-1700] 0.4fr [time-1715] 0.4fr [time-1730] 0.4fr [time-1745] 0.4fr 
+            [time-1800] 0.4fr [time-1815] 0.4fr [time-1830] 0.4fr [time-1845] 0.4fr 
+            [time-1900] 0.4fr [time-1915] auto [time-2315];       
 
             grid-template-columns:
-            [times] 2.1em [track-0-start] 1.5em [track-0-end track-1-start] .5fr [track-1-end track-2-start] .5fr [track-2-end track-3-start] .5fr [track-3-end track-4-start] .4fr  [track-4-end];
-        }
+            [times] 2.1em [track-0-start] 1.5em [track-0-end track-1-start] .2fr [track-1-end track-2-start] .2fr [track-2-end track-3-start] .2fr [track-3-end track-4-start] .2fr [track-4-end track-5-start] .2fr [track-5-end track-6-start] .2fr [track-6-end track-7-start] .2fr [track-7-end];
+    }
     
     .schedule-wed {
         display: grid;
@@ -116,8 +116,8 @@
             [time-2000] 0.4fr [time-2015] 0.4fr [time-2030] 0.4fr [time-2045] 0.4fr [time-2100];
            
             grid-template-columns:
-            [times] 2.1em [track-0-start] 1.5em [track-0-end track-1-start] .5fr [track-1-end track-2-start] .5fr [track-2-end track-3-start] .5fr [track-3-end track-4-start] .4fr  [track-4-end];
-        }
+            [times] 2.1em [track-0-start] 1.5em [track-0-end track-1-start] .2fr [track-1-end track-2-start] .2fr [track-2-end track-3-start] .2fr [track-3-end track-4-start] .2fr [track-4-end track-5-start] .2fr [track-5-end track-6-start] .2fr [track-6-end track-7-start] .2fr [track-7-end];
+    }
     
     .schedule-thu {
         display: grid;
