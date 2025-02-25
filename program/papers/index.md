@@ -44,7 +44,7 @@ title_separator: "|"
                             <b>{{ paper.title }}</b>
                         </p>
                         {% for acpaper in site.data.acceptedpaperstvcg %}  
-                            {% if acpaper.ids == paper.ids  %} 
+                            {% if acpaper.ids == paper.id  %} 
                                 <div>
                                     <p class="font_70">
                                     <span class="bold">{{ acpaper.contactauthor }}</span>
@@ -63,7 +63,7 @@ title_separator: "|"
                             {% endif %}
                         {% endfor %}
                         {% for acpaper in site.data.acceptedpapers %}    
-                            {% if acpaper.ids == paper.ids  %} 
+                            {% if acpaper.ids == paper.id  %} 
                                 <div><p class="font_70">
                                 {% assign authornames = acpaper.affiliations | split: "," %}
                                 {% for name in authornames %}

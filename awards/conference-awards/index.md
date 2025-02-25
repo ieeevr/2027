@@ -13,9 +13,9 @@ title: "Awards"
         $(".awardsSm").html("<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>"); 
 	});
 </script>
-<h1>Conference Awards Committee IEEE VR 2025 <div class="floatRight"><span class="awardsSm"></span></div></h1>
+<h1>Conference Awards IEEE VR 2025 <div class="floatRight"><span class="awardsSm"></span></div></h1>
 
-<h2>Chairs</h2>
+<h2>Awards Chairs</h2>
 <ul>
     <li>Kiyoshi Kiyokawa ‒ Nara Institute of Science and Technology, Japan</li>
     <li>Frank Steinicke ‒ Universität Hamburg, Germany</li>
