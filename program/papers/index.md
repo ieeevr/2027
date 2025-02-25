@@ -1,7 +1,7 @@
 ---
 layout: ieeevr-default
 title: "Papers"
-subtitle: "IEEE VR 2024"
+subtitle: "IEEE VR 2025"
 title_separator: "|"
 ---
 <h1>Papers</h1>
@@ -39,12 +39,12 @@ title_separator: "|"
             <h2 id="{{ session.id }}" class="pink" style="padding-top:25px;">Session: {{ session.name }} ({{ session.session }} - {{ session.room }})</h2>
             {% for paper in site.data.papers %}                 
                 {% if session.session == paper.session %}
-                    {% if paper.room == session.room %}   
+                    {% if paper.room == session.letter %}   
                         <p class="medLarge" id="paper_{{ paper.id }}" style="margin-bottom: 0.3em;">
                             <b>{{ paper.title }}</b>
                         </p>
                         {% for acpaper in site.data.acceptedpaperstvcg %}  
-                            {% if acpaper.ids == paper.id  %} 
+                            {% if acpaper.ids == paper.ids  %} 
                                 <div>
                                     <p class="font_70">
                                     <span class="bold">{{ acpaper.contactauthor }}</span>
@@ -63,19 +63,19 @@ title_separator: "|"
                             {% endif %}
                         {% endfor %}
                         {% for acpaper in site.data.acceptedpapers %}    
-                            {% if acpaper.ids == paper.id  %} 
+                            {% if acpaper.ids == paper.ids  %} 
                                 <div><p class="font_70">
-                                {% assign authornames = acpaper.affiliations | split: "," %}
-                                {% for name in authornames %}
-                                    {% assign barename = name | split: ":" %}
-                                    {% for n in barename %}
-                                        {% if n == barename.last %}
-                                            <i>{{ n | strip }}{% if name == authornames.last %}{% else %};{% endif %}</i>
-                                        {% else %}                            
-                                            <span class="bold">{{ n | strip }},</span>
-                                        {% endif %}
-                                    {% endfor %} 
-                                {% endfor %}
+                                    {% assign authornames = acpaper.affiliations | split: "," %}
+                                    {% for name in authornames %}
+                                        {% assign barename = name | split: ":" %}
+                                        {% for n in barename %}
+                                            {% if n == barename.last %}
+                                                <i>{{ n | strip }}{% if name == authornames.last %}{% else %};{% endif %}</i>
+                                            {% else %}                            
+                                                <span class="bold">{{ n | strip }},</span>
+                                            {% endif %}
+                                        {% endfor %} 
+                                    {% endfor %}
                                 </p></div>
                                 {% if acpaper.abstract %}
                                     <div id="{{ acpaper.ids }}" class="wrap-collabsible"> <input id="collapsibleabstract{{ acpaper.ids }}" class="toggle" type="checkbox"> 
