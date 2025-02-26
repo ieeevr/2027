@@ -954,14 +954,14 @@ title_separator: "|"
             <div class="session track-all" style="grid-column: track-1-start / track-4-end; grid-row: time-0930 / time-0945;">
                 <span class="session-title">Cushion Break (Not Catered): 9:30-9:45</span>
             </div> 
-            <p class="time-slot" style="grid-row: time-1000;">9:45</p>
+            <p class="time-slot" style="grid-row: time-0945;">9:45</p>
             <div class="session track-keynote" style="grid-column: track-1-start / track-4-end; grid-row: time-0945 / time-1045;">
                 <span class="session-title">Keynote Speaker<br/><a href="{{ '/program/keynote-speakers/' | relative_url }}#keynote-george">George Drettakis</a></span>                
                 <span class="session-title"><a href="{{ '/program/keynote-speakers/' | relative_url }}#keynote-george">The 3D Gaussian Splatting Adventure: Past, Present and Future</a></span>
                 <span class="session-time">9:45-10:45</span>   
                 <span class="session-time">Room: Chateaubriand</span>             
             </div> 
-            <p class="time-slot" style="grid-row: time-1100;">11:00</p>  
+            <p class="time-slot" style="grid-row: time-1045;">10:45</p>  
             <div class="session track-all" style="grid-column: track-1-start / track-4-end; grid-row: time-1045 / time-1115;">
                 <span class="session-title">Break (Catered): 10:45-11:15&nbsp;&nbsp;</span><br>
                 <span class="session-time">Room: Rotondes Grand large, Surcouf & Cézembre</span>
