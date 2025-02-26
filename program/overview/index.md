@@ -558,10 +558,10 @@ title_separator: "|"
         <h4 id="day2">Sunday, 9 March 2025</h4> 
         <div class="schedule-sun" aria-labelledby="Sunday, 9 March 2029 - Workshop Schedule">  
 <!-- SUNDAY Morning (Part 1) -->
-        <p class="time-slot" style="grid-row: time-0800;">8:00</p> 
-            <div class="session track-registration" style="grid-column: track-0; grid-row: time-0800 / time-1600;">  
+        <p class="time-slot" style="grid-row: time-0800;">7:45</p> 
+            <div class="session track-registration" style="grid-column: track-0; grid-row: time-0745 / time-1600;">  
                 <div class="rotate_reg">             
-                    <span class="session-title">Registration:&nbsp;8:00&#8209;16:00&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <span class="session-title">Registration:&nbsp;7:45&#8209;16:00&nbsp;&nbsp;&nbsp;&nbsp;</span>
                 </div>
             </div>   
             <p class="time-slot" style="grid-row: time-0830;">8:30</p>                         
@@ -938,10 +938,10 @@ title_separator: "|"
     <div>
         <h4 id="day3">Monday, 10 March 2025</h4>
         <div class="schedule-mon" aria-labelledby="Monday, 10 March 2025 - Main Conference">  
-            <p class="time-slot" style="grid-row: time-0800;">8:00</p> 
-            <div class="session track-registration" style="grid-column: track-0; grid-row: time-0800 / time-1830;"> 
+            <p class="time-slot" style="grid-row: time-0745;">7:45</p> 
+            <div class="session track-registration" style="grid-column: track-0; grid-row: time-0745 / time-1830;"> 
                 <div class="rotate_reg">             
-                    <span class="session-title">Registration:&nbsp;8:00&#8209;18:30&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <span class="session-title">Registration:&nbsp;7:45&#8209;18:30&nbsp;&nbsp;&nbsp;&nbsp;</span>
                 </div>
             </div>
             <p class="time-slot" style="grid-row: time-0830;">8:30</p>
@@ -1160,10 +1160,10 @@ title_separator: "|"
     <div>
         <h4 id="day4">Tuesday, 19 March 2025</h4>
         <div class="schedule-tue" aria-labelledby="Tuesday, 19 March 2025 - Main Conference">   
-            <p class="time-slot" style="grid-row: time-0800;">8:00</p> 
-            <div class="session track-registration" style="grid-column: track-0; grid-row: time-0800 / time-1600;">            
+            <p class="time-slot" style="grid-row: time-0745;">7:45</p> 
+            <div class="session track-registration" style="grid-column: track-0; grid-row: time-0745 / time-1600;">            
                 <div class="rotate_reg">             
-                    <span class="session-title">Registration:&nbsp;8:00&#8209;16:00&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <span class="session-title">Registration:&nbsp;7:45&#8209;16:00&nbsp;&nbsp;&nbsp;&nbsp;</span>
                 </div>  
             </div> 
             <p class="time-slot" style="grid-row: time-0830;">8:30</p>
@@ -1434,10 +1434,10 @@ title_separator: "|"
         <h4 id="day5">Wednesday, 12 March 2025</h4>
         <div class="schedule-wed" aria-labelledby="Wednesday, 12 March 2025 - Main Conference">   
 <!-- WEDNESDAY Morning (Part 1) -->
-            <p class="time-slot" style="grid-row: time-0800;">8:00</p> 
-            <div class="session track-registration" style="grid-column: track-0; grid-row: time-0800 / time-1600;">            
+            <p class="time-slot" style="grid-row: time-0745;">7:45</p> 
+            <div class="session track-registration" style="grid-column: track-0; grid-row: time-0745 / time-1600;">            
                 <div class="rotate_reg">             
-                    <span class="session-title">Registration:&nbsp;8:00&#8209;16:00&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <span class="session-title">Registration:&nbsp;7:45&#8209;16:00&nbsp;&nbsp;&nbsp;&nbsp;</span>
                 </div>  
             </div> 
             <p class="time-slot" style="grid-row: time-0830;">8:30</p>
