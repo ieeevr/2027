@@ -4,7 +4,7 @@ title: "Program Overview"
 subtitle: "IEEE VR 2025"
 title_separator: "|"
 ---
-<link rel="stylesheet" href="{{ '/assets/css/calendar.css' | relative_url }}?version=20240318">
+<link rel="stylesheet" href="{{ '/assets/css/calendar.css' | relative_url }}?version=20250226">
     
 <script>
     const days = ["Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"];
@@ -1158,8 +1158,8 @@ title_separator: "|"
     </div>
 <!-- TUESDAY Morning (Part 1) -->
     <div>
-        <h4 id="day4">Tuesday, 19 March 2024</h4>
-        <div class="schedule-tue" aria-labelledby="Tuesday, 19 March 2024 - Main Conference">   
+        <h4 id="day4">Tuesday, 19 March 2025</h4>
+        <div class="schedule-tue" aria-labelledby="Tuesday, 19 March 2025 - Main Conference">   
             <p class="time-slot" style="grid-row: time-0800;">8:00</p> 
             <div class="session track-registration" style="grid-column: track-0; grid-row: time-0800 / time-1600;">            
                 <div class="rotate_reg">             
