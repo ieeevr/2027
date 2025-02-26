@@ -951,20 +951,9 @@ title_separator: "|"
                 <span class="session-time">Room: Chateaubriand</span>
             </div>            
             <p class="time-slot" style="grid-row: time-0930;">9:30</p>
-            <div class="session track-all" style="grid-column: track-1-start / track-4-end; grid-row: time-0930 / time-1000;">
-                <span class="session-title">Break (Catered): 9:30-10:00&nbsp;&nbsp;</span><br>
-                <span class="session-time">Room: Rotondes Grand large, Surcouf & Cézembre</span>
+            <div class="session track-all" style="grid-column: track-1-start / track-4-end; grid-row: time-0930 / time-0945;">
+                <span class="session-title">Cushion Break (Not Catered): 9:30-9:45</span>
             </div> 
-            <div class="session track-pd3dui" style="grid-column: track-5; grid-row: time-0930 / time-1000;">
-                <span class="session-title"><a href="{{ '/program/posters/' | relative_url }}">Posters</a></span>
-                <span class="session-time">9:30-10:00</span>
-                <span class="session-time">Room: Grand large</span>
-            </div>    
-			<div class="session track-pd3dui" style="grid-column: track-6-start / track-7; grid-row: time-0930 / time-1000;">
-                <span class="session-title"><a href="{{ '/program/xrgallery/' | relative_url }}">XR Gallery Exhibitions</a></span>
-                <span class="session-time">9:30-10:00</span>
-                <span class="session-time">Room: Bouvet, Charcot</span>
-            </div>                      
             <p class="time-slot" style="grid-row: time-1000;">10:00</p>
             <div class="session track-keynote" style="grid-column: track-1-start / track-4-end; grid-row: time-1000 / time-1100;">
                 <span class="session-title">Keynote Speaker<br/><a href="{{ '/program/keynote-speakers/' | relative_url }}#keynote-george">George Drettakis</a></span>                
@@ -973,9 +962,20 @@ title_separator: "|"
                 <span class="session-time">Room: Chateaubriand</span>             
             </div> 
             <p class="time-slot" style="grid-row: time-1100;">11:00</p>  
-            <div class="session track-all" style="grid-column: track-1-start / track-4-end; grid-row: time-1100 / time-1115;">
-                <span class="session-title">Stretch Break (Not Catered): 11:00-11:15</span>
+            <div class="session track-all" style="grid-column: track-1-start / track-4-end; grid-row: time-1045 / time-1115;">
+                <span class="session-title">Break (Catered): 10:45-11:15&nbsp;&nbsp;</span><br>
+                <span class="session-time">Room: Rotondes Grand large, Surcouf & Cézembre</span>
             </div>             
+            <div class="session track-pd3dui" style="grid-column: track-5; grid-row: time-1045 / time-1115;">
+                <span class="session-title"><a href="{{ '/program/posters/' | relative_url }}">Posters</a></span>
+                <span class="session-time">10:45-11:15</span>
+                <span class="session-time">Room: Grand large</span>
+            </div>    
+			<div class="session track-pd3dui" style="grid-column: track-6-start / track-7; grid-row: time-1045 / time-1115;">
+                <span class="session-title"><a href="{{ '/program/xrgallery/' | relative_url }}">XR Gallery Exhibitions</a></span>
+                <span class="session-time">10:45-11:15</span>
+                <span class="session-time">Room: Bouvet, Charcot</span>
+            </div>                      
             <p class="time-slot" style="grid-row: time-1115;">11:15</p>
             {% for session in site.data.sessions %}  
                 {% if session.id == '0' %}
