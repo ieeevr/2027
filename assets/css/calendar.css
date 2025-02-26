@@ -79,6 +79,7 @@
         grid-gap: .3em;
         grid-template-rows:
             [tracks] auto 
+            [time-0730] 0.4fr [time-0745] 0.4fr
             [time-0800] 0.4fr [time-0815] 0.4fr [time-0830] 0.4fr [time-0845] 0.4fr 
             [time-0900] 0.4fr [time-0915] 0.4fr [time-0930] 0.4fr [time-0945] 0.4fr 
             [time-1000] 0.4fr [time-1015] 0.4fr [time-1030] 0.4fr [time-1045] 0.4fr 
@@ -101,6 +102,7 @@
         grid-gap: .3em;
         grid-template-rows:
             [tracks] auto 
+            [time-0730] 0.4fr [time-0745] 0.4fr
             [time-0800] 0.4fr [time-0815] 0.4fr [time-0830] 0.4fr [time-0845] 0.4fr 
             [time-0900] 0.4fr [time-0915] 0.4fr [time-0930] 0.4fr [time-0945] 0.4fr 
             [time-1000] 0.4fr [time-1015] 0.4fr [time-1030] 0.4fr [time-1045] 0.4fr 
@@ -124,6 +126,7 @@
         grid-gap: .3em;
         grid-template-rows:
             [tracks] auto 
+            [time-0730] 0.4fr [time-0745] 0.4fr
             [time-0830] 0.4fr [time-0845] 0.4fr 
             [time-0900] 0.4fr [time-0915] 0.4fr [time-0930] 0.4fr [time-0945] 0.4fr 
             [time-1000] 0.4fr [time-1015] 0.4fr [time-1030] 0.4fr [time-1045] 0.4fr 
