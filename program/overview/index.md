@@ -227,7 +227,7 @@ title_separator: "|"
             <p class="time-slot" style="grid-row: time-1015;">10:15</p>
             <div class="session session-16 track-all" style="grid-column:  track-1-start / track-10-end; grid-row: time-1015 / time-1045;">
                 <span class="session-title">Break (Catered): 10:15-10:45&nbsp;&nbsp;</span><br>
-                <span class="session-time">Room: Rotondes Surcouf & Cézembre</span>
+                <span class="session-time">Room: Jacques Cartier & Cézembre</span>
             </div>                             
             <div class="session session-w1b track-consortium" style="grid-column: track-11; grid-row: time-1015 / time-1045;">                    
                 <span class="session-title"><a href="{{ '/program/doctoral-consortium/' | relative_url }}">DC</a> | Break (Catered) (breakout with mentors)</span>
@@ -441,7 +441,7 @@ title_separator: "|"
             <p class="time-slot" style="grid-row: time-1545;">15:45</p>
             <div class="session session-16 track-all" style="grid-column:  track-1-start / track-10-end; grid-row: time-1545 / time-1615;">
                 <span class="session-title">Break (Catered): 15:45-16:15&nbsp;&nbsp;</span><br>
-                <span class="session-time">Room: Rotondes Surcouf & Cézembre</span>
+                <span class="session-time">Room: Rotondes Jacques Cartier & Cézembre</span>
             </div>                  
             <div class="session session-w1b track-consortium" style="grid-column: track-11; grid-row: time-1545 / time-1615;">                
                 <span class="session-title"><a href="{{ '/program/doctoral-consortium/' | relative_url }}">DC</a> | Break (Catered) (breakout with mentors)</span>
@@ -660,7 +660,7 @@ title_separator: "|"
             <p class="time-slot" style="grid-row: time-1015;">10:15</p>
             <div class="session session-b track-all" style="grid-column:  track-1-start / track-9-end; grid-row: time-1015 / time-1045;">
                 <span class="session-title">Break (Catered): 10:15-10:45&nbsp;&nbsp;</span><br>
-                <span class="session-time">Room: Rotondes Surcouf & Cézembre</span>
+                <span class="session-time">Room: Rotondes Jacques Cartier & Cézembre</span>
             </div> 
 <!-- SUNDAY Morning (Part 2) -->
             <p class="time-slot" style="grid-row: time-1045;">10:45</p>             
@@ -838,7 +838,7 @@ title_separator: "|"
             <p class="time-slot" style="grid-row: time-1545;">15:45</p>
             <div class="session session-16 track-all" style="grid-column: track-1 / track-9; grid-row: time-1545 / time-1615;">
                 <span class="session-title">Break (Catered): 15:45-16:15&nbsp;&nbsp;</span><br>
-                <span class="session-time">Room: Rotondes Surcouf & Cézembre</span>
+                <span class="session-time">Room: Rotondes Jacques Cartier & Cézembre</span>
             </div>  
 <!-- SUNDAY Afternoon (Part 2) -->  
             <p class="time-slot" style="grid-row: time-1615;">16:15</p>              
@@ -1114,9 +1114,9 @@ title_separator: "|"
                 <span class="session-time">Room: Bouvet, Charcot</span>
             </div>
             <p class="time-slot" style="grid-row: time-1715;">17:15</p> 
-			<div class="session track-main" style="grid-column: track-1; grid-row: time-1615 / time-1815;">
+			<div class="session track-main" style="grid-column: track-1; grid-row: time-1715 / time-2045;">
                 <span class="session-title">Art performance - <a href="{{ '/program/xrgallery/' | relative_url }}#PO1103">ReVerie</a></span>
-                <span class="session-time">16:15-18:15</span>
+                <span class="session-time">17:15-20:45</span>
                 <span class="session-time">Room: Chateaubriand</span>
             </div>  
             {% for session in site.data.sessions %}  
@@ -1148,7 +1148,7 @@ title_separator: "|"
             {% endfor %}
             <p class="time-slot" style="grid-row: time-1815;">18:15</p> 
             <p class="time-slot" style="grid-row: time-1845;">18:45</p> 
-			<div class="session track-main" style="grid-column: track-1-start / track-4-end; grid-row: time-1845 / time-2045;">
+			<div class="session track-main" style="grid-column: track-2-start / track-4-end; grid-row: time-1845 / time-2045;">
                 <span class="session-title">Welcome reception</span>
                 <span class="session-time">18:45-20:45</span>
                 <span class="session-time">Room: Jacques Cartier, Grand large</span>
