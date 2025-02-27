@@ -79,7 +79,7 @@ title_separator: "|"
         <tr>
             <td class="bold">8:45</td>
             <td class="bold">9:30</td>
-            <td class="bold">Panel 1: Lab Formation and Management</td>
+            <td class="bold">Panel 1: Challenges and Opportunities of Interdisciplinary Research</td>
         </tr>
         <tr>
             <td class="bold">9:30</td>
@@ -99,7 +99,7 @@ title_separator: "|"
         <tr>
             <td class="bold">11:45</td>
             <td class="bold">12:30</td>
-            <td class="bold">SpeedAdvising</td>
+            <td class="bold">Speed Advising</td>
         </tr>    
         <tr>
             <td class="bold">12:30</td>
@@ -114,7 +114,7 @@ title_separator: "|"
         <tr>
             <td class="bold">15:00</td>
             <td class="bold">15:45</td>
-            <td class="bold">SpeedAdvising</td>
+            <td class="bold">Speed Advising</td>
         </tr>    
         <tr>
             <td class="bold">15:45</td>
