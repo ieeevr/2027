@@ -63,7 +63,7 @@ title_separator: "|"
     <p>
         We will also host a “speed advising” session to facilitate more personalised discussions. In this session, attendees will be paired with a professor for 15 minutes for a 1-on-1 conversation. This conversation allows aspiring professors to get advice regarding their specific situations and questions, unlike the more general advice from panel sessions. After each 15-minute session, attendees will be rotated out so that more people can get the chance to speak to a professor.
     </p>
-    <h2 id="schedule">Forum Schedule (Tentative)</h2> 
+    <h2 id="schedule">Forum Schedule</h2> 
     <p>All times are given in Saint-Malo, France local time (UTC+1)</p> 
     <table class="f3-table" Style="vertical-align: top;">
         <tr>
