@@ -17,8 +17,8 @@
         grid-gap: .3em;
         grid-template-rows:
         [tracks] auto 
-        [time-0730] 0.25fr [time-0745] 0.25fr
-        [time-0800] 0.25fr [time-0815] 0.25fr [time-0830] 0.25fr [time-0845] 0.25fr 
+        [time-0745] auto
+        [time-0800] auto [time-0815] auto [time-0830] 0.25fr [time-0845] 0.25fr 
         [time-0900] 0.25fr [time-0915] 0.25fr [time-0930] 0.25fr [time-0945] 0.25fr 
         [time-1000] 0.1fr [time-1015] auto [time-1045] 0.1fr 
         [time-1100] 0.25fr [time-1115] 0.25fr [time-1130] 0.25fr [time-1145] 0.25fr 
@@ -38,8 +38,8 @@
         grid-gap: .3em;
         grid-template-rows:
         [tracks] auto 
-        [time-0730] 0.25fr [time-0745] 0.25fr
-        [time-0800] 0.25fr [time-0815] 0.25fr [time-0830] 0.25fr [time-0845] 0.25fr 
+        [time-0730] 0.25fr [time-0745] auto
+        [time-0800] auto [time-0815] auto [time-0830] 0.25fr [time-0845] 0.25fr 
         [time-0900] 0.25fr [time-0915] 0.25fr [time-0930] 0.25fr [time-0945] 0.25fr 
         [time-1000] 0.1fr [time-1015] auto [time-1045] 0.1fr 
         [time-1100] 0.25fr [time-1115] 0.25fr [time-1130] 0.25fr [time-1145] 0.25fr 
@@ -59,8 +59,8 @@
         grid-gap: .3em;
         grid-template-rows:
             [tracks] auto 
-            [time-0730] 0.4fr [time-0745] 0.4fr
-            [time-0800] 0.4fr [time-0815] 0.4fr [time-0830] 0.4fr [time-0845] 0.4fr 
+            [time-0730] 0.4fr [time-0745] auto
+            [time-0800] auto [time-0815] auto [time-0830] 0.4fr [time-0845] 0.4fr 
             [time-0900] 0.4fr [time-0915] 0.4fr [time-0930] 0.4fr [time-0945] 0.4fr 
             [time-1000] 0.4fr [time-1015] 0.4fr [time-1030] 0.4fr [time-1045] 0.4fr 
             [time-1100] 0.4fr [time-1115] 0.4fr [time-1130] 0.4fr [time-1145] 0.4fr 
@@ -82,8 +82,8 @@
         grid-gap: .3em;
         grid-template-rows:
             [tracks] auto 
-            [time-0730] 0.4fr [time-0745] 0.4fr
-            [time-0800] 0.4fr [time-0815] 0.4fr [time-0830] 0.4fr [time-0845] 0.4fr 
+            [time-0730] 0.4fr [time-0745] auto
+            [time-0800] auto [time-0815] auto [time-0830] 0.4fr [time-0845] 0.4fr 
             [time-0900] 0.4fr [time-0915] 0.4fr [time-0930] 0.4fr [time-0945] 0.4fr 
             [time-1000] 0.4fr [time-1015] 0.4fr [time-1030] 0.4fr [time-1045] 0.4fr 
             [time-1100] 0.4fr [time-1115] 0.4fr [time-1130] 0.4fr [time-1145] 0.4fr 
@@ -105,8 +105,8 @@
         grid-gap: .3em;
         grid-template-rows:
             [tracks] auto 
-            [time-0730] 0.4fr [time-0745] 0.4fr
-            [time-0800] 0.4fr [time-0815] 0.4fr [time-0830] 0.4fr [time-0845] 0.4fr 
+            [time-0730] 0.4fr [time-0745] auto
+            [time-0800] auto [time-0815] auto [time-0830] 0.4fr [time-0845] 0.4fr 
             [time-0900] 0.4fr [time-0915] 0.4fr [time-0930] 0.4fr [time-0945] 0.4fr 
             [time-1000] 0.4fr [time-1015] 0.4fr [time-1030] 0.4fr [time-1045] 0.4fr 
             [time-1100] 0.4fr [time-1115] 0.4fr [time-1130] 0.4fr [time-1145] 0.4fr 

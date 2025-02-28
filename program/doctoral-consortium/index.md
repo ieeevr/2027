@@ -7,108 +7,108 @@ title_separator: "|"
 
 
 <h1>Doctoral Consortium</h1>
-<!--<div>
+<div>
     <p>
-        The Doctoral Consortium will be held on 16 March 2024 (Saturday) in the Sorcerer's Apprentice Ballroom. All times below are given in local time of Orlando, Florida USA EDT (UTC-4). 
+        The Doctoral Consortium will be held on 8 March 2025 (Saturday) in “La Conchée” room. All times below are given in local time of France (UTC+1).
     </p>
     <p>
         Here are the key information for the presenters and mentors:
         <ul>
             <li>Each presentation includes a 10-minute talk + 5-minute Q&A.</li>
-            <li>All presenters and mentors need to be present at the scheduled session and are encouraged to attend as much of the doctoral consortium as possible. </li>
-            <li>After each session, the mentors and students can use the Break/Lunch time for further breakout discussions and mentoring. </li>
-            <li>Some students may have a pair of mentors. Because some mentors cannot attend the conference in person, we recommend that the students take the initiative to reach out to allocated mentors and arrange a separate online meeting for mentoring. </li>
-            <li>The venue for the DC track is: Sorcerer's Apprentice, 2. </li>
-            <li>The final mentor allocation will be released soon. </li>
-            <li>The presentation and mentoring at the DC mark the start of collaborations and we strongly recommend that the presenters and mentors hold periodical meetings to deepen the collaborations. </li>
+            <li>All presenters and mentors need to be present at the scheduled session and are encouraged to attend as much of the doctoral consortium as possible.</li>
+            <li>After each session, the mentors and students can use the Break/Lunch time for further breakout discussions and mentoring.</li>
+            <li>Because some mentors cannot attend the conference in person, we recommend that the students take the initiative to reach out to allocated mentors and arrange a separate online meeting for mentoring.</li>
+            <li>The venue for the DC track is: “La Conchée” room.</li>
+            <li>The presentation and mentoring at the DC mark the start of collaborations and we strongly recommend that the presenters and mentors hold periodical meetings to deepen the collaborations.</li>
+            <li>In the following schedule, the student is mentionned first followed by the associated mentors.</li>
         </ul>
     </p>
-</div>-->
-<!--<div>
+</div>
+<div>
     <table class="styled-table font_80">
         <tr>
-            <th colspan="2">Schedule - Date TBD, Saturday</th>
+            <th colspan="2">Schedule - 8 March 2025, Saturday</th>
         </tr>
         <tr>
-            <td>08:20 - 08:30 am</td>
+            <td>08:30 - 08:45</td>
             <td>
-                Welcome
+                Welcome & Introduction
             </td>
         </tr>
         <tr>
-            <td>08:30 - 10:00 am</td>
+            <td>08:45 - 10:15</td>
             <td>
                 <strong>Presentations 1-6 (10-min talk + 5-min Q&A for each presentation)</strong><br/>
-                Jinwook Kim - Jan Springer<br/>
-                Hyeongil Nam - Jens Grubert<br/>
-                Siamak Ahmadzadeh Bazzaz - Jan Springer<br/>
-                Muhammad Twaha Ibrahim - Jan Springer<br/>
-                Xueqi Wang - Frank Guan<br/>
-                Jiachen Liang - Frank Guan
+                Agata Szymańska - Victoria Interrante (will meet later) / Nilufar Baghaei (online)<br/>
+                Elena Lopez-Contreras - Joe Gabbard / Frank Guan<br/>
+                Frederick Vickery - Dieter Schmalstieg / Benjamin Lok (online)<br/>
+                Kristof Timmerman - Jean-Marie Normand (will meet later) / António Coelho (online)<br/>
+                Guanlin Li - Tobias Langlotz / Andrea Stevenson Won (online)<br/>
+                Haopeng Wang - Joe Gabbard / Thomas Pietrzak (will meet later)
             </td>
         </tr>
         <tr>
-            <td >10:00 - 10:30 am</td>
+            <td >10:15 - 10:45</td>
             <td>
                 Break (breakout with mentors)
             </td>
         </tr>
         <tr>
-            <td >10:30 - 12:00 am</td>
+            <td >10:45 - 12:30</td>
             <td>
-                <strong>Presentations 7-12 (10-min talk + 5-min Q&A for each presentation)</strong><br/>
-                Seoyoung Kang - Bruce Thomas<br/>
-                Assem Kroma - Bruce Thomas<br/>
-                Kristen Grinyer - Bruce Thomas<br/>
-                Rachel Masters - Jens Grubert<br/>
-                Sunday Ubur - Shohei Mori<br/>
-                Dahlia Musa - Shohei Mori
+                <strong>Presentations 7-13 (10-min talk + 5-min Q&A for each presentation)</strong><br/>
+                Marc Soler Bages - Indira Thouvenin / Teng Han (online)<br/>
+                Zhongyuan Yu - Shohei Mori / Stefanie Zollmann<br/>
+                Eva Di Noia - Léa Pillette / Indira Thouvenin<br/>
+                Jacob Rubinstein - Shohei Mori / Stefanie Zollmann<br/>
+                Carlos-Andres Lievano-Taborda - Yue Liu (pending visa) / Benjamin Lok (online)<br/>
+                Ilan Vol - Frank Guan / Léa Pillette<br/>
+				Marta Goyena - Katja Zibrek (if busy, will meet later) / Andrea Stevenson Won (online)
             </td>
         </tr>
         <tr>
-            <td>12:00 - 1:30 pm</td>
+            <td>12:30 - 14:00</td>
             <td>
                Lunch
             </td>
         </tr>
         <tr>
-            <td>13:30 - 15:30 pm</td>            
+            <td>14:00 - 15:45</td>            
             <td>
-                <strong>Presentations 13-20 (10-min talk + 5-min Q&A for each presentation)</strong><br/>
-                Dong Woo Yoo - Guillaume Moreau<br/>
-                Brett Benda - Steve Feiner<br/>
-                Seonji Kim - Dieter Schmalstieg<br/>
-                Hail Song - Jason Orlosky<br/>
-                Dongyun Han - Steve Feiner<br/>
-                Jennifer Cremer - Dieter Schmalstieg<br/>
-                Elham Mohammadrezaei - Guillaume Moreau<br/>
-                Nikitha Donekal Chandrashekar - Guillaume Moreau
+                <strong>Presentations 14-20 (10-min talk + 5-min Q&A for each presentation)</strong><br/>
+                Yuke Pi - Dieter Schmalstieg / Steve Feiner<br/>
+                Xiang Li - Steve Feiner / Tobias Langlotz<br/>
+                Manel Boukli Hacene - Claudio Pacchierotti / Teng Han (online)<br/>
+                Mohammad Ghazanfari - Claudio Pacchierotti / Jean-Pierre Jessel (online)<br/>
+                Tristan Lannuzel - Jean-Marie Normand (will meet later) / Jean-Pierre Jessel (online)<br/>
+                Matteo Bosco - Tobias Höllerer / Katja Zibrek (if busy, will meet later)<br/>
+                Giuseppina Pinky Kathlea Diatmiko - Grace Ahn / Thomas Pietrzak (will meet later)
             </td>
         </tr>
         <tr>
-            <td >15:30 - 16:00 pm</td>
+            <td >15:45 - 16:15</td>
             <td>
                 Break (breakout with mentors)
             </td>
         </tr>
         <tr>
-            <td>16:00 - 17:00 pm</td>
+            <td>16:15 - 17:15</td>
             <td>
                 <strong>Presentations 21-24 (10-min talk + 5-min Q&A for each presentation)</strong><br/>
-                Danah Omary - Isaac Cho<br/>
-                Jingyi Zhang - Frank Guan<br/>
-                Tomáš Nováček - Isaac Cho<br/>
-                Ryan Canales - Isaac Cho<br/>
+                Ana Rita Rebelo - Anthony Steed / Evan Suma (will meet later)<br/>
+                Daniel Rupp - Doug Bowman / Victoria Interrante (will meet later)<br/>
+                Hock Siang Lee - Anthony Steed / Evan Suma (will meet later)<br/>
+                Samantha Monk - Grace Ahn / Nilufar Baghaei (online)<br/>
             </td>
         </tr>
         <tr>
-            <td >17:00 - 17:30 pm</td>
+            <td >17:15 - 18:00</td>
             <td>
                 Breakout with mentors
             </td>
         </tr>
     </table>    
-</div>-->
+</div>
 <div>
     <h2 id="P3" class="pink" style="padding-top:25px;">Accepted Students</h2>
     {% assign sorted_dc = site.data.dc | sort: "num" %}

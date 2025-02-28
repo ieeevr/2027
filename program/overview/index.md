@@ -195,10 +195,9 @@ title_separator: "|"
                     </div>
                 {% endif %}     
             {% endfor %}   
-			<p class="time-slot" style="grid-row: time-0815;">8:20</p>  
-            <div class="session session-w1b track-consortium" style="grid-column: track-11; grid-row: time-0815 / time-0830;">                    
-                <span class="session-title"><a href="{{ '/program/doctoral-consortium/' | relative_url }}">Doctoral Consortium (DC) Welcome</a></span>
-                <span class="session-time">8:20-8:30</span>
+            <div class="session session-w1b track-consortium" style="grid-column: track-11; grid-row: time-0830 / time-0845;">                    
+                <span class="session-title"><a href="{{ '/program/doctoral-consortium/' | relative_url }}">Doctoral Consortium (DC) Welcome & Introduction</a></span>
+                <span class="session-time">8:30-8:45</span>
                 <span class="session-time">Room: La Conchée</span>
             </div>
             {% for tutorial in site.data.tutorials %}  
@@ -219,9 +218,9 @@ title_separator: "|"
                     </div>
                 {% endif %}   
             {% endfor %}           
-            <div class="session session-w1b track-consortium" style="grid-column: track-11; grid-row: time-0830 / time-1015;">                    
+            <div class="session session-w1b track-consortium" style="grid-column: track-11; grid-row: time-0845 / time-1015;">                    
                 <span class="session-title"><a href="{{ '/program/doctoral-consortium/' | relative_url }}">DC</a> | Presentations 1-6 (10-min talk + 5-min Q&A for each presentation)</span>
-                <span class="session-time">8:30-10:15</span>
+                <span class="session-time">8:45-10:15</span>
                 <span class="session-time">Room: La Conchée</span>
             </div>              
             <p class="time-slot" style="grid-row: time-1015;">10:15</p>
@@ -327,7 +326,7 @@ title_separator: "|"
                 {% endif %}   
             {% endfor %}  
             <div class="session session-w1b track-consortium" style="grid-column: track-11; grid-row: time-1045 / time-1230;">                    
-                <span class="session-title"><a href="{{ '/program/doctoral-consortium/' | relative_url }}">DC</a> | Presentations 7-12 (10-min talk + 5-min Q&A for each presentation)</span>
+                <span class="session-title"><a href="{{ '/program/doctoral-consortium/' | relative_url }}">DC</a> | Presentations 7-13 (10-min talk + 5-min Q&A for each presentation)</span>
                 <span class="session-time">10:45-12:30</span>
                 <span class="session-time">Room: La Conchée</span>
             </div>  
@@ -434,7 +433,7 @@ title_separator: "|"
                 {% endif %}   
             {% endfor %}  
             <div class="session session-w1b track-consortium" style="grid-column: track-11; grid-row: time-1400 / time-1545;">                    
-                <span class="session-title"><a href="{{ '/program/doctoral-consortium/' | relative_url }}">DC</a> | Presentations 13-20 (10-min talk + 5-min Q&A for each presentation)</span>
+                <span class="session-title"><a href="{{ '/program/doctoral-consortium/' | relative_url }}">DC</a> | Presentations 14-20 (10-min talk + 5-min Q&A for each presentation)</span>
                 <span class="session-time">14:00-15:45</span>
                 <span class="session-time">Room: La Conchée</span>
             </div>         
@@ -540,16 +539,15 @@ title_separator: "|"
                     </div>
                 {% endif %}   
             {% endfor %} 
-            <div class="session session-w1b track-consortium" style="grid-column: track-11; grid-row: time-1615 / time-1800;">                    
+            <div class="session session-w1b track-consortium" style="grid-column: track-11; grid-row: time-1615 / time-1715;">                    
                 <span class="session-title"><a href="{{ '/program/doctoral-consortium/' | relative_url }}">DC</a> | Presentations 21-24 (10-min talk + 5-min Q&A for each presentation)</span>
-                <span class="session-time">16:15-18:00</span>
+                <span class="session-time">16:15-17:15</span>
                 <span class="session-time">Room: La Conchée</span>
             </div>  
 			<p class="time-slot" style="grid-row: time-1800;">18:00</p>
-			<p class="time-slot" style="grid-row: time-1830;">18:30</p>
-            <div class="session session-w1b track-consortium" style="grid-column: track-11; grid-row: time-1800 / time-1830;">                    
+            <div class="session session-w1b track-consortium" style="grid-column: track-11; grid-row: time-1715 / time-1800;">                    
                 <span class="session-title"><a href="{{ '/program/doctoral-consortium/' | relative_url }}">DC</a> | Breakout with mentors</span>
-                <span class="session-time">18:00-18:30</span>
+                <span class="session-time">17:15-18:00</span>
                 <span class="session-time">Room: La Conchée</span>
             </div> 		  	
         </div> 
