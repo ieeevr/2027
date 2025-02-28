@@ -33,10 +33,12 @@ title_separator: "|"
         <strong>Panelists</strong><br />
 		{{ panel.panelists }}
     </p>
-	<p>
-        <strong>Technical background</strong><br />
-        {{ panel.technicalbackground }}
-    </p>
+	{% if panel.technicalbackground != "" %}
+		<p>
+			<strong>Technical background</strong><br />
+			{{ panel.technicalbackground }}
+		</p>
+	{% endif %}
     <hr>
 </div>
 {% endfor %}
