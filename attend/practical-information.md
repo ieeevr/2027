@@ -57,7 +57,7 @@ title_separator: "|"
 	<ul>
 	<li>Canceling your attendance,</li>
 	<li>Requesting to join via the waiting list, subject to availability.</li>
-	</ul><br>	
+	</ul>
 	<p>A <b>cloakroom</b> will be available during the dinner.<br>
 	If you specified a <b>dietary requirement</b> during registration, you will receive a marker to place on your glass to facilitate service. Please make sure to identify yourself at the entrance. Please note that two menus will be offered during the gala dinner: a classic menu and a specially curated menu by the caterer, adapted for gluten-free, peanut-free, vegetarian, and vegan diets. All guests who have indicated dietary restrictions will be served this second menu.</p>
 	<h2>T-Shirt Pick-Up</h2>
