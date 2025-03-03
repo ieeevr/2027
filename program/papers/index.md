@@ -67,7 +67,17 @@ title_separator: "|"
                             {% if acpaper.ids == paper.ids  %} 
                                 <div>
                                     <p class="font_70">
-                                    <span class="bold">{{ acpaper.contactauthor }}</span>
+                                    {% assign authornames = acpaper.affiliations | split: ";" %}
+                                    {% for name in authornames %}
+                                        {% assign barename = name | split: ":" %}
+                                        {% for n in barename %}
+                                            {% if n == barename.last %}
+                                                <i>{{ n | strip }}{% if name == authornames.last %}{% else %};{% endif %}</i>
+                                            {% else %}                            
+                                                <span class="bold">{{ n | strip }},</span>
+                                            {% endif %}
+                                        {% endfor %} 
+                                    {% endfor %}
                                     </p>
                                 </div>
                                 {% if acpaper.abstract %}
