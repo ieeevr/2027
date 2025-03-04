@@ -94,7 +94,7 @@
             [time-1600] 0.4fr [time-1615] 0.4fr [time-1630] 0.4fr [time-1645] 0.4fr 
             [time-1700] 0.4fr [time-1715] 0.4fr [time-1730] 0.4fr [time-1745] 0.4fr 
             [time-1800] 0.4fr [time-1815] 0.4fr [time-1830] 0.4fr [time-1845] 0.4fr 
-            [time-1900] 0.4fr [time-1915] auto [time-2315];       
+            [time-1900] 0.4fr [time-1915] auto [time-2300] auto [time-2400];       
 
             grid-template-columns:
             [times] 2.1em [track-0-start] 1.5em [track-0-end track-1-start] .2fr [track-1-end track-2-start] .2fr [track-2-end track-3-start] .2fr [track-3-end track-4-start] .2fr [track-4-end track-5-start] .2fr [track-5-end track-6-start] .2fr [track-6-end track-7-start] .2fr [track-7-end];

@@ -1420,12 +1420,17 @@ title_separator: "|"
             {% endfor %}
             <p class="time-slot" style="grid-row: time-1815;">18:15</p>   
             <p class="time-slot" style="grid-row: time-1900;">19:00</p>   
-			<div class="session track-main" style="grid-column: track-1-start / track-4-end; grid-row: time-1900 / time-2315;">
+			<div class="session track-main" style="grid-column: track-1-start / track-4-end; grid-row: time-1900 / time-2300;">
                 <span class="session-title">Gala Dinner</span>
-                <span class="session-time">19:00-23:15</span>
+                <span class="session-time">19:00-23:00</span>
                 <span class="session-time">Quai Saint Malo</span>
             </div>      
-            <p class="time-slot" style="grid-row: time-2315;">23:15</p> 
+            <p class="time-slot" style="grid-row: time-2300;">23:00</p> 
+			<div class="session track-main" style="grid-column: track-1-start / track-4-end; grid-row: time-2300 / time-2400;">
+                <span class="session-title">After</span>
+                <span class="session-time">23:00-1:00</span>
+            </div>   
+            <p class="time-slot" style="grid-row: time-2400;">1:00</p> 
         </div> 
     </div>
     <div>
