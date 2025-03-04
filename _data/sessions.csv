@@ -1,46 +1,46 @@
 id,session,letter,room,name,day
 0,1,A,"Chateaubriand","Avatar Representation, Embodiment, and Social Perception",Monday
 1,1,B,"Maupertuis","Perception, Interaction, and Learning in XR",Monday
-2,1,C,"Lamenais 1-2", XR technology infrastructure,Monday
-3,1,D,"Lamenais 3-4-5", Tracking and sensing,Monday
+2,1,C,"Lamennais 1-2", XR technology infrastructure,Monday
+3,1,D,"Lamennais 3-4-5", Tracking and sensing,Monday
 4,2,A,"Chateaubriand","Perception, Interaction, and Learning",Monday
 5,2,B,"Maupertuis", Redirection,Monday
-6,2,C,"Lamenais 1-2", Multimodal Interaction and Audio Perception,Monday
-7,2,D,"Lamenais 3-4-5","Ethical, diversity and gender issues",Monday
+6,2,C,"Lamennais 1-2", Multimodal Interaction and Audio Perception,Monday
+7,2,D,"Lamennais 3-4-5","Ethical, diversity and gender issues",Monday
 8,3,B,"Maupertuis","Co-Presence, Agency, and Social Interaction",Monday
-9,3,D,"Lamenais 3-4-5", Haptic interfaces and rendering,Monday
+9,3,D,"Lamennais 3-4-5", Haptic interfaces and rendering,Monday
 10,4,B,"Maupertuis", Immersive analytics and visualization,Monday
-11,4,C,"Lamenais 1-2", Human factors and ergonomics,Monday
-12,4,D,"Lamenais 3-4-5", Evaluation methods,Monday
+11,4,C,"Lamennais 1-2", Human factors and ergonomics,Monday
+12,4,D,"Lamennais 3-4-5", Evaluation methods,Monday
 13,5,A,"Chateaubriand", Navigation and Locomotion Strategies,Tuesday
 14,5,B,"Maupertuis", Modeling and simulation,Tuesday
-15,5,C,"Lamenais 1-2", Collaborative interactions,Tuesday
-16,5,D,"Lamenais 3-4-5", Input devices,Tuesday
+15,5,C,"Lamennais 1-2", Collaborative interactions,Tuesday
+16,5,D,"Lamennais 3-4-5", Input devices,Tuesday
 17,6,A,"Chateaubriand", Spatial Experiences and AI-Driven Content Generation ,Tuesday
 18,6,B,"Maupertuis","Virtual Agents, Embodiment, and Social Presence",Tuesday
-19,6,C,"Lamenais 1-2","Exploring Perception, Haptics, and Learning in XR",Tuesday
-20,6,D,"Lamenais 3-4-5", Next-Generation Display Technologies and Visual Processing,Tuesday
+19,6,C,"Lamennais 1-2","Exploring Perception, Haptics, and Learning in XR",Tuesday
+20,6,D,"Lamennais 3-4-5", Next-Generation Display Technologies and Visual Processing,Tuesday
 21,7,A,"Chateaubriand", 3D user interfaces,Tuesday
 22,7,B,"Maupertuis","Cognitive Load, Attention, and Perception",Tuesday
-23,7,C,"Lamenais 1-2", Therapy and rehabilitation,Tuesday
-24,7,D,"Lamenais 3-4-5", Enhancing Immersive Experiences,Tuesday
+23,7,C,"Lamennais 1-2", Therapy and rehabilitation,Tuesday
+24,7,D,"Lamennais 3-4-5", Enhancing Immersive Experiences,Tuesday
 25,8,B,"Maupertuis", Visual Perception and Interaction,Tuesday
-26,8,D,"Lamenais 3-4-5", Tactile interfaces and haptic feedback,Tuesday
+26,8,D,"Lamennais 3-4-5", Tactile interfaces and haptic feedback,Tuesday
 27,9,A,"Chateaubriand", Immersive Experiences,Tuesday
 28,9,B,"Maupertuis", Perception and cognition,Tuesday
-29,9,C,"Lamenais 1-2", Display Technologies and Rendering Techniques,Tuesday
-30,9,D,"Lamenais 3-4-5","Presence, body ownership, and agency",Tuesday
+29,9,C,"Lamennais 1-2", Display Technologies and Rendering Techniques,Tuesday
+30,9,D,"Lamennais 3-4-5","Presence, body ownership, and agency",Tuesday
 31,10,A,"Chateaubriand","Immersive Applications for Training, Shopping, and Social Interaction",Wednesday
 32,10,B,"Maupertuis", Enhancing Interaction and Feedback in Virtual and Cross-Reality Systems,Wednesday
-33,10,C,"Lamenais 1-2", Interactive Experience and System Usability,Wednesday
-34,10,D,"Lamenais 3-4-5", 3D authoring,Wednesday
+33,10,C,"Lamennais 1-2", Interactive Experience and System Usability,Wednesday
+34,10,D,"Lamennais 3-4-5", 3D authoring,Wednesday
 35,11,A,"Chateaubriand","Perception, Embodiment, and Spatial Awareness",Wednesday
 36,11,B,"Maupertuis", Accessibility of immersive interfaces,Wednesday
-37,11,C,"Lamenais 1-2","Embodiment, Agency, and Interaction",Wednesday
-38,11,D,"Lamenais 3-4-5", Social Interaction and Collaboration,Wednesday
+37,11,C,"Lamennais 1-2","Embodiment, Agency, and Interaction",Wednesday
+38,11,D,"Lamennais 3-4-5", Social Interaction and Collaboration,Wednesday
 39,12,A,"Chateaubriand", Cybersickness,Wednesday
 40,12,B,"Maupertuis", Locomotion and Spatial Awareness,Wednesday
-41,12,C,"Lamenais 1-2", User experience and usability,Wednesday
-42,12,D,"Lamenais 3-4-5", Teleoperation and telepresence,Wednesday
+41,12,C,"Lamennais 1-2", User experience and usability,Wednesday
+42,12,D,"Lamennais 3-4-5", Teleoperation and telepresence,Wednesday
 43,13,B,"Maupertuis", Immersive applications and 3DUI,Wednesday
-44,13,D,"Lamenais 3-4-5", Computer graphics techniques,Wednesday
+44,13,D,"Lamennais 3-4-5", Computer graphics techniques,Wednesday
