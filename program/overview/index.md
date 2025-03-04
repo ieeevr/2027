@@ -1145,13 +1145,13 @@ title_separator: "|"
                 {% endif %}   
             {% endfor %}
             <p class="time-slot" style="grid-row: time-1815;">18:15</p> 
-            <p class="time-slot" style="grid-row: time-1845;">18:45</p> 
-			<div class="session track-main" style="grid-column: track-2-start / track-4-end; grid-row: time-1845 / time-2045;">
+            <p class="time-slot" style="grid-row: time-1830;">18:30</p> 
+			<div class="session track-main" style="grid-column: track-2-start / track-4-end; grid-row: time-1830 / time-2030;">
                 <span class="session-title">Welcome reception</span>
-                <span class="session-time">18:45-20:45</span>
+                <span class="session-time">18:30-20:30</span>
                 <span class="session-time">Room: Jacques Cartier, Grand large</span>
             </div>      
-            <p class="time-slot" style="grid-row: time-2045;">20:45</p> 
+            <p class="time-slot" style="grid-row: time-2030;">20:30</p> 
         </div> 
     </div>
 <!-- TUESDAY Morning (Part 1) -->
@@ -1419,10 +1419,10 @@ title_separator: "|"
                 {% endif %}   
             {% endfor %}
             <p class="time-slot" style="grid-row: time-1815;">18:15</p>   
-            <p class="time-slot" style="grid-row: time-1915;">19:15</p>   
-			<div class="session track-main" style="grid-column: track-1-start / track-4-end; grid-row: time-1915 / time-2315;">
+            <p class="time-slot" style="grid-row: time-1900;">19:00</p>   
+			<div class="session track-main" style="grid-column: track-1-start / track-4-end; grid-row: time-1900 / time-2315;">
                 <span class="session-title">Gala Dinner</span>
-                <span class="session-time">19:15-23:15</span>
+                <span class="session-time">19:00-23:15</span>
                 <span class="session-time">Quai Saint Malo</span>
             </div>      
             <p class="time-slot" style="grid-row: time-2315;">23:15</p> 
