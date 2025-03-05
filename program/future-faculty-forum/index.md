@@ -124,7 +124,7 @@ title_separator: "|"
         <tr>
             <td class="bold">16:15</td>
             <td class="bold">17:00</td>
-            <td class="bold">Panel 3: Challenges and Opportunities of Interdisciplinary Research </td>
+            <td class="bold">Panel 3: Lab Formation and Management</td>
         </tr>       
         <tr>
             <td class="bold">17:00</td>
