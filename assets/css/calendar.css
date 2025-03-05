@@ -256,6 +256,13 @@
 .track-workshop a{    
     color: #000 !important;
 }
+.track-gallery {
+    background-color: #ff0000;
+    color: #000;
+}
+.track-gallery a{
+    color: #000 !important;
+}
 
 .track-tutorials{
     background-color: #fce2c5;
