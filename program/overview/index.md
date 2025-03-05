@@ -909,7 +909,7 @@ title_separator: "|"
                 <span class="session-time">Room: XR Gallery Space</span>
             </div>
             <div class="session session-22 track-f3" style="grid-column: track-9; grid-row: time-1615 / time-1700;">                        
-                <span class="session-title"><a href="{{ '/program/future-faculty-forum/' | relative_url }}">F3</a> | Panel 3: Challenges & Opportunities of Interdiscip. Research</span>
+                <span class="session-title"><a href="{{ '/program/future-faculty-forum/' | relative_url }}">F3</a> | Panel 3: Lab Formation and Management</span>
                 <span class="session-time">16:15-17:00</span>
                 <span class="session-time">Room: La Conchée</span>
             </div>                      
