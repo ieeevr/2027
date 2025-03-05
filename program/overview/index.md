@@ -903,7 +903,7 @@ title_separator: "|"
                     </div>
                 {% endif %}       
             {% endfor %}                 
-            <div class="session session-t3b track-workshop" style="grid-column: track-8; grid-row: time-1600 / time-1800;">                    
+            <div class="session session-t3b track-gallery" style="grid-column: track-8; grid-row: time-1600 / time-1800;">                    
                 <span class="session-title"><br /><a href="{{ '/program/xrgallery/' | relative_url }}">XR Gallery Round-table</a></span><br/>
                 <span class="session-time">16:00-18:00</span>
                 <span class="session-time">Room: XR Gallery Space</span>
