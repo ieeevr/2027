@@ -32,7 +32,7 @@ title_separator: "|"
     <p>
         The XR Gallery will have four main events:
         <ul>
-            <li>Round-table - Edges of Reality: Bridging the gap between scientific research and immersive arts, designed to spark creative dialogue between artists and researchers </li>
+            <li>Round-table - Edges of Reality: Bridging the gap between scientific research and immersive arts, designed to spark creative dialogue between artists and researchers <b>16:00 - 17:30  XR Gallery Space</b> </li>
             <li>Exhibition - Artist will showcase stationary art pieces throughout the main conference</li>
             <li>Performances - Interactive art performances which will be scheduled at specific times during the conference </li>
             <li>Exhibit at the Welcome reception - The audience will be invited to a special showcasing of the art project “ReVerie” in the Amphitheatre during the conference’s welcome reception.  </li>
