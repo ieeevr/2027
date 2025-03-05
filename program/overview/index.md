@@ -902,16 +902,12 @@ title_separator: "|"
                         <span class="session-time">Room: {{ workshop.room }}</span>
                     </div>
                 {% endif %}       
-            {% endfor %}    
-            {% for tutorial in site.data.tutorials %}  
-                {% if tutorial.id == 'Art' %}
-                    <div class="session session-t3b track-tutorials" style="grid-column: track-8; grid-row: time-1615 / time-1800;">                    
-                        <span class="session-title">Tutorial<br /><a href="{{ '/program/tutorials/' | relative_url }}#{{ tutorial.id }}">{{ tutorial.title }}</a></span><br/>
-                        <span class="session-time">16:15-18:00</span>
-                        <span class="session-time">Room: Vauban&nbsp;2</span>
-                    </div>
-                {% endif %}   
-            {% endfor %} 
+            {% endfor %}                 
+            <div class="session session-t3b track-workshop" style="grid-column: track-8; grid-row: time-1600 / time-1800;">                    
+                <span class="session-title"><br /><a href="{{ '/program/xrgallery/' | relative_url }}">XR Gallery Round-table</a></span><br/>
+                <span class="session-time">16:00-18:00</span>
+                <span class="session-time">Room: XR Gallery Space</span>
+            </div>
             <div class="session session-22 track-f3" style="grid-column: track-9; grid-row: time-1615 / time-1700;">                        
                 <span class="session-title"><a href="{{ '/program/future-faculty-forum/' | relative_url }}">F3</a> | Panel 3: Challenges & Opportunities of Interdiscip. Research</span>
                 <span class="session-time">16:15-17:00</span>
