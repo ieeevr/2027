@@ -906,7 +906,7 @@ title_separator: "|"
             <div class="session session-t3b track-gallery" style="grid-column: track-8; grid-row: time-1600 / time-1800;">                    
                 <span class="session-title"><br /><a href="{{ '/program/xrgallery/' | relative_url }}">XR Gallery Round-table</a></span><br/>
                 <span class="session-time">16:00-18:00</span>
-                <span class="session-time">Room: XR Gallery Space</span>
+                <span class="session-time">Room: Vauban 2</span>
             </div>
             <div class="session session-22 track-f3" style="grid-column: track-9; grid-row: time-1615 / time-1700;">                        
                 <span class="session-title"><a href="{{ '/program/future-faculty-forum/' | relative_url }}">F3</a> | Panel 3: Lab Formation and Management</span>
