@@ -40,7 +40,7 @@ title_separator: "|"
     </p>
     </div>
     <div>
-    <h2> Round-table : 16:00 - 17:30  XR Gallery Space</h2>
+    <h2> Round-table : 16:00 - 17:30 Vauban 2</h2>
     <p><b>Title: </b> <i>Edges of Reality: Bridging the gap between scientific research and immersive arts - XR Gallery Workshop </i></p>
     <p><b>Organiser: </b> XR Gallery Committee </p>
     <p>Emerging immersive technologies offer immense creative possibilities while also posing significant challenges by blurring the lines between fact and fiction, truth and fabrication. As our perception of reality undergoes an unprecedented transformation, we need new, creative ways to cope and reflect on these changes. </p>
