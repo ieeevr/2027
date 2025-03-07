@@ -645,7 +645,7 @@ title_separator: "|"
             </div>                
             <p class="time-slot" style="grid-row: time-0845;">8:45</p>           
             <div class="session session-f33 track-f3" style="grid-column: track-9; grid-row: time-0845 / time-0930;">  
-                <span class="session-title"><a href="{{ '/program/future-faculty-forum/' | relative_url }}">F3</a> | Panel 1: Lab Formation and Management</span>                      
+                <span class="session-title"><a href="{{ '/program/future-faculty-forum/' | relative_url }}">F3</a> | Panel 1: Challenges & Opportunities of Interdisc. Research</span>                      
                 <span class="session-time">8:45-9:30</span>
                 <span class="session-time">Room: La Conchée</span>
             </div>      
@@ -909,7 +909,7 @@ title_separator: "|"
                 <span class="session-time">Room: Vauban 2</span>
             </div>
             <div class="session session-22 track-f3" style="grid-column: track-9; grid-row: time-1615 / time-1700;">                        
-                <span class="session-title"><a href="{{ '/program/future-faculty-forum/' | relative_url }}">F3</a> | Panel 3: Lab Formation and Management</span>
+                <span class="session-title"><a href="{{ '/program/future-faculty-forum/' | relative_url }}">F3</a> | Panel 3: Lab Formation and Management </span>
                 <span class="session-time">16:15-17:00</span>
                 <span class="session-time">Room: La Conchée</span>
             </div>                      
