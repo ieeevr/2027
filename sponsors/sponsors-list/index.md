@@ -222,19 +222,19 @@ div.supportersfo div {
         </div>
         <div>
             <a href="https://www.clarte-lab.fr/" target="_blank">
-                <img class="conf-icon"  src="/2025/assets/images/sponsors/clarte.png" alt="clarté logo.">
+                <img class="conf-icon"  src="/2025/assets/images/sponsors/Clarte.png" alt="clarté logo.">
             </a>
         </div>
         <div>
             <a href="https://star.rcast.u-tokyo.ac.jp/en/" target="_blank">
-                <img class="conf-icon"  src="/2025/assets/images/sponsors/inami.png" alt="Inami logo.">
+                <img class="conf-icon"  src="/2025/assets/images/sponsors/Inami.png" alt="Inami logo.">
             </a>
         </div>
     </div>        
     <div class="supporterst">
         <div>
             <a href="https://vrsj.org" target="_blank">
-                <img class="conf-icon" src="/2025/assets/images/sponsors/VRSJ.png" alt="Inami logo.">
+                <img class="conf-icon" src="/2025/assets/images/sponsors/VRSJ.png" alt="VRSJ logo.">
             </a>
         </div>
         <div>
