@@ -28,7 +28,7 @@ title_separator: "|"
     </table> 
     <div>
     <h2> Introduction </h2>
-    <p>We are delighted to invite you to the first edition of the XR Gallery at IEEEVR 2025. Our aim is to foster creative thought and discussion between artists and researchers while providing an exciting art exhibition and live performances during the conference. </p>
+    <p>We are delighted to invite you to the first edition of the XR Gallery at IEEEVR 2025. Our aim is to foster creative thought and discussion between artists and researchers while providing an exciting art exhibition and live performances during the conference.  </p>
     <p>
         The XR Gallery will have four main events:
         <ul>
