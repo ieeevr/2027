@@ -45,16 +45,16 @@ title_separator: "|"
 			<li><strong>Octopus garden</strong> <a href="https://discordapp.com/channels/1327370157269450775/1347518532761419796">Click here for associated Discord link</a>
 			</li>
 		</ul>
-		<p>Over-interpretation of these two themes is welcome.</p><br>
-		<p>An esteemed international jury will make the most arbitrary but fair decision possible to choose the winning photo of the contest! And, yes, of course, it is mostly for fun.</p>
+		<p>Over-interpretation of these two themes is welcome.<br>
+		An esteemed international jury will make the most arbitrary but fair decision possible to choose the winning photo of the contest! And, yes, of course, it is mostly for fun.</p>
 	</div>
 	<div id = "VRrunners">
 		<h2>The Ephemere IEEE VR Runners group</h2>
-		<p>Saint-Malo, and even more so the area around the Palais du Grand Large, is an ideal place for runners. We've set up the following discord channel so that you can run alone or with others, swap routes or arrange to meet up: <br><a href="https://discordapp.com/channels/1327370157269450775/1343608867598241868">https://discordapp.com/channels/1327370157269450775/1343608867598241868</a><br>The best places to run in the immediate vicinity of the conference are undoubtedly the seawall at Plage du Sillon, Pointe de la Varde and the Parc de la Cité d'Aleth. Please come to us to know more about these locations.</p>
+		<p>Saint-Malo, and even more so the area around the Palais du Grand Large, is an ideal place for runners. We've set up the following discord channel so that you can run alone or with others, swap routes or arrange to meet up: <br><a href="https://discordapp.com/channels/1327370157269450775/1343608867598241868">Click here for associated Discord link</a><br>The best places to run in the immediate vicinity of the conference are undoubtedly the seawall at Plage du Sillon, Pointe de la Varde and the Parc de la Cité d'Aleth. Please come to us to know more about these locations.</p>
 	</div>
 	<div id = "enjoyingStMalo">
 		<h2>Enjoying Saint-Malo and surroundings</h2>
-		<p>Depending on whether you have an hour or a day, whether you want to explore the area or take home a souvenir, we're happy to give you any suggestions to help you enjoy Saint Malo and the surrounding area. We will soon provide a link to a page with suggestions for visits in the immediate surrounding of the conference venue. <br>You can also contact us (<a href= "mailto: socialevents2025@ieeevr.org">socialevents2025@ieeevr.org</a>, <br><a  href="https://discordapp.com/channels/1327370157269450775/1327376331972804649">https://discordapp.com/channels/1327370157269450775/1327376331972804649</a>) or search for the social events chairs around the Chill Area for any specific question.</p>
+		<p>Depending on whether you have an hour or a day, whether you want to explore the area or take home a souvenir, we're happy to give you any suggestions to help you enjoy Saint Malo and the surrounding area. We will soon provide a link to a page with suggestions for visits in the immediate surrounding of the conference venue. <br>You can also contact us (<a href= "mailto: socialevents2025@ieeevr.org">socialevents2025@ieeevr.org</a>, <br><a  href="https://discordapp.com/channels/1327370157269450775/1327376331972804649">Click here for associated Discord link</a>) or search for the social events chairs around the Chill Area for any specific question.</p>
 	</div>
 	<div id = "MtStMichel">
 		<h2>The Mont-Saint-Michel tour</h2>
