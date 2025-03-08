@@ -14,7 +14,8 @@ title_separator: "|"
 		<li><a href="#welcomeReception">Welcome Reception, Monday March 10, from 6:30pm to 8:30 pm</a></li>
 		<li><a href="#galaDinner">Gala Dinner (and more!), Tuesday March 11, starting from 7:00 pm</a></li>
 		<li><a href="#chillArea">The Chill Area, all conference long</a></li>
-		<li><a href="#ghostHunt">The Ghost Hunt, all conference long</a></li>
+		<li><a href="#ghostHunt">The Octopus Ghost Hunt, all conference long</a></li>
+		<li><a href="#photoContest">The IEEEVR2025-themed photo contest</a></li>
 		<li><a href="#VRrunners">The Ephemere IEEE VR Runners group, every day</a></li>
 		<li><a href="#enjoyingStMalo">Enjoying Saint-Malo and surroundings, every day</a></li>
 		<li><a href="#MtStMichel">The Mont-Saint-Michel tour, Thursday 13 March, departing at 9am (+65 euros extra cost)</a></li>
@@ -32,8 +33,20 @@ title_separator: "|"
 		<p>Scientific sessions and exhibitions keep you busy, but do you also want to take advantage of the magnificent view from the Palais du Grand Large, relax, catch up with colleagues, take a souvenir photo of the conference or leave a message for the community? You'll find all these opportunities in the comfortable "Chill Area" set up in the rotunda, 1st floor.</p>
 	</div>
 	<div id = "ghostHunt">
-		<h2>The Ghost hunt</h2>
+		<h2>The Octopus Ghost hunt</h2>
 		<p>Ghost hunt? What is this? Make sure to attend the opening session to know more about it!</p>
+	</div>
+	<div id = "photoContest">
+		<h2>The IEEEVR2025-themed photo contest</h2>
+		<p>In order to appeal to your creativity, we are organising a photo contest based on 2 themes this year. Join us on the discord channels dedicated to the IEEEVR2025 photo contest, and post your photos on the following themes:</p>
+		<ul>
+			<li><strong>Beach-VR</strong> <a href="https://discordapp.com/channels/1327370157269450775/1347518454370009100">Click here for associated Discord link</a>
+			</li>
+			<li><strong>Octopus garden</strong> <a href="https://discordapp.com/channels/1327370157269450775/1347518532761419796">Click here for associated Discord link</a>
+			</li>
+		</ul>
+		<p>Over-interpretation of these two themes is welcome.</p><br>
+		<p>An esteemed international jury will make the most arbitrary but fair decision possible to choose the winning photo of the contest! And, yes, of course, it is mostly for fun.</p>
 	</div>
 	<div id = "VRrunners">
 		<h2>The Ephemere IEEE VR Runners group</h2>
