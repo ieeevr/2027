@@ -50,6 +50,7 @@ title_separator: "|"
 </script>
 
 <h1 id="schedule-heading">Program Overview</h1>
+<p><a href="{{ "/assets/downloads/IEEE_VR_2025.ics" | relative_url }}" download>Click here</a> to download the iCal file with the program of the conference.</p>
 <p>
     <table class="program-table">
         <thead>

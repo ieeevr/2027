@@ -13,13 +13,12 @@ title_separator: "|"
 	});
 </script>
 <div>
-    <h1>Conference Center Map</h1>
+    <h1>Exhibition Area</h1>
         <p style="margin-bottom: 20px;">
-        IEEE VR 2025 will take place at the Palais du Grand Large in Saint-Malo, France. <br>
         </p>
         <div class="ieeevrmsgbox bold alignCenter">
             <div class = "ieeevrmsgboxInside med">
-                Exhibitors area will be located on the first level of the conference center. The layout of the area is provided below.<br/>
+                Exhibition area will be located on the first level of the conference center. The layout of the area is provided below.<br/>
             </div>
         </div>
         <div>

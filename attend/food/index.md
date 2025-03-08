@@ -1,6 +1,6 @@
 ---
 layout: ieeevr-default
-title: "Lunch"
+title: "Getting Food"
 subtitle: "IEEE VR 2025"
 title_separator: "|"
 ---
