@@ -38,6 +38,7 @@ title_separator: "|"
             <li>Exhibit at the Welcome reception - The audience will be invited to a special showcasing of the art project “ReVerie” in the Amphitheatre during the conference’s welcome reception.  </li>
         </ul>
     </p>
+	<p>The XR  Gallery would like to express its warmest gratitude to the University of Rennes 2 staff (CREA and Master of Digital Art) for the loan of equipments.</p>
     </div>
     <div>
     <h2> Round-table : 16:00 - 17:30 Vauban 2</h2>
