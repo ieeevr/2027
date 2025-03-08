@@ -54,7 +54,7 @@ title_separator: "|"
 	</div>
 	<div id = "enjoyingStMalo">
 		<h2>Enjoying Saint-Malo and surroundings</h2>
-		<p>Depending on whether you have an hour or a day, whether you want to explore the area or take home a souvenir, we're happy to give you any suggestions to help you enjoy Saint Malo and the surrounding area. We will soon provide a link to a page with suggestions for visits in the immediate surrounding of the conference venue. <br>You can also contact us (<a href= "mailto: socialevents2025@ieeevr.org">socialevents2025@ieeevr.org</a>, <br><a  href="https://discordapp.com/channels/1327370157269450775/1327376331972804649">Click here for associated Discord link</a>) or search for the social events chairs around the Chill Area for any specific question.</p>
+		<p>Depending on whether you have an hour or a day, whether you want to explore the area or take home a souvenir, we're happy to give you any suggestions to help you enjoy Saint Malo and the surrounding area. We will soon provide a link to a page with suggestions for visits in the immediate surrounding of the conference venue. <br>You can also contact us (<a href= "mailto: socialevents2025@ieeevr.org">socialevents2025@ieeevr.org</a>, <a  href="https://discordapp.com/channels/1327370157269450775/1327376331972804649">Click here for associated Discord link</a>) or search for the social events chairs around the Chill Area for any specific question.</p>
 	</div>
 	<div id = "MtStMichel">
 		<h2>The Mont-Saint-Michel tour</h2>
