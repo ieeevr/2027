@@ -1108,10 +1108,10 @@ title_separator: "|"
                 <span class="session-time">16:15-17:15</span>
                 <span class="session-time">Room: Bouvet, Charcot</span>
             </div>
-            <p class="time-slot" style="grid-row: time-1830;">18:30</p> 
-			<div class="session track-main" style="grid-column: track-1; grid-row: time-1830 / time-2030;">
+            <p class="time-slot" style="grid-row: time-1730;">17:30</p> 
+			<div class="session track-gallery" style="grid-column: track-1; grid-row: time-1730 / time-2030;">
                 <span class="session-title">Art performance - <a href="{{ '/program/xrgallery/' | relative_url }}#PO1103">ReVerie</a></span>
-                <span class="session-time">18:30-20:30</span>
+                <span class="session-time">17:30-20:30</span>
                 <span class="session-time">Room: Chateaubriand</span>
             </div>  
             {% for session in site.data.sessions %}  
