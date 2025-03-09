@@ -72,8 +72,12 @@ title_separator: "|"
         <p class="medLarge" id="{{ demo.title }}" style="margin-bottom: 0.3em;">
             <strong>{{ demo.title }} </strong><!--(ID:{{ demo.demoid }})-->
         </p>
-        <p>
-        Hall: {{ demo.hall}}, Booth ID : {{demo.booth}}
+        <p>        
+        {% for demobooth in site.data.demosbooth %}
+            {% if demobooth.ID == demo.id %}
+                Hall: {{ demobooth.Hall}}, Booth ID : {{demobooth.Booth}}
+            {% endif %}
+        {% endfor %}
         </p>
         <p class="font_70" >                
             {% if demo.author1first %}                         
