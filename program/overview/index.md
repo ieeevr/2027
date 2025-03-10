@@ -1099,7 +1099,7 @@ title_separator: "|"
                 <span class="session-time">Room: Grand large</span>
             </div>     
 			<div class="session track-pd3dui" style="grid-column: track-6; grid-row: time-1615 / time-1715;">
-                <span class="session-title"><a href="{{ '/program/3dui-contest/' | relative_url }}">Demos / 3DUI Exhibitions</a></span>
+                <span class="session-title"><a href="{{ '/program/demos/' | relative_url }}">Research Demos</a> /<a href="{{ '/program/3dui-contest/' | relative_url }}"> 3DUI Exhibitions</a></span>
                 <span class="session-time">16:15-17:15</span>
                 <span class="session-time">Room: Surcouf, Cézembre, Vauban</span>
             </div>                  
@@ -1205,7 +1205,7 @@ title_separator: "|"
                 <span class="session-time">Room: Grand large</span>
             </div>     
 			<div class="session track-pd3dui" style="grid-column: track-6; grid-row: time-0930 / time-1000;">
-                <span class="session-title"><a href="{{ '/program/3dui-contest/' | relative_url }}">Demos / 3DUI Exhibitions</a></span>
+                <span class="session-title"><a href="{{ '/program/demos/' | relative_url }}">Research Demos</a> /<a href="{{ '/program/3dui-contest/' | relative_url }}"> 3DUI Exhibitions</a></span>
                 <span class="session-time">09:30-10:00</span>
                 <span class="session-time">Room: Surcouf, Céz, Vauban</span>
             </div>                  
@@ -1283,7 +1283,7 @@ title_separator: "|"
                 <span class="session-time">Room: Grand large</span>
             </div>     
 			<div class="session track-pd3dui" style="grid-column: track-6; grid-row: time-1315 / time-1400;">
-                <span class="session-title"><a href="{{ '/program/3dui-contest/' | relative_url }}">Demos / 3DUI Exhibitions</a></span>
+                <span class="session-title"><a href="{{ '/program/demos/' | relative_url }}">Research Demos</a> /<a href="{{ '/program/3dui-contest/' | relative_url }}"> 3DUI Exhibitions</a></span>
                 <span class="session-time">13:15-14:00</span>
                 <span class="session-time">Room: Surcouf, Cézembre, Vauban</span>
             </div>  
@@ -1369,7 +1369,7 @@ title_separator: "|"
                 <span class="session-time">Room: Grand large</span>
             </div>     
 			<div class="session track-pd3dui" style="grid-column: track-6; grid-row: time-1615 / time-1715;">
-                <span class="session-title"><a href="{{ '/program/3dui-contest/' | relative_url }}">Demos / 3DUI Exhibitions</a></span>
+                <span class="session-title"><a href="{{ '/program/demos/' | relative_url }}">Research Demos</a> /<a href="{{ '/program/3dui-contest/' | relative_url }}"> 3DUI Exhibitions</a></span>
                 <span class="session-time">16:15-17:15</span>
                 <span class="session-time">Room: Surcouf, Cézembre, Vauban</span>
             </div>                 
@@ -1483,7 +1483,7 @@ title_separator: "|"
                 <span class="session-time">Room: Grand large</span>
             </div>     
 			<div class="session track-pd3dui" style="grid-column: track-6; grid-row: time-0930 / time-1000;">
-                <span class="session-title"><a href="{{ '/program/3dui-contest/' | relative_url }}">Demos / 3DUI Exhibitions</a></span>
+                <span class="session-title"><a href="{{ '/program/demos/' | relative_url }}">Research Demos</a> /<a href="{{ '/program/3dui-contest/' | relative_url }}"> 3DUI Exhibitions</a></span>
                 <span class="session-time">09:30-10:00</span>
                 <span class="session-time">Room: Surcouf, Céz, Vauban</span>
             </div>                  
@@ -1557,7 +1557,7 @@ title_separator: "|"
                 <span class="session-time">Room: Grand large</span>
             </div>     
 			<div class="session track-pd3dui" style="grid-column: track-6; grid-row: time-1315 / time-1400;">
-                <span class="session-title"><a href="{{ '/program/3dui-contest/' | relative_url }}">Demos / 3DUI Exhibitions</a></span>
+                <span class="session-title"><a href="{{ '/program/demos/' | relative_url }}">Research Demos</a> /<a href="{{ '/program/3dui-contest/' | relative_url }}"> 3DUI Exhibitions</a></span>
                 <span class="session-time">13:15-14:00</span>
                 <span class="session-time">Room: Surcouf, Cézembre, Vauban</span>
             </div>  
