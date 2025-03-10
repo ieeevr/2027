@@ -195,12 +195,12 @@ id,session,room,type,presenter,ids,title
 195,12,A, , ,PTVCG12, A Testbed for Studying Cybersickness and its Mitigation in Immersive Virtual Reality
 196,12,A, , ,P2071, Beyond Subjectivity: Continuous Cybersickness Detection Using EEG-based Multitaper Spectrum Estimation
 197,12,A, , ,PTVCG2, To use or not to use viewpoint oscillations when walking in VR ? State of the art and perspectives
-203,12,B, , ,PTVCG4, Multiple Self-Avatar Effect: Effects of Using Diverse Self-Avatars on Memory Acquisition and Retention of Sign-Language Gestures
+198,12,A, , ,P1761,"Effects of viewpoint oscillations and gaze-based stabilization on walking sensation,  embodiment and cybersickness in immersive VR"
 199,12,A, , ,PTVCG5, The Least Increasing Aversion (LIA) Protocol: Illustration on Identifying Individual Susceptibility to Cybersickness Triggers
 200,12,B, , ,PTVCG13, Development and Evaluation of a Treadmill-based Video-see-through and Optical-see-through Mixed Reality Systems for Obstacle Negotiation Training
 201,12,B, , ,P1254, Preview Teleport: An Occlusion-Free Point-and-Teleport Technique Enhanced with an Augmented Preview
 202,12,B, , ,P1746, Measuring Human Perception of Airflow for Natural Motion Simulation in Virtual Reality
-198,12,A, , ,P1761,"Effects of viewpoint oscillations and gaze-based stabilization on walking sensation,  embodiment and cybersickness in immersive VR"
+203,12,B, , ,PTVCG4, Multiple Self-Avatar Effect: Effects of Using Diverse Self-Avatars on Memory Acquisition and Retention of Sign-Language Gestures
 204,12,B, , ,P1549, Comparative Evaluation of Differing Levels of Information Presentation in 3D Mini-Maps on Spatial Knowledge Acquisition in VR
 205,12,C, , ,P2017, Exploring Multiscale Navigation of Homogeneous and Dense Objects with Progressive Refinement in Virtual Reality
 206,12,C, , ,P1513, Single Actor Controlling Multiple Avatars for Social Virtual Realities
