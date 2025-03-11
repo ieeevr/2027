@@ -8,7 +8,7 @@ title_separator: "|"
 
 <h1>Posters</h1>
 <div>
-<p> <b>Each day, talk with the authors: 9:15‑9:45, 13:00‑13:45, 16:00‑17:00 (Timezone: Saint-Malo, France UTC+1)</b> 
+<p> <b>Each day, talk with the authors: 9:30‑10:00, 13:15‑14:00, 16:15‑17:15 (Timezone: Saint-Malo, France UTC+1)</b> 
     <b><strong style="color:red">On Monday, talk with the authors: 10:45‑11:15, 13:00‑13:45, 16:00‑17:00 (Timezone: Saint-Malo, France UTC+1)</strong></b>
 </p>
 
