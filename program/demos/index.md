@@ -57,7 +57,7 @@ title_separator: "|"
     {% assign j = 0 %}
     {% for demo in site.data.demos %}
         {% assign j = j | plus:1 %}
-        <!--{% for a in site.data.awards %}  
+        {% for a in site.data.awards %}  
             {% if a.type == 'Demo' %}
                 {% if a.id == demo.demoid %}
                     {% if a.award == 'Best Demo' %}
@@ -68,7 +68,7 @@ title_separator: "|"
                     {% endif %}
                 {% endif %}
             {% endif %}
-        {% endfor %}-->
+        {% endfor %}
         <p class="medLarge" id="{{ demo.title }}" style="margin-bottom: 0.3em;">
             <strong>{{ demo.title }} </strong><!--(ID:{{ demo.demoid }})-->
         </p>

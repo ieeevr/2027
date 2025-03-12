@@ -41,7 +41,7 @@ title_separator: "|"
                     <div style="margin-left: 25px;">     
                         {% for a in site.data.awards %}  
                             {% if a.type == 'Poster' %}
-                                {% if a.id == poster.id %}
+                                {% if a.id == poster.BoothID %}
                                     {% if a.award == 'Best Poster' %}
                                         <div class="align-left"><a href="{{ "/awards/conference-awards" | relative_url }}#poster-best"><img src= "{{ "/assets/images/awards/best.png" | relative_url }}" title="Best Poster Award" alt="Best Poster Award"></a></div>
                                     {% endif %}                                                    
