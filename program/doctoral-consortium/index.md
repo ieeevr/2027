@@ -113,22 +113,34 @@ title_separator: "|"
     <h2 id="P3" class="pink" style="padding-top:25px;">Accepted Students</h2>
     {% assign sorted_dc = site.data.dc | sort: "num" %}
     {% for dc in sorted_dc %}
-            <p class="medLarge" id="{{ dc.id }}" style="margin-bottom: 0.3em;">
-                <strong>{{ dc.title }} </strong>
-            </p>
-            <p class="clear font_75" >
-                <span class="bold">Author:</span> <span class="">{{ dc.name | strip }}</span>, <i>{{ dc.affiliation | strip }}</i><br />
-                <!--<span class="bold">Mentor:</span> <span class="">{{ dc.mentor | strip }}</span>-->
-            </p>
-            {% if dc.abstract %}
-                <div id="{{ dc.id }}" class="wrap-collabsible"> <input id="collapsibleabstract{{ dc.id }}" class="toggle" type="checkbox"> 
-                    <label for="collapsibleabstract{{ dc.id }}" class="lbl-toggle">Abstract</label>
-                    <div class="collapsible-content">
-                        <div class="content-inner">
-                            <p>{{ dc.abstract }}</p>
-                        </div>
-                    </div>
-                </div>   
+        {% for a in site.data.awards %}  
+            {% if a.type == 'DC' %}
+                {% if a.id == dc.id %}
+                    {% if a.award == "Best DC" %}
+                        <div class="align-left"><a href="{{ "/awards/conference-awards" | relative_url }}#dc-best"><img src= "{{ "/assets/images/awards/best.png" | relative_url }}" title="Best Doctoral Consortium Consortium Paper" alt="Best Doctoral Consortium Paper"></a></div>
+                    {% endif %}                                                    
+                    {% if a.award == "Honorable Mention" %}
+                        <div class="align-left"><a href="{{ "/awards/conference-awards" | relative_url }}#dc-honorable"><img src= "{{ "/assets/images/awards/hm.png" | relative_url }}" title="Best Doctoral Consortium Paper Honorable Mention" alt="Best Doctoral Consortium Paper Honorable Mention"></a></div>
+                    {% endif %}
+                {% endif %}
             {% endif %}
+        {% endfor %}
+        <p class="medLarge" id="{{ dc.id }}" style="margin-bottom: 0.3em;">
+            <strong>{{ dc.title }} </strong>
+        </p>
+        <p class="clear font_75" >
+            <span class="bold">Author:</span> <span class="">{{ dc.name | strip }}</span>, <i>{{ dc.affiliation | strip }}</i><br />
+            <!--<span class="bold">Mentor:</span> <span class="">{{ dc.mentor | strip }}</span>-->
+        </p>
+        {% if dc.abstract %}
+            <div id="{{ dc.id }}" class="wrap-collabsible"> <input id="collapsibleabstract{{ dc.id }}" class="toggle" type="checkbox"> 
+                <label for="collapsibleabstract{{ dc.id }}" class="lbl-toggle">Abstract</label>
+                <div class="collapsible-content">
+                    <div class="content-inner">
+                        <p>{{ dc.abstract }}</p>
+                    </div>
+                </div>
+            </div>   
+        {% endif %}
     {% endfor %}
 </div>
