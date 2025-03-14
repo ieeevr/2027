@@ -167,13 +167,13 @@ title: "Awards"
         {% if item.ptype == 'Poster' %}
             {% assign source = site.data.posters %}
         {% endif %}
-        {% for acpaper in source %}
-            {% if item.BoothID == acpaper.ids  %} 
-                <p class="medLarge" id="{{ paper.id }}" style="margin-bottom: 0.3em;">
-                    <strong>{{ item.title }} (Booth ID: {{ item.BoothID }}) </strong>
+        {% for poster in source %}
+            {% if item.ids == poster.BoothID  %} 
+                <p class="medLarge" id="{{ poster.id }}" style="margin-bottom: 0.3em;">
+                    <strong>{{ poster.title }} (Booth ID: {{ poster.BoothID }}) </strong>
                 </p>
                 <p class="font_70" >
-                    {% assign authornames = item.authors | split: ";" %}
+                    {% assign authornames = poster.authors | split: ";" %}
                     {% for name in authornames %}
                         {% assign barename = name | split: ":" %}
                         {% for n in barename %}
@@ -185,29 +185,28 @@ title: "Awards"
                         {% endfor %} 
                     {% endfor %}
                 </p>
-                {% if item.abstract %}
-                    <div id="abstract_{{ item.VideoLink }}" class="wrap-collabsible" style="margin-top: 0px; padding-top: 0px; margin-bottom: 0px;"> <input id="collapsibleabstract{{ item.VideoLink }}" class="toggle" type="checkbox"> 
-                        <label for="collapsibleabstract{{ item.VideoLink }}" class="lbl-toggle">Abstract</label>
+                {% if poster.abstract %}
+                    <div id="abstract_{{ poster.VideoLink }}" class="wrap-collabsible" style="margin-top: 0px; padding-top: 0px; margin-bottom: 0px;"> <input id="collapsibleabstract{{ poster.VideoLink }}" class="toggle" type="checkbox"> 
+                        <label for="collapsibleabstract{{ poster.VideoLink }}" class="lbl-toggle">Abstract</label>
                         <div class="collapsible-content">
                             <div class="content-inner">
-                                <p>{{ item.abstract }}</p>
+                                <p>{{ poster.abstract }}</p>
                             </div>
                         </div>
                     </div>   
                 {% endif %}
-                {% if item.VideoLink %}
-                <div id="video_{{ item.VideoLink }}" class="wrap-collabsible" style="margin-top: 0px; padding-top: 0px; margin-bottom: 0px;"> <input id="collapsiblevideo{{ item.VideoLink }}" class="toggle" type="checkbox"> 
-                    <label for="collapsiblevideo{{ item.VideoLink }}" class="lbl-toggle">Video</label>
+                {% if poster.VideoLink %}
+                <div id="video_{{ poster.VideoLink }}" class="wrap-collabsible" style="margin-top: 0px; padding-top: 0px; margin-bottom: 0px;"> <input id="collapsiblevideo{{ poster.VideoLink }}" class="toggle" type="checkbox"> 
+                    <label for="collapsiblevideo{{ poster.VideoLink }}" class="lbl-toggle">Video</label>
                     <div class="collapsible-content">
                         <div class="content-inner">
                             <div class="video-container">
-                                <iframe src="https://www.youtube.com/embed/{{ item.VideoLink }}" loading="lazy" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <iframe src="https://www.youtube.com/embed/{{ poster.VideoLink }}" loading="lazy" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             </div>
                         </div>
                     </div>
                 </div>         
-            {% endif %}
-            
+            {% endif %}            
         {% endfor %}
     {% endfor %}
 </div>
@@ -225,7 +224,7 @@ title: "Awards"
 {% endif %}    
 <div style="padding-bottom:15px;">
     {% for item in award %}
-        {% for j in site.data.contest3dui %}
+        {% for entry in site.data.contest3dui %}
             {% if j.id == item.id %}  
                 <p class="medLarge" id="{{ entry.num }}" style="margin-bottom: 0.3em;">
                     <strong>{{ entry.title }} (ID:&nbsp;{{ entry.num }})</strong>
@@ -265,9 +264,9 @@ title: "Awards"
 </div>
 {% endif %}    
 <div style="padding-bottom:15px;">
-    {% for entry in award %}
-        {% for j in site.data.contest3dui %}
-            {% if j.id == entry.num %}  
+    {% for source in award %}
+        {% for entry in site.data.contest3dui %}
+            {% if siurce.id == entry.num %}  
                 <p class="medLarge" id="{{ entry.num }}" style="margin-bottom: 0.3em;">
                     <strong>{{ entry.title }} (ID:&nbsp;{{ entry.num }})</strong>
                 </p>
