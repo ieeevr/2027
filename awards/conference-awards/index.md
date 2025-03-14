@@ -216,6 +216,127 @@ title: "Awards"
 
 <p>The IEEE VR Best Demo Awards honors exceptional research demos published and presented at the IEEE VR conference. The IEEE VR Demo Chairs rank the accepted demos and recommend approximately 10% of all demos for an award. The best demo committee for IEEE VR consists of three distinguished members chosen by the Conference Awards Committee Chairs and the Demo Chairs. This committee selects one of the demos for the Best Demo Award and one for the Honorable Mention Award. The corresponding authors will receive a certificate at the conference. </p>
 
+{% assign award = site.data.awards | where: "type", "Demo" | where: "award", "Best Demo" %}
+{% if award.size > 0  %}
+<div>
+    <h2 id='demo-best' style="text-align: center; color: #00aeef;"><img src= "{{ "/assets/images/awards/best.png" | relative_url }}" title="Best Research Demo Award" alt="Best Research Demo Award"> Best Research Demo</h2>
+</div>
+{% endif %}    
+<div style="padding-bottom:15px;">
+    {% for item in award %}
+        {% for j in site.data.demos %}
+            {% if j.id == item.id %} 
+                <p class="medLarge" id="{{ j.id }}" style="margin-bottom: 0.3em;">
+                    <strong><a href="{{ "/program/demos" | relative_url }}#{{ j.id }}">{{ j.title }} (ID:&nbsp;{{ j.id }})</a></strong>
+                </p>
+                <p class="font_70" >
+                    {% assign authornames = j.authors | split: ";" %}
+                    {% for name in authornames %}
+                        {% assign barename = name | split: ":" %}
+                        {% for n in barename %}
+                            {% if n == barename.last %}
+                                <i>{{ n | strip }}{% if name == authornames.last %}{% else %};{% endif %}</i>
+                            {% else %}                            
+                                <span class="bold">{{ n | strip }},</span>
+                            {% endif %}
+                        {% endfor %} 
+                    {% endfor %}
+                </p>
+                {% if j.abstract %}
+                    <div id="D{{ j.id }}" class="wrap-collabsible"> <input id="collapsibleD{{ j.id }}" class="toggle" type="checkbox"> <label for="collapsibleD{{ j.id }}" class="lbl-toggle">Abstract</label>
+                        <div class="collapsible-content">
+                            <div class="content-inner">
+                                <p>{{ j.abstract }}</p>
+                            </div>
+                        </div>
+                    </div>                        
+                {% endif %}
+            {% endif %}
+        {% endfor %}
+    {% endfor %}
+</div>
+
+{% assign award = site.data.awards | where: "type", "Demo" | where: "award", "Honorable Mention" %}
+{% if award.size > 0  %}
+<div>
+    <h2 id='demo-honorable' style="text-align: center; color: #00aeef;"><img src= "{{ "/assets/images/awards/hm.png" | relative_url }}" title="Best Research Demo Honorable Mention" alt="Best Research Demo Honorable Mention"> Best Research Demo - Honorable Mention</h2>
+</div>
+{% endif %}    
+<div style="padding-bottom:15px;">
+    {% for item in award %}    
+    {% assign j = 0 %}
+        {% for demo in site.data.demos %}
+            {% if demo.id == item.id %}
+                <p class="medLarge" id="{{ demo.title }}" style="margin-bottom: 0.3em;">
+                    <strong>{{ demo.title }} </strong><!--(ID:{{ demo.demoid }})-->
+                </p>
+                <p>
+                Hall: {{ demo.hall}}, Booth ID : {{demo.booth}}
+                </p>
+                <p class="font_70" >                
+                    {% if demo.author1first %}                         
+                        <span class="bold">{{ demo.author1first }} {{demo.author1last }},</span> <i> {{ demo.author1institution}}</i>
+                    {% endif %}                
+                    {% if demo.author2first %}                         
+                        ;<span class="bold"> {{ demo.author2first }} {{ demo.author2last }},</span> <i> {{ demo.author2institution}}</i>
+                    {% endif %}           
+                    {% if demo.author3first %}                         
+                        ;<span class="bold"> {{ demo.author3first }} {{ demo.author3last }},</span> <i> {{ demo.author3institution}}</i>
+                    {% endif %}           
+                    {% if demo.author4first %}                         
+                        ;<span class="bold"> {{ demo.author4first }} {{ demo.author4last }},</span> <i> {{ demo.author4institution}}</i>
+                    {% endif %}           
+                    {% if demo.author5first %}                         
+                        ;<span class="bold"> {{ demo.author5first }} {{ demo.author5last }},</span> <i> {{ demo.author5institution}}</i>
+                    {% endif %}           
+                    {% if demo.author6first %}                         
+                        ;<span class="bold"> {{ demo.author6first }} {{ demo.author6last }},</span> <i> {{ demo.author6institution}}</i>
+                    {% endif %}           
+                    {% if demo.author7first %}                         
+                        ;<span class="bold"> {{ demo.author7first }} {{ demo.author7last }},</span> <i> {{ demo.author7institution}}</i>
+                    {% endif %}           
+                    {% if demo.author8first %}                         
+                        ;<span class="bold"> {{ demo.author8first }} {{ demo.author8last }},</span> <i> {{ demo.author8institution}}</i>
+                    {% endif %}           
+                    {% if demo.author9first %}                         
+                        ;<span class="bold"> {{ demo.author9first }} {{ demo.author9last }},</span> <i> {{ demo.author9institution}}</i>
+                    {% endif %}           
+                    {% if demo.author10first %}                         
+                        ;<span class="bold"> {{ demo.author10first }} {{ demo.author10last }},</span> <i> {{ demo.author10institution}}</i>
+                    {% endif %}           
+                    {% if demo.author11first %}                         
+                        ;<span class="bold"> {{ demo.author11first }} {{ demo.author11last }},</span> <i> {{ demo.author11institution}}</i>
+                    {% endif %}        
+                    {% if demo.author12first %}                         
+                        ;<span class="bold"> {{ demo.author12first }} {{ demo.author12last }},</span> <i> {{ demo.author12institution}}</i>
+                    {% endif %}  
+                </p>
+                {% if demo.abstract %}
+                    <div id="{{ demo.title }}" class="wrap-collabsible"> <input id="collapsible{{ demo.title }}" class="toggle" type="checkbox"> <label for="collapsible{{ demo.title }}" class="lbl-toggle">Abstract</label>
+                        <div class="collapsible-content">
+                            <div class="content-inner">
+                                <p>{{ demo.abstract }}</p>
+                            </div>
+                        </div>
+                    </div>
+                {% endif %}
+                {% if demo.urlvimeo %}
+                    <div class="video-container">
+                        <iframe src="{{ demo.urlvimeo }}" loading="lazy" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>                     
+                {% else %}
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/{{ demo.url }}" loading="lazy" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>     
+                {% endif %}     
+                {% if j == i %}
+                {% else %}
+                    <hr style="margin: 25px 0 25px 0;">
+                {% endif %}  
+            {% endif %}
+        {% endfor %}
+    {% endfor %}
+</div>
 
 
 <h2>Best 3DUI Contest & Honorable Mention</h2>
