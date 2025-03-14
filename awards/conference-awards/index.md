@@ -392,7 +392,7 @@ title: "Awards"
 <div style="padding-bottom:15px;">
     {% for source in award %}
         {% for entry in site.data.contest3dui %}
-            {% if siurce.id == entry.num %}  
+            {% if source.id == entry.num %}  
                 <p class="medLarge" id="{{ entry.num }}" style="margin-bottom: 0.3em;">
                     <strong>{{ entry.title }} (ID:&nbsp;{{ entry.num }})</strong>
                 </p>
@@ -422,7 +422,7 @@ title: "Awards"
             {% endif %}
         {% endfor %}
     {% endfor %}
-</div>-->
+</div>
 
 <h2>Best DC Paper & Honorable Mention for Best DC Paper</h2>
 
