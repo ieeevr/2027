@@ -224,7 +224,6 @@ title: "Awards"
 {% endif %}    
 <div style="padding-bottom:15px;">  
     {% for item in award %}    
-    {% assign j = 0 %}
         {% for demo in site.data.demos %}
             {% if demo.id == item.id %}
                 <p class="medLarge" id="{{ demo.title }}" style="margin-bottom: 0.3em;">
@@ -289,10 +288,6 @@ title: "Awards"
                         <iframe src="https://www.youtube.com/embed/{{ demo.url }}" loading="lazy" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>     
                 {% endif %}     
-                {% if j == i %}
-                {% else %}
-                    <hr style="margin: 25px 0 25px 0;">
-                {% endif %}  
             {% endif %}
         {% endfor %}
     {% endfor %}
@@ -306,7 +301,6 @@ title: "Awards"
 {% endif %}    
 <div style="padding-bottom:15px;">
     {% for item in award %}    
-    {% assign j = 0 %}
         {% for demo in site.data.demos %}
             {% if demo.id == item.id %}
                 <p class="medLarge" id="{{ demo.title }}" style="margin-bottom: 0.3em;">
@@ -370,11 +364,7 @@ title: "Awards"
                     <div class="video-container">
                         <iframe src="https://www.youtube.com/embed/{{ demo.url }}" loading="lazy" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>     
-                {% endif %}     
-                {% if j == i %}
-                {% else %}
-                    <hr style="margin: 25px 0 25px 0;">
-                {% endif %}  
+                {% endif %}      
             {% endif %}
         {% endfor %}
     {% endfor %}
@@ -392,9 +382,9 @@ title: "Awards"
 </div>
 {% endif %}    
 <div style="padding-bottom:15px;">
-    {% for item in award %}
+    {% for item in award %}  
         {% for entry in site.data.contest3dui %}
-            {% if j.id == item.id %}  
+            {% if entry.num == item.id %}  
                 <p class="medLarge" id="{{ entry.num }}" style="margin-bottom: 0.3em;">
                     <strong>{{ entry.title }} (ID:&nbsp;{{ entry.num }})</strong>
                 </p>
@@ -416,10 +406,6 @@ title: "Awards"
                     {% assign video_path = "/assets/videos/3dui/vr25d-sub" | append: entry.num | append: "-cam-i26.mp4?autoplay=1" %}
                         <iframe src="{{ video_path | relative_url }}" frameborder="0"  sandbox=""></iframe>
                     </div>
-                {% endif %}
-                {% if j == i %}
-                {% else %}
-                    <hr style="margin: 25px 0 25px 0;">
                 {% endif %}
             {% endif %}
         {% endfor %}
@@ -456,10 +442,6 @@ title: "Awards"
                     {% assign video_path = "/assets/videos/3dui/vr25d-sub" | append: entry.num | append: "-cam-i26.mp4?autoplay=1" %}
                         <iframe src="{{ video_path | relative_url }}" frameborder="0"  sandbox=""></iframe>
                     </div>
-                {% endif %}
-                {% if j == i %}
-                {% else %}
-                    <hr style="margin: 25px 0 25px 0;">
                 {% endif %}
             {% endif %}
         {% endfor %}
