@@ -428,6 +428,69 @@ title: "Awards"
 
 <p>The IEEE VR Best Doctoral Consortium (DC) Paper Awards honors exceptional DC papers published and presented at the IEEE VR conference. The best DC paper committee consists of three distinguished members chosen by the Conference Awards Committee Chairs and the DC chairs. The DC chairs recommend 20% of all DC papers for such an award. The best DC committee selects one of these DC papers for Best DC Paper Award and one to receive an Honorable Mention Award. DC papers that receive an award will be marked in the program, and authors will receive a certificate at the conference. </p>
 
+{% assign award = site.data.awards | where: "type", "DC" | where: "award", "Best DC" %}
+{% if award.size > 0  %}
+<div>
+    <h2 id='DC-best' style="text-align: center; color: #00aeef;"><img src= "{{ "/assets/images/awards/best.png" | relative_url }}" title="Best Doctoral Consortium Award" alt="Best Doctoral Consortium Award"> Best Doctoral Consortium Paper</h2>
+</div>
+{% endif %}    
+<div style="padding-bottom:15px;">  
+    {% for item in award %}
+        {% for dc in site.data.dc %}
+            {% if dc.id == item.id %}  
+                <p class="medLarge" id="{{ dc.id }}" style="margin-bottom: 0.3em;">
+                    <strong>{{ dc.title }} </strong>
+                </p>
+                <p class="clear font_75" >
+                    <span class="bold">Author:</span> <span class="">{{ dc.name | strip }}</span>, <i>{{ dc.affiliation | strip }}</i><br />
+                    <!--<span class="bold">Mentor:</span> <span class="">{{ dc.mentor | strip }}</span>-->
+                </p>
+                {% if dc.abstract %}
+                    <div id="{{ dc.id }}" class="wrap-collabsible"> <input id="collapsibleabstract{{ dc.id }}" class="toggle" type="checkbox"> 
+                        <label for="collapsibleabstract{{ dc.id }}" class="lbl-toggle">Abstract</label>
+                        <div class="collapsible-content">
+                            <div class="content-inner">
+                                <p>{{ dc.abstract }}</p>
+                            </div>
+                        </div>
+                    </div>   
+                {% endif %}               
+            {% endif %}
+        {% endfor %}
+    {% endfor %}
+</div>
+
+{% assign award = site.data.awards | where: "type", "DC" | where: "award", "Honorable Mention" %}
+{% if award.size > 0  %}
+    <div>
+        <h2 id='DC-honorable' style="text-align: center; color: #00aeef;"><img src= "{{ "/assets/images/awards/hm.png" | relative_url }}" title="Best DC Paper Honorable Mention" alt="Best DC Paper Honorable Mention"> Best Doctoral Consortium Paper - Honorable Mention</h2>
+    </div>
+{% endif %}    
+<div style="padding-bottom:15px;">
+    {% for item in award %}
+        {% for j in site.data.dc %}
+            {% if j.id == item.id %}  
+                <p class="medLarge" id="{{ dc.id }}" style="margin-bottom: 0.3em;">
+                    <strong>{{ dc.title }} </strong>
+                </p>
+                <p class="clear font_75" >
+                    <span class="bold">Author:</span> <span class="">{{ dc.name | strip }}</span>, <i>{{ dc.affiliation | strip }}</i><br />
+                    <!--<span class="bold">Mentor:</span> <span class="">{{ dc.mentor | strip }}</span>-->
+                </p>
+                {% if dc.abstract %}
+                    <div id="{{ dc.id }}" class="wrap-collabsible"> <input id="collapsibleabstract{{ dc.id }}" class="toggle" type="checkbox"> 
+                        <label for="collapsibleabstract{{ dc.id }}" class="lbl-toggle">Abstract</label>
+                        <div class="collapsible-content">
+                            <div class="content-inner">
+                                <p>{{ dc.abstract }}</p>
+                            </div>
+                        </div>
+                    </div>   
+                {% endif %}
+            {% endif %}
+        {% endfor %}
+    {% endfor %}
+</div>
 
 <h2>Best Paper Presentation</h2>
 
