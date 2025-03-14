@@ -212,10 +212,92 @@ title: "Awards"
     {% endfor %}
 </div>
 
+
 <h2>Best 3DUI Contest & Honorable Mention</h2>
 
 <p>The IEEE VR Best 3DUI Contest Submission Awards honors exceptional 3DUI contest submissions published and presented at the IEEE VR conference. The 3DUI contest chairs select one of the submissions for the Best 3DUI Contest Submission Award and one for the Honorable Mention Award. The final decision is based on a combination of the reviews’ scores, scores from experts testing the contest submission during the conference, and the audience scores. The winning team with the highest score will be awarded. Authors will receive a certificate at the conference.</p>
 
+{% assign award = site.data.awards | where: "type", "3DUI Contest" | where: "award", "Best 3DUI" %}
+{% if award.size > 0  %}
+<div>
+    <h2 id='3dui-best' style="text-align: center; color: #00aeef;"><img src= "{{ "/assets/images/awards/best.png" | relative_url }}" title="Best 3DUI Contest Demo Award" alt="Best 3DUI Contest Demo Award"> Best 3DUI Contest Demo</h2>
+</div>
+{% endif %}    
+<div style="padding-bottom:15px;">
+    {% for item in award %}
+        {% for j in site.data.contest3dui %}
+            {% if j.id == item.id %}  
+                <p class="medLarge" id="{{ entry.num }}" style="margin-bottom: 0.3em;">
+                    <strong>{{ entry.title }} (ID:&nbsp;{{ entry.num }})</strong>
+                </p>
+                <p class="font_70" >   
+                    {% assign authornames = entry.affiliations | split: "," %}
+                    {% for name in authornames %}
+                        {% assign barename = name | split: ":" %}
+                        {% for n in barename %}
+                            {% if n == barename.last %}
+                                <i>{{ n | strip }}{% if name == authornames.last %}{% else %};{% endif %}</i>
+                            {% else %}                            
+                                <span class="bold">{{ n | strip }},</span>
+                            {% endif %}
+                        {% endfor %} 
+                    {% endfor %}
+                </p>
+                {% if entry.num %}
+                    <div class="video-container">
+                    {% assign video_path = "/assets/videos/3dui/vr25d-sub" | append: entry.num | append: "-cam-i26.mp4?autoplay=1" %}
+                        <iframe src="{{ video_path | relative_url }}" frameborder="0"  sandbox=""></iframe>
+                    </div>
+                {% endif %}
+                {% if j == i %}
+                {% else %}
+                    <hr style="margin: 25px 0 25px 0;">
+                {% endif %}
+            {% endif %}
+        {% endfor %}
+    {% endfor %}
+</div>
+
+{% assign award = site.data.awards | where: "type", "3DUI Contest" | where: "award", "Honorable Mention" %}
+{% if award.size > 0  %}
+<div>
+    <h2 id='3dui-honorable' style="text-align: center; color: #00aeef;"><img src= "{{ "/assets/images/awards/hm.png" | relative_url }}" title="Best 3DUI Contest Demo Honorable Mention" alt="Best 3DUI Contest Demo Honorable Mention"> Best 3DUI Contest Demo - Honorable Mention</h2>
+</div>
+{% endif %}    
+<div style="padding-bottom:15px;">
+    {% for entry in award %}
+        {% for j in site.data.contest3dui %}
+            {% if j.id == entry.num %}  
+                <p class="medLarge" id="{{ entry.num }}" style="margin-bottom: 0.3em;">
+                    <strong>{{ entry.title }} (ID:&nbsp;{{ entry.num }})</strong>
+                </p>
+                <p class="font_70" >   
+                    {% assign authornames = entry.affiliations | split: "," %}
+                    {% for name in authornames %}
+                        {% assign barename = name | split: ":" %}
+                        {% for n in barename %}
+                            {% if n == barename.last %}
+                                <i>{{ n | strip }}{% if name == authornames.last %}{% else %};{% endif %}</i>
+                            {% else %}                            
+                                <span class="bold">{{ n | strip }},</span>
+                            {% endif %}
+                        {% endfor %} 
+                    {% endfor %}
+                </p>
+                {% if entry.num %}
+                    <div class="video-container">
+                    {% assign video_path = "/assets/videos/3dui/vr25d-sub" | append: entry.num | append: "-cam-i26.mp4?autoplay=1" %}
+                        <iframe src="{{ video_path | relative_url }}" frameborder="0"  sandbox=""></iframe>
+                    </div>
+                {% endif %}
+                {% if j == i %}
+                {% else %}
+                    <hr style="margin: 25px 0 25px 0;">
+                {% endif %}
+            {% endif %}
+        {% endfor %}
+    {% endfor %}
+</div>
 
 <h2>Best DC Paper & Honorable Mention for Best DC Paper</h2>
 
@@ -226,4 +308,3 @@ title: "Awards"
 
 <p>The IEEE VR Best Presentation Awards honor excellent, interesting, and stimulating presentations of research papers at the IEEE VR conference. During the conference, the audience can give a vote for each presentation that they think deserves an award. Approximately 3% of presentations with the highest number of votes receive an award. Among these selected presentations, the top 1% regarding the number of votes, will receive a Best Presentation Award, while the remaining presentations receive an Honorable Mention Award.</p>
 
--->
