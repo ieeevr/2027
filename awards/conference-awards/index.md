@@ -97,80 +97,24 @@ title: "Awards"
         {% endfor %}
     {% endfor %}
 </div>
-{% assign award = site.data.awards | where: "type", "Journal" | where: "award", "Honorable Mention" %}
-{% if award.size > 0  %}
-<div>
-    <h2 id='paper-honorable' style="text-align: center; color: #00aeef;"><img src= "{{ "/assets/images/awards/hm.png" | relative_url }}" title="Best Paper Honorable Mention" alt="Best Paper Honorable Mention"> Best Papers - Honorable Mentions</h2>
-</div>
-{% endif %}  
-<div style="padding-bottom:15px;">
-    {% for item in award %}     
-        {% if item.ptype == 'Journal' %}
-            {% assign source = site.data.acceptedpapers %}
-        {% endif %}
-        {% if item.ptype == 'Conference' %}
-            {% assign source = site.data.conferencepapers %}
-        {% endif %}
-        {% if item.ptype == 'Invited Journal' %}
-            {% assign source = site.data.invitedjournalpapers %}
-        {% endif %}
-        {% for acpaper in source %}
-            {% if item.id == acpaper.ids  %} 
-                <p class="medLarge" id="paper_{{ paper.id }}" style="margin-bottom: 0.3em;">
-                    <b>{{ acpaper.title }}</b>
-                </p>
-                <div><p class="font_70">
-                {% assign authornames = acpaper.affiliations | split: "," %}
-                {% for name in authornames %}
-                    {% assign barename = name | split: ":" %}
-                    {% for n in barename %}
-                        {% if n == barename.last %}
-                            <i>{{ n | strip }}{% if name == authornames.last %}{% else %};{% endif %}</i>
-                        {% else %}                            
-                            <span class="bold">{{ n | strip }},</span>
-                        {% endif %}
-                    {% endfor %} 
-                {% endfor %}
-                </p></div>
-                {% if acpaper.abstract %}
-                    <div id="{{ acpaper.ids }}" class="wrap-collabsible"> <input id="collapsibleabstract{{ acpaper.ids }}" class="toggle" type="checkbox"> 
-                        <label for="collapsibleabstract{{ acpaper.ids }}" class="lbl-toggle">Abstract</label>
-                        <div class="collapsible-content">
-                            <div class="content-inner">
-                                <p>{{ acpaper.abstract }}</p>
-                            </div>
-                        </div>
-                    </div>   
-                {% endif %}
-            {% endif %}
-            
-        {% endfor %}
-    {% endfor %}
-</div>
+
 
 
 <h2>Best Posters & Honorable Mention for Best Poster</h2>
 
 <p>The IEEE VR Best Poster Awards honors exceptional posters published and presented at the IEEE VR conference. During the review process, the best poster committee for IEEE VR consists of three distinguished members chosen by the Conference Awards Committee and Poster Chairs, which will select the best posters based on the two-page abstract and the poster presentation during the conference. Posters that receive an award will be marked in the program, and authors will receive a certificate at the conference. </p>
-{% assign award = site.data.awards | where: "type", "Journal" | where: "award", "Honorable Mention" %}
-<h2>Best Demo & Honorable Mention for Best Demo</h2>
-
-<p>The IEEE VR Best Demo Awards honors exceptional research demos published and presented at the IEEE VR conference. The IEEE VR Demo Chairs rank the accepted demos and recommend approximately 10% of all demos for an award. The best demo committee for IEEE VR consists of three distinguished members chosen by the Conference Awards Committee Chairs and the Demo Chairs. This committee selects one of the demos for the Best Demo Award and one for the Honorable Mention Award. The corresponding authors will receive a certificate at the conference. </p>
-<!-- 
-{% assign award = site.data.awards | where: "type", "Poster" | where: "award", "Honorable Mention" %}
+{% assign award = site.data.awards | where: "type", "Poster" | where: "award", "Best Poster" %}
 {% if award.size > 0  %}
 <div>
-    <h2 id='paper-honorable' style="text-align: center; color: #00aeef;"><img src= "{{ "/assets/images/awards/hm.png" | relative_url }}" title="Best Paper Honorable Mention" alt="Best Paper Honorable Mention"> Best Papers - Honorable Mentions</h2>
+    <h2 id='poster-best' style="text-align: center; color: #00aeef;"><img src= "{{ "/assets/images/awards/best.png" | relative_url }}" title="Best Poster Award" alt="Best Poster Award"> Best Posters</h2>
 </div>
 {% endif %}  
 <div style="padding-bottom:15px;">
     {% for item in award %}     
-        {% if item.ptype == 'Poster' %}
-            {% assign source = site.data.posters %}
-        {% endif %}
+        {% assign source = site.data.posters %}
         {% for poster in source %}
-            {% if item.ids == poster.BoothID  %} 
-                <p class="medLarge" id="{{ poster.id }}" style="margin-bottom: 0.3em;">
+            {% if item.id == poster.BoothID  %} 
+                <p class="medLarge" id="{{ paper.id }}" style="margin-bottom: 0.3em;">
                     <strong>{{ poster.title }} (Booth ID: {{ poster.BoothID }}) </strong>
                 </p>
                 <p class="font_70" >
@@ -206,11 +150,72 @@ title: "Awards"
                             </div>
                         </div>
                     </div>
-                </div>         
-            {% endif %}            
+                </div>                           
+                {% endif %}
+            {% endif %}
+            
         {% endfor %}
     {% endfor %}
-</div>-->
+</div>
+
+{% assign award = site.data.awards | where: "type", "Poster" | where: "award", "Honorable Mention" %}
+{% if award.size > 0  %}
+<div>
+    <h2 id='poster-honorable' style="text-align: center; color: #00aeef;"><img src= "{{ "/assets/images/awards/hm.png" | relative_url }}" title="Best Poster Honorable Mention" alt="Best Poster Honorable Mention"> Best Poster - Honorable Mentions</h2>
+</div>
+{% endif %}   
+<div style="padding-bottom:15px;">
+    {% for item in award %}     
+        {% assign source = site.data.posters %}
+        {% for poster in source %}
+            {% if item.id == poster.BoothID  %} 
+                <p class="medLarge" id="{{ paper.id }}" style="margin-bottom: 0.3em;">
+                    <strong>{{ poster.title }} (Booth ID: {{ poster.BoothID }}) </strong>
+                </p>
+                <p class="font_70" >
+                    {% assign authornames = poster.authors | split: ";" %}
+                    {% for name in authornames %}
+                        {% assign barename = name | split: ":" %}
+                        {% for n in barename %}
+                            {% if n == barename.last %}
+                                <i>{{ n | strip }}{% if name == authornames.last %}{% else %};{% endif %}</i>
+                            {% else %}                            
+                                <span class="bold">{{ n | strip }},</span>
+                            {% endif %}
+                        {% endfor %} 
+                    {% endfor %}
+                </p>
+                {% if poster.abstract %}
+                    <div id="abstract_{{ poster.VideoLink }}" class="wrap-collabsible" style="margin-top: 0px; padding-top: 0px; margin-bottom: 0px;"> <input id="collapsibleabstract{{ poster.VideoLink }}" class="toggle" type="checkbox"> 
+                        <label for="collapsibleabstract{{ poster.VideoLink }}" class="lbl-toggle">Abstract</label>
+                        <div class="collapsible-content">
+                            <div class="content-inner">
+                                <p>{{ poster.abstract }}</p>
+                            </div>
+                        </div>
+                    </div>   
+                {% endif %}
+                {% if poster.VideoLink %}
+                <div id="video_{{ poster.VideoLink }}" class="wrap-collabsible" style="margin-top: 0px; padding-top: 0px; margin-bottom: 0px;"> <input id="collapsiblevideo{{ poster.VideoLink }}" class="toggle" type="checkbox"> 
+                    <label for="collapsiblevideo{{ poster.VideoLink }}" class="lbl-toggle">Video</label>
+                    <div class="collapsible-content">
+                        <div class="content-inner">
+                            <div class="video-container">
+                                <iframe src="https://www.youtube.com/embed/{{ poster.VideoLink }}" loading="lazy" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>                           
+                {% endif %}
+            {% endif %}
+            
+        {% endfor %}
+    {% endfor %}
+</div>
+<h2>Best Demo & Honorable Mention for Best Demo</h2>
+
+<p>The IEEE VR Best Demo Awards honors exceptional research demos published and presented at the IEEE VR conference. The IEEE VR Demo Chairs rank the accepted demos and recommend approximately 10% of all demos for an award. The best demo committee for IEEE VR consists of three distinguished members chosen by the Conference Awards Committee Chairs and the Demo Chairs. This committee selects one of the demos for the Best Demo Award and one for the Honorable Mention Award. The corresponding authors will receive a certificate at the conference. </p>
+
 
 
 <h2>Best 3DUI Contest & Honorable Mention</h2>
