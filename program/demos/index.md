@@ -59,7 +59,7 @@ title_separator: "|"
         {% assign j = j | plus:1 %}
         {% for a in site.data.awards %}  
             {% if a.type == 'Demo' %}
-                {% if a.id == demo.demoid %}
+                {% if a.id == demo.id %}
                     {% if a.award == 'Best Demo' %}
                         <div class="align-left"><a href="{{ "/awards/conference-awards" | relative_url }}#demo-best"><img src= "{{ "/assets/images/awards/best.png" | relative_url }}" title="Best Research Demo Award" alt="Best Research Demo Award"></a></div>
                     {% endif %}                                                    
