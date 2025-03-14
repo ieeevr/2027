@@ -383,7 +383,7 @@ title: "Awards"
 {% endif %}    
 <div style="padding-bottom:15px;">
     {% for item in award %}  
-        {% for entry in site.data.contest3dui %}
+        {% for entry in site.data.3dui %}
             {{ entry.id }}:{{ entry.num }}:{{ item.id }}-- 
             {% if entry.id == item.id %}  
                 <p class="medLarge" id="{{ entry.num }}" style="margin-bottom: 0.3em;">
@@ -420,7 +420,7 @@ title: "Awards"
 {% endif %}    
 <div style="padding-bottom:15px;">
     {% for source in award %}
-        {% for entry in site.data.contest3dui %}
+        {% for entry in site.data.3dui %}
             {% if source.id == entry.id %}  
                 <p class="medLarge" id="{{ entry.num }}" style="margin-bottom: 0.3em;">
                     <strong>{{ entry.title }} (ID:&nbsp;{{ entry.num }})</strong>
@@ -511,7 +511,7 @@ title: "Awards"
                             </div>
                         </div>
                     </div>   
-                {% endif %}
+                {% endif %}               
             {% endif %}
         {% endfor %}
     {% endfor %}
