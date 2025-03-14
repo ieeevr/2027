@@ -384,7 +384,7 @@ title: "Awards"
 <div style="padding-bottom:15px;">
     {% for item in award %}  
         {% for entry in site.data.contest3dui %}
-            {% if entry.num == item.id %}  
+            {% if entry.id == item.id %}  
                 <p class="medLarge" id="{{ entry.num }}" style="margin-bottom: 0.3em;">
                     <strong>{{ entry.title }} (ID:&nbsp;{{ entry.num }})</strong>
                 </p>
@@ -420,7 +420,7 @@ title: "Awards"
 <div style="padding-bottom:15px;">
     {% for source in award %}
         {% for entry in site.data.contest3dui %}
-            {% if source.id == entry.num %}  
+            {% if source.id == entry.id %}  
                 <p class="medLarge" id="{{ entry.num }}" style="margin-bottom: 0.3em;">
                     <strong>{{ entry.title }} (ID:&nbsp;{{ entry.num }})</strong>
                 </p>
