@@ -468,8 +468,8 @@ title: "Awards"
 {% endif %}    
 <div style="padding-bottom:15px;">
     {% for item in award %}
-        {% for j in site.data.dc %}
-            {% if j.id == item.id %}  
+        {% for dc in site.data.dc %}
+            {% if dc.id == item.id %}  
                 <p class="medLarge" id="{{ dc.id }}" style="margin-bottom: 0.3em;">
                     <strong>{{ dc.title }} </strong>
                 </p>
