@@ -221,7 +221,7 @@ title: "Awards"
 <h2>Best 3DUI Contest & Honorable Mention</h2>
 
 <p>The IEEE VR Best 3DUI Contest Submission Awards honors exceptional 3DUI contest submissions published and presented at the IEEE VR conference. The 3DUI contest chairs select one of the submissions for the Best 3DUI Contest Submission Award and one for the Honorable Mention Award. The final decision is based on a combination of the reviews’ scores, scores from experts testing the contest submission during the conference, and the audience scores. The winning team with the highest score will be awarded. Authors will receive a certificate at the conference.</p>
-<!--
+
 {% assign award = site.data.awards | where: "type", "3DUI Contest" | where: "award", "Best 3DUI" %}
 {% if award.size > 0  %}
 <div>
