@@ -486,9 +486,9 @@ title: "Awards"
 
 {% assign award = site.data.awards | where: "type", "DC" | where: "award", "Honorable Mention" %}
 {% if award.size > 0  %}
-    <div>
-        <h2 id='DC-honorable' style="text-align: center; color: #00aeef;"><img src= "{{ "/assets/images/awards/hm.png" | relative_url }}" title="Best DC Paper Honorable Mention" alt="Best DC Paper Honorable Mention"> Best Doctoral Consortium Paper - Honorable Mention</h2>
-    </div>
+<div>
+    <h2 id='DC-honorable' style="text-align: center; color: #00aeef;"><img src= "{{ "/assets/images/awards/hm.png" | relative_url }}" title="Best DC Paper Honorable Mention" alt="Best DC Paper Honorable Mention"> Best Doctoral Consortium Paper - Honorable Mention</h2>
+</div>
 {% endif %}    
 <div style="padding-bottom:15px;">
     {% for item in award %}
