@@ -80,7 +80,7 @@ title_separator: "|"
 <div>
     {% assign j = 0 %}
     {% for entry in site.data.3dui %}
-        <!--{% assign j = j | plus:1 %}
+        {% assign j = j | plus:1 %}
         {% for a in site.data.awards %}  
             {% if a.type == '3DUI Contest' %}
                 {% if a.id == entry.id %}
@@ -92,7 +92,7 @@ title_separator: "|"
                     {% endif %}
                 {% endif %}
             {% endif %}
-        {% endfor %} -->
+        {% endfor %} 
         <p class="medLarge" id="{{ entry.num }}" style="margin-bottom: 0.3em;">
             <strong>{{ entry.title }} (ID:&nbsp;{{ entry.num }})</strong>
         </p>
