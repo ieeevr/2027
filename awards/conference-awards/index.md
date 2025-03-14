@@ -148,6 +148,7 @@ title: "Awards"
     {% endfor %}
 </div>
 
+
 <h2>Best Posters & Honorable Mention for Best Poster</h2>
 
 <p>The IEEE VR Best Poster Awards honors exceptional posters published and presented at the IEEE VR conference. During the review process, the best poster committee for IEEE VR consists of three distinguished members chosen by the Conference Awards Committee and Poster Chairs, which will select the best posters based on the two-page abstract and the poster presentation during the conference. Posters that receive an award will be marked in the program, and authors will receive a certificate at the conference. </p>
@@ -155,7 +156,7 @@ title: "Awards"
 <h2>Best Demo & Honorable Mention for Best Demo</h2>
 
 <p>The IEEE VR Best Demo Awards honors exceptional research demos published and presented at the IEEE VR conference. The IEEE VR Demo Chairs rank the accepted demos and recommend approximately 10% of all demos for an award. The best demo committee for IEEE VR consists of three distinguished members chosen by the Conference Awards Committee Chairs and the Demo Chairs. This committee selects one of the demos for the Best Demo Award and one for the Honorable Mention Award. The corresponding authors will receive a certificate at the conference. </p>
-
+<!-- 
 {% assign award = site.data.awards | where: "type", "Poster" | where: "award", "Honorable Mention" %}
 {% if award.size > 0  %}
 <div>
@@ -209,13 +210,13 @@ title: "Awards"
             {% endif %}            
         {% endfor %}
     {% endfor %}
-</div>
+</div>-->
 
 
 <h2>Best 3DUI Contest & Honorable Mention</h2>
 
 <p>The IEEE VR Best 3DUI Contest Submission Awards honors exceptional 3DUI contest submissions published and presented at the IEEE VR conference. The 3DUI contest chairs select one of the submissions for the Best 3DUI Contest Submission Award and one for the Honorable Mention Award. The final decision is based on a combination of the reviews’ scores, scores from experts testing the contest submission during the conference, and the audience scores. The winning team with the highest score will be awarded. Authors will receive a certificate at the conference.</p>
-
+<!--
 {% assign award = site.data.awards | where: "type", "3DUI Contest" | where: "award", "Best 3DUI" %}
 {% if award.size > 0  %}
 <div>
@@ -256,7 +257,6 @@ title: "Awards"
         {% endfor %}
     {% endfor %}
 </div>
-
 {% assign award = site.data.awards | where: "type", "3DUI Contest" | where: "award", "Honorable Mention" %}
 {% if award.size > 0  %}
 <div>
@@ -296,7 +296,7 @@ title: "Awards"
             {% endif %}
         {% endfor %}
     {% endfor %}
-</div>
+</div>-->
 
 <h2>Best DC Paper & Honorable Mention for Best DC Paper</h2>
 
@@ -307,3 +307,4 @@ title: "Awards"
 
 <p>The IEEE VR Best Presentation Awards honor excellent, interesting, and stimulating presentations of research papers at the IEEE VR conference. During the conference, the audience can give a vote for each presentation that they think deserves an award. Approximately 3% of presentations with the highest number of votes receive an award. Among these selected presentations, the top 1% regarding the number of votes, will receive a Best Presentation Award, while the remaining presentations receive an Honorable Mention Award.</p>
 
+-->
