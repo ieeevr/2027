@@ -148,7 +148,7 @@ title: "Awards"
     {% endfor %}
 </div>
 
-<!-- <h2>Best Posters & Honorable Mention for Best Poster</h2>
+<h2>Best Posters & Honorable Mention for Best Poster</h2>
 
 <p>The IEEE VR Best Poster Awards honors exceptional posters published and presented at the IEEE VR conference. During the review process, the best poster committee for IEEE VR consists of three distinguished members chosen by the Conference Awards Committee and Poster Chairs, which will select the best posters based on the two-page abstract and the poster presentation during the conference. Posters that receive an award will be marked in the program, and authors will receive a certificate at the conference. </p>
 {% assign award = site.data.awards | where: "type", "Journal" | where: "award", "Honorable Mention" %}
@@ -156,6 +156,61 @@ title: "Awards"
 
 <p>The IEEE VR Best Demo Awards honors exceptional research demos published and presented at the IEEE VR conference. The IEEE VR Demo Chairs rank the accepted demos and recommend approximately 10% of all demos for an award. The best demo committee for IEEE VR consists of three distinguished members chosen by the Conference Awards Committee Chairs and the Demo Chairs. This committee selects one of the demos for the Best Demo Award and one for the Honorable Mention Award. The corresponding authors will receive a certificate at the conference. </p>
 
+{% assign award = site.data.awards | where: "type", "Poster" | where: "award", "Honorable Mention" %}
+{% if award.size > 0  %}
+<div>
+    <h2 id='paper-honorable' style="text-align: center; color: #00aeef;"><img src= "{{ "/assets/images/awards/hm.png" | relative_url }}" title="Best Paper Honorable Mention" alt="Best Paper Honorable Mention"> Best Papers - Honorable Mentions</h2>
+</div>
+{% endif %}  
+<div style="padding-bottom:15px;">
+    {% for item in award %}     
+        {% if item.ptype == 'Poster' %}
+            {% assign source = site.data.posters %}
+        {% endif %}
+        {% for acpaper in source %}
+            {% if item.BoothID == acpaper.ids  %} 
+                <p class="medLarge" id="{{ paper.id }}" style="margin-bottom: 0.3em;">
+                    <strong>{{ item.title }} (Booth ID: {{ item.BoothID }}) </strong>
+                </p>
+                <p class="font_70" >
+                    {% assign authornames = item.authors | split: ";" %}
+                    {% for name in authornames %}
+                        {% assign barename = name | split: ":" %}
+                        {% for n in barename %}
+                            {% if n == barename.last %}
+                                <i>{{ n | strip }}{% if name == authornames.last %}{% else %};{% endif %}</i>
+                            {% else %}                            
+                                <span class="bold">{{ n | strip }},</span>
+                            {% endif %}
+                        {% endfor %} 
+                    {% endfor %}
+                </p>
+                {% if item.abstract %}
+                    <div id="abstract_{{ item.VideoLink }}" class="wrap-collabsible" style="margin-top: 0px; padding-top: 0px; margin-bottom: 0px;"> <input id="collapsibleabstract{{ item.VideoLink }}" class="toggle" type="checkbox"> 
+                        <label for="collapsibleabstract{{ item.VideoLink }}" class="lbl-toggle">Abstract</label>
+                        <div class="collapsible-content">
+                            <div class="content-inner">
+                                <p>{{ item.abstract }}</p>
+                            </div>
+                        </div>
+                    </div>   
+                {% endif %}
+                {% if item.VideoLink %}
+                <div id="video_{{ item.VideoLink }}" class="wrap-collabsible" style="margin-top: 0px; padding-top: 0px; margin-bottom: 0px;"> <input id="collapsiblevideo{{ item.VideoLink }}" class="toggle" type="checkbox"> 
+                    <label for="collapsiblevideo{{ item.VideoLink }}" class="lbl-toggle">Video</label>
+                    <div class="collapsible-content">
+                        <div class="content-inner">
+                            <div class="video-container">
+                                <iframe src="https://www.youtube.com/embed/{{ item.VideoLink }}" loading="lazy" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>         
+            {% endif %}
+            
+        {% endfor %}
+    {% endfor %}
+</div>
 
 <h2>Best 3DUI Contest & Honorable Mention</h2>
 
