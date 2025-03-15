@@ -119,26 +119,7 @@ title: "Awards"
                 &nbsp;
             {% endif %}
         </td>
-    </tr>      
-    <tr>
-        <td><a href="#paper-presentation">Paper Presentations</a></td>
-        <td>  
-            {% assign award = site.data.awards | where: "type", "Presentation" | where: "award", "Best Presentation" %}
-            {% if award.size > 0  %}
-              <a href="#paper-presentation-best">Best Paper Presentations</a>    
-            {% else %}
-                &nbsp;
-            {% endif %}
-        </td>
-        <td>              
-            {% assign award = site.data.awards | where: "type", "Presentation" | where: "award", "Honorable Mention" %}
-            {% if award.size > 0  %}
-              <a href="#paper-presentation-honorable">Honorable Mentions</a>
-            {% else %}
-               &nbsp;
-            {% endif %}
-        </td>
-    </tr>   
+    </tr>        
     <tr>
         <td><a href="#gallery">XR Gallery</a></td>
         <td>  
