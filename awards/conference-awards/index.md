@@ -22,8 +22,125 @@ title: "Awards"
     <li>Stefania Serafin ‒ Aalborg University, Denmark</li>
     <li>Amine Chellali ‒ Université d'Evry Paris-Saclay, France</li>
 </ul>
-
-<h2>Best Papers & Honorable Mention for Best Papers</h2>
+<table class="styled-table" style="font-size: 0.9em; ">
+    <tr>
+        <th colspan="3">Conference Awards - Quick Links</th>
+    </tr>
+    <tr>
+        <td><a href="#papers">Papers</a></td>
+        <td>
+            {% assign award = site.data.awards | where: "type", "Journal" | where: "award", "Best Paper" %}
+            {% if award.size > 0  %}
+                <a href="#paper-best">Best Papers</a>
+            {% else %}
+                &nbsp;
+            {% endif %}
+        </td>
+        <td>        
+            {% assign award = site.data.awards | where: "type", "Journal" | where: "award", "Honorable Mention" %}
+            {% if award.size > 0  %}
+                <a href="#paper-best"><a href="#paper-honorable">Honorable Mentions</a></a>
+            {% else %}
+                &nbsp;
+            {% endif %}
+        </td>
+    </tr> 
+    <tr>
+        <td><a href="#poster">Posters</a></td>
+        <td>
+            {% assign award = site.data.awards | where: "type", "Poster" | where: "award", "Best Poster" %}
+            {% if award.size > 0  %}
+               <a href="#poster-best">Best Posters</a>
+            {% else %}
+               &nbsp;
+            {% endif %}
+        </td>
+        <td>
+            {% assign award = site.data.awards | where: "type", "Poster" | where: "award", "Honorable Mention" %}
+            {% if award.size > 0  %}
+               <a href="#poster-honorable">Honorable Mentions</a>
+            {% else %}
+                &nbsp;
+            {% endif %}
+        </td>
+    </tr>  
+    <tr>
+        <td><a href="#demo">Research Demos</a></td>  
+        <td>        
+            {% assign award = site.data.awards | where: "type", "Demo" | where: "award", "Best Demo" %}
+            {% if award.size > 0  %}
+              <a href="#demo-best">Best Research Demos</a>
+            {% else %}
+                &nbsp;
+            {% endif %}
+        </td>
+        <td>
+            {% assign award = site.data.awards | where: "type", "Demo" | where: "award", "Honorable Mention" %}
+            {% if award.size > 0  %}
+               <a href="#demo-honorable">Honorable Mentions</a>
+            {% else %}
+                &nbsp;
+            {% endif %}
+        </td>
+    </tr>
+    <tr>
+        <td><a href="#3dui">3DUI Contest Demos</a></td>
+        <td>          
+            {% assign award = site.data.awards | where: "type", "3DUI Contest" | where: "award", "Best 3DUI" %}
+            {% if award.size > 0  %}
+              <a href="#3dui-best">Best 3DUI Contest Demos</a>
+            {% else %}
+               &nbsp;
+            {% endif %}
+        </td>
+        <td>               
+            {% assign award = site.data.awards | where: "type", "3DUI Contest" | where: "award", "Honorable Mention" %}
+            {% if award.size > 0  %}
+              <a href="#3dui-honorable">Honorable Mentions</a>
+            {% else %}
+                &nbsp;
+            {% endif %}</td>
+    </tr>  
+    <tr>
+        <td><a href="#DC">Doctoral Consortiums</a></td>
+        <td>       
+            {% assign award = site.data.awards | where: "type", "DC" | where: "award", "Best DC" %}
+            {% if award.size > 0  %}
+              <a href="#DC-best">Best Doctoral Consortium</a>  
+            {% else %}
+                &nbsp;
+            {% endif %}
+        </td>
+        <td>
+            {% assign award = site.data.awards | where: "type", "DC" | where: "award", "Honorable Mention" %}
+            {% if award.size > 0  %}
+              <a href="#DC-honorable">Honorable Mentions</a>
+            {% else %}
+                &nbsp;
+            {% endif %}
+        </td>
+    </tr>      
+    <tr>
+        <td><a href="#paper-presentation">Paper Presentations</a></td>
+        <td>  
+            {% assign award = site.data.awards | where: "type", "Presentation" | where: "award", "Best Presentation" %}
+            {% if award.size > 0  %}
+              <a href="#paper-presentation-best">Best Paper Presentations</a>    
+            {% else %}
+                &nbsp;
+            {% endif %}
+        </td>
+        <td>              
+            {% assign award = site.data.awards | where: "type", "Presentation" | where: "award", "Honorable Mention" %}
+            {% if award.size > 0  %}
+              <a href="#paper-presentation-honorable">Honorable Mentions</a>
+            {% else %}
+               &nbsp;
+            {% endif %}
+        </td>
+    </tr>  
+</table>
+<h2 id = "papers">Best Papers & Honorable Mention for Best Papers</h2>
 
 <p>The IEEE VR Best Paper Awards honor exceptional papers published and presented at the IEEE VR conference. During the review process, the program committee chairs will choose approximately 3% of submissions to receive an award. Among these chosen submissions, the separate Conference Awards Selection Committee will select the best submissions to receive a Best Paper Award (ca. 1% of total submissions), while a selection of the remaining submissions receive an Honorable Mention Award. Papers that receive an award will be marked in the program, and authors will receive a certificate at the conference.</p>
 {% assign award = site.data.awards | where: "type", "Journal" | where: "award", "Best Paper" %}
@@ -98,9 +215,79 @@ title: "Awards"
     {% endfor %}
 </div>
 
+{% assign award = site.data.awards | where: "type", "Journal" | where: "award", "Honorable Mention" %}
+{% if award.size > 0  %}
+<div>
+    <h2 id='paper-honorable' style="text-align: center; color: #00aeef;"><img src= "{{ "/assets/images/awards/hm.png" | relative_url }}" title="Best Paper Award" alt="Best Paper Award"> Best Papers</h2>
+</div>
+{% endif %}    
+<div style="padding-bottom:15px;">
+    {% for item in award %}     
+        {% if item.ptype == 'Journal' %}
+            {% assign source = site.data.acceptedpapers %}
+            {% assign source2 = site.data.acceptedpaperstvcg %}
+        {% endif %}
+        {% if item.ptype == 'Conference' %}
+            {% assign source = site.data.conferencepapers %}
+        {% endif %}
+        {% if item.ptype == 'Invited Journal' %}
+            {% assign source = site.data.invitedjournalpapers %}
+        {% endif %}
+        {% for acpaper in source %}
+            {% if item.id == acpaper.ids  %} 
+                <p class="medLarge" id="paper_{{ acpaper.id }}" style="margin-bottom: 0.3em;">
+                    <b>{{ acpaper.title }}</b>
+                </p>
+                <div><p class="font_70">
+                {% assign authornames = acpaper.affiliations | split: "," %}
+                {% for name in authornames %}
+                    {% assign barename = name | split: ":" %}
+                    {% for n in barename %}
+                        {% if n == barename.last %}
+                            <i>{{ n | strip }}{% if name == authornames.last %}{% else %};{% endif %}</i>
+                        {% else %}                            
+                            <span class="bold">{{ n | strip }},</span>
+                        {% endif %}
+                    {% endfor %} 
+                {% endfor %}
+                </p></div>
+                {% if acpaper.abstract %}
+                    <div id="{{ acpaper.ids }}" class="wrap-collabsible"> <input id="collapsibleabstract{{ acpaper.ids }}" class="toggle" type="checkbox"> 
+                        <label for="collapsibleabstract{{ acpaper.ids }}" class="lbl-toggle">Abstract</label>
+                        <div class="collapsible-content">
+                            <div class="content-inner">
+                                <p>{{ acpaper.abstract }}</p>
+                            </div>
+                        </div>
+                    </div>   
+                {% endif %}
+            {% endif %}            
+        {% endfor %}
+        {% for acpaper in source2 %}
+            {% if item.id == acpaper.ids  %} 
+                <p class="medLarge" id="paper_{{ acpaper.id }}" style="margin-bottom: 0.3em;">
+                    <b>{{ acpaper.title }}</b>
+                </p>
+                <div><p class="font_70">
+                    {{ acpaper.contactauthor }}
+                </p></div>
+                {% if acpaper.abstract %}
+                    <div id="{{ acpaper.ids }}" class="wrap-collabsible"> <input id="collapsibleabstract{{ acpaper.ids }}" class="toggle" type="checkbox"> 
+                        <label for="collapsibleabstract{{ acpaper.ids }}" class="lbl-toggle">Abstract</label>
+                        <div class="collapsible-content">
+                            <div class="content-inner">
+                                <p>{{ acpaper.abstract }}</p>
+                            </div>
+                        </div>
+                    </div>   
+                {% endif %}
+            {% endif %}
+            
+        {% endfor %}
+    {% endfor %}
+</div>
 
-
-<h2>Best Posters & Honorable Mention for Best Poster</h2>
+<h2 id="poster">Best Posters & Honorable Mention for Best Poster</h2>
 
 <p>The IEEE VR Best Poster Awards honors exceptional posters published and presented at the IEEE VR conference. During the review process, the best poster committee for IEEE VR consists of three distinguished members chosen by the Conference Awards Committee and Poster Chairs, which will select the best posters based on the two-page abstract and the poster presentation during the conference. Posters that receive an award will be marked in the program, and authors will receive a certificate at the conference. </p>
 {% assign award = site.data.awards | where: "type", "Poster" | where: "award", "Best Poster" %}
@@ -212,7 +399,7 @@ title: "Awards"
         {% endfor %}
     {% endfor %}
 </div>
-<h2>Best Demo & Honorable Mention for Best Demo</h2>
+<h2 id="demo">Best Demo & Honorable Mention for Best Demo</h2>
 
 <p>The IEEE VR Best Demo Awards honors exceptional research demos published and presented at the IEEE VR conference. The IEEE VR Demo Chairs rank the accepted demos and recommend approximately 10% of all demos for an award. The best demo committee for IEEE VR consists of three distinguished members chosen by the Conference Awards Committee Chairs and the Demo Chairs. This committee selects one of the demos for the Best Demo Award and one for the Honorable Mention Award. The corresponding authors will receive a certificate at the conference.  </p>
 
@@ -371,7 +558,7 @@ title: "Awards"
 </div>
 
 
-<h2>Best 3DUI Contest & Honorable Mention</h2>
+<h2 id="3dui">Best 3DUI Contest & Honorable Mention</h2>
 
 <p>The IEEE VR Best 3DUI Contest Submission Awards honors exceptional 3DUI contest submissions published and presented at the IEEE VR conference. The 3DUI contest chairs select one of the submissions for the Best 3DUI Contest Submission Award and one for the Honorable Mention Award. The final decision is based on a combination of the reviews’ scores, scores from experts testing the contest submission during the conference, and the audience scores. The winning team with the highest score will be awarded. Authors will receive a certificate at the conference.</p>
 
@@ -448,7 +635,7 @@ title: "Awards"
     {% endfor %}
 </div>
 
-<h2>Best DC Paper & Honorable Mention for Best DC Paper</h2>
+<h2 id="DC">Best DC Paper & Honorable Mention for Best DC Paper</h2>
 
 <p>The IEEE VR Best Doctoral Consortium (DC) Paper Awards honors exceptional DC papers published and presented at the IEEE VR conference. The best DC paper committee consists of three distinguished members chosen by the Conference Awards Committee Chairs and the DC chairs. The DC chairs recommend 20% of all DC papers for such an award. The best DC committee selects one of these DC papers for Best DC Paper Award and one to receive an Honorable Mention Award. DC papers that receive an award will be marked in the program, and authors will receive a certificate at the conference. </p>
 
