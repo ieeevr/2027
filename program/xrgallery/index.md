@@ -51,6 +51,18 @@ title_separator: "|"
     </div>   
     <div>
         {% for gallery in art %}
+            {% for a in site.data.awards %}  
+                {% if a.type == 'XR Gallery' %}
+                    {% if a.id == gallery.id %}
+                        {% if a.award == 'Best Art' %}
+                            <div class="align-left"><a href="{{ "/awards/conference-awards" | relative_url }}#poster-best"><img src= "{{ "/assets/images/awards/best.png" | relative_url }}" title="Best Art Award" alt="Best Art Award"></a></div>
+                        {% endif %}                                                    
+                        {% if a.award == "Honorable Mention" %}
+                            <div class="align-left"><a href="{{ "/awards/conference-awards" | relative_url }}#poster-honorable"><img src= "{{ "/assets/images/awards/hm.png" | relative_url }}" title="Best Art Honorable Mention" alt="Best Art Honorable Mention"></a></div>
+                        {% endif %}
+                    {% endif %}
+                {% endif %}
+            {% endfor %}     
             <!-- gallery title matter -->
             <h2 class="padding_top_xsmall" id="{{ gallery.id }}">Exhibit: {{ gallery.title }} </h2> 
             <!-- <p class="small">{{ gallery.day }}, {{ gallery.starttime }}-{{ gallery.endtime }} ({{ gallery.timezone }}), Room: {{ gallery.room }}</p>                -->
