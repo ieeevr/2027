@@ -787,25 +787,49 @@ title: "Awards"
 {% endif %}    
 <div style="padding-bottom:15px;">
     {% for item in award %}
-        {% for dc in site.data.dc %}
-            {% if dc.id == item.id %}  
-                <p class="medLarge" id="{{ dc.id }}" style="margin-bottom: 0.3em;">
-                    <strong>{{ dc.title }} </strong>
-                </p>
-                <p class="clear font_75" >
-                    <span class="bold">Author:</span> <span class="">{{ dc.name | strip }}</span>, <i>{{ dc.affiliation | strip }}</i><br />
-                    <!--<span class="bold">Mentor:</span> <span class="">{{ dc.mentor | strip }}</span>-->
-                </p>
-                {% if dc.abstract %}
-                    <div id="{{ dc.id }}" class="wrap-collabsible"> <input id="collapsibleabstract{{ dc.id }}" class="toggle" type="checkbox"> 
-                        <label for="collapsibleabstract{{ dc.id }}" class="lbl-toggle">Abstract</label>
-                        <div class="collapsible-content">
-                            <div class="content-inner">
-                                <p>{{ dc.abstract }}</p>
+        {% for gallery in site.data.xrgallery %}
+            {% if gallery.id == item.id %}  
+                <h2 class="padding_top_xsmall" id="{{ gallery.id }}">Exhibit: {{ gallery.title }} </h2> 
+                <!-- <p class="small">{{ gallery.day }}, {{ gallery.starttime }}-{{ gallery.endtime }} ({{ gallery.timezone }}), Room: {{ gallery.room }}</p>                -->
+                <div>
+                    {% if gallery.artist %}
+                        {% assign authornames = gallery.artist | split: "/" %}
+                        <div>
+                            <strong>Artists</strong>
+                            {% for name in authornames %}               
+                                {{ name }}
+                            {% endfor %}
+                        </div>
+                    {% endif%}
+                    {% if gallery.website %}
+                        <med><b style="color: black;">Website:</b> <a href="{{ gallery.website }}" target="_blank">{{ gallery.website }}</a></med><br />
+                    {% endif %}            
+                    {% if gallery.abstract %}
+                        <div >
+                            <b>Description :</b> 
+                            <p>{{ gallery.abstract }}</p>
+                        </div>
+                    {% endif %}   
+                    {% if gallery.image %}
+                        <img src="{{ "/assets/images/xrgallery/" | append: gallery.image | relative_url }}" alt="Promotionnal picture">
+                    {% endif %}
+                    {% if gallery.video %}
+                        <div id="{{ gallery.video }}" class="wrap-collabsible"> <input id="collapsible{{ gallery.video }}" class="toggle" type="checkbox"> <label for="collapsible{{ gallery.video }}" class="lbl-toggle">Video</label>
+                            <div class="collapsible-content">
+                                <div class="video-container">
+                                    <iframe src="{{gallery.video}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
                             </div>
                         </div>
-                    </div>   
-                {% endif %}               
+                        <!--<div class="video-container">
+                            <iframe src="{{gallery.video}}" title="YouTube video player" frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>-->
+                    {% endif %}        
+                    {%if gallery.infos %}
+                        <strong style="color: red"> {{gallery.infos}}</strong>
+                    {% endif %}
+                </div>               
             {% endif %}
         {% endfor %}
     {% endfor %}
