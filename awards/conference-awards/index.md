@@ -125,7 +125,7 @@ title: "Awards"
         <td>  
             {% assign award = site.data.awards | where: "type", "XR Gallery" | where: "award", "Best Art" %}
             {% if award.size > 0  %}
-              <a href="#gallery-presentation-best">Best Paper Presentations</a>    
+              <a href="#gallery-presentation-best">Best Exhibit</a>    
             {% else %}
                 &nbsp;
             {% endif %}
