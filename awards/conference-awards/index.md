@@ -125,7 +125,7 @@ title: "Awards"
         <td>  
             {% assign award = site.data.awards | where: "type", "XR Gallery" | where: "award", "Best Art" %}
             {% if award.size > 0  %}
-              <a href="#paper-presentation-best">Best Paper Presentations</a>    
+              <a href="#gallery-presentation-best">Best Paper Presentations</a>    
             {% else %}
                 &nbsp;
             {% endif %}
@@ -133,7 +133,7 @@ title: "Awards"
         <td>              
             {% assign award = site.data.awards | where: "type", "XR Gallery" | where: "award", "Honorable Mention" %}
             {% if award.size > 0  %}
-              <a href="#paper-presentation-honorable">Honorable Mentions</a>
+              <a href="#gallery-presentation-honorable">Honorable Mentions</a>
             {% else %}
                &nbsp;
             {% endif %}
@@ -704,7 +704,8 @@ title: "Awards"
 </div>
 
 
-<h2>Best XR Gallery exhibits</h2>
+<h2 id="gallery">Best XR Gallery exhibits</h2>
+<p>The IEEE VR Best XR Gallery Awards honor exceptional art projects published and exhibited at the IEEE VR conference. The award committee this year constitutes of members of Ars Electronica, who will carefully consider every project in terms of its novelty, impact and technical mastery. Two awards will be administered, one honorable mention and the best XR Gallery award.  Papers that receive an award will be marked in the program, and authors will receive a certificate at the conference.</p>
 {% assign award = site.data.awards | where: "type", "XR Gallery" | where: "award", "Best Art" %}
 {% if award.size > 0  %}
 <div>
