@@ -214,7 +214,7 @@ title: "Awards"
 </div>
 <h2>Best Demo & Honorable Mention for Best Demo</h2>
 
-<p>The IEEE VR Best Demo Awards honors exceptional research demos published and presented at the IEEE VR conference. The IEEE VR Demo Chairs rank the accepted demos and recommend approximately 10% of all demos for an award. The best demo committee for IEEE VR consists of three distinguished members chosen by the Conference Awards Committee Chairs and the Demo Chairs. This committee selects one of the demos for the Best Demo Award and one for the Honorable Mention Award. The corresponding authors will receive a certificate at the conference. </p>
+<p>The IEEE VR Best Demo Awards honors exceptional research demos published and presented at the IEEE VR conference. The IEEE VR Demo Chairs rank the accepted demos and recommend approximately 10% of all demos for an award. The best demo committee for IEEE VR consists of three distinguished members chosen by the Conference Awards Committee Chairs and the Demo Chairs. This committee selects one of the demos for the Best Demo Award and one for the Honorable Mention Award. The corresponding authors will receive a certificate at the conference.  </p>
 
 {% assign award = site.data.awards | where: "type", "Demo" | where: "award", "Best Demo" %}
 {% if award.size > 0  %}
