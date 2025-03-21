@@ -21,7 +21,8 @@ title_separator: "|"
 <div>	
 	<ul>
 		{% for sv in site.data.sv %}
-			<li><span class="bold">{{sv.Prenom}} {{ sv.Nom}} </span> &#x2012; <i> {{sv.Affiliation }}</i></li>
+			{{ sv }}
+			<li><span class="bold">{{ sv.prenom }} {{ sv.nom }} </span> &#x2012; <i> {{ sv.affiliation }}</i></li>
 		{% endfor %}
 	</ul>
 </div>
