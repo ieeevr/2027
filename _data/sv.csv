@@ -1,60 +1,60 @@
-﻿nom;prenom;affiliation
-AHMED;Nasim;Kennesaw State University
-AUDRAIN;Arthur;INRIA
-BASHAR;Mohammad Raihanul;Concordia University
-CHAN;Sze Wing;KTH Royal Institution of Technology
-DATTA CHOUDHARY;Zubin;University of Central Florida
-DE CLERMONT GALLERANDE;Philippe;Inria / InterDigital
-DEGUZMAN;Jasmine Joyce;University of Central Florida
-DUMONTEIL;Maxime;University of Rennes, Inria, CNRS, IRISA, France
-FARZINNEJAD;Forouzan;Coburg University of Applied Sciences and Arts
-FERREIRA;Pedro;NOVA LINCS, NOVA School of Science and Technology
-GALÁN VILLAMARÍN;Adriana;École Centrale de Nantes
-GERBAUDO;Filippo;IRISA/Inria
-GONÇALVES FIDALGO;Catarina;Carnegie Mellon University & Instituto Superior Técnico Lisboa
-GUTHULA;Jayasri Sai Nikitha;University of Arkansas at Little Rock
-HANAWA;Momo;The University of Tokyo
-HE;Wei;The Hong Kong University of Science and Technology (Guangzhou)
-JIANG;Yuyang;The Hong Kong University of Science and Technology
-JUNG;Kyungeun;KAIST
-KANG;Seoyoung;KAIST
-KHEZRIAN;Navid;Coburg University of Applied Sciences and Arts
-KÜÇÜKTÜTÜNCÜ;Esen;The Event Lab/Institute of Neurosciences of the University of Barcelona
-LAMINE;Taha;École Nationale d'apos,Ingénieurs de Brest (ENIB)
-LAUTENBACH;Tom;TU Wien, Austria
-LÉCHAPPÉ;Aurélien;IMT Atlantique
-LEFEUVRE;Théo;INRIA RENNES
-LI;Xiang;University of Cambridge
-LI;Mengxing;Monash University
-LI;CHAOJING;Goldsmiths, University of London
-LORANCHET;Guillaume;Interdigital
-MANSON;Julien;Univ Rennes
-MARTIN;Jordan;Inria / LCPP
-MURMU;Chandni;Clemson University
-NAKAMURA;Yuto;The University of Tokyo
-NEAL;Ashley;UNC Chapel Hill
-OTA;Hiroki;Nara Institute of Science and Technology
-PASINI;Ilaria;IRISA
-PI;Yuke;Goldsmiths University of London
-PLABST;Lucas;NuiLab, Colorado State University & HCI Group, University of Würzburg
-PONTREAU;Marion;CEA List & Sorbonne Université
-RAMEL;Valentin;INRIA
-RISY;Mathieu;Inria
-ROSSI;Sara;INSA, Rainbow team
-ROY;Tom;INRIA Rennes
-SAINT-AURET;Sony;INSA Rennes, Inria, Univ. Rennes, CNRS, IRISA, France
-SALIN;NATHAN;INSA/IRISA Team Seamless
-SCARPA;Charlotte;LS2N
-SCHLAGER;Bettina;Columbia University
-SCHLESENER;Elizabeth 'Alex';Clemson University
-SETU;Jyotirmay Nag;University of Texas at San Antonio
-SUNNY;Mohammad Jahed Murad;University of Arkansas at Little Rock
-SZYMAńSKA;Agata;Jagiellonian University
-TAMBOLI;DANISH NISAR AHMED;University of Florida
-THEELKE;Luisa;Technical University of Munich, Clinic for Orthopedics and Sports Orthopedics, TUM University Hospital
-TOKIDA;Satomi;The University of Tokyo
-TOOFANY;Sabrina;INRIA Rennes - Seamless Team
-WICKRAMA ARACHCHIGE;Ureshan Yasas Sri Wickram;HIT Lab NZ, University of Canterbury, New Zealand
-WOLFF;Tony;Inria, Université de Rennes
-YONEYAMA;Juri;Inria
-ZHANG;Jialin;Dalhousie University
+﻿nom,prenom,affiliation
+AHMED,Nasim,Kennesaw State University
+AUDRAIN,Arthur,INRIA
+BASHAR,Mohammad Raihanul,Concordia University
+CHAN,Sze Wing,KTH Royal Institution of Technology
+DATTA CHOUDHARY,Zubin,University of Central Florida
+DE CLERMONT GALLERANDE,Philippe,Inria / InterDigital
+DEGUZMAN,Jasmine Joyce,University of Central Florida
+DUMONTEIL,Maxime,University of Rennes/ Inria/ CNRS/ IRISA/ France
+FARZINNEJAD,Forouzan,Coburg University of Applied Sciences and Arts
+FERREIRA,Pedro,NOVA LINCS/ NOVA School of Science and Technology
+GALÁN VILLAMARÍN,Adriana,École Centrale de Nantes
+GERBAUDO,Filippo,IRISA/Inria
+GONÇALVES FIDALGO,Catarina,Carnegie Mellon University & Instituto Superior Técnico Lisboa
+GUTHULA,Jayasri Sai Nikitha,University of Arkansas at Little Rock
+HANAWA,Momo,The University of Tokyo
+HE,Wei,The Hong Kong University of Science and Technology (Guangzhou)
+JIANG,Yuyang,The Hong Kong University of Science and Technology
+JUNG,Kyungeun,KAIST
+KANG,Seoyoung,KAIST
+KHEZRIAN,Navid,Coburg University of Applied Sciences and Arts
+KÜÇÜKTÜTÜNCÜ,Esen,The Event Lab/Institute of Neurosciences of the University of Barcelona
+LAMINE,Taha,École Nationale d'apos/Ingénieurs de Brest (ENIB)
+LAUTENBACH,Tom,TU Wien/ Austria
+LÉCHAPPÉ,Aurélien,IMT Atlantique
+LEFEUVRE,Théo,INRIA RENNES
+LI,Xiang,University of Cambridge
+LI,Mengxing,Monash University
+LI,CHAOJING,Goldsmiths/ University of London
+LORANCHET,Guillaume,Interdigital
+MANSON,Julien,Univ Rennes
+MARTIN,Jordan,Inria / LCPP
+MURMU,Chandni,Clemson University
+NAKAMURA,Yuto,The University of Tokyo
+NEAL,Ashley,UNC Chapel Hill
+OTA,Hiroki,Nara Institute of Science and Technology
+PASINI,Ilaria,IRISA
+PI,Yuke,Goldsmiths University of London
+PLABST,Lucas,NuiLab/ Colorado State University & HCI Group/ University of Würzburg
+PONTREAU,Marion,CEA List & Sorbonne Université
+RAMEL,Valentin,INRIA
+RISY,Mathieu,Inria
+ROSSI,Sara,INSA/ Rainbow team
+ROY,Tom,INRIA Rennes
+SAINT-AURET,Sony,INSA Rennes/ Inria/ Univ. Rennes/ CNRS/ IRISA/ France
+SALIN,NATHAN,INSA/IRISA Team Seamless
+SCARPA,Charlotte,LS2N
+SCHLAGER,Bettina,Columbia University
+SCHLESENER,Elizabeth 'Alex',Clemson University
+SETU,Jyotirmay Nag,University of Texas at San Antonio
+SUNNY,Mohammad Jahed Murad,University of Arkansas at Little Rock
+SZYMAńSKA,Agata,Jagiellonian University
+TAMBOLI,DANISH NISAR AHMED,University of Florida
+THEELKE,Luisa,Technical University of Munich/ Clinic for Orthopedics and Sports Orthopedics/ TUM University Hospital
+TOKIDA,Satomi,The University of Tokyo
+TOOFANY,Sabrina,INRIA Rennes - Seamless Team
+WICKRAMA ARACHCHIGE,Ureshan Yasas Sri Wickram,HIT Lab NZ/ University of Canterbury/ New Zealand
+WOLFF,Tony,Inria/ Université de Rennes
+YONEYAMA,Juri,Inria
+ZHANG,Jialin,Dalhousie University
