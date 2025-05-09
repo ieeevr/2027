@@ -9,7 +9,7 @@
     
     .topnav {
         overflow: hidden;
-        background-color: #066569;  
+        background-color: #7d00bb;  
         border-radius: 0px 0px 40px 40px;  
         color: white; 
         padding-left: 5px;  
@@ -30,7 +30,7 @@
 
     .topnav a:hover,
     .dropdown:hover .dropbtn {
-        background-color: #df7603 !important;
+        background-color: #69007f !important;
         color: #fff !important;
         font-weight: bold;
     }
