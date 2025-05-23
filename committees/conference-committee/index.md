@@ -12,7 +12,7 @@ title_separator: "|"
     display: none;
 }
 
-.general{
+.floatRight{
     font-size: 0.7em;
     color: #df7603;
     font-weight: bold;
@@ -97,221 +97,229 @@ title_separator: "|"
 </script-->
 <h1>Conference Committee</h1>
 <div>
-	<h2>General Chairs <div class="floatRight"><span id="general">gjkim@korea.ac.kr</span></div></h2>
-	<ul>
-		
-       
-  <li><span class="bold">Gerard J. Kim</span> – <i>Korea University, South Korea</i></li>
-  <li><span class="bold">Junghyun Han</span> – <i>Korea University, South Korea</i></li>
-  <li><span class="bold">Soon Ki Jung</span> – <i>Kyungpook National University, South Korea</i></li>
-	</ul>
+  <h2>General Chairs
+    <div class="floatRight"><span id="general">gjkim@korea.ac.kr</span></div>
+  </h2>
+  <ul>
+    <li><span class="bold">Gerard J. Kim</span> – <i>Korea University, South Korea</i></li>
+    <li><span class="bold">Junghyun Han</span> – <i>Korea University, South Korea</i></li>
+    <li><span class="bold">Soon Ki Jung</span> – <i>Kyungpook National University, South Korea</i></li>
+  </ul>
 </div>
 <div>
-	<h2>Honorary General Chairs <div class="floatRight"><span id="honorary"></span></div></h2>
-	<ul>
-		<li><span class="bold">Carolina Cruz-Neira</span> &#x2012; <i>University of Central Florida, USA</i></li>
-		<li><span class="bold">Greg Welch</span> &#x2012; <i>University of Central Florida, USA</i></li>
-	</ul>
-</div>
-
-<div>
-	<h2>Program Chairs <div class="floatRight"><span id="program"></span></div></h2>
-	<ul>
-		<li><span class="bold">Daisuke Iwai</span> &#x2012; <i>Osaka University, Japan</i></li>
-		<li><span class="bold">Tabitha Peck</span> &#x2012; <i>Davidson College, USA</i></li>
-		<li><span class="bold">Voicu Popescu</span> &#x2012; <i>Purdue University, USA</i></li>
-		<li><span class="bold">Luciana Nedel</span> &#x2012; <i>Federal University of Rio Grande do Sul, Brazil</i></li>
-	</ul>
-</div>
-
-<div>
-	<h2>XR Gallery Chairs  <div class="floatRight"><span id="art"></span></div></h2>
-	<ul>
-		<li><span class="bold">Rémi Cambuzat</span> &#x2012; <i>Inria, France</i></li>
-		<li><span class="bold">Valérie Gouranton</span> &#x2012; <i>IRISA, France</i></li>
-		<li><span class="bold">Jüergen Hagler</span> &#x2012; <i>Ars Electronica, Austria</i></li>
-		<li><span class="bold">Roland Haring</span> &#x2012; <i>Ars Electronica, Austria</i></li>
-		<li><span class="bold">Katja Zibrek</span> &#x2012; <i>Inria, France</i></li>
-	</ul>
-</div>
-
-<div>
-	<h2>Environmental Impact Reduction and Awareness Chairs <div class="floatRight"><span id="environment"></span></div></h2>
-	<ul>
-		<li><span class="bold">Ludovic Hoyet</span> &#x2012; <i>Inria, France</i></li>
-		<li><span class="bold">Marc Macé</span> &#x2012; <i>CNRS, France</i></li>
-	</ul>
-</div>
-
-<div>
-	<h2>On-line Experience Chairs<div class="floatRight"><span id="onlineexperience"></span></div></h2>
-	<ul>
-		<li><span class="bold">Florian Nouviale</span> &#x2012; <i>INSA, France</i></li>
-		<li><span class="bold">Kyle Johnson</span> &#x2012; <i>University Of Georgia, USA</i></li>
-		<li><span class="bold">Brook Bowers</span> &#x2012; <i>University Of Georgia, USA</i></li>
-	</ul>
-</div>
-
-<div>
-	<h2>3DUI Contest Chairs <div class="floatRight"><span id="contest"></span></div></h2>
-	<ul>
-		<li><span class="bold">Jean-Rémy Chardonnet</span> &#x2012; <i>Arts et Metiers Institute of Technology, France</i></li>
-		<li><span class="bold">Manuela Chessa</span> &#x2012; <i>University of Genoa, Italy</i></li>
-		<li><span class="bold">Jean-Marie Normand</span> &#x2012; <i>Ecole Central Nantes, France</i></li>
-		<li><span class="bold">Tim Weissker</span> &#x2012; <i>RWTH Aachen University, Germany</i></li>
-	</ul>
+  <h2>Honorary Chairs
+    <div class="floatRight"><span id="honorary">wohn@kaist.ac.kr </span></div>
+  </h2>
+  <ul>
+    <li><span class="bold">Kwangyun Wohn</span> – <i>KAIST, South Korea</i></li>
+    <li><span class="bold">Chanmo Park</span> – <i>POSTECH, South Korea</i></li>
+    <li><span class="bold">Hajine Kimn</span> – <i>Ajou University, South Korea</i></li>
+    <li><span class="bold">Anatole Lecuyer</span> – <i>Inria, France</i></li>
+    <li><span class="bold">Ferran Argelaguet</span> – <i>Inria, France</i></li>
+    <li><span class="bold">Anne Helene Olivier</span> – <i>Univ Rennes 2, France</i></li>
+  </ul>
 </div>
 <div>
-	<h2>Conference Awards Chairs  <div class="floatRight"><span id="awards"></span></div></h2>
-	<ul>
-		<li><span class="bold">Kiyoshi Kiyokawa</span> &#x2012; <i>NAIST, Japan</i></li>
-		<li><span class="bold">Frank Steinicke</span> &#x2012; <i>University Hamburg, Germany</i></li>
-		<li><span class="bold">Stefania Serafin</span> &#x2012; <i>Aalborg University, Denmark</i></li>
-		<li><span class="bold">Amine Chellali</span> &#x2012; <i>Université d'Evry Paris-Saclay, France</i></li>
-	</ul>
+  <h2>Program Chairs
+    <div class="floatRight"><span id="program">yuta.itoh@iii.u-tokyo.ac.jp </span></div>
+  </h2>
+  <ul>
+    <li><span class="bold">Yuta Itoh</span> – <i>University of Tokyo, Japan</i></li>
+    <li><span class="bold">Bobby Bodenheimer</span> – <i>Vanderbilt University, USA</i></li>
+    <li><span class="bold">Rick Skarbez</span> – <i>La Trobe University, Australia</i></li>
+    <li><span class="bold">Lonni Besançon</span> – <i>Linköping University, Sweden</i></li>
+    <li><span class="bold">Daisuke Iwai</span> – <i>University of Osaka, Japan</i></li>
+  </ul>
 </div>
 <div>
-	<h2>Doctoral Consortium Chairs <div class="floatRight"><span id="doctoralconsortium"></span></div></h2>			
-	<ul>
-		<li><span class="bold">Jonathan Ventura</span> &#x2012; <i>California Polytechnic State University, USA</i></li>
-		<li><span class="bold">Missie Smith</span> &#x2012; <i>RealityLabsResearch, Meta, USA</i></li>
-		<li><span class="bold">Marc	Macé</span> &#x2012; <i>CRNS, France</i></li>
-		<li><span class="bold">Iana	Podkosova</span> &#x2012; <i>TU Wien, Austria</i></li>
-	</ul>
+  <h2>Finance Chairs
+    <div class="floatRight"><span id="art">myungho@pusan.ac.kr</span></div>
+  </h2>
+  <ul>
+    <li><span class="bold">Myongho Lee</span> – <i>Pusan National University, South Korea</i></li>
+    <li><span class="bold">Youngwon Kim</span> – <i>Kumho National Institute of Technology, South Korea</i></li>
+  </ul>
 </div>
 <div>
-	<h2>Diversity, Equity, Inclusion, and Accessibility Chairs <div class="floatRight"><span id="diversity"></span></div></h2>			
-	<ul>
-		<li><span class="bold">Ludovic Hoyet</span> &#x2012; <i>Inria, France</i></li>
-		<li><span class="bold">Aleshia Hayes</span> &#x2012; <i>Univ North Texas, USA</i></li>
-		<li><span class="bold">John Quarles</span> &#x2012; <i>University of Texas at San Antonio, USA</i></li>
-		<li><span class="bold">Tonja Machulla</span> &#x2012; <i>TU Chemnitz, Germany</i></li>
-	</ul>
+  <h2>Exhibits and Sponsors Chairs
+    <div class="floatRight"><span id="environment">siamiz_hkang@korea.ac.kr </span></div>
+  </h2>
+  <ul>
+    <li><span class="bold">Hyeongyeop Kang</span> – <i>Korea University, South Korea</i></li>
+    <li><span class="bold">Kitahara, Itaru</span> – <i>University of Tsukuba, Japan</i></li>
+    <li><span class="bold">Issac Cho</span> – <i>Utah State University, USA</i></li>
+    <li><span class="bold">Gabriel Zachmann</span> – <i>University of Bremen, Germany</i></li>
+  </ul>
 </div>
 <div>
-	<h2>Exhibits and Sponsors Chairs  <div class="floatRight"><span id="exhibitssponsors"></span></div></h2>
-	<ul>
-		<li><span class="bold">Jérôme Perret</span> &#x2012; <i>HAPTION, France</i></li>
-		<li><span class="bold">Franck Multon</span> &#x2012; <i>Inria, France</i></li>
-		<li><span class="bold">Philippe Guillotel</span> &#x2012; <i>Interdigital, France</i></li>
-		<li><span class="bold">Christian Sandor</span> &#x2012; <i>Université Paris-Saclay, France</i></li>
-		<li><span class="bold">Gabriel Zachmann</span> &#x2012; <i>University of Bremen, Germany</i></li>
-		<li><span class="bold">Frank Guan</span> &#x2012; <i>Singapore Institute of Technology, Singapore</i></li>
-		<li><span class="bold">Masahiko Inami</span> &#x2012; <i>University of Tokyo, Japan</i></li>
-		<li><span class="bold">Arnulph Fuhrmann</span> &#x2012; <i>TH Köln, Germany</i></li>
-		<li><span class="bold">Thomas Odaker</span> &#x2012; <i>Leibniz Supercomputing Centre, Germany</i></li>
-	</ul>
+  <h2>On-line Experience Chairs
+    <div class="floatRight"><span id="onlineexperience">Seungwon.Kim@chonnam.ac.kr </span></div>
+  </h2>
+  <ul>
+    <li><span class="bold">Seungwon Kim</span> – <i>Jeonnam National University, South Korea</i></li>
+    <li><span class="bold">Walczak, Krzysztof</span> – <i>Poznań University of Economics and Business, Poland</i></li>
+    <li><span class="bold">Isayas, Adhanom</span> – <i>Texas State University, USA</i></li>
+  </ul>
 </div>
 <div>
-	<h2>Finance Chairs <div class="floatRight"><span id="finance"></span></div></h2>			
-	<ul>
-		<li><span class="bold">Pascal Lorenz</span> &#x2012; <i>IEEE France</i></li>
-		<li><span class="bold">Edith Blin</span> &#x2012; <i>Inria, France</i></li>
-	</ul>
+  <h2>Poster Chairs
+    <div class="floatRight"><span id="contest">Gun.Lee@unisa.edu.au </span></div>
+  </h2>
+  <ul>
+    <li><span class="bold">Gun Lee</span> – <i>University of South Australia, Australia</i></li>
+    <li><span class="bold">Andrea Bonsch</span> – <i>RWTH Aachen University, Germany</i></li>
+    <li><span class="bold">Justine Saint Aubert</span> – <i>IRISA, France</i></li>
+    <li><span class="bold">Pablo Figueroa</span> – <i>Universidad di los Angdes, Colombia</i></li>
+    <li><span class="bold">Mohammed Safayet Arefin</span> – <i>Colorado State Univ., USA</i></li>
+  </ul>
 </div>
 <div>
-	<h2>Local Arrangements Chairs <div class="floatRight"><span id="localarrangements"></span></div></h2>			
-	<ul>
-		<li><span class="bold">Edith Blin</span> &#x2012; <i>Inria, France</i></li>
-		<li><span class="bold">Nathalie	Denis</span> &#x2012; <i>Inria, France</i></li>
-		<li><span class="bold">Gwenaelle Lannec</span> &#x2012; <i>Inria, France</i></li>
-	</ul>
+  <h2>Publication Chairs
+    <div class="floatRight"><span id="awards">sangho@kaist.ac.kr</span></div>
+  </h2>
+  <ul>
+    <li><span class="bold">Sangho Yoon</span> – <i>KAIST, South Korea</i></li>
+    <li><span class="bold">Chen Jian</span> – <i>Ohio State University, USA</i></li>
+    <li><span class="bold">Chris Mousas</span> – <i>Purdue University, USA</i></li>
+  </ul>
 </div>
 <div>
-	<h2>Posters Chairs <div class="floatRight"><span id="posters"></span></div></h2>
-	<ul>
-		<li><span class="bold">Justine	Saint-Aubert</span> &#x2012; <i>CNRS, France</i></li>
-		<li><span class="bold">Jerald	Thomas</span> &#x2012; <i>University of Wisconsin - Milwaukee, USA</i></li>
-		<li><span class="bold">Daniel 	Roth</span> &#x2012; <i>Technical University of Munich, Germany</i></li>
-		<li><span class="bold">Andrea 	Bönsch</span> &#x2012; <i>RWTH Aachen University, Germany</i></li>
-	</ul>
+  <h2>Awards Chairs
+    <div class="floatRight"><span id="doctoralconsortium">wallraven@korea.ac.kr</span></div>
+  </h2>
+  <ul>
+    <li><span class="bold">Chirs Wallravan</span> – <i>Korea University, South Korea</i></li>
+    <li><span class="bold">Henning Pohl</span> – <i>Aalborg University, Denmark</i></li>
+    <li><span class="bold">Sadagic Amela</span> – <i>NPS, USA</i></li>
+  </ul>
 </div>
 <div>
-	<h2>Publications Chairs <div class="floatRight"><span id="publications"></span></div></h2>
-	<ul>
-		<li><span class="bold">Christos	Mousas</span> &#x2012; <i>Purdue University, USA</i></li>
-		<li><span class="bold">Mohammed	Safayet Arefin</span> &#x2012; <i>Colorado State University, USA</i></li>
-		<li><span class="bold">Lauren Buck</span> &#x2012; <i>Trinity College Dublin, Ireland</i></li>
-		<li><span class="bold">Daniel Zielasko</span> &#x2012; <i>Trier University, Germany</i></li>
-	</ul>
+  <h2>XR Gallery
+    <div class="floatRight"><span id="diversity"></span></div>
+  </h2>
+  <ul>
+    <li><span class="bold">Yue Li</span> – <i>Xi’an Jiaotong-Liverpool University, China</i></li>
+    <li><span class="bold">Jean Remy Chardonnet</span> – <i>Arts et Métiers Institute of Technology, France</i></li>
+    <li><span class="bold">Hyeongsuk Kim</span> – <i>Konkuk Univ., South Korea</i></li>
+    <li><span class="bold">Henry Duh</span> – <i>HK Polytech, Hong Kong</i></li>
+    <li><span class="bold">Haining Liang</span> – <i>HKUST-GZ, China</i></li>
+    <li><span class="bold">Georges Gagnere</span> – <i>Univ Paris 8, France</i></li>
+  </ul>
 </div>
 <div>
-	<h2>Publicity Chairs <div class="floatRight"><span id="publicity"></span></div></h2>
-	<ul>
-		<li><span class="bold">Yann Glemarec</span> &#x2012; <i>Inria, France</i></li>
-		<li><span class="bold">Sylvia Pan</span> &#x2012; <i>Goldsmiths, University of London, UK</i></li>
-		<li><span class="bold">Alexandre Kabil</span> &#x2012; <i>CNRS, France</i></li>
-		<li><span class="bold">Rajiv Khadka</span> &#x2012; <i>Idaho National Laboratory, USA</i></li>
-		<li><span class="bold">Takefumi	Hiraki</span> &#x2012; <i>Clusters Metaverse Lab, Japan</i></li>
-	</ul>
+  <h2>Demo
+    <div class="floatRight"><span id="exhibitssponsors">Yue.Li@xjtlu.edu.cn </span></div>
+  </h2>
+  <ul>
+    <li><span class="bold">Uijong Ju</span> – <i>Kyunghee University, South Korea</i></li>
+    <li><span class="bold">Daniel Zielasko</span> – <i>Univ. of Trier, Germany</i></li>
+    <li><span class="bold">Elham "Ellie" Ebrahimi</span> – <i>UNC Wilmington, USA</i></li>
+    <li><span class="bold">Unyeon Yang</span> – <i>ETRI Korea, South Korea</i></li>
+  </ul>
 </div>
 <div>
-	<h2>Research Demonstrations Chairs <div class="floatRight"><span id="researchdemos"></span></div></h2>
-	<ul>
-		<li><span class="bold">Geoffrey Gorisse</span> &#x2012; <i>ENSAM, France</i></li>
-		<li><span class="bold">Kangsoo Kim</span> &#x2012; <i>University of Calgary, Canada</i></li>
-		<li><span class="bold">Ana Serrano</span> &#x2012; <i>Universidad de Zaragoza, Spain</i></li>
-		<li><span class="bold">Thomas Pietrzak</span> &#x2012; <i>Université de Lille, France</i></li>
-	</ul>
+  <h2>Student Volunteers Chairs
+    <div class="floatRight"><span id="finance">hji@kist.re.kr </span></div>
+  </h2>
+  <ul>
+    <li><span class="bold">Jane Hwang</span> – <i>KIST, South Korea</i></li>
+    <li><span class="bold">Desai, Kevin</span> – <i>University of Texas at San Antonio, USA</i></li>
+    <li><span class="bold">Hanseob Kim</span> – <i>Konyang University, South Korea</i></li>
+  </ul>
 </div>
 <div>
-	<h2>Social Events Chairs  <div class="floatRight"><span id="socialevents"></span></div></h2>
-	<ul>
-		<li><span class="bold">Julien Pettré</span> &#x2012; <i>Inria, France</i></li>
-		<li><span class="bold">Rob Lindeman</span> &#x2012; <i>HIT Lab, New Zealand</i></li>
-	</ul>
+  <h2>Workshop Chairs
+    <div class="floatRight"><span id="localarrangements">dongsikjo@ulsan.ac.kr </span></div>
+  </h2>
+  <ul>
+    <li><span class="bold">Donsik Jo</span> – <i>Ulsan University, South Korea</i></li>
+    <li><span class="bold">Dirk Reiners</span> – <i>UCF, USA</i></li>
+    <li><span class="bold">Pierre Bourdin</span> – <i>U of Oberta de Catalyuna, Spain</i></li>
+    <li><span class="bold">Hyeongil Nam</span> – <i>University of Calgary, Canada</i></li>
+  </ul>
 </div>
 <div>
-	<h2>Student Volunteers Chairs <div class="floatRight"><span id="studentvolunteers"></span></div></h2>			
-	<ul>
-		<li><span class="bold">Claudio Pacchierotti</span> &#x2012; <i>CNRS, France</i></li>
-		<li><span class="bold">Huyen Nguyen</span> &#x2012; <i>Université Paris-Saclay, France</i></li>
-		<li><span class="bold">Jason Orlosky</span> &#x2012; <i>Augusta University, USA</i></li>
-	</ul>
+  <h2>3D UI Contest Chairs
+    <div class="floatRight"><span id="posters">pcy8201@postech.ac.kr</span></div>
+  </h2>
+  <ul>
+    <li><span class="bold">Chaeyong Park</span> – <i>Korea University, South Korea</i></li>
+    <li><span class="bold">Kopper Regis</span> – <i>UNC Greensboro, USA</i></li>
+    <li><span class="bold">Mania Katerina</span> – <i>TU Crete, Greece</i></li>
+    <li><span class="bold">Tim Weissker</span> – <i>RWTG Aachen Uni, Germany</i></li>
+  </ul>
 </div>
 <div>
-	<h2>Tutorials Chairs <div class="floatRight"><span id="tutorials"></span></div></h2>
-	<ul>
-		<li><span class="bold">Etienne Peillard</span> &#x2012; <i>IMT-Atlantique, France</i></li>
-		<li><span class="bold">Beatriz Santos</span> &#x2012; <i>University of Aveiro, Portugal</i></li>
-		<li><span class="bold">Ken Pfeuffer</span> &#x2012; <i>Aarhus University, Denmark</i></li>
-		<li><span class="bold">Parinya Punpongsanon</span> &#x2012; <i>Saitama University, Japan</i></li>
-	</ul>
+  <h2>Diversity / Environment Chairs
+    <div class="floatRight"><span id="publications">jeon@khu.ac.kr </span></div>
+  </h2>
+  <ul>
+    <li><span class="bold">Seokhee Jeon</span> – <i>Kyunghee University, South Korea</i></li>
+    <li><span class="bold">Heo, Seongkook</span> – <i>Univ of Virginia, USA</i></li>
+    <li><span class="bold">Manuela Chessa</span> – <i>University of Genoa, Italy</i></li>
+    <li><span class="bold">Ludovic Hoyet</span> – <i>Centre Inria de l'Université de Rennes, France</i></li>
+    <li><span class="bold">Marc Macé</span> – <i>Centre Inria de l'Université de Rennes, France</i></li>
+  </ul>
 </div>
 <div>
-	<h2>Web Chairs <div class="floatRight"><span id="web"></span></div></h2>
-	<ul>
-		<li><span class="bold">Léa Pillette</span> &#x2012; <i>CNRS, France</i></li>
-		<li><span class="bold">Emile Savalle</span> &#x2012; <i>Univ Rennes, France</i></li>
-		<li><span class="bold">Céline Finet</span> &#x2012; <i>Inria, France</i></li>
-	</ul>
+  <h2>Tutorial
+    <div class="floatRight"><span id="publicity">kangsoo.kim@ucalgary.ca </span></div>
+  </h2>
+  <ul>
+    <li><span class="bold">Kangsoo Kim</span> – <i>University of Calgary, Canada</i></li>
+    <li><span class="bold">Jung Sung Chul</span> – <i>Kennesaw State University, USA</i></li>
+    <li><span class="bold">Piumsomboon, Thammathip</span> – <i>University of Canterbury, New Zealand</i></li>
+  </ul>
 </div>
 <div>
-	<h2>Workshop Chairs  <div class="floatRight"><span id="workshops"></span></div></h2>
-	<ul>
-		<li><span class="bold">Rebecca	Fribourg</span> &#x2012; <i>École Centrale Nantes, France</i></li>
-		<li><span class="bold">Hugo	Brument</span> &#x2012; <i>TU Wien, Austria</i></li>
-		<li><span class="bold">Dirk	Reiners</span> &#x2012; <i>University of Central Florida, USA</i></li>
-		<li><span class="bold">Carolin	Wienrich</span> &#x2012; <i>Julius-Maximilians Universität Würzburg, Germany</i></li>
-	</ul>
+  <h2>Web Chairs / Publicity
+    <div class="floatRight"><span id="researchdemos">H.Kim@soton.ac.uk </span></div>
+  </h2>
+  <ul>
+    <li><span class="bold">Hansung Kim</span> – <i>University of Southampton, United Kingdom</i></li>
+    <li><span class="bold">Gao Yang</span> – <i>Beihang University, China</i></li>
+    <li><span class="bold">Nels Numan</span> – <i>UCL, United Kingdom</i></li>
+  </ul>
 </div>
 <div>
-	<h2>VR Lab Tour Chairs  <div class="floatRight"><span id="labtour"></span></div></h2>
-	<ul>
-		<li><span class="bold">Ronan Gaugne</span> &#x2012; <i>Rennes University, France</i></li>
-		<li><span class="bold">Anthony Sorel</span> &#x2012; <i>Rennes 2 University, France</i></li>
-	</ul>
+  <h2>Panel
+    <div class="floatRight"><span id="socialevents">yoo@byoo.org </span></div>
+  </h2>
+  <ul>
+    <li><span class="bold">Byunghyun Yoo</span> – <i>KIST, South Korea</i></li>
+  </ul>
 </div>
-
 <div>
-	<h2>XR Future Faculty Forum Chairs  <div class="floatRight"><span id="xrfuturefaculty"></span></div></h2>
-	<ul>
-		<li><span class="bold">Niall L. Williams</span> &#x2012; <i>New York University, USA</i></li>
-		<li><span class="bold">Cassidy R. Nelson</span> &#x2012; <i> Ohio University, USA</i></li>
-		<li><span class="bold">Lee Lisle</span> &#x2012; <i> Virginia Tech, USA</i></li>
-		<li><span class="bold">Radha Kumaran</span> &#x2012; <i>University of California, Santa Barbara, USA</i></li>
-		<li><span class="bold">Jeanne Hecquard</span> &#x2012; <i>Inria, France</i></li>
-		<li><span class="bold">Matt Gottsacker</span> &#x2012; <i>University of Central Florida, USA</i></li>
-	</ul>
+  <h2>XR Faculty
+    <div class="floatRight"><span id="studentvolunteers">jeongmi@kaist.ac.kr </span></div>
+  </h2>
+  <ul>
+    <li><span class="bold">Jeongmi Lee</span> – <i>KAIST, South Korea</i></li>
+    <li><span class="bold">Lee Lisle</span> – <i>VT, USA</i></li>
+    <li><span class="bold">Daniel Pires de Sa Medeiros</span> – <i>Telecom Paris, France</i></li>
+    <li><span class="bold">Niall Williams</span> – <i>NYU, USA</i></li>
+    <li><span class="bold">Cassidy Nelson</span> – <i>Ohio U, USA</i></li>
+    <li><span class="bold">Matthew Gottsacker</span> – <i>UCF, USA</i></li>
+    <li><span class="bold">Jeanne Hecquard</span> – <i>Inria, France</i></li>
+    <li><span class="bold">Radha Kumaran</span> – <i>UCSB, USA</i></li>
+  </ul>
 </div>
-
+<div>
+  <h2>Doctoral Consortium
+    <div class="floatRight"><span id="tutorials">goodsoon96@gmail.com </span></div>
+  </h2>
+  <ul>
+    <li><span class="bold">Yongsoon Choi</span> – <i>Sogang University, South Korea</i></li>
+    <li><span class="bold">Edgar Rojas-Munoz</span> – <i>TAMU, USA</i></li>
+    <li><span class="bold">Iana Podkosova</span> – <i>TU Wien, Austria</i></li>
+  </ul>
+</div>
+<div>
+  <h2>Social Events / Local Arrangement Chairs
+    <div class="floatRight"><span id="web">sunghoonim@dgist.ac.kr </span></div>
+  </h2>
+  <ul>
+    <li><span class="bold">Sunghoon Ihm</span> – <i>DGIST, South Korea</i></li>
+    <li><span class="bold">Gyeorae Yoon</span> – <i>KNU, South Korea</i></li>
+  </ul>
+</div>
