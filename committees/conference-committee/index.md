@@ -1,7 +1,7 @@
 ---
 layout: ieeevr-default
 title: "Conference Committee"
-subtitle: "IEEE VR 2025"
+subtitle: "IEEE VR 2026"
 title_separator: "|"
 ---
 <script type="text/javascript">
