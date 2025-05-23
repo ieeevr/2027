@@ -18,6 +18,9 @@ title_separator: "|"
     font-weight: bold;
     text-transform: uppercase;
 }
+#sponsors .conf-icon {
+  display: none !important;
+}
 </style>
 <!--script type="text/javascript">
 	$(document).ready(function(){
