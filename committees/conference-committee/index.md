@@ -105,7 +105,7 @@ title_separator: "|"
   </h2>
   <ul>
     <li><span class="bold">Gerard J. Kim</span> – <i>Korea University, South Korea</i></li>
-    <li><span class="bold">Junghyun Han</span> – <i>Korea University, South Korea</i></li>
+    <li><span class="bold">JungHyun Han</span> – <i>Korea University, South Korea</i></li>
     <li><span class="bold">Soon Ki Jung</span> – <i>Kyungpook National University, South Korea</i></li>
   </ul>
 </div>
@@ -198,7 +198,8 @@ title_separator: "|"
 </div>
 <div>
   <h2>XR Gallery
-    <div class="floatRight"><span id="diversity"></span></div>
+    <div class="floatRight"><span id="diversity">Yue.Li@xjtlu.edu.cn 
+</span></div>
   </h2>
   <ul>
     <li><span class="bold">Yue Li</span> – <i>Xi’an Jiaotong-Liverpool University, China</i></li>
