@@ -4,6 +4,21 @@ title: "Conference Committee"
 subtitle: "IEEE VR 2026"
 title_separator: "|"
 ---
+<style>
+.sponsor_section {
+    display: none;
+}
+.confsponsors-type {
+    display: none;
+}
+
+.general{
+    font-size: 0.7em;
+    color: #df7603;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+</style>
 <!--script type="text/javascript">
 	$(document).ready(function(){
 		var email = ""; 
