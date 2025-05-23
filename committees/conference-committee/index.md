@@ -4,7 +4,7 @@ title: "Conference Committee"
 subtitle: "IEEE VR 2026"
 title_separator: "|"
 ---
-<script type="text/javascript">
+<!--script type="text/javascript">
 	$(document).ready(function(){
 		var email = ""; 
 		var domain = "ieeevr.org"; 
@@ -79,14 +79,16 @@ title_separator: "|"
 		xrfuturefaculty.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";		
 
 	});
-</script>
+</script-->
 <h1>Conference Committee</h1>
 <div>
-	<h2>General Chairs <div class="floatRight"><span id="general"></span></div></h2>
+	<h2>General Chairs <div class="floatRight"><span id="general">gjkim@korea.ac.kr</span></div></h2>
 	<ul>
-		<li><span class="bold">Anatole Lécuyer</span> &#x2012; <i>Inria, France</i></li>
-		<li><span class="bold">Ferran Argelaguet</span> &#x2012; <i>Inria, France</i></li>
-		<li><span class="bold">Anne-Hélène Olivier</span> &#x2012; <i>Univ Rennes 2, France</i></li>
+		
+       
+  <li><span class="bold">Gerard J. Kim</span> – <i>Korea University, South Korea</i></li>
+  <li><span class="bold">Junghyun Han</span> – <i>Korea University, South Korea</i></li>
+  <li><span class="bold">Soon Ki Jung</span> – <i>Kyungpook National University, South Korea</i></li>
 	</ul>
 </div>
 <div>
