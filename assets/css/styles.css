@@ -5774,27 +5774,23 @@ ul.extraSpacing li{
 
 .green_03 thead th { padding:10px 0px; border-left:1px solid rgba(255,255,255,0.3);
  border-bottom:1px solid rgba(255,255,255,0.3);
-text-align:Center; line-height:1.2;}
+text-align:Center; line-height:1.2; font-size: 0.8rem;}
 
 
 
 
 .green_03 thead {background:#fff; border-top:3px solid var(--black); border-bottom:2px solid var(--black); }
 .green_03 thead th {color:var(--black); ; border-left:1px solid rgba(0,0,0,0.2);
- border-bottom:1px solid rgba(0,0,0,0.2);}
+ border-bottom:1px solid rgba(0,0,0,0.2); font-size: 0.8rem;}
 .green_03. thead th:nth-child(1){border-left:none;}
-
-
-.green_03 tbody th {text-align:center;}
 
 
 
 
 .green_03 tbody th,
-.green_03 tbody td {padding:15px 15px; text-align:center; border:1px solid #ddd; border-bottom:0px; border-left:0px;}
+.green_03 tbody td {padding:10px 0; text-align:center; border:1px solid #ddd; border-bottom:0px; border-left:0px;     font-size: 0.8rem;}
 
-.green_03 tbody th {background:var(--bg01)}
-.green_03  th {font-size:30px; line-height:40px;}
+
 
 
 
