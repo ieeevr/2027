@@ -1,14 +1,14 @@
 ---
 layout: ieeevr-default
 title: "Venue"
-subtitle: "IEEE VR 2025"
+subtitle: "IEEE VR 2026"
 title_separator: "|"
 ---
 <div>
   <h1>How to Get to Daegu</h1>
   <p style="margin-bottom: 20px;"> Daegu is located in southeastern Korea, ideally positioned at the heart of Northeast Asia. This strategic location allows for excellent transportation connections both within Korea and internationally.<br/>
     Most international participants of IEEE VR 2026 are expected to arrive via <strong>Incheon International Airport</strong>, one of the world’s largest and busiest airports. Incheon Airport offers regular service to 188 cities across 58 countries through 87 major international airlines. From Incheon, Korea’s high-speed <strong>KTX</strong> (Korea Train Express) provides a convenient connection to Daegu, with a travel time of approximately <strong>3 hours and 30 minutes.</strong><br/>
-    <strong>Daegu International Airport</strong> offers direct flights to <strong>25 cities in 8 countries</strong>, including Beijing, Hong Kong, Bangkok, Taipei, Tokyo, and Osaka. Most importantly, it is located just <strong>3 km from EXCO</strong>, the proposed venue for IEEE VR 2026.<br/>
+   <span style="text-decoration : underline;"> <strong><a href="https://www.airport.co.kr/daegueng/index.do" target="_blank">Daegu International Airport</a></strong> offers direct flights to <strong>25 cities in 8 countries</strong>, including Beijing, Hong Kong, Bangkok, Taipei, Tokyo, and Osaka. Most importantly, it is located just <strong>3 km from EXCO</strong>, the proposed venue for IEEE VR 2026.</span><br/>
     Another nearby option is <strong>Gimhae International Airport</strong>, located about <strong>50 minutes from Daegu</strong> by airport limousine bus. Gimhae Airport serves 40 cities in 12 countries, including destinations in China, Japan, and Southeast Asia. </p>
   <h2 style="margin-top:30px">From Major Korean Airports to Daegu: Transit & Time</h2>
   <!-- inner_wrap -->
