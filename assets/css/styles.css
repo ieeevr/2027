@@ -5782,7 +5782,7 @@ text-align:Center; line-height:1.2; 2px solid #fff }
 
 
 
-.green_03 tbody th {padding:10px 0; text-align:center;  border-left:none; font-weight:normal; background-color: #f3f3f3; }
+.green_03 tbody th {padding:10px 0; text-align:center;  border-left:none; font-weight:normal; background-color: #f3f3f3; border-bottom: 1px solid #ddd; }
 
 
 .green_03 tbody td {padding:10px 0; text-align:center; border:1px solid #ddd;  border-right:none; }
