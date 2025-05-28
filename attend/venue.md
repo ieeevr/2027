@@ -15,6 +15,168 @@ Another nearby option is Gimhae International Airport, located about 50 minutes 
     </p>
     
   
+  
+  
+  <div class="desc2 width_area3 no_border">
+    <h2 >From Major Korean Airports to Daegu: Transit & Time</h2>
+    <!-- inner_wrap -->
+    <div class="inner_wrap aos-init aos-animate"  >
+      <table class="green_03">
+      <colgroup>
+      <col width="25%" />
+      <col width="25%" />
+      <col width="25%" />
+      <col width="25%" />
+      </colgroup>
+        <thead>
+          <tr>
+            <th>Departure </th>
+            <th>Boarding Guide</th>
+            <th>Time</th>
+            <th>Arrival</th>
+          </tr>
+        </thead>
+          </tbody>
+        
+        <tr>
+          <th rowspan="3">Incheon
+            International Airport<br />
+           <a href="https://www.airport.kr/sites/ap_en/index.do" class="arrow2 black"  target="_blank">Website</a></th>
+          <td>Flight</td>
+          <td>~ 1 hr </td>
+          <td><strong>Daegu International Airport</strong></td>
+        </tr>
+        <tr>
+          <td>Airport  → Airport Railroad Express (AREX) → KTX(Train)</td>
+          <td>~ 3 hr </td>
+          <td><strong>Dongdaegu Station</strong></td>
+        </tr>
+        <tr>
+          <td>Airport Limousine Bus</td>
+          <td>~ 4 hr  30 min</td>
+          <td rowspan="4"><strong>Daegu International Airport</strong><br />
+          <a href="https://www.airport.co.kr/daegueng/index.do" class="arrow2 black"  target="_blank">Website</a></td>
+        </tr>
+        <tr>
+          <th>Jeju International Airport<br />
+           <a href="https://www.airport.co.kr/jejueng/index.do" class="arrow2 black"  target="_blank">Website</a></th>
+          <td>Flight</td>
+          <td>~ 1 hr </td>
+        </tr>
+        <tr>
+          <th>Gimpo
+            International Airport<br />
+           <a href="https://www.airport.co.kr/gimpoeng/index.do" class="arrow2 black"  target="_blank">Website</a></th>
+          <td>Flight</td>
+          <td>~ 1 hr </td>
+        </tr>
+        <tr>
+          <th>Gimhae
+            International Airport<br />
+           <a href="https://www.airport.co.kr/gimhaeeng/index.do" class="arrow2 black"  target="_blank">Website</a></th>
+          <td>Airport Limousine Bus</td>
+          <td>~ 1 hr  10 min</td>
+        </tr>
+          </tbody>
+        
+      </table>
+    </div>
+    <!-- //inner_wrap -->
+    
+   
+  </div>
+  <!-- desc2 -->
+  
+  <div class="desc2 width_area3 "  >
+    <h2 >From Major KTX/SRT Stations to Daegu: Travel Time</h2>
+    
+    <!-- inner_wrap -->
+    <div class="inner_wrap"  >
+      <table class="green_03">
+        <colgroup>
+      <col width="34%" class="scroll-animate scrollactive"/>
+      <col width="33%" class="scroll-animate scrollactive"/>
+      <col width="33%" class="scroll-animate scrollactive"/>
+      </colgroup>
+        <thead>
+          <tr>
+            <th>Departure </th>
+            <th>Arrival</th>
+            <th>Time</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>Seoul Station</th>
+            <td rowspan="4"><strong>Dongdaegu Station</strong></td>
+            <td>~ 1 hr  40 min</td>
+          </tr>
+          <tr>
+            <th>Suseo Station (SRT)</th>
+            <td>~ 1 hr  50 min</td>
+          </tr>
+          <tr>
+            <th>Busan Station</th>
+            <td>~ 50 min</td>
+          </tr>
+      </table>
+    </div>
+    <!-- //inner_wrap -->
+    <p class="notice_alert2 aos-init aos-animate" > You can check the KTX schedule on the website below.</p>
+    
+    <p class="notice_alert2 aos-init aos-animate" > For departures from Suseo Station, please refer to the SRT website.</p>
+    <p class="pt20"><a href="https://www.korail.com/global/eng/main" target="_blank" class="arrow target black normal ml0 scroll-animate scrollactive">Korail Pass Website</a> <a href="https://etk.srail.kr/main.do?language=EN" target="_blank" class="arrow target black normal ml0 scroll-animate scrollactive">SRT Website</a></p>
+  </div>
+  
+  
+  
+  
+  
+  <div class="desc2 width_area3 "  >
+    <h2 >From Major Express Bus Terminals to Daegu: Travel Time</h2>
+    
+    <!-- inner_wrap -->
+    <div class="inner_wrap"  >
+      <table class="green_03">
+        <colgroup>
+      <col width="34%" />
+      <col width="33%" />
+      <col width="33%" />
+      </colgroup>
+        <thead>
+          <tr>
+            <th>Departure </th>
+            <th>Arrival</th>
+            <th>Time</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>Seoul Express Bus Terminal</th>
+            <td rowspan="4"><strong>Dongdaegu Bus Transfer Center</strong></td>
+            <td>~ 3 hr  30 min</td>
+          </tr>
+          <tr>
+            <th>East Seoul Express Bus Terminal</th>
+            <td>~ 3 hr  30 min</td>
+          </tr>
+          <tr>
+            <th>Busan Express Bus Terminal</th>
+            <td>~ 1 hr  10 min</td>
+          </tr>
+          <tr>
+            <th>Gwangju General Bus Terminal</th>
+            <td>~ 3 hr </td>
+          </tr>
+      </table>
+    </div>
+    <!-- //inner_wrap -->
+    <p class="notice_alert2">You can check the </span>official express bus booking website below.</p>
+    <p class="pt20"><a href="https://www.kobus.co.kr/main.do" target="_blank" class="arrow target black normal ml0 scroll-animate scrollactive">KOBUS Website</a></p>
+  </div>
+  <!-- //desc2 --> 
+  
+  
     <h2>How to Get to the Venue, EXCO</h2>
     <p>
         (41515) 10 Exco-ro, Buk-gu, Daegu, Republic of Korea
