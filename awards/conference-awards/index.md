@@ -13,6 +13,8 @@ title: "Awards"
         $(".awardsSm").html("<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>"); 
 	});
 </script>
+<p style="width:100%; margin: 30px auto; padding: 20px 0; text-align:center; font-size:1rem; border-radius: 30px; background-color: #f3f3f3">This content is currently being updated.</p>
+<div style="display:none">
 <h1>Conference Awards IEEE VR 2025 <div class="floatRight"><span class="awardsSm"></span></div></h1>
 
 <h2>Awards Chairs</h2>
@@ -822,4 +824,5 @@ title: "Awards"
 <!--<h2>Best Paper Presentation</h2>
 
 <p>The IEEE VR Best Presentation Awards honor excellent, interesting, and stimulating presentations of research papers at the IEEE VR conference. During the conference, the audience can give a vote for each presentation that they think deserves an award. Approximately 3% of presentations with the highest number of votes receive an award. Among these selected presentations, the top 1% regarding the number of votes, will receive a Best Presentation Award, while the remaining presentations receive an Honorable Mention Award.</p>-->
+</div>
 
