@@ -21,7 +21,7 @@ title_separator: "|"
 		{% endfor %}
 	</table>
 </div>
-<!--{% for panel in site.data.panels %}-->
+{% for panel in site.data.panels %}
 <br />
 <div id="{{ panel.id }}" style="display:none">
     <center><strong><big>{{ panel.name }}</big></strong></center>
@@ -42,7 +42,6 @@ title_separator: "|"
 		</p>
 	{% endif %}
     <hr>
-</div>
 </div>
 </div>
 {% endfor %}
