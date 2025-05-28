@@ -170,8 +170,7 @@ title_separator: "|"
       <tr>
         <th rowspan="2">Daegu Int’l Airport
           <br>
-          (4km from EXCO)<a href="https://maps.app.goo.gl/b9kkBjz9izMrpGWF6" target="_blank" class="arrow2 black"><br>
-          Google Map</a></th>
+          (4km from EXCO)<br/><a href="https://maps.app.goo.gl/b9kkBjz9izMrpGWF6" target="_blank" class="arrow2 black">Google Map</a></th>
         <th>Bus </th>
         <td><ul style="text-align:left">
             <li style="text-align:left"> 719 → 503, 719 → 937, Donggu 2 → 503, 401 → 323-1</li>
@@ -186,8 +185,7 @@ title_separator: "|"
       </tr>
       <tr>
         <th rowspan="2">Dongdaegu Station<br>
-        (5km from EXCO)<a href="https://maps.app.goo.gl/hsizLQgVWhuRZnxG7" target="_blank" class="arrow2 black"><br>
-        Google Map</a> </th>
+        (5km from EXCO)<br/><a href="https://maps.app.goo.gl/hsizLQgVWhuRZnxG7" target="_blank" class="arrow2 black">Google Map</a> </th>
         <th>Bus </th>
         <td><ul style="text-align:left">
             <li style="text-align:left"> 413, Loop 2-1, 937</li>
@@ -202,8 +200,7 @@ title_separator: "|"
       </tr>
       <tr>
         <th rowspan="2"> Daegu Station<br>
-        (5.5km from EXCO)<a href="https://maps.app.goo.gl/udHde9ntJjanYLEf8" target="_blank" class="arrow2 black"><br>
-        Google Map</a> </th>
+        (5.5km from EXCO)<br/><a href="https://maps.app.goo.gl/udHde9ntJjanYLEf8" target="_blank" class="arrow2 black">Google Map</a> </th>
         <th>Bus </th>
         <td><ul style="text-align:left">
             <li style="text-align:left"> 653, 304</li>
@@ -218,8 +215,7 @@ title_separator: "|"
       </tr>
       <tr>
         <th rowspan="2">Dongdaegu Bus Transfer Center<br>
-        (6km from EXCO)<a href="https://maps.app.goo.gl/ZfCpcXEJ8VpEzbB47" target="_blank" class="arrow2 black"><br>
-        Google Map</a> </th>
+        (6km from EXCO)<br/><a href="https://maps.app.goo.gl/ZfCpcXEJ8VpEzbB47" target="_blank" class="arrow2 black">Google Map</a> </th>
         <th>Bus </th>
         <td><ul style="text-align:left">
             <li style="text-align:left"> 413, Loop 2-1, 937</li>
@@ -234,8 +230,7 @@ title_separator: "|"
       </tr>
       <tr>
         <th rowspan="2"> Banwoldang Station<br>
-        (8.3km from EXCO)<a href="https://maps.app.goo.gl/UKxsMcxZjr2r6rZt8" target="_blank" class="arrow2 black"><br>
-        Google Map</a> </th>
+        (8.3km from EXCO)<br/><a href="https://maps.app.goo.gl/UKxsMcxZjr2r6rZt8" target="_blank" class="arrow2 black">Google Map</a> </th>
         <th>Bus </th>
         <td><ul style="text-align:left">
             <li style="text-align:left"> Express 2 → 653, Express 2 → Loop 2-1, 730 → 653, 706 → 653</li>
