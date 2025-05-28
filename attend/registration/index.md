@@ -1,7 +1,7 @@
 ---
 layout: ieeevr-default
 title: "Registration"
-subtitle: "IEEE VR 2025"
+subtitle: "IEEE VR 2026"
 title_separator: "|"
 ---
 <script type="text/javascript">
@@ -45,7 +45,8 @@ title_separator: "|"
 			
 	}
 </script>
-
+<p style="width:100%; margin: 30px auto; padding: 20px 0; text-align:center; font-size:1rem; border-radius: 30px; background-color: #f3f3f3">This content is currently being updated.</p>
+<div style="display:none">
 <h1 id="registration">Registration  <div class="floatRight"><span id="register"></span></div></h1>
 <p>
 	<strong style="color: black">IEEE VR 2025: The 32<sup>nd</sup> IEEE Conference on Virtual Reality and 3D User Interfaces </strong>
@@ -349,5 +350,6 @@ Each paper requires an Author registration so either one of your co-author can t
 		You must select the Conference-Only registration, and then let us know when your payment has been accepted. Then, we will manually upgrade your registration to a Full-Conference registration.		</li>
 	</ol>
 	If you have further questions, please contact <a target="_blank" href="mailto:register2025[at]ieeevr.org">register2025[at]ieeevr.org</a>.
+</div>
 </div>
 </div>
