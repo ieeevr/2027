@@ -9,7 +9,7 @@ title_separator: "|"
 		var email = ""; 
 		var domain = "ieeevr.org"; 
 
-		email = "general2025"; 		
+		email = "general2026"; 		
 		general.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIcon' style=''></i><i class='emailText'>" + email + "@" + domain + "</a></i></span>";
 
         email = "steering"; 		
