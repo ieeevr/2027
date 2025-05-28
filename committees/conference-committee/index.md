@@ -329,4 +329,3 @@ title_separator: "|"
     <li><span class="bold">Gyeorae Yoon</span> – <i>KNU, South Korea</i></li>
   </ul>
 </div>
-</div>
