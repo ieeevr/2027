@@ -13,7 +13,8 @@ title_separator: "|"
 		$(".tutorials").html("<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>");            
 	});
 </script>
-
+<p style="width:100%; margin: 30px auto; padding: 20px 0; text-align:center; font-size:1rem; border-radius: 30px; background-color: #f3f3f3">This content is currently being updated.</p>
+<div style="display:none">
 <div>
     <h1 id="cfp-tutorials"> Call for Tutorials<div class="floatRight"><span class="tutorials"></span></div></h1>
     <p>
@@ -90,4 +91,5 @@ title_separator: "|"
             <li><span class="bold">Parinya Punpongsanon</span>, <i>Saitama University, Japan</i></li>
         </ul> 
     </p>
+</div>
 </div>
