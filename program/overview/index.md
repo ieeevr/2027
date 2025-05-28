@@ -48,7 +48,8 @@ title_separator: "|"
         } 
     });   
 </script>
-
+<p style="width:100%; margin: 30px auto; padding: 20px 0; text-align:center; font-size:1rem; border-radius: 30px; background-color: #f3f3f3">This content is currently being updated.</p>
+<div style="display:none">
 <h1 id="schedule-heading">Program Overview</h1>
 <p><a href="{{ "/assets/downloads/IEEE_VR_2025.ics" | relative_url }}" download>Click here</a> to download the iCal file with the program of the conference.</p>
 <p>
@@ -1651,4 +1652,6 @@ title_separator: "|"
             <p class="time-slot" style="grid-row: time-1815;">18:15</p>   
         </div> 
     </div>
+</div>
+
 </div>
