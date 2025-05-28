@@ -31,7 +31,7 @@ title_separator: "|"
 <div >
     <h1>Code of Conduct<div class="floatRight"><span class="eventconductSm"></span></div></h1>
     <p>
-        IEEE Virtual Reality 2025 is dedicated to providing a harassment-free conference experience for everyone, regardless of gender, sexual orientation, disability, physical appearance, body size, race, or religion. We do not tolerate harassment of conference participants in any form.
+        IEEE Virtual Reality 2026 is dedicated to providing a harassment-free conference experience for everyone, regardless of gender, sexual orientation, disability, physical appearance, body size, race, or religion. We do not tolerate harassment of conference participants in any form.
     </p>
     <p>
         As a conference that aims to share ideas and freedom of thought and expression, it is essential that the conference takes place in an environment that recognizes the inherent worth of every person by being respectful of all. All communication should be appropriate for a professional audience including people of many different backgrounds. Attendees violating these rules may be asked to leave the conference without a refund at the sole discretion of the conference organizers. In addition, attendees are subject to the <i class="far fa-file-pdf"></i> <a href="{{"/assets/attend/ieee_code_of_conduct.pdf" | relative_url }}" target="_blank">IEEE Code of Ethics</a>.
