@@ -17,10 +17,9 @@ Another nearby option is Gimhae International Airport, located about 50 minutes 
   
   
   
-  <div class="desc2 width_area3 no_border">
+
     <h2 >From Major Korean Airports to Daegu: Transit & Time</h2>
     <!-- inner_wrap -->
-    <div class="inner_wrap aos-init aos-animate"  >
       <table class="green_03">
       <colgroup>
       <col width="25%" />
@@ -36,7 +35,7 @@ Another nearby option is Gimhae International Airport, located about 50 minutes 
             <th>Arrival</th>
           </tr>
         </thead>
-          </tbody>
+          <tbody>
         
         <tr>
           <th rowspan="3">Incheon
@@ -80,18 +79,13 @@ Another nearby option is Gimhae International Airport, located about 50 minutes 
           </tbody>
         
       </table>
-    </div>
-    <!-- //inner_wrap -->
-    
-   
-  </div>
   <!-- desc2 -->
   
-  <div class="desc2 width_area3 "  >
+
     <h2 >From Major KTX/SRT Stations to Daegu: Travel Time</h2>
     
     <!-- inner_wrap -->
-    <div class="inner_wrap"  >
+    
       <table class="green_03">
         <colgroup>
       <col width="34%" class="scroll-animate scrollactive"/>
@@ -120,23 +114,22 @@ Another nearby option is Gimhae International Airport, located about 50 minutes 
             <td>~ 50 min</td>
           </tr>
       </table>
-    </div>
     <!-- //inner_wrap -->
     <p class="notice_alert2 aos-init aos-animate" > You can check the KTX schedule on the website below.</p>
     
     <p class="notice_alert2 aos-init aos-animate" > For departures from Suseo Station, please refer to the SRT website.</p>
     <p class="pt20"><a href="https://www.korail.com/global/eng/main" target="_blank" class="arrow target black normal ml0 scroll-animate scrollactive">Korail Pass Website</a> <a href="https://etk.srail.kr/main.do?language=EN" target="_blank" class="arrow target black normal ml0 scroll-animate scrollactive">SRT Website</a></p>
-  </div>
+ 
   
   
   
   
   
-  <div class="desc2 width_area3 "  >
+
     <h2 >From Major Express Bus Terminals to Daegu: Travel Time</h2>
     
     <!-- inner_wrap -->
-    <div class="inner_wrap"  >
+    
       <table class="green_03">
         <colgroup>
       <col width="34%" />
@@ -169,11 +162,10 @@ Another nearby option is Gimhae International Airport, located about 50 minutes 
             <td>~ 3 hr </td>
           </tr>
       </table>
-    </div>
     <!-- //inner_wrap -->
     <p class="notice_alert2">You can check the </span>official express bus booking website below.</p>
     <p class="pt20"><a href="https://www.kobus.co.kr/main.do" target="_blank" class="arrow target black normal ml0 scroll-animate scrollactive">KOBUS Website</a></p>
-  </div>
+  
   <!-- //desc2 --> 
   
   
