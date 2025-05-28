@@ -5876,7 +5876,6 @@ a.arrow.st01 {
 
 .btn_bottom input[type=button], .btn_bottom input[type=submit], .btn_bottom a,
 a.arrow2, a.arrow{
-background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20fill%3D'none'%20viewBox%3D'0%200%2024%2024'%20stroke-width%3D'1.5'%20stroke%3D'currentColor'%20class%3D'size-6'%3E%3Cpath%20stroke-linecap%3D'round'%20stroke-linejoin%3D'round'%20d%3D'M17.25%208.25%2021%2012m0%200-3.75%203.75M21%2012H3'%20%2F%3E%3C%2Fsvg%3E");
 background-repeat: no-repeat;
   background-position: right 15px center;
   background-size: auto 27px
@@ -5897,11 +5896,11 @@ a.arrow.normal2 {line-height:45px; display:inline-block; padding:10px 110px 10px
 a.arrow.black,
 a.arrow2.black{
 color:#fff;
- background-color: #046763;
+ background-color: #515151;
     font-size: 0.6rem;
     text-decoration: none;
     font-weight: normal;
-    padding: 2px 10px;
+    padding: 2px 15px;
     border-radius: 10px;
 }
 
