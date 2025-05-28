@@ -1,12 +1,12 @@
 ---
 layout: ieeevr-default
 title: "Keynote Speakers"
-subtitle: "IEEE VR 2025"
+subtitle: "IEEE VR 2026"
 title_separator: "|"
 ---
 <p style="width:100%; margin: 30px auto; padding: 20px 0; text-align:center; font-size:1rem; border-radius: 30px; background-color: #f3f3f3">This content is currently being updated.</p>
-<div style="display:none">
-    <div>
+
+    <div style="display:none">
 <h1>Keynote Speakers</h1>
 <div>
     <table class="styled-table">
@@ -22,7 +22,7 @@ title_separator: "|"
         {% endfor %}
     </table>
 </div>
-<!--{% for keynote in site.data.keynotes %}-->
+{% for keynote in site.data.keynotes %}
 <br />
 <div id="{{ keynote.id }}" style="display:none">
     <center><strong><big>{{ keynote.name }}</big></strong></center>
@@ -44,10 +44,6 @@ title_separator: "|"
         {{ keynote.bio }}
     </p>
     <hr>
-</div>
-    
-</div>
-</div>
 </div>
 {% endfor %}
 
