@@ -17,6 +17,8 @@ title_separator: "|"
 
 	});
 </script>
+<p style="width:100%; margin: 30px auto; padding: 20px 0; text-align:center; font-size:1rem; border-radius: 30px; background-color: #f3f3f3">This content is currently being updated.</p>
+<div style="display:none">
 <h1>Student Volunteers <span id="studentvolunteers"></span> </h1>
 <div>	
 	<ul>
@@ -24,5 +26,6 @@ title_separator: "|"
 			<li><span class="bold">{{ sv.prenom }} {{ sv.nom }} </span> &#x2012; <i> {{ sv.affiliation }}</i></li>
 		{% endfor %}
 	</ul>
+</div>
 </div>
 
