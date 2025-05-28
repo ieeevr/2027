@@ -48,5 +48,6 @@ title_separator: "|"
     
 </div>
 </div>
+</div>
 {% endfor %}
 
