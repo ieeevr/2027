@@ -1,7 +1,7 @@
 ---
 layout: ieeevr-default
 title: "VR Lab tour"
-subtitle: "IEEE VR 2025"
+subtitle: "IEEE VR 2026"
 title_separator: "|"
 ---
 <script type="text/javascript">
@@ -29,8 +29,10 @@ title_separator: "|"
 		swan.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIcon' style=''></i><i class='emailText'>" + email + "@" + domain + "</a></i></span>";
 	});
 </script>
-<div>
-    <div class="ieeevrmsgbox bold alignCenter">
+<p style="width:100%; margin: 30px auto; padding: 20px 0; text-align:center; font-size:1rem; border-radius: 30px; background-color: #f3f3f3">This content is currently being updated.</p>
+<div style="display:none"> 
+	
+	<div class="ieeevrmsgbox bold alignCenter">
         <div class = "ieeevrmsgboxInside med">
 			<!--<img src="/2025/assets/images/program/overview.png" alt="Program overview. It is separated into three main parts: 1. Pre-conference event, 2. Conference, 3.Post-conference event">-->
            Given the strong interest in participating in the VR Lab Tour, <strong>we will close the submission of participation intentions on the registration form on the early bird deadline, February 5, 2025 (AoE)</strong>. After this date, a random selection will be conducted, and we will contact you promptly to confirm your participation.  In case of withdrawal, it will be important to notify us as soon as possible so that we can proceed with the waiting list. Thank you for your understanding and cooperation.
