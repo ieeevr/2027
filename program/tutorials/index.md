@@ -5,7 +5,8 @@ subtitle: "IEEE VR 2024"
 title_separator: "|"
 ---
 
-<div>
+<p style="width:100%; margin: 30px auto; padding: 20px 0; text-align:center; font-size:1rem; border-radius: 30px; background-color: #f3f3f3">This content is currently being updated.</p>
+<div style="display:none">
     <table class="styled-table">
         <tr>
              <th colspan="4">Tutorials (Timezone: Saint-Malo France UTC+1)</th>
