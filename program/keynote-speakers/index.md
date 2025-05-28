@@ -22,9 +22,9 @@ title_separator: "|"
         {% endfor %}
     </table>
 </div>
-{% for keynote in site.data.keynotes %}
+<!--{% for keynote in site.data.keynotes %}-->
 <br />
-<div id="{{ keynote.id }}">
+<div id="{{ keynote.id }}" style="display:none">
     <center><strong><big>{{ keynote.name }}</big></strong></center>
     <center>{{ keynote.affiliation }}</center>
     <br />
