@@ -102,7 +102,7 @@ Another nearby option is Gimhae International Airport, located about 50 minutes 
         <tbody>
           <tr>
             <th>Seoul Station</th>
-            <td rowspan="4"><strong>Dongdaegu Station</strong></td>
+            <td rowspan="3"><strong>Dongdaegu Station</strong></td>
             <td>~ 1 hr  40 min</td>
           </tr>
           <tr>
@@ -113,6 +113,8 @@ Another nearby option is Gimhae International Airport, located about 50 minutes 
             <th>Busan Station</th>
             <td>~ 50 min</td>
           </tr>
+          
+        </tbody>
       </table>
     <!-- //inner_wrap -->
     <p class="notice_alert2" > You can check the KTX schedule on the website below.</p>
@@ -161,6 +163,8 @@ Another nearby option is Gimhae International Airport, located about 50 minutes 
             <th>Gwangju General Bus Terminal</th>
             <td>~ 3 hr </td>
           </tr>
+          
+        </tbody>
       </table>
     <!-- //inner_wrap -->
     <p class="notice_alert2">You can check the official express bus booking website below.</p>
