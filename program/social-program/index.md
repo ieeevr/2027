@@ -1,10 +1,11 @@
 ---
 layout: ieeevr-default
 title: "Social Program"
-subtitle: "IEEE VR 2025"
+subtitle: "IEEE VR 2026"
 title_separator: "|"
 ---
-<div>
+<p style="width:100%; margin: 30px auto; padding: 20px 0; text-align:center; font-size:1rem; border-radius: 30px; background-color: #f3f3f3">This content is currently being updated.</p>
+<div style="display:none">
 	<h1>Social Program<div class="floatRight"><span class="labtour"></span></div></h1>
 	<p>
         The entire IEEE VR 2025 organising team is delighted and proud to welcome you to this French edition of the conference. For the many participants who will be joining us in Saint-Malo, we also look forward to welcoming you to this spectacular setting. The conference offers you the best scientific, technical, professional and artistic programs, and we're also glad to be able to offer you a social program that allows you to make the most of the conference, the place where it is being held, and to enjoy each other's company, creating, consolidating or enjoying all the links that bind us together.
