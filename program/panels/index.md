@@ -21,9 +21,9 @@ title_separator: "|"
 		{% endfor %}
 	</table>
 </div>
-{% for panel in site.data.panels %}
+<!--{% for panel in site.data.panels %}-->
 <br />
-<div id="{{ panel.id }}">
+<div id="{{ panel.id }}" style="display:none">
     <center><strong><big>{{ panel.name }}</big></strong></center>
     <br />
     <center><small>{{ panel.day }}, {{ panel.start }} - {{ panel.end }} ({{ panel.timezone }})<br>Room: {{ panel.room }}</small></center>
