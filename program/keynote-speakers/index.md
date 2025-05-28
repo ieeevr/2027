@@ -9,7 +9,7 @@ title_separator: "|"
     <div style="display:none">
 <h1>Keynote Speakers</h1>
 <div>
-    <table class="styled-table">
+    <table class="styled-table" style="display:none">
         <tr>
             <th colspan="3">Speakers</th>
         </tr>
