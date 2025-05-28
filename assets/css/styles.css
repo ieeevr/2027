@@ -5820,3 +5820,154 @@ font-size: 25px; font-weight:600;
 font-size: 17px; padding-top:10px;
   line-height: 30px; font-weight:500;
 }
+
+
+
+a.arrow.target {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25' /%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 25px center;
+  background-size: auto 26px
+}
+
+
+a.arrow.target.black {
+background-color:var(--black) !important;
+color:#ffff;
+background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2024%2024'%20stroke-width%3D'1.5'%20stroke%3D'%23fff'%20class%3D'size-6'%3E%3Cpath%20stroke-linecap%3D'round'%20stroke-linejoin%3D'round'%20d%3D'm4.5%2019.5%2015-15m0%200H8.25m11.25%200v11.25'%20%2F%3E%3C%2Fsvg%3E");
+}
+
+a.arrow.target.foblack {
+	width:auto;
+/* background-color:var(--black) !important; */
+	transform:unset;
+	color:#444;
+	background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2024%2024'%20stroke-width%3D'1.5'%20stroke%3D'%23111'%20class%3D'size-6'%3E%3Cpath%20stroke-linecap%3D'round'%20stroke-linejoin%3D'round'%20d%3D'm4.5%2019.5%2015-15m0%200H8.25m11.25%200v11.25'%20%2F%3E%3C%2Fsvg%3E");
+	background-size: 20px 20px;
+	height:20px;
+}
+
+
+.link-with-arrow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #000;
+  text-decoration: none;
+  width: 100%;
+  padding: 8px 12px;
+  font-size: 16px;
+}
+
+.arrow-circle {
+  width: 24px;
+  height: 24px;
+  border: 1px solid #e00;        /* 붉은색 테두리 */
+  background-color: #e00;        /* 배경색도 붉은색 */
+  border-radius: 50%;            /* 동그랗게 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrow-circle svg {
+	margin:0;
+	display:inline-block;
+  width: 24px;
+  height: 24px;
+  stroke: #fff;                  /* 화살표 흰색 */
+}
+
+
+
+a.arrow.st01 {
+  background-position: right 20px center;
+}
+
+
+
+.btn_bottom input[type=button], .btn_bottom input[type=submit], .btn_bottom a,
+a.arrow2, a.arrow{
+background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20fill%3D'none'%20viewBox%3D'0%200%2024%2024'%20stroke-width%3D'1.5'%20stroke%3D'currentColor'%20class%3D'size-6'%3E%3Cpath%20stroke-linecap%3D'round'%20stroke-linejoin%3D'round'%20d%3D'M17.25%208.25%2021%2012m0%200-3.75%203.75M21%2012H3'%20%2F%3E%3C%2Fsvg%3E");
+background-repeat: no-repeat;
+  background-position: right 15px center;
+  background-size: auto 27px
+}
+
+
+
+a.arrow2.normal,
+a.arrow.normal {line-height:25px; display:inline-block; 
+padding:10px 100px 10px 20px;  border:1px solid var(--black); margin-left:10px;}
+
+
+a.arrow2.normal2,
+a.arrow.normal2 {line-height:45px; display:inline-block; padding:10px 110px 10px 20px;  border:1px solid var(--black); margin-left:10px;}
+
+
+
+a.arrow.black,
+a.arrow2.black{
+background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20fill%3D'none'%20viewBox%3D'0%200%2024%2024'%20stroke-width%3D'1.5'%20stroke%3D'%23fff'%20class%3D'size-6'%3E%3Cpath%20stroke-linecap%3D'round'%20stroke-linejoin%3D'round'%20d%3D'M17.25%208.25%2021%2012m0%200-3.75%203.75M21%2012H3'%20%2F%3E%3C%2Fsvg%3E");
+color:#fff;
+  background-color:var(--black);
+}
+
+
+
+.btn_bottom input[type=button], .btn_bottom input[type=submit], .btn_bottom a {	
+	border:2px solid var(--black);
+	background-color:#fff;
+	display: inline-block;
+	vertical-align: middle;
+	text-align:left;
+	width:150px; padding-left:20px;
+	line-height: 50px;
+	margin-left: 5px;
+	background-position:right 25px center;
+}
+
+
+
+
+
+
+
+
+
+
+/***** 웹 외  *****/
+	@media (max-width: 1023px) {
+
+}
+
+
+
+/***** 패드 *****/
+	@media (min-width:641px) and (max-width:1023px) {
+
+}
+
+/* 	모바일 */
+	@media (max-width:640px) {
+
+		a.arrow {
+		  background-position: right 10px center;
+		  background-size: auto 16px
+		}
+
+.btn_bottom input[type=button], .btn_bottom input[type=submit], .btn_bottom a {	
+	width:110px; padding-left:15px; font-size:15px;
+	line-height: 40px; margin:3px;
+}
+.btn_bottom input[type=button], .btn_bottom input[type=submit], .btn_bottom a,
+a.arrow2{
+  background-position: right 10px center;
+}
+
+
+	}
+
+
+
+
