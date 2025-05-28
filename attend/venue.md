@@ -201,7 +201,7 @@ Another nearby option is Gimhae International Airport, located about 50 minutes 
   <tbody>
     <tr>
       <th rowspan="2">Daegu Int’l Airport
-        <p class="location2">4km</p>
+        (4km from EXCO)
         <a href="https://maps.app.goo.gl/b9kkBjz9izMrpGWF6" target="_blank" class="arrow2 black">Google Map</a></th>
       <th>Bus </th>
       <td><ul style="text-align:left">
@@ -217,7 +217,7 @@ Another nearby option is Gimhae International Airport, located about 50 minutes 
     </tr>
     <tr>
       <th rowspan="2">Dongdaegu Station
-        <p class="location2">5km</p>
+        (5km from EXCO)
         <a href="https://maps.app.goo.gl/hsizLQgVWhuRZnxG7" target="_blank" class="arrow2 black">Google Map</a>
       </th>
       <th>Bus </th>
@@ -234,7 +234,7 @@ Another nearby option is Gimhae International Airport, located about 50 minutes 
     </tr>
     <tr>
       <th rowspan="2"> Daegu Station
-        <p class="location2">5.5km</p>
+         (5.5km from EXCO)
         <a href="https://maps.app.goo.gl/udHde9ntJjanYLEf8" target="_blank" class="arrow2 black">Google Map</a>
       </th>
       <th>Bus </th>
@@ -251,7 +251,7 @@ Another nearby option is Gimhae International Airport, located about 50 minutes 
     </tr>
     <tr>
       <th rowspan="2">Dongdaegu Bus Transfer Center
-        <p class="location2">6km</p>
+        (6km from EXCO)
         <a href="https://maps.app.goo.gl/ZfCpcXEJ8VpEzbB47" target="_blank" class="arrow2 black">Google Map</a>
       </th>
       <th>Bus </th>
@@ -268,7 +268,7 @@ Another nearby option is Gimhae International Airport, located about 50 minutes 
     </tr>
     <tr>
       <th rowspan="2"> Banwoldang Station
-        <p class="location2">8.3km</p>
+        (8.3km from EXCO)
         <a href="https://maps.app.goo.gl/UKxsMcxZjr2r6rZt8" target="_blank" class="arrow2 black">Google Map</a>
       </th>
       <th>Bus </th>
