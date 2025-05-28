@@ -13,6 +13,9 @@ title_separator: "|"
 		$(".posters").html("<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>");            
 	});
 </script>
+
+<p style="width:100%; margin: 30px auto; padding: 20px 0; text-align:center; font-size:1rem; border-radius: 30px; background-color: #f3f3f3">This content is currently being updated.</p>
+<div style="display:none">
 <div>
     <h1 id="cfp-posters"> Call for Posters<div class="floatRight"><span class="posters"></span></div></h1>
     <p>
@@ -177,4 +180,4 @@ title_separator: "|"
     at the following adress: <span class="posters"></span>
     </p>
 </div>
-
+</div>
