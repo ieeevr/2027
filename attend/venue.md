@@ -120,8 +120,8 @@ Another nearby option is Gimhae International Airport, located about 50 minutes 
     <p class="notice_alert2" > You can check the KTX schedule on the website below.</p>
     
     <p class="notice_alert2 aos-init aos-animate" > For departures from Suseo Station, please refer to the SRT website.</p>
-    <p class="pt20"><a href="https://www.korail.com/global/eng/main" target="_blank" class="arrow2">Korail Pass Website</a> 
-    <a href="https://etk.srail.kr/main.do?language=EN" target="_blank" class="arrow2">SRT Website</a></p>
+    <p class="pt20"><a href="https://www.korail.com/global/eng/main" target="_blank" class="arrow2 black">Korail Pass Website</a> 
+    <a href="https://etk.srail.kr/main.do?language=EN" target="_blank" class="arrow2 black">SRT Website</a></p>
  
   
   
@@ -169,7 +169,7 @@ Another nearby option is Gimhae International Airport, located about 50 minutes 
       </table>
     <!-- //inner_wrap -->
     <p class="notice_alert2">You can check the official express bus booking website below.</p>
-    <p class="pt20"><a href="https://www.kobus.co.kr/main.do" target="_blank" class="arrow2">KOBUS Website</a></p>
+    <p class="pt20"><a href="https://www.kobus.co.kr/main.do" target="_blank" class="arrow2 black">KOBUS Website</a></p>
   
   <!-- //desc2 --> 
   
