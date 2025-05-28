@@ -4286,7 +4286,7 @@ body {
 }
 
 .page__content p {
-    margin: 0 0 1.3em; text-align: center
+    margin: 0 0 1.3em; 
 }
 
 .page__content a:not(.btn):not(#goog-wm-sb):hover {
