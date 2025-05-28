@@ -1,10 +1,12 @@
 ---
 layout: ieeevr-default
 title: "Accommodations"
-subtitle: "IEEE VR 2025"
+subtitle: "IEEE VR 2026"
 title_separator: "|"
 ---
-<div>
+
+<p style="width:100%; margin: 30px auto; padding: 20px 0; text-align:center; font-size:1rem; border-radius: 30px; background-color: #f3f3f3">This content is currently being updated.</p>
+<div style="display:none">
     <h1>Accommodations</h1>
     <h2>A quality accommodation</h2>
     <p>
