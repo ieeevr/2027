@@ -179,8 +179,7 @@ Another nearby option is Gimhae International Airport, located about 50 minutes 
     
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1615.8200962164342!2d128.61183243907706!3d35.90682699312884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3565e1aa3b33a607%3A0xca08be7329f6a0ca!2sEXCO!5e0!3m2!1sen!2skr!4v1747899775671!5m2!1sen!2skr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-    <h2  class="comst01">Getting to EXCO: Transit & Travel Time from Key Daegu Locations</h2>
-
+   
 
  <h2>Getting to EXCO: Transit & Travel Time from Key Daegu Locations</h2>
 
