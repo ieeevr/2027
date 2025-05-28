@@ -14,7 +14,8 @@ title_separator: "|"
 		$(".art").html("<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>");            
 	});
 </script>
-
+<p style="width:100%; margin: 30px auto; padding: 20px 0; text-align:center; font-size:1rem; border-radius: 30px; background-color: #f3f3f3">This content is currently being updated.</p>
+<div style="display:none">
 <div>
     <h1 id="cfp-demos">Call for Proposals <strong>“XR Gallery”</strong>
 <div class="floatRight"><span class="art"></span></div></h1>
@@ -128,4 +129,5 @@ title_separator: "|"
             <li><span class="bold">Katja Zibrek</span> &#x2012; <i>Inria, France</i></li>
         </ul>
     </p>
+</div>
 </div>
