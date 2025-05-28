@@ -20,7 +20,7 @@ Another nearby option is Gimhae International Airport, located about 50 minutes 
 
     <h2 >From Major Korean Airports to Daegu: Transit & Time</h2>
     <!-- inner_wrap -->
-      <table class="styled-table">
+      <table class="green_03">
       <colgroup>
       <col width="25%" />
       <col width="25%" />
@@ -86,7 +86,7 @@ Another nearby option is Gimhae International Airport, located about 50 minutes 
     
     <!-- inner_wrap -->
     
-      <table class="styled-table">
+      <table class="green_03">
         <colgroup>
       <col width="34%" class="scroll-animate scrollactive"/>
       <col width="33%" class="scroll-animate scrollactive"/>
@@ -130,7 +130,7 @@ Another nearby option is Gimhae International Airport, located about 50 minutes 
     
     <!-- inner_wrap -->
     
-      <table class="styled-table">
+      <table class="green_03">
         <colgroup>
       <col width="34%" />
       <col width="33%" />
