@@ -1,11 +1,12 @@
 ---
 layout: ieeevr-default
 title: "Posters"
-subtitle: "IEEE VR 2025"
+subtitle: "IEEE VR 2026"
 title_separator: "|"
 ---
 
-
+<p style="width:100%; margin: 30px auto; padding: 20px 0; text-align:center; font-size:1rem; border-radius: 30px; background-color: #f3f3f3">This content is currently being updated.</p>
+<div style="display:none">
 <h1>Posters</h1>
 <div>
 <p> <b>Each day, talk with the authors: 9:30‑10:00, 13:15‑14:00, 16:15‑17:15 (Timezone: Saint-Malo, France UTC+1)</b> 
@@ -126,4 +127,6 @@ title_separator: "|"
         {% endfor %}
     </div>
     {% endfor %}
+</div>
+
 </div>
