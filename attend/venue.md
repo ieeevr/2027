@@ -88,9 +88,9 @@ Another nearby option is Gimhae International Airport, located about 50 minutes 
     
       <table class="green_03">
         <colgroup>
-      <col width="34%" class="scroll-animate scrollactive"/>
-      <col width="33%" class="scroll-animate scrollactive"/>
-      <col width="33%" class="scroll-animate scrollactive"/>
+      <col width="34%" />
+      <col width="33%" />
+      <col width="33%" />
       </colgroup>
         <thead>
           <tr>
