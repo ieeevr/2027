@@ -1,9 +1,11 @@
 ---
 layout: ieeevr-default
 title: "Papers"
-subtitle: "IEEE VR 2025"
+subtitle: "IEEE VR 2026"
 title_separator: "|"
 ---
+<p style="width:100%; margin: 30px auto; padding: 20px 0; text-align:center; font-size:1rem; border-radius: 30px; background-color: #f3f3f3">This content is currently being updated.</p>
+<div style="display:none">
 <h1>Papers</h1>
 <div>
     <div>
@@ -131,4 +133,5 @@ title_separator: "|"
                 {% endif %}
             {% endfor %}
     {% endfor %}
+</div>
 </div>
