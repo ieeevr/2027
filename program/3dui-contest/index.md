@@ -1,9 +1,11 @@
 ---
 layout: ieeevr-default
 title: "3DUI Contest Demos"
-subtitle: "IEEE VR 2025"
+subtitle: "IEEE VR 2026"
 title_separator: "|"
 ---
+<p style="width:100%; margin: 30px auto; padding: 20px 0; text-align:center; font-size:1rem; border-radius: 30px; background-color: #f3f3f3">This content is currently being updated.</p>
+<div style="display:none">
 <h1>3DUI Contest Demos</h1>
 <h2>Topic : United for Planet Earth: Promoting Environmental Sustainability in Collaborative Virtual Environments </h2>
 <div>
@@ -120,4 +122,5 @@ title_separator: "|"
             <hr style="margin: 25px 0 25px 0;">
         {% endif %}
     {% endfor %}
+</div>
 </div>
