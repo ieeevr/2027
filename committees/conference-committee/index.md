@@ -99,8 +99,7 @@ title_separator: "|"
 	});
 </script-->
 
-<p style="width:100%; margin: 30px auto; padding: 20px 0; text-align:center; font-size:1rem; border-radius: 30px; background-color: #f3f3f3">This content is currently being updated.</p>
-<div style="display:none">
+
 <h1>Conference Committee</h1>
 <div>
   <h2>General Chairs
