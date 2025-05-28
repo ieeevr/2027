@@ -182,6 +182,9 @@ Another nearby option is Gimhae International Airport, located about 50 minutes 
     <h2  class="comst01">Getting to EXCO: Transit & Travel Time from Key Daegu Locations</h2>
 
 
+ <h2  class="comst01">Getting to EXCO: Transit & Travel Time from Key Daegu Locations</h2>
+
+
  <table class="green_03">
   <colgroup>
   <col class="wd30per">
@@ -197,11 +200,11 @@ Another nearby option is Gimhae International Airport, located about 50 minutes 
   </thead>
   <tbody>
     <tr>
-      <th rowspan="2"><h4 class="comst01 fw600">Daegu Int’l Airport  <p class="location2">4km</p></h4>
+      <th rowspan="2">Daegu Int’l Airport  <p class="location2">4km</p>
 	  <p class="pt10"><a href="https://maps.app.goo.gl/b9kkBjz9izMrpGWF6" target="_blank" class="arrow2 black">Google Map</a></p></th>
       <th>Bus
 		</th><td>
-			<ul class="flex deptst03">
+			<ul style="text-align:left">
 				<li> 719 → 503, 719 → 937, Donggu 2 → 503, 401 → 323-1</li>
 				<li>~  30  min
 			</li></ul>
@@ -210,20 +213,20 @@ Another nearby option is Gimhae International Airport, located about 50 minutes 
     <tr>
       <th>Taxi
 		</th><td>
-			<ul class="flex deptst03">
+			<ul style="text-align:left">
 				<li>~  20  min
 			</li></ul>
 		</td>
     </tr>
  <tr>
-      <th rowspan="2"><h4 class="comst01 fw600">Dongdaegu Station   
-          <p class="location2">5km</p></h4>
+      <th rowspan="2">Dongdaegu Station   
+          <p class="location2">5km</p>
 	  <p class="pt10"><a href="https://maps.app.goo.gl/hsizLQgVWhuRZnxG7" target="_blank" class="arrow2 black">Google Map</a></p>
 
 	  </th>
       <th>Bus
 		</th><td>
-			<ul class="flex deptst03">
+			<ul style="text-align:left">
 				<li> 413, Loop 2-1, 937</li>
 				<li>~  30  min
 			</li></ul>
@@ -232,19 +235,19 @@ Another nearby option is Gimhae International Airport, located about 50 minutes 
     <tr>
       <th>Taxi
 		</th><td>
-			<ul class="flex deptst03">
+			<ul style="text-align:left">
 				<li>~  15 min
 			</li></ul>
 		</td>
     </tr>
    <tr>
-      <th rowspan="2"><h4 class="comst01 fw600"> Daegu Station   <p class="location2">5.5km</p></h4>
+      <th rowspan="2"> Daegu Station   <p class="location2">5.5km</p>
 	  <p class="pt10"><a href="https://maps.app.goo.gl/udHde9ntJjanYLEf8" target="_blank" class="arrow2 black">Google Map</a></p>
 
 	  </th>
       <th>Bus
 		</th><td>
-			<ul class="flex deptst03">
+			<ul style="text-align:left">
           <li> 653, 304</li>
           <li>~  35 min
 			</li></ul>
@@ -253,19 +256,19 @@ Another nearby option is Gimhae International Airport, located about 50 minutes 
     <tr>
       <th>Taxi
 		</th><td>
-			<ul class="flex deptst03">
+			<ul style="text-align:left">
 				<li>~  15 min
 			</li></ul>
 		</td>
     </tr>
    <tr>
-      <th rowspan="2"><h4 class="comst01 fw600">Dongdaegu Bus Transfer Center <p class="location2">6km</p></h4>
+      <th rowspan="2">Dongdaegu Bus Transfer Center <p class="location2">6km</p>
 	  <p class="pt10"><a href="https://maps.app.goo.gl/ZfCpcXEJ8VpEzbB47" target="_blank" class="arrow2 black">Google Map</a></p>
 
 	  </th>
       <th>Bus
 		</th><td>
-			<ul class="flex deptst03">
+			<ul style="text-align:left">
           <li> 413, Loop 2-1, 937</li>
           <li>~  30  min
 			</li></ul>
@@ -274,19 +277,19 @@ Another nearby option is Gimhae International Airport, located about 50 minutes 
     <tr>
       <th>Taxi
 		</th><td>
-			<ul class="flex deptst03">
+			<ul style="text-align:left">
 				<li>~  20  min
 			</li></ul>
 		</td>
     </tr>
    <tr>
-      <th rowspan="2"><h4 class="comst01 fw600"> Banwoldang Station<p class="location2">8.3km</p></h4>
+      <th rowspan="2"> Banwoldang Station<p class="location2">8.3km</p>
 	  <p class="pt10"><a href="https://maps.app.goo.gl/UKxsMcxZjr2r6rZt8" target="_blank" class="arrow2 black">Google Map</a></p>
 
 	  </th>
       <th>Bus
 		</th><td>
-			<ul class="flex deptst03">
+			<ul style="text-align:left">
           <li>  Express 2 → 653, Express 2 → Loop 2-1, 730 → 653, 706 → 653</li>
           <li>~  35 min
 			</li></ul>
@@ -295,7 +298,7 @@ Another nearby option is Gimhae International Airport, located about 50 minutes 
     <tr>
       <th>Taxi
 		</th><td>
-			<ul class="flex deptst03">
+			<ul style="text-align:left">
 				<li>~  30  min
 			</li></ul>
 		</td>
@@ -303,6 +306,8 @@ Another nearby option is Gimhae International Airport, located about 50 minutes 
 
 	</tbody>
 </table>
+  
+
   
 
 
