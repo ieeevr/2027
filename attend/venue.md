@@ -18,7 +18,7 @@ Another nearby option is Gimhae International Airport, located about 50 minutes 
   
   
 
-    <h2 >From Major Korean Airports to Daegu: Transit & Time</h2>
+    <h2 style="margin-top:30px">From Major Korean Airports to Daegu: Transit & Time</h2>
     <!-- inner_wrap -->
       <table class="green_03">
       <colgroup>
@@ -117,9 +117,7 @@ Another nearby option is Gimhae International Airport, located about 50 minutes 
         </tbody>
       </table>
     <!-- //inner_wrap -->
-    <p class="notice_alert2" > You can check the KTX schedule on the website below.</p>
-    
-    <p class="notice_alert2 aos-init aos-animate" > For departures from Suseo Station, please refer to the SRT website.</p>
+  
     <p class="pt20"><a href="https://www.korail.com/global/eng/main" target="_blank" class="arrow2 black">Korail Pass Website</a> 
     <a href="https://etk.srail.kr/main.do?language=EN" target="_blank" class="arrow2 black">SRT Website</a></p>
  
@@ -168,8 +166,7 @@ Another nearby option is Gimhae International Airport, located about 50 minutes 
         </tbody>
       </table>
     <!-- //inner_wrap -->
-    <p class="notice_alert2">You can check the official express bus booking website below.</p>
-    <p class="pt20"><a href="https://www.kobus.co.kr/main.do" target="_blank" class="arrow2 black">KOBUS Website</a></p>
+      <p class="pt20"><a href="https://www.kobus.co.kr/main.do" target="_blank" class="arrow2 black">KOBUS Website</a></p>
   
   <!-- //desc2 --> 
   
@@ -181,5 +178,132 @@ Another nearby option is Gimhae International Airport, located about 50 minutes 
     </p>
     
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1615.8200962164342!2d128.61183243907706!3d35.90682699312884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3565e1aa3b33a607%3A0xca08be7329f6a0ca!2sEXCO!5e0!3m2!1sen!2skr!4v1747899775671!5m2!1sen!2skr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <h2  class="comst01">Getting to EXCO: Transit & Travel Time from Key Daegu Locations</h2>
+
+
+ <table class="green_03">
+  <colgroup>
+  <col class="wd30per">
+  <col class="wd15per">
+  <col>
+  </colgroup>
+  <thead>
+    <tr>
+      <th>Departure</th>
+      <th>Transport</th>
+      <th>Route & Time</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th rowspan="2"><h4 class="comst01 fw600">Daegu Int’l Airport  <p class="location2">4km</p></h4>
+	  <p class="pt10"><a href="https://maps.app.goo.gl/b9kkBjz9izMrpGWF6" target="_blank" class="arrow2 black">Google Map</a></p></th>
+      <th>Bus
+		</th><td>
+			<ul class="flex deptst03">
+				<li> 719 → 503, 719 → 937, Donggu 2 → 503, 401 → 323-1</li>
+				<li>~  30  min
+			</li></ul>
+		</td>
+    </tr>
+    <tr>
+      <th>Taxi
+		</th><td>
+			<ul class="flex deptst03">
+				<li>~  20  min
+			</li></ul>
+		</td>
+    </tr>
+ <tr>
+      <th rowspan="2"><h4 class="comst01 fw600">Dongdaegu Station   
+          <p class="location2">5km</p></h4>
+	  <p class="pt10"><a href="https://maps.app.goo.gl/hsizLQgVWhuRZnxG7" target="_blank" class="arrow2 black">Google Map</a></p>
+
+	  </th>
+      <th>Bus
+		</th><td>
+			<ul class="flex deptst03">
+				<li> 413, Loop 2-1, 937</li>
+				<li>~  30  min
+			</li></ul>
+		</td>
+    </tr>
+    <tr>
+      <th>Taxi
+		</th><td>
+			<ul class="flex deptst03">
+				<li>~  15 min
+			</li></ul>
+		</td>
+    </tr>
+   <tr>
+      <th rowspan="2"><h4 class="comst01 fw600"> Daegu Station   <p class="location2">5.5km</p></h4>
+	  <p class="pt10"><a href="https://maps.app.goo.gl/udHde9ntJjanYLEf8" target="_blank" class="arrow2 black">Google Map</a></p>
+
+	  </th>
+      <th>Bus
+		</th><td>
+			<ul class="flex deptst03">
+          <li> 653, 304</li>
+          <li>~  35 min
+			</li></ul>
+		</td>
+    </tr>
+    <tr>
+      <th>Taxi
+		</th><td>
+			<ul class="flex deptst03">
+				<li>~  15 min
+			</li></ul>
+		</td>
+    </tr>
+   <tr>
+      <th rowspan="2"><h4 class="comst01 fw600">Dongdaegu Bus Transfer Center <p class="location2">6km</p></h4>
+	  <p class="pt10"><a href="https://maps.app.goo.gl/ZfCpcXEJ8VpEzbB47" target="_blank" class="arrow2 black">Google Map</a></p>
+
+	  </th>
+      <th>Bus
+		</th><td>
+			<ul class="flex deptst03">
+          <li> 413, Loop 2-1, 937</li>
+          <li>~  30  min
+			</li></ul>
+		</td>
+    </tr>
+    <tr>
+      <th>Taxi
+		</th><td>
+			<ul class="flex deptst03">
+				<li>~  20  min
+			</li></ul>
+		</td>
+    </tr>
+   <tr>
+      <th rowspan="2"><h4 class="comst01 fw600"> Banwoldang Station<p class="location2">8.3km</p></h4>
+	  <p class="pt10"><a href="https://maps.app.goo.gl/UKxsMcxZjr2r6rZt8" target="_blank" class="arrow2 black">Google Map</a></p>
+
+	  </th>
+      <th>Bus
+		</th><td>
+			<ul class="flex deptst03">
+          <li>  Express 2 → 653, Express 2 → Loop 2-1, 730 → 653, 706 → 653</li>
+          <li>~  35 min
+			</li></ul>
+		</td>
+    </tr>
+    <tr>
+      <th>Taxi
+		</th><td>
+			<ul class="flex deptst03">
+				<li>~  30  min
+			</li></ul>
+		</td>
+    </tr>
+
+	</tbody>
+</table>
+  
+
 
 </div>
