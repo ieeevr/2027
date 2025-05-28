@@ -5762,7 +5762,7 @@ ul.extraSpacing li{
 
 
 
-.green_03 {width:100%; border-right:none; border-left:none;  }
+.green_03 {width:100%; border-right:none !important; border-left:none !important; border-top: 2px solid;  }
 
 
 
@@ -5786,10 +5786,10 @@ text-align:Center; line-height:1.2; }
 
 
 
-.green_03 tbody th,
-.green_03 tbody td {padding:10px 0; text-align:center; border:1px solid #ddd; border-bottom:0px; border-left:0px; }
+.green_03 tbody th {padding:10px 0; text-align:center;  border-left:none; font-weight:normal; background-color: #f3f3f3; }
 
 
+.green_03 tbody td {padding:10px 0; text-align:center; border:1px solid #ddd;  border-right:none; }
 
 
 
