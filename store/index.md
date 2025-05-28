@@ -1,7 +1,7 @@
 ---
 layout: ieeevr-default
-title: "Store IEEE VR 2025"
-subtitle: "IEEE VR 2025"
+title: "Store IEEE VR 2026"
+subtitle: "IEEE VR 2026"
 title_separator: "|"
 ---
 <script type="text/javascript">
@@ -12,7 +12,8 @@ title_separator: "|"
 		$(".exhibitssponsors").html("<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIcon' style=''></i><i class='emailText'>" + email + "@" + domain + "</a></i></span>");    
 	});
 </script>
-<div>
+<p style="width:100%; margin: 30px auto; padding: 20px 0; text-align:center; font-size:1rem; border-radius: 30px; background-color: #f3f3f3">This content is currently being updated.</p>
+<div style="display:none">
     <h1>Store IEEE VR 2025</h1>
     <p>This year, in line with our sustainability policy, we are reducing the distribution of conference goodies. However, for those who are interested, we are offering the opportunity to purchase the official IEEE VR 2025 merchandise.</p>
     <h2 id="overview">Available Items</h2>
