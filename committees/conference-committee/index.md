@@ -30,71 +30,73 @@ title_separator: "|"
 		email = "general2026"; 		
 		general.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
 		
-		email = "program2025"; 
+		email = "program2026"; 
 		program.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
+
+
 		
 		email = "contest2025"; 
 		contest.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
 
-		email = "awards2025"; 
+		email = "awards2026"; 
 		awards.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
 		
-		email = "doctoralconsortium2025"; 
+		email = "doctoralconsortium2026"; 
 		doctoralconsortium.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
 		
-		email = "deia2025"; 
+		email = "diversity2026"; 
 		diversity.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
 	
-		email = "exhibitssponsors2025"; 
+		email = "exhibitis2026"; 
 		exhibitssponsors.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
 
-		email = "finance2025"; 
+		email = "finance2026"; 
 		finance.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
 		
-		email = "localarrangements2025";
+		email = "local2026";
 		localarrangements.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
 		
-		email = "posters2025"; 
+		email = "posters2026"; 
 		posters.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
 		
-		email = "publications2025"; 
+		email = "publication2026"; 
 		publications.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
 		
 		email = "publicity2025"; 
 		publicity.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
 		
-		email = "researchdemos2025"; 
+		email = "demo2026"; 
 		researchdemos.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
 		
-		email = "studentvolunteers2025"; 
+		email = "student2026"; 
 		studentvolunteers.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
 		
-		email = "tutorials2025"; 
+		email = "tutorial2026"; 
 		tutorials.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
 
-		email = "web2025";		
+		email = "web2026";		
 		web.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
 		
-		email = "workshops2025"; 		
+		email = "workshop2026"; 		
 		workshops.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
 		
-		email = "labtour2025"; 		
-		labtour.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
+		email = "3dui"; 		
+		3dui.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
 
 		email = "eira2025"; 		
 		environment.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";		
 		
-		email = "socialevents2025"; 		
-		socialevents.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
+		email = "panel2026"; 		
+		panel.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
 		
-		email = "art2025"; 		
-		art.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
+		email = "xrgallery2026"; 		
+		xrgallery.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
 		
-		email = "onlineexperience2025"; 		
+		email = "onlineexperience2026"; 		
 		onlineexperience.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
 
-		email = "xrfuturefaculty2025"; 		
-		xrfuturefaculty.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";		
+		email = "xrfaculty2026"; 		
+		xrfaculty.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";		
 
 	});
 </script>
@@ -111,9 +113,11 @@ title_separator: "|"
     <li><span class="bold">Soon Ki Jung</span> – <i>Kyungpook National University, South Korea</i></li>
   </ul>
 </div>
+
+
 <div>
   <h2>Honorary Chairs
-    <div class="floatRight"><span id="honorary">wohn@kaist.ac.kr </span></div>
+    <div class="floatRight"><span id="honorary"></span></div>
   </h2>
   <ul>
     <li><span class="bold">Kwangyun Wohn</span> – <i>KAIST, South Korea</i></li>
@@ -126,7 +130,7 @@ title_separator: "|"
 </div>
 <div>
   <h2>Program Chairs
-    <div class="floatRight"><span id="program">yuta.itoh@iii.u-tokyo.ac.jp </span></div>
+    <div class="floatRight"><span id="program"></span></div>
   </h2>
   <ul>
     <li><span class="bold">Yuta Itoh</span> – <i>University of Tokyo, Japan</i></li>
@@ -138,7 +142,7 @@ title_separator: "|"
 </div>
 <div>
   <h2>Finance Chairs
-    <div class="floatRight"><span id="art">myungho@pusan.ac.kr</span></div>
+    <div class="floatRight"><span id="art"></span></div>
   </h2>
   <ul>
     <li><span class="bold">Myongho Lee</span> – <i>Pusan National University, South Korea</i></li>
@@ -147,7 +151,7 @@ title_separator: "|"
 </div>
 <div>
   <h2>Exhibits and Sponsors Chairs
-    <div class="floatRight"><span id="environment">siamiz_hkang@korea.ac.kr </span></div>
+    <div class="floatRight"><span id="environment"></span></div>
   </h2>
   <ul>
     <li><span class="bold">Hyeongyeop Kang</span> – <i>Korea University, South Korea</i></li>
@@ -158,7 +162,7 @@ title_separator: "|"
 </div>
 <div>
   <h2>On-line Experience Chairs
-    <div class="floatRight"><span id="onlineexperience">Seungwon.Kim@chonnam.ac.kr </span></div>
+    <div class="floatRight"><span id="onlineexperience"></span></div>
   </h2>
   <ul>
     <li><span class="bold">Seungwon Kim</span> – <i>Jeonnam National University, South Korea</i></li>
@@ -166,9 +170,12 @@ title_separator: "|"
     <li><span class="bold">Isayas, Adhanom</span> – <i>Texas State University, USA</i></li>
   </ul>
 </div>
+
+
+
 <div>
   <h2>Poster Chairs
-    <div class="floatRight"><span id="contest">Gun.Lee@unisa.edu.au </span></div>
+    <div class="floatRight"><span id="contest"></span></div>
   </h2>
   <ul>
     <li><span class="bold">Gun Lee</span> – <i>University of South Australia, Australia</i></li>
@@ -180,7 +187,7 @@ title_separator: "|"
 </div>
 <div>
   <h2>Publication Chairs
-    <div class="floatRight"><span id="awards">sangho@kaist.ac.kr</span></div>
+    <div class="floatRight"><span id="publications"></span></div>
   </h2>
   <ul>
     <li><span class="bold">Sangho Yoon</span> – <i>KAIST, South Korea</i></li>
@@ -190,7 +197,7 @@ title_separator: "|"
 </div>
 <div>
   <h2>Awards Chairs
-    <div class="floatRight"><span id="doctoralconsortium">wallraven@korea.ac.kr</span></div>
+    <div class="floatRight"><span id="awards"></span></div>
   </h2>
   <ul>
     <li><span class="bold">Chirs Wallravan</span> – <i>Korea University, South Korea</i></li>
@@ -200,8 +207,7 @@ title_separator: "|"
 </div>
 <div>
   <h2>XR Gallery
-    <div class="floatRight"><span id="diversity">Yue.Li@xjtlu.edu.cn 
-</span></div>
+    <div class="floatRight"><span id="xrgallery"></span></div>
   </h2>
   <ul>
     <li><span class="bold">Yue Li</span> – <i>Xi’an Jiaotong-Liverpool University, China</i></li>
@@ -225,7 +231,7 @@ title_separator: "|"
 </div>
 <div>
   <h2>Student Volunteers Chairs
-    <div class="floatRight"><span id="finance">hji@kist.re.kr </span></div>
+    <div class="floatRight"><span id="studentvolunteers">hji@kist.re.kr </span></div>
   </h2>
   <ul>
     <li><span class="bold">Jane Hwang</span> – <i>KIST, South Korea</i></li>
@@ -233,9 +239,11 @@ title_separator: "|"
     <li><span class="bold">Hanseob Kim</span> – <i>Konyang University, South Korea</i></li>
   </ul>
 </div>
+
+
 <div>
   <h2>Workshop Chairs
-    <div class="floatRight"><span id="localarrangements">dongsikjo@ulsan.ac.kr </span></div>
+    <div class="floatRight"><span id="workshops"></span></div>
   </h2>
   <ul>
     <li><span class="bold">Donsik Jo</span> – <i>Ulsan University, South Korea</i></li>
@@ -244,9 +252,12 @@ title_separator: "|"
     <li><span class="bold">Hyeongil Nam</span> – <i>University of Calgary, Canada</i></li>
   </ul>
 </div>
+
+
+
 <div>
   <h2>3D UI Contest Chairs
-    <div class="floatRight"><span id="posters">pcy8201@postech.ac.kr</span></div>
+    <div class="floatRight"><span id="3dui"></span></div>
   </h2>
   <ul>
     <li><span class="bold">Chaeyong Park</span> – <i>Korea University, South Korea</i></li>
@@ -257,7 +268,7 @@ title_separator: "|"
 </div>
 <div>
   <h2>Diversity / Environment Chairs
-    <div class="floatRight"><span id="publications">jeon@khu.ac.kr </span></div>
+    <div class="floatRight"><span id="diversity"></span></div>
   </h2>
   <ul>
     <li><span class="bold">Seokhee Jeon</span> – <i>Kyunghee University, South Korea</i></li>
@@ -269,7 +280,7 @@ title_separator: "|"
 </div>
 <div>
   <h2>Tutorial
-    <div class="floatRight"><span id="publicity">kangsoo.kim@ucalgary.ca </span></div>
+    <div class="floatRight"><span id="tutorials"></span></div>
   </h2>
   <ul>
     <li><span class="bold">Kangsoo Kim</span> – <i>University of Calgary, Canada</i></li>
@@ -279,7 +290,7 @@ title_separator: "|"
 </div>
 <div>
   <h2>Web Chairs / Publicity
-    <div class="floatRight"><span id="researchdemos">H.Kim@soton.ac.uk </span></div>
+    <div class="floatRight"><span id="web">H.Kim@soton.ac.uk </span></div>
   </h2>
   <ul>
     <li><span class="bold">Hansung Kim</span> – <i>University of Southampton, United Kingdom</i></li>
@@ -289,7 +300,7 @@ title_separator: "|"
 </div>
 <div>
   <h2>Panel
-    <div class="floatRight"><span id="socialevents">yoo@byoo.org </span></div>
+    <div class="floatRight"><span id="panel"></span></div>
   </h2>
   <ul>
     <li><span class="bold">Byunghyun Yoo</span> – <i>KIST, South Korea</i></li>
@@ -297,7 +308,7 @@ title_separator: "|"
 </div>
 <div>
   <h2>XR Faculty
-    <div class="floatRight"><span id="studentvolunteers">jeongmi@kaist.ac.kr </span></div>
+    <div class="floatRight"><span id="xrfaculty"></span></div>
   </h2>
   <ul>
     <li><span class="bold">Jeongmi Lee</span> – <i>KAIST, South Korea</i></li>
@@ -312,7 +323,7 @@ title_separator: "|"
 </div>
 <div>
   <h2>Doctoral Consortium
-    <div class="floatRight"><span id="tutorials">goodsoon96@gmail.com </span></div>
+    <div class="floatRight"><span id="doctoralconsortium"></span></div>
   </h2>
   <ul>
     <li><span class="bold">Yongsoon Choi</span> – <i>Sogang University, South Korea</i></li>
@@ -322,7 +333,7 @@ title_separator: "|"
 </div>
 <div>
   <h2>Social Events / Local Arrangement Chairs
-    <div class="floatRight"><span id="web">sunghoonim@dgist.ac.kr </span></div>
+    <div class="floatRight"><span id="localarrangements"></span></div>
   </h2>
   <ul>
     <li><span class="bold">Sunghoon Ihm</span> – <i>DGIST, South Korea</i></li>
