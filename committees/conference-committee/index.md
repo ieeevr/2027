@@ -16,7 +16,7 @@ title_separator: "|"
     font-size: 0.7em;
     color: #df7603;
     font-weight: bold;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
 }
 #sponsors .conf-icon {
   display: none !important;
