@@ -13,7 +13,7 @@ title_separator: "|"
 }
 
 .floatRight{
-    font-size: 0.7em;
+    font-size: 0.9em;
     color: #df7603;
     font-weight: bold;
     /*text-transform: uppercase;*/
