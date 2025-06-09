@@ -110,7 +110,7 @@ title_separator: "|"
 
 
 <div>
-  <h2> Chairs
+  <h2>Honorary Chairs
     <div class="floatRight"><span id=""></span></div>
   </h2>
   <ul>
