@@ -83,8 +83,8 @@ title_separator: "|"
 		email = "3dui"; 		
 		3dui.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
 
-		email = "eira2025"; 		
-		environment.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";		
+		email = "honorary2026"; 		
+		honorary.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";		
 		
 		email = "panel2026"; 		
 		panel.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
@@ -116,8 +116,8 @@ title_separator: "|"
 
 
 <div>
-  <h2>Honorary Chairs
-    <div class="floatRight"><span id="honorary"></span></div>
+  <h2> Chairs
+    <div class="floatRight"><span id=""></span></div>
   </h2>
   <ul>
     <li><span class="bold">Kwangyun Wohn</span> – <i>KAIST, South Korea</i></li>
@@ -142,7 +142,7 @@ title_separator: "|"
 </div>
 <div>
   <h2>Finance Chairs
-    <div class="floatRight"><span id="art"></span></div>
+    <div class="floatRight"><span id="finance"></span></div>
   </h2>
   <ul>
     <li><span class="bold">Myongho Lee</span> – <i>Pusan National University, South Korea</i></li>
@@ -151,7 +151,7 @@ title_separator: "|"
 </div>
 <div>
   <h2>Exhibits and Sponsors Chairs
-    <div class="floatRight"><span id="environment"></span></div>
+    <div class="floatRight"><span id="exhibitssponsors"></span></div>
   </h2>
   <ul>
     <li><span class="bold">Hyeongyeop Kang</span> – <i>Korea University, South Korea</i></li>
@@ -160,6 +160,7 @@ title_separator: "|"
     <li><span class="bold">Gabriel Zachmann</span> – <i>University of Bremen, Germany</i></li>
   </ul>
 </div>
+
 <div>
   <h2>On-line Experience Chairs
     <div class="floatRight"><span id="onlineexperience"></span></div>
@@ -175,7 +176,7 @@ title_separator: "|"
 
 <div>
   <h2>Poster Chairs
-    <div class="floatRight"><span id="contest"></span></div>
+    <div class="floatRight"><span id="posters"></span></div>
   </h2>
   <ul>
     <li><span class="bold">Gun Lee</span> – <i>University of South Australia, Australia</i></li>
@@ -220,7 +221,7 @@ title_separator: "|"
 </div>
 <div>
   <h2>Demo
-    <div class="floatRight"><span id="exhibitssponsors">Yue.Li@xjtlu.edu.cn </span></div>
+    <div class="floatRight"><span id="researchdemos"></span></div>
   </h2>
   <ul>
     <li><span class="bold">Uijong Ju</span> – <i>Kyunghee University, South Korea</i></li>
@@ -229,9 +230,13 @@ title_separator: "|"
     <li><span class="bold">Unyeon Yang</span> – <i>ETRI Korea, South Korea</i></li>
   </ul>
 </div>
+
+
+
+
 <div>
   <h2>Student Volunteers Chairs
-    <div class="floatRight"><span id="studentvolunteers">hji@kist.re.kr </span></div>
+    <div class="floatRight"><span id="studentvolunteers"></span></div>
   </h2>
   <ul>
     <li><span class="bold">Jane Hwang</span> – <i>KIST, South Korea</i></li>
@@ -290,7 +295,7 @@ title_separator: "|"
 </div>
 <div>
   <h2>Web Chairs / Publicity
-    <div class="floatRight"><span id="web">H.Kim@soton.ac.uk </span></div>
+    <div class="floatRight"><span id="web"></span></div>
   </h2>
   <ul>
     <li><span class="bold">Hansung Kim</span> – <i>University of Southampton, United Kingdom</i></li>
