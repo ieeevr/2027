@@ -22,12 +22,12 @@ title_separator: "|"
   display: none !important;
 }
 </style>
-<!--script type="text/javascript">
+<script type="text/javascript">
 	$(document).ready(function(){
 		var email = ""; 
 		var domain = "ieeevr.org"; 
 
-		email = "general2025"; 		
+		email = "general2026"; 		
 		general.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
 		
 		email = "program2025"; 
@@ -97,13 +97,13 @@ title_separator: "|"
 		xrfuturefaculty.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";		
 
 	});
-</script-->
+</script>
 
 
 <h1>Conference Committee</h1>
 <div>
   <h2>General Chairs
-    <div class="floatRight"><span id="general">gjkim@korea.ac.kr</span></div>
+    <div class="floatRight"><span id="general"></span></div>
   </h2>
   <ul>
     <li><span class="bold">Gerard J. Kim</span> – <i>Korea University, South Korea</i></li>
