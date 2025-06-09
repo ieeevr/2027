@@ -81,7 +81,7 @@ title_separator: "|"
 		workshops.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
 		
 		email = "3dui"; 		
-		3dui.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
+		dui.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
 
 		email = "honorary2026"; 		
 		honorary.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";		
@@ -262,7 +262,7 @@ title_separator: "|"
 
 <div>
   <h2>3D UI Contest Chairs
-    <div class="floatRight"><span id="3dui"></span></div>
+    <div class="floatRight"><span id="dui"></span></div>
   </h2>
   <ul>
     <li><span class="bold">Chaeyong Park</span> – <i>Korea University, South Korea</i></li>
