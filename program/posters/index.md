@@ -126,7 +126,7 @@ The possible outcomes of this reviewing process are:</p>
  
 <h2>Plagiarism</h2>
 <p>All submissions must be original work not  previously presented at any workshop, symposium, or conference and not published in any archived conference proceeding, magazine, or journal. 
-At the time of submission, it is required by the authors to state explicitly in the submission form that the submitted work is the work by the authors themselves or is a summary of the authors’ previously presented/published work with clear attribution. Plagiarism in any form is unacceptable and will lead to the removal of the submission from the review process. Please see the IEEE Plagiarism FAQ and the IEEE Publication Services and Products Board Operations Manual for more information.</p>
+At the time of submission, it is required by the authors to state explicitly in the submission form that the submitted work is the work by the authors themselves or is a summary of the authors’ previously presented/published work with clear attribution. Plagiarism in any form is unacceptable and will lead to the removal of the submission from the review process. Please see the <a href="https://www.ieee.org/publications/rights/plagiarism/plagiarism.html" target="_blank">IEEE Plagiarism FAQ</a> and the <a href="https://pspb.ieee.org/images/files/files/opsmanual.pdf" target="_blank">IEEE Publication Services and Products Board Operations Manual for</a> more information.</p>
 
 <h2>Contacts</h2>
 <p>All submissions must be original work not  previously presented at any workshop, symposium, or conference and not published in any archived conference proceeding, magazine, or journal.</p> 
