@@ -4,109 +4,96 @@ title: "Workshops"
 subtitle: "IEEE VR 2026"
 title_separator: "|"
 ---
-<p style="width:100%; margin: 30px auto; padding: 20px 0; text-align:center; font-size:1rem; border-radius: 30px; background-color: #f3f3f3">This content is currently being updated.</p>
-<div style="display:none">
-    <h1 id="call-for-workshop-papers"> Workshops </h1>
-      {% for day in site.data.workshopdays %}
-        <div>
-            <div>
-                <table class="styled-table">
-                    <tr>
-                        <th colspan="4">Day: {{ day.day }} (Timezone: {{ day.timezone }})</th>
-                    </tr>                   
-                    {% assign ws = site.data.workshops | sort: "id" %}
-                    {% for workshop in ws %}
-                        {% if workshop.day == day.day %}
-                            <tr>
-                                <td class="medLarge"><a href="#{{ workshop.id }}">{{ workshop.id }}</a></td>
-                                <td class="medLarge"><a href="#{{ workshop.id }}">{{ workshop.title }}</a></td>
-                                <td class="medLarge" class="text-nowrap">{{ workshop.starttime }}-{{ workshop.endtime }}</td>
-                                <td class="medLarge" class="text-nowrap">{{ workshop.room }}</td>
-                            </tr>
-                        {% endif %}
-                    {% endfor %}
-                </table>
-            </div>
-        <div>
-    {% endfor %}       
-    <div>
-        {% for workshop in ws %}
-            <h2 class="padding_top_xsmall" id="{{ workshop.id }}">Workshop: {{ workshop.title }} ({{ workshop.id }})</h2> 
-            <p class="small">{{ workshop.day }}, {{ workshop.starttime }}-{{ workshop.endtime }} ({{ workshop.timezone }}), Room: {{ workshop.room }}</p>                
-            <div class="padding_left_medium">
-                {% if workshop.url %}
-                    <med><b style="color: black;">Website:</b> <a href="{{ workshop.url }}" target="_blank">{{ workshop.url }}</a></med><br />
-                {% endif %}
-                {% if workshop.discordurl %}
-                    <med><b style="color: black;">Discord URL:</b> <a href="{{ workshop.discordurl }}" target="_blank">{{ workshop.discordurl }}</a></med><br />
-                {% endif %}
-                {% if workshop.slideurl %}
-                    <med><b style="color: black;">Slides:</b> <a href="{{ workshop.slideurl }}" target="_blank">{{ workshop.slideurl }}</a></med><br />
-                {% endif %}
-                {% if workshop.organiser %}
-                    <med><b style="color: black;">Principal Organiser:</b> {{ workshop.organiser }}</med><br />
-                {% endif %}
-                {% if workshop.videourl %}
-                    <div class="video-container">
-                        <iframe src="{{workshop.videourl}}" title="YouTube video player" frameborder="0" 
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </div>
-                {% endif %}                
-                {% if workshop.abstract and workshop.abstract != "TBD" and workshop.abstract != TBD%}
-                    <div id="{{ workshop.id }}" class="wrap-collabsible"> <input id="collapsible{{ workshop.id }}" class="toggle" type="checkbox"> <label for="collapsible{{ workshop.id }}" class="lbl-toggle">Workshop Description</label>
-                        <div class="collapsible-content">
-                            <div class="content-inner">
-                                <p>{{ workshop.abstract }}</p>
-                            </div>
-                        </div>
-                    </div>
-                {% endif %}                      
-                {% if workshop.agenda %}
-                    <div class="content-inner">
-                        <p><a href="https://ieeevr.org/2025/assets/{{ workshop.agenda }}" target="_blank">Agenda</a></p>
-                    </div>
-                {% endif %}
-                            
-                <!-- Only show the 'workshop papers' toggle if there's actually something to show -->
-                {% assign papers_in_session = false %}
-                {% for paper in site.data.workshoppapers %}
-                    {% if workshop.id == paper.workshop %}
-                        {% assign papers_in_session = true %}
-                    {% endif %}
-                {% endfor %}
+<h1>Important dates</h1> 
+<p>Each deadline is 23:59:59 AoE (Anywhere on Earth) == GMT/UTC-12:00 on the stated day, no matter where the submitter is located.</p> 
+<ul>
+<li>November 14, 2025 : Proposals and CFPs due</li>
+<li>November 25, 2025: Notification of results</li>
+<li>January 22, 2026: Latest accepted workshop paper notification (only applies if the workshop organizers want proceedings included in the digital library)</li>
+<li>January 30, 2026:  Camera-ready submission of workshop papers for inclusion in the IEEE Digital Library (only applies if the workshop organizers want proceedings included in the digital library)</li>
+<li>March 21-22, 2026: Workshops (held on the first two days of the conference) (*. In 2026, workshop dates are subject to change and may need to be rescheduled.)</li>
+</ul>
 
-                <!-- Show a hideable list of all papers in this workshop -->
-                {% if papers_in_session == true %}
-                    <div id="{{ workshop.id }}2" class="wrap-collabsible"> 
-                        <input id="collapsible{{ workshop.id }}2" class="toggle" type="checkbox"> 
-                        <label for="collapsible{{ workshop.id }}2" class="lbl-toggle">Workshop Papers</label>
-                        <div class="collapsible-content">
-                            <div class="content-inner">
-                                {% for paper in site.data.workshoppapers %}
-                                    {% if workshop.id == paper.workshop %}
-                                        <h4 id="{{ paper.id }}">{{ paper.title }}</h4>
-                                        {% if paper.authors %}
-                                            <p><i>{{ paper.authors }}</i></p>
-                                        {% else %}
-                                            <p><i>Author information coming soon</i></p>
-                                        {% endif %}
-                                        {% if paper.url %}
-                                            <p><med>URL: <a href="{{ paper.url }}" target="_blank">{{ paper.url }}</a></med></p>
-                                        {% endif %}
-                                        {% if paper.abstract %}
-                                            <div id="{{ paper.id }}" class="wrap-collabsible"> <input id="collapsible{{ paper.id }}" class="toggle" type="checkbox"> <label for="collapsible{{ paper.id }}" class="lbl-toggle">Abstract</label>
-                                                <div class="collapsible-content">
-                                                    <div class="content-inner">
-                                                        <p>{{ paper.abstract }}</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        {% endif %}
-                                    {% endif %}
-                                {% endfor %}
-                            </div>
-                        </div>
-                    </div>
-                {% endif %}  
-                </div>         
-        {% endfor %}
+<h1>Overview</h1>
+<p>We invite individuals or teams interested in organizing such a workshop to submit proposals that will work at the conference venue for IEEE VR 2026. We encourage workshops to consider this in their initial submission to maximize participation, as IEEE VR2026 will be held in person. Workshops will be held during the first two days of the conference: March 21st (Saturday) and March 22nd, 2026 (Sunday).<br>
+
+Workshops are intended to bring together researchers, developers, technology providers, practitioners, and users for a lively and interactive discussion of issues through an informal exchange of ideas and information. Workshops may target a specific application area, a specific research area, or a topic of general interest. Workshops should be more than just mini-conferences of paper presentations. Workshops may include, but are not limited to:</p>
+<ul>
+<li>A focus on creating and exchanging new ideas and opportunities to meet new people</li>
+<li>A balance of formal presentations with informal discussion and ideation</li>
+<li>Emphasis on attendee participation and interactive discussions</li>
+<li>Thought experiments and playing with ideas</li>
+<li>Curated panels</li>
+<li>Position papers</li>
+<li>Live application development by both speakers and attendees</li>
+<li>Inclusive VR and geographical diversity</li>
+<li>Breakout groups and presentation of ideas generated by the groups</li>
+<li>A summary session concluding with lessons learned, insights gained, and new ideas generated from the workshop</li>
+<li>Continued discussion after the conference.</li>
+</ul>
+<p><em>* To accommodate scheduling limitations and encourage a broader range of perspectives, workshops with overlapping or complementary topics may be merged into a joint session.</em></p>
+
+<h1>Submission Guidelines</h1>
+<p>
+Workshop submissions require a short two-page maximum proposal and a call for papers (CFP). The Workshop Proposal is an internal document for decision-making purposes only. <br>
+
+Organizers are required to complete the application form at the following link (Link). The form will collect all necessary information regarding your proposed workshop, including the following items:</p>
+
+<ul>
+<li>Workshop title and acronym.</li>
+<li>The goal of organizing the workshop.</li>
+<li>Target audience and/or attendee prerequisites.</li>
+<li>Has the workshop been organized before?</li>
+<ul>
+<li>If yes, how many times has it been previously organized?</li>
+<li>If yes, how many people attended the last time it was held? (Typical workshop rooms will have 50 seats; if you seriously expect more, please indicate an estimation of attendees. We can expand the sections and make it double.)</li>
+</ul>
+</ul>
+<p>
+We currently only consider half-day workshops. These workshops are often intended as opportunities for researchers working on similar topics to engage in discussion and share insights in their field.</p>
+<ul>
+<li>Primary organizer name.</li>
+<li>Primary organizer email.</li>
+<li>Names, contact information, and short bios of all the organizers.</li>
+<li>Other speakers and/or contributors. Do you have keynote speakers in mind already? Please list them here (We kindly ask organizers to verify that any proposed keynote speakers are not giving talks on the same or overlapping topics in other IEEE VR 2026 workshops, to ensure diversity and avoid redundancy across the program).</li>
+<li>How are you planning to review submissions for your workshop? Are you running your submission system like EasyChair? It is generally possible to use the main conference's Precision Conference system, but there is a cost attached to that, so we need to know how many workshops will need it to see if we can absorb the cost. If you plan to use the Precision Conference System, please mention it.</li>
+<li>Are you planning on publishing your papers in the IEEE Digital Library? Workshops are optional to have papers that will be submitted to IEEE Digital Library. It is a powerful motivation for authors, but it will require adhering to some main conference deadlines, so you may have to do your reviews reasonably quickly to make it in time (see important dates above).</li>
+<li>List any technical requirements for workshop hosting, including space, audio/visual, computer, and communication requirements. Workshop rooms typically have a projector and presenter podium. If you need anything else (power for demos, tables for discussion, poster boards for posters, etc.), please include it here. We cannot promise to provide everything, but we will try as much as possible.</li>
+<li>Do you have constraints on which day the workshop needs to be? This typically depends on the keynote speaker's availability. Please be flexible; everybody wants a Sunday slot to save a day of travel, but that's only possible for some workshops.</li>
+<li>Are there any conflicts with other workshops? Are any organizers also involved in different workshops, either as organizers or presenters? In order to control overlap between workshops, we only allow organizers to be part of two workshops.</li>
+</ul>
+<p>
+The Workshop CFP is the public document that will be posted and publicized. Organizers are welcome to email the PDF of the CFP (two pages max), which should include:</p>
+
+<ul>
+<li>The workshop title and acronym.</li>
+<li>The workshop acronym you want to use.</li>
+<li>The workshop website.</li>
+<li>A brief overview and description of the workshop (500 words or less).</li>
+<li>A list of the workshop's topics.</li>
+<li>The workshop's format and submission guidelines including, for example, speakers, discussion format, duration, topics, types of acceptable papers (e.g., research papers, position papers), acceptable lengths, and acceptable format. Please follow the IEEE Computer Society VGTC conference format (<a href="https://tc.computer.org/vgtc/publications/conference/" target="_blank">https://tc.computer.org/vgtc/publications/conference/</a>).</li>
+<li>A list of important dates (if applicable to the format), including</li>
+<li>Abstract deadline (if applicable).</li>
+<li>Submission deadline.</li>
+<li>Notification deadline.</li>
+<li>Camera-ready deadline.</li>
+<li>A list of the workshop organizers, including their affiliations and how to contact them.</li>
+</ul>
+<p>
+The deadline for the workshop proposals and CFP submissions is Friday, <strong>November 14</strong>, 2025 (AoE). Results will be notified on Tuesday, <strong>November 25</strong>, 2025 (AoE). Accepted workshop CFPs might be posted and publicized immediately.<br>
+
+Workshop organizers are expected to distribute their CFP and announce the workshops through their professional networks if accepted. As listed in the Workshops’ CFP submission, workshop organizers must provide a workshop website and are expected to update that website as workshop details become better defined.<br>
+
+In case the workshop has contributions that should be included in the IEEE digital library, workshop organizers are expected to issue any acceptance decisions to their contributors no later than Thursday, <strong>January 22</strong>, 2026 (AoE), to allow sufficient time for delivering camera-ready material, as well as planning and advance registration for the conference. IEEE VR Workshops proceedings will be published electronically through the IEEE Digital Library, depending on the workshop organizers' on-time submission of the proceedings before the mandatory IEEE deadline of Friday, <strong>January 30</strong>, 2026 (AoE). Organizers of accepted workshops are encouraged to seek assistance from the Workshops Chairs to navigate this process.<br>
+
+For each accepted workshop, we will be able to provide one complimentary workshop/tutorial registration (Saturday-Sunday).</p>
+
+<h1>Contacts</h1>
+<p>
+For more information, to inquire about a particular tutorial topic,  please contact the Workshop Chairs (<a href="mailto:workshop2026@ieeevr.org">workshop2026@ieeevr.org</a>).</p>
+<ul>
+<li>Hyeongil Nam, University of Calgary, Canada</li>
+<li>Dongsik Jo, University of Ulsan, Korea</li>
+<li>Dirk Reiners, University of Central Florida, USA</li>
+<li>Pierre Bourdin Kreitz, Universitat Oberta de Catalunya, Spain</li>
+</ul>
