@@ -16,7 +16,7 @@ title_separator: "|"
     Poster design: <a href="https://drive.google.com/file/d/1JH4JHoXVFJE158MBNhHnnZAYpejQG4zq/view?usp=share_link" target="_blank">PDF</a> 2)	Lena Holderrieth, Erik Wolf, Marie Luisa Fiedler, Mario Botsch, Marc Erich Latoschik, and Carolin Wienrich: 
     Do You Feel Better? The Impact of Embodying Photorealistic Avatars with Ideal Body Weight on Attractiveness and Self-Esteem in Virtual Reality
     Extended abstract under DOI 10.1109/VRW66409.2025.00348
-    Poster design: <a href="https://drive.google.com/file/d/1JH4JHoXVFJE158MBNhHnnZAYpejQG4zq/view?usp=share" target="_blank">PDF</a> </li>
+    Poster design: <a href="https://drive.google.com/file/d/173uD8NnNUUBlnMOqsO8Yyx4zWGkWvjXy/view?usp=sharing" target="_blank">PDF</a> </li>
 </ol>
 <h2>Important Dates</h2>
 <ul>
