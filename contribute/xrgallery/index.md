@@ -14,8 +14,8 @@ title_separator: "|"
 		$(".art").html("<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>");            
 	});
 </script>
-<p class="big_title center_a" style="padding-bottom:0; margin-bottom:0">Call for Proposals “XR Gallery”</p> 
-<p class="center_a" style="padding-bottom:1.2em" >(Re)Imagine: Bridging the Past, Present and Future through Immersive Experiences</p>
+<p class="big_title" style="padding-bottom:0; margin-bottom:0">Call for Proposals “XR Gallery”</p> 
+<p style="padding-bottom:1.2em" >(Re)Imagine: Bridging the Past, Present and Future through Immersive Experiences</p>
 
 <h1>Important Dates - ALL DEADLINES ARE ANYWHERE ON EARTH (AOE)</h1> 
 <ul>
