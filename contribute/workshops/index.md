@@ -14,7 +14,7 @@ title_separator: "|"
 		$(".workshops").html("<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>");            
 	});
 </script>
-
+<p class="big_title" style="padding-bottom:0; margin-bottom:0">Call for Workshops</p>
 <h1>Important dates</h1> 
 <p>Each deadline is 23:59:59 AoE (Anywhere on Earth) == GMT/UTC-12:00 on the stated day, no matter where the submitter is located.</p> 
 <ul>
