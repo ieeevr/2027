@@ -28,7 +28,7 @@ Poster design: <a href="https://drive.google.com/file/d/1JH4JHoXVFJE158MBNhHnnZA
 </li>
 </ol>
 
-<h2>Important Dates</h2>
+<h3>Important Dates</h3>
 <ul>
   <li><strong style="color:#cc0000">December 19, 2025:</strong> Title and authors information due</li>
   <li><strong style="color:#cc0000">December 22, 2025:</strong> Two-page extended abstract and optional material submission due</li>
@@ -42,7 +42,7 @@ Poster design: <a href="https://drive.google.com/file/d/1JH4JHoXVFJE158MBNhHnnZA
 
 <h2>Submission Guidelines</h2>
 <h3></h3>IMPORTANT:<h3></h3>
-  <strong>Submissions need to be anonymized</strong>. Extended abstract and supplemental materials must not contain information that identifies the authors, their institutions, funding sources, or their places of work. Relevant previous work by the authors must be cited in the third person to preserve anonymity. <strong class="red">Failure to make reasonable attempts to adhere to this policy will result in desk rejection.</strong></p>
+ <p> <strong>Submissions need to be anonymized</strong>. Extended abstract and supplemental materials must not contain information that identifies the authors, their institutions, funding sources, or their places of work. Relevant previous work by the authors must be cited in the third person to preserve anonymity. <strong class="red">Failure to make reasonable attempts to adhere to this policy will result in desk rejection.</strong></p>
 
 <p>Submissions to the poster track must be written in English and in the form of a two-page extended abstract (references included). It should include an abstract with a maximum of 100 words, a concise description of the idea, the results of findings, supporting imagery and figures, and a discussion of the contribution of the work in the selected area of work. Full literature review is not expected, although relevant key citations should be included. The submission <strong class="red">must be</strong> prepared in the IEEE Computer Society VGTC format (<a href="https://tc.computer.org/vgtc/publications/conference/" target="_blank">https://tc.computer.org/vgtc/publications/conference/</a>) and submitted as PDF. We highly encourage authors to use the LaTeX template (<a href="https://github.com/ieeevgtc/vgtc_conference_latex/releases" target="_blank">https://github.com/ieeevgtc/vgtc_conference_latex/releases</a>). Authors who use the Word template <strong class="red">must</strong> ensure that their PDF submission matches the format. Accepted two-page extended abstracts will be included in the Abstracts and Workshop Proceedings and, thus, will be archived in the IEEE Digital Library.</p> 
 
@@ -99,7 +99,7 @@ The possible outcomes of this reviewing process are:</p>
 <ul>
   <li>Desk rejection due to violations of the IEEE VR submission policies</li>
   <li>Rejection</li>
-  <li>Conditional Acceptance
+  <li>Conditional Acceptance</li>
   <li>Acceptance</li>
 </ul>
 
