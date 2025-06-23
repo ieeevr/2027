@@ -14,11 +14,6 @@ title_separator: "|"
 		$(".researchdemos").html("<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>");            
 	});
 </script>
-<h1>Call for Research Demos</h1>
-<p><strong>IEEE VR 2026: the 33rd IEEE Conference on Virtual Reality and 3D User Interfaces</strong><br>
-
- March 21-25, 2026 | Daegu, Seoul</p>
-
 
 <h1>Important Dates</h1>
 <ul>
