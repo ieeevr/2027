@@ -32,10 +32,10 @@ title_separator: "|"
 </ol>
 <h2>Important Dates</h2>
 <ul>
-  <li><strong style="color:#cc0000">December 19, 2025:</strong> Title and authors information due</li>
-  <li><strong style="color:#cc0000">December 22, 2025:</strong> Two-page extended abstract and optional material submission due</li>
-  <li><strong style="color:#cc0000">January 21, 2026:</strong> Notification of results</li>
-  <li><strong style="color:#cc0000">January 28, 2026:</strong> Camera-ready material and copyright submission via IEEE CPS (to be published in the conference’s abstract and workshop proceedings) and PCS (poster, video, teaser image and other additional materials)</li>
+  <li><strong class="red">December 19, 2025:</strong> Title and authors information due</li>
+  <li><strong class="red">December 22, 2025:</strong> Two-page extended abstract and optional material submission due</li>
+  <li><strong class="red">January 21, 2026:</strong> Notification of results</li>
+  <li><strong class="red">January 28, 2026:</strong> Camera-ready material and copyright submission via IEEE CPS (to be published in the conference’s abstract and workshop proceedings) and PCS (poster, video, teaser image and other additional materials)</li>
 </ul>
 <p><em>Each deadline is 23:59:59 AoE (Anywhere on Earth) == GMT/UTC-12:00 on the stated day, irrespective of the submitter’s location.</em></p>
 <h1>Submission Guidelines</h1>
