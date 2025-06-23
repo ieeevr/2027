@@ -6,7 +6,7 @@ title_separator: "|"
 ---
 
 <h1>Overview</h1>
-<p>The <strong>33rd IEEE Conference on Virtual Reality and 3D User Interfaces 2026</strong> seeks poster submissions that describe recently completed work, highly relevant results of work in progress, or successful systems and applications in all areas related to virtual reality, augmented reality, mixed reality, and 3D user interfaces. Presenting a poster is a great way to get feedback on work that has not yet been published.</p>
+<p>The 33rd IEEE Conference on Virtual Reality and 3D User Interfaces 2026 seeks poster submissions that describe recently completed work, highly relevant results of work in progress, or successful systems and applications in all areas related to virtual reality, augmented reality, mixed reality, and 3D user interfaces. Presenting a poster is a great way to get feedback on work that has not yet been published.</p>
 
 
 <p>Initial submissions should be in the form of a two-page extended abstract, which will undergo a review process. The poster design does not need to be submitted on the initial submission deadline. Authors whose extended abstracts are accepted will be able to submit their poster design as a PDF at the camera-ready deadline so that it will appear together with the extended abstract on IEEE eXplore. In addition, <strong class="red">authors of accepted posters will be required to provide a teaser video and a teaser image</strong>. More information can be found in the Poster Presentation section of this call.</p>
