@@ -1112,7 +1112,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: bold;
 }
 h1 {
-	margin-top: 0;
+	margin-top: 1rem;
 	font-size: 1.3em;
 	color: #066569;
 	border-bottom: 1px solid #066569;
