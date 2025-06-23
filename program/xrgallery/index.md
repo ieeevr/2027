@@ -21,7 +21,7 @@ title_separator: "|"
 
 
 <h1>TOPICS and SCOPE</h1>
-<p>As part of IEEE VR 2026, we are delighted to invite you to the second edition of the ‘XR Gallery’, fostering bridges between people from the XR and Art communities through this art exhibition, titled <sttong>"(Re)Imagine: Bridging the Past, Present and Future through Immersive Experiences".</sttong> We aim to provoke creative thought and discussion between artists and researchers through digital experiences around our role in shaping the world and society through ages. By bridging the gap between the XR research community and the art world, we hope to inspire innovative perspectives and foster a deeper understanding of the complex relationship between technology and our world. Some of the potential questions which can be explored in this respect are:</p> 
+<p>As part of IEEE VR 2026, we are delighted to invite you to the second edition of the ‘XR Gallery’, fostering bridges between people from the XR and Art communities through this art exhibition, titled <strong>"(Re)Imagine: Bridging the Past, Present and Future through Immersive Experiences".</strong> We aim to provoke creative thought and discussion between artists and researchers through digital experiences around our role in shaping the world and society through ages. By bridging the gap between the XR research community and the art world, we hope to inspire innovative perspectives and foster a deeper understanding of the complex relationship between technology and our world. Some of the potential questions which can be explored in this respect are:</p> 
 
 <ul>
 <li>How can immersive experiences help us emotionally connect with traditions and cultures?</li>
