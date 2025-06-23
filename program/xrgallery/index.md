@@ -5,107 +5,120 @@ subtitle: "IEEE VR 2025"
 title_separator: "|"
 ---
 
-<p style="width:100%; margin: 30px auto; padding: 20px 0; text-align:center; font-size:1rem; border-radius: 30px; background-color: #f3f3f3">This content is currently being updated.</p>
-<div style="display:none">
-    <h1 id="call-for-art"> XR Gallery </h1>
-	<div class="ieeevrmsgbox bold alignCenter">
-        <div class = "ieeevrmsgboxInside med">
-			<!--<img src="/2025/assets/images/program/overview.png" alt="Program overview. It is separated into three main parts: 1. Pre-conference event, 2. Conference, 3.Post-conference event">-->
-           Ars Electronica will be on site to identify works that can be proposed to the curatorial team to be reviewed for invitation to the Ars Electronica festival.
-        </div>
-    </div>
-      <table class="styled-table">
-        <tr>
-            <th colspan="4">Exhibit : Monday 10th (10:45 AM) to Wednesday 12th (3PM) (Timezone: (Saint-Malo, France UTC+1))</th>
-        </tr>                   
-        {% assign art = site.data.xrgallery | sort: "id" %}
-        {% for gallery in art %}
-                <tr>
-                    <td class="medLarge"><a href="#{{ gallery.id }}">{{ gallery.id }}</a></td>
-                    <td class="medLarge"><a href="#{{ gallery.id }}">{{ gallery.title }}</a></td>
-                </tr>
-        {% endfor %}
-    </table> 
-    <div>
-    <h2> Introduction </h2>
-    <p>We are delighted to invite you to the first edition of the XR Gallery at IEEEVR 2025. Our aim is to foster creative thought and discussion between artists and researchers while providing an exciting art exhibition and live performances during the conference.  </p>
-    <p>
-        The XR Gallery will have four main events:
-        <ul>
-            <li>Round-table - Edges of Reality: Bridging the gap between scientific research and immersive arts, designed to spark creative dialogue between artists and researchers <b>16:00 - 17:30 Room : Vauban 2</b> </li>
-            <li>Exhibition - Artist will showcase stationary art pieces throughout the main conference</li>
-            <li>Performances - Interactive art performances which will be scheduled at specific times during the conference </li>
-            <li>Exhibit at the Welcome reception - The audience will be invited to a special showcasing of the art project “ReVerie” in the Amphitheatre during the conference’s welcome reception.  </li>
-        </ul>
-    </p>
-	<p><i>The XR  Gallery would like to express its warmest gratitude to the University of Rennes 2 staff (CREA and Master of Digital Art) for the loan of equipments.</i></p>
-    </div>
-    <div>
-    <h2> Round-table : 16:00 - 17:30 Vauban 2</h2>
-    <p><b>Title: </b> <i>Edges of Reality: Bridging the gap between scientific research and immersive arts - XR Gallery Workshop </i></p>
-    <p><b>Organiser: </b> XR Gallery Committee </p>
-    <p>Emerging immersive technologies offer immense creative possibilities while also posing significant challenges by blurring the lines between fact and fiction, truth and fabrication. As our perception of reality undergoes an unprecedented transformation, we need new, creative ways to cope and reflect on these changes. </p>
-    <p>
-    As a kickstart to this year's IEEEVR XR Gallery, the researchers will have the opportunity to meet and discuss with artists who will exhibit at the gallery throughout the conference. A brief presentation of authors will be followed by a discussion panel aimed at fostering a creative exchange between artists and researchers on the questions of authenticity and truthfulness of digital experiences. By bridging the gap between the XR research and the art world, we hope to inspire innovative perspectives and cultivate a deeper understanding of the complex relationship between technology and reality.
-    </p>
-    </div>   
-    <div>
-        {% for gallery in art %}
-            {% for a in site.data.awards %}  
-                {% if a.type == 'XR Gallery' %}
-                    {% if a.id == gallery.id %}
-                        {% if a.award == 'Best Art' %}
-                            <div class="align-left"><a href="{{ "/awards/conference-awards" | relative_url }}#poster-best"><img src= "{{ "/assets/images/awards/best.png" | relative_url }}" title="Best Art Award" alt="Best Art Award"></a></div>
-                        {% endif %}                                                    
-                        {% if a.award == "Honorable Mention" %}
-                            <div class="align-left"><a href="{{ "/awards/conference-awards" | relative_url }}#poster-honorable"><img src= "{{ "/assets/images/awards/hm.png" | relative_url }}" title="Best Art Honorable Mention" alt="Best Art Honorable Mention"></a></div>
-                        {% endif %}
-                    {% endif %}
-                {% endif %}
-            {% endfor %}     
-            <!-- gallery title matter -->
-            <h2 class="padding_top_xsmall" id="{{ gallery.id }}">Exhibit: {{ gallery.title }} </h2> 
-            <!-- <p class="small">{{ gallery.day }}, {{ gallery.starttime }}-{{ gallery.endtime }} ({{ gallery.timezone }}), Room: {{ gallery.room }}</p>                -->
-            <div>
-                {% if gallery.artist %}
-                    {% assign authornames = gallery.artist | split: "/" %}
-                    <div>
-                        <strong>Artists</strong>
-                        {% for name in authornames %}               
-                            {{ name }}
-                        {% endfor %}
-                    </div>
-                {% endif%}
-                {% if gallery.website %}
-                    <med><b style="color: black;">Website:</b> <a href="{{ gallery.website }}" target="_blank">{{ gallery.website }}</a></med><br />
-                {% endif %}            
-                {% if gallery.abstract %}
-                    <div >
-                        <b>Description :</b> 
-                        <p>{{ gallery.abstract }}</p>
-                    </div>
-                {% endif %}   
-                {% if gallery.image %}
-		            <img src="{{ "/assets/images/xrgallery/" | append: gallery.image | relative_url }}" alt="Promotionnal picture">
-                {% endif %}
-                {% if gallery.video %}
-                    <div id="{{ gallery.video }}" class="wrap-collabsible"> <input id="collapsible{{ gallery.video }}" class="toggle" type="checkbox"> <label for="collapsible{{ gallery.video }}" class="lbl-toggle">Video</label>
-                        <div class="collapsible-content">
-                            <div class="video-container">
-                                <iframe src="{{gallery.video}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                            </div>
-                        </div>
-                    </div>
-                    <!--<div class="video-container">
-                        <iframe src="{{gallery.video}}" title="YouTube video player" frameborder="0" 
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </div>-->
-                {% endif %}        
-                {%if gallery.infos %}
-                    <strong style="color: red"> {{gallery.infos}}</strong>
-                {% endif %}
-            </div>         
-        {% endfor %}
-        <!--<div class="video-container">
-                <iframe src="https://www.youtube.com/embed/{{ entry.url-embed }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>-->
+<p class="big_title center_a">Call for Proposals “XR Gallery</p>” 
+<p class="center_a">(Re)Imagine: Bridging the Past, Present and Future through Immersive Experiences</p>
+
+<h1>Important Dates - ALL DEADLINES ARE ANYWHERE ON EARTH (AOE)</h1> 
+<ul>
+<li>December 19, 2025: Submission of abstracts.</li>
+<li>January 9, 2026: Notification of acceptance.</li>
+<li>January 23, 2026: Camera-ready version.</li>
+</ul>
+
+<h1>Overview</h1>
+<p>Immersive experiences have the unique power to bridge the past, present, and future by engaging the senses and emotions in ways that transcend traditional storytelling. By blending cutting-edge technology with historical narratives and forward-thinking concepts, including artificial intelligence and creative machines, they allow to step into the lives of those before us, understand our current world more deeply, and imagine what lies ahead. Whether through virtual reality recreations of ancient civilizations, interactive museum exhibits, or futuristic simulations, these experiences create a continuum that connects memory, awareness, and aspiration. They do not just tell a story—they let us live it, fostering empathy, insight, maybe fear, and innovation across time. The digital storm the world is currently witnessing is reshaping our relationship to the past and present, confronting our own vision of our future.</p>
+
+
+
+<h1>TOPICS and SCOPE</h1>
+<p>As part of IEEE VR 2026, we are delighted to invite you to the second edition of the ‘XR Gallery’, fostering bridges between people from the XR and Art communities through this art exhibition, titled "(Re)Imagine: Bridging the Past, Present and Future through Immersive Experiences". We aim to provoke creative thought and discussion between artists and researchers through digital experiences around our role in shaping the world and society through ages. By bridging the gap between the XR research community and the art world, we hope to inspire innovative perspectives and foster a deeper understanding of the complex relationship between technology and our world. Some of the potential questions which can be explored in this respect are:</p> 
+
+<ul>
+<li>How can immersive experiences help us emotionally connect with traditions and cultures?</li>
+<li>What lessons from the past are best understood through experiential storytelling or simulation?</li>
+<li>How do immersive experiences change our perception of time and continuity between past, present, and future?</li>
+<li>What ethical considerations arise when recreating historical or future scenarios in immersive formats?</li>
+<li>Can immersive experiences be used as tools to forecast or even influence the future? How?</li>
+<li>How might emerging technologies like AI, VR, and AR evolve to deepen our connection to history and shape our vision of the future?</li>
+<li>How can immersive experiences raise society's awareness of the current ecological crisis and its impact on the future?</li>
+</ul>
+
+
+
+<p>
+The exhibition will primarily focus on interactive XR art installations, while also welcoming non-XR art installations, such as performances or any other digital media questioning not only the link between our past, present and future in our increasingly digital world, but also more technical aspects such as how XR technologies would open new ways of artistic presentation or how to incorporate real-time human interactions in XR artwork.</p>
+
+<p>
+Accepted submissions will be showcased at the dedicated space for the XR Gallery during the entire duration of the IEEE VR conference, excluding the days of workshops<strong> (March 21-25, 2026, Daegu, South Korea)</strong>. Discussions are underway to arrange a public exhibition in the days following the conference, maybe in the city as well. 
+</p>
+
+<h1>Eligibility</h1>
+<p>
+The call is open to anyone interested in creating artistic content: artists, researchers, designers, etc.</p> 
+
+<p>The proposed artistic work may be new or already existing.</p>
+
+<p> 
+We will have an important inclusion criterion, and we particularly want to include the achievements of minorities. If you think you do fit within such criteria and face issues that prevent you from applying, please do not hesitate to contact us (see contact email). 
+</p>
+
+
+
+<h1>Submission</h1> 
+<p>In order to apply, submit the following information directly to the PCS system: (<a href="https://new.precisionconference.com/vr" target="_blank">https://new.precisionconference.com/vr</a>). The abstract should include:</p> 
+<ul>
+<li>Anonymised abstract (1000 words) with the following required information:
+<ul> 
+<li>Description of the art piece</li>
+<li>How it fits into the scope of XR Gallery 2026</li>
+<li>Implementation (how it will be executed, e.g., HMD or screen-based project, performance, etc.)
+</li>
+</ul>
+</li>
+<li>Representative image</li>
+<li>Anonymised video (max 5 min, max size 150MB)</li>
+<li>The equipment and technical information required (needed space, etc.)</li>
+</ul>
+
+<p>Any supplementary material (press kit, portfolio, ..) which shows your previous work is also welcome but not required! Anonymising the material is not necessary here.</p>
+
+ 
+<h1>Selection Process</h1>
+<p>Each submission will be examined by a panel of external assessors from the digital arts fields and XR research communities, on the basis of the following criteria: </p>
+<ul>
+<li>Originality</li>
+<li>How well it fits in the scope of the XR Gallery</li>
+<li>Representative video and image</li>
+<li>Impacts of technical contribution</li>
+<li>Artistic presentation</li>
+<li>The equipment and technical information required for its realization: (including light, sound, network needs)</li>
+</ul>
+
+<h1>Accepted Submissions</h1>
+<p>
+The art installation will be showcased at the dedicated space for the XR Gallery during the entire duration of the conference, excluding the days of workshops (March 21-25, 2026, Daegu, South Korea). The authors of the accepted submissions will receive <strong class="red">support for their accommodation and monetary compensation: one free full conference registration and €500 (on invoice, this amount includes a contribution towards accommodation and representation costs).</strong> 
+</p>
+
+<h1>Abstracts and supplementary material due: December 19, 2025</h1>
+<p>
+The abstract paper and optional supplementary material are to be submitted via the online submission system: <a href="https://new.precisionconference.com/vr" target="_blank">https://new.precisionconference.com/vr</a></p>
+<p> 
+Authors who are unfamiliar with the formalism expected by our community will be able to draw inspiration from the essays edited in the Siggraph 2023 Art Gallery proceeding (<a href="https://dl.acm.org/doi/proceedings/10.1145/3588428" target="_blank">https://dl.acm.org/doi/proceedings/10.1145/3588428</a>).</p>
+
+
+
+ 
+<h1>Camera-ready version due: January 23, 2026</h1>
+<p>
+All accepted submissions must be prepared in the IEEE Computer Society VGTC format (<a href="https://tc.computer.org/vgtc/publications/conference/" target="_blank">https://tc.computer.org/vgtc/publications/conference/</a>) and submitted as a 1-2 page PDF. We highly encourage authors to use the LaTeX template (<a href="https://github.com/ieeevgtc/vgtc_conference_latex/releases" target="_blank">https://github.com/ieeevgtc/vgtc_conference_latex/releases</a>).</p>
+
+
+<p> 
+Authors unfamiliar with the LaTeX software can use their software of your choice (Ideally word, template here: <a href="https://github.com/ieeevgtc/vgtc_conference_word/releases/tag/2024.02.14" target="_blank">https://github.com/ieeevgtc/vgtc_conference_word/releases/tag/2024.02.14</a>) as long as it respects the VGTC format (<a href="https://ieeecs-media.computer.org/tc-media/sites/49/2024/02/26230749/vgtc-conference-24-02.pdf" target="_blank">https://ieeecs-media.computer.org/tc-media/sites/49/2024/02/26230749/vgtc-conference-24-02.pdf</a>) and is submitted as a PDF. </p>
+
+
+<p>
+These papers will be included in the IEEE Xplore as part of the VRW proceedings (XR Gallery track). </p>
+
+
+<h1>Contacts</h1> 
+<p>For more information, please contact us at:</p>
+<ul>
+<li>Jean-Rémy Chardonnet, Arts et Metiers Institute of Technology, France</li>
+<li>Henry Duh, Hong Kong Polytechnic University</li>
+<li>Georges Gagneré, Université Paris 8, France</li>
+<li>Valérie Gouranton, Inria, IRISA, INSA Rennes, France</li>
+<li>HyungSeok Kim, Konkuk University, South Korea</li>
+<li>Yue Li, Xi’an Jiaotong-Liverpool University, China</li>
+<li>Hai-Ning Liang, Hong Kong University of Science and Technology (Guangzhou), China</li>
+</ul>
