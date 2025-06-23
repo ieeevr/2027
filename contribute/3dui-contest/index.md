@@ -16,6 +16,9 @@ title_separator: "|"
         $(".contest").html("<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIcon' style=''></i><i class='emailText'>" + email + "@" + domain + "</a></i></span>");              
 	});
 </script>
+
+<p class="big_title" style="padding-bottom:0; margin-bottom:0">Call for 3DUI Contest Entries</p> 
+
 <h1>Submissions can be made through the online system:</h1> <p><a href="https://new.precisionconference.com/vr." target="_blank">https://new.precisionconference.com/vr.</a></p>
 
 <h1>Important Dates - All deadlines are Anywhere on Earth (AoE)</h1>
