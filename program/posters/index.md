@@ -5,128 +5,85 @@ subtitle: "IEEE VR 2026"
 title_separator: "|"
 ---
 
-<p style="width:100%; margin: 30px auto; padding: 20px 0; text-align:center; font-size:1rem; border-radius: 30px; background-color: #f3f3f3">This content is currently being updated.</p>
-<div style="display:none">
-<h1>Posters</h1>
-<div>
-<p> <b>Each day, talk with the authors: 9:30‑10:00, 13:15‑14:00, 16:15‑17:15 (Timezone: Saint-Malo, France UTC+1)</b> 
-    <b><strong style="color:red">On Monday, talk with the authors: 10:45‑11:15, 13:00‑13:45, 16:00‑17:00 (Timezone: Saint-Malo, France UTC+1)</strong></b>
-</p>
+<h1>Overview</h1>
+<p>The 33rd IEEE Conference on Virtual Reality and 3D User Interfaces 2026 seeks poster submissions that describe recently completed work, highly relevant results of work in progress, or successful systems and applications in all areas related to virtual reality, augmented reality, mixed reality, and 3D user interfaces. Presenting a poster is a great way to get feedback on work that has not yet been published.</p>
+<p>Initial submissions should be in the form of a two-page extended abstract, which will undergo a review process. The poster design does not need to be submitted on the initial submission deadline. Authors whose extended abstracts are accepted will be able to submit their poster design as a PDF at the camera-ready deadline so that it will appear together with the extended abstract on IEEE eXplore. In addition, authors of accepted posters will be required to provide a teaser video and a teaser image. More information can be found in the Poster Presentation section of this call.</p>
+<p>Poster presentations will be at the physical conference venue and no online presentation options will be considered. Authors will need to bring a physical printed copy of their poster to display at the poster session at the conference (instruction will be provided after acceptance). At least one author per accepted poster will be required to register for the conference and attend the poster session in person.</p>
 
-    <table class="styled-table">
-        <tr>
-            {% for day in site.data.postersDays %}
-                <tr>
-                    <th colspan="4"><a href="#{{ day.id }}" style="color:white">{{ day.day}} posters</a></th>
-                </tr>
-                {% assign category_file = day.name %}
-                {% for cat in site.data[category_file] %}
-                    <tr>
-                        <td><a href="#{{ cat.id }}">{{ cat.name }}</a></td>
-                    </tr>
-                {% endfor %}
-            {% endfor %}    
-        </tr>
-    </table>
-</div>
-<div>    
-    {% for day in site.data.postersDays %}
-    <div>
-        <h1 id="{{ day.id }}" class="pink" style="padding-top:25px;">{{ day.day}} posters</h1>  
-        {% assign category_file = day.name %}  
-        {% assign poster_file = day.posters %}
-        {% for cat in site.data[category_file] %}
-            <h2 id="{{ cat.id }}" class="pink" style="padding-top:25px;">{{ cat.name }} </h2>  
-            {% for poster in site.data.[poster_file] %}
-                {% if poster.PosterCategory == cat.name %}
-                    <div style="margin-left: 25px;">     
-                        {% for a in site.data.awards %}  
-                            {% if a.type == 'Poster' %}
-                                {% if a.id == poster.BoothID %}
-                                    {% if a.award == 'Best Poster' %}
-                                        <div class="align-left"><a href="{{ "/awards/conference-awards" | relative_url }}#poster-best"><img src= "{{ "/assets/images/awards/best.png" | relative_url }}" title="Best Poster Award" alt="Best Poster Award"></a></div>
-                                    {% endif %}                                                    
-                                    {% if a.award == "Honorable Mention" %}
-                                        <div class="align-left"><a href="{{ "/awards/conference-awards" | relative_url }}#poster-honorable"><img src= "{{ "/assets/images/awards/hm.png" | relative_url }}" title="Best Poster Honorable Mention" alt="Best Poster Honorable Mention"></a></div>
-                                    {% endif %}
-                                {% endif %}
-                            {% endif %}
-                        {% endfor %}                               
-                        <p class="medLarge" id="{{ paper.id }}" style="margin-bottom: 0.3em;">
-                            <strong>{{ poster.title }} (Booth ID: {{ poster.BoothID }}) </strong>
-                        </p>
-                        <p class="font_70" >
-                            {% assign authornames = poster.authors | split: ";" %}
-                            {% for name in authornames %}
-                                {% assign barename = name | split: ":" %}
-                                {% for n in barename %}
-                                    {% if n == barename.last %}
-                                        <i>{{ n | strip }}{% if name == authornames.last %}{% else %};{% endif %}</i>
-                                    {% else %}                            
-                                        <span class="bold">{{ n | strip }},</span>
-                                    {% endif %}
-                                {% endfor %} 
-                            {% endfor %}
-                        </p>
-                        {% if poster.abstract %}
-                            <div id="abstract_{{ poster.VideoLink }}" class="wrap-collabsible" style="margin-top: 0px; padding-top: 0px; margin-bottom: 0px;"> <input id="collapsibleabstract{{ poster.VideoLink }}" class="toggle" type="checkbox"> 
-                                <label for="collapsibleabstract{{ poster.VideoLink }}" class="lbl-toggle">Abstract</label>
-                                <div class="collapsible-content">
-                                    <div class="content-inner">
-                                        <p>{{ poster.abstract }}</p>
-                                    </div>
-                                </div>
-                            </div>   
-                        {% endif %}
-                        {% if poster.VideoLink %}
-                        <div id="video_{{ poster.VideoLink }}" class="wrap-collabsible" style="margin-top: 0px; padding-top: 0px; margin-bottom: 0px;"> <input id="collapsiblevideo{{ poster.VideoLink }}" class="toggle" type="checkbox"> 
-                            <label for="collapsiblevideo{{ poster.VideoLink }}" class="lbl-toggle">Video</label>
-                            <div class="collapsible-content">
-                                <div class="content-inner">
-                                    <div class="video-container">
-                                        <iframe src="https://www.youtube.com/embed/{{ poster.VideoLink }}" loading="lazy" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>                           
-                        {% endif %}
-                    </div>
-                {% endif %}
-            {% endfor %}            
-            {% assign j = 0 %}
-            {% for poster in site.data.postersDC %}
-                {% if poster.PosterCategory == cat.name %}
-                    {% if j == 0 %}
-                        {% assign j = 1 %}
-                        <h3> Doctoral Consortium Posters </h3>
-                    {% endif %}
-                    {% for dc in site.data.dc %}
-                        {% if dc.id == poster.id %}
-                            <div style="margin-left: 25px;">                                  
-                                <p class="medLarge" id="{{ paper.id }}" style="margin-bottom: 0.3em;">
-                                    <strong>{{ poster.title }} (Booth ID: {{ poster.BoothID }}) </strong>
-                                </p>
-                                <p class="font_70">
-                                    <span class="bold">{{ dc.name | strip }}</span>, <i>{{ dc.affiliation | strip }}</i><br />
-                                </p>
-                                {% if poster.abstract %}
-                                    <div id="abstract_{{ poster.BoothID }}" class="wrap-collabsible" style="margin-top: 0px; padding-top: 0px; margin-bottom: 0px;"> <input id="collapsibleabstract{{ poster.BoothID }}" class="toggle" type="checkbox"> 
-                                        <label for="collapsibleabstract{{ poster.BoothID }}" class="lbl-toggle">Abstract</label>
-                                        <div class="collapsible-content">
-                                            <div class="content-inner">
-                                                <p>{{ poster.abstract }}</p>
-                                            </div>
-                                        </div>
-                                    </div>   
-                                {% endif %}
-                            </div>                    
-                        {% endif %}
-                    {% endfor %}
-                {% endif %}
-            {% endfor %}
-        {% endfor %}
-    </div>
-    {% endfor %}
-</div>
+<h2>Exemplary Posters</h2>
+<ul>
+  <li><strong>Valentin Vallageas, David R. Labbe, and Rachid Aissaoui:</strong> <em>Proprioception Drift in Virtual Reality: An Experiment with an Unrealistically Long Leg</em><br/>DOI: 10.1109/VRW66409.2025.00389</li>
+  <li><strong>Lena Holderrieth, Erik Wolf, Marie Luisa Fiedler, Mario Botsch, Marc Erich Latoschik, and Carolin Wienrich:</strong> <em>Do You Feel Better? The Impact of Embodying Photorealistic Avatars with Ideal Body Weight on Attractiveness and Self-Esteem in Virtual Reality</em><br/>DOI: 10.1109/VRW66409.2025.00348</li>
+</ul>
 
-</div>
+<h2>Important Dates</h2>
+<ul>
+  <li><strong>December 19, 2025:</strong> Title and authors information due</li>
+  <li><strong>December 22, 2025:</strong> Two-page extended abstract and optional material submission due</li>
+  <li><strong>January 21, 2026:</strong> Notification of results</li>
+  <li><strong>January 28, 2026:</strong> Camera-ready material and copyright submission</li>
+</ul>
+<p><em>Each deadline is 23:59:59 AoE (Anywhere on Earth) == GMT/UTC-12:00 on the stated day, irrespective of the submitter’s location.</em></p>
+
+<h2>Submission Guidelines</h2>
+<p><strong>IMPORTANT:</strong> Submissions need to be anonymized. Extended abstract and supplemental materials must not contain information that identifies the authors, their institutions, funding sources, or their places of work. Relevant previous work by the authors must be cited in the third person to preserve anonymity. Failure to comply will result in desk rejection.</p>
+<p>Submissions must be:</p>
+<ul>
+  <li>Written in English</li>
+  <li>Two-page extended abstract (references included)</li>
+  <li>Include: abstract (max 100 words), concise idea description, results, figures, and contributions</li>
+  <li>IEEE VGTC format (PDF). Use the <a href="https://github.com/ieeevgtc/vgtc_conference_latex/releases" target="_blank">LaTeX template</a> (preferred) or ensure Word format matches</li>
+</ul>
+<p>Submit via <a href="https://new.precisionconference.com/submissions" target="_blank">PCS</a>: VR > IEEE VR 2026 > IEEE VR Posters 2026</p>
+
+<h3>Topic Categories</h3>
+<ul>
+  <li><strong>Interaction and Interfaces</strong>: 3D Interaction, Multimodal Input, Gestures</li>
+  <li><strong>Visualization and Rendering</strong>: Displays, Visual Rendering, Immersive Visualization</li>
+  <li><strong>Haptic Feedback</strong>: Touch, Tangibles, Vibrotactile Interfaces</li>
+  <li><strong>Perception and Cognition</strong>: Multimodal Experience, Depth Perception</li>
+  <li><strong>Collaboration, Virtual Humans, and Social Applications</strong>: Social Interactions, Avatars, Agents</li>
+  <li><strong>User Experience and Presence</strong>: Immersion, Cybersickness, Social VR</li>
+  <li><strong>Training and Education</strong>: Learning, Healthcare, Medical VR</li>
+  <li><strong>Locomotion, Navigation and Redirection</strong>: Redirected Walking, Navigation Perception</li>
+  <li><strong>Ethical and Psychological Aspects</strong>: Ethics, Identity, Psychology</li>
+  <li><strong>Miscellaneous Topics</strong>: Unique research outside main categories</li>
+</ul>
+
+<h2>Review Process</h2>
+<p>Juried review by two reviewers. Disagreements resolved by Posters Chairs. Outcomes:</p>
+<ul>
+  <li>Desk Rejection</li>
+  <li>Rejection</li>
+  <li>Conditional Acceptance</li>
+  <li>Acceptance</li>
+</ul>
+<p>Accepted posters must address reviewer comments before final submission.</p>
+
+<h2>Poster Presentation</h2>
+<p>Posters will be presented physically at the conference over three days, with multiple presentation sessions each day (e.g., coffee breaks). One or more authors must be present at the poster.</p>
+<p>Instead of a fast-forward session, authors must submit:</p>
+<ul>
+  <li>A 30–60 second teaser video (for website)</li>
+  <li>A teaser image (for venue display)</li>
+</ul>
+<p>More details will follow upon acceptance.</p>
+
+<h2>Best Poster Awards</h2>
+<p>Based on research contribution, design, and presentation. Judged by an independent expert committee. Winners noted in the program and awarded a certificate.</p>
+
+<h2>Policies</h2>
+<p><strong>LLM Use:</strong> Large language models (e.g., ChatGPT) may only be used to correct grammar.</p>
+<p><strong>Plagiarism:</strong> Only original work or properly attributed summaries are allowed. See <a href="https://www.ieee.org/publications/rights/plagiarism/id-plagiarism.html" target="_blank">IEEE Plagiarism FAQ</a> and IEEE PSPB Manual for more info.</p>
+
+<h2>Contacts</h2>
+<p>Email: <a href="mailto:posters2026@ieeevr.org">posters2026@ieeevr.org</a></p>
+<ul>
+  <li>Andrea Bönsch ‒ RWTH Aachen University, Germany</li>
+  <li>Pablo Figueroa ‒ Universidad de los Andes, Colombia</li>
+  <li>Gun Lee ‒ University of South Australia, Australia</li>
+  <li>Mohammed Safayet Arefin ‒ Colorado State University, USA</li>
+  <li>Justine Saint-Aubert ‒ IRISA, CNRS, France</li>
+</ul>
+
+
