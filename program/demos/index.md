@@ -4,141 +4,69 @@ title: "Research Demos"
 subtitle: "IEEE VR 2026"
 title_separator: "|"
 ---
-<p style="width:100%; margin: 30px auto; padding: 20px 0; text-align:center; font-size:1rem; border-radius: 30px; background-color: #f3f3f3">This content is currently being updated.</p>
-<div style="display:none">
-<!--<div>
-    <table class="styled-table">
-        <tr>
-            <th colspan="2">Research Demos</th>
-        </tr>        
-        {% assign i = 0 %}
-        {% for demo in site.data.demos %}
-            {% assign i = i | plus:1 %}
-            <tr>
-                <td>
-                    {% for a in site.data.awards %}  
-                        {% if a.type == 'Demo' %}
-                            {% if a.id == demo.demoid %}
-                                {% if a.award == 'Best Demo' %}
-                                    <a href="{{ "/awards/conference-awards" | relative_url }}#demo-best"><img src= "{{ "/assets/images/awards/best.png" | relative_url }}" title="Best Research Demo Award" alt="Best Research Demo Award"></a>
-                                {% endif %}                                                    
-                                {% if a.award == "Honorable Mention" %}
-                                    <a href="{{ "/awards/conference-awards" | relative_url }}#demo-honorable"><img src= "{{ "/assets/images/awards/hm.png" | relative_url }}" title="Best Research Demo Honorable Mention" alt="Best Research Demo Honorable Mention"></a>
-                                {% endif %}
-                            {% endif %}
-                        {% endif %}
-                    {% endfor %}
-                </td>
-                <td class="medLarge"><a href="#{{ demo.demoid }}">{{ demo.title }} (ID:&nbsp;{{ demo.demoid }})</a></td>
-            </tr>
-        {% endfor %}
-    </table>
-</div>-->
+<h1>Call for Research Demos</h1>
+<p><strong>IEEE VR 2026: the 33rd IEEE Conference on Virtual Reality and 3D User Interfaces</strong><br>
 
-<h2>Research Demos</h2>
+ March 21-25, 2026 | Daegu, Seoul</p>
+
+
+<h2>Important Dates</h2>
+<ul>
+<li><strong class="red">December 30 Tuesday, 2025</strong>: Two-page abstract, layout schematic, and video material (1 min) submission.</li>
+<li><strong class="red">January 13 Tuesday, 2026</strong>: Notification of results.</li>
+<li><strong class="red">January 20 Tuesday, 2026</strong>: Camera-ready two-page abstract, the final layout, and final video material (1 min) submission.
+</li>
+</ul>
+
 <p>
-    <table class="program-table">
-        <thead>
-            <tr>
-                <th colspan="4">Research&nbsp;Demos&nbsp;Schedule (Timezone: Saint-Malo, France UTC+1)</th>
-            </tr>
-        </thead>
-        <tbody> 
-            {% for demodays in site.data.scheduleDemo %}
-             <tr>
-                <td> {{ demodays.name }}</td>
-                <td> {{ demodays.day }}</td>
-                <td> {{ demodays.sessions }}</td>
-                {% if demodays.hall%} <td> Hall: {{ demodays.hall }}</td> {%else%} <td></td>{%endif%}
-            </tr>     
-            {% endfor %}       
-        </tbody>
-    </table>
+Proposals for research demonstrations must be submitted electronically through the online submission system <a href="https://new.precisionconference.com/vr" target="_blank">https://new.precisionconference.com/vr</a> by the given deadline. Interested contributors are encouraged to contact the chairs with any questions or to discuss potential demonstrations (<a href="mailto:RESEARCHDEMOS2026@IEEEVR.ORG">RESEARCHDEMOS2026@IEEEVR.ORG</a>).
 </p>
-<div>
-    {% assign j = 0 %}
-    {% for demo in site.data.demos %}
-        {% assign j = j | plus:1 %}
-        {% for a in site.data.awards %}  
-            {% if a.type == 'Demo' %}
-                {% if a.id == demo.id %}
-                    {% if a.award == 'Best Demo' %}
-                        <div class="align-left"><a href="{{ "/awards/conference-awards" | relative_url }}#demo-best"><img src= "{{ "/assets/images/awards/best.png" | relative_url }}" title="Best Research Demo Award" alt="Best Research Demo Award"></a></div>
-                    {% endif %}                                                    
-                    {% if a.award == "Honorable Mention" %}
-                        <div class="align-left"><a href="{{ "/awards/conference-awards" | relative_url }}#demo-honorable"><img src= "{{ "/assets/images/awards/hm.png" | relative_url }}" title="Best Research Demo Honorable Mention" alt="Best Research Demo Honorable Mention"></a></div>
-                    {% endif %}
-                {% endif %}
-            {% endif %}
-        {% endfor %}
-        <p class="medLarge" id="{{ demo.title }}" style="margin-bottom: 0.3em;">
-            <strong>{{ demo.title }} </strong><!--(ID:{{ demo.demoid }})-->
-        </p>
-        <p>
-        Hall: {{ demo.hall}}, Booth ID : {{demo.booth}}
-        </p>
-        <p class="font_70" >                
-            {% if demo.author1first %}                         
-                <span class="bold">{{ demo.author1first }} {{demo.author1last }},</span> <i> {{ demo.author1institution}}</i>
-            {% endif %}                
-            {% if demo.author2first %}                         
-                ;<span class="bold"> {{ demo.author2first }} {{ demo.author2last }},</span> <i> {{ demo.author2institution}}</i>
-            {% endif %}           
-            {% if demo.author3first %}                         
-                ;<span class="bold"> {{ demo.author3first }} {{ demo.author3last }},</span> <i> {{ demo.author3institution}}</i>
-            {% endif %}           
-            {% if demo.author4first %}                         
-                ;<span class="bold"> {{ demo.author4first }} {{ demo.author4last }},</span> <i> {{ demo.author4institution}}</i>
-            {% endif %}           
-            {% if demo.author5first %}                         
-                ;<span class="bold"> {{ demo.author5first }} {{ demo.author5last }},</span> <i> {{ demo.author5institution}}</i>
-            {% endif %}           
-            {% if demo.author6first %}                         
-                ;<span class="bold"> {{ demo.author6first }} {{ demo.author6last }},</span> <i> {{ demo.author6institution}}</i>
-            {% endif %}           
-            {% if demo.author7first %}                         
-                ;<span class="bold"> {{ demo.author7first }} {{ demo.author7last }},</span> <i> {{ demo.author7institution}}</i>
-            {% endif %}           
-            {% if demo.author8first %}                         
-                ;<span class="bold"> {{ demo.author8first }} {{ demo.author8last }},</span> <i> {{ demo.author8institution}}</i>
-            {% endif %}           
-            {% if demo.author9first %}                         
-                ;<span class="bold"> {{ demo.author9first }} {{ demo.author9last }},</span> <i> {{ demo.author9institution}}</i>
-            {% endif %}           
-            {% if demo.author10first %}                         
-                ;<span class="bold"> {{ demo.author10first }} {{ demo.author10last }},</span> <i> {{ demo.author10institution}}</i>
-            {% endif %}           
-            {% if demo.author11first %}                         
-                ;<span class="bold"> {{ demo.author11first }} {{ demo.author11last }},</span> <i> {{ demo.author11institution}}</i>
-            {% endif %}        
-            {% if demo.author12first %}                         
-                ;<span class="bold"> {{ demo.author12first }} {{ demo.author12last }},</span> <i> {{ demo.author12institution}}</i>
-            {% endif %}  
-        </p>
-        {% if demo.abstract %}
-            <div id="{{ demo.title }}" class="wrap-collabsible"> <input id="collapsible{{ demo.title }}" class="toggle" type="checkbox"> <label for="collapsible{{ demo.title }}" class="lbl-toggle">Abstract</label>
-                <div class="collapsible-content">
-                    <div class="content-inner">
-                        <p>{{ demo.abstract }}</p>
-                    </div>
-                </div>
-            </div>
-        {% endif %}
-        {% if demo.urlvimeo %}
-            <div class="video-container">
-                <iframe src="{{ demo.urlvimeo }}" loading="lazy" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>                     
-        {% else %}
-            <div class="video-container">
-                <iframe src="https://www.youtube.com/embed/{{ demo.url }}" loading="lazy" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>     
-        {% endif %}     
-        {% if j == i %}
-        {% else %}
-            <hr style="margin: 25px 0 25px 0;">
-        {% endif %}                       
-    {% endfor %}
-</div>
-</div>
+
+
+<p>
+Each deadline is 23:59:59 AoE (Anywhere on Earth) == GMT/UTC-12:00 on the stated day, no matter where the submitter is located.</p>
+
+
+<p>
+You can find examples presented at previous conferences here:</p>
+
+<ul>
+<li><a href="https://ieeevr.org/2025/program/demos/" target="_blank">https://ieeevr.org/2025/program/demos/</a></li>
+<li><a href="https://ieeevr.org/2024/program/demos/" target="_blank">https://ieeevr.org/2024/program/demos/</a></li>
+<li><a href="https://ieeevr.org/2023/progoram/demos/" target="_blank">https://ieeevr.org/2023/progoram/demos/</a></li>
+<li><a href="https://ieeevr.org/2022/program/demos/" target="_blank">https://ieeevr.org/2022/program/demos/</a></li>
+<li><a href="https://ieeevr.org/2021/program/demos/" target="_blank">https://ieeevr.org/2021/program/demos/</a></li>
+<li><a href="https://ieeevr.org/2020/program/demos.html" target="_blank">https://ieeevr.org/2020/program/demos.html</a></li>
+<li><a href="https://ieeevr.org/2019/program/demos.html" target="_blank">https://ieeevr.org/2019/program/demos.html</a></li>
+</ul>
+
+<h1>Overview</h1>
+<p>
+The 33rd IEEE Conference on Virtual Reality and 3D User Interfaces 2026 seeks research demonstrations from laboratories or research groups (academic, government, or industry). Demos should interest the broad XR community and be presentable in a conference setting exhibiting new and innovative work. The conference will provide basic infrastructure. Additionally, authors of accepted demos will present an overview in a fast-forward research demonstration session to summarize their demo and relate it to research being performed at their lab. The research demonstrations will be an in-person event.
+</p>
+
+<h1>Submission Guidelines</h1>
+<p>A demo proposal should include:</p>
+<ul>
+<li> A two-page extended abstract (including references) in PDF format describing the demo and the research. This will be published in the abstract and workshop proceedings. Please provide the abstract in IEEE format, see below.</li>
+<li> A schematic of the layout (a separate document showing components, such as projectors/cameras).</li>
+<li> A 1-minute instructional video that walks viewers through the research project and showcases the demo in action. Please provide an accessible URL in the submission. A YouTube or Vimeo link is highly recommended. If accepted, we plan to use the video as something attendees can view asynchronously.</li>
+</ul>
+<p>
+Submissions to the research demo track must be written in English. The submission materials should clearly describe the system's overall architecture or technology demonstrated. Authors should emphasize the work's motivation, applications, novelty, and research direction. Submissions need not be anonymized but maybe if the authors prefer. Abstracts for accepted demos will be included in the abstract and workshop proceedings (IEEE Xplore Digital Library), so they must follow the IEEE Computer Society format at <a href="https://tc.computer.org/vgtc/publications/conference/" target="_blank">https://tc.computer.org/vgtc/publications/conference/</a>. </p>
+
+
+<p>Please note that authors will be asked to do live presentations and/or demos on certain days of the conference. The days and time slots for the live presentations will be determined after the review process is complete. More details about this will be provided later.</p>
+
+<h1>Contacts</h1>
+<p>For more information, please contact the Research Demonstration Chairs:</p>
+<ul>
+<li>Uijong Ju ‒ Kyung Hee University, Republic of Korea</li>
+<li>Daniel Zielasko – Trier University, Germany</li>
+<li>Ellie Ebrahimi ‒ University of North Carolina Wilmington, USA</li>
+<li>Geoffrey Gorisse ‒ Arts et Métiers Institute of Technology, France</li>
+<li>Ungyeon Yang  ‒ ETRI, Repulic of Korea</li>
+<li>Ehsan Azimi ‒ University of Arizona, USA</li>
+</ul>
 
 
