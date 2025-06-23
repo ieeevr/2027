@@ -13,12 +13,7 @@ title_separator: "|"
 		$(".tutorials").html("<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>");            
 	});
 </script>
-<p class="big_title center_a" style="margin-bottom:0 !important; padding-bottom:0 !important">Call for Tutorials</p>
-<p class="center_a"><a href="mailto:tutorials2026@ieeevr.org">tutorials2026@ieeevr.org</a></p>
 
-<p class="center_a">IEEE VR 2026: The 33th IEEE Conference on Virtual Reality and 3D User Interfaces<br />
-
-March 21-25, 2026 | Daegu, South Korea</p>
 
 <h1>Important Dates</h1>
 <p>Each deadline is 23:59:59 AoE (Anywhere on Earth) == GMT/UTC-12:00 on the stated day, no matter where the submitter is located.</p>
