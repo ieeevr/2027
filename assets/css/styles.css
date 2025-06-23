@@ -96,6 +96,7 @@
     .mobile_view{
         display: none;
     }
+.red { color:#ff3300 !important} 
     @media screen and (max-width: 600px) {
         .main_view{
             display: none;
