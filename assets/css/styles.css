@@ -1102,7 +1102,7 @@ body {
 	color: #000;
 	font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
 	line-height: 1.5;
-        word-break: break-all;
+        word-break: keep-all;
 }
 body.overflow--hidden {
 	overflow: hidden;
