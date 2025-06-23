@@ -106,15 +106,7 @@ The possible outcomes of this reviewing process are:</p>
 
 
 
-  
-<p>Posters will be <strong>reviewed by two reviewers</strong>. Disagreements will be resolved by the Poster Chairs. Authors will receive detailed reviews.</p>
-<p><strong>Possible outcomes:</strong></p>
-<ul>
-  <li>Desk rejection due to violations of the IEEE VR submission policies</li>
-  <li>Rejection</li>
-  <li>Conditional Acceptance</li>
-  <li>Acceptance</li>
-</ul>
+
 <p>Authors of accepted posters are expected to address any recommendations and conditions of acceptance prior to the final submission of camera-ready materials. This will be verified by the primary reviewer. </p>
 
 <h2>Poster Presentation</h2>
