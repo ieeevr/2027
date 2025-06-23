@@ -18,11 +18,11 @@ title_separator: "|"
 <h1>Important dates</h1> 
 <p>Each deadline is 23:59:59 AoE (Anywhere on Earth) == GMT/UTC-12:00 on the stated day, no matter where the submitter is located.</p> 
 <ul>
-<li>November 14, 2025 : Proposals and CFPs due</li>
-<li>November 25, 2025: Notification of results</li>
-<li>January 22, 2026: Latest accepted workshop paper notification (only applies if the workshop organizers want proceedings included in the digital library)</li>
-<li>January 30, 2026:  Camera-ready submission of workshop papers for inclusion in the IEEE Digital Library (only applies if the workshop organizers want proceedings included in the digital library)</li>
-<li>March 21-22, 2026: Workshops (held on the first two days of the conference) (*. In 2026, workshop dates are subject to change and may need to be rescheduled.)</li>
+<li><strong>November 14, 2025</strong> : Proposals and CFPs due</li>
+<li><strong>November 25, 2025</strong>: Notification of results</li>
+<li><strong>January 22, 2026</strong>: Latest accepted workshop paper notification (only applies if the workshop organizers want proceedings included in the digital library)</li>
+<li><strong>January 30, 2026</strong>:  Camera-ready submission of workshop papers for inclusion in the IEEE Digital Library (only applies if the workshop organizers want proceedings included in the digital library)</li>
+<li><strong>March 21-22, 2026</strong>: Workshops (held on the first two days of the conference) (*. In 2026, workshop dates are subject to change and may need to be rescheduled.)</li>
 </ul>
 
 <h1>Overview</h1>
@@ -48,7 +48,7 @@ Workshops are intended to bring together researchers, developers, technology pro
 <p>
 Workshop submissions require a short two-page maximum proposal and a call for papers (CFP). The Workshop Proposal is an internal document for decision-making purposes only. <br>
 
-Organizers are required to complete the application form at the following link (Link). The form will collect all necessary information regarding your proposed workshop, including the following items:</p>
+Organizers are required to complete the application form at the following link (<a href="https://docs.google.com/forms/d/e/1FAIpQLSfnckNkngKzC_biNE_V6XsZgKBcBotd7XGECI6wJXf_LuMxIA/viewform?usp=header" target="_blank"><strong class="red">Link</strong></a>). The form will collect all necessary information regarding your proposed workshop, including the following items:</p>
 
 <ul>
 <li>Workshop title and acronym.</li>
