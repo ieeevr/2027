@@ -30,7 +30,7 @@ title_separator: "|"
     Extended abstract under DOI 10.1109/VRW66409.2025.00348
     Poster design: <a href="https://drive.google.com/file/d/173uD8NnNUUBlnMOqsO8Yyx4zWGkWvjXy/view?usp=sharing" target="_blank">PDF</a> </li>
 </ol>
-<h2>Important Dates</h2>
+<h1>Important Dates</h1>
 <ul>
   <li><strong class="red">December 19, 2025:</strong> Title and authors information due</li>
   <li><strong class="red">December 22, 2025:</strong> Two-page extended abstract and optional material submission due</li>
