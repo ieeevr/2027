@@ -1,8 +1,7 @@
 
 /* From default layout */
     p {
-        text-align: justify;
-        text-justify: auto;
+        text-align: left;
     }
 
     img {max-width:100%; height:auto}
