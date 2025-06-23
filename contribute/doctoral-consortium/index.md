@@ -16,6 +16,8 @@ title_separator: "|"
         $(".doctoralconsortiumSm").html("<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>");    
 	});
 </script>
+<p class="big_title" style="padding-bottom:0; margin-bottom:0">Call for Doctoral Consortium</p>
+
 <h1>IMPORTANT DATES</h1> 
 <ul>
 <li><strong>December 3rd, 2025 23:59 AoE</strong>: Submission deadline.</li>
