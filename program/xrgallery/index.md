@@ -5,7 +5,7 @@ subtitle: "IEEE VR 2026"
 title_separator: "|"
 ---
 
-<p class="big_title center_a" style="padding-bottom:0.4em">Call for Proposals “XR Gallery”</p> 
+<p class="big_title center_a" style="padding-bottom:0; margin-bottom:0">Call for Proposals “XR Gallery”</p> 
 <p class="center_a" style="padding-bottom:1.2em" >(Re)Imagine: Bridging the Past, Present and Future through Immersive Experiences</p>
 
 <h1>Important Dates - ALL DEADLINES ARE ANYWHERE ON EARTH (AOE)</h1> 
