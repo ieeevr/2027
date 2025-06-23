@@ -15,6 +15,8 @@ title_separator: "|"
 	});
 </script>
 
+<p class="big_title" style="padding-bottom:0; margin-bottom:0">Call for Research Demos</p> 
+
 <h1>Important Dates</h1>
 <ul>
 <li><strong class="red">December 30 Tuesday, 2025</strong>: Two-page abstract, layout schematic, and video material (1 min) submission.</li>
