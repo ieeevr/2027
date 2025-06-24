@@ -214,7 +214,7 @@ title_separator: "|"
     <div class="floatRight"><span id="researchdemos"></span></div>
   </h2>
   <ul>
-    <li><span class="bold">Uijong Ju</span> – <i>Kyunghee University, South Korea</i></li>
+    <li><span class="bold">Uijong Ju</span> – <i>Kyung Hee University, South Korea</i></li>
     <li><span class="bold">Daniel Zielasko</span> – <i>Trier University, Germany</i></li>
     <li><span class="bold">Ellie" Ebrahimi</span> – <i>University of North Carolina Wilmington, USA</i></li>
     <li><span class="bold">Geoffrey Gorisse</span> – <i>Arts et Métiers Institute of Technology, France</i></li>
@@ -259,7 +259,7 @@ title_separator: "|"
     <div class="floatRight"><span id="diversity"></span></div>
   </h2>
   <ul>
-    <li><span class="bold">Seokhee Jeon</span> – <i>Kyunghee University, South Korea</i></li>
+    <li><span class="bold">Seokhee Jeon</span> – <i>Kyung Hee University, South Korea</i></li>
     <li><span class="bold">Heo, Seongkook</span> – <i>Univ of Virginia, USA</i></li>
     <li><span class="bold">Manuela Chessa</span> – <i>University of Genoa, Italy</i></li>
     <li><span class="bold">Ludovic Hoyet</span> – <i>Centre Inria de l'Université de Rennes, France</i></li>
