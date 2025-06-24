@@ -94,8 +94,6 @@ title_separator: "|"
 
 	});
 </script>
-
-
 <h1>Conference Committee</h1>
 <div>
   <h2>General Chairs
@@ -107,8 +105,6 @@ title_separator: "|"
     <li><span class="bold">Soon Ki Jung</span> – <i>Kyungpook National University, South Korea</i></li>
   </ul>
 </div>
-
-
 <div>
   <h2>Honorary Chairs
     <div class="floatRight"><span id=""></span></div>
@@ -154,7 +150,6 @@ title_separator: "|"
     <li><span class="bold">Gabriel Zachmann</span> – <i>University of Bremen, Germany</i></li>
   </ul>
 </div>
-
 <div>
   <h2>On-line Experience Chairs
     <div class="floatRight"><span id="onlineexperience"></span></div>
@@ -165,9 +160,6 @@ title_separator: "|"
     <li><span class="bold">Isayas, Adhanom</span> – <i>Texas State University, USA</i></li>
   </ul>
 </div>
-
-
-
 <div>
   <h2>Poster Chairs
     <div class="floatRight"><span id="posters"></span></div>
@@ -226,10 +218,6 @@ title_separator: "|"
     <li><span class="bold">Ehsan Azimi</span> – <i>University of Arizona, USA</i></li>
   </ul>
 </div>
-
-
-
-
 <div>
   <h2>Student Volunteers Chairs
     <div class="floatRight"><span id="studentvolunteers"></span></div>
@@ -240,8 +228,6 @@ title_separator: "|"
     <li><span class="bold">Hanseob Kim</span> – <i>Konyang University, South Korea</i></li>
   </ul>
 </div>
-
-
 <div>
   <h2>Workshop Chairs
     <div class="floatRight"><span id="workshops"></span></div>
@@ -253,9 +239,6 @@ title_separator: "|"
     <li><span class="bold">Hyeongil Nam</span> – <i>University of Calgary, Canada</i></li>
   </ul>
 </div>
-
-
-
 <div>
   <h2>3D UI Contest Chairs
     <div class="floatRight"><span id="contest"></span></div>
@@ -284,9 +267,10 @@ title_separator: "|"
     <div class="floatRight"><span id="tutorials"></span></div>
   </h2>
   <ul>
+    <li><span class="bold">Sungchul Jung</span> – <i>Kennesaw State University, USA</i></li>
+    <li><span class="bold">Thammathip Piumsomboon</span> – <i>University of Canterbury, New Zealand</i></li>
     <li><span class="bold">Kangsoo Kim</span> – <i>University of Calgary, Canada</i></li>
-    <li><span class="bold">Jung Sung Chul</span> – <i>Kennesaw State University, USA</i></li>
-    <li><span class="bold">Piumsomboon, Thammathip</span> – <i>University of Canterbury, New Zealand</i></li>
+    <li><span class="bold">Etienne Peillard</span> – <i>IMT-Atlantique, France</i></li>
   </ul>
 </div>
 <div>
