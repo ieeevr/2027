@@ -198,11 +198,11 @@ title_separator: "|"
   </h2>
   <ul>
     <li><span class="bold">Jean-Rémy Chardonnet</span> – <i>Arts et Métiers Institute of Technology, France</i></li>
-    <li><span class="bold">Henry Duh</span> – <i>HK Polytech, Hong Kong</i></li>
+    <li><span class="bold">Henry Duh</span> – <i>Hong Kong Polytechnic University, Hong Kong</i></li>
     
     
-    <li><span class="bold">Georges Gagneré</span> – <i>Université Paris 8, France
-Valérie Gouranton, Inria, IRISA, INSA Rennes, France</i></li>
+    <li><span class="bold">Georges Gagneré</span> – <i>Université Paris 8, France</i></li>
+<li><span class="bold">Valérie Gouranton</span> – <i>Inria, IRISA, INSA Rennes, France</i></li>
     <li><span class="bold">HyungSeok Kim</span> – <i>Konkuk University, South Korea</i></li>
     <li><span class="bold">Yue Li</span> – <i>Xi’an Jiaotong-Liverpool University, China</i></li>
     
