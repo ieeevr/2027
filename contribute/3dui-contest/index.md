@@ -97,9 +97,9 @@ If the submission is accepted, authors will participate in a demo session at the
 
 <h1>Abstract and Video Submission - due January 13, 2026</h1>
 <p>
-Teams should submit their abstract paper and a high-quality video through the online submission system: https://new.precisionconference.com/vr</p>
+Teams should submit their abstract paper and a high-quality video through the online submission system: <a href="https://new.precisionconference.com/vr" target="_blank">https://new.precisionconference.com/vr</a></p>
 <p>
-Submissions must be in English and must be prepared in the IEEE Computer Society VGTC format (https://tc.computer.org/vgtc/publications/conference/) and submitted as PDF. We highly encourage authors to use the LaTeX template (https://www.cspaul.com/vgtc/vgtc_conference_latex.zip). Authors who choose to use the Word template need to ensure that their PDF submission matches the format.</p>
+Submissions must be in English and must be prepared in the IEEE Computer Society VGTC format (https://tc.computer.org/vgtc/publications/conference/) and submitted as PDF. We highly encourage authors to use the LaTeX template (<a href="https://www.cspaul.com/vgtc/vgtc_conference_latex.zip" target="_blank">https://www.cspaul.com/vgtc/vgtc_conference_latex.zip</a>). Authors who choose to use the Word template need to ensure that their PDF submission matches the format.</p>
 
 <h1>Important Difference from the Previous Conferences</h1>
 <p>
