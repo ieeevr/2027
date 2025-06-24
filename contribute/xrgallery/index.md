@@ -19,9 +19,9 @@ title_separator: "|"
 
 <h1>Important Dates - ALL DEADLINES ARE ANYWHERE ON EARTH (AOE)</h1> 
 <ul>
-<li>December 19, 2025: Submission of abstracts.</li>
-<li>January 9, 2026: Notification of acceptance.</li>
-<li>January 23, 2026: Camera-ready version.</li>
+<li><strong class="red">December 19, 2025</strong>: Submission of abstracts.</li>
+<li class="red"><strong>January 9, 2026</strong>: Notification of acceptance.</li>
+<li class="red"><strong>January 23, 2026</strong>: Camera-ready version.</li>
 </ul>
 
 <h1>Overview</h1>
@@ -58,8 +58,7 @@ The call is open to anyone interested in creating artistic content: artists, res
 <p>The proposed artistic work may be new or already existing.</p>
 
 <p> 
-We will have an important inclusion criterion, and we particularly want to include the achievements of minorities. If you think you do fit within such criteria and face issues that prevent you from applying, please do not hesitate to contact us (see contact email). 
-</p>
+We will have an important inclusion criterion, and we particularly want to include the achievements of minorities. If you think you do fit within such criteria and face issues that prevent you from applying, please do not hesitate to contact us (<a href="mailto:xrgallery2026@ieeevr.org">xrgallery2026@ieeevr.org</a>). </p>
 
 
 
@@ -121,7 +120,8 @@ These papers will be included in the IEEE Xplore as part of the VRW proceedings 
 
 
 <h1>Contacts</h1> 
-<p>For more information, please contact us at:</p>
+<p>For more information, please contact us at:<br>(<a href="mailto:xrgallery2026@ieeevr.org">xrgallery2026@ieeevr.org</a>)
+</p>
 <ul>
 <li>Jean-Rémy Chardonnet, Arts et Metiers Institute of Technology, France</li>
 <li>Henry Duh, Hong Kong Polytechnic University</li>
