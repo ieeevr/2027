@@ -245,9 +245,9 @@ title_separator: "|"
   </h2>
   <ul>
     <li><span class="bold">Chaeyong Park</span> – <i>Korea University, South Korea</i></li>
-    <li><span class="bold">Kopper Regis</span> – <i>UNC Greensboro, USA</i></li>
-    <li><span class="bold">Mania Katerina</span> – <i>TU Crete, Greece</i></li>
-    <li><span class="bold">Tim Weissker</span> – <i>RWTG Aachen Uni, Germany</i></li>
+    <li><span class="bold">Katerina Mania</span> – <i>Technical University of Crete, Greece</i></li>
+    <li><span class="bold">Tim Weissker</span> – <i>RWTH Aachen University, Germany</i></li>
+    <li><span class="bold">Regis Kopper</span> – <i>Iowa State University, USA</i></li>
   </ul>
 </div>
 <div>
