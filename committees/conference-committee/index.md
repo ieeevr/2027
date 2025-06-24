@@ -240,7 +240,7 @@ Valérie Gouranton, Inria, IRISA, INSA Rennes, France</i></li>
     <li><span class="bold">Hyeongil Nam</span> – <i>University of Calgary, Canada</i></li>
     <li><span class="bold">Dongsik Jo</span> – <i>University of Ulsan, Korea</i></li>
     <li><span class="bold">Dirk Reiners</span> – <i>University of Central Florida, USA</i></li>
-    <li><span class="bold">Pierre Bourdin Kreitz</span> – <i>Universitat Oberta de Catalunya, Spai</i></li>
+    <li><span class="bold">Pierre Bourdin Kreitz</span> – <i>Universitat Oberta de Catalunya, Spain</i></li>
   </ul>
 </div>
 <div>
