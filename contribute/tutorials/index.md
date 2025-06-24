@@ -18,9 +18,9 @@ title_separator: "|"
 <h1>Important Dates</h1>
 <p>Each deadline is 23:59:59 AoE (Anywhere on Earth) == GMT/UTC-12:00 on the stated day, no matter where the submitter is located.</p>
 <ul>
-<li>January 09, 2026: Tutorial submissions due (AoE)</li>
-<li>January 16, 2026: Acceptance notification</li>
-<li>January 23, 2026: Advance program descriptions for IEEE VR 2026 website due</li>
+<li><strong class="red">January 09, 2026</strong>: Tutorial submissions due (AoE)</li>
+<li><strong class="red">January 16, 2026</strong>: Acceptance notification</li>
+<li><strong class="red">January 23, 2026</strong>: Advance program descriptions for IEEE VR 2026 website due</li>
 </ul>
 
 <h1>Overview</h1>
