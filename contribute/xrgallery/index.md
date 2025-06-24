@@ -20,8 +20,8 @@ title_separator: "|"
 <h1>Important Dates - ALL DEADLINES ARE ANYWHERE ON EARTH (AOE)</h1> 
 <ul>
 <li><strong class="red">December 19, 2025</strong>: Submission of abstracts.</li>
-<li class="red"><strong>January 9, 2026</strong>: Notification of acceptance.</li>
-<li class="red"><strong>January 23, 2026</strong>: Camera-ready version.</li>
+<li ><strong class="red"January 9, 2026</strong>: Notification of acceptance.</li>
+<li ><strong class="red">January 23, 2026</strong>: Camera-ready version.</li>
 </ul>
 
 <h1>Overview</h1>
