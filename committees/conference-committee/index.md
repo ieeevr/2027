@@ -233,10 +233,10 @@ title_separator: "|"
     <div class="floatRight"><span id="workshops"></span></div>
   </h2>
   <ul>
-    <li><span class="bold">Donsik Jo</span> – <i>Ulsan University, South Korea</i></li>
-    <li><span class="bold">Dirk Reiners</span> – <i>UCF, USA</i></li>
-    <li><span class="bold">Pierre Bourdin</span> – <i>U of Oberta de Catalyuna, Spain</i></li>
     <li><span class="bold">Hyeongil Nam</span> – <i>University of Calgary, Canada</i></li>
+    <li><span class="bold">Dongsik Jo</span> – <i>University of Ulsan, Korea</i></li>
+    <li><span class="bold">Dirk Reiners</span> – <i>University of Central Florida, USA</i></li>
+    <li><span class="bold">Pierre Bourdin Kreitz</span> – <i>Universitat Oberta de Catalunya, Spai</i></li>
   </ul>
 </div>
 <div>
