@@ -74,8 +74,8 @@ For each accepted tutorial we will be able to provide one complimentary workshop
 
 <h1>Contacts</h1>
 
-<p><a href="mailto:tutorial2026@ieeevr.org">tutorial2026@ieeevr.org</a></p>
-<p>For more information, to inquire about a particular tutorial topic, or to submit a proposal, please contact the Tutorials Chairs:</p>
+<p>For more information, to inquire about a particular tutorial topic, or to submit a proposal, please contact the Tutorials Chairs:<br/>
+(<a href="mailto:tutorial2026@ieeevr.org">tutorial2026@ieeevr.org</a>)</p>
 <ul>
 <li>Sungchul Jung ‒ Kennesaw State University, USA</li>
 <li>Thammathip Piumsomboon ‒ University of Canterbury, New Zealand</li>
