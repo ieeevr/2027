@@ -316,8 +316,8 @@ Valérie Gouranton, Inria, IRISA, INSA Rennes, France</i></li>
   </h2>
   <ul>
     <li><span class="bold">Yongsoon Choi</span> – <i>Sogang University, South Korea</i></li>
-    <li><span class="bold">Edgar Rojas-Munoz</span> – <i>TAMU, USA</i></li>
-    <li><span class="bold">Iana Podkosova</span> – <i>TU Wien, Austria</i></li>
+    <li><span class="bold">Iana Podkosova</span> – <i>Technische Universität Wien, Austria, Austria</i>
+    <li><span class="bold">Edgar Rojas-Munoz</span> – <i>Muñoz, Texas A&M University, USA</i></li></li>
   </ul>
 </div>
 <div>
