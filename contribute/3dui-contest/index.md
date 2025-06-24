@@ -42,7 +42,7 @@ We expect the following functionalities:</p>
 <li>The project should showcase novel 3DUI techniques with a focus on technical contribution, rather than merely solving the complexity of the presentation itself. For instance, the factual accuracy of the presentation content isn't a requirement.</li>
 </ul>
 
-<h1>Submissions will be evaluated through the following criteria:</h1>
+<p>Submissions will be evaluated through the following criteria:</p>
 <ol>
 <li>Usability & user well-being of user interactions</li>
 <li>Novelty of the 3DUI design</li>
