@@ -108,11 +108,12 @@ IEEE VR 2026 introduces some key distinctions compared to past conferences:</p>
 <li><strong>Flexible Interaction Models</strong>: Given potentially unstable venue WiFi, multi-user interaction isn't required. Authors can develop systems for a single user, such as a presenter. This could involve allowing visitors to develop their own presentation materials using the proposed system (an authoring tool) or, alternatively, letting visitors experience a pre-made presentation in a virtual environment, much like a presentation attendee. If a multiuser solution is proposed, we encourage teams to bring their own networking infrastructure, such as a WiFi router, rather than relying on the conference’s internet.</li>
 <li><strong>Cybersickness Considerations</strong>: All teams must address the potential issue of cybersickness when demonstrating their contest work. For instance, ensure that your system maintains a considerably high frame rate. Additionally, teams may include cybersickness results from preliminary studies in the submitted paper, if available.</li>
 <li><strong>Mandatory Poster Preparation</strong>: All accepted authors are required to prepare a poster in the same format as the IEEE VR Poster track to explain their work. This poster should cover essential aspects such as the goal of the work, design methods, experimental results, and demonstration scenarios.</li>
-
+</ul>
 <h1>Contacts</h1>
 <p>Feel free to contact us if you have any further questions. Call updates will be posted on this webpage.</p>
 
-<p>3DUI Contest Chairs:</p>
+<p>3DUI Contest Chairs:<br/>
+(<a href="mailto:3dui@ieeevr.org">3dui@ieeevr.org</a>)</p>
 <ul>
 <li><strong>Chaeyong Park</strong>, Korea University, Korea</li>
 <li><strong>Katerina Mania</strong>, Technical University of Crete, Greece</li>
