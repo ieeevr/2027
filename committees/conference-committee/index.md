@@ -221,7 +221,9 @@ title_separator: "|"
     <li><span class="bold">Uijong Ju</span> – <i>Kyunghee University, South Korea</i></li>
     <li><span class="bold">Daniel Zielasko</span> – <i>Univ. of Trier, Germany</i></li>
     <li><span class="bold">Elham "Ellie" Ebrahimi</span> – <i>UNC Wilmington, USA</i></li>
+    <li><span class="bold">Geoffrey Gorisse</span> – <i>Arts et Métiers Institute of Technology, France</i></li>
     <li><span class="bold">Unyeon Yang</span> – <i>ETRI Korea, South Korea</i></li>
+    <li><span class="bold">Ehsan Azimi</span> – <i>University of Arizona, USA</i></li>
   </ul>
 </div>
 
