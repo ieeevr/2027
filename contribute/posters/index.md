@@ -21,13 +21,13 @@ title_separator: "|"
 <p>As example, here are the Two Best Poster Awards of IEEE VR 2025 as exemplary model, especially for new authors to orient:</p>
 <ol>
   <li>Valentin Vallageas, David R. Labbe, and Rachid Aissaoui:<br/>
-    Proprioception Drift in Virtual Reality: An Experiment with an Unrealistically Long Leg.
-    Extended abstract under DOI 10.1109/VRW66409.2025.00389
+    Proprioception Drift in Virtual Reality: An Experiment with an Unrealistically Long Leg.<br/>
+    Extended abstract under DOI 10.1109/VRW66409.2025.00389<br/>
     Poster design: <a href="https://drive.google.com/file/d/1JH4JHoXVFJE158MBNhHnnZAYpejQG4zq/view?usp=share_link" target="_blank">PDF</a> </li>
     
-     <li>Lena Holderrieth, Erik Wolf, Marie Luisa Fiedler, Mario Botsch, Marc Erich Latoschik, and Carolin Wienrich: 
-    Do You Feel Better? The Impact of Embodying Photorealistic Avatars with Ideal Body Weight on Attractiveness and Self-Esteem in Virtual Reality
-    Extended abstract under DOI 10.1109/VRW66409.2025.00348
+     <li>Lena Holderrieth, Erik Wolf, Marie Luisa Fiedler, Mario Botsch, Marc Erich Latoschik, and Carolin Wienrich: <br/>
+    Do You Feel Better? The Impact of Embodying Photorealistic Avatars with Ideal Body Weight on Attractiveness and Self-Esteem in Virtual Reality<br/>
+    Extended abstract under DOI 10.1109/VRW66409.2025.00348<br/>
     Poster design: <a href="https://drive.google.com/file/d/173uD8NnNUUBlnMOqsO8Yyx4zWGkWvjXy/view?usp=sharing" target="_blank">PDF</a> </li>
 </ol>
 <h1>Important Dates</h1>
