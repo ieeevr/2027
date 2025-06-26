@@ -27,7 +27,7 @@ title_separator: "|"
 	});
 </script>
 
-<p class="big_title" style="padding-bottom:0; margin-bottom:0">Call for Papers</p><br />
+<p class="big_title" style="padding-bottom:0; margin-bottom:0">Call for Papers</p>
 
 
 <h1>OVERVIEW</h1> 
