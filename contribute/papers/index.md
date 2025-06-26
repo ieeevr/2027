@@ -63,7 +63,7 @@ title_separator: "|"
 
 <a href="https://new.precisionconference.com/vr25a" target="_blank">https://new.precisionconference.com/vr25a</a></p>  
 
-<p>IMPORTANT: IEEE VR 2026 uses a <strong>DOUBLE-BLIND</strong> review process. Failure to anonymize submissions will result in <strong>DESK REJECTION.</strong></p> 
+<p><strong>IMPORTANT:</strong> IEEE VR 2026 uses a <strong>DOUBLE-BLIND</strong> review process. Failure to anonymize submissions will result in <strong>DESK REJECTION.</strong></p> 
 
 <p>Each research paper should provide a contribution covering one or more of the following categories: methodological, technical, applications, and systems.</p>
 <ul>
