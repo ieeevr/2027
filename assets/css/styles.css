@@ -96,7 +96,14 @@ img {
 .center_a {
 	text-align: center
 }
- @media screen and (max-width: 600px) {
+.t_m_01 {
+
+    font-size: 0.9rem;
+    color: #000;
+    margin: 0 0 0.2rem;
+}
+
+@media screen and (max-width: 600px) {
 .main_view {
 	display: none;
 }
