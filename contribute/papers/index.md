@@ -89,7 +89,7 @@ title_separator: "|"
 </ul>  
 
 
-<img src="=/2026/assets/images/paper_Sample.jpg" alt="" style="width:100%" >
+<img src="/2026/assets/images/paper_Sample.jpg" alt="" style="width:100%" >
 
 
 
