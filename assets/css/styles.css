@@ -101,6 +101,7 @@ img {
     font-size: 0.9rem  !important;
     color: #000  !important;
     margin: 0 0 0.2rem  !important;
+    font-weight:bold !important	
 }
 
 @media screen and (max-width: 600px) {
