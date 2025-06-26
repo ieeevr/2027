@@ -59,7 +59,7 @@ title_separator: "|"
 
 
 <h1>SUBMISSION GUIDELINES</h1>
-<p>Submissions will be accepted through Precision Conference Solutions this year.<br>
+<p><strong>Submissions will be accepted through Precision Conference Solutions this year.</strong><br>
 
 <a href="https://new.precisionconference.com/vr25a" target="_blank">https://new.precisionconference.com/vr25a</a></p>  
 
