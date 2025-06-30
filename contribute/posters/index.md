@@ -32,7 +32,7 @@ title_separator: "|"
 </ol>
 <h1>Important Dates</h1>
 <ul>
-  <li><strong class="red">December 19, 2025:</strong> Title and authors information due</li>
+  <li><strong class="red">December 19, 2025:</strong> Title category and authors information due</li>
   <li><strong class="red">December 22, 2025:</strong> Two-page extended abstract and optional material submission due</li>
   <li><strong class="red">January 21, 2026:</strong> Notification of results</li>
   <li><strong class="red">January 28, 2026:</strong> Camera-ready material and copyright submission via IEEE CPS (to be published in the conference’s abstract and workshop proceedings) and PCS (poster, video, teaser image and other additional materials)</li>
