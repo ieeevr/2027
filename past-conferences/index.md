@@ -15,8 +15,8 @@ title_separator: "|"
             &nbsp;|&nbsp;
             <a href="https://ieeexplore.ieee.org/xpl/conhome/10937339/proceeding" class="specialLink" target="_blank">Proceedings</a>
         </p>
-    </div>
- 
+    </div> 
+    <hr>
     <div>
         <p>
             <strong style="color:black">IEEE Virtual Reality 2024 <i>(Orlando, Florida, USA)</i></strong>
