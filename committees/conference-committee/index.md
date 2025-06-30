@@ -21,6 +21,10 @@ title_separator: "|"
 #sponsors .conf-icon {
   display: none !important;
 }
+	
+.fa-envelope-square:before {
+    content: "" !important;
+}
 </style>
 <script type="text/javascript">
 	$(document).ready(function(){
