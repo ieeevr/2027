@@ -3,7 +3,27 @@ layout: ieeevr-default
 title: "IEEEVR VGTC Awards"
 ---
 
-<p style="width:100%; margin: 30px auto; padding: 20px 0; text-align:center; font-size:1rem; border-radius: 30px; background-color: #f3f3f3">This content is currently being updated.</p>
+
+<p class="big_title" style="padding-bottom:0; margin-bottom:0">VGTC </p>
+
+<h1>Nominate now for the 2026 VGTC Virtual and Mixed Reality Awards</h1>
+
+<p>Nominations are now open for the 2026 IEEE VGTC Virtual and Mixed Reality Awards and for new members for the Virtual Reality  Academy.  These awards are presented yearly and are our IEEE Technical Community for Visualization and Graphics's highest recognition  for contributions by members of our community.  There will be awards ceremonies at both IEEE VR 2026 and ISMAR 2026.</p>
+
+<p>Award criteria:  <a href="https://tc.computer.org/vgtc/award-criteria/" target="_blank">https://tc.computer.org/vgtc/award-criteria/</a></p>
+
+<p>Nomination forms:  <a href="https://tc.computer.org/vgtc/awards/vr-award-nominations/" target="_blank">https://tc.computer.org/vgtc/awards/vr-award-nominations/</a></p>
+
+<p>Nomination deadlines for 2026 awards:</p>
+<ul>
+<li><strong>15 July 2025</strong>         Best Dissertation</li>
+<li><strong>1 October 2025</strong>     All other awards and VR Academy</li>
+</ul>
+
+<p>
+Questions?  Email the Awards Chair at:  <a href="mailto:vgtc-vr-awards@vgtc.org">vgtc-vr-awards@vgtc.org</a></p>
+
+
 <div style="display:none">
     <h1>IEEE 2025 VGTC Virtual Reality Awards</h1>
     <p>
