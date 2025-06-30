@@ -4,6 +4,12 @@ title: "Code of Conduct"
 subtitle: "IEEE VR 2026"
 title_separator: "|"
 ---
+
+<style>
+.fa-envelope-square:before {
+    content: "" !important;
+}
+</style>
 <script type="text/javascript">
     $(document).ready(function(){
 		var email = ""; 
