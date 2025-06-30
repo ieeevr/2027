@@ -63,7 +63,7 @@ title_separator: "|"
 <h1>SUBMISSION GUIDELINES</h1>
 <p><strong>Submissions will be accepted through Precision Conference Solutions this year.</strong><br>
 
-<a href="https://new.precisionconference.com/vr25a" target="_blank">https://new.precisionconference.com/vr25a</a></p>  
+<a href="https://new.precisionconference.com/vr26a" target="_blank">https://new.precisionconference.com/vr26a</a></p>  
 
 <p><strong>IMPORTANT:</strong> IEEE VR 2026 uses a <strong>DOUBLE-BLIND</strong> review process. Failure to anonymize submissions will result in <strong>DESK REJECTION.</strong></p> 
 
