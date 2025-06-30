@@ -186,7 +186,7 @@ title_separator: "|"
     <li><span class="bold">Sangho Yoon</span> – <i>KAIST, Korea</i></li>
     <li><span class="bold">Chen Jian</span> – <i>Ohio State University, USA</i></li>
     <li><span class="bold">Chris Mousas</span> – <i>Purdue University, USA</i></li>
-    <li><span class="bold">Saeed Boorboor</span> – <i>University of Illinois Chicago</i></li>
+    <li><span class="bold">Saeed Boorboor</span> – <i>University of Illinois Chicago, USA</i></li>
   </ul>
 </div>
 <div>
