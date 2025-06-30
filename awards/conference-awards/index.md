@@ -14,13 +14,8 @@ title: "Awards"
 	});
 </script>
 
-
----
-layout: ieeevr-default
-title: "IEEEVR VGTC Awards"
----
-
-
+<p style="width:100%; margin: 30px auto; padding: 20px 0; text-align:center; font-size:1rem; border-radius: 30px; background-color: #f3f3f3">This content is currently being updated.</p>
+<div style="display:none">
 <p class="big_title" style="padding-bottom:0; margin-bottom:0">VGTC </p>
 
 <h1>Nominate now for the 2026 VGTC Virtual and Mixed Reality Awards</h1>
@@ -850,4 +845,4 @@ Questions?  Email the Awards Chair at:  <a href="mailto:vgtc-vr-awards@vgtc.org"
 
 <p>The IEEE VR Best Presentation Awards honor excellent, interesting, and stimulating presentations of research papers at the IEEE VR conference. During the conference, the audience can give a vote for each presentation that they think deserves an award. Approximately 3% of presentations with the highest number of votes receive an award. Among these selected presentations, the top 1% regarding the number of votes, will receive a Best Presentation Award, while the remaining presentations receive an Honorable Mention Award.</p>-->
 </div>
-
+</div>
