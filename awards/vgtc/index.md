@@ -4,9 +4,9 @@ title: "IEEEVR VGTC Awards"
 ---
 
 
-<p class="big_title" style="padding-bottom:0; margin-bottom:0">VGTC </p>
+<!--p class="big_title" style="padding-bottom:0; margin-bottom:0">VGTC </p-->
 
-<h1>Nominate now for the 2026 VGTC Virtual and Mixed Reality Awards</h1>
+<h1>Nominate now for the IEEE 2026 VGTC Virtual and Mixed Reality Awards</h1>
 
 <p>Nominations are now open for the 2026 IEEE VGTC Virtual and Mixed Reality Awards and for new members for the Virtual Reality  Academy.  These awards are presented yearly and are our IEEE Technical Community for Visualization and Graphics's highest recognition  for contributions by members of our community.  There will be awards ceremonies at both IEEE VR 2026 and ISMAR 2026.</p>
 
