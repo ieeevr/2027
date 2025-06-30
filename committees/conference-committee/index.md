@@ -140,7 +140,7 @@ title_separator: "|"
     <div class="floatRight"><span id="finance"></span></div>
   </h2>
   <ul>
-    <li><span class="bold">Myongho Lee</span> – <i>Pusan National University, Korea</i></li>
+    <li><span class="bold">Myungho Lee</span> – <i>Pusan National University, Korea</i></li>
     <li><span class="bold">Youngwon Kim</span> – <i>kumoh National Institute of Technology, Korea</i></li>
     <li><span class="bold">Dong-Soo Choi</span> – <i>Kumoh National Institute of Technology, Kore</i></li>
   </ul>
