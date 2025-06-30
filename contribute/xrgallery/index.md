@@ -14,6 +14,9 @@ title_separator: "|"
 		$(".art").html("<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>");            
 	});
 </script>
+<p style="width:100%; margin: 30px auto; padding: 20px 0; text-align:center; font-size:1rem; border-radius: 30px; background-color: #f3f3f3">This content is currently being updated.</p>
+
+<div style="display:none">
 <p class="big_title" style="padding-bottom:0; margin-bottom:0">Call for Proposals “XR Gallery”</p> 
 <p style="padding-bottom:1.2em" >(Re)Imagine: Bridging the Past, Present and Future through Immersive Experiences</p>
 
@@ -132,3 +135,4 @@ These papers will be included in the IEEE Xplore as part of the VRW proceedings 
 <li>Hai-Ning Liang, Hong Kong University of Science and Technology (Guangzhou), China</li>
 </ul>
 
+</div>
