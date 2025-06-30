@@ -1,12 +1,22 @@
 ---
 layout: ieeevr-default
 title: "Past Conferences"
-subtitle: "IEEE VR 2024"
+subtitle: "IEEE VR 2026"
 title_separator: "|"
 ---
 
 <div>
     <h1 id="past-conferences"> Past Conferences </h1>
+ <div>
+        <p>
+            <strong style="color:black">IEEE Virtual Reality 2025 <i>(Saint-Malo, France)</i></strong>
+            <br>
+            <a href="https://ieeevr.org/2025" class="specialLink" target="_blank">Website</a>
+            &nbsp;|&nbsp;
+            <a href="https://ieeexplore.ieee.org/xpl/conhome/10937339/proceeding" class="specialLink" target="_blank">Proceedings</a>
+        </p>
+    </div>
+ 
     <div>
         <p>
             <strong style="color:black">IEEE Virtual Reality 2024 <i>(Orlando, Florida, USA)</i></strong>
