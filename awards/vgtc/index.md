@@ -20,7 +20,7 @@ title: "IEEEVR VGTC Awards"
   <li>Lifetime Achievement<br>
     <a href="https://docs.google.com/forms/d/e/1FAIpQLSff2hkl4n5K5AOwatPULE5j_T-arXZq0Qc-R6y7N6L-zntQ_g/viewform" target="_blank">Submit a Nomination</a>&nbsp;&nbsp;&nbsp;l&nbsp;&nbsp;&nbsp;<a href="https://tc.computer.org/vgtc/award-criteria/#lifetime" target="_blank">Award Criteria</a>&nbsp;&nbsp;&nbsp;l&nbsp;&nbsp;&nbsp;<a href="https://tc.computer.org/vgtc/awards/vr-lifetime-achievement-award-previous-recipients/" target="_blank">Previous Recipients</a></li>
   <li>Technical Achievement<br>
-    <a href="https://docs.google.com/forms/d/e/1FAIpQLSepYeiEsoPU7iHngFhvH69V5GqNX0nCvo9R0mhLDuVg8eaMYA/viewform" target="_blank">Submit a Nomination</a>&nbsp;&nbsp;&nbsp;l&nbsp;&nbsp;&nbsp;<a href="https://tc.computer.org/vgtc/award-criteria/#technical">Award Criteria</a> &nbsp;&nbsp;&nbsp;l&nbsp;&nbsp;&nbsp;<a href="https://tc.computer.org/vgtc/vr-technical-achievement-award-previous-recipients/" target="_blank">Previous Recipients</a></li>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSepYeiEsoPU7iHngFhvH69V5GqNX0nCvo9R0mhLDuVg8eaMYA/viewform" target="_blank">Submit a Nomination</a>&nbsp;&nbsp;&nbsp;l&nbsp;&nbsp;&nbsp;<a href="https://tc.computer.org/vgtc/award-criteria/#technical"  target="_blank">Award Criteria</a> &nbsp;&nbsp;&nbsp;l&nbsp;&nbsp;&nbsp;<a href="https://tc.computer.org/vgtc/vr-technical-achievement-award-previous-recipients/" target="_blank">Previous Recipients</a></li>
   <li>Significant New Researcher<br>
     <a href="https://docs.google.com/forms/d/e/1FAIpQLScEBvgYNEHw2oeGhq1-BQXfQAFvYRoFkKtWsCcfzG8YtgDO7A/viewform" target="_blank">Submit a Nomination</a>&nbsp;&nbsp;&nbsp;l&nbsp;&nbsp;&nbsp;<a href="https://tc.computer.org/vgtc/award-criteria/#significant" target="_blank">Award Criteria</a>&nbsp;&nbsp;&nbsp;l&nbsp;&nbsp;&nbsp;<a href="https://tc.computer.org/vgtc/vr-significant-new-researcher-award-previous-recipients/" target="_blank">Previous Recipients</a></li>
   <li>Best Dissertation Award<br>
@@ -72,5 +72,4 @@ title: "IEEEVR VGTC Awards"
   </p>
   <p> For questions or additional information please email IEEE VGTC VR Awards Program Chair, currently Mary Whitton, 
     at <a href="mailto:vgtc-vr-awards@vgtc.org">vgtc-vr-awards@vgtc.org</a>. </p>
-</div>
 </div>
