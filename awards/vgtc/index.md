@@ -30,7 +30,7 @@ title: "IEEEVR VGTC Awards"
   <li>Virtual Reality Academy<br>
     <a href="https://docs.google.com/forms/d/e/1FAIpQLSdilz_hCbyO_c_9xGplp53i5sxgxQuVrfxbZo2wMCnJZFKFKg/viewform" target="_blank">Submit a Nomination</a>&nbsp;&nbsp;&nbsp;l&nbsp;&nbsp;&nbsp;<a href="https://tc.computer.org/vgtc/award-criteria/#academy" target="_blank">Award Criteria</a>&nbsp;&nbsp;&nbsp;l&nbsp;&nbsp;&nbsp;<a href="https://tc.computer.org/vgtc/awards/vr-academy-previous-inductees/" target="_blank">Previous Inductees</a></li>
 </ul>
-<p>For questions or additional information please email the Awards Program Chairat <a href="vgtc-vr-awards@vgtc.org" target="_blank">vgtc-vr-awards@vgtc.org</a></p>
+<p>For questions or additional information please email the Awards Program Chairat <a href="mailto:vgtc-vr-awards@vgtc.org" target="_blank">vgtc-vr-awards@vgtc.org</a></p>
 <div style="display:none">
   <h1>Nominate now for the 2026 IEEE VGTC Virtual and Mixed Reality Awards</h1>
   <p>Nominations are now open for the 2026 IEEE VGTC Virtual and Mixed Reality Awards and for new members for the Virtual Reality  Academy.  These awards are presented yearly and are our IEEE Technical Community for Visualization and Graphics's highest recognition  for contributions by members of our community.  There will be awards ceremonies at both IEEE VR 2026 and ISMAR 2026.</p>
