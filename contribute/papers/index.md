@@ -211,7 +211,7 @@ title_separator: "|"
 <p>Uploading the submitted manuscript to an online repository (e.g., arXiv) before the end of the review process does not constitute a reason for rejecting the manuscript. However, the authors should be advised that doing so can compromise the anonymity of their manuscript and therefore bias its double-blind review.</p>
 <p class="t_m_01">Videos.</p>
 <p>Videos must be submitted according to the instructions on the submission website. Videos submitted with papers will automatically be considered for possible inclusion in the video proceedings (video submissions may also be made independently, as described in the separate Call for Videos). When submitted as supporting material, videos must be free of any identifying information prior to reviewing as per the double-blind submission policy. If accepted for the video proceedings, a revised version of the materials will be requested.</p>
-<h1>Contacts</h1>
+
 <p>
 
  <h1>Contacts</h1>
