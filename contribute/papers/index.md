@@ -34,13 +34,21 @@ title_separator: "|"
   <ol>
     <li>Accept as IEEE TVCG paper, with presentation at IEEE VR 2026</li>
     <li>Accept as IEEE VR 2026 conference paper, with presentation at IEEE VR 2026</li>
-    <li>Accept as IEEE VR 2026 poster</li>
     <li>Reject</li>
   </ol>
   <p>Inquiries: <a href="mailto:program2026@ieeevr.org">program2026@ieeevr.org</a></p>
-  <p>New this year: Papers will not be automatically accepted as IEEE VR Posters. Rather, authors of rejected papers will have to submit directly to the poster track.</p>
+  <p><strong>New this year</strong>: Papers will not have the option to be automatically accepted as IEEE VR Posters. Rather, authors of rejected papers will have to submit directly to the poster track.
+</p>
+  
+  
+  <p><strong>New this year</strong>: All senior (PhD-holding) authors should familiarize themselves with the IEEE VR 2026 reviewing guidelines [LINK TO COME]. Unless serving IEEE VR 2026 in another capacity, ALL SENIOR AUTHORS are expected to volunteer as reviewers and perform their duties in a timely and responsive fashion. This supersedes the prior requirement that one author for each paper commit to reviewing; if a paper has multiple senior co-authors, all are expected to volunteer. Egregious violations of this policy may be considered Highly Irresponsible Conduct, which could result in penalties up to and including desk rejection of their submitted paper(s).
+
+</p>
+  
+  
   <h1>IMPORTANT DATES</h1>
-  <p>Each deadline is 23:59:59 AoE (Anywhere on Earth) == GMT/UTC-12:00 on the stated day, no matter where the submitter is located. <strong>The submission deadlines will be strictly enforced. Requests for extensions will not be honored.</strong></p>
+  <p>Each deadline is 23:59:59 AoE (Anywhere on Earth) == GMT/UTC-12:00 on the stated day, no matter where the submitter is located. <strong>The submission deadlines will be strictly enforced. Requests for extensions will not be honored.</strong>
+</p>
   <ul>
     <li><strong class="red">September 05, 2025</strong>: Abstracts due <strong>(REQUIRED)</strong></li>
     <li><strong class="red">September 12, 2025</strong>: Submissions due</li>
