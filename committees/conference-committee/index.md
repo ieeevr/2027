@@ -152,7 +152,7 @@ title_separator: "|"
   <ul>
     <li><span class="bold">Hyeongyeop Kang</span> – <i>Korea University, Korea</i></li>
     <li><span class="bold">Kitahara, Itaru</span> – <i>University of Tsukuba, Japan</i></li>
-    <li><span class="bold">Issac Cho</span> – <i>Utah State University, USA</i></li>
+    <li><span class="bold">Isaac Cho</span> – <i>Utah State University, USA</i></li>
     <li><span class="bold">Gabriel Zachmann</span> – <i>University of Bremen, Germany</i></li>
   </ul>
 </div>
@@ -163,7 +163,7 @@ title_separator: "|"
   <ul>
     <li><span class="bold">Seungwon Kim</span> – <i>Jeonnam National University, Korea</i></li>
     <li><span class="bold">Walczak, Krzysztof</span> – <i>Poznań University of Economics and Business, Poland</i></li>
-    <li><span class="bold">Isayas, Adhanom</span> – <i>Texas State University, USA</i></li>
+    <li><span class="bold">Isayas Berhe Adhanom</span> – <i>Texas State University, USA</i></li>
   </ul>
 </div>
 <div>
@@ -183,7 +183,7 @@ title_separator: "|"
     <div class="floatRight"><span id="publications"></span></div>
   </h2>
   <ul>
-    <li><span class="bold">Sangho Yoon</span> – <i>KAIST, Korea</i></li>
+    <li><span class="bold">Sang Ho Yoon</span> – <i>KAIST, Korea</i></li>	  
     <li><span class="bold">Chen Jian</span> – <i>Ohio State University, USA</i></li>
     <li><span class="bold">Chris Mousas</span> – <i>Purdue University, USA</i></li>
     <li><span class="bold">Saeed Boorboor</span> – <i>University of Illinois Chicago, USA</i></li>
@@ -196,7 +196,7 @@ title_separator: "|"
   <ul>
     <li><span class="bold">Christian Wallraven</span> – <i>Korea University, Korea</i></li>
     <li><span class="bold">Henning Pohl</span> – <i>Aalborg University, Denmark</i></li>
-    <li><span class="bold">Sadagic Amela</span> – <i>NPS, USA</i></li>
+    <li><span class="bold">Sadagic Amela</span> – <i>Naval Postgraduate School, USA</i></li>
   </ul>
 </div>
 <div>
@@ -225,7 +225,7 @@ title_separator: "|"
     <li><span class="bold">Daniel Zielasko</span> – <i>Trier University, Germany</i></li>
     <li><span class="bold">Ellie Ebrahimi</span> – <i>University of North Carolina Wilmington, USA</i></li>
     <li><span class="bold">Geoffrey Gorisse</span> – <i>Arts et Métiers Institute of Technology, France</i></li>
-    <li><span class="bold">Unyeon Yang</span> – <i>ETRI, Korea</i></li>
+    <li><span class="bold">Ungyeon Yang</span> – <i>ETRI, Korea</i></li>
     <li><span class="bold">Ehsan Azimi</span> – <i>University of Arizona, USA</i></li>
   </ul>
 </div>
@@ -267,7 +267,7 @@ title_separator: "|"
   </h2>
   <ul>
     <li><span class="bold">Seokhee Jeon</span> – <i>Kyung Hee University, Korea</i></li>
-    <li><span class="bold">Heo, Seongkook</span> – <i>Univ of Virginia, USA</i></li>
+    <li><span class="bold">Seongkook Heo</span> – <i>University of Virginia, USA</i></li>
     <li><span class="bold">Manuela Chessa</span> – <i>University of Genoa, Italy</i></li>
     <li><span class="bold">Ludovic Hoyet</span> – <i>Centre Inria de l'Université de Rennes, France</i></li>
     <li><span class="bold">Marc Macé</span> – <i>Centre Inria de l'Université de Rennes, France</i></li>
