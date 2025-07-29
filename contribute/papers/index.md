@@ -59,7 +59,7 @@ title_separator: "|"
   </ul>
 </div>
 <h1>SUBMISSION GUIDELINES</h1>
-<p><strong>Submissions will be accepted through Precision Conference Solutions this year.</strong><br>
+<p><strong>Submissions will be accepted through Precision Conference Solutions this year. The PCS will open around mid Aug 2026.</strong><br>
   <a href="https://new.precisionconference.com/vr26a" target="_blank">https://new.precisionconference.com/vr26a</a></p>
 <p><strong>IMPORTANT:</strong> IEEE VR 2026 uses a <strong>DOUBLE-BLIND</strong> review process. Failure to anonymize submissions will result in <strong>DESK REJECTION.</strong></p>
 <p>Each research paper should provide a contribution covering one or more of the following categories: methodological, technical, applications, and systems.</p>
