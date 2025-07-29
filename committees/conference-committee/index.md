@@ -133,6 +133,11 @@ title_separator: "|"
     <li><span class="bold">Lonni Besançon</span> – <i>Linköping University, Sweden</i></li>
     <li><span class="bold">Daisuke Iwai</span> – <i>University of Osaka, Japan</i></li>
     <li><span class="bold">Shohei Mori</span> – <i>University of Stuttgart, Germany</i></li>
+    
+    
+    <li><span class="bold">Tabitha Peck</span> – <i>Davidson College, USA</i></li>
+    
+    <li><span class="bold">Daisuke Iwai</span> – <i>University of Osaka, Japan</i></li>
   </ul>
 </div>
 <div>
