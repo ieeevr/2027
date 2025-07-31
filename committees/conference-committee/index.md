@@ -137,7 +137,7 @@ title_separator: "|"
     
     <li><span class="bold">Tabitha Peck</span> – <i>Davidson College, USA</i></li>
     
-    <li><span class="bold">Daisuke Iwai</span> – <i>University of Osaka, Japan</i></li>
+    
   </ul>
 </div>
 <div>
