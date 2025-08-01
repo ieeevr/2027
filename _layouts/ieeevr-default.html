@@ -12,7 +12,63 @@ layout: default
 <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}?version=20240318">
 
 <button onclick="topFunction()" id="myBtnTop" title="Go to top">Top</button>
+<style>
+.ieeevrbanner-wrap {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+    margin-top: 1.5rem;
+    border-radius: 40px 40px 0 0;
+}
 
+.banner-link {
+  position: relative;
+  display: block;
+  width: 100%;
+  aspect-ratio: 3 / 1; /* 비율 맞게 조정 */
+  overflow: hidden;
+}
+
+.banner-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 1s ease-in-out;
+}
+
+.img1 {
+  z-index: 1;
+  animation: fadeOutFirst 10s infinite;
+}
+
+.img2 {
+  z-index: 2;
+  animation: fadeInSecond 10s infinite;
+}
+
+@keyframes fadeOutFirst {
+  0%   { opacity: 1; }
+  40%  { opacity: 1; }
+  50%  { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes fadeInSecond {
+  0%   { opacity: 0; }
+  40%  { opacity: 0; }
+  50%  { opacity: 1; }
+  90%  { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+@media screen and (max-width: 900px) {
+    border-radius: 20px 20px 0 0;
+}	
+</style>
 <script>
     var mybutton = document.getElementById("myBtnTop");
 
@@ -46,8 +102,12 @@ layout: default
 <div id="main" role="main">
     <article class="splash" style="margin:0px;" itemscope itemtype="https://schema.org/CreativeWork">
          <!-- banner -->
-         <a href={{ "/" | relative_url }}><img class="ieeevrbanner" src={{ "/assets/images/main_visual_2026.jpg" | relative_url }} alt="The official banner for the IEEE Conference on Virtual Reality + User Interfaces, comprised of a Kiwi wearing a VR headset overlaid on an image of Mount Cook and a braided river."></a>
-       
+     <div class="ieeevrbanner-wrap">
+  <a href="{{ '/' | relative_url }}" class="banner-link">
+    <img src="{{ '/assets/images/m_v_2026_01.jpg' | relative_url }}" alt="Visual 1" class="banner-img img1">
+    <img src="{{ '/assets/images/m_v_2026_02.jpg' | relative_url }}" alt="Visual 2" class="banner-img img2">
+  </a>
+</div>  
 		 <!-- navbar -->
         <div class="topnav" id="myTopnav">
             <a href="/2026/" class="active">IEEE VR</a>
