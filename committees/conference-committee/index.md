@@ -147,13 +147,13 @@ title_separator: "|"
 <h2>Publication Chairs
     <div class="floatRight"><span id="publications"></span></div>
 </h2>
-<ul><li><span class="bold">Boorboor, Saeed</span> – <i>University of Illinois Chicago, USA</i></li><li><span class="bold">Jian, Chen</span> – <i>Ohio State University, USA</i></li><li><span class="bold">Mousas, Chris</span> – <i>Purdue University, USA</i></li><li><span class="bold">Yoon, Sang Ho</span> – <i>KAIST, Korea</i></li></ul>
+<ul><li><span class="bold">Boorboor, Saeed</span> – <i>University of Illinois Chicago, USA</i></li><li><span class="bold">Jian, Chen</span> – <i>Ohio State University, USA</i></li><li><span class="bold">Mousas, Christos</span> – <i>Purdue University, USA</i></li><li><span class="bold">Yoon, Sang Ho</span> – <i>KAIST, Korea</i></li></ul>
 </div>
 <div>
 <h2>Awards Chairs
     <div class="floatRight"><span id="awards"></span></div>
 </h2>
-<ul><li><span class="bold">Amela, Sadagic</span> – <i>Naval Postgraduate School, USA</i></li><li><span class="bold">Pohl, Henning</span> – <i>Aalborg University, Denmark</i></li><li><span class="bold">Wallraven, Christian</span> – <i>Korea University, Korea</i></li></ul>
+<ul><li><span class="bold">Sadagic, Amela</span> – <i>Naval Postgraduate School, USA</i></li><li><span class="bold">Pohl, Henning</span> – <i>Aalborg University, Denmark</i></li><li><span class="bold">Wallraven, Christian</span> – <i>Korea University, Korea</i></li></ul>
 </div>
 <div>
 <h2>XR Gallery
