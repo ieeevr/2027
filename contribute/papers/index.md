@@ -175,7 +175,7 @@ title_separator: "|"
 </ul>
 <p>The VR 2026 program committee and external reviewers will be strongly encouraged to consider participant diversity in relation to the generality of a submission's claims as a first-order reviewing concern. Submissions that make general claims yet rely on a severely imbalanced participant group may be negatively impacted by the reviewing process.
 </p>
-<p class="t_m_01">Review Duties for Authors.
+<p class="t_m_01" id="review_dueties">Review Duties for Authors.
 </p>
 <p>The increasing number of submissions for IEEE VR makes us all dependent on a large number of good reviewers who are willing to provide constructive feedback and engage with authors on their work. Every paper needs three quality reviews. To expand the reviewing pool and to promote quality reviews, for each submitted paper, each senior author will be required to register to review at least one paper through PCS at the time of submission - although more would obviously be welcome. Additionally, senior authors are encouraged to ask experienced junior authors to register in PCS to review papers, and then to mentor the experienced junior authors during the review process.
 </p>
