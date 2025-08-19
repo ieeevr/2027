@@ -8,7 +8,7 @@ title_separator: "|"
     $(document).ready(function(){
 		var email = ""; 
 		var domain = "ieeevr.org"; 
-		email = "exhibitsponsors2026"; 
+		email = "exhibitsponsor2026"; 
 		$(".exhibitsponsors").html("<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIcon' style=''></i><i class='emailText'>" + email + "@" + domain + "</a></i></span>");    
 	});
 </script>
@@ -56,5 +56,5 @@ title_separator: "|"
     <p>
         <a href="https://ieeevr.org/dev/assets/downloads/Exhibitors_and_Sponsors_CfP_160924v1_IEEE_VR_2025.pdf">Call for Sponsors and Exhibitors</a> 
     </p-->
-  <p> You can contact us at : <a href= "mailto: exhibitsponsors2026@ieeevr.org"  target="_blank">exhibitsponsors2026@ieeevr.org</a> </p>
+  <p> You can contact us at : <a href= "mailto: exhibitsponsor2026@ieeevr.org"  target="_blank">exhibitsponsor2026@ieeevr.org</a> </p>
 </div>
