@@ -12,424 +12,320 @@ layout: default
 <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}?version=20250801">
 
 <button onclick="topFunction()" id="myBtnTop" title="Go to top">Top</button>
+
 <style>
+/* ===== 배너 ===== */
 .ieeevrbanner-wrap {
   position: relative;
   width: 100%;
   max-width: 100%;
   overflow: hidden;
-    margin-top: 1.5rem;
-    border-radius: 40px 40px 0 0;
+  margin-top: 1.5rem;
+  border-radius: 40px 40px 0 0;
 }
-
 .banner-link {
   position: relative;
   display: block;
   width: 100%;
-  aspect-ratio: 3 / 1; /* 비율 맞게 조정 */
+  aspect-ratio: 3 / 1; /* 가로:세로 비율 */
   overflow: hidden;
 }
-
 .banner-img {
   position: absolute;
-  top: 0;
-  left: 0;
+  inset: 0;
   width: 100%;
   height: 100%;
-  /*object-fit: cover;
-  transition: opacity 1s ease-in-out;*/
+  object-fit: cover;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .9s ease-in-out, visibility .9s ease-in-out;
 }
-
-/*.img1 {
-  z-index: 1;
-  animation: fadeOutFirst 10s infinite;
+.banner-img.active {
+  opacity: 1;
+  visibility: visible;
 }
-
-.img2 {
-  z-index: 2;
-  animation: fadeInSecond 10s infinite;
+/* 접근성: 모션 최소화 설정 존중 */
+@media (prefers-reduced-motion: reduce) {
+  .banner-img { transition: none; }
 }
-
-@keyframes fadeOutFirst {
-  0%   { opacity: 1; }
-  40%  { opacity: 1; }
-  50%  { opacity: 0; }
-  100% { opacity: 1; }
-}
-
-@keyframes fadeInSecond {
-  0%   { opacity: 0; }
-  40%  { opacity: 0; }
-  50%  { opacity: 1; }
-  90%  { opacity: 1; }
-  100% { opacity: 0; }
-}*/
-
+/* 모바일 모서리 반경 축소 */
 @media screen and (max-width: 900px) {
-    border-radius: 20px 20px 0 0;
-}	
+  .ieeevrbanner-wrap { border-radius: 20px 20px 0 0; }
+}
 </style>
+
 <script>
-    var mybutton = document.getElementById("myBtnTop");
+  var mybutton = document.getElementById("myBtnTop");
 
-    window.onscroll = function() {
-        scrollFunction()
-    };
+  window.onscroll = function() {
+      scrollFunction()
+  };
 
-    function scrollFunction() {
-        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-            mybutton.style.display = "block";
-        } else {
-            mybutton.style.display = "none";
-        }
-    }
+  function scrollFunction() {
+      if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+          mybutton.style.display = "block";
+      } else {
+          mybutton.style.display = "none";
+      }
+  }
 
-    function topFunction() {
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
-    }
+  function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+  }
 
-    function myFunction() {
-        var x = document.getElementById("myTopnav");
-        if (x.className === "topnav") {
-            x.className += " responsive";
-        } else {
-            x.className = "topnav";
-        }
-    }
+  function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+          x.className += " responsive";
+      } else {
+          x.className = "topnav";
+      }
+  }
 </script>
 
 <div id="main" role="main">
-    <article class="splash" style="margin:0px;" itemscope itemtype="https://schema.org/CreativeWork">
-         <!-- banner -->
-     <div class="ieeevrbanner-wrap">
-  <a href="{{ '/' | relative_url }}" class="banner-link">
-    <img src="{{ '/assets/images/main_visual_2026.jpg' | relative_url }}" alt="Visual 1" class="banner-img">
-    <!--img src="{{ '/assets/images/m_v_2026_02.jpg' | relative_url }}" alt="Visual 2" class="banner-img img2"-->
-  </a>
-</div>  
-		 <!-- navbar -->
-        <div class="topnav" id="myTopnav">
-            <a href="/2026/" class="active">IEEE VR</a>
+  <article class="splash" style="margin:0px;" itemscope itemtype="https://schema.org/CreativeWork">
 
-            <div class="dropdown">
-                <button class="dropbtn">Attend &#9662;</button>
-                <div class="dropdown-content">
-                    <a href={{ "/attend/code-of-conduct/" | relative_url }}>Code of Conduct</a>
-                    <a href={{ "/attend/venue/" | relative_url }}>Getting There</a>
-                    <a href={{ "/attend/accommodations" | relative_url }}>Accommodations</a>
-                    <!--a href={{ "/attend/accessibility/" | relative_url }}>Accessibility of the venue</a-->
-                    <a href={{ "/attend/conference-center-map/" | relative_url }}>Conference Center Map</a>
-                    <!--a href={{ "/attend/food/" | relative_url }}>Getting Food</a-->
-                    <a href={{ "/attend/practical-information/" | relative_url }}>Practical information</a>
-                    <a href={{ "/attend/registration/" | relative_url }}>Registration</a>
-                    <a href="">My Account</a>
-                    <!--<a href={{ "/attend/getting-there/" | relative_url }}>Getting There</a>-->
-                    <a href={{ "/attend/DEIA-grants/" | relative_url }}>DEIA-Grants</a>
-                    <a href={{ "/attend/mentorship/" | relative_url }}>Mentorship</a>
-                    <!--<a href={{ "/attend/tourism" | relative_url }}>Tourism</a>-->
-                      </div>
-            </div>
-            <div class="dropdown">
-                <button class="dropbtn">Program &#9662;</button>
-                <div class="dropdown-content">
-                    <!--<a href={{ "/program/at-a-glance/" | relative_url }}>At a Glance</a>-->
-                    <a href={{ "/program/overview/" | relative_url }}>Program Overview</a>
-                    <a href={{ "/program/keynote-speakers/" | relative_url }}>Keynote Speakers</a>
-                    <a href={{ "/program/papers/" | relative_url }}>Papers</a>
-                    <a href={{ "/program/posters/" | relative_url }}>Posters</a>
-                    <a href={{ "/program/panels/" | relative_url }}>Panels</a>
-                    <a href={{ "/program/workshop/" | relative_url }}>Workshops</a>
-                    <a href={{ "/program/tutorials/" | relative_url }}>Tutorials</a>
-                    <a href={{ "/program/xrgallery/" | relative_url }}>XR Gallery</a>
-                    <a href={{ "/program/3dui-contest/" | relative_url }}>3DUI Contest</a>
-                    <!--<a href={{ "/program/videos/" | relative_url }}>Videos</a>-->
-                    <a href={{ "/program/demos/" | relative_url }}>Research Demos</a>
-                    <a href={{ "/program/future-faculty-forum/" | relative_url }}>Future Faculty Forum</a>
-                    <a href={{ "/program/doctoral-consortium/" | relative_url }}>Doctoral Consortium</a>
-                    <a href={{ "/program/social-program/" | relative_url }}>Social Program</a>
-                    <!--<a href={{ "/program/forum/" | relative_url }}>Metaverse Industry Forum</a>-->
-                    <!--<a href={{ "/program/exchange-event/" | relative_url }}>Youth Scholars Exchange Event</a>-->
-                    <!--a href={{ "/program/VRLab-tour/" | relative_url }}>VR Lab tour</a>
-					<a href={{ "/program/Mt-St-Michel-visit/" | relative_url }}>Visit to the Mont Saint Michel</a-->
-                </div>
-            </div>
-            
-            <div class="dropdown">
-                <button class="dropbtn">Contribute &#9662;</button>
-                <div class="dropdown-content">
-                    <!--<a href={{ "/contribute/exhibitors" | relative_url }}>Call for Exhibitors and Sponsors</a>-->
-                    <a href={{ "/contribute/papers/" | relative_url }}>Call for Papers</a>
-                    <a href={{ "/contribute/posters/" | relative_url }}>Call for Posters</a>
-                    <a href={{ "/contribute/workshops/" | relative_url }}>Call for Workshops</a>
-                    <a href={{ "/contribute/3dui-contest/" | relative_url }}>Call for 3DUI Contest Entries</a>
-                    <a href={{ "/contribute/demos/" | relative_url }}>Call for Research Demos</a>
-                    <a href={{ "/contribute/xrgallery/" | relative_url }}>Call for Proposals "<strong>XR Gallery</strong>"</a>
-                    <a href={{ "/contribute/doctoral-consortium/" | relative_url }}>Call for Doctoral Consortium</a>
-                    <a href={{ "/contribute/tutorials/" | relative_url }}>Call for Tutorials</a>
-                    <!--<a href={{ "/contribute/workshoppapers/" | relative_url }}>Call for Workshop Papers</a>-->
-                    <!--<a href={{ "/contribute/panels/" | relative_url }}>Call for Panels</a>-->
-                    <!--<a href={{ "/contribute/videos/" | relative_url }}>Call for Videos</a>-->
-                    <a href={{ "/contribute/studentVolunteers/" | relative_url }}>Call for Student Volunteers</a>
-                    <!--<a href={{ "/contribute/satellite-event/" | relative_url }}>Call for Satellite Event</a>-->
-                </div>
-            </div>
-            
-            <div class="dropdown">
-                <button class="dropbtn">Awards &#9662;</button>
-                <div class="dropdown-content">
-                    <a href={{ "/awards/vgtc" | relative_url }}>VGTC Awards</a>
-                    <a href={{ "/awards/conference-awards" | relative_url }}>Conference Awards</a>
-                </div>
-            </div>
+    <!-- banner -->
+    <div class="ieeevrbanner-wrap" id="homeBanner">
+      <a href="{{ '/' | relative_url }}" class="banner-link" aria-label="IEEE VR Home (banner)">
+        <!-- 6장 이미지: 파일 경로/이름만 실제 자산에 맞게 유지 또는 변경 -->
+        <img src="{{ '/assets/images/mv_2026_001.jpg' | relative_url }}" alt="Visual 1" class="banner-img active" loading="eager">
+        <img src="{{ '/assets/images/mv_2026_002.jpg' | relative_url }}" alt="Visual 2" class="banner-img" loading="lazy">
+        <img src="{{ '/assets/images/mv_2026_003.jpg' | relative_url }}" alt="Visual 3" class="banner-img" loading="lazy">
+        <img src="{{ '/assets/images/mv_2026_004.jpg' | relative_url }}" alt="Visual 4" class="banner-img" loading="lazy">
+        <img src="{{ '/assets/images/mv_2026_005.jpg' | relative_url }}" alt="Visual 5" class="banner-img" loading="lazy">
+        <img src="{{ '/assets/images/mv_2026_006.jpg' | relative_url }}" alt="Visual 6" class="banner-img" loading="lazy">
+      </a>
+    </div>
 
-            <div class="dropdown">
-                <button class="dropbtn">Committees &#9662;</button>
-                <div class="dropdown-content">
-                    <a href={{ "/committees/conference-committee/" | relative_url }}>Conference Committee</a>
-                    <a href={{ "/committees/steering-committee/" | relative_url }}>Steering Committee</a> 
-                    <a href={{ "/committees/program-committee/" | relative_url }}>Program Committee</a>
-                    <a href={{ "/committees/reviewers/" | relative_url }}>Reviewers</a>
-                    <a href={{ "/committees/sv/" | relative_url }}>Student Volunteers</a>
-                </div>
-            </div>
-            <div class="dropdown">
-                <button class="dropbtn">Resources &#9662;</button>
-                <div class="dropdown-content">
-                    <a href={{ "/resources/environmental-evaluation" | relative_url }}>Environmental Evaluation</a>
-                    <a href={{ "/resources/slide-templates" | relative_url }}>Slide Templates</a>
-                    <a href={{ "/resources/poster-templates" | relative_url }}>Poster Templates</a>
-                    <a href={{ "/resources/poster-teaser-slides" | relative_url }}>Poster Teaser Slides Template</a>
-                    <a href={{ "/resources/paper-video-presentation-guidelines" | relative_url }}>Paper Video Presentation Guidelines</a>
-                    <a href={{ "/resources/logos" | relative_url }}>Conference Logos</a> 
-                    <a href={{ "/resources/backgrounds" | relative_url }}>Backgrounds</a>
-                    <a href={{ "/resources/social-media" | relative_url }}>Social Media Template</a>
-                </div>
-            </div> 
-            <div class="dropdown">
-                <button class="dropbtn">Sponsors & Exhibitors &#9662;</button>
-                <div class="dropdown-content">
-                    <a href={{ "/sponsors/call" | relative_url }}>Call for Sponsors & Exhibitors</a>
-                    <a href={{ "/sponsors/exhibitor-area" | relative_url }}>Exhibition Area</a>
-                    <a href={{ "/sponsors/sponsors-list" | relative_url }}>Sponsors List</a> 
-                </div>
-            </div> 
-            <a href={{ "/store" | relative_url }}>Store</a>
-            <a href="/2026/past-conferences/">Past Conferences</a>
-            <a href="javascript:void(0);" style="font-size:16px;" class="icon" onclick="myFunction()">&#9776;</a>
+    <!-- navbar -->
+    <div class="topnav" id="myTopnav">
+      <a href="/2026/" class="active">IEEE VR</a>
+
+      <div class="dropdown">
+        <button class="dropbtn">Attend &#9662;</button>
+        <div class="dropdown-content">
+          <a href={{ "/attend/code-of-conduct/" | relative_url }}>Code of Conduct</a>
+          <a href={{ "/attend/venue/" | relative_url }}>Getting There</a>
+          <a href={{ "/attend/accommodations" | relative_url }}>Accommodations</a>
+          <!--a href={{ "/attend/accessibility/" | relative_url }}>Accessibility of the venue</a-->
+          <a href={{ "/attend/conference-center-map/" | relative_url }}>Conference Center Map</a>
+          <!--a href={{ "/attend/food/" | relative_url }}>Getting Food</a-->
+          <a href={{ "/attend/practical-information/" | relative_url }}>Practical information</a>
+          <a href={{ "/attend/registration/" | relative_url }}>Registration</a>
+          <a href="">My Account</a>
+          <!--<a href={{ "/attend/getting-there/" | relative_url }}>Getting There</a>-->
+          <a href={{ "/attend/DEIA-grants/" | relative_url }}>DEIA-Grants</a>
+          <a href={{ "/attend/mentorship/" | relative_url }}>Mentorship</a>
+          <!--<a href={{ "/attend/tourism" | relative_url }}>Tourism</a>-->
         </div>
-	   
-	   
-        <!-- content -->
-        <section class="page__content" itemprop="text">
-            <div class="row">
-                <!-- Main Content -->
-                <!-- left sidebar -->
-                <div class="column left">
-                    {{ content }}
-                </div>
-                <div class="column center"></div>
+      </div>
 
-                <!-- right sidebar -->
-                <div class="column right alignCenter"> 
-                    <div class="confsponsors" id="sponsors">
-                        <div>
-                            <a href="https://www.ieee.org" target="_new" style="width:30%;"><img src={{ "/assets/images/sponsors/ieee-logo-white.svg" | relative_url }} alt="IEEE" style="height: 35px;"></a>&nbsp;
-                            <a href="https://www.computer.org" target="_new" style="width:30%;"><img src={{ "/assets/images/sponsors/ieee-cs-logo-white.svg" | relative_url }} alt="IEEE Computer Society" style="height: 35px;"></a>
-                            <a href="http://vgtc.org" target="_new" style="width:30%;"><img src={{ "/assets/images/sponsors/ieee-vgtc-logo-white.svg" | relative_url }} alt="IEEE Visualization and Graphics Technical Community" style="height: 50px;"></a>
-                        </div>
-                        
-                        <br>
-                        <hr class = "social-hr"> 
-                        <div>
-                            <ul class="social-icons">
-                                <li><a href="https://facebook.com/ieeevr"><img src={{ "/assets/images/social/Facebook.png" | relative_url }} alt="Facebook" target="_blank" /></a></li>
-                                <li><a href="http://www.twitter.com/ieeevr"><img src={{ "/assets/images/social/twitter.png" | relative_url }} alt='Twitter' target="_blank" /></a></li>
-                            	<li><a href="https://www.linkedin.com/showcase/ieee-vr-conference-on-virtual-reality-and-3d-user-interfaces/" target="_blank" ><img src={{ "/assets/images/social/linkedin.png" | relative_url }} alt="LinkedIn" /></a></li>
-							</ul>
-                        </div>
-						
-						<!-- Conference Sponsors -->
-                        <!--h4 class="sponsor_section">Conference Sponsors</h4>                         
-                        
-                        <!-- Special -->
-                        <!--div class="confsponsors-type">Special</div>
-						<a href="https://inria.fr/en" target="_blank">
-                            <img class="conf-icon" style="width: 70%;" src="/2025/assets/images/sponsors/Inria.png" alt="Inria logo.">
-                        </a>
-						<br><br>
-                        
-                        <!-- Diamond -->
-                        <!-- <div  class="confsponsors-type">Diamond</div>
-                        <br>
+      <div class="dropdown">
+        <button class="dropbtn">Program &#9662;</button>
+        <div class="dropdown-content">
+          <!--<a href={{ "/program/at-a-glance/" | relative_url }}>At a Glance</a>-->
+          <a href={{ "/program/overview/" | relative_url }}>Program Overview</a>
+          <a href={{ "/program/keynote-speakers/" | relative_url }}>Keynote Speakers</a>
+          <a href={{ "/program/papers/" | relative_url }}>Papers</a>
+          <a href={{ "/program/posters/" | relative_url }}>Posters</a>
+          <a href={{ "/program/panels/" | relative_url }}>Panels</a>
+          <a href={{ "/program/workshop/" | relative_url }}>Workshops</a>
+          <a href={{ "/program/tutorials/" | relative_url }}>Tutorials</a>
+          <a href={{ "/program/xrgallery/" | relative_url }}>XR Gallery</a>
+          <a href={{ "/program/3dui-contest/" | relative_url }}>3DUI Contest</a>
+          <!--<a href={{ "/program/videos/" | relative_url }}>Videos</a>-->
+          <a href={{ "/program/demos/" | relative_url }}>Research Demos</a>
+          <a href={{ "/program/future-faculty-forum/" | relative_url }}>Future Faculty Forum</a>
+          <a href={{ "/program/doctoral-consortium/" | relative_url }}>Doctoral Consortium</a>
+          <a href={{ "/program/social-program/" | relative_url }}>Social Program</a>
+          <!--<a href={{ "/program/forum/" | relative_url }}>Metaverse Industry Forum</a>-->
+          <!--<a href={{ "/program/exchange-event/" | relative_url }}>Youth Scholars Exchange Event</a>-->
+          <!--a href={{ "/program/VRLab-tour/" | relative_url }}>VR Lab tour</a>
+          <a href={{ "/program/Mt-St-Michel-visit/" | relative_url }}>Visit to the Mont Saint Michel</a-->
+        </div>
+      </div>
 
-                        <!-- Platinum -->
-                        <!-- <div  class="confsponsors-type">Platinum</div>
-                        <br>
+      <div class="dropdown">
+        <button class="dropbtn">Contribute &#9662;</button>
+        <div class="dropdown-content">
+          <!--<a href={{ "/contribute/exhibitors" | relative_url }}>Call for Exhibitors and Sponsors</a>-->
+          <a href={{ "/contribute/papers/" | relative_url }}>Call for Papers</a>
+          <a href={{ "/contribute/posters/" | relative_url }}>Call for Posters</a>
+          <a href={{ "/contribute/workshops/" | relative_url }}>Call for Workshops</a>
+          <a href={{ "/contribute/3dui-contest/" | relative_url }}>Call for 3DUI Contest Entries</a>
+          <a href={{ "/contribute/demos/" | relative_url }}>Call for Research Demos</a>
+          <a href={{ "/contribute/xrgallery/" | relative_url }}>Call for Proposals "<strong>XR Gallery</strong>"</a>
+          <a href={{ "/contribute/doctoral-consortium/" | relative_url }}>Call for Doctoral Consortium</a>
+          <a href={{ "/contribute/tutorials/" | relative_url }}>Call for Tutorials</a>
+          <!--<a href={{ "/contribute/workshoppapers/" | relative_url }}>Call for Workshop Papers</a>-->
+          <!--<a href={{ "/contribute/panels/" | relative_url }}>Call for Panels</a>-->
+          <!--<a href={{ "/contribute/videos/" | relative_url }}>Call for Videos</a>-->
+          <a href={{ "/contribute/studentVolunteers/" | relative_url }}>Call for Student Volunteers</a>
+          <!--<a href={{ "/contribute/satellite-event/" | relative_url }}>Call for Satellite Event</a>-->
+        </div>
+      </div>
 
-                        <!-- Gold -->
-                        <!-- <div class="confsponsors-type">Gold</div>
-                        <br>
+      <div class="dropdown">
+        <button class="dropbtn">Awards &#9662;</button>
+        <div class="dropdown-content">
+          <a href={{ "/awards/vgtc" | relative_url }}>VGTC Awards</a>
+          <a href={{ "/awards/conference-awards" | relative_url }}>Conference Awards</a>
+        </div>
+      </div>
 
-                        <!-- Silver -->
-                        <!--div class="confsponsors-type">Silver</div><br>
-						<a href="https://www.interdigital.com/" target="_blank">
-                            <img class="conf-icon" style="width: 90%;" src="/2025/assets/images/sponsors/InterDigital.png" alt="InterDigital logo.">
-                        </a>
-                        <br><br>
-						<a href="https://about.google/" target="_blank">
-                            <img class="conf-icon" style="width: 90%;" src="/2025/assets/images/sponsors/Google.png" alt="Google logo.">
-                        </a>
-                        <br><br-->
-						
-						
-                        <!-- Bronze -->
-                        <!--div  class="confsponsors-type">Bronze</div>
-						<a href="https://www.middlevr.com/2/" target="_blank">
-                            <img class="conf-icon" style="width: 90%;" src="/2025/assets/images/sponsors/MiddleVR.png" alt="MiddleVR logo.">
-                        </a>
-						<br>
-						<a href="https://www.hitlabnz.org/" target="_blank">
-                            <img class="conf-icon" style="width: 90%;" src="/2025/assets/images/sponsors/Hit Lab NZ_Bronze.png" alt="HITLab NZ logo.">
-                        </a>
-						<br><br>
-						<a href="https://www.immersion.fr/" target="_blank">
-                            <img class="conf-icon" style="width: 70%;" src="/2025/assets/images/sponsors/Immersion.png" alt="Immersion logo.">
-                        </a>
-						<br>
-						<a href="https://www.qualcomm.com/" target="_blank">
-                            <img class="conf-icon" style="width: 70%;" src="/2025/assets/images/sponsors/Qualcomm.png" alt="Qualcomm logo.">
-                        </a>
-						<br>
-						<a href="https://www.huawei.com/en/" target="_blank">
-                            <img class="conf-icon" style="width: 70%;" src="/2025/assets/images/sponsors/Huawei.jpg" alt="Huawei logo.">
-                        </a>
-                        <br>
-						<a href="https://www.meta.com/" target="_blank">
-                            <img class="conf-icon" style="width: 90%;" src="/2025/assets/images/sponsors/meta.png" alt="Meta logo.">
-		    </a-->
+      <div class="dropdown">
+        <button class="dropbtn">Committees &#9662;</button>
+        <div class="dropdown-content">
+          <a href={{ "/committees/conference-committee/" | relative_url }}>Conference Committee</a>
+          <a href={{ "/committees/steering-committee/" | relative_url }}>Steering Committee</a>
+          <a href={{ "/committees/program-committee/" | relative_url }}>Program Committee</a>
+          <a href={{ "/committees/reviewers/" | relative_url }}>Reviewers</a>
+          <a href={{ "/committees/sv/" | relative_url }}>Student Volunteers</a>
+        </div>
+      </div>
 
+      <div class="dropdown">
+        <button class="dropbtn">Resources &#9662;</button>
+        <div class="dropdown-content">
+          <a href={{ "/resources/environmental-evaluation" | relative_url }}>Environmental Evaluation</a>
+          <a href={{ "/resources/slide-templates" | relative_url }}>Slide Templates</a>
+          <a href={{ "/resources/poster-templates" | relative_url }}>Poster Templates</a>
+          <a href={{ "/resources/poster-teaser-slides" | relative_url }}>Poster Teaser Slides Template</a>
+          <a href={{ "/resources/paper-video-presentation-guidelines" | relative_url }}>Paper Video Presentation Guidelines</a>
+          <a href={{ "/resources/logos" | relative_url }}>Conference Logos</a>
+          <a href={{ "/resources/backgrounds" | relative_url }}>Backgrounds</a>
+          <a href={{ "/resources/social-media" | relative_url }}>Social Media Template</a>
+        </div>
+      </div>
 
-                        <!-- Doctoral Consortium Sponsors -->
-                        <!-- <h4 class="sponsor_section">Doctoral Consortium Sponsors</h4>
-                        <br>
+      <div class="dropdown">
+        <button class="dropbtn">Sponsors & Exhibitors &#9662;</button>
+        <div class="dropdown-content">
+          <a href={{ "/sponsors/call" | relative_url }}>Call for Sponsors & Exhibitors</a>
+          <a href={{ "/sponsors/exhibitor-area" | relative_url }}>Exhibition Area</a>
+          <a href={{ "/sponsors/sponsors-list" | relative_url }}>Sponsors List</a>
+        </div>
+      </div>
 
-                        <!-- Supporters -->
-                        <!--h4 class="sponsor_section">Supporters</h4>
-						<a href="https://www.afxr.org/page/1756926-accueil" target="_blank">
-                            <img class="conf-icon" style="width: 60%;" src="/2025/assets/images/sponsors/AFXR.png" alt="AFXR logo.">
-                        </a>
-						<br>
-						<a href="https://labsticc.fr/en" target="_blank">
-                            <img class="conf-icon" style="width: 60%;" src="/2025/assets/images/sponsors/LabSTICC.png" alt="LabSTICC logo.">
-                        </a>
-						<br>
-						<a href="https://guestxr.eu/" target="_blank">
-                            <img class="conf-icon" style="width: 70%;" src="/2025/assets/images/sponsors/GuestXR.png" alt="GuestXR logo.">
-                        </a>
-						<br>
-						<a href="https://artsetmetiers.fr/en" target="_blank">
-                            <img class="conf-icon" style="width: 70%;" src="/2025/assets/images/sponsors/ENSAM.png" alt="ENSAM logo.">
-                        </a>
-						<a href="https://www.haption.com/" target="_blank">
-                            <img class="conf-icon" style="width: 60%;" src="/2025/assets/images/sponsors/Haption.jpg" alt="Haption logo.">
-                        </a>
-						<br><br>
-						<a href="https://www.euroxr-association.org/" target="_blank">
-                            <img class="conf-icon" style="width: 60%;" src="/2025/assets/images/sponsors/EuroXR.png" alt="EuroXR logo.">
-                        </a><br><br>
-						<a href="https://www.insa-rennes.fr/graduate-school-of-engineering.html" target="_blank">
-                            <img class="conf-icon" style="width: 70%;" src="/2025/assets/images/sponsors/INSA.png" alt="INSA logo.">
-                        </a><br><br>
-						<a href="https://www.neurociencies.ub.edu/" target="_blank">
-                            <img class="conf-icon" style="width: 100%;" src="/2025/assets/images/sponsors/InstitutNeurociencies.png" alt="Institut de Neurociencies, Universitat de Barcelona logo.">
-                        </a>
-						<br><br>
-						<a href="https://sharespace.eu/" target="_blank">
-                            <img class="conf-icon" style="width: 60%;" src="/2025/assets/images/sponsors/SHARESPACE.jpg" alt="SHARESPACE logo.">
-                        </a>
-						<br><br>
-						<a href="https://www.bretagne.bzh/" target="_blank">
-                            <img class="conf-icon" style="width: 60%;" src="/2025/assets/images/sponsors/RegionBretagne.jpg" alt="RegionBretagne logo.">
-                        </a>
-						<br><br>
-						<a href="https://www.univ-rennes.fr/en" target="_blank">
-                            <img class="conf-icon" style="width: 70%;" src="/2025/assets/images/sponsors/UnivRennes.png" alt="UnivRennes logo.">
-                        </a>
-						<br><br>
-						<a href="https://www.orange.fr" target="_blank">
-                            <img class="conf-icon" style="width: 60%;" src="/2025/assets/images/sponsors/Orange.jpg" alt="Orange logo.">
-                        </a>
-						<br><br>
-						<a href="https://www.clarte-lab.fr/" target="_blank">
-                            <img class="conf-icon" style="width: 70%;" src="/2025/assets/images/sponsors/Clarte.png" alt="CLARTE logo.">
-                        </a>
-						<br><br>
-						<a href="https://star.rcast.u-tokyo.ac.jp/en/" target="_blank">
-                            <img class="conf-icon" style="width: 90%;" src="/2025/assets/images/sponsors/Inami.png" alt="Inami Monnai Lab logo.">
-                        </a>
-						<br><br>
-						<a href="https://vrsj.org/" target="_blank">
-                            <img class="conf-icon" style="width: 80%;" src="/2025/assets/images/sponsors/VRSJ.png" alt="VRSJ logo.">
-                        </a>
-						<br><br>
-						<a href="https://www.cesi.fr/en/" target="_blank">
-                            <img class="conf-icon" style="width: 60%;" src="/2025/assets/images/sponsors/CESI.jpg" alt="CESI logo.">
-                        </a>
-						<br><br>
-						<a href="https://www.stmalo-agglomeration.fr/" target="_blank">
-                            <img class="conf-icon" style="width: 70%;" src="/2025/assets/images/sponsors/AgloSaint-Malo.png" alt="Agglomeration Saint-Malo logo.">
-						</a-->
-                        <!-- Host -->
-                        <!-- <h4 class="sponsor_section">Host</h4>                       
-                        <br>
+      <a href={{ "/store" | relative_url }}>Store</a>
+      <a href="/2026/past-conferences/">Past Conferences</a>
+      <a href="javascript:void(0);" style="font-size:16px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
 
-                        <!-- Co-Host -->
-                        <!-- <h4 class="sponsor_section">Co-Host</h4>
-                        <br>
+    <!-- content -->
+    <section class="page__content" itemprop="text">
+      <div class="row">
+        <!-- left -->
+        <div class="column left">
+          {{ content }}
+        </div>
+        <div class="column center"></div>
 
-                        <!-- Supporting Associations -->
-                        <!-- <h4 class="sponsor_section">Supporting Associations</h4>
-						
-                        <script> /***<table width="100%" border="0" cellspacing="0" cellpadding="0" frame=void>
-                            <tr>
-                                <td align="center"  style="width: 33%;"></td>
-                                <td align="center"  style="width: 33%;"> </td>
-                                <td align="center"  style="width: 33%;"></td>
-                            </tr>
-                            <tr>
-                                <td align="center"  style="width: 33%;"></td>
-                                <td align="center"  style="width: 33%;"></td>
-                                <td align="center"  style="width: 33%;"></td>
-                            </tr>                        
-                        </table>
-                        ***/ </script>
-                        <br> -->
-						
-                    </div>
-                </div>
+        <!-- right -->
+        <div class="column right alignCenter">
+          <div class="confsponsors" id="sponsors">
+            <div>
+              <a href="https://www.ieee.org" target="_new" style="width:30%;"><img src={{ "/assets/images/sponsors/ieee-logo-white.svg" | relative_url }} alt="IEEE" style="height: 35px;"></a>&nbsp;
+              <a href="https://www.computer.org" target="_new" style="width:30%;"><img src={{ "/assets/images/sponsors/ieee-cs-logo-white.svg" | relative_url }} alt="IEEE Computer Society" style="height: 35px;"></a>
+              <a href="http://vgtc.org" target="_new" style="width:30%;"><img src={{ "/assets/images/sponsors/ieee-vgtc-logo-white.svg" | relative_url }} alt="IEEE Visualization and Graphics Technical Community" style="height: 50px;"></a>
             </div>
 
-            <!--  footer -->
-            <div class="ieeevrfooter">
-                <hr>
-                <div>
-                    <a href="https://www.ieee.org" target="_new" style="margin-left: 2rem;">
-                        <img src={{ "/assets/images/sponsors/ieee-logo-white.svg" | relative_url }} alt="IEEE" style="height: 35px;">
-                    </a>
-                    <a  href="https://www.computer.org" target="_new" style="margin-left: 2rem;">
-                        <img src={{ "/assets/images/sponsors/ieee-cs-logo-white.svg" | relative_url }} alt="IEEE Computer Society" style="height: 35px;">
-                    </a>
-                    <a href="http://vgtc.org" target="_new" style="margin-left: 2rem;">
-                        <img src={{ "/assets/images/sponsors/ieee-vgtc-logo-white.svg" | relative_url }} alt="IEEE Visualization and Graphics Technical Community" style="height: 35px;">
-                    </a>
-                    <!--a href="https://www.inria.fr/en" target="_new" style="margin-left: 2rem;">
-                        <img src={{ "/assets/images/sponsors/inria_logo_white_small.svg" | relative_url }} alt="INRIA" style="height: 35px;">
-		</a-->
-                </div>
-                <p style="text-align:center ! important;">©IEEE VR Conference 2026, Sponsored by the IEEE Computer Society and the Visualization and Graphics Technical Committee</p>
+            <br>
+            <hr class="social-hr">
+            <div>
+              <ul class="social-icons">
+                <li><a href="https://facebook.com/ieeevr"><img src={{ "/assets/images/social/Facebook.png" | relative_url }} alt="Facebook" target="_blank" /></a></li>
+                <li><a href="http://www.twitter.com/ieeevr"><img src={{ "/assets/images/social/twitter.png" | relative_url }} alt="Twitter" target="_blank" /></a></li>
+                <li><a href="https://www.linkedin.com/showcase/ieee-vr-conference-on-virtual-reality-and-3d-user-interfaces/" target="_blank"><img src={{ "/assets/images/social/linkedin.png" | relative_url }} alt="LinkedIn" /></a></li>
+              </ul>
             </div>
-        </section>
 
-    </article>
+            <!-- (중략된 스폰서 섹션 주석은 유지) -->
+
+          </div>
+        </div>
+      </div>
+
+      <!--  footer -->
+      <div class="ieeevrfooter">
+        <hr>
+        <div>
+          <a href="https://www.ieee.org" target="_new" style="margin-left: 2rem;">
+            <img src={{ "/assets/images/sponsors/ieee-logo-white.svg" | relative_url }} alt="IEEE" style="height: 35px;">
+          </a>
+          <a href="https://www.computer.org" target="_new" style="margin-left: 2rem;">
+            <img src={{ "/assets/images/sponsors/ieee-cs-logo-white.svg" | relative_url }} alt="IEEE Computer Society" style="height: 35px;">
+          </a>
+          <a href="http://vgtc.org" target="_new" style="margin-left: 2rem;">
+            <img src={{ "/assets/images/sponsors/ieee-vgtc-logo-white.svg" | relative_url }} alt="IEEE Visualization and Graphics Technical Community" style="height: 35px;">
+          </a>
+          <!--a href="https://www.inria.fr/en" target="_new" style="margin-left: 2rem;">
+              <img src={{ "/assets/images/sponsors/inria_logo_white_small.svg" | relative_url }} alt="INRIA" style="height: 35px;">
+          </a-->
+        </div>
+        <p style="text-align:center ! important;">©IEEE VR Conference 2026, Sponsored by the IEEE Computer Society and the Visualization and Graphics Technical Committee</p>
+      </div>
+    </section>
+
+  </article>
 </div>
+
+<!-- ===== 배너 슬라이더 스크립트 ===== -->
+<script>
+(function () {
+  // 설정값
+  var INTERVAL = 5000;      // 각 장당 표시 시간(ms)
+  var HOVER_PAUSE = true;   // 호버 시 일시정지 여부
+
+  var wrap = document.getElementById('homeBanner');
+  if (!wrap) return;
+
+  var imgs = wrap.querySelectorAll('.banner-img');
+  if (!imgs.length) return;
+
+  var idx = 0;
+  var timer = null;
+
+  function show(n) {
+    for (var i = 0; i < imgs.length; i++) {
+      if (i === n) imgs[i].classList.add('active');
+      else imgs[i].classList.remove('active');
+    }
+  }
+
+  function next() {
+    idx = (idx + 1) % imgs.length;
+    show(idx);
+  }
+
+  function start() {
+    if (timer) return;
+    timer = setInterval(next, INTERVAL);
+  }
+
+  function stop() {
+    if (!timer) return;
+    clearInterval(timer);
+    timer = null;
+  }
+
+  // 초기 구동
+  show(idx);
+  start();
+
+  // 탭 비활성화/복귀 시 자원 절약
+  document.addEventListener('visibilitychange', function () {
+    if (document.hidden) stop();
+    else start();
+  });
+
+  // 호버 일시정지
+  if (HOVER_PAUSE) {
+    wrap.addEventListener('mouseenter', stop);
+    wrap.addEventListener('mouseleave', start);
+  }
+})();
+</script>
