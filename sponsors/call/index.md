@@ -8,13 +8,13 @@ title_separator: "|"
     $(document).ready(function(){
 		var email = ""; 
 		var domain = "ieeevr.org"; 
-		email = "exhibitssponsors2026"; 
-		$(".exhibitssponsors").html("<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIcon' style=''></i><i class='emailText'>" + email + "@" + domain + "</a></i></span>");    
+		email = "exhibitsponsors2026"; 
+		$(".exhibitsponsors").html("<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIcon' style=''></i><i class='emailText'>" + email + "@" + domain + "</a></i></span>");    
 	});
 </script>
 <p style="width:100%; margin: 30px auto; padding: 20px 0; text-align:center; font-size:1rem; border-radius: 30px; background-color: #f3f3f3">This content is currently being updated.</p>
 <div >
-  <h1 id="cfp-exhibitssponsors">Call for Sponsors and Exhibitors<!--div class="floatRight"><span class="exhibitssponsors"></span></div--></h1>
+  <h1 id="cfp-exhibitsponsors">Call for Sponsors and Exhibitors<!--div class="floatRight"><span class="exhibitsponsors"></span></div--></h1>
   <!--p>
         <strong style="color: black">IEEE VR 2025: The 32<sup>nd</sup> IEEE Conference on Virtual Reality and 3D User Interfaces</strong><br />
             March 8-12, 2025 | Saint-Malo, France
@@ -57,5 +57,5 @@ title_separator: "|"
     <p>
         <a href="https://ieeevr.org/dev/assets/downloads/Exhibitors_and_Sponsors_CfP_160924v1_IEEE_VR_2025.pdf">Call for Sponsors and Exhibitors</a> 
     </p-->
-  <p> You can contact us at : <a href= "mailto: exhibitssponsors2026@ieeevr.org"  target="_blank">exhibitssponsors2026@ieeevr.org</a> </p>
+  <p> You can contact us at : <a href= "mailto: exhibitsponsors2026@ieeevr.org"  target="_blank">exhibitsponsors2026@ieeevr.org</a> </p>
 </div>
