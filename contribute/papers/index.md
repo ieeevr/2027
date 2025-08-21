@@ -61,7 +61,7 @@ title_separator: "|"
 </div>
 <h1>SUBMISSION GUIDELINES</h1>
 
-<p><strong>IMPORTANT:</strong> IEEE VR 2026 uses a <strong>DOUBLE-BLIND</strong> review process. Failure to anonymize submissions will result in <strong>DESK REJECTION.</strong> Authors should review the Author Guidelines at <a href="https://docs.google.com/document/d/1uGWPIlPGpUW4R03Wl-XRYw30ny3STZHqOSd_6FBaHvo/edit?tab=t.0" target="_blank">https://docs.google.com/document/d/1uGWPIlPGpUW4R03Wl-XRYw30ny3STZHqOSd_6FBaHvo/edit?tab=t.0</a></p>
+<p style="word-break: break-all"><strong>IMPORTANT:</strong> IEEE VR 2026 uses a <strong>DOUBLE-BLIND</strong> review process. Failure to anonymize submissions will result in <strong>DESK REJECTION.</strong> Authors should review the Author Guidelines at <a href="https://docs.google.com/document/d/1uGWPIlPGpUW4R03Wl-XRYw30ny3STZHqOSd_6FBaHvo/edit?tab=t.0" target="_blank">https://docs.google.com/document/d/1uGWPIlPGpUW4R03Wl-XRYw30ny3STZHqOSd_6FBaHvo/edit?tab=t.0</a></p>
 <p>Each research paper should provide a contribution covering one or more of the following categories: methodological, technical, applications, and systems.</p>
 <ul>
   <li><strong>Methodological papers</strong> should describe advances in theories and methods of AR/VR/MR and 3DUI, such as ethical issues, theories on presence, or human factors.</li>
