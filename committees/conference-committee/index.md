@@ -104,9 +104,9 @@ title_separator: "|"
     <div class="floatRight"><span id="general"></span></div>
   </h2>
   <ul>
+    <li><span class="bold">Gerard J. Kim</span> – <i>Korea University, Korea</i></li>
     <li><span class="bold">JungHyun Han</span> – <i>Korea University, Korea</i></li>
     <li><span class="bold">Soon Ki Jung</span> – <i>Kyungpook National University, Korea</i></li>
-    <li><span class="bold">Gerard J. Kim</span> – <i>Korea University, Korea</i></li>
   </ul>
 </div>
 <div>
