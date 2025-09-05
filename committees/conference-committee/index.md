@@ -223,7 +223,7 @@ title_separator: "|"
     <li><span class="bold">Geoffrey Gorisse</span> – <i>Arts et Métiers Institute of Technology, France</i></li>
     <li><span class="bold">Uijong Ju</span> – <i>Kyung Hee University, Korea</i></li>
     <li><span class="bold">Ungyeon Yang</span> – <i>ETRI, Korea</i></li>
-    <li><span class="bold">Daniel Zielasko</span> – <i>Trier University, Germany</i></li>
+    <li><span class="bold">Daniel Zielasko</span> – <i>Technical University of Denmark, Denmark</i></li>
   </ul>
 </div>
 <div>
