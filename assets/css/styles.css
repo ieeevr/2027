@@ -4613,6 +4613,8 @@ body {
 .resource_outer_div {
 	background-color: #f3f3f3;
 	padding: 20px;
+	flot: left;
+	width: 50%;
 }
 .padding_left_medium {
 	padding-left: 35px !important;
