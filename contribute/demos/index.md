@@ -21,7 +21,7 @@ title_separator: "|"
 <ul>
 <li><strong class="red">Januray 9 Friday, 2025</strong>: Two-page abstract, layout schematic, and video material (1 min) submission.</li>
 <li><strong class="red">January 23 Friday, 2026</strong>: Notification of results.</li>
-<li><strong class="red">January 30 Friday, 2026</strong>: Camera-ready two-page abstract, the final layout, and final video material (1 min) submission.
+<li><strong class="red">January 30 Friday, 2026</strong>: Camera-ready two-page abstract, the final layout, and final video material (1-2 min) submission.
 </li>
 </ul>
 
