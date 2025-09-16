@@ -26,7 +26,7 @@ title_separator: "|"
   <h2 id="overview">Deadline</h2>
   <p>
   <ul>
-    <li><strong>20 February 2026</strong> – Application and Full Payment Due</li>
+    <li><strong>20 January 2026</strong> – Application and Full Payment Due</li>
     <li><strong>27 February 2026</strong>– No refunds for cancellations</li>
     <li><strong>4 March 2026</strong>– Space assignment confirmation</li>
   </ul>
