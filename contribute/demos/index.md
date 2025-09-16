@@ -19,14 +19,13 @@ title_separator: "|"
 
 <h1>Important Dates</h1>
 <ul>
-<li><strong class="red">Januray 9 Friday, 2025</strong>: Two-page abstract, layout schematic, and video material (1 min) submission.</li>
+<li><strong class="red">Januray 9 Friday, 2025</strong>: Two-page abstract, layout schematic, and video material submission.</li>
 <li><strong class="red">January 23 Friday, 2026</strong>: Notification of results.</li>
-<li><strong class="red">January 30 Friday, 2026</strong>: Camera-ready two-page abstract, the final layout, and final video material (1-2 min) submission.
-</li>
+<li><strong class="red">January 30 Friday, 2026</strong>: Camera-ready two-page abstract, the final layout, and final video material (1-2 min) submission.</li>
 </ul>
 
 <p>
-Proposals for research demonstrations must be submitted electronically through the online submission system <a href="https://new.precisionconference.com/vr" target="_blank">https://new.precisionconference.com/vr</a> by the given deadline. Interested contributors are encouraged to contact the chairs with any questions or to discuss potential demonstrations (<a href="mailto:demo2026@ieeevr.org">demo2026@ieeevr.org</a>).
+Proposals for research demonstrations must be submitted electronically through the online submission system <a href="https://new.precisionconference.com/vr" target="_blank">https://new.precisionconference.com/vr</a> by the given deadline. Interested contributors are encouraged to contact the chairs with any questions or to discuss potential demonstrations (<a href="mailto:RESEARCHDEMOS2026@IEEEVR.ORG">RESEARCHDEMOS2026@IEEEVR.ORG</a>).
 </p>
 
 
@@ -57,7 +56,7 @@ The 33rd IEEE Conference on Virtual Reality and 3D User Interfaces 2026 seeks re
 <ul>
 <li> A two-page extended abstract (including references) in PDF format describing the demo and the research. This will be published in the abstract and workshop proceedings. Please provide the abstract in IEEE format, see below.</li>
 <li> A schematic of the layout (a separate document showing components, such as projectors/cameras): <a href="/2026/assets/downloads/Template.docx" target="_blank">Template.docx</a></li>
-<li> A 1-minute instructional video that walks viewers through the research project and showcases the demo in action. Please provide an accessible URL in the submission. A YouTube or Vimeo link is highly recommended. If accepted, we plan to use the video as something attendees can view asynchronously.</li>
+<li> A 1-2minute instructional video that walks viewers through the research project and showcases the demo in action. Please provide an accessible URL in the submission. A YouTube or Vimeo link is highly recommended. If accepted, we plan to use the video as something attendees can view asynchronously.</li>
 </ul>
 <p>
 Submissions to the research demo track must be written in English. The submission materials should clearly describe the system's overall architecture or technology demonstrated. Authors should emphasize the work's motivation, applications, novelty, and research direction. Submissions need not be anonymized but maybe if the authors prefer. Abstracts for accepted demos will be included in the abstract and workshop proceedings (IEEE Xplore Digital Library), so they must follow the IEEE Computer Society format at <a href="https://tc.computer.org/vgtc/publications/conference/" target="_blank">https://tc.computer.org/vgtc/publications/conference/</a>. </p>
