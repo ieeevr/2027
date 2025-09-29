@@ -19,8 +19,8 @@ title_separator: "|"
 
 <h1>Important Dates</h1>
 <ul>
-<li><strong class="red">January 9, 2025 (Friday)</strong>: Submission of two-page abstract, layout schematic, and video material (1 minute).</li>
-<li><strong class="red">January 23, 2026 (Friday)</strong>: Notification of results.</li>
+<li><strong class="red">January 6, 2026 (Tuesday)</strong>: Submission of two-page abstract, layout schematic, and video material (1 minute).</li>
+<li><strong class="red">January 20, 2026 (Tuesday)</strong>: Notification of results.</li>
 <li><strong class="red">January 27, 2026 (Tuesday)</strong>: Submission of camera-ready two-page abstract, final layout, and final video material (1–2 minutes).</li>
 </ul>
 
