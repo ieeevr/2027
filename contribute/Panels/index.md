@@ -33,7 +33,7 @@ title_separator: "|"
 
 
 <h1>Submission Guidelines</h1>
-<p>Panel proposals should be submitted electronically to <a href="mailto:panel2026@ieeevr.org">panel2026@ieeevr.org</a> and should include:</p>
+<p>Panel proposals should be submitted electronically to <a href="mailto:panel2026@ieeevr.org" target="_blank">panel2026@ieeevr.org</a> and should include:</p>
 <ul>
 <li>A title for the panel session</li>
 <li>A brief description of the overall issues to be discussed (500 words or less)</li>
@@ -44,5 +44,5 @@ title_separator: "|"
 
 <h1>Contacts</h1>
 
-<p>For more information, to inquires, please contact the Panels Chair at <a href="mailto:panel2026@ieeevr.org">panel2026@ieeevr.org</a></p>
+<p>For more information, to inquires, please contact the Panels Chair at <a href="mailto:panel2026@ieeevr.org" target="_blank">panel2026@ieeevr.org</a></p>
 
