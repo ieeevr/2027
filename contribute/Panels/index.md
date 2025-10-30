@@ -45,4 +45,7 @@ title_separator: "|"
 <h1>Contacts</h1>
 
 <p>For more information, to inquires, please contact the Panels Chair at <a href="mailto:panel2026@ieeevr.org" target="_blank">panel2026@ieeevr.org</a></p>
+<ul>
+<li>Byounghyun Yoo ‒ Korea Institute of Science and Technology</li>
+</ul>
 
