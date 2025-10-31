@@ -20,7 +20,7 @@ title_separator: "|"
 <ul>
 <li><strong class="red">January 16, 2026</strong>: Proposals due</li>
 <li><strong class="red">January 23, 2026</strong>: Notification of results</li>
-<li><strong class="red">February6, 2026</strong>: One-page Panel description due</li>
+<li><strong class="red">February 6, 2026</strong>: One-page Panel description due</li>
 </ul>
 
 <h1>Overview</h1>
