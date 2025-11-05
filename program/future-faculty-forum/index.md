@@ -37,9 +37,7 @@ You can expect the following at F3 meetings:
 <br/><br/>
 The following sections provide more details about what the XR Future Faculty Forum will look like at VR 2026 and how you can participate: 
     </p>
-    <p>
-    The VR 2025 F3 meeting will take place for a full day on <b>Sunday, March 9</b>.
-    </p>
+   
     <p>
         The following sections provide more details about what the XR Future Faculty Forum will look like at VR 2024 and how you can participate:
         <ul>
