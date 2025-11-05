@@ -300,21 +300,21 @@ title_separator: "|"
   </ul>
 </div>
 <div>
-  <h2>XR Faculty
+  <h2>Future Faculty Forum Chairs
     <div class="floatRight"><span id="xrfaculty"></span></div>
   </h2>
   <ul>
-    <li><span class="bold">Matthew Gottsacker</span> – <i>UCF, USA</i></li>
-    <li><span class="bold">Jeanne Hecquard</span> – <i>Inria, France</i></li>
-    <li><span class="bold">Radha Kumaran</span> – <i>UCSB, USA</i></li>
-    <li><span class="bold">Jeongmi Lee</span> – <i>KAIST, Korea</i></li>
-    <li><span class="bold">Lee Lisle</span> – <i>VT, USA</i></li>
-    <li><span class="bold">Daniel Pires de Sa Medeiros</span> – <i>Telecom Paris, France</i></li>
-    <li><span class="bold">Cassidy Nelson</span> – <i>Ohio U, USA</i></li>
-    <li><span class="bold">Niall Williams</span> – <i>NYU, USA</i></li>
+    <li><span class="bold">Matt Gottsacker</span> - University of Central Florida, USA</li>
+		<li><span class="bold">Cassidy R. Nelson</span> - Ohio University, USA</li>
+		<li><span class="bold">Niall L. Williams</span>  - New York University, USA</li>
+		<li><span class="bold">Lee Lisle</span> - University of Central Florida, USA</li>		
+		<li><span class="bold">Radha Kumaran</span>  - University of California, Santa Barbara, USA</li>
+		<li><span class="bold">Jeanne Hecquard</span>  - Inria, France</li>
+		<li><span class="bold">SeungJeh Chung</span>  - Kyunghee University, Korea</li>
+		<li><span class="bold">Jeongmi Lee</span>  - KAIST, Korea</li>
   </ul>
 </div>
-<div>
+<!--div>
   <h2>Doctoral Consortium
     <div class="floatRight"><span id="doctoralconsortium"></span></div>
   </h2>
@@ -333,4 +333,4 @@ title_separator: "|"
     <li><span class="bold">Kwang-Ju Kim</span> – <i>ETRI, Korea</i></li>
     <li><span class="bold">Gyeorae Yoon</span> – <i>KNU, Korea</i></li>
   </ul>
-</div>
+</div-->
