@@ -203,14 +203,14 @@ title_separator: "|"
   <h2>XR Gallery
     <div class="floatRight"><span id="xrgallery"></span></div>
   </h2>
-  <ul>
-    <li><span class="bold">Jean-Rémy Chardonnet</span> – <i>Arts et Métiers Institute of Technology, France</i></li>
-    <li><span class="bold">Henry Duh</span> – <i>Hong Kong Polytechnic University, Hong Kong</i></li>
-    <li><span class="bold">Georges Gagneré</span> – <i>Université Paris 8, France</i></li>
-    <li><span class="bold">Valérie Gouranton</span> – <i>Inria, IRISA, INSA Rennes, France</i></li>
-    <li><span class="bold">HyungSeok Kim</span> – <i>Konkuk University, Korea</i></li>
-    <li><span class="bold">Yue Li</span> – <i>Xi’an Jiaotong-Liverpool University, China</i></li>
-    <li><span class="bold">Hai-Ning Liang</span> – <i>Hong Kong University of Science and Technology (Guangzhou), China</i></li>
+  <ul>   
+    <li><span class="bold">Jean-Rémy Chardonnet</span> - Arts et Métiers Institute of Technology, France</li>
+		<li><span class="bold">Henry Duh</span> - Hong Kong Polytechnic University, Hong Kong</li>
+		<li><span class="bold">Georges Gagneré</span>  -  Université Paris 8, France</li>
+		<li><span class="bold">Valérie Gouranton</span> - Inria, IRISA, INSA Rennes, France</li>		
+		<li><span class="bold">HyungSeok Kim</span>  - Konkuk University, Korea</li>
+		<li><span class="bold">Yue Li</span>  - Xi’an Jiaotong-Liverpool University, China</li>
+		<li><span class="bold">Hai-Ning Liang</span>  - Hong Kong University of Science and Technology (Guangzhou), China</li>
   </ul>
 </div>
 <div>
