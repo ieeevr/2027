@@ -301,7 +301,7 @@ title_separator: "|"
 </div>
 <div>
   <h2>Future Faculty Forum Chairs
-    <div class="floatRight"><span id="xrfaculty"></span></div>
+    <div class="floatRight"><!--span id="xrfaculty"></span--></div>
   </h2>
   <ul>
     <li><span class="bold">Matt Gottsacker</span> - University of Central Florida, USA</li>
