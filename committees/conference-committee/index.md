@@ -314,7 +314,7 @@ title_separator: "|"
 		<li><span class="bold">Jeongmi Lee</span>  - KAIST, Korea</li>
   </ul>
 </div>
-<!--div>
+<div>
   <h2>Doctoral Consortium
     <div class="floatRight"><span id="doctoralconsortium"></span></div>
   </h2>
@@ -333,4 +333,4 @@ title_separator: "|"
     <li><span class="bold">Kwang-Ju Kim</span> – <i>ETRI, Korea</i></li>
     <li><span class="bold">Gyeorae Yoon</span> – <i>KNU, Korea</i></li>
   </ul>
-</div-->
+</div>
