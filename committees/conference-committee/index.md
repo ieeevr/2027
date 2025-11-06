@@ -304,14 +304,14 @@ title_separator: "|"
     <div class="floatRight"><span id="xrfaculty"></span></div>
   </h2>
   <ul>
-    <li><span class="bold">Matt Gottsacker</span> - University of Central Florida, USA</li>
-		<li><span class="bold">Cassidy R. Nelson</span> - Ohio University, USA</li>
-		<li><span class="bold">Niall L. Williams</span>  - New York University, USA</li>
-		<li><span class="bold">Lee Lisle</span> - University of Central Florida, USA</li>		
-		<li><span class="bold">Radha Kumaran</span>  - University of California, Santa Barbara, USA</li>
-		<li><span class="bold">Jeanne Hecquard</span>  - Inria, France</li>
-		<li><span class="bold">SeungJeh Chung</span>  - Kyunghee University, Korea</li>
-		<li><span class="bold">Jeongmi Lee</span>  - KAIST, Korea</li>
+    <li><span class="bold">Matt Gottsacker</span> - <i>University of Central Florida, USA</i></li>
+		<li><span class="bold">Cassidy R. Nelson</span> - <i>Ohio University, USA</i></li>
+		<li><span class="bold">Niall L. Williams</span>  - <i>New York University, USA</i></li>
+		<li><span class="bold">Lee Lisle</span> - <i>University of Central Florida, USA</i></li>		
+		<li><span class="bold">Radha Kumaran</span>  - <i>University of California, Santa Barbara, USA</i></li>
+		<li><span class="bold">Jeanne Hecquard</span>  - <i>Inria, France</i></li>
+		<li><span class="bold">SeungJeh Chung</span>  - <i>Kyunghee University, Korea</i></li>
+		<li><span class="bold">Jeongmi Lee</span>  - <i>KAIST, Korea</i></li>
   </ul>
 </div>
 <div>
