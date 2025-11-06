@@ -17,7 +17,7 @@ title_separator: "|"
 
 <p style="width:100%; margin: 30px auto; padding: 20px 0; text-align:center; font-size:1rem; border-radius: 30px; background-color: #f3f3f3; display:none">This content is currently being updated.</p>
 <div>
-    <h1>Future Faculty Forum (F3) <div class="floatRight"><!--span class="xrfuturefaculty"></span--></div></h1>
+    <h1>Call for Future Faculty Forum <div class="floatRight"><!--span class="xrfuturefaculty"></span--></div></h1>
     <p>
     <b>Want to become an XR faculty member OR level up your existing academic career? Join us at the Future Faculty Forum (F3) at IEEE VR!</b>
     </p>
