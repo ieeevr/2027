@@ -1,7 +1,7 @@
 ---
 layout: ieeevr-default
 title: "Future Faculty Forum (F3)"
-subtitle: "IEEE VR 20256"
+subtitle: "IEEE VR 2026"
 title_separator: "|"
 ---
 <script type="text/javascript">  
