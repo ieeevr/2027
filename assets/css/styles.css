@@ -5004,3 +5004,95 @@ p.location2 {
 	line-height: 30px;
 	padding-left: 30px;
 }
+
+
+:root{
+  --vr-deep-purple:#2a1572;
+  --vr-purple-900:#1f0f58;
+  --vr-card-bg:#0f1130;
+  --vr-line:#3f48a6;
+  --vr-green:#19c37d;
+  --vr-fg:#eaf0ff;
+  --vr-radius:18px;
+  --vr-shadow:0 18px 40px rgba(9,10,30,.35);
+}
+.kspeaker-card{
+  display:grid;
+  grid-template-columns:320px 1fr;
+  gap:28px;
+  background:linear-gradient(180deg,var(--vr-card-bg) 0%,#141745 100%);
+  border:1px solid rgba(146,155,255,.18);
+  border-radius:var(--vr-radius);
+  box-shadow:var(--vr-shadow);
+  padding:26px;
+  color:var(--vr-fg);
+  position:relative;
+  overflow:hidden;
+}
+.kspeaker-card::after{
+  content:"";
+  position:absolute;
+  inset:-120px -160px auto auto;
+  width:420px;height:420px;
+  border-radius:50%;
+  background:radial-gradient(circle at 30% 30%, rgba(27,212,139,.22), transparent 60%);
+  filter:blur(12px);
+  opacity:.8;
+  pointer-events:none;
+}
+.kspeaker-card .kspeaker-photo{
+  aspect-ratio:4/5;
+  width:100%;
+  border-radius:12px;
+  object-fit:cover;
+  border:1px solid rgba(255,255,255,.15);
+  box-shadow:0 12px 24px rgba(0,0,0,.35);
+  background:#222;
+}
+.kspeaker-card .kspeaker-meta h2{
+  margin:.25rem 0 .35rem;
+  font-size:2rem;
+  line-height:1.1;
+  font-weight:800;
+  color:#a9b6ff;
+}
+.kspeaker-card .role{
+  margin:.5rem 0 1rem;
+  font-weight:600;
+  color:#cfe3ff;
+  opacity:.9;
+}
+.kspeaker-card .divider{
+  height:1px;
+  background:linear-gradient(90deg, transparent, var(--vr-line), transparent);
+  margin:14px 0 18px;
+}
+.kspeaker-card .kspeaker-meta p{
+  color:#e6ebff;
+  opacity:.9;
+  line-height:1.75;
+  margin:.25rem 0;
+  font-size:1rem;
+}
+.kspeaker-card .cta{
+  display:inline-flex;
+  align-items:center;
+  gap:.6rem;
+  margin-top:16px;
+  font-weight:700;
+  letter-spacing:.02em;
+  text-decoration:none;
+  color:#000;
+  background:linear-gradient(90deg,var(--vr-green) 0%, #66ffd0 100%);
+  padding:12px 18px;
+  border-radius:999px;
+  box-shadow:0 10px 20px rgba(17,168,107,.35);
+}
+@media (max-width:900px){
+  .kspeaker-card{grid-template-columns:1fr;padding:20px;gap:18px}
+  .kspeaker-card .kspeaker-photo{max-width:520px;justify-self:center}
+  .kspeaker-card .kspeaker-meta h2{font-size:1.6rem}
+}
+@media (max-width:420px){
+  .kspeaker-card .kspeaker-meta p{font-size:.95rem}
+}
