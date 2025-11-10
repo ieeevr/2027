@@ -5030,7 +5030,7 @@ p.location2 {
   color:var(--vr-fg);
   position:relative;
   overflow:hidden;
-  margin-bottom: 2rem
+  margin: 1rem 0 2rem  
 }
 .kspeaker-card::after{
   content:"";
