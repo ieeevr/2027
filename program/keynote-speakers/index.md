@@ -7,7 +7,7 @@ title_separator: "|"
 
 
 
-<article class="kspeaker-card" role="article"> <img class="kspeaker-photo" src="/assets/images/k_sp_01.png" alt="Dr. Mar Gonzalez-Franco" style-="display:none">
+<article class="kspeaker-card" role="article"> <img class="kspeaker-photo" src="/assets/images/k_sp_01.png" alt="Dr. Mar Gonzalez-Franco">
   <div class="kspeaker-meta">
     <h2>Dr. Mar Gonzalez-Franco</h2>
     <div class="role">Research Manager, BIRD Lab, Google AR & VR</div>
@@ -33,7 +33,7 @@ title_separator: "|"
 
 
 
-<article class="kspeaker-card" role="article"> <img class="kspeaker-photo" src="/assets/images/k_sp_02.png" alt="Dr. Albert "Skip" Rizzo"  style-="display:none">
+<article class="kspeaker-card" role="article"> <img class="kspeaker-photo" src="/assets/images/k_sp_02.png" alt="Dr. Albert "Skip" Rizzo"  >
   <div class="kspeaker-meta">
     <h2>Dr. Albert "Skip" Rizzo</h2>
     <div class="role">Director for Medical Virtual Reality, USC Institute for Creative Technologies
