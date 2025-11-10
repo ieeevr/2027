@@ -5020,9 +5020,9 @@ p.location2 {
 }
 .kspeaker-card{
   display:grid;
-  grid-template-columns:320px 1fr;
+  grid-template-columns:270px 1fr;
   gap:28px;
-  background:linear-gradient(180deg,var(--vr-card-bg) 0%,#141745 100%);
+  background:linear-gradient(180deg, #39026b 0%, #045131 100% 100%);
   border:1px solid rgba(146,155,255,.18);
   border-radius:var(--vr-radius);
   box-shadow:var(--vr-shadow);
@@ -5056,12 +5056,10 @@ p.location2 {
   margin:.25rem 0 .35rem;
   font-size:1.2rem;
   line-height:1.1;
-  font-weight:800;
   color:#fff;
 }
 .kspeaker-card .role{
   margin:.5rem 0 1rem;
-  font-weight:600;
   color:#ffff;
   font-size:1rem;
 }
