@@ -5020,7 +5020,7 @@ p.location2 {
   display:grid;
   grid-template-columns:320px 1fr;
   gap:28px;
-  background:linear-gradient(180deg,var(--vr-card-bg) 0%,#141745 100%);
+  background: linear-gradient(180deg, #1e27b3 0%, #08491f 100%);
   border:1px solid rgba(146,155,255,.18);
   border-radius:var(--vr-radius);
   box-shadow:var(--vr-shadow);
@@ -5028,6 +5028,7 @@ p.location2 {
   color:var(--vr-fg);
   position:relative;
   overflow:hidden;
+  margin-bottom: 2rem;
 }
 .kspeaker-card::after{
   content:"";
@@ -5051,16 +5052,16 @@ p.location2 {
 }
 .kspeaker-card .kspeaker-meta h2{
   margin:.25rem 0 .35rem;
-  font-size:2rem;
+  font-size:1.2rem;
   line-height:1.1;
   font-weight:800;
-  color:#a9b6ff;
+  color:#fff;
 }
 .kspeaker-card .role{
-  margin:.5rem 0 1rem;
-  font-weight:600;
-  color:#cfe3ff;
+  margin:.5rem 0 0;
+  color:#fff;
   opacity:.9;
+  font-size: 0.9rem;
 }
 .kspeaker-card .divider{
   height:1px;
@@ -5070,9 +5071,9 @@ p.location2 {
 .kspeaker-card .kspeaker-meta p{
   color:#e6ebff;
   opacity:.9;
-  line-height:1.75;
+  line-height:1.4;
   margin:.25rem 0;
-  font-size:1rem;
+  font-size:0.8rem;
 }
 .kspeaker-card .cta{
   display:inline-flex;
