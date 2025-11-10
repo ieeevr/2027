@@ -7,7 +7,7 @@ title_separator: "|"
 
 
 
-<article class="kspeaker-card" role="article"> <img class="kspeaker-photo" src="/assets/images/k_sp_01.png" >
+<!--article class="kspeaker-card" role="article"> <img class="kspeaker-photo" src="/assets/images/k_sp_01.png" >
   <div class="kspeaker-meta">
     <h2>Dr. Mar Gonzalez-Franco</h2>
     <div class="role">Research Manager, BIRD Lab, Google AR & VR</div>
@@ -54,7 +54,7 @@ service members. A pioneer in clinical VR and digital mental health, he has
 authored hundreds of academic publications, holds several patents, and continues
 to shape the future of immersive healthcare.</p>
   </div>
-</article>
+</article-->
 
 
 
