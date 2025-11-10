@@ -5,7 +5,7 @@ subtitle: "IEEE VR 2026"
 title_separator: "|"
 ---
 
-
+<h1 id="resources">Keynote Speakers</h1>
 
 <article class="kspeaker-card" role="article"> <img class="kspeaker-photo" src="/2026/assets/images/k_sp_01.png" >
   <div class="kspeaker-meta">
