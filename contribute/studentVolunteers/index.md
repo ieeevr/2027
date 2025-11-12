@@ -21,7 +21,7 @@ title_separator: "|"
         <strong style="color: black">IEEE VR 2026: The 33<sup>nd</sup> 33rd IEEE Conference on Virtual Reality and 3D User Interfaces</strong><br />
             March 21-25, 2026 | Daegu, Korea
     </p>
-     <p class="alignCenter"><a href="https://forms.gle/Wu8Hw6qcEaYtezR59" class="btn btn--info" target="_blank">Apply to be a Student Volunteer</a>  
+     <p class="alignCenter"><a href="https://forms.gle/qUcP5xru1Vc339MA6" class="btn btn--info" target="_blank">Apply to be a Student Volunteer</a>  
     <h2 id="important-dates"> Important Dates </h2>
     <ul>
         <li><b>December 1st, 2025:</b> Open student volunteer applications</li>
