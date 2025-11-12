@@ -16,7 +16,7 @@ title_separator: "|"
 </script>
 <!--p style="width:100%; margin: 30px auto; padding: 20px 0; text-align:center; font-size:1rem; border-radius: 30px; background-color: #f3f3f3">This content is currently being updated.</p-->
 <div >
-    <h1 id="cfp-journal">Call for Student Volunteers<div class="floatRight"><span class="studentvolunteers"></span></div></h1>
+    <h1 id="cfp-journal">Call for Student Volunteers<div class="floatRight"><!--span class="studentvolunteers"></span--></div></h1>
     <p>
         <strong style="color: black">IEEE VR 2026: The 33<sup>nd</sup> 33rd IEEE Conference on Virtual Reality and 3D User Interfaces</strong><br />
             March 21-25, 2026 | Daegu, Korea
@@ -24,9 +24,9 @@ title_separator: "|"
      <p class="alignCenter"><a href="https://forms.gle/Wu8Hw6qcEaYtezR59" class="btn btn--info" target="_blank">Apply to be a Student Volunteer</a>  
     <h2 id="important-dates"> Important Dates </h2>
     <ul>
-        <li><s><b>December 1st, 2025:</b> Open student volunteer applications</s></li>
-        <li><s><b>January 9th, 2026:</b> Close student volunteer applications</s></li>
-        <li><s><b>January 30th, 2026:</b> Student volunteer notification of acceptance</s></li>
+        <li><b>December 1st, 2025:</b> Open student volunteer applications</li>
+        <li><b>January 9th, 2026:</b> Close student volunteer applications</li>
+        <li><b>January 30th, 2026:</b> Student volunteer notification of acceptance</li>
     </ul>
     <p>
        Dedicated and enthusiastic student volunteers (SVs) are crucial for the organization of a successful conference. Serving as a student volunteer is also a great chance to meet and interact with scientists from the field of Virtual Reality. 
@@ -72,7 +72,7 @@ title_separator: "|"
     <p>
         Application will be done through this form: <a href="https://forms.gle/qUcP5xru1Vc339MA6" target="_blank">https://forms.gle/qUcP5xru1Vc339MA6</a>
     </p>
-    <h2 id="contacts">Contacts <div class="floatRight"><span class="studentvolunteers"></span></div></h2>
+    <h2 id="contacts">Contacts <div class="floatRight"><!--span class="studentvolunteers"></span--></div></h2>
     <p>
         For more information, please contact the Student Volunteer Chairs:    
         <ul>
