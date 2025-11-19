@@ -200,21 +200,21 @@ title_separator: "|"
   </ul>
 </div>
 <div>
-  <h2>XR Gallery
+  <h2>XR Gallery Chairs
     <div class="floatRight"><span id="xrgallery"></span></div>
   </h2>
   <ul>   
-    <li><span class="bold">Jean-Rémy Chardonnet</span> - Arts et Métiers Institute of Technology, France</li>
-		<li><span class="bold">Henry Duh</span> - Hong Kong Polytechnic University, Hong Kong</li>
-		<li><span class="bold">Georges Gagneré</span>  -  Université Paris 8, France</li>
-		<li><span class="bold">Valérie Gouranton</span> - Inria, IRISA, INSA Rennes, France</li>		
-		<li><span class="bold">HyungSeok Kim</span>  - Konkuk University, Korea</li>
-		<li><span class="bold">Yue Li</span>  - Xi’an Jiaotong-Liverpool University, China</li>
-		<li><span class="bold">Hai-Ning Liang</span>  - Hong Kong University of Science and Technology (Guangzhou), China</li>
+    <li><span class="bold">Jean-Rémy Chardonnet</span> - <i>Arts et Métiers Institute of Technology, France</i></li>
+		<li><span class="bold">Henry Duh</span> - <i>Hong Kong Polytechnic University, Hong Kong</i></li>
+		<li><span class="bold">Georges Gagneré</span>  -  <i>Université Paris 8, France</i></li>
+		<li><span class="bold">Valérie Gouranton</span> - <i>Inria, IRISA, INSA Rennes, France</i></li>		
+		<li><span class="bold">HyungSeok Kim</span>  - <i>Konkuk University, Korea</i></li>
+		<li><span class="bold">Yue Li</span>  -  <i>Xi’an Jiaotong-Liverpool University, China</i></li>
+		<li><span class="bold">Hai-Ning Liang</span>  -  <i>Hong Kong University of Science and Technology (Guangzhou), China</i></li>
   </ul>
 </div>
 <div>
-  <h2>Demo
+  <h2>Demo Chairs
     <div class="floatRight"><span id="researchdemos"></span></div>
   </h2>
   <ul>
@@ -271,7 +271,7 @@ title_separator: "|"
   </ul>
 </div>
 <div>
-  <h2>Tutorial
+  <h2>Tutorial Chairs
     <div class="floatRight"><span id="tutorials"></span></div>
   </h2>
   <ul>
@@ -282,7 +282,7 @@ title_separator: "|"
   </ul>
 </div>
 <div>
-  <h2>Web Chairs / Publicity
+  <h2>Web / Publicity Chairs
     <div class="floatRight"><span id="web"></span></div>
   </h2>
   <ul>
@@ -292,7 +292,7 @@ title_separator: "|"
   </ul>
 </div>
 <div>
-  <h2>Panel
+  <h2>Panel Chairs
     <div class="floatRight"><span id="panel"></span></div>
   </h2>
   <ul>
@@ -304,18 +304,18 @@ title_separator: "|"
     <div class="floatRight"><span id="xrfaculty"></span></div>
   </h2>
   <ul>
-    <li><span class="bold">Matt Gottsacker</span> - <i>University of Central Florida, USA</i></li>
-		<li><span class="bold">Cassidy R. Nelson</span> - <i>Ohio University, USA</i></li>
-		<li><span class="bold">Niall L. Williams</span>  - <i>New York University, USA</i></li>
-		<li><span class="bold">Lee Lisle</span> - <i>University of Central Florida, USA</i></li>		
-		<li><span class="bold">Radha Kumaran</span>  - <i>University of California, Santa Barbara, USA</i></li>
-		<li><span class="bold">Jeanne Hecquard</span>  - <i>Inria, France</i></li>
 		<li><span class="bold">SeungJeh Chung</span>  - <i>Kyunghee University, Korea</i></li>
+        <li><span class="bold">Matt Gottsacker</span> - <i>University of Central Florida, USA</i></li>
+		<li><span class="bold">Jeanne Hecquard</span>  - <i>Inria, France</i></li>
+		<li><span class="bold">Radha Kumaran</span>  - <i>University of California, Santa Barbara, USA</i></li>
 		<li><span class="bold">Jeongmi Lee</span>  - <i>KAIST, Korea</i></li>
+		<li><span class="bold">Lee Lisle</span> - <i>University of Central Florida, USA</i></li>	
+		<li><span class="bold">Cassidy R. Nelson</span> - <i>Ohio University, USA</i></li>
+		<li><span class="bold">Niall L. Williams</span>  - <i>New York University, USA</i></li>	
   </ul>
 </div>
 <div>
-  <h2>Doctoral Consortium
+  <h2>Doctoral Consortium Chairs
     <div class="floatRight"><span id="doctoralconsortium"></span></div>
   </h2>
   <ul>
