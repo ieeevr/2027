@@ -18,8 +18,14 @@ title_separator: "|"
 <h1>Important dates</h1> 
 <p>Each deadline is 23:59:59 AoE (Anywhere on Earth) == GMT/UTC-12:00 on the stated day, no matter where the submitter is located.</p> 
 <ul>
-<li><strong>November 14, 2025</strong> : Proposals and CFPs due</li>
-<li><strong>November 25, 2025</strong>: Notification of results</li>
+<li><strong>November 14, 2025</strong> : Proposals and CFPs due</li><li>
+  <span style="text-decoration: line-through; opacity:0.6;">
+    <strong>November 25, 2025</strong>: Notification of results
+  </span>
+  <span style="margin-left:12px; color:#c40000; font-weight:bold;">
+    <strong>November 30, 2025</strong>: Notification of results
+  </span>
+</li>
 <li><strong>January 22, 2026</strong>: Latest accepted workshop paper notification (only applies if the workshop organizers want proceedings included in the digital library)</li>
 <li><strong>January 30, 2026</strong>:  Camera-ready submission of workshop papers for inclusion in the IEEE Digital Library (only applies if the workshop organizers want proceedings included in the digital library)</li>
 <li><strong>March 21-22, 2026</strong>: Workshops (held on the first two days of the conference) (*. In 2026, workshop dates are subject to change and may need to be rescheduled.)</li>
