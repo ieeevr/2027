@@ -148,7 +148,7 @@ The following sections provide more details about what the XR Future Faculty For
     </table>
     <h2 id="Update">Updates Beyond IEEE VR</h2>
     <p>
-   If you are interested in staying up-to-date with information about the XR Future Faculty Forum or are interested in helping out as a panellist in the future, please fill out this form:  <a href="https://forms.gle/q1Kaqf3HUGkPfEWG6" target="_blank">https://forms.gle/q1Kaqf3HUGkPfEWG6</a>, or send us an email at <a href="mailto:futurefacultyforum@gmail.com">futurefacultyforum@gmail.com</a>. 
+   If you are interested in staying up-to-date with information about the XR Future Faculty Forum or are interested in helping out as a panellist in the future, please fill out this form:  <a href="https://forms.gle/q1Kaqf3HUGkPfEWG6" target="_blank">https://forms.gle/q1Kaqf3HUGkPfEWG6</a>, or send us an email at <a href="mailto:futurefacultyforum2026@ieeevr.org">futurefacultyforum2026@ieeevr.org</a>. 
     </p>
     <div>
 	<h2>Organizers<!--XR Future Faculty Forum Chairs  <div class="floatRight"><span class="xrfuturefaculty"></span></div--></h2>
