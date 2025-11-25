@@ -22,8 +22,8 @@ title_separator: "|"
   <span style="text-decoration: line-through; opacity:0.6;">
     <strong>November 25, 2025</strong>: Notification of results
   </span>
-  <span style="margin-left:12px; color:#c40000; font-weight:bold;">
-    <strong>November 30, 2025</strong>: Notification of results
+  <span style="margin-left:12px; color:#c40000;">
+    <strong style="color:#c40000;">November 30, 2025</strong>: Notification of results
   </span>
 </li>
 <li><strong>January 22, 2026</strong>: Latest accepted workshop paper notification (only applies if the workshop organizers want proceedings included in the digital library)</li>
