@@ -20,9 +20,9 @@ title_separator: "|"
 <ul>
 <li><strong>November 14, 2025</strong> : Proposals and CFPs due</li><li>
   <span style="text-decoration: line-through; opacity:0.6;">
-    <strong>November 25, 2025</strong>: Notification of results
+    <strong>November 25, 2025</strong>: 
   </span>
-  <span style="margin-left:12px; color:#c40000;">
+  <span style="margin-left:12px;">
     <strong style="color:#c40000;">November 30, 2025</strong>: Notification of results
   </span>
 </li>
