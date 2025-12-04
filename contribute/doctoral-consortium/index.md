@@ -20,9 +20,9 @@ title_separator: "|"
 
 <h1>IMPORTANT DATES</h1> 
 <ul>
-<li><strong>December 3rd, 2025 23:59 AoE</strong>: Submission deadline.</li>
-<li><strong>January 14th, 2026 23:59 AoE</strong>: Notification of acceptance.</li>
-<li><strong>January 28th, 2026 23:59 AoE</strong>: Camera-ready.</li>
+<li><strong>December 15th, 2025 23:59 AoE</strong>: Submission deadline.</li>
+<li><strong>January 19th, 2026 23:59 AoE</strong>: Notification of acceptance.</li>
+<li><strong>January 28th, 2026 23:59 AoE</strong>: Camera Ready.</li>
 </ul>
 
 <h1>OVERVIEW</h1>
