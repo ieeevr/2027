@@ -68,7 +68,7 @@ title_separator: "|"
 		email = "demo2026"; 
 		researchdemos.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
 		
-		email = "student2026"; 
+		email = "studentvolunteers2026"; 
 		studentvolunteers.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
 		
 		email = "tutorial2026"; 
