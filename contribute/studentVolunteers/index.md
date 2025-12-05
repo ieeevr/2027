@@ -73,6 +73,7 @@ title_separator: "|"
     <p>
         Application will be done through this form: <a href="https://forms.gle/qUcP5xru1Vc339MA6" target="_blank">https://forms.gle/qUcP5xru1Vc339MA6</a>
     </p>
+    <p>* Selected student volunteers will be able to register through the participant registration system (a free registration code will be provided). For those who require a visa, an invitation letter will be issued.</p>
     <h2 id="contacts">Contacts <div class="floatRight"><!--span class="studentvolunteers"></span--></div></h2>
     <p>
         For more information, please contact the Student Volunteer Chairs:    
