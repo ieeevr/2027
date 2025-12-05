@@ -24,9 +24,9 @@ title_separator: "|"
      <p class="alignCenter"><a href="https://forms.gle/qUcP5xru1Vc339MA6" class="btn btn--info" target="_blank">Apply to be a Student Volunteer</a>  
     <h2 id="important-dates"> Important Dates </h2>
     <ul>
-        <li><b>December 1st, 2025:</b> Open student volunteer applications</li>
-        <li><b>January 9th, 2026:</b> Close student volunteer applications</li>
-        <li><b>January 30th, 2026:</b> Student volunteer notification of acceptance</li>
+        <li><b>December 1, 2025:</b> Open student volunteer applications</li>
+        <li><b>January 9, 2026:</b> Close student volunteer applications</li>
+        <li><b>January 30, 2026:</b> Student volunteer notification of acceptance</li>
     </ul>
     <p>
        Dedicated and enthusiastic student volunteers (SVs) are crucial for the organization of a successful conference. Serving as a student volunteer is also a great chance to meet and interact with scientists from the field of Virtual Reality. 
