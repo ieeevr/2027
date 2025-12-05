@@ -43,7 +43,8 @@ title_separator: "|"
         <ul>
             <li>free registration*</li>
             <li>hotel accommodation for non-local volunteers when possible (shared with one or two other SVs)</li>
-            <li>complimentary lunch for the five days of the conference</li>
+            <li>complimentary lunch for the five days of the conference<br/>
+			 (Please note that travel expenses, including airfare, cannot be covered.)</li>
         </ul>
     </p>
     <p>
