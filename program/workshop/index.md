@@ -20,7 +20,7 @@ title_separator: "|"
     <label for="collapsibleKELVAR" class="lbl-toggle">Workshop Description</label>
     <div class="collapsible-content">
       <div class="content-inner">
-        <p>A</p>
+        
       </div>
     </div>
   </div>
@@ -40,7 +40,7 @@ title_separator: "|"
     <label for="collapsibleXR_Health" class="lbl-toggle">Workshop Description</label>
     <div class="collapsible-content">
       <div class="content-inner">
-        <p>A</p>
+        
       </div>
     </div>
   </div>
@@ -60,7 +60,7 @@ title_separator: "|"
     <label for="collapsibleXR4OR" class="lbl-toggle">Workshop Description</label>
     <div class="collapsible-content">
       <div class="content-inner">
-        <p>A</p>
+        
       </div>
     </div>
   </div>
@@ -80,7 +80,7 @@ title_separator: "|"
     <label for="collapsibleXR-MED" class="lbl-toggle">Workshop Description</label>
     <div class="collapsible-content">
       <div class="content-inner">
-        <p>A</p>
+        
       </div>
     </div>
   </div>
@@ -100,7 +100,7 @@ title_separator: "|"
     <label for="collapsibleIIMC" class="lbl-toggle">Workshop Description</label>
     <div class="collapsible-content">
       <div class="content-inner">
-        <p>A</p>
+        
       </div>
     </div>
   </div>
@@ -120,7 +120,7 @@ title_separator: "|"
     <label for="collapsibleXRIOS" class="lbl-toggle">Workshop Description</label>
     <div class="collapsible-content">
       <div class="content-inner">
-        <p>A</p>
+        
       </div>
     </div>
   </div>
@@ -140,7 +140,7 @@ title_separator: "|"
     <label for="collapsibleNIDIT" class="lbl-toggle">Workshop Description</label>
     <div class="collapsible-content">
       <div class="content-inner">
-        <p>A</p>
+        
       </div>
     </div>
   </div>
@@ -160,7 +160,7 @@ title_separator: "|"
     <label for="collapsibleGEMINI" class="lbl-toggle">Workshop Description</label>
     <div class="collapsible-content">
       <div class="content-inner">
-        <p>A</p>
+        
       </div>
     </div>
   </div>
@@ -180,7 +180,7 @@ title_separator: "|"
     <label for="collapsibleIMMER-SENSE" class="lbl-toggle">Workshop Description</label>
     <div class="collapsible-content">
       <div class="content-inner">
-        <p>A</p>
+        
       </div>
     </div>
   </div>
@@ -200,7 +200,7 @@ title_separator: "|"
     <label for="collapsibleHSS-XR" class="lbl-toggle">Workshop Description</label>
     <div class="collapsible-content">
       <div class="content-inner">
-        <p>A</p>
+        
       </div>
     </div>
   </div>
@@ -220,7 +220,7 @@ title_separator: "|"
     <label for="collapsibleNESXR26" class="lbl-toggle">Workshop Description</label>
     <div class="collapsible-content">
       <div class="content-inner">
-        <p>A</p>
+        
       </div>
     </div>
   </div>
@@ -240,7 +240,7 @@ title_separator: "|"
     <label for="collapsibleSIC-XR" class="lbl-toggle">Workshop Description</label>
     <div class="collapsible-content">
       <div class="content-inner">
-        <p>A</p>
+        
       </div>
     </div>
   </div>
@@ -260,7 +260,7 @@ title_separator: "|"
     <label for="collapsibleLocXR" class="lbl-toggle">Workshop Description</label>
     <div class="collapsible-content">
       <div class="content-inner">
-        <p>A</p>
+        
       </div>
     </div>
   </div>
@@ -280,7 +280,7 @@ title_separator: "|"
     <label for="collapsibleVHCIE" class="lbl-toggle">Workshop Description</label>
     <div class="collapsible-content">
       <div class="content-inner">
-        <p>A</p>
+        
       </div>
     </div>
   </div>
@@ -300,7 +300,7 @@ title_separator: "|"
     <label for="collapsibleReViSI" class="lbl-toggle">Workshop Description</label>
     <div class="collapsible-content">
       <div class="content-inner">
-        <p>A</p>
+        
       </div>
     </div>
   </div>
@@ -320,7 +320,7 @@ title_separator: "|"
     <label for="collapsibleWSR" class="lbl-toggle">Workshop Description</label>
     <div class="collapsible-content">
       <div class="content-inner">
-        <p>A</p>
+        
       </div>
     </div>
   </div>
@@ -340,7 +340,7 @@ title_separator: "|"
     <label for="collapsibleGenAI-XR" class="lbl-toggle">Workshop Description</label>
     <div class="collapsible-content">
       <div class="content-inner">
-        <p>A</p>
+        
       </div>
     </div>
   </div>
@@ -360,7 +360,7 @@ title_separator: "|"
     <label for="collapsibleWISP" class="lbl-toggle">Workshop Description</label>
     <div class="collapsible-content">
       <div class="content-inner">
-        <p>A</p>
+        
       </div>
     </div>
   </div>
@@ -380,7 +380,7 @@ title_separator: "|"
     <label for="collapsibleIVL" class="lbl-toggle">Workshop Description</label>
     <div class="collapsible-content">
       <div class="content-inner">
-        <p>A</p>
+        
       </div>
     </div>
   </div>
@@ -400,7 +400,7 @@ title_separator: "|"
     <label for="collapsibleVR-HSA" class="lbl-toggle">Workshop Description</label>
     <div class="collapsible-content">
       <div class="content-inner">
-        <p>A</p>
+        
       </div>
     </div>
   </div>
@@ -420,7 +420,7 @@ title_separator: "|"
     <label for="collapsiblePerGraVAR" class="lbl-toggle">Workshop Description</label>
     <div class="collapsible-content">
       <div class="content-inner">
-        <p>A</p>
+        
       </div>
     </div>
   </div>
@@ -440,7 +440,7 @@ title_separator: "|"
     <label for="collapsibleARCHERIX" class="lbl-toggle">Workshop Description</label>
     <div class="collapsible-content">
       <div class="content-inner">
-        <p>A</p>
+        
       </div>
     </div>
   </div>
@@ -460,7 +460,7 @@ title_separator: "|"
     <label for="collapsibleXRMemory26" class="lbl-toggle">Workshop Description</label>
     <div class="collapsible-content">
       <div class="content-inner">
-        <p>A</p>
+        
       </div>
     </div>
   </div>
@@ -480,7 +480,7 @@ title_separator: "|"
     <label for="collapsibleIDEATExR" class="lbl-toggle">Workshop Description</label>
     <div class="collapsible-content">
       <div class="content-inner">
-        <p>A</p>
+        
       </div>
     </div>
   </div>
@@ -500,7 +500,7 @@ title_separator: "|"
     <label for="collapsibleVEC" class="lbl-toggle">Workshop Description</label>
     <div class="collapsible-content">
       <div class="content-inner">
-        <p>A</p>
+        
       </div>
     </div>
   </div>
