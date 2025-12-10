@@ -5,7 +5,7 @@ subtitle: "IEEE VR 2026"
 title_separator: "|"
 ---
  <section class="page__content" itemprop="text">
-<p style="width:100%; margin: 30px auto; padding: 20px 0; text-align:center; font-size:1rem; border-radius: 30px; background-color: #f3f3f3">This content is currently being updated.</p>
+<!--p style="width:100%; margin: 30px auto; padding: 20px 0; text-align:center; font-size:1rem; border-radius: 30px; background-color: #f3f3f3">This content is currently being updated.</p-->
 <h2 class="padding_top_xsmall" id="KELVAR">No. 1: 2026 IEEE VR KELVAR Workshop: K-12+ Embodied Learning through Virtual and Augmented Reality (11th Annual Workshop)</h2>
 <p class="small">Saturday 8 March, 8:30-12:30 (Saint-Malo, France UTC+1), Room: Bouvet</p>
 <div class="padding_left_medium">
