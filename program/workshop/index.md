@@ -7,7 +7,7 @@ title_separator: "|"
  <section class="page__content" itemprop="text">
 <!--p style="width:100%; margin: 30px auto; padding: 20px 0; text-align:center; font-size:1rem; border-radius: 30px; background-color: #f3f3f3">This content is currently being updated.</p-->
 <h2 class="padding_top_xsmall" id="KELVAR">No. 1: 2026 IEEE VR KELVAR Workshop: K-12+ Embodied Learning through Virtual and Augmented Reality (11th Annual Workshop)</h2>
-
+<p class="small">Saturday 8 March, 8:30-12:30 (Saint-Malo, France UTC+1), Room: Bouvet</p>
 <div class="padding_left_medium">
   <med><b style="color: black;">Principal Organiser:</b> Erica Southgate</med>
   <br />
@@ -27,7 +27,7 @@ title_separator: "|"
 </div>
 
 <h2 class="padding_top_xsmall" id="XR_Health">No. 2: 4th Workshop on XR Technologies for Medicine and Healthcare</h2>
-
+<p class="small">Saturday 8 March, 8:30-12:30 (Saint-Malo, France UTC+1), Room: Bouvet</p>
 <div class="padding_left_medium">
   <med><b style="color: black;">Principal Organiser:</b> Danny Schott</med>
   <br />
@@ -47,7 +47,7 @@ title_separator: "|"
 </div>
 
 <h2 class="padding_top_xsmall" id="XR4OR">No. 3: Extended Reality in the Operating Room (XR4OR)</h2>
-
+<p class="small">Saturday 8 March, 8:30-12:30 (Saint-Malo, France UTC+1), Room: Bouvet</p>
 <div class="padding_left_medium">
   <med><b style="color: black;">Principal Organiser:</b> Gabriel Zachmann</med>
   <br />
@@ -67,7 +67,7 @@ title_separator: "|"
 </div>
 
 <h2 class="padding_top_xsmall" id="XR-MED">No. 4: The 2nd International Workshop on XR Medical Applications: Human -Centered Medical Training and Simulation</h2>
-
+<p class="small">Saturday 8 March, 8:30-12:30 (Saint-Malo, France UTC+1), Room: Bouvet</p>
 <div class="padding_left_medium">
   <med><b style="color: black;">Principal Organiser:</b> Doga Demirel</med>
   <br />
@@ -87,7 +87,7 @@ title_separator: "|"
 </div>
 
 <h2 class="padding_top_xsmall" id="IIMC">No. 5: The 5th International Workshop on Intelligent Immersive Media Communications (IIMC2026)</h2>
-
+<p class="small">Saturday 8 March, 8:30-12:30 (Saint-Malo, France UTC+1), Room: Bouvet</p>
 <div class="padding_left_medium">
   <med><b style="color: black;">Principal Organiser:</b> Eun-Seok Ryu</med>
   <br />
@@ -107,7 +107,7 @@ title_separator: "|"
 </div>
 
 <h2 class="padding_top_xsmall" id="XRIOS">No. 6: The 5th International Workshop on eXtended Reality for Industrial and Occupational Supports</h2>
-
+<p class="small">Saturday 8 March, 8:30-12:30 (Saint-Malo, France UTC+1), Room: Bouvet</p>
 <div class="padding_left_medium">
   <med><b style="color: black;">Principal Organiser:</b> Hyungil Kim</med>
   <br />
@@ -127,7 +127,7 @@ title_separator: "|"
 </div>
 
 <h2 class="padding_top_xsmall" id="NIDIT">No. 7: Novel Input Devices and Interaction Techniques</h2>
-
+<p class="small">Saturday 8 March, 8:30-12:30 (Saint-Malo, France UTC+1), Room: Bouvet</p>
 <div class="padding_left_medium">
   <med><b style="color: black;">Principal Organiser:</b> Prashant Rawat</med>
   <br />
@@ -147,7 +147,7 @@ title_separator: "|"
 </div>
 
 <h2 class="padding_top_xsmall" id="GEMINI">No. 8: GEMINI: 4th Workshop on Gaze and Eye Movement in Interaction in XR</h2>
-
+<p class="small">Saturday 8 March, 8:30-12:30 (Saint-Malo, France UTC+1), Room: Bouvet</p>
 <div class="padding_left_medium">
   <med><b style="color: black;">Principal Organiser:</b> Jinghui Hu</med>
   <br />
@@ -167,7 +167,7 @@ title_separator: "|"
 </div>
 
 <h2 class="padding_top_xsmall" id="IMMER-SENSE">No. 9: IMMER-SENSE – Workshop on Immersion and Sensing for XR Experiences</h2>
-
+<p class="small">Saturday 8 March, 8:30-12:30 (Saint-Malo, France UTC+1), Room: Bouvet</p>
 <div class="padding_left_medium">
   <med><b style="color: black;">Principal Organiser:</b> Manshul Belani</med>
   <br />
@@ -187,7 +187,7 @@ title_separator: "|"
 </div>
 
 <h2 class="padding_top_xsmall" id="HSS-XR">No. 10(Sponsor workshop): Hardware-Software-Service Co-Design for Practical Extended Reality Systems</h2>
-
+<p class="small">Saturday 8 March, 8:30-12:30 (Saint-Malo, France UTC+1), Room: Bouvet</p>
 <div class="padding_left_medium">
   <med><b style="color: black;">Principal Organiser:</b> Kooknam Han</med>
   <br />
@@ -207,7 +207,7 @@ title_separator: "|"
 </div>
 
 <h2 class="padding_top_xsmall" id="NESXR26">No. 11: First IEEE XR Workshop on Networking and Sensing for the Metaverse and Multi-user and Social XR Environments</h2>
-
+<p class="small">Saturday 8 March, 8:30-12:30 (Saint-Malo, France UTC+1), Room: Bouvet</p>
 <div class="padding_left_medium">
   <med><b style="color: black;">Principal Organiser:</b> Kurt Tutschku</med>
   <br />
@@ -227,7 +227,7 @@ title_separator: "|"
 </div>
 
 <h2 class="padding_top_xsmall" id="SIC-XR">No. 12: 2nd Workshop on Social Interaction and Collaboration in eXtended Reality</h2>
-
+<p class="small">Saturday 8 March, 8:30-12:30 (Saint-Malo, France UTC+1), Room: Bouvet</p>
 <div class="padding_left_medium">
   <med><b style="color: black;">Principal Organiser:</b> Andrea Antonio Cantone</med>
   <br />
@@ -247,7 +247,7 @@ title_separator: "|"
 </div>
 
 <h2 class="padding_top_xsmall" id="LocXR">No. 13: 4th Workshop on Locomotion and Wayfinding in XR</h2>
-
+<p class="small">Saturday 8 March, 8:30-12:30 (Saint-Malo, France UTC+1), Room: Bouvet</p>
 <div class="padding_left_medium">
   <med><b style="color: black;">Principal Organiser:</b> Tim Weissker</med>
   <br />
@@ -267,7 +267,7 @@ title_separator: "|"
 </div>
 
 <h2 class="padding_top_xsmall" id="VHCIE">No. 14: Workshop on Virtual Humans and Crowds in Immersive Environments</h2>
-
+<p class="small">Saturday 8 March, 8:30-12:30 (Saint-Malo, France UTC+1), Room: Bouvet</p>
 <div class="padding_left_medium">
   <med><b style="color: black;">Principal Organiser:</b> Andrea Bönsch</med>
   <br />
@@ -287,7 +287,7 @@ title_separator: "|"
 </div>
 
 <h2 class="padding_top_xsmall" id="ReViSI">No. 15: 2nd International Workshop on Real and Virtual Spaces Influences</h2>
-
+<p class="small">Saturday 8 March, 8:30-12:30 (Saint-Malo, France UTC+1), Room: Bouvet</p>
 <div class="padding_left_medium">
   <med><b style="color: black;">Principal Organiser:</b> Laura Battistel</med>
   <br />
@@ -307,7 +307,7 @@ title_separator: "|"
 </div>
 
 <h2 class="padding_top_xsmall" id="WSR">No. 16: 4th Workshop on Seamless Reality: AR Technologies for Seamless Perception and Cognition between Cyber and Physical Spaces</h2>
-
+<p class="small">Saturday 8 March, 8:30-12:30 (Saint-Malo, France UTC+1), Room: Bouvet</p>
 <div class="padding_left_medium">
   <med><b style="color: black;">Principal Organiser:</b> Yuta Itoh</med>
   <br />
@@ -327,7 +327,7 @@ title_separator: "|"
 </div>
 
 <h2 class="padding_top_xsmall" id="GenAI-XR">No. 17: GenAI-XR: Generative Artificial Intelligence meets Extended Reality</h2>
-
+<p class="small">Saturday 8 March, 8:30-12:30 (Saint-Malo, France UTC+1), Room: Bouvet</p>
 <div class="padding_left_medium">
   <med><b style="color: black;">Principal Organiser:</b> Pasquale Cascarano</med>
   <br />
@@ -347,7 +347,7 @@ title_separator: "|"
 </div>
 
 <h2 class="padding_top_xsmall" id="WISP">No. 18: 7th Workshop on Immersive Sickness Prevention</h2>
-
+<p class="small">Saturday 8 March, 8:30-12:30 (Saint-Malo, France UTC+1), Room: Bouvet</p>
 <div class="padding_left_medium">
   <med><b style="color: black;">Principal Organiser:</b> Isayas Adhanom</med>
   <br />
@@ -367,7 +367,7 @@ title_separator: "|"
 </div>
 
 <h2 class="padding_top_xsmall" id="IVL">No. 19: 4th Workshop on Immersive Visualization Laboratories - Past, Present and Future</h2>
-
+<p class="small">Saturday 8 March, 8:30-12:30 (Saint-Malo, France UTC+1), Room: Bouvet</p>
 <div class="padding_left_medium">
   <med><b style="color: black;">Principal Organiser:</b> William Sherman</med>
   <br />
@@ -387,7 +387,7 @@ title_separator: "|"
 </div>
 
 <h2 class="padding_top_xsmall" id="VR-HSA">No. 20: The 2nd International Workshop on Virtual Reality for Human and Spatial Augmentation</h2>
-
+<p class="small">Saturday 8 March, 8:30-12:30 (Saint-Malo, France UTC+1), Room: Bouvet</p>
 <div class="padding_left_medium">
   <med><b style="color: black;">Principal Organiser:</b> Daisuke Iwai</med>
   <br />
@@ -407,7 +407,7 @@ title_separator: "|"
 </div>
 
 <h2 class="padding_top_xsmall" id="PerGraVAR">No. 21: Third International Workshop on Perception-driven Graphics and Displays for VR and AR</h2>
-
+<p class="small">Saturday 8 March, 8:30-12:30 (Saint-Malo, France UTC+1), Room: Bouvet</p>
 <div class="padding_left_medium">
   <med><b style="color: black;">Principal Organiser:</b> Martin Weier</med>
   <br />
@@ -427,7 +427,7 @@ title_separator: "|"
 </div>
 
 <h2 class="padding_top_xsmall" id="ARCHERIX">No. 22: 2nd Workshop on Archaeology and Cultural Heritage through XR</h2>
-
+<p class="small">Saturday 8 March, 8:30-12:30 (Saint-Malo, France UTC+1), Room: Bouvet</p>
 <div class="padding_left_medium">
   <med><b style="color: black;">Principal Organiser:</b> Sungyoung Kim</med>
   <br />
@@ -447,7 +447,7 @@ title_separator: "|"
 </div>
 
 <h2 class="padding_top_xsmall" id="XRMemory26">No. 23: The 3rd International Workshop on Spatial Memory in XR (XRMemory)</h2>
-
+<p class="small">Saturday 8 March, 8:30-12:30 (Saint-Malo, France UTC+1), Room: Bouvet</p>
 <div class="padding_left_medium">
   <med><b style="color: black;">Principal Organiser:</b> Dooyoung Kim</med>
   <br />
@@ -467,7 +467,7 @@ title_separator: "|"
 </div>
 
 <h2 class="padding_top_xsmall" id="IDEATExR">No. 24: Inclusion, Diversity, Equity, Accessibility, Transparency, and Ethics in XR</h2>
-
+<p class="small">Saturday 8 March, 8:30-12:30 (Saint-Malo, France UTC+1), Room: Bouvet</p>
 <div class="padding_left_medium">
   <med><b style="color: black;">Principal Organiser:</b> G. Nikki Ramirez</med>
   <br />
@@ -487,7 +487,7 @@ title_separator: "|"
 </div>
 
 <h2 class="padding_top_xsmall" id="VEC">No. 25: VR Embodiment for Children</h2>
-
+<p class="small">Saturday 8 March, 8:30-12:30 (Saint-Malo, France UTC+1), Room: Bouvet</p>
 <div class="padding_left_medium">
   <med><b style="color: black;">Principal Organiser:</b> Sylvia Xueni Pan</med>
   <br />
