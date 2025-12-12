@@ -212,7 +212,7 @@ title_separator: "|"
   <br />
   <med><b style="color: black;">Principal Organiser:</b> Kurt Tutschku</med>
   <br />
-  <med><b style="color: black;">Website:</b> <a href="https://sites.google.com/view/ieee-vr-xesxr26/" target="_blank">https://sites.google.com/view/ieee-vr-xesxr26/</a></med>
+  <med><b style="color: black;">Website:</b> <a href="https://sites.google.com/view/nesxr26/" target="_blank">https://sites.google.com/view/nesxr26/</a></med>
   <br />
   <div id="desc_NESXR26" class="wrap-collabsible" style="display:none">
     <input id="collapsibleNESXR26" class="toggle" type="checkbox" />
