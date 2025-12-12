@@ -59,4 +59,3 @@ title_separator: "|"
         <a href="https://ieeevr.org/2026/assets/downloads/251107_IEEE VR_Sponsorship_CFP.pdf" target="_blank">Call for Sponsors and Exhibitors</a> 
     </p>
   <p> You can contact us at : <a href= "mailto: exhibitsponsor2026@ieeevr.org"  target="_blank">exhibitsponsor2026@ieeevr.org</a> </p>
-</div>
