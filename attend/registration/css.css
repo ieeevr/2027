@@ -5,6 +5,7 @@
   height: auto;
   min-height: 500px;
   margin: 0 auto;
+  font-size: 1rem;
 }
 .layout {
   max-width: 1200px;
@@ -225,7 +226,7 @@ textarea{margin:0; padding:0; font-size:1em; vertical-align:middle; -webkit-bord
 }
 #body_wrap .body_title_wrap .body_title {
   padding: 20px 0 10px;
-  font-size: 3.2rem;
+  font-size: 2.2rem;
   font-weight: 700;
 }
 .link {
@@ -238,7 +239,7 @@ textarea{margin:0; padding:0; font-size:1em; vertical-align:middle; -webkit-bord
 }
 
 .regi .regi_tit{
-	font-size: 1.7rem;
+	font-size: 1rem;
 	margin-top: 0;
 }
 
@@ -251,7 +252,8 @@ textarea{margin:0; padding:0; font-size:1em; vertical-align:middle; -webkit-bord
 
 .regi dl dt,
 .regi dl dd{
-    padding: 2rem;
+    padding: 20px 3%;
+	margin-top: 0px;	
 }
 
 .regi dl dt{
@@ -260,7 +262,7 @@ textarea{margin:0; padding:0; font-size:1em; vertical-align:middle; -webkit-bord
     align-items: center;
     cursor: pointer;
     background: #f9f9f9;
-    font-size: 2.2rem;
+    font-size: 1rem;
     font-weight: 700;
 }
 
@@ -283,10 +285,13 @@ textarea{margin:0; padding:0; font-size:1em; vertical-align:middle; -webkit-bord
 .regi dl dd{
     border-top: 1px dashed #ddd;
     line-height: 1.5;
+	font-size:20px;
+	
 }
 
 .regi dd h3{
-	font-size: 2.2rem;
+	font-size:1rem;
+	padding-bottom:15px;
 }
 
 .regi dd h3:first-of-type{
@@ -294,7 +299,8 @@ textarea{margin:0; padding:0; font-size:1em; vertical-align:middle; -webkit-bord
 }
 
 .regi dd h4{
-	font-size: 2rem;
+	font-size: 1rem;
+	padding-top:10px;
 }
 
 .regi dd b{
@@ -304,7 +310,7 @@ textarea{margin:0; padding:0; font-size:1em; vertical-align:middle; -webkit-bord
 .regi_stepGuide{
 	list-style: none;
 	display: flex;
-	gap: 2rem;
+	gap: 15rem;
 }
 
 .regi_stepGuide li{
@@ -315,8 +321,8 @@ textarea{margin:0; padding:0; font-size:1em; vertical-align:middle; -webkit-bord
 	align-items: center;
 	gap: 1rem;
 	border: 1px solid #ddd;
-	border-radius: 2rem;
-	padding: 2rem;
+	border-radius: 15px;
+	padding: 15px;
 	transition: .3s;
 }
 
@@ -333,11 +339,11 @@ textarea{margin:0; padding:0; font-size:1em; vertical-align:middle; -webkit-bord
 }
 
 .regi_stepGuide img{
-	height: 6rem;
+	height: 80px
 }
 
 .regi_stepGuide p{
-	font-size: 1.8rem;
+	font-size: 0.7rem;
 	font-weight: 500;
 }
 
@@ -505,4 +511,5 @@ textarea{margin:0; padding:0; font-size:1em; vertical-align:middle; -webkit-bord
 	}
 	
 }
+
 
