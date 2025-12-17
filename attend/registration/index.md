@@ -70,8 +70,8 @@ title_separator: "|"
 
 <!--251217추가-->
   <link rel="stylesheet" href="css.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" / >
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" / >
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
 
 
 <div id="body_wrap" class="layout">
@@ -79,7 +79,8 @@ title_separator: "|"
 <h2 class="body_title">Online Registration</h2>
 				</div>
 					<div class="body_content regi regi">
-					<p class="tar"><a href="mailto:ieeevr2026@gmail.com" class="link"><b><i><u><i class="fa fa-envelope-square"></i> IEEEVR2026@GMAIL.COM</u></i></b><a/></p>
+					<p class="tar"><a href="mailto:ieeevr2026@gmail.com" class="link">
+						<b><i><u><i class="fa fa-envelope-square"></i> IEEEVR2026@GMAIL.COM</u></i></b><a/></p>
 <h3 class="regi_tit">IEEE VR 2026: The 33<sup>rd</sup> IEEE Conference on Virtual Reality and 3D User Interfaces</h3>
 <p>March 21-25, 2026 | Daegu, Republic of Korea</p>
 
