@@ -49,7 +49,7 @@ title_separator: "|"
 <!--251217추가-->
 
 		<style>
-/* reset-------------------------------------------------------------------------------------------------------------------------------------*/
+
 *{box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; margin:0; padding:0;}
 #body_wrap {
   width: 100%;
@@ -75,7 +75,6 @@ hr{display:none;}
 
 address{font-style: normal;}
 
-/* input reset-------------------------------------------------------------------------------------------------------------------------------------*/
 input{margin:0; padding:0px; font-size:1em; vertical-align:middle; -webkit-border-radius:0; -webkit-appearance:none;}
 input[type='checkbox']{-webkit-appearance:checkbox} 
 input[type='radio']{-webkit-appearance:radio}
@@ -146,7 +145,7 @@ textarea{margin:0; padding:0; font-size:1em; vertical-align:middle; -webkit-bord
   border-color: #4943c2;
 }
 
-/* table */
+
 .tbs {
 	width: 100%;
 	border-spacing: 5px 20px; /*border-bottom: 1px solid #eee;*/
@@ -397,7 +396,6 @@ textarea{margin:0; padding:0; font-size:1em; vertical-align:middle; -webkit-bord
 	font-weight: 500;
 }
 
-/* Registration - Form */
 
 .regi_step{
 	list-style: none;
@@ -494,7 +492,7 @@ textarea{margin:0; padding:0; font-size:1em; vertical-align:middle; -webkit-bord
 	border-radius: 3px;
 }
 
-/* ------------------------ Media Query ------------------------- */
+
 
 @media only screen and (max-width: 1024px){
 	
@@ -565,7 +563,6 @@ textarea{margin:0; padding:0; font-size:1em; vertical-align:middle; -webkit-bord
 	}
 	
 }
-
 
 
 		</style>
