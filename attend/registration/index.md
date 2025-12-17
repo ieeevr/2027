@@ -5,6 +5,24 @@ subtitle: "IEEE VR 2026"
 title_separator: "|"
 ---
 <script type="text/javascript">
+
+
+	$(function(){
+        $('.regi dl dd').hide();
+		$('.regi dl.first').addClass('on');
+		$('.regi dl.first dd').show();
+        $('.regi dl dt').click(function(){
+            $(this).parent('dl').toggleClass('on');
+            $(this).next('dd').stop().slideToggle();
+        });
+    });
+		
+
+
+
+
+
+	
 	(function($) {
 		$(function() {
 			$("#accordion > div").accordion({ header: "h4", heightStyle: "content", active: false, collapsible: true });
@@ -46,12 +64,15 @@ title_separator: "|"
 	}
 </script>
 
+
+
+
+
 <!--251217추가-->
 
   <link rel="stylesheet" href="css.css" />
-  <link rel="stylesheet"  crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 
 
@@ -335,17 +356,7 @@ title_separator: "|"
 </dl>
 
 
-<script>
-	$(function(){
-        $('.regi dl dd').hide();
-		$('.regi dl.first').addClass('on');
-		$('.regi dl.first dd').show();
-        $('.regi dl dt').click(function(){
-            $(this).parent('dl').toggleClass('on');
-            $(this).next('dd').stop().slideToggle();
-        });
-    });
-</script>					</div>
+			</div>
 				</div>
 
 
