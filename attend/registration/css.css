@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generat	<style>
+*{box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; margin:0; padding:0;}
+#body_wrap {
+  width: 100%;
+  height: auto;
+  min-height: 500px;
+  margin: 0 auto;
+}
+.layout {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+html, body{width:100%; height:100%; -webkit-text-size-adjust:none;}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section{display:block;}
+
+
+h1,h2,h3,h4,h5,h6{font-size:1em; font-weight:normal;}
+fieldset,img{max-width:100%; margin:0; padding:0; border:0; vertical-align:top;}
+ul{list-style:none;}
+a{color:inherit; text-decoration:none;}
+table{border-collapse:collapse; border-spacing:0;}
+hr{display:none;}
+
+address{font-style: normal;}
+
+input{margin:0; padding:0px; font-size:1em; vertical-align:middle; -webkit-border-radius:0; -webkit-appearance:none;}
+input[type='checkbox']{-webkit-appearance:checkbox} 
+input[type='radio']{-webkit-appearance:radio}
+select{margin:0; padding:0; font-size:1em; vertical-align:middle; -webkit-border-radius:0; cursor:pointer; }
+textarea{margin:0; padding:0; font-size:1em; vertical-align:middle; -webkit-border-radius:0; -webkit-appearance:none;}
+.mb50 {
+  margin-bottom: 50px;
+}
+.mt20 {
+  margin-top: 20px;
+}
+.mr10 {
+  margin-right: 10px;
+}
+.mb30 {
+  margin-bottom: 30px;
+}
+		.tac {
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  margin: 1px;
+  padding: 6px 15px;
+  border: 1px solid #4e6380;
+    border-top-color: rgb(78, 99, 128);
+    border-right-color: rgb(78, 99, 128);
+    border-bottom-color: rgb(78, 99, 128);
+    border-left-color: rgb(78, 99, 128);
+  background: #4e6380;
+    background-color: rgb(78, 99, 128);
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  font-size: 1em;
+  line-height: 1.3em;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  *zoom: 1;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+}
+
+.btn:hover, .btn:focus, .btn:active, .btn.active, .btn.disabled, .btn[disabled] {
+  color: #fff;
+  border-color: #4d72a5;
+  background: #4d72a5;
+    background-color: rgb(77, 114, 165);
+  *background-color: #4d72a5;
+}
+.btn-blue {
+  background-color: #262189;
+  border-color: #262189;
+  color: #fff;
+}
+.btn-large {
+  padding: 15px 45px;
+  font-size: 1.200em;
+  line-height: 1.3em;
+}
+
+.btn-blue:hover, .btn-blue:focus, .btn-blue:active, .btn-blue.active, .btn-blue.disabled, .btn-blue[disabled] {
+  background-color: #4943c2;
+  border-color: #4943c2;
+}
+
+.tbs {
+	width: 100%;
+	border-spacing: 5px 20px; /*border-bottom: 1px solid #eee;*/
+	margin-top: 5px;
+}
+
+.tbs caption {
+	height: 0;
+	text-indent: -9999px;
+	overflow: hidden
+}
+
+.tbs th, .tbs td {
+	border: 1px solid #eee;
+	padding: 15px 10px;
+}
+
+.tbs th {
+	color: #434343;
+	vertical-align: middle;
+	background: #f4f4f4;
+}
+
+.tbs thead th{
+	background: #444;
+	color: #fff;
+}
+
+.tbs th:first-child {
+	border-left: 0
+}
+
+.tbs th:last-child {
+	border-right: 0
+}
+
+.tbs td {
+	padding: 10px;
+}
+
+.tbs td:first-child {
+	border-left: 0
+}
+
+.tbs td:last-child {
+	border-right: 0
+}
+
+.tbs tfoot th {
+	color: #222
+}
+
+.tbs tfoot td {
+	font-weight: 600;
+	text-align: center;
+	vertical-align: middle
+}
+
+.tbs .item {
+	font-weight: bold
+}
+
+.tbs .bg {
+	background: #f9f9f9
+}
+
+.tbs-bdt {
+	border-top: 2px solid #222;
+}
+
+.tbs-bdbt {
+	border-bottom: 2px solid #222;
+}
+
+.tbs-fixed th {
+	position: sticky;
+	top: 0;
+	background: #f9f9f9;
+}
+
+.tbs-fixed th::before {
+	content: '';
+	position: absolute;
+	top: -1px;
+	left: 0;
+	width: 100%;
+	height: 2px;
+	background: #222;
+}
+
+
+.lss-ol {
+	margin-left: 18px;
+}
+
+.lss-dot>li {
+	position: relative;
+	padding-left: 10px;
+	margin: 5px 0;
+}
+
+.lss-dot>li::before {
+	content: '';
+	position: absolute;
+	top: 10px;
+	left: 0;
+	width: 4px;
+	height: 4px;
+	border-radius: 50%;
+	background: #262189;
+}
+
+.lss-circle>li::before {
+	border-radius: 50%;
+}
+
+.lss-chk>li {
+	background: url(/img/common/bul_che.png) 0 9px no-repeat;
+	padding-left: 15px;
+}
+
+.lss-line>li {
+	padding-left: 10px;
+	background: url(/img/common/bul_line.gif) 0 14px no-repeat;
+}
+
+		.red {
+  color: #f1131d;
+}
+#body_wrap .body_title_wrap .body_title {
+  padding: 20px 0 10px;
+  font-size: 3.2rem;
+  font-weight: 700;
+}
+.link {
+  color: #655ab0;
+  word-break: break-all;
+}
+
+.tar {
+  text-align: right;
+}
+
+.regi .regi_tit{
+	font-size: 1.7rem;
+	margin-top: 0;
+}
+
+.regi dl{
+    margin-bottom: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.regi dl dt,
+.regi dl dd{
+    padding: 2rem;
+}
+
+.regi dl dt{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    background: #f9f9f9;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+.regi dl.on{
+    border-color: #262189;
+}
+
+.regi dl.on dt{
+    background: #f6f6ff;
+}
+
+.regi .fa-quora{
+    color: #999;
+}
+
+.regi dl.on .fa-quora{
+    color: #262189;
+}
+
+.regi dl dd{
+    border-top: 1px dashed #ddd;
+    line-height: 1.5;
+}
+
+.regi dd h3{
+	font-size: 2.2rem;
+}
+
+.regi dd h3:first-of-type{
+	margin-top: 0;
+}
+
+.regi dd h4{
+	font-size: 2rem;
+}
+
+.regi dd b{
+	color: #262189;
+}
+
+.regi_stepGuide{
+	list-style: none;
+	display: flex;
+	gap: 2rem;
+}
+
+.regi_stepGuide li{
+	flex: 1;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 1rem;
+	border: 1px solid #ddd;
+	border-radius: 2rem;
+	padding: 2rem;
+	transition: .3s;
+}
+
+.regi_stepGuide li:hover{
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.regi_stepGuide .step{
+	display: inline-block;
+	padding: 5px 2rem;
+	border-radius: 3rem;
+	background: #066569;
+	color: #fff;
+}
+
+.regi_stepGuide img{
+	height: 6rem;
+}
+
+.regi_stepGuide p{
+	font-size: 1.8rem;
+	font-weight: 500;
+}
+
+.regi_step{
+	list-style: none;
+	display: flex;
+	gap: 2rem;
+	position: relative;
+}
+
+.regi_step::before{
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 20px;
+	width: 100%;
+	height: 1px;
+	background: #ddd;
+	z-index: -1;
+}
+
+.regi_step li{
+	flex: 1;
+	text-align: center;
+	color: #999;
+	padding: 1rem;
+}
+
+.regi_step .step{
+	background: #ddd;
+	padding: 5px 2rem;
+	border-radius: 3rem;
+}
+
+.regi_step .on .step{
+	background: #262188;
+	color: #fff;
+}
+
+.regi_step p{
+	font-size: 1.8rem;
+	margin-top: 1.5rem;
+}
+
+.regi_step .on p{
+	color: #262188;
+	font-weight: 500;
+}
+
+.wrap_regi .flex_box{
+	align-items: center;
+	gap: 2rem;
+}
+
+.wrap_regi .flex_box label{
+	padding: 5px;
+}
+
+.box_total{
+	font-size: 1.8rem;
+}
+
+.box_total span{
+	font-weight: 900;
+	font-size: 3.2rem;
+	color: #262188;
+	margin-left: 10px;
+	position: relative;
+	padding: 0 5px;
+}
+
+.box_total span::after{
+	content:'';
+	position: absolute;
+	bottom: -3px;
+	left: 0;
+	width: 100%;
+	height: 1px;
+	background: #222;
+}
+
+/* Registration - Summary */
+
+.wrap_regi .btn_edit{
+	font-size: 14px;
+	vertical-align: middle;
+	padding: 5px 2rem;
+	border-radius: 3rem;
+	border: 1px solid #ff3b3b;
+	color: #ff3b3b;
+}
+
+.wrap_regi .answer_box{
+	background: #f5f5f5;
+	padding: 1rem 2rem;
+	border-radius: 3px;
+}
+
+
+@media only screen and (max-width: 1024px){
+	
+	.regi dl dt{
+		font-size: 2.2rem;
+	}
+	
+	.regi dd h3{
+		font-size: 2rem;
+	}
+	
+	.regi dd h4{
+		font-size: 1.9rem;
+	}
+}
+
+@media only screen and (max-width: 768px){
+	
+	.regi dl dt{
+		font-size: 2.1rem;
+	}
+	
+	.regi_stepGuide{
+		flex-wrap: wrap;
+		gap: 1rem;
+	}
+	
+	.regi_stepGuide li{
+		flex: initial;
+		width: calc((100% - 1rem) / 2);
+	}
+}
+
+@media only screen and (max-width: 640px){
+	
+	.regi dl dt{
+		font-size: 2rem;
+		padding: 1rem 2rem;
+	}
+	
+	.regi_stepGuide img{
+		height: 4.5rem;
+	}
+}
+
+@media only screen and (max-width: 480px){
+	
+	.regi_step{
+		gap: 5px;
+	}
+	
+	.regi_step li{
+		padding: 10px 5px;
+	}
+	
+	.regi_step .step{
+		padding: 5px 10px;
+	}
+
+	.regi_step p{
+		font-size: 1.6rem;
+	}
+	
+	.box_total span{
+		display: inline-block;
+		margin-left: 0;
+	}
+	
+}
+
+
+		</style>or" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+ <body>
+  
+ </body>
+</html>
