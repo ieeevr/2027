@@ -310,7 +310,7 @@ textarea{margin:0; padding:0; font-size:1em; vertical-align:middle; -webkit-bord
 .regi_stepGuide{
 	list-style: none;
 	display: flex;
-	gap: 15rem;
+	gap: 15px;
 }
 
 .regi_stepGuide li{
@@ -511,5 +511,6 @@ textarea{margin:0; padding:0; font-size:1em; vertical-align:middle; -webkit-bord
 	}
 	
 }
+
 
 
