@@ -80,9 +80,7 @@ title_separator: "|"
 				<div id="body_wrap" class="layout">
 										<div class="body_title_wrap clear">
 						<h2 class="body_title">Online Registration</h2>
-<!-- <div class="location">
-	<a href="https://ieeevr2026.org/index.php" tabindex="3" title="Home" class="home">Home</a>
-&nbsp;<span class='loca_arr'>&nbsp;</span>Online Registration</div> -->					</div>
+				</div>
 					<div class="body_content regi regi">
 					<p class="tar"><a href="mailto:ieeevr2026@gmail.com" class="link"><b><i><u><i class="fa fa-envelope-square"></i> IEEEVR2026@GMAIL.COM</u></i></b><a/></p>
 <h3 class="regi_tit">IEEE VR 2026: The 33<sup>rd</sup> IEEE Conference on Virtual Reality and 3D User Interfaces</h3>
