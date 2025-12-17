@@ -443,19 +443,24 @@ textarea{margin:0; padding:0; font-size:1em; vertical-align:middle; -webkit-bord
 	border-radius: 3px;
 }
 
+.respon_table {
+	overflow-x: auto
+}
+
+
 
 @media only screen and (max-width: 1024px){
 	
 	.regi dl dt{
-		font-size: 2.2rem;
+		font-size: 20px;
 	}
 	
 	.regi dd h3{
-		font-size: 2rem;
+		font-size:18px;
 	}
 	
 	.regi dd h4{
-		font-size: 1.9rem;
+		font-size: 18px;
 	}
 }
 
@@ -479,8 +484,8 @@ textarea{margin:0; padding:0; font-size:1em; vertical-align:middle; -webkit-bord
 @media only screen and (max-width: 640px){
 	
 	.regi dl dt{
-		font-size: 2rem;
-		padding: 1rem 2rem;
+		font-size: 20px;
+		padding: 15px 2rem;
 	}
 	
 	.regi_stepGuide img{
@@ -512,6 +517,7 @@ textarea{margin:0; padding:0; font-size:1em; vertical-align:middle; -webkit-bord
 	}
 	
 }
+
 
 
 
