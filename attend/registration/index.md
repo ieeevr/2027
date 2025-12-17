@@ -48,6 +48,315 @@ title_separator: "|"
 
 <!--251217추가-->
 
+  <link rel="stylesheet" href="css.css" />
+
+
+
+	<!-- Fonts -->
+	<link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+	
+	<!-- Font Icon -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+
+
+				<div id="body_wrap" class="layout">
+										<div class="body_title_wrap clear">
+						<h2 class="body_title">Online Registration</h2>
+<!-- <div class="location">
+	<a href="https://ieeevr2026.org/index.php" tabindex="3" title="Home" class="home">Home</a>
+&nbsp;<span class='loca_arr'>&nbsp;</span>Online Registration</div> -->					</div>
+					<div class="body_content regi regi">
+					<p class="tar"><a href="mailto:ieeevr2026@gmail.com" class="link"><b><i><u><i class="fa fa-envelope-square"></i> IEEEVR2026@GMAIL.COM</u></i></b><a/></p>
+<h3 class="regi_tit">IEEE VR 2026: The 33<sup>rd</sup> IEEE Conference on Virtual Reality and 3D User Interfaces</h3>
+<p>March 21-25, 2026 | Daegu, Republic of Korea</p>
+
+<div class="tac mt20 mb50">
+	<a href="https://ieeevr2026.org/index.php?GP=regi/regi&ACT=form" class="btn btn-large btn-blue">Online Registration</a>
+</div>
+
+<dl class="first">
+	<dt><span><i class="fa fa-quora mr10"></i>IEEE VR 2026 Registration</span><i class="material-icons">keyboard_arrow_down</i></dt>
+	<dd>
+		<p class="taj">We look forward to welcoming you to <b>IEEE VR 2026</b>, an exciting week of exchange on innovative research and advances in VR, AR, XR, and 3D user interfaces. After reviewing the sections below, please use the registration link above to complete your registration for IEEE VR 2026.</p>
+
+		<ul class="lss-dot mb10">
+			<li><b>February 15, 2025</b>: Deadline for all authors to register for inclusion of their papers in the conference program and proceedings.</li>
+			<li><b>February 15, 2025</b>: Early registration deadline.</li>
+			<li><b>Author/Submission Questions</b>: Contact IEEE VR 2026 Program Chairs at <a href="mailto:program2026@ieeevr.org" class="link">program2026@ieeevr.org</a></li>
+			<li><b>Visa Information and Registration Questions</b>: Contact IEEE VR 2026 Local Secretariat at <a href="mailto:ieeevr2026@gmail.com" class="link">ieeevr2026@gmail.com</a></li>
+		</ul>
+
+		<p><i>Note: All deadlines are at 11:59 PM AOE on the stated date. All registration rates are listed in Korean Won (KRW) and are exempt from VAT.</i></p>
+	</dd>
+</dl>
+
+<dl>
+	<dt><span><i class="fa fa-quora mr10"></i>Important Information for Paper Authors</span><i class="material-icons">keyboard_arrow_down</i></dt>
+	<dd>
+		<p class="taj">At least one author per accepted contribution published in the IEEE Digital Library (main conference paper/workshop paper/poster/research demo/3DUI contest) must be registered as an <b>AUTHOR</b> to the FULL conference (from Saturday 21 to Wednesday 25) at the rate of full Member/Non-Member registration regardless of whether or not he/she is a student.</p>
+
+		<ul class="lss-dot">
+			<li>The registration deadline for authors is <b>February 15th</b>, 2026.</li>
+			<li>Author registrations are not refundable and must be processed no later than <b>February 15</b>, 2026 for their work to be included in the conference program and publications.</li>
+			<li>Author registration requires a submission ID.</li>
+			<li>To register, open the Registration form linked above. Under the Classification section, select “Paper Author”.</li>
+			<li>Each author registration is valid for TWO accepted contributions (if applicable).</li>
+		</ul>
+	</dd>
+</dl>
+
+<dl>
+	<dt><span><i class="fa fa-quora mr10"></i>What is Included for Each Type of Registration?</span><i class="material-icons">keyboard_arrow_down</i></dt>
+	<dd>
+		<b>Full Conference (Saturday to Wednesday)</b>
+		<ul class="lss-dot mb30">
+			<li>Access to all the Workshops and Tutorials (Saturday–Sunday)</li>
+			<li>Access to all the conference sessions (Monday - Wednesday)</li>
+			<li>Access to the welcome reception (Monday evening)</li>
+			<li>Access to the gala dinner (Tuesday evening)</li>
+			<li>Access to the conference proceedings</li>
+			<li>Access to the Discord server (chat)</li>
+		</ul>
+
+		<b>Conference only (Monday to Wednesday)</b>
+		<ul class="lss-dot mb30">
+			<li>Access to all the conference sessions (Monday - Wednesday)</li>
+			<li>Access to the welcome reception (Monday evening)</li>
+			<li>Access to the gala dinner (Tuesday evening)</li>
+			<li>Access to the conference proceedings</li>
+			<li>Access to the Discord server (chat)</li>
+		</ul>
+
+		<b>Workshops & Tutorials only (Saturday to Sunday)</b>
+		<ul class="lss-dot mb30">
+			<li>Access to all the Workshops and Tutorials (Saturday–Sunday)</li>
+			<li>Access to the conference proceedings</li>
+			<li>Access to the Discord server (chat)</li>
+		</ul>
+
+		<b>Additional tickets</b>
+		<ul class="lss-dot">
+			<li>Welcome reception on Monday evening</li>
+			<li>Gala dinner on Tuesday evening</li>
+		</ul>
+	</dd>
+</dl>
+
+<dl>
+	<dt><span><i class="fa fa-quora mr10"></i>Registration Process and Fees</span><i class="material-icons">keyboard_arrow_down</i></dt>
+	<dd>
+		<h3>Registration Process</h3>
+		<ol class="regi_stepGuide mb50">
+			<li>
+				<span class="step">Step 1</span>
+				<img src="https://ieeevr2026.org/img/2026/sub/step_icon01.png" alt="" />
+				<p>Create an Account</p>
+			</li>
+			<li>
+				<span class="step">Step 2</span>
+				<img src="https://ieeevr2026.org/img/2026/sub/step_icon02.png" alt="" />
+				<p>Choose Registration Options</p>
+			</li>
+			<li>
+				<span class="step">Step 3</span>
+				<img src="https://ieeevr2026.org/img/2026/sub/step_icon03.png" alt="" />
+				<p>Review Summary & Payment</p>
+			</li>
+			<li>
+				<span class="step">Step 4</span>
+				<img src="https://ieeevr2026.org/img/2026/sub/step_icon04.png" alt="" />
+				<p>Confirm Receipt</p>
+			</li>
+		</ol>
+
+		<h3>Registration Fee</h3>
+		<h4>Early Registration <small class="red">until February 15th, 2026 (AoE)</small></h4>
+
+		<div class="respon_table mb30">
+			<table class="tbs tac">
+				<colgroup>
+					<col width="30%">
+					<col width="23.333333333333%" span="3">
+				</colgroup>
+				<thead>
+					<tr>
+						<th>Registration Categories</th>
+						<th>Full Conference</th>
+						<th>Conference Only <br />(Mon-Wed.)</th>
+<!-- 						<th>Conference <br>One-Day</th> -->
+						<th>Workshops & Tutorials <br />(Sat-Sun)</th>
+<!-- 						<th>Workshops & Tutorials One-Day</th> -->
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th>IEEE Member</th>
+						<td>KRW 1,500,000</td>
+						<td>KRW 1,200,000</td>
+<!-- 						<td>KRW 480,000</td> -->
+						<td>KRW 800,000</td>
+<!-- 						<td>KRW 480,000</td> -->
+					</tr>
+					<tr>
+						<th>Non-Member</th>
+						<td>KRW 1,800,000</td>
+						<td>KRW 1,440,000</td>
+<!-- 						<td>KRW 580,000</td> -->
+						<td>KRW 960,000</td>
+<!-- 						<td>KRW 580,000</td> -->
+					</tr>
+					<tr>
+						<th>IEEE Student Member</th>
+						<td>KRW 1,050,000</td>
+						<td>KRW 840,000</td>
+<!-- 						<td>KRW 335,000</td> -->
+						<td>KRW 560,000</td>
+<!-- 						<td>KRW 335,000</td> -->
+					</tr>
+					<tr>
+						<th>Student Non-Member</th>
+						<td>KRW 1,260,000</td>
+						<td>KRW 1,008,000</td>
+<!-- 						<td>KRW 403,000</td> -->
+						<td>KRW 672,000</td>
+<!-- 						<td>KRW 403,000</td> -->
+					</tr>
+					<tr>
+						<th>IEEE Life Member <span class="red">*</span></th>
+						<td>KRW 825,000</td>
+						<td>-</td>
+<!-- 						<td>-</td> -->
+						<td>-</td>
+<!-- 						<td>-</td> -->
+					</tr>
+				</tbody>
+			</table>
+		</div>
+
+		<h4>Late / Onsite Registration <small class="red">from February 16th, 2026 (AoE)</small></h4>
+
+		<div class="respon_table">
+			<table class="tbs tac">
+				<colgroup>
+					<col width="30%">
+					<col width="23.333333333333%" span="3">
+				</colgroup>
+				<thead>
+					<tr>
+						<th>Registration Categories</th>
+						<th>Full Conference</th>
+						<th>Conference Only <br />(Mon-Wed.)</th>
+<!-- 						<th>Conference <br>One-Day</th> -->
+						<th>Workshops & Tutorials <br />(Sat-Sun)</th>
+<!-- 						<th>Workshops & Tutorials One-Day</th> -->
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th>IEEE Member</th>
+						<td>KRW 1,800,000</td>
+						<td>KRW 1,440,000</td>
+<!-- 						<td>KRW 580,000</td> -->
+						<td>KRW 960,000</td>
+<!-- 						<td>KRW 580,000</td> -->
+					</tr>
+					<tr>
+						<th>Non-Member</th>
+						<td>KRW 2,160,000</td>
+						<td>KRW 1,728,000</td>
+<!-- 						<td>KRW 696,000</td> -->
+						<td>KRW 1,152,000</td>
+<!-- 						<td>KRW 696,000</td> -->
+					</tr>
+					<tr>
+						<th>IEEE Student Member</th>
+						<td>KRW 1,260,000</td>
+						<td>KRW 1,008,000</td>
+<!-- 						<td>KRW 403,000</td> -->
+						<td>KRW 672,000</td>
+<!-- 						<td>KRW 403,000</td> -->
+					</tr>
+					<tr>
+						<th>Student Non-Member</th>
+						<td>KRW 1,512,000</td>
+						<td>KRW 1,209,600</td>
+<!-- 						<td>KRW 483,600</td> -->
+						<td>KRW 806,400</td>
+<!-- 						<td>KRW 483,600</td> -->
+					</tr>
+					<tr>
+						<th>IEEE Life Member <span class="red">*</span></th>
+						<td>KRW 990,000</td>
+						<td>-</td>
+<!-- 						<td>-</td> -->
+						<td>-</td>
+<!-- 						<td>-</td> -->
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<p class="mt10 mb20"><span class="red">*</span>Verified IEEE Life Members are eligible for a discount on the Full Conference registration, either as an author or an attendee. Please note that the Life Member discount applies only to the Full Conference registration.</p>
+
+		<h4>Additional tickets</h4>
+		<ul class="lss-dot">
+			<li>Welcome Reception — Monday evening, March 23, 2025: KRW 70,000</li>
+			<li>Gala Dinner — Tuesday evening, March 25, 2025: KRW 150,000</li>
+		</ul>
+	</dd>
+</dl>
+
+<dl>
+	<dt><span><i class="fa fa-quora mr10"></i>Visa Invitation Letters</span><i class="material-icons">keyboard_arrow_down</i></dt>
+	<dd>
+		<p class="taj">
+			<u><b>Important</b>: If you request a visa invitation letter, your registration cannot be cancelled.</u><br /><br>
+			During registration, you will have the option to request a visa invitation letter. If selected, it will be automatically generated upon completion of your registration, using the name, organization, address, passport number, and planned arrival and departure dates in the Republic of Korea that you provide. <br /><br>
+			If you require additional information on the letter (e.g., date of birth or passport details such as number, date of issue, expiration date, and place of issue), please email <a href="mailto:ieeevr2026@gmail.com" class="link">ieeevr2026@gmail.com</a> <br /><br>
+			<b>For journal and conference paper authors:</b><br>
+			If you need to begin the visa process before the final notification, we encourage the presenting author to register for the conference before the final notification date (January 23, 2025) so that we can issue the visa invitation letter. In this exceptional case, the registered author may request a refund only if the final notification results in a rejection.
+			<br><br>
+			For all other situations, we strongly encourage authors to register immediately after receiving the final notification. Visa invitation letters will be issued as soon as possible. In any case, we advise authors to anticipate potential delays in the visa application process.
+		</p>
+	</dd>
+</dl>
+
+<dl>
+	<dt><span><i class="fa fa-quora mr10"></i>Cancellation Policy</span><i class="material-icons">keyboard_arrow_down</i></dt>
+	<dd>
+		<ul class="lss-dot mb30">
+			<li>All refund/cancellation requests must be received in writing to <a href="mailto:ieeevr2026@gmail.com" class="link">ieeevr2026@gmail.com</a> by <b>February 28, 2026 11:59 PM AoE.</b></li>
+			<li>Registration cancelled until February 28 will be refunded 80% of the registration fees.</li>
+			<li>Registration cancelled from March 1 will not be eligible for a refund.</li>
+		</ul>
+
+		<b>Notes:</b>
+		<ul class="lss-dot">
+			<li>Author registrations are non-refundable.</li>
+			<li>Registrations for which a visa invitation letter has been issued are non-refundable (with one exception applicable only to journal and conference paper authors; see above).</li>
+		</ul>
+	</dd>
+</dl>
+
+
+<script>
+	$(function(){
+        $('.regi dl dd').hide();
+		$('.regi dl.first').addClass('on');
+		$('.regi dl.first dd').show();
+        $('.regi dl dt').click(function(){
+            $(this).parent('dl').toggleClass('on');
+            $(this).next('dd').stop().slideToggle();
+        });
+    });
+</script>					</div>
+				</div>
+
+
+
+
 
 <!--//251217추가-->
 
