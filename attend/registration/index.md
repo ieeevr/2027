@@ -88,7 +88,7 @@ title_separator: "|"
 								</u>
 							</i>
 						</b>
-							<a/>
+						</a>
 							</p>
 							
 <h3 class="regi_tit">IEEE VR 2026: The 33<sup>rd</sup> IEEE Conference on Virtual Reality and 3D User Interfaces</h3>
@@ -207,9 +207,7 @@ title_separator: "|"
 						<th>Registration Categories</th>
 						<th>Full Conference</th>
 						<th>Conference Only <br />(Mon-Wed.)</th>
-<!-- 						<th>Conference <br>One-Day</th> -->
 						<th>Workshops & Tutorials <br />(Sat-Sun)</th>
-<!-- 						<th>Workshops & Tutorials One-Day</th> -->
 					</tr>
 				</thead>
 				<tbody>
@@ -217,9 +215,7 @@ title_separator: "|"
 						<th>IEEE Member</th>
 						<td>KRW 1,500,000</td>
 						<td>KRW 1,200,000</td>
-<!-- 						<td>KRW 480,000</td> -->
 						<td>KRW 800,000</td>
-<!-- 						<td>KRW 480,000</td> -->
 					</tr>
 					<tr>
 						<th>Non-Member</th>
@@ -361,8 +357,6 @@ title_separator: "|"
 	</dd>
 </dl>
 
-</div>
-</div>
 
 
 
