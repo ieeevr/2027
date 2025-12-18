@@ -76,7 +76,7 @@ title_separator: "|"
 
 <div id="body_wrap" class="layout">
 <div class="body_title_wrap clear">
-<h2 class="body_title">Online Registration</h2>
+<h2 class="body_title">Registration</h2>
 				</div>
 					<div class="body_content regi regi">
 					<p class="tar">
@@ -320,7 +320,7 @@ title_separator: "|"
 		<h4>Additional tickets</h4>
 		<ul class="lss-dot">
 			<li>Welcome Reception — Monday evening, March 23, 2025: KRW 70,000</li>
-			<li>Gala Dinner — Tuesday evening, March 25, 2025: KRW 150,000</li>
+			<li>Gala Dinner — Tuesday evening, March 25, 2025: KRW 180,000</li>
 		</ul>
 	</dd>
 </dl>
