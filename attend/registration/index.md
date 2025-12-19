@@ -113,59 +113,6 @@ title_separator: "|"
 		<p><i>Note: All deadlines are at 11:59 PM AOE on the stated date. All registration rates are listed in Korean Won (KRW) and are exempt from VAT.</i></p>
 	</dd>
 </dl>
-
-<dl>
-	<dt><span><i class="fa fa-quora mr10"></i>Important Information for Paper Authors</span><i class="material-icons">keyboard_arrow_down</i></dt>
-	<dd>
-		<p class="taj">At least one author per accepted contribution published in the IEEE Digital Library (main conference paper/workshop paper/poster/research demo/3DUI contest) must be registered as an <b>AUTHOR</b> to the FULL conference (from Saturday 21 to Wednesday 25) at the rate of full Member/Non-Member registration regardless of whether or not he/she is a student.</p>
-
-		<ul class="lss-dot">
-			<li>The registration deadline for authors is <b>February 15th</b>, 2026.</li>
-			<li>Author registrations are not refundable and must be processed no later than <b>February 15</b>, 2026 for their work to be included in the conference program and publications.</li>
-			<li>Author registration requires a submission ID.</li>
-			<li>To register, open the Registration form linked above. Under the Classification section, select “Paper Author”.</li>
-			<li>Each author registration is valid for TWO accepted contributions (if applicable).</li>
-		</ul>
-	</dd>
-</dl>
-
-<dl>
-	<dt><span><i class="fa fa-quora mr10"></i>What is Included for Each Type of Registration?</span><i class="material-icons">keyboard_arrow_down</i></dt>
-	<dd>
-		<b>Full Conference (Saturday to Wednesday)</b>
-		<ul class="lss-dot mb30">
-			<li>Access to all the Workshops and Tutorials (Saturday–Sunday)</li>
-			<li>Access to all the conference sessions (Monday - Wednesday)</li>
-			<li>Access to the welcome reception (Monday evening)</li>
-			<li>Access to the gala dinner (Tuesday evening)</li>
-			<li>Access to the conference proceedings</li>
-			<li>Access to the Discord server (chat)</li>
-		</ul>
-
-		<b>Conference only (Monday to Wednesday)</b>
-		<ul class="lss-dot mb30">
-			<li>Access to all the conference sessions (Monday - Wednesday)</li>
-			<li>Access to the welcome reception (Monday evening)</li>
-			<li>Access to the gala dinner (Tuesday evening)</li>
-			<li>Access to the conference proceedings</li>
-			<li>Access to the Discord server (chat)</li>
-		</ul>
-
-		<b>Workshops & Tutorials only (Saturday to Sunday)</b>
-		<ul class="lss-dot mb30">
-			<li>Access to all the Workshops and Tutorials (Saturday–Sunday)</li>
-			<li>Access to the conference proceedings</li>
-			<li>Access to the Discord server (chat)</li>
-		</ul>
-
-		<b>Additional tickets</b>
-		<ul class="lss-dot">
-			<li>Welcome reception on Monday evening</li>
-			<li>Gala dinner on Tuesday evening</li>
-		</ul>
-	</dd>
-</dl>
-
 <dl class="first on">
 	<dt><span><i class="fa fa-quora mr10"></i>Registration Process and Fees</span><i class="material-icons">keyboard_arrow_down</i></dt>
 	<dd>
@@ -324,6 +271,59 @@ title_separator: "|"
 		</ul>
 	</dd>
 </dl>
+<dl>
+	<dt><span><i class="fa fa-quora mr10"></i>Important Information for Paper Authors</span><i class="material-icons">keyboard_arrow_down</i></dt>
+	<dd>
+		<p class="taj">At least one author per accepted contribution published in the IEEE Digital Library (main conference paper/workshop paper/poster/research demo/3DUI contest) must be registered as an <b>AUTHOR</b> to the FULL conference (from Saturday 21 to Wednesday 25) at the rate of full Member/Non-Member registration regardless of whether or not he/she is a student.</p>
+
+		<ul class="lss-dot">
+			<li>The registration deadline for authors is <b>February 15th</b>, 2026.</li>
+			<li>Author registrations are not refundable and must be processed no later than <b>February 15</b>, 2026 for their work to be included in the conference program and publications.</li>
+			<li>Author registration requires a submission ID.</li>
+			<li>To register, open the Registration form linked above. Under the Classification section, select “Paper Author”.</li>
+			<li>Each author registration is valid for TWO accepted contributions (if applicable).</li>
+		</ul>
+	</dd>
+</dl>
+
+<dl>
+	<dt><span><i class="fa fa-quora mr10"></i>What is Included for Each Type of Registration?</span><i class="material-icons">keyboard_arrow_down</i></dt>
+	<dd>
+		<b>Full Conference (Saturday to Wednesday)</b>
+		<ul class="lss-dot mb30">
+			<li>Access to all the Workshops and Tutorials (Saturday–Sunday)</li>
+			<li>Access to all the conference sessions (Monday - Wednesday)</li>
+			<li>Access to the welcome reception (Monday evening)</li>
+			<li>Access to the gala dinner (Tuesday evening)</li>
+			<li>Access to the conference proceedings</li>
+			<li>Access to the Discord server (chat)</li>
+		</ul>
+
+		<b>Conference only (Monday to Wednesday)</b>
+		<ul class="lss-dot mb30">
+			<li>Access to all the conference sessions (Monday - Wednesday)</li>
+			<li>Access to the welcome reception (Monday evening)</li>
+			<li>Access to the gala dinner (Tuesday evening)</li>
+			<li>Access to the conference proceedings</li>
+			<li>Access to the Discord server (chat)</li>
+		</ul>
+
+		<b>Workshops & Tutorials only (Saturday to Sunday)</b>
+		<ul class="lss-dot mb30">
+			<li>Access to all the Workshops and Tutorials (Saturday–Sunday)</li>
+			<li>Access to the conference proceedings</li>
+			<li>Access to the Discord server (chat)</li>
+		</ul>
+
+		<b>Additional tickets</b>
+		<ul class="lss-dot">
+			<li>Welcome reception on Monday evening</li>
+			<li>Gala dinner on Tuesday evening</li>
+		</ul>
+	</dd>
+</dl>
+
+
 
 <dl>
 	<dt><span><i class="fa fa-quora mr10"></i>Visa Invitation Letters</span><i class="material-icons">keyboard_arrow_down</i></dt>
