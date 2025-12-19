@@ -76,7 +76,7 @@ title_separator: "|"
 
 <div id="body_wrap" class="layout">
 <div class="body_title_wrap clear">
-<h2 class="body_title">Registration</h2>
+
 				</div>
 					<div class="body_content regi regi">
 					<p class="tar">
