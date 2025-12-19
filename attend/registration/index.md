@@ -166,7 +166,7 @@ title_separator: "|"
 	</dd>
 </dl>
 
-<dl class="on">
+<dl class="first on">
 	<dt><span><i class="fa fa-quora mr10"></i>Registration Process and Fees</span><i class="material-icons">keyboard_arrow_down</i></dt>
 	<dd>
 		<h3>Registration Process</h3>
