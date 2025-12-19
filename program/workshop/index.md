@@ -92,7 +92,7 @@ title_separator: "|"
   <br />
   <med><b style="color: black;">Principal Organiser:</b> Eun-Seok Ryu</med>
   <br />
-  <med><b style="color: black;">Website:</b> <a href="https://sites.google.com/view/iimc2026/home" target="_blank">TBA</a></med>
+  <med><b style="color: black;">Website:</b> <a href="https://sites.google.com/view/iimc2026/home" target="_blank">https://sites.google.com/view/iimc2026/home</a></med>
   <br />
   <div id="desc_IIMC" class="wrap-collabsible" style="display:none">
     <input id="collapsibleIIMC" class="toggle" type="checkbox" />
