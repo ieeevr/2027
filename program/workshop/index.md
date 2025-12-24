@@ -52,7 +52,7 @@ title_separator: "|"
   <br />
   <med><b style="color: black;">Principal Organiser:</b> Gabriel Zachmann</med>
   <br />
-  <med><b style="color: black;">Website:</b> <a href="#" target="_blank">TBA</a></med>
+  <med><b style="color: black;">Website:</b> <a href="https://cgvr.cs.uni-bremen.de/xr4or/" target="_blank">https://cgvr.cs.uni-bremen.de/xr4or/</a></med>
   <br />
   <div id="desc_XR4OR" class="wrap-collabsible" style="display:none">
     <input id="collapsibleXR4OR" class="toggle" type="checkbox" />
@@ -472,7 +472,7 @@ title_separator: "|"
   <br />
   <med><b style="color: black;">Principal Organiser:</b> G. Nikki Ramirez</med>
   <br />
-  <med><b style="color: black;">Website:</b> <a href="https://ideatexr.carrd.co/" target="_blank">https://ideatexr.carrd.co/</a></med>
+  <med><b style="color: black;">Website:</b> <a href="https://ideatexr-workshop.carrd.co" target="_blank">https://ideatexr-workshop.carrd.co</a></med>
   <br />
   <div id="desc_IDEATExR" class="wrap-collabsible" style="display:none">
     <input id="collapsibleIDEATExR" class="toggle" type="checkbox" />
