@@ -95,7 +95,7 @@ title_separator: "|"
 <p>March 21-25, 2026 | Daegu, Republic of Korea</p>
 
 <div class="tac mt20 mb50">
-	<a href="https://ieeevr2026.org/index.php?GP=regi/regi&ACT=form" class="btn btn-large btn-blue" target="_blank">Registration</a>
+	<a href="https://ieeevr2026.org/index.php?GP=regi/regi&ACT=form" class="btn btn-large btn-blue" target="_blank">Register Now</a>
 </div>
 
 <dl class="first">
