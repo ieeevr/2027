@@ -15,7 +15,7 @@ title_separator: "|"
 <p style="width:100%; margin: 30px auto; padding: 20px 0; text-align:center; font-size:1rem; border-radius: 30px; background-color: #f3f3f3; display:none">This content is currently being updated.</p>
 <div >
   <h1 id="cfp-exhibitsponsors">Call for Sponsors and Exhibitors<!--div class="floatRight"><span class="exhibitsponsors"></span></div--></h1>
-  <p class="alignCenter"><a href="https://docs.google.com/forms/d/e/1FAIpQLSeucINu0lAnKS8Mt24mZkuZ0C8xQg2uq5pl4eDj4GExCbFmOg/viewform" class="btn btn--info" target="_blank">Apply to be a Sponsor </a>
+  <p class="alignCenter"><a href="https://docs.google.com/forms/d/e/1FAIpQLSeucINu0lAnKS8Mt24mZkuZ0C8xQg2uq5pl4eDj4GExCbFmOg/viewform" class="btn btn--info" target="_blank" style="font-size: 1.2rem; margin: 1rem 0;">Apply to be a Sponsor </a>
 	
 	<!--p>
         <strong style="color: black">IEEE VR 2025: The 32<sup>nd</sup> IEEE Conference on Virtual Reality and 3D User Interfaces</strong><br />
