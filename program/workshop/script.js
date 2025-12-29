@@ -1,6 +1,4 @@
-
-    const accordionItems = document.querySelectorAll(".accordion-item");
-
+ const accordionItems = document.querySelectorAll(".accordion-item");
     accordionItems.forEach(item => {
       const header = item.querySelector(".accordion-header");
 
@@ -14,7 +12,6 @@
         }
       });
     });
-
 
   document.addEventListener("DOMContentLoaded", () => {
     const dts = document.querySelectorAll(".accordion-content-inner dd");
