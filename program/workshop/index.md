@@ -16,7 +16,7 @@ title_separator: "|"
           <div class="accordion-text">
 				<div>KELVAR</div>
 				<div>2026 IEEE VR KELVAR Workshop: K-12+ Embodied Learning through Virtual and Augmented Reality (11th Annual Workshop)</div>
-				<div>09:30~13:30	</div>
+				<div>09:30~13:30</div>
 				<div>Conference Room 320</div>
           </div>
 		  <svg class="accordion-icon" viewBox="0 0 24 24">
@@ -275,7 +275,6 @@ title_separator: "|"
 				<div>2026 IEEE VR KELVAR Workshop: K-12+ Embodied Learning through Virtual and Augmented Reality (11th Annual Workshop)</div>
 				<div>09:30~13:30</div>
 				<div>Conference Room 320</div>
-          </div>
           </div>
 			<svg class="accordion-icon" viewBox="0 0 24 24">
             <path d="M6 9l6 6 6-6"></path>
