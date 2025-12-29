@@ -43,9 +43,9 @@ title_separator: "|"
 			  <div>GEMINI: 4th Workshop on Gaze and Eye Movement in Interaction in XR</div>
 			  <div>09:30~13:30</div>
 			  <div>Conference Room 322A</div>
-	  <svg class="accordion-icon" viewBox="0 0 24 24">
-            <path d="M6 9l6 6 6-6"></path>
-          </svg>
+	 		 <svg class="accordion-icon" viewBox="0 0 24 24">
+            	<path d="M6 9l6 6 6-6"></path>
+         	 </svg>
         </button>
         <div class="accordion-content">
           <div class="accordion-content-inner">
@@ -73,11 +73,11 @@ title_separator: "|"
         </button>
         <div class="accordion-content">
           <div class="accordion-content-inner">
-<dl>
+			<dl>
 					<dt>Principal Organiser</dt>
 					<dd>Tim Weissker</dd>
 			  </dl>
-<dl>
+				<dl>
 					<dt>Website</dt>
 					<dd>https://sites.google.com/view/xr-locomotion-and-wayfinding/</dd>
 			  </dl>
