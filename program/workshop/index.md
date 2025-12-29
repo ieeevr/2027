@@ -67,8 +67,7 @@ title_separator: "|"
 			<div>LocXR</div>
 			<div>4th Workshop on Locomotion and Wayfinding in XR</div>
 			<div>09:30~13:30</div>
-			<div>Conference Room 321</div>
-	 	  </div>
+			<div>Conference Room 321</div>	 	
 	  </div>
 			<svg class="accordion-icon" viewBox="0 0 24 24">
             <path d="M6 9l6 6 6-6"></path>
@@ -156,7 +155,7 @@ title_separator: "|"
 			  <div>14:00~18:00</div>
 			  <div>Conference Room 320</div>
 			  </div>
- <svg class="accordion-icon" viewBox="0 0 24 24">
+			 <svg class="accordion-icon" viewBox="0 0 24 24">
             <path d="M6 9l6 6 6-6"></path>
           </svg>
         </button>
