@@ -18,8 +18,8 @@ title_separator: "|"
 				<div>2026 IEEE VR KELVAR Workshop: K-12+ Embodied Learning through Virtual and Augmented Reality (11th Annual Workshop)</div>
 				<div>09:30~13:30	</div>
 				<div>Conference Room 320</div>
-       
-          </div><svg class="accordion-icon" viewBox="0 0 24 24">
+          </div>
+		  <svg class="accordion-icon" viewBox="0 0 24 24">
             <path d="M6 9l6 6 6-6"></path>
           </svg>
         </button>
@@ -43,7 +43,8 @@ title_separator: "|"
 			  <div>GEMINI: 4th Workshop on Gaze and Eye Movement in Interaction in XR</div>
 			  <div>09:30~13:30</div>
 			  <div>Conference Room 322A</div>
-		  </div><svg class="accordion-icon" viewBox="0 0 24 24">
+		  </div>
+			<svg class="accordion-icon" viewBox="0 0 24 24">
             	<path d="M6 9l6 6 6-6"></path>
          	 </svg>
         </button>
@@ -68,7 +69,8 @@ title_separator: "|"
 			<div>09:30~13:30</div>
 			<div>Conference Room 321</div>
 	 	  </div>
-	  </div><svg class="accordion-icon" viewBox="0 0 24 24">
+	  </div>
+			<svg class="accordion-icon" viewBox="0 0 24 24">
             <path d="M6 9l6 6 6-6"></path>
           </svg>
         </button>
@@ -92,7 +94,8 @@ title_separator: "|"
 			<div>4th Workshop on Seamless Reality: AR Technologies for Seamless Perception and Cognition between Cyber and Physical Spaces</div>
 			<div>09:30~13:30</div>
 			<div>Conference Room 322B</div>
-  </div><svg class="accordion-icon" viewBox="0 0 24 24">
+  </div>
+			<svg class="accordion-icon" viewBox="0 0 24 24">
             <path d="M6 9l6 6 6-6"></path>
           </svg>
         </button>
@@ -114,7 +117,8 @@ title_separator: "|"
 				<div>Third International Workshop on Perception-driven Graphics and Displays for VR and AR</div>
 				<div>09:30~13:30</div>
 			    <div>Conference Room  323A	</div>
-  </div><svg class="accordion-icon" viewBox="0 0 24 24">
+  </div>
+			<svg class="accordion-icon" viewBox="0 0 24 24">
             <path d="M6 9l6 6 6-6"></path>
           </svg>
         </button>
@@ -132,7 +136,8 @@ title_separator: "|"
 			  <div>2nd Workshop on Archaeology and Cultural Heritage through XR	</div>	
 			  <div>09:30~13:30</div>
 			  <div>Conference Room 323B</div>
-  </div><svg class="accordion-icon" viewBox="0 0 24 24">
+  </div>
+			<svg class="accordion-icon" viewBox="0 0 24 24">
             <path d="M6 9l6 6 6-6"></path>
           </svg>
         </button>
@@ -150,6 +155,7 @@ title_separator: "|"
 			 <div>4th Workshop on XR Technologies for Medicine and Healthcare</div>
 			  <div>14:00~18:00</div>
 			  <div>Conference Room 320</div>
+			  </div>
  <svg class="accordion-icon" viewBox="0 0 24 24">
             <path d="M6 9l6 6 6-6"></path>
           </svg>
@@ -168,6 +174,7 @@ title_separator: "|"
 		   <div>IMMER-SENSE – Workshop on Immersion and Sensing for XR Experiences</div>
 		   <div>14:00~18:00</div>
 		   <div>Conference Room 322A</div>
+			  </div>
  <svg class="accordion-icon" viewBox="0 0 24 24">
             <path d="M6 9l6 6 6-6"></path>
           </svg>
@@ -186,6 +193,7 @@ title_separator: "|"
 			  <div>Workshop on Virtual Humans and Crowds in Immersive Environments</div>
 			 <div> 14:00~18:00</div>
 			 <div>Conference Room 321</div>
+			  </div>
  <svg class="accordion-icon" viewBox="0 0 24 24">
             <path d="M6 9l6 6 6-6"></path>
           </svg>
@@ -204,6 +212,7 @@ title_separator: "|"
 			   <div>7th Workshop on Immersive Sickness Prevention	</div>	
 			   <div>14:00~18:00</div>
 			   <div>Conference Room 322B</div>
+			  </div>
  <svg class="accordion-icon" viewBox="0 0 24 24">
             <path d="M6 9l6 6 6-6"></path>
           </svg>
@@ -222,6 +231,7 @@ title_separator: "|"
 			 <div>2nd International Workshop on Real and Virtual Spaces Influences</div>		
 			 <div>14:00~18:00</div>
 			 <div>Conference Room 323A</div>
+			  </div>
  <svg class="accordion-icon" viewBox="0 0 24 24">
             <path d="M6 9l6 6 6-6"></path>
           </svg>
@@ -240,6 +250,7 @@ title_separator: "|"
 				<div>First IEEE XR Workshop on Networking and Sensing for the Metaverse and Multi-user and Social XR Environments</div>
 				<div>14:00~18:00</div>
 				<div>Conference Room 323B</div>
+			  </div>
 					 <svg class="accordion-icon" viewBox="0 0 24 24">
             <path d="M6 9l6 6 6-6"></path>
           </svg>
@@ -291,7 +302,8 @@ title_separator: "|"
 			  <div>The 2nd International Workshop on Virtual Reality for Human and Spatial Augmentation</div>
 			  <div>09:30~13:30</div>
 			  <div>Conference Room 322B</div>
-      </div><svg class="accordion-icon" viewBox="0 0 24 24">
+      </div>
+			<svg class="accordion-icon" viewBox="0 0 24 24">
             <path d="M6 9l6 6 6-6"></path>
           </svg>
         </button>
@@ -316,7 +328,8 @@ title_separator: "|"
 			<div> Extended Reality in the Operating Room (XR4OR)	</div>
 		  <div>09:30~13:30</div>
 		  <div>Conference Room 322A</div>
-        </div><svg class="accordion-icon" viewBox="0 0 24 24">
+        </div>
+			<svg class="accordion-icon" viewBox="0 0 24 24">
             <path d="M6 9l6 6 6-6"></path>
           </svg>
         </button>
@@ -340,7 +353,8 @@ title_separator: "|"
 			  <div>The 2nd International Workshop on XR Medical Applications: Human -Centered Medical Training and Simulation</div>
 			  <div>09:30~13:30</div>
 			  <div>Conference Room 320A</div>
-        </div><svg class="accordion-icon" viewBox="0 0 24 24">
+        </div>
+			<svg class="accordion-icon" viewBox="0 0 24 24">
             <path d="M6 9l6 6 6-6"></path>
           </svg>
         </button>
@@ -364,7 +378,8 @@ title_separator: "|"
 			 <div>The 5th International Workshop on Intelligent Immersive Media Communications (IIMC2026)</div>
 		  <div>09:30~13:30</div>
 		  <div>Conference Room 323A</div>
-        </div><svg class="accordion-icon" viewBox="0 0 24 24">
+        </div>
+			<svg class="accordion-icon" viewBox="0 0 24 24">
             <path d="M6 9l6 6 6-6"></path>
           </svg>
         </button>
@@ -388,7 +403,8 @@ title_separator: "|"
 			  <div>The 5th International Workshop on eXtended Reality for Industrial and Occupational Supports</div>
 			  <div>09:30~13:30</div>
 			  <div>Conference Room 323B</div>
-        </div><svg class="accordion-icon" viewBox="0 0 24 24">
+        </div>
+			<svg class="accordion-icon" viewBox="0 0 24 24">
             <path d="M6 9l6 6 6-6"></path>
           </svg>
         </button>
@@ -412,7 +428,8 @@ title_separator: "|"
 			  <div>Novel Input Devices and Interaction Techniques</div>
 			  <div>09:30~13:30</div>
 			  <div>Conference Room 321</div>
-        </div><svg class="accordion-icon" viewBox="0 0 24 24">
+        </div>
+			<svg class="accordion-icon" viewBox="0 0 24 24">
             <path d="M6 9l6 6 6-6"></path>
           </svg>
         </button>
@@ -436,7 +453,8 @@ title_separator: "|"
 			  <div>2nd Workshop on Social Interaction and Collaboration in eXtended Reality</div>
 			  <div>09:30~13:30</div>
 			  <div>Conference Room 320B</div>
-        </div><svg class="accordion-icon" viewBox="0 0 24 24">
+        </div>
+			<svg class="accordion-icon" viewBox="0 0 24 24">
             <path d="M6 9l6 6 6-6"></path>
           </svg>
         </button>
@@ -460,6 +478,7 @@ title_separator: "|"
 			  <div>Hardware-Software-Service Co-Design for Practical Extended Reality Systems</div>
 			  <div>14:00~18:00</div>
 			  <div>Conference Room 321</div>
+			  </div>
  <svg class="accordion-icon" viewBox="0 0 24 24">
             <path d="M6 9l6 6 6-6"></path>
           </svg>
@@ -485,7 +504,8 @@ title_separator: "|"
 			  <div>GenAI-XR: Generative Artificial Intelligence meets Extended Reality</div>
 			  <div>14:00~18:00</div>
 			  <div>Conference Room 322A</div>
-        </div><svg class="accordion-icon" viewBox="0 0 24 24">
+        </div>
+			<svg class="accordion-icon" viewBox="0 0 24 24">
             <path d="M6 9l6 6 6-6"></path>
           </svg>
         </button>
@@ -510,7 +530,8 @@ title_separator: "|"
 			   <div>4th Workshop on Immersive Visualization Laboratories - Past, Present and Future</div>
 			   <div>14:00~18:00</div>
 			   <div>Conference Room 320A</div>
-        </div><svg class="accordion-icon" viewBox="0 0 24 24">
+        </div>
+			<svg class="accordion-icon" viewBox="0 0 24 24">
             <path d="M6 9l6 6 6-6"></path>
           </svg>
         </button>
@@ -534,7 +555,8 @@ title_separator: "|"
 			  <div>The 3rd International Workshop on Spatial Memory in XR (XRMemory)</div>
 			  <div>14:00~18:00</div>
 			  <div>Conference Room 322B</div>
-        </div><svg class="accordion-icon" viewBox="0 0 24 24">
+        </div>
+			<svg class="accordion-icon" viewBox="0 0 24 24">
             <path d="M6 9l6 6 6-6"></path>
           </svg>
         </button>
@@ -558,7 +580,8 @@ title_separator: "|"
 			  <div>Inclusion, Diversity, Equity, Accessibility, Transparency, and Ethics in XR</div>
 			  <div>14:00~18:00</div>
 			  <div>Conference Room 323A</div>
-        </div><svg class="accordion-icon" viewBox="0 0 24 24">
+        </div>
+			<svg class="accordion-icon" viewBox="0 0 24 24">
             <path d="M6 9l6 6 6-6"></path>
           </svg>
         </button>
@@ -582,7 +605,8 @@ title_separator: "|"
 			  <div>VR Embodiment for Children</div>
 			  <div>14:00~18:00</div>
 			  <div>Conference Room 323B</div>
-      </div><svg class="accordion-icon" viewBox="0 0 24 24">
+      </div>
+			<svg class="accordion-icon" viewBox="0 0 24 24">
             <path d="M6 9l6 6 6-6"></path>
           </svg>
         </button>
