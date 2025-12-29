@@ -81,8 +81,8 @@
 
     .accordion-text  div:nth-child(1) {width:110px; text-align:Center;}
     .accordion-text  div:nth-child(2) {flex:1; text-align:left;}
-    .accordion-text  div:nth-child(3) {width:110px; text-align:Center;}
-    .accordion-text  div:nth-child(4) {width:200px; text-align:Center;}
+    .accordion-text  div:nth-child(3) {width:110px; text-align:Center; font-weight: 300;}
+    .accordion-text  div:nth-child(4) {width:200px; text-align:Center; font-weight: 300;}
 
 
 
