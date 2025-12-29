@@ -6,8 +6,8 @@ title_separator: "|"
 ---
 
 <link rel="stylesheet" href="style.css?version=2026">
- <section class="" itemprop="text">
-<section class="new_workshop">
+ <section itemprop="text">
+<div class="new_workshop">
   <section class="accordion-wrap">
     <h2 class="accordion-title">Day: Saturday 21 March (Timezone: Korea Standard Time, UTC/GMT +9 hours)</h2>
     <ul class="accordion-list">
@@ -600,9 +600,6 @@ title_separator: "|"
       </li>
     </ul>
   </section>
-
-</section>
-
- <script src="script.js" type="text/javascript"></script>
-
+</div>
  </section>
+ <script src="script.js" type="text/javascript"></script>
