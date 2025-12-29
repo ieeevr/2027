@@ -267,33 +267,7 @@ title_separator: "|"
 
   <section class="accordion-wrap">
     <h2 class="accordion-title">Day: Sunday 22 March (Timezone: Korea Standard Time, UTC/GMT +9 hours)</h2>
-    <ul class="accordion-list">
-      <li class="accordion-item">
-        <button class="accordion-header">
-          <div class="accordion-text">			
-				<div>KELVAR</div>
-				<div>2026 IEEE VR KELVAR Workshop: K-12+ Embodied Learning through Virtual and Augmented Reality (11th Annual Workshop)</div>
-				<div>09:30~13:30</div>
-				<div>Conference Room 320</div>
-          </div>
-			<svg class="accordion-icon" viewBox="0 0 24 24">
-            <path d="M6 9l6 6 6-6"></path>
-          </svg>
-        </button>
-        <div class="accordion-content">
-          <div class="accordion-content-inner">
-			  <dl>
-					<dt>Principal Organiser</dt>
-					<dd>Erica Southgate</dd>
-				</dl>
-			  <dl>
-					<dt>Website</dt>
-					<dd>https://sites.google.com/site/vrkelvar/</dd>
-				</dl>
-          </div>
-        </div>
-      </li>
-
+    <ul class="accordion-list">     
  <li class="accordion-item">
         <button class="accordion-header">
           <div class="accordion-text">
