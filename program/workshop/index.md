@@ -6,7 +6,7 @@ title_separator: "|"
 ---
 
 <link rel="stylesheet" href="style.css?version=2026">
- <section class="page__content" itemprop="text">
+ <section class="" itemprop="text">
 <section class="new_workshop">
   <section class="accordion-wrap">
     <h2 class="accordion-title">Day: Saturday 21 March (Timezone: Korea Standard Time, UTC/GMT +9 hours)</h2>
