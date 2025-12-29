@@ -6,7 +6,7 @@ title_separator: "|"
 ---
 
 <link rel="stylesheet" href="style.css?version=2026">
-<script src="script.js" type="text/javascript"></script>
+<script type="text/javascript" src="script.js"></script>
 
  <section class="page__content" itemprop="text">
 
