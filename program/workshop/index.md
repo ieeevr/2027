@@ -40,7 +40,7 @@ title_separator: "|"
         <button class="accordion-header">
           <div class="accordion-text">
 			  <div>GEMINI</div>
-			  <div>GEMINI: 4th Workshop on Gaze and Eye Movement in Interaction in XR</div>
+			  <div>4th Workshop on Gaze and Eye Movement in Interaction in XR</div>
 			  <div>09:30~13:30</div>
 			  <div>Conference Room 322A</div>
 		  </div>
@@ -170,7 +170,7 @@ title_separator: "|"
         <button class="accordion-header">
           <div class="accordion-text">
 			<div>IMMER-SENSE</div>
-		   <div>IMMER-SENSE – Workshop on Immersion and Sensing for XR Experiences</div>
+		   <div>Workshop on Immersion and Sensing for XR Experiences</div>
 		   <div>14:00~18:00</div>
 		   <div>Conference Room 322A</div>
 			  </div>
