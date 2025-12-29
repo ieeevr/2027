@@ -79,10 +79,10 @@
     }
 
 
-    .accordion-text  div:nth-child(1) {width:130px; text-align:Center;}
+    .accordion-text  div:nth-child(1) {width:110px; text-align:Center;}
     .accordion-text  div:nth-child(2) {flex:1; text-align:left;}
-    .accordion-text  div:nth-child(3) {width:150px; text-align:Center;}
-    .accordion-text  div:nth-child(4) {width:210px; text-align:Center;}
+    .accordion-text  div:nth-child(3) {width:110px; text-align:Center;}
+    .accordion-text  div:nth-child(4) {width:200px; text-align:Center;}
 
 
 
@@ -123,7 +123,7 @@
     .accordion-content-inner dl {display:flex; gap:10px; flex-wrap:wrap;}
     .accordion-content-inner dl  dt {width:160px; font-weight:bold;}
     .accordion-content-inner dl  dt,
-    .accordion-content-inner dl  dd {line-height: 1.65; font-size:16px;}
+    .accordion-content-inner dl  dd {line-height: 1.65; font-size:16px; margin:0px !important; padding:0px !important}
     .accordion-content-inner dl  dt:before {  content: "·";
   margin-right: 8px;
   color: #262188;
