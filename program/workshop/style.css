@@ -33,7 +33,7 @@
     }
 
     .accordion-title {
-      font-size:clamp(20px, 2.5vw, 26px); padding:10px 2%;
+      font-size:clamp(20px, 2.5vw, 23px); padding:10px 2%;
       font-weight: 700; line-height:1.5;
       background: var(--primary);
 	  color:#fff !important; font-weight:bold;
