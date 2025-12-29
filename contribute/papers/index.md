@@ -41,7 +41,7 @@ title_separator: "|"
 </p>
   
   
-  <p><strong>New this year</strong>: All senior (PhD-holding) authors should familiarize themselves with the IEEE VR 2026 reviewing guidelines [LINK TO COME]. Unless serving IEEE VR 2026 in another capacity, ALL SENIOR AUTHORS are expected to volunteer as reviewers and perform their duties in a timely and responsive fashion. This supersedes the prior requirement that one author for each paper commit to reviewing; if a paper has multiple senior co-authors, all are expected to volunteer. Egregious violations of this policy may be considered Highly Irresponsible Conduct, which could result in penalties up to and including desk rejection of their submitted paper(s).
+  <p><strong>New this year</strong>: All senior (PhD-holding) authors should familiarize themselves with the IEEE VR 2026 <a href="https://docs.google.com/document/d/1uIRbCb_HZS9BYemQIVLSPW6B2tJ7APuRcliBD0QqZyI/edit?usp=sharing" target="_blank" style="color:#ff6600; font-weight:bold">reviewing guidelines</a>. Unless serving IEEE VR 2026 in another capacity, ALL SENIOR AUTHORS are expected to volunteer as reviewers and perform their duties in a timely and responsive fashion. This supersedes the prior requirement that one author for each paper commit to reviewing; if a paper has multiple senior co-authors, all are expected to volunteer. Egregious violations of this policy may be considered Highly Irresponsible Conduct, which could result in penalties up to and including desk rejection of their submitted paper(s).
 
 </p>
   
