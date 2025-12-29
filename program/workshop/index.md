@@ -7,8 +7,9 @@ title_separator: "|"
 
 <link rel="stylesheet" href="style.css?version=2026">
  <script src="script.js" type="text/javascript"></script>
- <section class="page__content" itemprop="text">
 
+ 
+ <section class="page__content" itemprop="text">
 <section class="new_workshop">
 
   <section class="accordion-wrap">
@@ -39,7 +40,6 @@ title_separator: "|"
           </div>
         </div>
       </li>
-
       <li class="accordion-item">
         <button class="accordion-header">
           <div class="accordion-text">
@@ -64,8 +64,6 @@ title_separator: "|"
           </div>
         </div>
       </li>
-
-
       <li class="accordion-item">
         <button class="accordion-header">
           <div class="accordion-text">
@@ -90,8 +88,6 @@ title_separator: "|"
           </div>
         </div>
       </li>
-
-
       <li class="accordion-item">
         <button class="accordion-header">
           <div class="accordion-text">
@@ -114,8 +110,6 @@ title_separator: "|"
 				  </div>
 				</div>
 			  </li>
-
-
       <li class="accordion-item">
         <button class="accordion-header">
           <div class="accordion-text">
@@ -134,8 +128,6 @@ title_separator: "|"
           </div>
         </div>
       </li>
-
-
       <li class="accordion-item">
         <button class="accordion-header">
           <div class="accordion-text">
@@ -154,9 +146,6 @@ title_separator: "|"
           </div>
         </div>
       </li>
-
-
-
       <li class="accordion-item">
         <button class="accordion-header">
           <div class="accordion-text">
@@ -175,7 +164,6 @@ title_separator: "|"
             </div>
         </div>
       </li>
-
       <li class="accordion-item">
         <button class="accordion-header">
           <div class="accordion-text">
@@ -194,7 +182,6 @@ title_separator: "|"
             </div>
         </div>
       </li>
-
       <li class="accordion-item">
         <button class="accordion-header">
           <div class="accordion-text">
@@ -213,7 +200,6 @@ title_separator: "|"
             </div>
         </div>
       </li>
-
       <li class="accordion-item">
         <button class="accordion-header">
           <div class="accordion-text">
@@ -232,7 +218,6 @@ title_separator: "|"
             </div>
         </div>
       </li>
-
       <li class="accordion-item">
         <button class="accordion-header">
           <div class="accordion-text">
@@ -251,7 +236,6 @@ title_separator: "|"
             </div>
         </div>
       </li>
-
       <li class="accordion-item">
         <button class="accordion-header">
           <div class="accordion-text">
@@ -267,15 +251,9 @@ title_separator: "|"
           <div class="accordion-content-inner">		
 				<dl><dt>Principal Organiser</dt><dd>Kurt Tutschku</dd></dl>
 				<dl><dt>Website</dt><dd>https://sites.google.com/view/nesxr26/</dd></dl>
-							          </div>
+		   </div>
         </div>
       </li>
-
-
-
-
-
-  
     </ul>
   </section>
 
@@ -283,8 +261,6 @@ title_separator: "|"
   <section class="accordion-wrap">
     <h2 class="accordion-title">Day: Sunday 22 March (Timezone: Korea Standard Time, UTC/GMT +9 hours)</h2>
     <ul class="accordion-list">
-
-
       <li class="accordion-item">
         <button class="accordion-header">
           <div class="accordion-text">
@@ -311,9 +287,6 @@ title_separator: "|"
         </div>
       </li>
 
-
-
-
  <li class="accordion-item">
         <button class="accordion-header">
           <div class="accordion-text">
@@ -338,7 +311,6 @@ title_separator: "|"
           </div>
         </div>
       </li>
-
 
  <li class="accordion-item">
         <button class="accordion-header">
@@ -507,9 +479,7 @@ title_separator: "|"
 				</dl>
           </div>
         </div>
-
-
-
+      </li>
 
  <li class="accordion-item">
         <button class="accordion-header">
@@ -535,12 +505,6 @@ title_separator: "|"
           </div>
         </div>
       </li>
-
-
-
-
-
-
 
  <li class="accordion-item">
         <button class="accordion-header">
@@ -638,10 +602,8 @@ title_separator: "|"
           </div>
         </div>
       </li>
-  
     </ul>
   </section>
-
 
 </section>
 
