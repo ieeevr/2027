@@ -118,10 +118,12 @@
     .accordion-content-inner {
       padding: 0px 0px 20px 30px; display:flex; flex-wrap:wrap; gap:10px;
       color: var(--text-sub);  flex-direction:column;
-      line-height: 1.65;
+      
     }
     .accordion-content-inner dl {display:flex; gap:10px; flex-wrap:wrap;}
     .accordion-content-inner dl  dt {width:160px; font-weight:bold;}
+    .accordion-content-inner dl  dt,
+    .accordion-content-inner dl  dd {line-height: 1.65; font-size:17px;}
     .accordion-content-inner dl  dt:before {  content: "·";
   margin-right: 8px;
   color: #262188;
