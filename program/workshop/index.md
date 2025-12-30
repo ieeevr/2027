@@ -238,7 +238,7 @@ title_separator: "|"
         <div class="accordion-content">
           <div class="accordion-content-inner">
 			<dl><dt>Principal Organiser</dt><dd>Laura Battistel</dd></dl>
-			<dl><dt>Website</dt><dd>https://sites.google.com/unitn.it/rvsi-ieee-vr-26/home-page</dd></dl>
+			<dl><dt>Website</dt><dd>https://sites.google.com/unitn.it/revisi-ieee-vr-26/home-page</dd></dl>
             </div>
         </div>
       </li>
