@@ -324,6 +324,18 @@ title_separator: "|"
     <li><span class="bold">Iana Podkosova</span> – <i>Technische Universität Wien, Austria</i></li>
   </ul>
 </div>
+
+<div>
+  <h2>XR Standards Chair
+    <div class="floatRight"><span id="">xrstandards2026@ieeevr.org</span></div>
+  </h2>
+  <ul>
+    <li><span class="bold">Takeshi Kurata</span> – <i>AIST, Japan</i></li>
+  </ul>
+</div>
+
+
+
 <div>
   <h2>Social Events / Local Arrangement Chairs
     <div class="floatRight"><span id="localarrangements"></span></div>
