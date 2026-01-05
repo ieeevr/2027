@@ -45,8 +45,12 @@ title_separator: "|"
 		email = "doctoralconsortium2026"; 
 		doctoralconsortium.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
 		
-		email = "diversity2026"; 
+		email = "eira2026"; 
 		diversity.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
+
+
+			email = "deia2026"; 
+		diversity2.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
 	
 		email = "exhibitsponsor2026"; 
 		exhibitssponsors.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";
@@ -262,18 +266,39 @@ title_separator: "|"
     <li><span class="bold">Tim Weissker</span> – <i>RWTH Aachen University, Germany</i></li>
   </ul>
 </div>
+
+
+
 <div>
-  <h2>Diversity / Environment Chairs
+  <h2>Environmental Impact Reduction and Awareness Chairs
     <div class="floatRight"><span id="diversity"></span></div>
   </h2>
   <ul>
-    <li><span class="bold">Manuela Chessa</span> – <i>University of Genoa, Italy</i></li>
-    <li><span class="bold">Seongkook Heo</span> – <i>University of Virginia, USA</i></li>
-    <li><span class="bold">Ludovic Hoyet</span> – <i>Centre Inria de l'Université de Rennes, France</i></li>
     <li><span class="bold">Seokhee Jeon</span> – <i>Kyung Hee University, Korea</i></li>
     <li><span class="bold">Marc Macé</span> – <i>Centre Inria de l'Université de Rennes, France</i></li>
+    <li><span class="bold">Ludovic Hoyet</span> – <i>Centre Inria de l'Université de Rennes, France</i></li>
   </ul>
 </div>
+
+
+
+
+<div>
+  <h2>Diversity, Equity, Inclusion, and Accessibility Chairs
+    <div class="floatRight"><span id="diversity2"></span></div>
+  </h2>
+  <ul>
+    <li><span class="bold">Seokhee Jeon</span> – <i>Kyung Hee University, Korea</i></li>
+    <li><span class="bold">Seongkook Heo</span> – <i>University of Virginia, USA</i></li>
+    <li><span class="bold">Manuela Chessa</span> – <i>University of Genoa, Italy</i></li>
+  </ul>
+</div>
+
+
+
+
+
+
 <div>
   <h2>Tutorial Chairs
     <div class="floatRight"><span id="tutorials"></span></div>
