@@ -96,6 +96,10 @@ title_separator: "|"
 		email = "futurefacultyforum2026"; 		
 		xrfaculty.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";		
 
+
+		email = "xrstandards2026"; 		
+		xrstandards2026.innerHTML  = "<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIconSm' style=''></i><i class='emailTextSm'>" + email + "@" + domain + "</a></i></span>";		
+
 	});
 </script>
 <h1>Conference Committee</h1>
@@ -327,7 +331,7 @@ title_separator: "|"
 
 <div>
   <h2>XR Standards Chair
-    <div class="floatRight"><span id="">xrstandards2026@ieeevr.org</span></div>
+    <div class="floatRight"><span id="xrstandards2026"></span></div>
   </h2>
   <ul>
     <li><span class="bold">Takeshi Kurata</span> – <i>AIST, Japan</i></li>
