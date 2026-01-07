@@ -271,6 +271,25 @@ title_separator: "|"
 		</ul>
 	</dd>
 </dl>
+
+
+<dl>
+	<dt><span><i class="fa fa-quora mr10"></i>Visa Invitation Letters</span><i class="material-icons">keyboard_arrow_down</i></dt>
+	<dd>
+		<p class="taj">
+			<u><b>Important</b>: If you request a visa invitation letter, your registration cannot be cancelled.</u><br /><br>
+			During registration, you will have the option to request a visa invitation letter. If selected, it will be automatically generated upon completion of your registration, using the name, organization, address, passport number, and planned arrival and departure dates in the Republic of Korea that you provide. <br /><br>
+			If you require additional information on the letter (e.g., date of birth or passport details such as number, date of issue, expiration date, and place of issue), please email <a href="mailto:ieeevr2026@gmail.com" class="link">ieeevr2026@gmail.com</a> <br /><br>
+			<b>For journal and conference paper authors:</b><br>
+			If you need to begin the visa process before the final notification, we encourage the presenting author to register for the conference before the final notification date (January 23, 2025) so that we can issue the visa invitation letter. In this exceptional case, the registered author may request a refund only if the final notification results in a rejection.
+			<br><br>
+			For all other situations, we strongly encourage authors to register immediately after receiving the final notification. Visa invitation letters will be issued as soon as possible. In any case, we advise authors to anticipate potential delays in the visa application process.
+		</p>
+	</dd>
+</dl>
+
+
+
 <dl>
 	<dt><span><i class="fa fa-quora mr10"></i>Important Information for Paper Authors</span><i class="material-icons">keyboard_arrow_down</i></dt>
 	<dd>
@@ -325,20 +344,7 @@ title_separator: "|"
 
 
 
-<dl>
-	<dt><span><i class="fa fa-quora mr10"></i>Visa Invitation Letters</span><i class="material-icons">keyboard_arrow_down</i></dt>
-	<dd>
-		<p class="taj">
-			<u><b>Important</b>: If you request a visa invitation letter, your registration cannot be cancelled.</u><br /><br>
-			During registration, you will have the option to request a visa invitation letter. If selected, it will be automatically generated upon completion of your registration, using the name, organization, address, passport number, and planned arrival and departure dates in the Republic of Korea that you provide. <br /><br>
-			If you require additional information on the letter (e.g., date of birth or passport details such as number, date of issue, expiration date, and place of issue), please email <a href="mailto:ieeevr2026@gmail.com" class="link">ieeevr2026@gmail.com</a> <br /><br>
-			<b>For journal and conference paper authors:</b><br>
-			If you need to begin the visa process before the final notification, we encourage the presenting author to register for the conference before the final notification date (January 23, 2025) so that we can issue the visa invitation letter. In this exceptional case, the registered author may request a refund only if the final notification results in a rejection.
-			<br><br>
-			For all other situations, we strongly encourage authors to register immediately after receiving the final notification. Visa invitation letters will be issued as soon as possible. In any case, we advise authors to anticipate potential delays in the visa application process.
-		</p>
-	</dd>
-</dl>
+
 
 <dl>
 	<dt><span><i class="fa fa-quora mr10"></i>Cancellation Policy</span><i class="material-icons">keyboard_arrow_down</i></dt>
