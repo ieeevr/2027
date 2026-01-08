@@ -39,7 +39,7 @@ The following sections provide more details about what the XR Future Faculty For
     </p>
    
     <p>
-        The following sections provide more details about what the XR Future Faculty Forum will look like at VR 2024 and how you can participate:
+        
         <ul>
         <li><a href="#overview">Overview & Goals</a></li>
         <li><a href="#format">Forum Format</a></li>
@@ -52,7 +52,7 @@ The following sections provide more details about what the XR Future Faculty For
         This forum meeting is designed to foster mentorship, education, and collaboration among students curious about eventually becoming AR/VR (or XR) faculty.
     </p>
     <p> 
-     The meeting of the Future Faculty Forum at ISMAR 2025 will feature <strong>panels and tutorials</strong> with current professors about various aspects of professorship, such as tenure, creating and organizing a research program, teaching, and professional service, and more generally, what aspects of their profession they like and dislike, and why. We will attempt to include professors (on the panels) who have also worked in industry and therefore have some basis for comparison. Additionally, the forum will include <strong>“speed advising” sessions</strong> in which students will have several short advising sessions with current faculty. In this portion, students will be able to ask more specific questions about a particular professor's experience while learning from a breadth of experiences. While brief, these meetings will help form relationships between students, junior faculty, and professors, and participants can continue their conversations later in the forum and conference. The panels and speed advising sessions will feature diverse faculty to provide students with various perspectives on the meaning of, success within, and preparation for professorship. Throughout the forum, there will be an emphasis on creating and sustaining an academic environment that is diverse, equitable, inclusive, and accessible.
+     The meeting of the Future Faculty Forum at IEEE VR 2026 will feature <strong>panels and tutorials</strong> with current professors about various aspects of professorship, such as tenure, creating and organizing a research program, teaching, and professional service, and more generally, what aspects of their profession they like and dislike, and why. We will attempt to include professors (on the panels) who have also worked in industry and therefore have some basis for comparison. Additionally, the forum will include <strong>“speed advising” sessions</strong> in which students will have several short advising sessions with current faculty. In this portion, students will be able to ask more specific questions about a particular professor's experience while learning from a breadth of experiences. While brief, these meetings will help form relationships between students, junior faculty, and professors, and participants can continue their conversations later in the forum and conference. The panels and speed advising sessions will feature diverse faculty to provide students with various perspectives on the meaning of, success within, and preparation for professorship. Throughout the forum, there will be an emphasis on creating and sustaining an academic environment that is diverse, equitable, inclusive, and accessible.
     </p>
     <h2 id="format">Forum Format</h2>
     <p>
