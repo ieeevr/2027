@@ -25,7 +25,7 @@ title_separator: "|"
 </ul>
 
 <p>
-Proposals for research demonstrations must be submitted electronically through the online submission system <a href="https://new.precisionconference.com/vr" target="_blank">https://new.precisionconference.com/vr</a> by the given deadline. Interested contributors are encouraged to contact the chairs with any questions or to discuss potential demonstrations (<a href="mailto:RESEARCHDEMOS2026@IEEEVR.ORG">RESEARCHDEMOS2026@IEEEVR.ORG</a>).
+Proposals for research demonstrations must be submitted electronically through the online submission system <a href="https://new.precisionconference.com/vr" target="_blank">https://new.precisionconference.com/vr</a> by the given deadline. Interested contributors are encouraged to contact the chairs with any questions or to discuss potential demonstrations (<a href="mailto:demo2026@ieeevr.org">demo2026@ieeevr.org</a>).
 </p>
 
 
@@ -66,7 +66,7 @@ Submissions to the research demo track must be written in English. The submissio
 
 <h1>Contacts</h1>
 <p>For more information, please contact the Research Demonstration Chairs:<br/>
-(<a href="mailto:RESEARCHDEMOS2026@IEEEVR.ORG">RESEARCHDEMOS2026@IEEEVR.ORG</a>)</p>
+(<a href="mailto:demo2026@ieeevr.org">demo2026@ieeevr.org</a>)</p>
 <ul>
 <li>Uijong Ju ‒ Kyung Hee University, Republic of Korea</li>
 <li>Daniel Zielasko – Trier University, Germany</li>
