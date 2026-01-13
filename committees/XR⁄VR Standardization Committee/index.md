@@ -335,7 +335,7 @@
     <div class="std-committee-content">
         <img src="images/logo.png" alt="XRStand Logo" style="position: fixed; top: 0px; left: -140px; width: 500px; height: 180px;">
         <h2>XR/VR Standardization Committee</h2>
-        <div class="std-conference-subtitle">IEEE VR 2026 쨌 Daegu, Korea</div>
+        <div class="std-conference-subtitle">IEEE VR 2026 · Daegu, Korea</div>
         <!-- <img src="images/logo.png" alt="IEEE VR 2026 Logo" style="display: block; margin: 0 auto 40px; max-width: 200px; opacity: 0.9;"> -->
         
         <div class="std-committee-email">
@@ -352,14 +352,14 @@
             <p>The IEEE VR 2026 Standardization Committee strengthens connections between academia, industry, and Standards Developing Organizations (SDOs), communicating perspectives and insights from the research community to advance standardization efforts in Virtual Reality, Augmented Reality, and Mixed Reality technologies. Building on the foundation established at ISMAR 2024 (<a href="https://www.youtube.com/watch?v=xDF59FpiB_s" style="color: #1e2875; text-decoration: underline;">Learn More</a>) and 2025 (<a href="https://www.youtube.com/watch?v=6TGDVTBICNc" style="color: #1e2875; text-decoration: underline;">Learn More</a>), this committee focuses on standardization efforts in Virtual Reality, Augmented Reality, and Mixed Reality technologies.</p>
             
             <p style="margin-top: 20px; padding: 20px; background: white; border-radius: 10px; border-left: 5px solid #00D4AA; font-weight: 600; font-size: 1.1em;">
-                ?뱥 <strong>For more information about upcoming activities, please check:</strong> <span style="color: #1e2875;">TBD</span>
+                📋 <strong>For more information about upcoming activities, please check:</strong> <span style="color: #1e2875;">TBD</span>
             </p>
         </div>
 
         <!-- Activities Section -->
         <div class="std-panel-section">
             <div class="std-panel-header">
-                <div class="std-panel-icon">?렞</div>
+                <div class="std-panel-icon">🎯</div>
                 <h4>IEEE VR 2026 Activities</h4>
             </div>
             
@@ -370,22 +370,22 @@
             
             <div class="std-panel-topics">
                 <div class="std-topic-card">
-                    <h5>?봽 Interoperability & Standards</h5>
+                    <h5>🔄 Interoperability & Standards</h5>
                     <p>Exploring frameworks for cross-platform compatibility and industry-wide adoption of XR/VR technologies.</p>
                 </div>
                 
                 <div class="std-topic-card">
-                    <h5>?뵮 Research & Practice</h5>
+                    <h5>🔬 Research & Practice</h5>
                     <p>Discussing reproducibility, methodology documentation, and best practices for XR/VR research.</p>
                 </div>
                 
                 <div class="std-topic-card">
-                    <h5>?룺 Academic-Industry Collaboration</h5>
+                    <h5>🏭 Academic-Industry Collaboration</h5>
                     <p>Strengthening connections between research communities and Standards Developing Organizations.</p>
                 </div>
                 
                 <div class="std-topic-card">
-                    <h5>?렞 Future Directions</h5>
+                    <h5>🎯 Future Directions</h5>
                     <p>Identifying priority areas for standardization efforts in the evolving XR/VR landscape.</p>
                 </div>
             </div>
@@ -399,7 +399,7 @@
             <div class="std-member-affiliation">University of Central Florida, USA</div>
             <button class="std-bio-toggle" onclick="toggleBio(this)">
                 <span>Show Biography</span>
-                <span class="std-bio-arrow">??/span>
+                <span class="std-bio-arrow">▼</span>
             </button>
             <div class="std-member-bio">
                 Yahya is a Ph.D. student in Computer Science at the University of Central Florida and a member of the Interactive Systems and User Experience (ISUE) Lab, advised by Dr. Joseph J. LaViola Jr. His research focuses on security and privacy, human-computer interaction in immersive environments, encompassing 3D user interfaces, virtual avatars, collaborative XR systems, and the application of machine learning within VR contexts. Yohan's current work explores new methods to improve privacy preference profiling, user-centred privacy and security, and the utilization of intelligent conversational virtual agents and natural language processing to enhance interaction in virtual environments.
@@ -412,7 +412,7 @@
             <div class="std-member-affiliation">Columbia University, USA</div>
             <button class="std-bio-toggle" onclick="toggleBio(this)">
                 <span>Show Biography</span>
-                <span class="std-bio-arrow">??/span>
+                <span class="std-bio-arrow">▼</span>
             </button>
             <div class="std-member-bio">
                 Jen-Shuo Liu is an AR/VR researcher and engineer focused on visual computing and HCI. He designs perception-based interfaces for teleoperation and maintenance while developing algorithms for HDR and immersive video processing. He holds a Ph.D. from Columbia University, where he focused on AR/VR precueing systems. His research is published in venues including IEEE TVCG, TIP, and ISMAR. An active community contributor, Jen-Shuo serves on the CHI Late-Breaking Work Program Committee, and as both the Publicity & Communications Chair and Pitch-Your-Lab Chair for IEEE ISMAR.
@@ -425,7 +425,7 @@
             <div class="std-member-affiliation">KAIST, South Korea</div>
             <button class="std-bio-toggle" onclick="toggleBio(this)">
                 <span>Show Biography</span>
-                <span class="std-bio-arrow">??/span>
+                <span class="std-bio-arrow">▼</span>
             </button>
             <div class="std-member-bio">
                 Seonji Kim is a Ph.D. student in the Graduate School of Culture Technology (GSCT) at KAIST, Daejeon, Korea, and a member of the Ubiquitous Virtual Reality (UVR) Lab, advised by Prof. Woontack Woo. Her research interests include ubiquitous virtual reality, augmented reality, remote collaboration, and spatial computing. She received her M.S. degree in GSCT from KAIST, Korea, in 2023 and her B.S. degree in Computer Science and Engineering from Sungkyunkwan University, Korea, in 2021. You can contact her at seonji.kim@kaist.ac.kr.
@@ -438,7 +438,7 @@
             <div class="std-member-affiliation">AIST, Japan</div>
             <button class="std-bio-toggle" onclick="toggleBio(this)">
                 <span>Show Biography</span>
-                <span class="std-bio-arrow">??/span>
+                <span class="std-bio-arrow">▼</span>
             </button>
             <div class="std-member-bio">
                 Ryosuke Ichikari received his Ph.D. in engineering from Ritsumeikan University in 2010. After working at Ritsumeikan University, University of Southern California, he joined National Institute of Advanced Industrial Science and Technology (AIST). Currently, he is a research group leader at Research Institute on Human and Societal Augmentation, AIST. His research interest includes virtual/augmented/mixed reality and indoor positioning, and service engineering.
