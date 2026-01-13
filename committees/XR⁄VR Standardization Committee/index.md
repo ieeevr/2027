@@ -5,20 +5,18 @@ title_separator: "|"
 
 <script type="text/javascript">
     $(document).ready(function(){
-		var email = ""; 
-		var domain = "ieeevr.org"; 
-		email = "exhibitssponsors2025"; 
-		$(".exhibitssponsors").html("<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIcon' style=''></i><i class='emailText'>" + email + "@" + domain + "</a></i></span>");    
-	});
+        var email = ""; 
+        var domain = "ieeevr.org"; 
+        email = "exhibitssponsors2025"; 
+        $(".exhibitssponsors").html("<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIcon' style=''></i><i class='emailText'>" + email + "@" + domain + "</a></i></span>");    
+    });
 </script>
-<!-- IEEE VR 2026 Standardization Committee Section -->
-<!-- Modern, visually appealing design with panel information -->
-
 <style>
     .std-committee-section {
         padding: 60px 0;
         background: linear-gradient(135deg, #00D4AA 0%, #1e2875 100%);
         position: relative;
+        /* z-index 관련 설정 제거 */
     }
     
     .std-committee-section::before {
@@ -29,15 +27,18 @@ title_separator: "|"
         right: 0;
         bottom: 0;
         background: rgba(255, 255, 255, 0.95);
+        /* z-index 설정하지 않음으로써 기본 흐름 유지 */
     }
     
     .std-committee-content {
         position: relative;
-        z-index: 1;
+        /* z-index: 1;  <-- 이 부분을 삭제했습니다. */
         max-width: 1200px;
         margin: 0 auto;
         padding: 0 20px;
     }
+    
+    /* ... 나머지 스타일은 그대로 유지 ... */
     
     .std-committee-section h2 {
         color: #2d3748;
@@ -68,12 +69,14 @@ title_separator: "|"
         font-weight: 700;
         padding-bottom: 15px;
         border-bottom: 3px solid #00D4AA;
+        position: relative; /* 텍스트가 배경 위에 오도록 */
     }
     
     .std-committee-email {
         text-align: center;
         margin: 30px 0 40px 0;
         font-size: 1.2em;
+        position: relative;
     }
     
     .std-email-link {
@@ -108,6 +111,7 @@ title_separator: "|"
         margin-bottom: 50px;
         line-height: 1.8;
         box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+        position: relative;
     }
     
     .std-intro p {
@@ -124,6 +128,7 @@ title_separator: "|"
         margin: 50px 0;
         color: white;
         box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+        position: relative;
     }
     
     .std-panel-header {
@@ -148,6 +153,7 @@ title_separator: "|"
         margin: 0;
         font-size: 1.8em;
         font-weight: 700;
+        color: white; /* 명시적 색상 지정 */
     }
     
     .std-panel-title {
@@ -184,6 +190,7 @@ title_separator: "|"
         margin: 0 0 10px 0;
         font-size: 1.2em;
         font-weight: 600;
+        color: white;
     }
     
     .std-topic-card p {
@@ -198,6 +205,7 @@ title_separator: "|"
         gap: 30px;
         margin: 30px auto 50px auto;
         justify-content: center;
+        position: relative;
     }
     
     .std-member-grid.std-chairs-grid {
@@ -346,10 +354,10 @@ title_separator: "|"
 
 <div class="std-committee-section" id="standardization-committee">
     <div class="std-committee-content">
-        <img src="images/logo.png" alt="XRStand Logo" style="position: fixed; top: 0px; left: -140px; width: 500px; height: 180px;">
+        <img src="images/logo.png" alt="XRStand Logo" style="position: absolute; top: 0px; left: -140px; width: 500px; height: 180px;">
+        
         <h2>XR/VR Standardization Committee</h2>
         <div class="std-conference-subtitle">IEEE VR 2026 · Daegu, Korea</div>
-        <!-- <img src="images/logo.png" alt="IEEE VR 2026 Logo" style="display: block; margin: 0 auto 40px; max-width: 200px; opacity: 0.9;"> -->
         
         <div class="std-committee-email">
             <a href="mailto:xrstandards2026@ieeevr.org" class="std-email-link">
@@ -369,7 +377,6 @@ title_separator: "|"
             </p>
         </div>
 
-        <!-- Activities Section -->
         <div class="std-panel-section">
             <div class="std-panel-header">
                 <div class="std-panel-icon">🎯</div>
@@ -507,10 +514,7 @@ title_separator: "|"
         </div>
     </div>
     
-    </div><!-- Close std-committee-content -->
-</div><!-- Close std-committee-section -->
-
-<script>
+    </div></div><script>
 function toggleBio(button) {
     const bioDiv = button.nextElementSibling;
     const arrow = button.querySelector('.std-bio-arrow');
