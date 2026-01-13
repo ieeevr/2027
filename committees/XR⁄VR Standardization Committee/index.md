@@ -3,7 +3,14 @@ title: "Program Committee"
 subtitle: "IEEE VR 2026"
 title_separator: "|"
 
-
+<script type="text/javascript">
+    $(document).ready(function(){
+		var email = ""; 
+		var domain = "ieeevr.org"; 
+		email = "exhibitssponsors2025"; 
+		$(".exhibitssponsors").html("<span class='text-nowrap'><a href=javascript:location='" + "mail" + "to:" + email + "@" + domain + "'><i class='fas fa-fw fa-envelope-square emailIcon' style=''></i><i class='emailText'>" + email + "@" + domain + "</a></i></span>");    
+	});
+</script>
 <!-- IEEE VR 2026 Standardization Committee Section -->
 <!-- Modern, visually appealing design with panel information -->
 
