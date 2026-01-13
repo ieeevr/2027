@@ -1,5 +1,5 @@
 layout: ieeevr-default
-title: "Program Committee"
+title: "XR⁄VR Standardization Committee"
 subtitle: "IEEE VR 2026"
 title_separator: "|"
 
