@@ -355,11 +355,20 @@ title_separator: "|"
 </div>
 
 <div>
-  <h2><a href="https://ieeevr.org/2026/committees/XR%E2%81%84VR%20Standardization%20Committee/" target="_blank">XR Standards Chair</a>
+  <h2><a href="https://ieeevr.org/2026/committees/XR%E2%81%84VR%20Standardization%20Committee/" target="_blank">XR Standards Chairs</a>
     <div class="floatRight"><span id="xrstandards2026"></span></div>
   </h2>
   <ul>
+
+	   <li><span class="bold">Yahya (Yohan) Hmaiti</span> – <i>AUniversity of Central Florida, USA</i></li>
+  <li><span class="bold">Ryosuke Ichikari</span> – <i>AIST, Japan</i></li>
+  <li><span class="bold">Seonji Kim</span> – <i>KAIST, South Korea</i></li>
     <li><span class="bold">Takeshi Kurata</span> – <i>AIST, Japan</i></li>
+  <li><span class="bold">Jen-Shuo Liu</span> – <i>Columbia University, USA</i></li>
+  <li><span class="bold">Christine Perey</span> – <i>Spime Wrangler, Switzerland</i></li>
+	   
+	  
+   
   </ul>
 </div>
 
