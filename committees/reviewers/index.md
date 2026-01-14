@@ -7,6 +7,7 @@ title_separator: "|"
 <p style="width:100%; margin: 30px auto; padding: 20px 0; text-align:center; font-size:1rem; border-radius: 30px; background-color: #f3f3f3; display:none">This content is currently being updated.</p>
 
 <div>
+    <h1>Reviewers</h1>
 <ul>
 <li><strong>Diar Abdlkarim</strong> - <i>The University of Birmingham, United Kingdom</i></li>
 <li><strong>Yasmeen Abdrabou</strong> - <i>Technical University of Munich, Germany</i></li>
