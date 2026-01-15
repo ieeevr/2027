@@ -48,6 +48,7 @@ title_separator: "|"
 <li><strong>Huidong Bai</strong> - <i>The University of Auckland, New Zealand</i></li>
 <li><strong>Yuki Ban</strong> - <i>The University of Tokyo, Japan</i></li>
 <li><strong>Anil Ufuk Batmaz</strong> - <i>Concordia University, Canada</i></li>
+	<li><strong>Mark Billinghurst</strong> - <i>University of South Australia, Australia</i></li>
 <li><strong>Ronan Boulic</strong> - <i>EPFL, Switzerland</i></li>
 <li><strong>Gerd Bruder</strong> - <i>University of Central Florida, United States</i></li>
 <li><strong>Hugo Brument</strong> - <i>TU Wien, Austria</i></li>
@@ -105,11 +106,13 @@ title_separator: "|"
 <li><strong>Bingyao Huang</strong> - <i>Southwest University, China</i></li>
 <li><strong>Muhammad Twaha Ibrahim</strong> - <i>UC Irvine, United States</i></li>
 <li><strong>Andrew Irlitti</strong> - <i>Deakin University, Australia</i></li>
+<li><strong>Victoria Interrante</strong> - <i>University of Minnesota, United States</i></li>
 <li><strong>Hiroki Ishizuka</strong> - <i>Osaka University, Japan</i></li>
 <li><strong>Mariko Isogawa</strong> - <i>Keio University, Japan</i></li>
 <li><strong>Yuta Itoh</strong> - <i>The University of Tokyo, Japan</i></li>
 <li><strong>Mark Bo Jensen</strong> - <i>Technical University of Denmaark, Denmark</i></li>
 <li><strong>Seokhee Jeon</strong> - <i>Kyung Hee University, Korea Republic of</i></li>
+	<li><strong>Adam Jones</strong> - <i>Mississippi State University, United States</i></li>
 <li><strong>Joaquim Jorge</strong> - <i>Universidade de Lisboa, Portugal</i></li>
 <li><strong>Uijong Ju</strong> - <i>College of Science Kyung Hee University, Korea Republic of</i></li>
 <li><strong>Akrivi Katifori</strong> - <i>National and Kapodistrian University of Athens, Greece</i></li>
@@ -143,6 +146,7 @@ title_separator: "|"
 <li><strong>Daniel S Lopes</strong> - <i>Universidade de Lisboa, Portugal</i></li>
 <li><strong>Feng Lu</strong> - <i>School of CSE Beihang University, China</i></li>
 <li><strong>Anderson Maciel</strong> - <i>Universidade de Lisboa, Portugal</i></li>
+<li><strong>Katerina Mania</strong> - <i>Technical University of Crete, Greece</i></li>
 <li><strong>Daniel Martin</strong> - <i>Universidad de Zaragoza I3A, Spain</i></li>
 <li><strong>Katsutoshi Masai</strong> - <i>Kyushu University, Japan</i></li>
 <li><strong>Keigo Matsumoto</strong> - <i>University of Tsukuba, Japan</i></li>
@@ -160,6 +164,7 @@ title_separator: "|"
 <li><strong>Kizashi Nakano</strong> - <i>The University of Tokyo, Japan</i></li>
 <li><strong>Hyeongil Nam</strong> - <i>Hanyang University, Korea Republic of</i></li>
 <li><strong>Takuji Narumi</strong> - <i>the University of Tokyo, Japan</i></li>
+<li><strong>Luciana Nedel</strong> - <i>Federal University of Rio Grande do Sul (UFRGS), Brazil</i></li>	
 <li><strong>Cassidy R  Nelson</strong> - <i>Ohio University, United States</i></li>
 <li><strong>Fatima L S Nunes</strong> - <i>University of São Paulo, Brazil</i></li>
 <li><strong>Anne-Hélène Olivier</strong> - <i>University of Rennes 2 Inria, France</i></li>
@@ -172,7 +177,9 @@ title_separator: "|"
 <li><strong>Thammathip Piumsomboon</strong> - <i>University of Canterbury, New Zealand</i></li>
 <li><strong>Alexander Plopski</strong> - <i>TU Graz, Austria</i></li>
 <li><strong>Henning Pohl</strong> - <i>Aalborg University, Denmark</i></li>
-<li><strong>Parinya Punpongsanon</strong> - <i>Saitama University, Japan</i></li>
+<li><strong>Voicu Popescu</strong> - <i>Purdue University, United States</i></li>
+<li><strong>Matti Pouke</strong> - <i>University of Oulu, Finland</i></li>
+	<li><strong>Parinya Punpongsanon</strong> - <i>Saitama University, Japan</i></li>
 <li><strong>Xueying Qin</strong> - <i>Shandong University, China</i></li>
 <li><strong>Rafael Radkowski</strong> - <i>Iowa State University, United States</i></li>
 <li><strong>Eric Ragan</strong> - <i>University of Florida, United States</i></li>
@@ -180,6 +187,7 @@ title_separator: "|"
 <li><strong>Edgar Javier Rojas Munoz</strong> - <i>Texas A&M University, United States</i></li>
 <li><strong>Daniel Roth</strong> - <i>Technical University of Munich, Germany</i></li>
 <li><strong>Anthony Rowe</strong> - <i>Carnegie Mellon University, United States</i></li>
+<li><strong>Amela Sadagic</strong> - <i>Naval Postgraduate School (NPS), United States</i></li>
 <li><strong>Hideo Saito</strong> - <i>Keio University, Japan</i></li>
 <li><strong>Danny Schott</strong> - <i>Otto-von-Guericke University, Germany</i></li>
 <li><strong>Tobias Schwandt</strong> - <i>Technische Universität Ilmenau, Germany</i></li>
@@ -188,6 +196,11 @@ title_separator: "|"
 <li><strong>Yiran Shen</strong> - <i>Shandong University, China</i></li>
 <li><strong>Hakim Si-Mohammed</strong> - <i>University of Lille, France</i></li>
 <li><strong>Adalberto L  Simeone</strong> - <i>KU Leuven, Belgium</i></li>
+<li><strong>Missie Smith</strong> - <i>Auburn University, United States</i></li>
+
+
+
+	
 <li><strong>Weitao Song</strong> - <i>Beijing Institute of Technology, China</i></li>
 <li><strong>Misha Sra</strong> - <i>University of California Santa Barbara, United States</i></li>
 <li><strong>Oliver Staadt</strong> - <i>University of Rostock, Germany</i></li>
@@ -197,6 +210,7 @@ title_separator: "|"
 <li><strong>Frank Steinicke</strong> - <i>Universität Hamburg, Germany</i></li>
 <li><strong>Thomas Stoffregen</strong> - <i>University of Minnesota, United States</i></li>
 <li><strong>Simon Su</strong> - <i>National Institute of Standards and Technology, United States</i></li>
+<li><strong>David Swapp</strong> - <i>University College London, United Kingdom</i></li>
 <li><strong>Bo Sun</strong> - <i>Rowan University, United States</i></li>
 <li><strong>Jonathan Sutton</strong> - <i>University of Copenhagen, Denmark</i></li>
 <li><strong>Akifumi Takahashi</strong> - <i>Tohoku University, Japan</i></li>
@@ -230,6 +244,7 @@ title_separator: "|"
 <li><strong>Song-Hai Zhang</strong> - <i>Tsinghua University, China</i></li>
 <li><strong>Yu Zhao</strong> - <i>Vanderbilt University, United States</i></li>
 <li><strong>Yuhao Zhu</strong> - <i>University of Rochester, United States</i></li>
+<li><strong>Katja Zibrek</strong> - <i>INRIA, France</i></li>
 </ul>
 </div>
 
