@@ -111,15 +111,15 @@ title_separator: "|"
 <li><strong>Mariko Isogawa</strong> - <i>Keio University, Japan</i></li>
 <li><strong>Yuta Itoh</strong> - <i>The University of Tokyo, Japan</i></li>
 <li><strong>Mark Bo Jensen</strong> - <i>Technical University of Denmaark, Denmark</i></li>
-<li><strong>Seokhee Jeon</strong> - <i>Kyung Hee University, Korea Republic of</i></li>
+<li><strong>Seokhee Jeon</strong> - <i>Kyung Hee University, Republic of Korea</i></li>
 	<li><strong>Adam Jones</strong> - <i>Mississippi State University, United States</i></li>
 <li><strong>Joaquim Jorge</strong> - <i>Universidade de Lisboa, Portugal</i></li>
-<li><strong>Uijong Ju</strong> - <i>College of Science Kyung Hee University, Korea Republic of</i></li>
+<li><strong>Uijong Ju</strong> - <i>College of Science Kyung Hee University, Republic of Korea</i></li>
 <li><strong>Akrivi Katifori</strong> - <i>National and Kapodistrian University of Athens, Greece</i></li>
-<li><strong>Dooyoung Kim</strong> - <i>KAIST, Korea Republic of</i></li>
-<li><strong>Seungwon Kim</strong> - <i>Chonnam National University, Korea Republic of</i></li>
+<li><strong>Dooyoung Kim</strong> - <i>KAIST, Republic of Korea</i></li>
+<li><strong>Seungwon Kim</strong> - <i>Chonnam National University, Republic of Korea</i></li>
 <li><strong>Kangsoo Kim</strong> - <i>University of Calgary, Canada</i></li>
-<li><strong>Gerard Jounghyun Kim</strong> - <i>Korea University, Korea Republic of</i></li>
+<li><strong>Gerard Jounghyun Kim</strong> - <i>Korea University, Republic of Korea</i></li>
 <li><strong>Asako Kimura</strong> - <i>Ritsumeikan Univ, Japan</i></li>
 <li><strong>Naoya Koizumi</strong> - <i>The University of Electro-Communications, Japan</i></li>
 <li><strong>Julian Kreimeier</strong> - <i>Technical University of Munich, Germany</i></li>
@@ -162,7 +162,7 @@ title_separator: "|"
 <li><strong>Christos Mousas</strong> - <i>Purdue University, United States</i></li>
 <li><strong>Fumihiko Nakamura</strong> - <i>Ritsumeikan University, Japan</i></li>
 <li><strong>Kizashi Nakano</strong> - <i>The University of Tokyo, Japan</i></li>
-<li><strong>Hyeongil Nam</strong> - <i>Hanyang University, Korea Republic of</i></li>
+<li><strong>Hyeongil Nam</strong> - <i>Hanyang University, Republic of Korea</i></li>
 <li><strong>Takuji Narumi</strong> - <i>the University of Tokyo, Japan</i></li>
 <li><strong>Luciana Nedel</strong> - <i>Federal University of Rio Grande do Sul (UFRGS), Brazil</i></li>	
 <li><strong>Cassidy R  Nelson</strong> - <i>Ohio University, United States</i></li>
