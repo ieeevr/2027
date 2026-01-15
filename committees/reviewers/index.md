@@ -29,7 +29,7 @@ title_separator: "|"
 <li><strong>Yuta Asano</strong> - <i>National Institute of Informatics, Japan</i></li>
 <li><strong>Ambre Assor</strong> - <i>CNRS, Inria, LISN, France</i></li>
 <li><strong>Sabarish V. Babu</strong> - <i>Clemson University, United States</i></li>
-<li><strong>Minju Baeck</strong> - <i>KAIST, Korea, Republic of</i></li>
+<li><strong>Minju Baeck</strong> - <i>KAIST, Republic of Korea</i></li>
 <li><strong>Kiran Bagalkotkar</strong> - <i>Virginia Tech, United States</i></li>
 <li><strong>Omang Baheti</strong> - <i>University of British Columbia, Canada</i></li>
 <li><strong>Xiaoyang Bai</strong> - <i>The University of Hong Kong, Hong Kong</i></li>
@@ -79,7 +79,7 @@ title_separator: "|"
 <li><strong>Wolfgang Büschel</strong> - <i>University of Stuttgart, Germany</i></li>
 <li><strong>Fabio Buttussi</strong> - <i>University of Udine, Italy</i></li>
 <li><strong>Ashley Buzard</strong> - <i>University of Utah, United States</i></li>
-<li><strong>Jaehyun Byun</strong> - <i>Kyunghee University, Korea, Republic of</i></li>
+<li><strong>Jaehyun Byun</strong> - <i>Kyunghee University, Republic of Korea</i></li>
 <li><strong>Pierre-Antoine Cabaret</strong> - <i>Univ. Rennes, INSA, IRISA, Inria, CNRS, France</i></li>
 <li><strong>Raquel T. Cabrera-Araya</strong> - <i>Texas A&M University , United States</i></li>
 <li><strong>Arthur Caetano</strong> - <i>University of California, Santa Barbara, United States</i></li>
@@ -106,7 +106,7 @@ title_separator: "|"
 <li><strong>Xiaoping CHE</strong> - <i>Beijing Jiaotong University, China</i></li>
 <li><strong>Jean Cheiran</strong> - <i>, </i></li>
 <li><strong>Yuan Chen</strong> - <i>Independent, Canada</i></li>
-<li><strong>Chun Chen</strong> - <i>Seoul National University, Korea, Republic of</i></li>
+<li><strong>Chun Chen</strong> - <i>Seoul National University, Republic of Korea</i></li>
 <li><strong>Kuangyi Chen</strong> - <i>Institute of Visual Computing, Austria</i></li>
 <li><strong>Mengyu Chen</strong> - <i>University of California Santa Barbara, United States</i></li>
 <li><strong>Shu-Yu Chen</strong> - <i>Institute of Computing Technology Chinese Academy of Science, China</i></li>
@@ -209,7 +209,7 @@ title_separator: "|"
 <li><strong>Mostafa Ghobadi</strong> - <i>, </i></li>
 <li><strong>Anindita Ghosh</strong> - <i>DFKI, Germany</i></li>
 <li><strong>Anindita Ghosh</strong> - <i>, </i></li>
-<li><strong>Bocheon Gim</strong> - <i>Gwangju Institute of Science and Technology, Korea, Republic of</i></li>
+<li><strong>Bocheon Gim</strong> - <i>Gwangju Institute of Science and Technology, Republic of Korea</i></li>
 <li><strong>Alexander Giovannelli</strong> - <i>Virginia Tech, United States</i></li>
 <li><strong>Daniele Giunchi</strong> - <i>University of Birmingham, United Kingdom</i></li>
 <li><strong>Diego Gómez-Zará</strong> - <i>University of Notre Dame, United States</i></li>
@@ -229,19 +229,19 @@ title_separator: "|"
 <li><strong>Wenchen Winston Guo</strong> - <i>The Hong Kong Polytechnic University, China</i></li>
 <li><strong>Kunal Gupta</strong> - <i>The University of Auckland, New Zealand</i></li>
 <li><strong>Siddharth Gupta</strong> - <i>Amazon, United States</i></li>
-<li><strong>Taewook Ha</strong> - <i>KAIST, Korea, Republic of</i></li>
+<li><strong>Taewook Ha</strong> - <i>KAIST, Republic of Korea</i></li>
 <li><strong>Azadeh HADADI</strong> - <i>Image, France</i></li>
 <li><strong>Daiki Hagimori</strong> - <i>NTT DOCOMO INC., Japan</i></li>
 <li><strong>Shirin Hajahmadi</strong> - <i>University of Bologna, Italy</i></li>
 <li><strong>Ludovic Hamon</strong> - <i>Le Mans University, France</i></li>
-<li><strong>Hyunyoung Han</strong> - <i>KAIST, Korea, Republic of</i></li>
+<li><strong>Hyunyoung Han</strong> - <i>KAIST, Republic of Korea</i></li>
 <li><strong>Jihae Han</strong> - <i>KU Leuven, Belgium</i></li>
 <li><strong>Binyang Han</strong> - <i>University of Canterbury, New Zealand</i></li>
 <li><strong>Dongyun Han</strong> - <i>Clemson University, United States</i></li>
 <li><strong>Kazi Injamamul Haque</strong> - <i>Utrecht University, Netherlands</i></li>
 <li><strong>Mahboobeh Harandi</strong> - <i>Meta Platforms Inc., United States</i></li>
 <li><strong>Brittney Hartle</strong> - <i>York University, Canada</i></li>
-<li><strong>Mohammad Shadman Hashem</strong> - <i>Kyung Hee University, Korea, Republic of</i></li>
+<li><strong>Mohammad Shadman Hashem</strong> - <i>Kyung Hee University, Republic of Korea</i></li>
 <li><strong>Takeru Hashimoto</strong> - <i>The University of Tokyo, Japan</i></li>
 <li><strong>Ali Haskins Lisle</strong> - <i>University of Central Florida, United States</i></li>
 <li><strong>Yuji Hatada</strong> - <i>The University of Tokyo, Japan</i></li>
@@ -253,7 +253,7 @@ title_separator: "|"
 <li><strong>Florian Heinrich</strong> - <i>Otto von Guericke University Magdeburg, Germany</i></li>
 <li><strong>Martin Heitz</strong> - <i>Inetum, France</i></li>
 <li><strong>Jay Henderson</strong> - <i>Memorial University of Newfoundland, Canada</i></li>
-<li><strong>Hwanjo Heo</strong> - <i>ETRI, Korea, Republic of</i></li>
+<li><strong>Hwanjo Heo</strong> - <i>ETRI, Republic of Korea</i></li>
 <li><strong>Julia Hertel</strong> - <i>University of Hamburg, Germany</i></li>
 <li><strong>Yahya Hmaiti</strong> - <i>University of Central Florida, United States</i></li>
 <li><strong>Jeffrey C. F. Ho</strong> - <i>Hong Kong Polytechnic University, Hong Kong</i></li>
@@ -278,11 +278,11 @@ title_separator: "|"
 <li><strong>Yuxuan Huang</strong> - <i>University of Minnesota, United States</i></li>
 <li><strong>Shah Rukh Humayoun</strong> - <i>San Francisco State University, United States</i></li>
 <li><strong>Emilie Hummel</strong> - <i>Inria, France</i></li>
-<li><strong>Yuchi Huo</strong> - <i>KAIST, Korea, Republic of</i></li>
+<li><strong>Yuchi Huo</strong> - <i>KAIST, Republic of Korea</i></li>
 <li><strong>Wolfgang Hürst</strong> - <i>Utrecht University, Netherlands</i></li>
 <li><strong>Christophe Hurter</strong> - <i>Fédération ENAC ISAE-SUPAERO ONERA, Université de Toulouse, France, France</i></li>
 <li><strong>Razeen Hussain</strong> - <i>University of Genoa, Italy</i></li>
-<li><strong>Inwook Hwang</strong> - <i>Electronics and Telecommunications Research Institute, Korea, Republic of</i></li>
+<li><strong>Inwook Hwang</strong> - <i>Electronics and Telecommunications Research Institute, Republic of Korea</i></li>
 <li><strong>Ryosuke Ichikari</strong> - <i>AIST, Japan</i></li>
 <li><strong>Felix Immohr</strong> - <i>RWTH Aachen University, Germany</i></li>
 <li><strong>Sungwon In</strong> - <i>Virginia Polytechnic Institute and State University, United States</i></li>
@@ -293,8 +293,8 @@ title_separator: "|"
 <li><strong>Mitsuru Ito</strong> - <i>, </i></li>
 <li><strong>Kenichi Ito</strong> - <i>Diver-X Inc., Japan</i></li>
 <li><strong>Omar Janeh</strong> - <i>Computer Engineering Department, Iraq</i></li>
-<li><strong>Hyuckjin Jang</strong> - <i>KAIST, Korea, Republic of</i></li>
-<li><strong>Jae-Yeop Jeong</strong> - <i>Seoul National University of Science and Technology, Korea, Republic of</i></li>
+<li><strong>Hyuckjin Jang</strong> - <i>KAIST, Republic of Korea</i></li>
+<li><strong>Jae-Yeop Jeong</strong> - <i>Seoul National University of Science and Technology, Republic of Korea</i></li>
 <li><strong>Xufeng Jian</strong> - <i>Beijing University of Posts and Telecommunications, China</i></li>
 <li><strong>Guanxuan Jiang</strong> - <i>The Hong Kong University of Science and Technology (Guangzhou), China</i></li>
 <li><strong>Ying Jiang</strong> - <i>UCLA, United States</i></li>
@@ -318,7 +318,7 @@ title_separator: "|"
 <li><strong>Denis Kalkofen</strong> - <i>Graz University of Technology, Austria</i></li>
 <li><strong>Juho Kalliokoski</strong> - <i>University of Oulu, Finland</i></li>
 <li><strong>Takayuki Kameoka</strong> - <i>Kyushu university, Japan</i></li>
-<li><strong>Seoyoung Kang</strong> - <i>KAIST, Korea, Republic of</i></li>
+<li><strong>Seoyoung Kang</strong> - <i>KAIST, Republic of Korea</i></li>
 <li><strong>Michal Kapinus</strong> - <i>Brno University of Technology, Czech Republic</i></li>
 <li><strong>Rabimba Karanjai</strong> - <i>University Of Houston, United States</i></li>
 <li><strong>Shunichi Kasahara</strong> - <i>Sony Computer Science Laboratories, Inc., Japan</i></li>
@@ -329,22 +329,22 @@ title_separator: "|"
 <li><strong>Khurram Khalil</strong> - <i>University of Missouri-Columbia, United States</i></li>
 <li><strong>Talha Khan</strong> - <i>University of Pittsburgh, United States</i></li>
 <li><strong>Suzanne Kieffer</strong> - <i>UCLouvain, Belgium</i></li>
-<li><strong>Jinwoo Kim</strong> - <i>Kwangwoon University, Korea, Republic of</i></li>
-<li><strong>Gwangbin Kim</strong> - <i>Gwangju Institute of Science and Technology, Korea, Republic of</i></li>
+<li><strong>Jinwoo Kim</strong> - <i>Kwangwoon University, Republic of Korea</i></li>
+<li><strong>Gwangbin Kim</strong> - <i>Gwangju Institute of Science and Technology, Republic of Korea</i></li>
 <li><strong>Bryan Kim</strong> - <i>Texas A&M University , United States</i></li>
 <li><strong>Hyungil Kim</strong> - <i>University of Illinois Chicago, United States</i></li>
 <li><strong>Dongyeon Kim</strong> - <i>University of Cambridge, United Kingdom</i></li>
-<li><strong>Seonji Kim</strong> - <i>KAIST, Korea, Republic of</i></li>
-<li><strong>Jaehong Kim</strong> - <i>Inha University, Korea, Republic of</i></li>
-<li><strong>Jinwook Kim</strong> - <i>KAIST, Korea, Republic of</i></li>
+<li><strong>Seonji Kim</strong> - <i>KAIST, Republic of Korea</i></li>
+<li><strong>Jaehong Kim</strong> - <i>Inha University, Republic of Korea</i></li>
+<li><strong>Jinwook Kim</strong> - <i>KAIST, Republic of Korea</i></li>
 <li><strong>Callie Y. Kim</strong> - <i>University of Wisconsin-Madison, United States</i></li>
-<li><strong>HyungSeok Kim</strong> - <i>Konkuk University, Korea, Republic of</i></li>
-<li><strong>Ju-Hyung Kim</strong> - <i>Hanyang University, Korea, Republic of</i></li>
+<li><strong>HyungSeok Kim</strong> - <i>Konkuk University, Republic of Korea</i></li>
+<li><strong>Ju-Hyung Kim</strong> - <i>Hanyang University, Republic of Korea</i></li>
 <li><strong>Yoonsang Kim</strong> - <i>Stony Brook University, United States</i></li>
-<li><strong>Hanseob Kim</strong> - <i>Konyang University, Korea, Republic of</i></li>
+<li><strong>Hanseob Kim</strong> - <i>Konyang University, Republic of Korea</i></li>
 <li><strong>Constantin Kleinbeck</strong> - <i>Technical University of Munich, Germany</i></li>
 <li><strong>Ramisha Knight</strong> - <i>Aptima, Inc. , United States</i></li>
-<li><strong>Sungahn Ko</strong> - <i>POSTECH, Korea, Republic of</i></li>
+<li><strong>Sungahn Ko</strong> - <i>POSTECH, Republic of Korea</i></li>
 <li><strong>Mert Kobas</strong> - <i>New York University, United States</i></li>
 <li><strong>Silvia Kober</strong> - <i>University of Graz, Austria</i></li>
 <li><strong>René Kockord</strong> - <i>TU Braunschweig, Germany</i></li>
@@ -385,13 +385,13 @@ title_separator: "|"
 <li><strong>Enricoandrea Laviola</strong> - <i>Polytechnic University of Bari, Italy</i></li>
 <li><strong>Guillaume Lavoué</strong> - <i>Ecole Centrale de Lyon - ENISE, France</i></li>
 <li><strong>Flavien Lebrun</strong> - <i>Univ Evry, Université Paris Saclay, France</i></li>
-<li><strong>Yongseok Lee</strong> - <i>Seoul National University, Korea, Republic of</i></li>
+<li><strong>Yongseok Lee</strong> - <i>Seoul National University, Republic of Korea</i></li>
 <li><strong>Byeonghyeon Lee</strong> - <i>, </i></li>
-<li><strong>Kyung Myun Lee</strong> - <i>Korea Advanced Institute of Science and Technology, Korea, Republic of</i></li>
+<li><strong>Kyung Myun Lee</strong> - <i>Korea Advanced Institute of Science and Technology, Republic of Korea</i></li>
 <li><strong>Gun A. Lee</strong> - <i>University of South Australia, Australia</i></li>
-<li><strong>Hyunjin Lee</strong> - <i>KAIST, Korea, Republic of</i></li>
-<li><strong>Jungeun Lee</strong> - <i>Pohang University of Science and Technology (POSTECH), Korea, Republic of</i></li>
-<li><strong>Ho Jung Lee</strong> - <i>Yonsei University, Korea, Republic of</i></li>
+<li><strong>Hyunjin Lee</strong> - <i>KAIST, Republic of Korea</i></li>
+<li><strong>Jungeun Lee</strong> - <i>Pohang University of Science and Technology (POSTECH), Republic of Korea</i></li>
+<li><strong>Ho Jung Lee</strong> - <i>Yonsei University, Republic of Korea</i></li>
 <li><strong>Zhiying Leng</strong> - <i>Beihang University, China</i></li>
 <li><strong>Jingwen Leng</strong> - <i>Shanghai Jiao Tong University, China</i></li>
 <li><strong>Christoph Leuze</strong> - <i>Stanford University, United States</i></li>
@@ -520,7 +520,7 @@ title_separator: "|"
 <li><strong>Eyal Ofek</strong> - <i>Microsoft Research, United States</i></li>
 <li><strong>Kumpei Ogawa</strong> - <i>Tohoku University, Japan</i></li>
 <li><strong>Nami Ogawa</strong> - <i>CyberAgent, Inc., Japan</i></li>
-<li><strong>Seungjae Oh</strong> - <i>Kyung Hee University, Korea, Republic of</i></li>
+<li><strong>Seungjae Oh</strong> - <i>Kyung Hee University, Republic of Korea</i></li>
 <li><strong>Ryo Ohara</strong> - <i>The University of Tokyo, Japan</i></li>
 <li><strong>Jason Orlosky</strong> - <i>Osaka University, Japan</i></li>
 <li><strong>Michael Ortega</strong> - <i>, </i></li>
@@ -534,7 +534,7 @@ title_separator: "|"
 <li><strong>Eleonora Pantano</strong> - <i>University of Bristol, United Kingdom</i></li>
 <li><strong>Narcis Pares</strong> - <i>Pompeu Fabra University, Spain</i></li>
 <li><strong>Ji Hwan Park</strong> - <i>Rochester Institute of Technology, United States</i></li>
-<li><strong>Chaeyong Park</strong> - <i>Korea University, Korea, Republic of</i></li>
+<li><strong>Chaeyong Park</strong> - <i>Korea University, Republic of Korea</i></li>
 <li><strong>Chanho Park</strong> - <i>The University of Tokyo, Japan</i></li>
 <li><strong>Tabitha C. Peck</strong> - <i>Davidson College, United States</i></li>
 <li><strong>Eddie Pei</strong> - <i>, </i></li>
@@ -572,7 +572,7 @@ title_separator: "|"
 <li><strong>Maria Alejandra Quiros-Ramirez</strong> - <i>Hochschule Coburg, Germany</i></li>
 <li><strong>Yitoshee Rahman</strong> - <i>University of Louisiana at Lafayette, United States</i></li>
 <li><strong>Karthik Ramani</strong> - <i>Purdue University, United States</i></li>
-<li><strong>Francois Rameau</strong> - <i>SUNY Korea, Korea, Republic of</i></li>
+<li><strong>Francois Rameau</strong> - <i>SUNY Korea, Republic of Korea</i></li>
 <li><strong>George Ramiotis</strong> - <i>Technical University of Crete, Greece</i></li>
 <li><strong>G. Nikki Ramirez</strong> - <i>Virginia Tech, United States</i></li>
 <li><strong>Brian Ravenet</strong> - <i>Université Paris-Saclay, CNRS, LISN, France</i></li>
@@ -594,7 +594,7 @@ title_separator: "|"
 <li><strong>Lingyan Ruan</strong> - <i>The University of Melbourne, Australia</i></li>
 <li><strong>Andrew Rukangu</strong> - <i>University of Georgia, United States</i></li>
 <li><strong>Daniel Rupp</strong> - <i>RWTH Aachen University, Germany</i></li>
-<li><strong>Hyeongsuk Ryu</strong> - <i>Seoul National University Bundang Hospital , Korea, Republic of</i></li>
+<li><strong>Hyeongsuk Ryu</strong> - <i>Seoul National University Bundang Hospital , Republic of Korea</i></li>
 <li><strong>David Saffo</strong> - <i>JPMorgan Chase, United States</i></li>
 <li><strong>Ioannis Safranoglou</strong> - <i>Technical University of Crete, Greece</i></li>
 <li><strong>Satoshi Saga</strong> - <i>Kumamoto University, Japan</i></li>
@@ -626,7 +626,7 @@ title_separator: "|"
 <li><strong>Ephraim Schott</strong> - <i>Bauhaus-Universität Weimar, Germany</i></li>
 <li><strong>Lovis Schwenderling</strong> - <i>Otto-von-Guericke-University, Germany</i></li>
 <li><strong>Giulia Wally Scurati</strong> - <i>Blekinge Institute of Technology, Sweden</i></li>
-<li><strong>Byung-Kuk Seo</strong> - <i>Electronics and Telecommunications Research Institute (ETRI), Korea, Republic of</i></li>
+<li><strong>Byung-Kuk Seo</strong> - <i>Electronics and Telecommunications Research Institute (ETRI), Republic of Korea</i></li>
 <li><strong>Jyotirmay Nag Setu</strong> - <i>University of Texas at San Antonio, United States</i></li>
 <li><strong>Janset Shawash</strong> - <i>Metropolia University of Applied Sciences, Finland</i></li>
 <li><strong>William Sherman</strong> - <i>National Institute of Standards and Technology, United States</i></li>
@@ -643,7 +643,7 @@ title_separator: "|"
 <li><strong>Leonard Smart</strong> - <i>, </i></li>
 <li><strong>Lara Soberanis</strong> - <i>Texas A&M University, United States</i></li>
 <li><strong>Tianyu Song</strong> - <i>Technical University of Munich, Germany</i></li>
-<li><strong>Hail Song</strong> - <i>Korea Advanced Institute of Science and Technology, Korea, Republic of</i></li>
+<li><strong>Hail Song</strong> - <i>Korea Advanced Institute of Science and Technology, Republic of Korea</i></li>
 <li><strong>Mauricio Sousa</strong> - <i>Reality Labs Research at Meta, Canada</i></li>
 <li><strong>Aimée Sousa Calepso</strong> - <i>University of Stuttgart, Germany</i></li>
 <li><strong>Becky Spittle</strong> - <i>Birmingham City University, United Kingdom</i></li>
@@ -766,7 +766,7 @@ title_separator: "|"
 <li><strong>Ying Yang</strong> - <i>Monash University, Australia</i></li>
 <li><strong>Hanting Ye</strong> - <i>Duke University, United States</i></li>
 <li><strong>Vibol Yem</strong> - <i>University of Tsukuba, Japan</i></li>
-<li><strong>Dohyeon Yeo</strong> - <i>Gwangju Institute of Science and Technology, Korea, Republic of</i></li>
+<li><strong>Dohyeon Yeo</strong> - <i>Gwangju Institute of Science and Technology, Republic of Korea</i></li>
 <li><strong>Juheon Yi</strong> - <i>Microsoft Research Asia, China</i></li>
 <li><strong>Enes Yigitbas</strong> - <i>Paderborn University, Germany</i></li>
 <li><strong>Wenyuan Ying</strong> - <i>Zhejiang University of Technology, China</i></li>
