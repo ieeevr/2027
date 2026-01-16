@@ -10,7 +10,7 @@ title_separator: "|"
 <article class="kspeaker-card" role="article"> <img class="kspeaker-photo" src="/2026/assets/images/k_sp_01.png" >
   <div class="kspeaker-meta">
     <h2>Dr. Mar Gonzalez-Franco</h2>
-    <div class="role">Research Manager,<br/>
+    <div class="role">Research Manager<br/>
       <span style="font-weight:200">BIRD Lab, Google AR & VR</span></div>
     <div class="divider" aria-hidden="true"></div>
     <p>Dr. Mar Gonzalez-Franco is a distinguished Computer Scientist and Neuroscientist
@@ -37,9 +37,9 @@ title_separator: "|"
 <article class="kspeaker-card" role="article"> <img class="kspeaker-photo" src="/2026/assets/images/k_sp_02.png" >
   <div class="kspeaker-meta">
     <h2>Dr. Albert "Skip" Rizzo</h2>
-    <div class="role">Director for Medical Virtual Reality,<br/>
+    <div class="role">Director for Medical Virtual Reality<br/>
        <span style="font-weight:200">USC Institute for Creative Technologies</span><br/><br/>
-Research Professor,<br/>
+Research Professor<br/>
  <span style="font-weight:200">USC Davis School of Gerontology and USC Keck School of
 Medicine Department of Psychiatry & Behavioral Sciences</span></div>
     <div class="divider" aria-hidden="true"></div>
