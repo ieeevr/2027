@@ -313,6 +313,71 @@ title_separator: "|"
   </dd>
 </dl>
 
+<dl>
+  <dt><span><i class="fa fa-quora mr10"></i>FAQ - Frequently Asked Questions</span><i class="material-icons">keyboard_arrow_down</i></dt>
+  <dd> <b>When do I need to select Author Registration? </b>
+    <ul class="lss-dot">
+      <li>You must select Author Registration if you are an author of any accepted contribution (conference paper, journal paper, invited TVCG paper, workshop paper, poster, research demo, or 3DUI contest) and no other co-author has completed an Author Registration yet. At least one Author Registration per paper/publication is mandatory for inclusion in the conference program and/or proceedings.</li>
+    </ul>
+    <b>How many papers/publications can one Author Registration cover? </b>
+    <ul class="lss-dot">
+      <li>One Author Registration can validate up to two accepted contributions (conference papers, journal papers, invited TVCG papers, workshop papers, posters, research demos, or 3DUI contest entries).</li>
+      <li>Example: If you are associated with three contributions (e.g., one conference paper, one invited TVCG paper, and one demo), two Author Registrations are required. </li>
+      <li>In this case, it is recommended that a co-author completes the second Author Registration.</li>
+    </ul>
+    <b>Can a paper be presented by someone registered as a General Participant? </b>
+    <ul class="lss-dot">
+      <li>Yes. As long as at least one author has completed an Author Registration to validate the paper, another registered participant may present the paper.</li>
+    </ul>
+    <b>Can I use the Student discount with Author Registration? </b>
+    <ul class="lss-dot">
+      <li>No. Student discounts do not apply to Author Registration. However, IEEE Member discounts are still applicable.</li>
+    </ul>
+    <b>I am invited to present a previously published TVCG paper. Which registration category should I choose? </b>
+    <ul class="lss-dot">
+      <li>You should register under Author Registration.</li>
+    </ul>
+    <b>What information is required when registering as an invited TVCG paper author? </b>
+    <ul class="lss-dot">
+      <li>You must provide the full Paper DOI, for example:<br>
+        10.1109/TVCG.20XX.XXXXXXX<br>
+        (as listed in IEEE TVCG).</li>
+    </ul>
+    <b>What is an Invited TVCG paper? </b>
+    <ul class="lss-dot">
+      <li>An Invited TVCG paper is a manuscript previously published in the IEEE Transactions on Visualization and Computer Graphics (TVCG) and invited for oral presentation at the conference.</li>
+      <li>This is different from IEEE VR Journal Papers published in a special issue.</li>
+    </ul>
+    <b>How can I obtain a VISA invitation letter as an author? </b>
+    <ul class="lss-dot">
+      <li>During registration, indicate that you require a VISA invitation letter and complete the required information. Once your registration and payment are confirmed, the letter is automatically generated. You can download the letter from My Page after logging in to the system again:<br>
+        <a href="https://ieeevr2026.org/index.php?GP=member/login" target="_blank">https://ieeevr2026.org/index.php?GP=member/login</a></li>
+    </ul>
+    <b>Do Doctoral Consortium presenters need an Author Registration? </b>
+    <ul class="lss-dot">
+      <li>No. Author Registration is not required if you are only presenting at the Doctoral Consortium.</li>
+      <li>However, if you also have an accepted paper or publication (conference paper, journal paper, invited TVCG paper, workshop paper, poster, research demo, or 3DUI contest), an Author Registration is required.</li>
+    </ul>
+    <b>Can I register multiple times? </b>
+    <ul class="lss-dot">
+      <li>No. Each participant may complete only one registration.</li>
+    </ul>
+    <b>I am a Student Volunteer with a complimentary registration, but I am also an author. What should I do? </b>
+    <ul class="lss-dot">
+      <li>Each paper requires an Author Registration. Either:<br>
+        · A co-author completes the Author Registration for your paper, or<br>
+        · You register yourself under Author Registration, even if you have a complimentary Student Volunteer registration.</li>
+    </ul>
+    <b>I have a complimentary workshop/tutorial registration but want to attend the full conference. What should I do? </b>
+    <ul class="lss-dot">
+      <li>Please register using the promotion code provided by your workshop/tutorial chair. When this code is applied, you may register for the full conference, and the workshop/tutorial fee will be waived.</li>
+    </ul>
+  </dd>
+</dl>
+
+
+
+
 <!--//251217추가-->
 
 <div style="display:none">
