@@ -10,7 +10,8 @@ title_separator: "|"
 <article class="kspeaker-card" role="article"> <img class="kspeaker-photo" src="/2026/assets/images/k_sp_01.png" >
   <div class="kspeaker-meta">
     <h2>Dr. Mar Gonzalez-Franco</h2>
-    <div class="role">Research Manager, BIRD Lab, Google AR & VR</div>
+    <div class="role">Research Manager,<br/>
+      BIRD Lab, Google AR & VR</div>
     <div class="divider" aria-hidden="true"></div>
     <p>Dr. Mar Gonzalez-Franco is a distinguished Computer Scientist and Neuroscientist
       renowned for her work exploring the intersection of human and artificial
@@ -36,8 +37,10 @@ title_separator: "|"
 <article class="kspeaker-card" role="article"> <img class="kspeaker-photo" src="/2026/assets/images/k_sp_02.png" >
   <div class="kspeaker-meta">
     <h2>Dr. Albert "Skip" Rizzo</h2>
-    <div class="role">Director for Medical Virtual Reality, USC Institute for Creative Technologies
-Research Professor, USC Davis School of Gerontology and USC Keck School of
+    <div class="role">Director for Medical Virtual Reality,<br/>
+      USC Institute for Creative Technologies<br/><br/>
+Research Professor,<br/>
+USC Davis School of Gerontology and USC Keck School of
 Medicine Department of Psychiatry & Behavioral Sciences</div>
     <div class="divider" aria-hidden="true"></div>
     <p>Dr. Albert "Skip" Rizzo is a distinguished Clinical Psychologist and research
