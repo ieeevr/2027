@@ -347,8 +347,9 @@ title_separator: "|"
  <li class="accordion-item">
         <button class="accordion-header">
           <div class="accordion-text">
-			<div>IIMC</div>
-			 <div>The 5th International Workshop on Intelligent Immersive Media Communications (IIMC2026)</div>
+<div>XRMemory’26</div>
+			  <div>The 3rd International Workshop on Spatial Memory in XR (XRMemory)</div>
+			  
 		  <div>09:30~13:30</div>
 		  <div>Conference Room 323A</div>
         </div>
@@ -524,8 +525,14 @@ title_separator: "|"
  <li class="accordion-item">
         <button class="accordion-header">
           <div class="accordion-text">
-			  <div>XRMemory’26</div>
-			  <div>The 3rd International Workshop on Spatial Memory in XR (XRMemory)</div>
+
+
+
+
+			  
+			  
+			<div>IIMC</div>
+			 <div>The 5th International Workshop on Intelligent Immersive Media Communications (IIMC2026)</div>
 			  <div>14:00~18:00</div>
 			  <div>Conference Room 322B</div>
         </div>
