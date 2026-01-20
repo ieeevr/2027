@@ -468,6 +468,8 @@ b, strong {
 .sponsor_section {
 	border-bottom: 1px solid black !important;
 	padding-bottom: 5px !important;
+	font-weight: bold;
+	margin: 1rem 0 0.5rem
 }
 #myBtnTop {
 	display: none;
