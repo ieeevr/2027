@@ -6,10 +6,8 @@ title_separator: "|"
 ---
 <style>
 .sponsor_section {
-    display: none;
 }
 .confsponsors-type {
-    display: none;
 }
 
 .floatRight{
