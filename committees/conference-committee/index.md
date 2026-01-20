@@ -17,7 +17,6 @@ title_separator: "|"
     /*text-transform: uppercase;*/
 }
 #sponsors .conf-icon {
-  display: none !important;
 }
 	
 .fa-envelope-square:before {
