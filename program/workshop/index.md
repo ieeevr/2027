@@ -378,7 +378,7 @@ title_separator: "|"
         <li class="accordion-item">
           <button class="accordion-header">
           <div class="accordion-text">
-            <div>XRMemory’26</div>
+            <div>XRMemory</div>
             <div>The 3rd International Workshop on Spatial Memory in XR (XRMemory)</div>
             <div>09:30~13:30</div>
             <div>Conference Room 323A</div>
