@@ -54,7 +54,7 @@ Students are encouraged to seek funding from their institutions for registration
 <p>For more information, please contact the Doctoral Consortium Program Chairs at <a href="mailto:DOCTORALCONSORTIUM2026@IEEEVR.ORG">DOCTORALCONSORTIUM2026@IEEEVR.ORG</a>.</p>
 <ul>
 <li><strong>Yongsoon Choi</strong>, Sogang University, Korea</li>
-<li><strong>Iana Podkosova</strong>, Technische Universität Wien, Austria</li>
+<!--li><strong>Iana Podkosova</strong>, Technische Universität Wien, Austria</li-->
 <li><strong>Edgar Rojas Muñoz</strong>, Texas A&M University, USA</li>
 </ul>
 
