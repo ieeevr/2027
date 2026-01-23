@@ -347,7 +347,7 @@ title_separator: "|"
   <ul>
     <li><span class="bold">Yongsoon Choi</span> – <i>Sogang University, Republic of Korea</i></li>
     <li><span class="bold">Edgar Rojas Muñoz</span> – <i>Texas A&amp;M University, USA</i></li>
-    <li><span class="bold">Iana Podkosova</span> – <i>Technische Universität Wien, Austria</i></li>
+    <!--li><span class="bold">Iana Podkosova</span> – <i>Technische Universität Wien, Austria</i></li-->
   </ul>
 </div>
 
