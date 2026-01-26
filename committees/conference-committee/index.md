@@ -357,7 +357,7 @@ title_separator: "|"
   </h2>
   <ul>
 
-	   <li><span class="bold">Yahya (Yohan) Hmaiti</span> – <i>AUniversity of Central Florida, USA</i></li>
+	   <li><span class="bold">Yahya (Yohan) Hmaiti</span> – <i>University of Central Florida, USA</i></li>
   <li><span class="bold">Ryosuke Ichikari</span> – <i>AIST, Japan</i></li>
   <li><span class="bold">Seonji Kim</span> – <i>KAIST, South Korea</i></li>
     <li><span class="bold">Takeshi Kurata</span> – <i>AIST, Japan</i></li>
