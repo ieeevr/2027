@@ -15,7 +15,7 @@ title_separator: "|"
           <div class="accordion-text">
             <div>KELVAR</div>
             <div>2026 IEEE VR KELVAR Workshop: K-12+ Embodied Learning through Virtual and Augmented Reality (11th Annual Workshop)</div>
-            <div>09:30~13:30</div>
+            <div>08:30~12:30</div>
             <div>Conference Room 320</div>
           </div>
           <svg class="accordion-icon" viewBox="0 0 24 24">
@@ -39,7 +39,7 @@ title_separator: "|"
           <div class="accordion-text">
             <div>GEMINI</div>
             <div>4th Workshop on Gaze and Eye Movement in Interaction in XR</div>
-            <div>09:30~13:30</div>
+            <div>08:30~12:30</div>
             <div>Conference Room 322A</div>
           </div>
           <svg class="accordion-icon" viewBox="0 0 24 24">
@@ -63,7 +63,7 @@ title_separator: "|"
           <div class="accordion-text">
             <div>LocXR</div>
             <div>4th Workshop on Locomotion and Wayfinding in XR</div>
-            <div>09:30~13:30</div>
+            <div>08:30~12:30</div>
             <div>Conference Room 321</div>
           </div>
           <svg class="accordion-icon" viewBox="0 0 24 24">
@@ -87,7 +87,7 @@ title_separator: "|"
           <div class="accordion-text">
             <div>WSR</div>
             <div>4th Workshop on Seamless Reality: AR Technologies for Seamless Perception and Cognition between Cyber and Physical Spaces</div>
-            <div>09:30~13:30</div>
+            <div>08:30~12:30</div>
             <div>Conference Room 322B</div>
           </div>
           <svg class="accordion-icon" viewBox="0 0 24 24">
@@ -111,7 +111,7 @@ title_separator: "|"
           <div class="accordion-text">
             <div>PerGraVAR</div>
             <div>Third International Workshop on Perception-driven Graphics and Displays for VR and AR</div>
-            <div>09:30~13:30</div>
+            <div>08:30~12:30</div>
             <div>Conference Room  323A </div>
           </div>
           <svg class="accordion-icon" viewBox="0 0 24 24">
@@ -135,7 +135,7 @@ title_separator: "|"
           <div class="accordion-text">
             <div>ARCHERIX</div>
             <div>2nd Workshop on Archaeology and Cultural Heritage through XR </div>
-            <div>09:30~13:30</div>
+            <div>08:30~12:30</div>
             <div>Conference Room 323B</div>
           </div>
           <svg class="accordion-icon" viewBox="0 0 24 24">
@@ -308,7 +308,7 @@ title_separator: "|"
           <div class="accordion-text">
             <div>VR-HSA</div>
             <div>The 2nd International Workshop on Virtual Reality for Human and Spatial Augmentation</div>
-            <div>09:30~13:30</div>
+            <div>08:30~12:30</div>
             <div>Conference Room 322B</div>
           </div>
           <svg class="accordion-icon" viewBox="0 0 24 24">
@@ -332,7 +332,7 @@ title_separator: "|"
           <div class="accordion-text">
             <div>XR4OR</div>
             <div> Extended Reality in the Operating Room (XR4OR) </div>
-            <div>09:30~13:30</div>
+            <div>08:30~12:30</div>
             <div>Conference Room 322A</div>
           </div>
           <svg class="accordion-icon" viewBox="0 0 24 24">
@@ -356,7 +356,7 @@ title_separator: "|"
           <div class="accordion-text">
             <div>XR-MED</div>
             <div>The 2nd International Workshop on XR Medical Applications: Human -Centered Medical Training and Simulation</div>
-            <div>09:30~13:30</div>
+            <div>08:30~12:30</div>
             <div>Conference Room 320A</div>
           </div>
           <svg class="accordion-icon" viewBox="0 0 24 24">
@@ -380,7 +380,7 @@ title_separator: "|"
           <div class="accordion-text">
             <div>XRMemory</div>
             <div>The 3rd International Workshop on Spatial Memory in XR (XRMemory)</div>
-            <div>09:30~13:30</div>
+            <div>08:30~12:30</div>
             <div>Conference Room 323A</div>
           </div>
           <svg class="accordion-icon" viewBox="0 0 24 24">
@@ -404,7 +404,7 @@ title_separator: "|"
           <div class="accordion-text">
             <div>XRIOS</div>
             <div>The 5th International Workshop on eXtended Reality for Industrial and Occupational Supports</div>
-            <div>09:30~13:30</div>
+            <div>08:30~12:30</div>
             <div>Conference Room 323B</div>
           </div>
           <svg class="accordion-icon" viewBox="0 0 24 24">
@@ -428,7 +428,7 @@ title_separator: "|"
           <div class="accordion-text">
             <div>NIDIT</div>
             <div>Novel Input Devices and Interaction Techniques</div>
-            <div>09:30~13:30</div>
+            <div>08:30~12:30</div>
             <div>Conference Room 321</div>
           </div>
           <svg class="accordion-icon" viewBox="0 0 24 24">
@@ -452,7 +452,7 @@ title_separator: "|"
           <div class="accordion-text">
             <div>SIC-XR</div>
             <div>2nd Workshop on Social Interaction and Collaboration in eXtended Reality</div>
-            <div>09:30~13:30</div>
+            <div>08:30~12:30</div>
             <div>Conference Room 320B</div>
           </div>
           <svg class="accordion-icon" viewBox="0 0 24 24">
