@@ -6,7 +6,7 @@ title_separator: "|"
 ---
 <link rel="stylesheet" href="https://ieeevr.org/2026/program/workshop/style.css?version=2026" />
 
-<div class="table-wrap">
+<div class="table-wrap" style="display:none">
   <table class="schedule-table">
     <thead>
       <tr>
@@ -192,7 +192,7 @@ Embardiment</td>
 </div>
 
 
-  <div class="new_workshop">
+  <div class="new_workshop" style="display:none">
     <section class="accordion-wrap">
       <h2 class="accordion-title">Day 1</h2>
       <ul class="accordion-list">
