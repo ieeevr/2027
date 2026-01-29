@@ -669,6 +669,8 @@ As a specific use case, technical examples will be taken from the Fit For Medica
 Starting from the specific use cases, take-home messages, and general indications, both the technical aspects and development of XR and regulations, user evaluations, and clinical trials will be discussed with the audience.<BR>
 <BR>
 The complete program of the tutorial and all the material will be available at <a href="https://pilab.unige.it/XRRehabClinicalPractice" target="_blank" class="linkline">https://pilab.unige.it/XRRehabClinicalPractice</A>
+</dd>
+</dl>
 
             </div>
           </div>
