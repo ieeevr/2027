@@ -589,11 +589,10 @@ This hands-on session will cover topics such as:<br>
 		<li>Integrate Core AI Services: Employ Embardiment’s simple prefab system to unlock the use of AI sensing (OCR, ASR) and AI generation (LLM, TTS) both within compiled Unity applications and live in the Unity editor.</li>
 		<li>Navigate Model Trade-offs: Understand and manage the choices between various cloud-based and on-device models, considering factors like data handling, output quality, latency, network requirements, and platform availability.</li>
 		<li>Chain AI for Complex Interactions: Explore techniques for combining multiple AI services to produce sophisticated behaviors and discuss best practices for working with its external service dependency and asynchronous architecture.</li>
+		</ul>
 By the end of this tutorial, attendees will have the knowledge and practical skills to create VR/AR experiences with dynamic agents, environmental context awareness, and new forms of human-AI collaboration. </li>
 </dd>
               </dl>
-
-
 
             </div>
           </div>
