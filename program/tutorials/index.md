@@ -6,8 +6,6 @@ title_separator: "|"
 ---
 <link rel="stylesheet" href="https://ieeevr.org/2026/program/workshop/style.css?version=2026" />
 
-
-
 <div class="table-wrap">
   <table class="schedule-table">
     <thead>
@@ -45,10 +43,10 @@ Building Interactive
 Experiences with
 Godot and the XR
 Tools Framework</td>
-        <td  rowspan="7"  class="bgcolor04">Tutorial 11: Interaction
+        <td  rowspan="7" class="bgcolor04">Tutorial 11: Interaction
 Design for eXtended
-Reality (ID4XR</td>
-        <td  rowspan="7"  class="bgcolor05">
+Reality (ID4XR)</td>
+ <td rowspan="7"  class="bgcolor05">
 Tutorial 12: eXtended
 Reality and
 Rehabilitation:
@@ -182,7 +180,6 @@ Embardiment</td>
         <td class="onnone"></td>
       </tr>
       <tr>
-      <tr>
         <th>17:30</th>
         <td></td>
         <td></td>
@@ -190,9 +187,9 @@ Embardiment</td>
         <td></td>
         <td></td>
       </tr>
-	</tbody>
+    </tbody>
   </table>
-
+</div>
 
 
   <div class="new_workshop">
@@ -258,7 +255,7 @@ The developers will be able to walk away with the knowledge on how to create Met
               </dl>
               <dl>
                 <dt>Target Audience</dt>
-                <dd>researchers, designers, developers, and students working in serious games and immersive technologies who seek a structured, evidence-informed approach to serious game development
+                <dd>researchers, designers, developers, and students working in serious games and immersive technologies who seek a structured, evidence-informed approach to serious game development</dd>
               </dl>
               <dl>
                 <dt>Summary</dt>
@@ -597,10 +594,182 @@ This hands-on session will cover topics such as:<br>
 By the end of this tutorial, attendees will have the knowledge and practical skills to create VR/AR experiences with dynamic agents, environmental context awareness, and new forms of human-AI collaboration. </li>
 </dd>
               </dl>
+
+
+
             </div>
           </div>
         </li>
       </ul>
+    </section>
+    <section class="accordion-wrap">
+      <h2 class="accordion-title">Day 2</h2>
+      <ul class="accordion-list">
+        <li class="accordion-item">
+          <button class="accordion-header">
+          <div class="accordion-text">
+            <div>Tutorial 11</div>
+            <div>Interaction Design for eXtended Reality (ID4XR)</div>
+            <div>09:00~12:30</div>
+            <div>Room 325A</div>
+          </div>
+          <svg class="accordion-icon" viewBox="0 0 24 24">
+          <path d="M6 9l6 6 6-6"></path>
+          </svg> </button>
+          <div class="accordion-content">
+            <div class="accordion-content-inner">
+              <dl>
+                <dt>Organizers</dt>
+                <dd>Mark Billinghurst, PhD – Adelaide University, Australia; University of Auckland, New Zealand<br> 
+Joaquim Jorge, PhD - University of Lisboa, Portugal
+</dd>
+              </dl>
+              <dl>
+                <dt>Target Audience</dt>
+                <dd>This tutorial assumes no prior knowledge and so is suitable for beginner, while at the same time offering depth and structure valuable to advanced XR practitioners seeking to formalize or improve their design process.</dd>
+              </dl>
+
+              <dl>
+                <dt>Summary</dt>
+                <dd>The rapid growth of Extended Reality (XR) technologies has revolutionized how users interact with digital environments; however, designing XR systems can be very challenging. The objective of this half-day tutorial is to teach how Interaction Design principles can be adapted to create intuitive, engaging, and inclusive XR experiences. <br>
+The tutorial will review Interaction Design techniques focusing on Design and Prototyping methods for XR. It will provide practical techniques for user needs analysis, designing and prototyping user-centered XR systems, and evaluating systems that have been built. In addition there will be case studies and demonstrations of the latest tools to illustrate best practices. Finally there will be a discussion of emerging directions and opportunities in the field of design for XR such as the latest Interaction Design research trends and useful AI tools. <br>
+The tutorial aims to equip attendees with the techniques and insights to rapidly design and prototype XR experiences for research and real-world applications. This includes pointers to the latest software and tools for XR prototyping, and resources for gaining further knowledge in the field. As such the tutorial is extremely relevant to the XR community. <br>
+More information and tutorial resources are available at the website: <a href="https://sites.google.com/view/id4xr" class="linkline" target="_blank">https://sites.google.com/view/id4xr</a>
+</dd>
+              </dl>
+
+            </div>
+          </div>
+        </li>
+        <li class="accordion-item">
+          <button class="accordion-header">
+          <div class="accordion-text">
+            <div>Tutorial 12</div>
+            <div>eXtended Reality and Rehabilitation: Technical Solutions, Regulations, and Challenges from Research Labs to Clinical Practice</div>
+            <div>09:00~12:30</div>
+            <div>Room 325B</div>
+          </div>
+          <svg class="accordion-icon" viewBox="0 0 24 24">
+          <path d="M6 9l6 6 6-6"></path>
+          </svg> </button>
+          <div class="accordion-content">
+            <div class="accordion-content-inner">
+              <dl>
+                <dt>Organizers</dt>
+                <dd>Manuela Chessa - University of Genoa, Italy</dd>
+              </dl>
+              <dl>
+                <dt>Target Audience</dt>
+                <dd>Students, academic researchers, and industry professionals interested in the transfer of XR solutions to clinical practice, with an intermediate level in VR/AR development.</dd>
+              </dl>
+
+              <dl>
+                <dt>Summary</dt>
+                <dd>This tutorial presents the key findings and challenges in translating VR/XR research into clinical practice, particularly in rehabilitation.<BR>
+Indeed, interest in developing VR solutions for healthcare is continually growing, as evidenced by the increasing number of paper submissions to international conferences and journals, organized workshops, and dedicated conferences. However, the widespread adoption of such technologies in clinical settings remains limited. In parallel, another community is facing the same challenges, i.e., robotics. Moreover, in this context, XR solutions may complement robotics, forming, together with Artificial Intelligence, a comprehensive ecosystem of digital allies for healthcare. <BR>
+This tutorial will present practical examples of XR solutions for rehabilitation, also tied with robots and Artificial Intelligence, describing the specific challenges and the technical solutions adopted to address specific clinical aspects, along with an overview of the regulations and requirements for adopting such solutions in clinical practice. <BR>
+As a specific use case, technical examples will be taken from the Fit For Medical Robotics Project, which aims to fill the “lab-real context”  gap, putting together the major research centers in Italy, active in the development of innovative robotics and XR solutions for healthcare, and the main clinical centers and hospitals, with the main aim of improving the clinical outcome of physical rehabilitation and personal care treatments in a sustainable manner.<BR>
+Starting from the specific use cases, take-home messages, and general indications, both the technical aspects and development of XR and regulations, user evaluations, and clinical trials will be discussed with the audience.<BR>
+<BR>
+The complete program of the tutorial and all the material will be available at <a href="https://pilab.unige.it/XRRehabClinicalPractice" target="_blank" class="linkline">https://pilab.unige.it/XRRehabClinicalPractice</A>
+
+            </div>
+          </div>
+        </li>
+        <li class="accordion-item">
+          <button class="accordion-header">
+          <div class="accordion-text">
+            <div>Tutorial 13 </div>
+            <div>A Practical Guide on Building Embodied Intelligent Virtual Agent for XR Research and Applications</div>
+            <div>14:00~15:30</div>
+            <div>Room 325A</div>
+          </div>
+          <svg class="accordion-icon" viewBox="0 0 24 24">
+          <path d="M6 9l6 6 6-6"></path>
+          </svg> </button>
+          <div class="accordion-content">
+            <div class="accordion-content-inner">
+              <dl>
+                <dt>Organizers</dt>
+                <dd>Frank Steinicke - Human-Computer Interaction Group, Hamburg University, Germany<br>
+Ke Li - Human-Computer Interaction Group, Hamburg University, Germany<br>
+Sebastian Rings - Human-Computer Interaction Group, Hamburg University, Germany<br>
+Kangsoo Kim - University of Calgary<br>
+Susanne Schmidt - HIT Lab NZ, University of Canterbury, Christchurch, New Zealand
+l</dd>
+              </dl>
+              <dl>
+                <dt>Target Audience</dt>
+                <dd>This tutorial is targeted at all IEEE VR attendees interested in embodied intelligent virtual agents (IVAs) for XR.</dd>
+              </dl>
+
+              <dl>
+                <dt>Summary</dt>
+                <dd>Intelligent Virtual Agents (IVAs), which leverage advancements in Large Language Models (LLMs) and Visual Language Models (VLMs) to simulate human-like behavior, represent a significant opportunity for creating natural and engaging human-AI interactions within immersive extended reality (XR) environments. As interest in anthropomorphic embodied IVAs rapidly grows across research and application domains, this tutorial an opportunity to learn the essential theories, frameworks, and practical skills needed to initiate XR research around embodied IVAs.<br>
+The tutorial commences with a comprehensive overview summarizing the latest developments in IVAs for XR and established theoretical frameworks, including social presence, agency, human-AI collaboration, and AI ethics. This theoretical foundation is followed by a technical discussion on the current landscape of LLMs and VLMs, focusing on their specific capabilities and potential applications within XR environments.<br>
+A core component involves participants gaining hands-on experience in building a conversational embodied IVA. This practical session utilizes the open-source IVA Unity toolkit, Microsoft Rocketbox characters, and Gemini’s real-time streaming API, demonstrating practical implementation steps and addressing real-time performance challenges.<br>
+This tutorial is specifically targeted at all IEEE VR attendees interested in embodied Intelligent Virtual Agents (IVAs) for XR. Designed to be highly accessible, it welcomes participants with varying technical backgrounds. For beginners, the tutorial introduces core theoretical concepts like social presence and agency while demonstrating how to create and deploy simple conversational agents in XR. For more technical attendees, it offers valuable hands-on integration using industry-leading open-source toolkits and APIs, bridging the existing gap in practical guidance for building IVAs specifically tailored for XR applications.
+</dd>
+              </dl>
+ <dl>
+                <dt>Website</dt>
+                <dd><a href="https://sites.google.com/view/ivas-ieee-vr-2026-tutorial/home" target="_blank" class="linkline"> https://sites.google.com/view/ivas-ieee-vr-2026-tutorial/home</a>
+
+</dd>
+              </dl>
+
+
+            </div>
+          </div>
+        </li>
+        <li class="accordion-item">
+          <button class="accordion-header">
+          <div class="accordion-text">
+            <div>Tutorial 14</div>
+            <div>VR Research at Scale with the Virtual Experience Research Accelerator (VERA) – An Early-Access Hands-On Tutorial</div>
+            <div>14:00~17:30</div>
+            <div>Room 325B</div>
+          </div>
+          <svg class="accordion-icon" viewBox="0 0 24 24">
+          <path d="M6 9l6 6 6-6"></path>
+          </svg> </button>
+          <div class="accordion-content">
+            <div class="accordion-content-inner">
+              <dl>
+                <dt>Organizers</dt>
+                <dd>	Dr. Ali Haskins Lisle - University of Central Florida<br>
+					Corey Clements - University of Central Florida<br>
+					Dr. John T. Murray - University of Central Florida<br>
+					Dr. Gerd Bruder - University of Central Florida<br>
+					Chloe Beato - University of Central Florida<br>
+					Dr. Gregory Welch - University of Central Florida
+				</dd>
+              </dl>
+              <dl>
+                <dt>Target Audience</dt>
+                <dd>Intermediate and up</dd>
+              </dl>
+              <dl>
+                <dt>Summary</dt>
+                <dd>There are fundamental challenges that VR researchers face when carrying out traditional lab-based VR experiments, including the practical inability to carry out experiments with large N samples, e.g., hundreds to thousands of participants; the time required to run experiments one person at a time; and the lack of diverse and varied participant populations to draw from.
+The Virtual Experience Research Accelerator (VERA) is a human-machine system that combines and extends aspects of distributed lab-based studies, online studies, research panels, and crowdsourcing, into a unified system for carrying out XR-based human subject research. It seeks to achieve unprecedented scale, speed, and control over the demographics of human subjects experiments.<br>
+VERA consists of a web application paired with a Unity package, each aimed at providing a streamlined process for designing and distributing virtual experiments. By utilizing the VERA platform, researchers can distribute their experiments remotely, ensuring larger sample sizes and greater demographic diversity, all while requiring little to no intervention from the researcher during the experiment’s duration. <br>
+During this tutorial, instructors will showcase the VERA suite of tools and the benefits they might provide to any prospective virtual reality researchers. The tutorial is designed for intermediate users who are interested in accelerating their virtual research. During the tutorial, there will be segments of hands-on development using the VERA tools. <br>
+Participants are encouraged to bring a simple experiment or virtual experience built in Unity 6000 or newer. For those who do not yet have an experiment, we will provide a guided, follow-along sandbox experiment to work with during the session. VERA is designed to support common experimental needs such as CSV data logging, in-VR survey deployment, condition and independent variable management, and trial flow control. Experiments or experiences that make use of these features will be especially well-suited to the tutorial. If available, participants are encouraged to bring a Meta Quest VR headset for hands-on testing. A limited number of communal 
+</dd>
+              </dl>
+    <dl>
+                <dt>Link</dt>
+                <dd><a href="https://vera.research.ucf.edu/" target="_blank" class="linkline">https://vera.research.ucf.edu/</a></dd>
+</dd>
+              </dl>
+            </div>
+          </div>
+        </li>
+      
+      </ul>
+</section>
+  </div>
 
 
 <script src="https://ieeevr.org/2026/program/workshop/script.js" type="text/javascript"></script>
