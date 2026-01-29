@@ -5,6 +5,7 @@ subtitle: "IEEE VR 2026"
 title_separator: "|"
 ---
 <link rel="stylesheet" href="https://ieeevr.org/2026/program/workshop/style.css?version=2026" />
+<section itemprop="text">
 <div class="table-wrap">
   <table class="schedule-table">
     <thead>
@@ -190,3 +191,4 @@ Embardiment</td>
     </tbody>
   </table>
 </div>
+</section>
