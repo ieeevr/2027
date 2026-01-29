@@ -706,7 +706,6 @@ title_separator: "|"
             <dl>
               <dt>Link</dt>
               <dd><a href="https://vera.research.ucf.edu/" target="_blank" class="linkline">https://vera.research.ucf.edu/</a></dd>
-              </dd>
             </dl>
           </div>
         </div>
