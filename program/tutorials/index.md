@@ -473,12 +473,10 @@ Specific topics to be covered include: <br>
 
 </li>
 		<li><strong>Tutorial Website / Materials</strong>: <a class="linkline" href="https://www.youtube.com/watch?v=EsnNEdFqMwc" target="_blank">https://www.youtube.com/watch?v=EsnNEdFqMwc</a></li>
-
+</ul>
 				
 				</dd>
               </dl>
-
-
             </div>
           </div>
         </li>
