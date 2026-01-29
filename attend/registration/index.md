@@ -232,8 +232,8 @@ title_separator: "|"
     <p class="mt10 mb20"><span class="red">*</span>Verified IEEE Life Members are eligible for a discount on the Full Conference registration, either as an author or an attendee. Please note that the Life Member discount applies only to the Full Conference registration.</p>
     <h4>Additional tickets</h4>
     <ul class="lss-dot">
-      <li>Welcome Reception — Monday evening, March 23, 2025: KRW 70,000</li>
-      <li>Gala Dinner — Tuesday evening, March 25, 2025: KRW 180,000</li>
+      <li>Welcome Reception — Monday evening, March 23, 2026: KRW 70,000</li>
+      <li>Gala Dinner — Tuesday evening, March 25, 2026: KRW 180,000</li>
     </ul>
   </dd>
 </dl>
