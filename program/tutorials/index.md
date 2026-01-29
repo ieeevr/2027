@@ -5,7 +5,7 @@ subtitle: "IEEE VR 2026"
 title_separator: "|"
 ---
 <link rel="stylesheet" href="https://ieeevr.org/2026/program/workshop/style.css?version=2026" />
-
+<p style="width:100%; margin: 30px auto; padding: 20px 0; text-align:center; font-size:1rem; border-radius: 30px; background-color: #f3f3f3">This content is currently being updated.</p>
 <div class="table-wrap" style="display:none">
   <table class="schedule-table">
     <thead>
