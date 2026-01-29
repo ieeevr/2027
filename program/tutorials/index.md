@@ -462,6 +462,7 @@ Specific topics to be covered include: <br>
 		<li>Transferable methods applicable to creative, educational, cultural, healthcare, and commercial XR projects</li>
 		<li>A repeatable design approach grounded in cognitive science and artistic practice</li>
 	</ul>
+	</li>
 
 
 		<li><strong>Requirements</strong>: Participants should bring:
@@ -473,7 +474,6 @@ Specific topics to be covered include: <br>
 </li>
 		<li><strong>Tutorial Website / Materials</strong>: <a class="linkline" href="https://www.youtube.com/watch?v=EsnNEdFqMwc" target="_blank">https://www.youtube.com/watch?v=EsnNEdFqMwc</a></li>
 
-				
 				
 				</dd>
               </dl>
