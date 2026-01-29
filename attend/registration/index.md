@@ -80,8 +80,8 @@ title_separator: "|"
   <dd>
     <p class="taj">We look forward to welcoming you to <b>IEEE VR 2026</b>, an exciting week of exchange on innovative research and advances in VR, AR, XR, and 3D user interfaces. After reviewing the sections below, please use the registration link above to complete your registration for IEEE VR 2026.</p>
     <ul class="lss-dot mb10">
-      <li><b>February 15, 2025</b>: Deadline for all authors to register for inclusion of their papers in the conference program and proceedings.</li>
-      <li><b>February 15, 2025</b>: Early registration deadline.</li>
+      <li><b>February 15, 2026</b>: Deadline for all authors to register for inclusion of their papers in the conference program and proceedings.</li>
+      <li><b>February 15, 2026</b>: Early registration deadline.</li>
       <li><b>Author/Submission Questions</b>: Contact IEEE VR 2026 Program Chairs at <a href="mailto:program2026@ieeevr.org" class="link">program2026@ieeevr.org</a></li>
       <li><b>Visa Information and Registration Questions</b>: Contact IEEE VR 2026 Local Secretariat at <a href="mailto:ieeevr2026@gmail.com" class="link">ieeevr2026@gmail.com</a></li>
     </ul>
