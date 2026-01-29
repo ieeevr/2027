@@ -242,10 +242,12 @@
 .schedule-table td.bgcolor13{background:#fce5cd;}
 .schedule-table td.bgcolor14{background:#fff2cc;}
 
-
-.oncol-ul {margin-top:20px; margin-left:-20px !important;}
-.oncol-ul li {list-style:none; position:relative; padding-left:15px; line-height:1.2;}
-.oncol-ul li:before {content:''; position:absolute; top:5px; left:0; width:3px; height:3px; border-radius:50%;background:var(--primary)}
-
+.oncol-ul {margin-top:20px; margin-left:-20px !important; padding-right:20px;}
+.oncol-ul li {list-style:none; position:relative; padding-left:15px; line-height:1.8;}
+.oncol-ul li strong:nth-child(1) {color:var(--primary)}
+.oncol-ul li:before {content:''; position:absolute; top:11px; left:0; width:3px; height:3px; border-radius:50%;background:var(--primary)}
+.oncol-ul li ul{margin-left:-40px;}
+.oncol-ul li ul li{font-size:12px; margin-bottom:1px;}
+.oncol-ul li ul li:before {top:11px; left:0;  border-radius:0; width:4px; height:2px;}
 
 a.linkline {color:#777 !important;}
