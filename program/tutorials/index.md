@@ -202,7 +202,7 @@ Embardiment</td>
             <div>Tutorial 01 </div>
             <div>How to Create Custom Motions and Lip Synchronization in Unity VR Using Meta Avatars</div>
             <div>09:00~10:30</div>
-            <div>09:00–10:30</div>
+            <div>Room 325A</div>
           </div>
           <svg class="accordion-icon" viewBox="0 0 24 24">
           <path d="M6 9l6 6 6-6"></path>
@@ -541,6 +541,7 @@ Daniele Giunchi - University of Birmingham
                 <dt>Target Audience</dt>
                 <dd>The tutorial will be of value to any student, researcher or professional who wants to develop their own SXR application and is interested in using AI systems. They probably want to get a grounding in what the challenges are in building more complex systems. Some experience with Unity, C# and Python would be useful but not necessary as the scenarios will be walkthroughs of the components and tools rather than explicit code. Any code will be shared in an open repository. There will be additional online video tutorials and documentation if participants want to explore specific features.</dd>
               </dl>
+			  <dl>
                 <dt>Summary</dt>
                 <dd>One of the most promising applications of extended reality (XR) technologies is remote collaboration. Social XR applications range from small multiplayer games to large-scale virtual conferences with hundreds of attendees. At the same time, there is a lot of interest in integrating artificial intelligence (AI)-based algorithms into XR scenes.
 This tutorial will guide participants in building their own social XR systems using Ubiq and then integrating AI systems with Ubiq-Genie. Ubiq is an open-source framework for developing collaborative virtual environments (CVEs). Ubiq-Genie is an open-source framework that integrates with CVEs supported by Ubiq. Both frameworks were developed at University College London, drawing on decades of experience in practical experience with XR systems.
@@ -586,11 +587,12 @@ We will provide a practical roadmap for utilizing Google's suite of AI services 
 This hands-on session will cover topics such as:<br>
 			<ul class="oncol-ul">
 		<li>Setup and Configuration: Set up the Embardiment package, review the plugin architecture, and acquire necessary API keys.</li>
-		<li>Integrate Core AI Services: Employ Embardiment’s simple prefab system to unlock the use of AI sensing (OCR, ASR) and AI generation (LLM, TTS) both within compiled Unity applications and live in the Unity editor.</li>
+		<li>Integrate Core AI Services: Employ Embardiment’s simple prefab system to unlock the use of AI sensing (OCR, ASR) and AI generation (LLM, TTS) both within compiled Unity applications and live in the Unity editor.
+		</li>
 		<li>Navigate Model Trade-offs: Understand and manage the choices between various cloud-based and on-device models, considering factors like data handling, output quality, latency, network requirements, and platform availability.</li>
 		<li>Chain AI for Complex Interactions: Explore techniques for combining multiple AI services to produce sophisticated behaviors and discuss best practices for working with its external service dependency and asynchronous architecture.</li>
-		</ul>
-By the end of this tutorial, attendees will have the knowledge and practical skills to create VR/AR experiences with dynamic agents, environmental context awareness, and new forms of human-AI collaboration. </li>
+	
+By the end of this tutorial, attendees will have the knowledge and practical skills to create VR/AR experiences with dynamic agents, environmental context awareness, and new forms of human-AI collaboration. </li>	</ul>
 </dd>
               </dl>
 
