@@ -5,7 +5,9 @@ subtitle: "IEEE VR 2026"
 title_separator: "|"
 ---
 <link rel="stylesheet" href="https://ieeevr.org/2026/program/workshop/style.css?version=2026" />
-<section itemprop="text">
+
+
+
 <div class="table-wrap">
   <table class="schedule-table">
     <thead>
@@ -595,15 +597,12 @@ This hands-on session will cover topics such as:<br>
 By the end of this tutorial, attendees will have the knowledge and practical skills to create VR/AR experiences with dynamic agents, environmental context awareness, and new forms of human-AI collaboration. </li>
 </dd>
               </dl>
-
-
-
             </div>
           </div>
         </li>
       </ul>
-    </section>
 
 
+<script src="https://ieeevr.org/2026/program/workshop/script.js" type="text/javascript"></script>
 
       
