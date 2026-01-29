@@ -247,3 +247,5 @@
 .oncol-ul li {list-style:none; position:relative; padding-left:15px; line-height:1.2;}
 .oncol-ul li:before {content:''; position:absolute; top:5px; left:0; width:3px; height:3px; border-radius:50%;background:var(--primary)}
 
+
+a.linkline {color:#777 !important;}
