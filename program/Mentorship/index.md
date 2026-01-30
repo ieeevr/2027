@@ -24,7 +24,7 @@ title_separator: "|"
   <li>Meeting during coffee breaks/meals to discuss research and/or general career guidance</li>
 </ul>
   We ask that the mentors also introduce their mentee(s) to at least <strong>one (1) colleague</strong> who is attending the conference. Preferably, this colleague will be someone at an institution that is different from the mentee’s to encourage further networking.<br/>
-Participants will also be asked to complete a closing survey providing feedback on the program after the conference.
+Participants will also be asked to complete a <strong>closing survey</strong> providing feedback on the program after the conference.
 
 </p>
 
