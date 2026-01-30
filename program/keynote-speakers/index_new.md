@@ -8,12 +8,12 @@ title_separator: "|"
 <style>
   .ks-container { width: 100%; margin-top: 20px; }
   .ks-list-item { display: flex; align-items: center; padding: 20px; border-bottom: 1px solid #eee; gap: 20px; flex-wrap: wrap; }
-  .ks-thumb { width: 100px; height: 100px; border-radius: 50%; object-fit: cover; }
+  .ks-thumb { width: 150px; height: 150px; border-radius: 20%; object-fit: cover; }
   .ks-info { flex: 1; min-width: 250px; }
   .ks-info h2 { margin: 0; font-size: 1.25rem; }
   .ks-info .affiliation { color: #666; font-size: 0.95rem; margin: 5px 0; }
   .ks-info .talk-title { font-weight: bold; color: #333; font-size: 1rem; }
-  .ks-more-btn { padding: 10px 25px; background: #00589b; color: #fff; border: none; border-radius: 5px; cursor: pointer; transition: 0.3s; font-weight: bold; }
+  .ks-more-btn { padding: 5px 5px; background: #00589b; color: #fff; border: none; border-radius: 5px; cursor: pointer; transition: 0.3s; font-size: 0.7rem; }
   .ks-more-btn:hover { background: #003d6b; }
 
   .ks-modal { display: none; position: fixed; z-index: 9999; left: 0; top: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.8); overflow: hidden; }
@@ -31,7 +31,7 @@ title_separator: "|"
 
   .ks-section-title { font-size: 1.2rem; font-weight: bold; color: #00589b; border-bottom: 2px solid #00589b; padding-bottom: 5px; margin: 35px 0 15px; text-transform: uppercase; }
   .ks-text-content { font-size: 1rem; line-height: 1.8; color: #444; text-align: justify; white-space: pre-line; }
-
+  .page__content h2 {    color: #000 !important; }
   @media (max-width: 600px) {
     .ks-list-item { flex-direction: column; text-align: center; }
     .ks-info { min-width: 100%; }
