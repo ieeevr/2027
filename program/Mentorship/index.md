@@ -14,7 +14,7 @@ title_separator: "|"
 
 <h1>How do I participate?</h1>
 <p>The goal of the IEEE VR 2026 Mentorship Program is to connect newcomers to the conference (mentees) and experienced attendees (mentors) via shared interests. This program is a great networking opportunity for both mentees and mentors to learn about each other and the VR field in general!</p>
-<p>Interested participants should complete this <a href="" target="_blank">form</a> by March 6, 2026. This deadline is to give time for the committee to match mentors and mentees before the conference begins. First-time attendees will receive priority consideration for a mentor, and the mentorship program will be open to the most compelling 40 applicants, based on need and order of application.</p>
+<p>Interested participants should complete this <a href="https://forms.gle/69cqSoWzhBCMSuHp6" target="_blank">form</a> by March 6, 2026. This deadline is to give time for the committee to match mentors and mentees before the conference begins. First-time attendees will receive priority consideration for a mentor, and the mentorship program will be open to the most compelling 40 applicants, based on need and order of application.</p>
 <p><a href="https://forms.gle/Sr44X62ioZ4zBbEU9" target="_blank">Mentorship Program Application</a></p>
 
 <h1>What is involved in this program?</h1>
