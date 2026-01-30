@@ -89,17 +89,8 @@ title_separator: "|"
         <th>11:30</th>
       </tr>
       <tr>
-        <th>12:00</th>
-        <td colspan="5" rowspan="4">Lunch</td>
-      </tr>
-      <tr>
-        <th>12:30</th>
-      </tr>
-      <tr>
-        <th>13:00</th>
-      </tr>
-      <tr>
-        <th>13:30</th>
+        <th>12:00~14:00</th>
+        <td colspan="5" style="text-align:center;">Lunch</td>
       </tr>
       <tr>
         <th>14:00</th>
