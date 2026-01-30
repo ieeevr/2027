@@ -11,7 +11,7 @@ title_separator: "|"
   .ks-thumb { width: 180px; height: 180px; border-radius: 20%; object-fit: cover; }
   .ks-info { flex: 1; min-width: 250px; }
   .ks-info h2 { margin: 0; font-size: 1.25rem; }
-  .ks-info .affiliation { color: #666; font-size: 0.8rem; margin: 5px 0; }
+  .ks-info .affiliation { color: #666; font-size: 0.7rem; margin: 5px 0; }
   .ks-info .talk-title { font-weight: bold; color: #006699; font-size: 0.9rem; }
   .ks-more-btn { padding: 5px 15px; background: #00589b; color: #fff; border: none; border-radius: 5px; cursor: pointer; transition: 0.3s; font-size: 0.7rem; }
   .ks-more-btn:hover { background: #003d6b; }
