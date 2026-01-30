@@ -5,8 +5,8 @@ subtitle: "IEEE VR 2026"
 title_separator: "|"
 ---
 <link rel="stylesheet" href="https://ieeevr.org/2026/program/workshop/style.css?version=2026" />
-<p style="width:100%; margin: 30px auto; padding: 20px 0; text-align:center; font-size:1rem; border-radius: 30px; background-color: #f3f3f3;">This content is currently being updated.</p>
-<div class="table-wrap"  style="display:none">
+<p style="width:100%; margin: 30px auto; padding: 20px 0; text-align:center; font-size:1rem; border-radius: 30px; background-color: #f3f3f3; display:none">This content is currently being updated.</p>
+<div class="table-wrap" >
   <table class="schedule-table">
     <thead>
       <tr>
@@ -90,35 +90,16 @@ title_separator: "|"
       </tr>
       <tr>
         <th>12:00</th>
-        <td>Lunch</td>
-        <td></td>
-        <td></td>
-        <td>Lunch</td>
-        <td></td>
+        <td colspan="5" rowspan="4">Lunch</td>
       </tr>
       <tr>
         <th>12:30</th>
-        <td>Lunch</td>
-        <td></td>
-        <td></td>
-        <td>Lunch</td>
-        <td></td>
       </tr>
       <tr>
         <th>13:00</th>
-        <td>Lunch</td>
-        <td></td>
-        <td></td>
-        <td>Lunch</td>
-        <td></td>
       </tr>
       <tr>
         <th>13:30</th>
-        <td>Lunch</td>
-        <td></td>
-        <td></td>
-        <td>Lunch</td>
-        <td></td>
       </tr>
       <tr>
         <th>14:00</th>
@@ -175,28 +156,18 @@ title_separator: "|"
           AI integrations into
           Unity with
           Embardiment</td>
-        <td class="onnone"></td>
+        <td rowspan="3"></td>
       </tr>
       <tr>
         <th>16:30</th>
-        <td class="onnone"></td>
       </tr>
       <tr>
         <th>17:00</th>
-        <td class="onnone"></td>
-      </tr>
-      <tr>
-        <th>17:30</th>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
       </tr>
     </tbody>
   </table>
 </div>
-<div class="new_workshop" style="display:none" >
+<div class="new_workshop" >
   <section class="accordion-wrap">
     <h2 class="accordion-title">Day 1</h2>
     <ul class="accordion-list">
@@ -714,3 +685,4 @@ title_separator: "|"
   </section>
 </div>
 <script src="https://ieeevr.org/2026/program/workshop/script.js" type="text/javascript"></script> 
+
