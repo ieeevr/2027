@@ -5,6 +5,8 @@ subtitle: "IEEE VR 2026"
 title_separator: "|"
 --- 
 <div>
+
+<p class="big_title" style="padding-bottom:0; margin-bottom:0">DEIA Mentorship</p>
 <h1>OVERVIEW</h1>
 <p>The goal of the IEEE VR 2026 Mentorship Program is to connect newcomers to the conference (mentees) and experienced attendees (mentors) via shared interests. This program is a great networking opportunity for both mentees and mentors to learn about each other and the VR field in general!</p>
 
