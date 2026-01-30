@@ -30,7 +30,7 @@ title_separator: "|"
   .ks-modal-talk { font-size: 1.3rem; font-weight: bold; color: #00589b; margin-top: 15px; line-height: 1.3; }
 
   .ks-section-title { font-size: 1.2rem; font-weight: bold; color: #00589b; border-bottom: 2px solid #00589b; padding-bottom: 5px; margin: 35px 0 15px; text-transform: uppercase; }
-  .ks-text-content { font-size: 0.8rem; line-height: 1.2; color: #444; text-align: justify; }
+  .ks-text-content { font-size: 0.7rem; line-height: 1.3; color: #444; text-align: justify; }
   .page__content h2 { color: #000 !important; }
   .page__content p {
     margin: 0.3em auto 1rem;
