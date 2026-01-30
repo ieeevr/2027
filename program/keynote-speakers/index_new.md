@@ -11,9 +11,9 @@ title_separator: "|"
   .ks-thumb { width: 150px; height: 150px; border-radius: 20%; object-fit: cover; }
   .ks-info { flex: 1; min-width: 250px; }
   .ks-info h2 { margin: 0; font-size: 1.25rem; }
-  .ks-info .affiliation { color: #666; font-size: 0.95rem; margin: 5px 0; }
-  .ks-info .talk-title { font-weight: bold; color: #333; font-size: 1rem; }
-  .ks-more-btn { padding: 5px 5px; background: #00589b; color: #fff; border: none; border-radius: 5px; cursor: pointer; transition: 0.3s; font-size: 0.7rem; }
+  .ks-info .affiliation { color: #666; font-size: 0.8rem; margin: 5px 0; }
+  .ks-info .talk-title { font-weight: bold; color: #000; font-size: 0.9rem; }
+  .ks-more-btn { padding: 5px 15px; background: #00589b; color: #fff; border: none; border-radius: 5px; cursor: pointer; transition: 0.3s; font-size: 0.7rem; }
   .ks-more-btn:hover { background: #003d6b; }
 
   .ks-modal { display: none; position: fixed; z-index: 9999; left: 0; top: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.8); overflow: hidden; }
