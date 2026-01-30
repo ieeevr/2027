@@ -24,14 +24,18 @@ title_separator: "|"
   
   .ks-modal-scroll-area { padding: 30px; overflow-y: auto; flex: 1; }
   .ks-modal-profile { text-align: center; margin-bottom: 30px; }
-  .ks-modal-photo { width: 180px; height: 180px; border-radius: 50%; object-fit: cover; margin-bottom: 15px; border: 4px solid #f8f9fa; }
+  .ks-modal-photo { width: 200px; height: 200px; border-radius: 20%; object-fit: cover; margin-bottom: 15px; border: 4px solid #f8f9fa; }
   .ks-modal-name { font-size: 1.8rem; margin: 0; color: #333; }
   .ks-modal-affil { color: #666; font-size: 1.1rem; margin: 8px 0; }
   .ks-modal-talk { font-size: 1.3rem; font-weight: bold; color: #00589b; margin-top: 15px; line-height: 1.3; }
 
   .ks-section-title { font-size: 1.2rem; font-weight: bold; color: #00589b; border-bottom: 2px solid #00589b; padding-bottom: 5px; margin: 35px 0 15px; text-transform: uppercase; }
-  .ks-text-content { font-size: 1rem; line-height: 1.8; color: #444; text-align: justify; white-space: pre-line; }
-  .page__content h2 {    color: #000 !important; }
+  .ks-text-content { font-size: 0.8rem; line-height: 1.2; color: #444; text-align: justify; }
+  .page__content h2 { color: #000 !important; }
+  .page__content p {
+    margin: 0.3em auto 1rem;
+    text-align: center;
+}
   @media (max-width: 600px) {
     .ks-list-item { flex-direction: column; text-align: center; }
     .ks-info { min-width: 100%; }
