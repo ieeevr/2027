@@ -356,7 +356,7 @@ title_separator: "|"
               <dd> One of the most promising applications of extended reality (XR) technologies is remote collaboration. Social XR applications range from small multiplayer games to large-scale virtual conferences with hundreds of attendees. At the same time, there is a lot of interest in integrating artificial intelligence (AI)-based algorithms into XR scenes.<br>
                 This tutorial will guide participants in building their own social XR systems using Ubiq and then integrating AI systems with Ubiq-Genie. Ubiq is an open-source framework for developing collaborative virtual environments (CVEs). Ubiq-Genie is an open-source framework that integrates with CVEs supported by Ubiq. Both frameworks were developed at University College London, drawing on decades of experience in practical experience with XR systems.<br>
                 The session will begin with fundamental concepts before providing an overview of Ubiq. The main goal will be to give an overview of the challenges of doing research and experimentation with social XR and how Ubiq solves problems that developers will encounter with commercial platforms. We will then discuss how to integrate Ubiq-Genie-based services. The goal will be to give participants strategies to think about integration into scenes using distributed processes, and thus without having to integrate monolithic applications. The target audience is students, researchers and teachers who are interested in using AI together with social XR in their teaching and research.<br>
-                <a href="https://ubiq.online/blog/ubiq-and-ubiq-genie-tutorial-at-ieee-vr-2026/" target="_blank">https://ubiq.online/blog/ubiq-and-ubiq-genie-tutorial-at-ieee-vr-2026/</a> </dd>
+                <a href="https://ubiq.online/blog/ubiq-and-ubiq-genie-tutorial-at-ieee-vr-2026/" target="_blank" style="color:#777">https://ubiq.online/blog/ubiq-and-ubiq-genie-tutorial-at-ieee-vr-2026/</a> </dd>
             </dl>
           </div>
         </div>
@@ -676,5 +676,6 @@ title_separator: "|"
   </section>
 </div>
 <script src="https://ieeevr.org/2026/program/workshop/script.js" type="text/javascript"></script> 
+
 
 
