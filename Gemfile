@@ -4,6 +4,6 @@ source "https://rubygems.org"
 
 # gem "rails"
 
-ruby '3.2.3'
+ruby '3.3.5'
 
 gem 'minimal-mistakes-jekyll'

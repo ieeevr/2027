@@ -81,7 +81,7 @@ title_separator: "|"
   <li>Supplementary materials should be provided in a separate file. Authors are encouraged to submit videos to aid the program committee in reviewing their submissions.</li>
   <li>Accepted papers will have to be formatted by the authors according to the relevant camera-ready guidelines.</li>
 </ul>
-<img src="/2026/assets/images/paper_Sample.jpg" alt="" style="width:100%" >
+<img src="{{ '/assets/images/paper_Sample.jpg' | relative_url }}" alt="" style="width:100%" >
 <h1>TOPICS</h1>
 <p>IEEE VR 2026 seeks contributions in VR/AR/MR and 3DUI including, but not limited to, the following topics:</p>
 <ul>

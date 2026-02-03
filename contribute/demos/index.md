@@ -55,7 +55,7 @@ The 33rd IEEE Conference on Virtual Reality and 3D User Interfaces 2026 seeks re
 <p>A demo proposal should include:</p>
 <ul>
 <li> A two-page extended abstract (including references) in PDF format describing the demo and the research. This will be published in the abstract and workshop proceedings. Please provide the abstract in IEEE format, see below.</li>
-<li> A schematic of the layout (a separate document showing components, such as projectors/cameras): <a href="/2026/assets/downloads/Template.docx" target="_blank">Template.docx</a></li>
+<li> A schematic of the layout (a separate document showing components, such as projectors/cameras): <a href="{{ '/assets/downloads/Template.docx' | relative_url }}" target="_blank">Template.docx</a></li>
 <li> A 1-2minute instructional video that walks viewers through the research project and showcases the demo in action. Please provide an accessible URL in the submission. A YouTube or Vimeo link is highly recommended. If accepted, we plan to use the video as something attendees can view asynchronously.</li>
 </ul>
 <p>
@@ -75,6 +75,5 @@ Submissions to the research demo track must be written in English. The submissio
 <li>Ungyeon Yang  ‒ ETRI, Repulic of Korea</li>
 <li>Ehsan Azimi ‒ University of Arizona, USA</li>
 </ul>
-
 
 

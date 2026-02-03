@@ -47,7 +47,7 @@ title_separator: "|"
 
 <div class="ks-container">
   <div class="ks-list-item">
-    <img src="/2026/assets/images/k_sp_01.png" class="ks-thumb" alt="Dr. Mar Gonzalez-Franco">
+    <img src="{{ '/assets/images/k_sp_01.png' | relative_url }}" class="ks-thumb" alt="Dr. Mar Gonzalez-Franco">
     <div class="ks-info">
       <h2>Dr. Mar Gonzalez-Franco</h2>
       <div class="affiliation">Research Manager, BIRD Lab, Google AR & VR</div>
@@ -57,7 +57,7 @@ title_separator: "|"
   </div>
 
   <div class="ks-list-item">
-    <img src="/2026/assets/images/k_sp_02.png" class="ks-thumb" alt="Dr. Albert “Skip” Rizzo">
+    <img src="{{ '/assets/images/k_sp_02.png' | relative_url }}" class="ks-thumb" alt="Dr. Albert “Skip” Rizzo">
     <div class="ks-info">
       <h2>Dr. Albert “Skip” Rizzo</h2>
       <div class="affiliation">Director for Medical Virtual Reality, USC Institute for Creative Technologies<br/>
@@ -77,7 +77,7 @@ Research Professor, USC Davis School of Gerontology and USC Keck School of Medic
     </div>
     <div class="ks-modal-scroll-area">
       <div class="ks-modal-profile">
-        <img src="/2026/assets/images/k_sp_01.png" class="ks-modal-photo">
+        <img src="{{ '/assets/images/k_sp_01.png' | relative_url }}" class="ks-modal-photo">
         <h2 class="ks-modal-name">Dr. Mar Gonzalez-Franco</h2>
         <p class="ks-modal-affil">Research Manager, BIRD Lab, Google AR & VR</p>
         <div class="ks-modal-talk">Towards Human–AI Symbiosis with XR</div>
@@ -105,7 +105,7 @@ Previously, as a Principal Researcher at Microsoft Research, Dr. Gonzalez-Franco
     </div>
     <div class="ks-modal-scroll-area">
       <div class="ks-modal-profile">
-        <img src="/2026/assets/images/k_sp_02.png" class="ks-modal-photo">
+        <img src="{{ '/assets/images/k_sp_02.png' | relative_url }}" class="ks-modal-photo">
         <h2 class="ks-modal-name">Dr. Albert “Skip” Rizzo</h2>
         <p class="ks-modal-affil">Director for Medical Virtual Reality, USC Institute for Creative Technologies<br/>
           Research Professor, USC Davis School of Gerontology and USC Keck School of Medicine Department of Psychiatry & Behavioral Science

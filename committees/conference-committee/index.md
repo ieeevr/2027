@@ -352,7 +352,7 @@ title_separator: "|"
 </div>
 
 <div>
-  <h2><a href="https://ieeevr.org/2026/committees/XR%E2%81%84VR%20Standardization%20Committee/" target="_blank">XR Standards Chairs</a>
+  <h2><a href="{{ '/committees/XR⁄VR Standardization Committee/' | relative_url }}" target="_blank">XR Standards Chairs</a>
     <div class="floatRight"><span id="xrstandards2026"></span></div>
   </h2>
   <ul>
