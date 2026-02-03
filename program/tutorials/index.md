@@ -5,15 +5,15 @@ subtitle: "IEEE VR 2026"
 title_separator: "|"
 ---
 <link rel="stylesheet" href="https://ieeevr.org/2026/program/workshop/style.css?version=2026" />
-<p style="width:100%; margin: 30px auto; padding: 20px 0; text-align:center; font-size:1rem; border-radius: 30px; background-color: #f3f3f3;">This content is currently being updated.</p>
-<div class="table-wrap"  style="display:none">
+<p style="width:100%; margin: 30px auto; padding: 20px 0; text-align:center; font-size:1rem; border-radius: 30px; background-color: #f3f3f3; display:none">This content is currently being updated.</p>
+<div class="table-wrap" >
   <table class="schedule-table">
     <thead>
       <tr>
         <th rowspan="2">IEEE VR 2026<br>
           Tutorials</th>
-        <th colspan="3">Day 1</th>
-        <th colspan="2">Day 2</th>
+        <th colspan="3">March 21 (Sat) Day</th>
+        <th colspan="2">March 22 (Sun)</th>
       </tr>
       <tr>
         <th>Room 1 (325A)</th>
@@ -89,36 +89,8 @@ title_separator: "|"
         <th>11:30</th>
       </tr>
       <tr>
-        <th>12:00</th>
-        <td>Lunch</td>
-        <td></td>
-        <td></td>
-        <td>Lunch</td>
-        <td></td>
-      </tr>
-      <tr>
-        <th>12:30</th>
-        <td>Lunch</td>
-        <td></td>
-        <td></td>
-        <td>Lunch</td>
-        <td></td>
-      </tr>
-      <tr>
-        <th>13:00</th>
-        <td>Lunch</td>
-        <td></td>
-        <td></td>
-        <td>Lunch</td>
-        <td></td>
-      </tr>
-      <tr>
-        <th>13:30</th>
-        <td>Lunch</td>
-        <td></td>
-        <td></td>
-        <td>Lunch</td>
-        <td></td>
+        <th>12:00~14:00</th>
+        <td colspan="5" style="text-align:center;">Lunch</td>
       </tr>
       <tr>
         <th>14:00</th>
@@ -175,30 +147,20 @@ title_separator: "|"
           AI integrations into
           Unity with
           Embardiment</td>
-        <td class="onnone"></td>
+        <td rowspan="3"></td>
       </tr>
       <tr>
         <th>16:30</th>
-        <td class="onnone"></td>
       </tr>
       <tr>
         <th>17:00</th>
-        <td class="onnone"></td>
-      </tr>
-      <tr>
-        <th>17:30</th>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
       </tr>
     </tbody>
   </table>
 </div>
-<div class="new_workshop" style="display:none" >
+<div class="new_workshop" >
   <section class="accordion-wrap">
-    <h2 class="accordion-title">Day 1</h2>
+    <h2 class="accordion-title">Day: Saturday 21 March (Timezone: Korea Standard Time, UTC/GMT +9 hours)</h2>
     <ul class="accordion-list">
       <li class="accordion-item">
         <button class="accordion-header">
@@ -394,7 +356,7 @@ title_separator: "|"
               <dd> One of the most promising applications of extended reality (XR) technologies is remote collaboration. Social XR applications range from small multiplayer games to large-scale virtual conferences with hundreds of attendees. At the same time, there is a lot of interest in integrating artificial intelligence (AI)-based algorithms into XR scenes.<br>
                 This tutorial will guide participants in building their own social XR systems using Ubiq and then integrating AI systems with Ubiq-Genie. Ubiq is an open-source framework for developing collaborative virtual environments (CVEs). Ubiq-Genie is an open-source framework that integrates with CVEs supported by Ubiq. Both frameworks were developed at University College London, drawing on decades of experience in practical experience with XR systems.<br>
                 The session will begin with fundamental concepts before providing an overview of Ubiq. The main goal will be to give an overview of the challenges of doing research and experimentation with social XR and how Ubiq solves problems that developers will encounter with commercial platforms. We will then discuss how to integrate Ubiq-Genie-based services. The goal will be to give participants strategies to think about integration into scenes using distributed processes, and thus without having to integrate monolithic applications. The target audience is students, researchers and teachers who are interested in using AI together with social XR in their teaching and research.<br>
-                <a href="https://ubiq.online/blog/ubiq-and-ubiq-genie-tutorial-at-ieee-vr-2026/" target="_blank">https://ubiq.online/blog/ubiq-and-ubiq-genie-tutorial-at-ieee-vr-2026/</a> </dd>
+                <a href="https://ubiq.online/blog/ubiq-and-ubiq-genie-tutorial-at-ieee-vr-2026/" target="_blank" style="color:#777">https://ubiq.online/blog/ubiq-and-ubiq-genie-tutorial-at-ieee-vr-2026/</a> </dd>
             </dl>
           </div>
         </div>
@@ -561,7 +523,7 @@ title_separator: "|"
     </ul>
   </section>
   <section class="accordion-wrap">
-    <h2 class="accordion-title">Day 2</h2>
+    <h2 class="accordion-title">Day: Sunday 22 March (Timezone: Korea Standard Time, UTC/GMT +9 hours)</h2>
     <ul class="accordion-list">
       <li class="accordion-item">
         <button class="accordion-header">
@@ -714,3 +676,7 @@ title_separator: "|"
   </section>
 </div>
 <script src="https://ieeevr.org/2026/program/workshop/script.js" type="text/javascript"></script> 
+
+
+
+
