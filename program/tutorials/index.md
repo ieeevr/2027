@@ -342,9 +342,9 @@ title_separator: "|"
             <dl>
               <dt>Organizers</dt>
               <dd>Anthony Steed - University College London<br>
-                 Ruijun (Phoenix) Sun - University College London<br>
-                 Nels Numan - University College London<br>
-                 Daniele Giunchi - University of Birmingham</dd>
+                Ruijun (Phoenix) Sun - University College London<br>
+                Nels Numan - University College London<br>
+                Daniele Giunchi - University of Birmingham</dd>
             </dl>
             <dl>
               <dt>Target Audience</dt>
