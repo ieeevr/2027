@@ -521,4 +521,3 @@ function toggleBio(button) {
     }
 }
 </script>
-
