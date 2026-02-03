@@ -7,7 +7,7 @@
 {% include seo.html %}
 
 <link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
-<link rel="shortcut icon" href="{{ '/favicon_2026_2.png' | relative_url }}" type="image/png">
+<link rel="shortcut icon" href="{{ '/favicon.png' | relative_url }}" type="image/png">
 
 <!-- https://t.co/dKP3o1e -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,7 +15,6 @@
 <script>
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
 </script>
-<meta name="google-site-verification" content="TrhL63yWIYL-hT5hp-Y2AYej0zKZgoPUwzIbDKrdIyM" />
 {% if site.head_scripts %}
   {% for script in site.head_scripts %}
     <script src="{{ script | relative_url }}"></script>
