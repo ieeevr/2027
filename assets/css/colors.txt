@@ -1,3 +1,0 @@
-Orange: df7603
-Vert foncé: 066569
-Vert clair: 2ba4ac
