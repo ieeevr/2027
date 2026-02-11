@@ -51,7 +51,7 @@ layout: default
       {% if nav_links %}
         {% for link in nav_links %}
           {% assign link_show = link.show | default: true %}
-          {% assign link_draft = link.draft | default: false %}
+          {% assign link_published = link.published | default: true %}
           {% assign link_external = link.external | default: false %}
           {% assign linked_page = nil %}
           {% if link.url %}
@@ -59,7 +59,7 @@ layout: default
           {% endif %}
           {% assign page_draft = false %}
           {% if linked_page %}
-            {% if linked_page.draft or linked_page.published == false %}
+            {% if linked_page.published == false %}
               {% assign page_draft = true %}
             {% endif %}
           {% endif %}
@@ -68,7 +68,7 @@ layout: default
             {% assign has_visible_children = false %}
             {% for child in link.children %}
               {% assign child_show = child.show | default: true %}
-              {% assign child_draft = child.draft | default: false %}
+              {% assign child_published = child.published | default: true %}
               {% assign child_external = child.external | default: false %}
               {% assign child_page = nil %}
               {% if child.url %}
@@ -76,22 +76,22 @@ layout: default
               {% endif %}
               {% assign child_page_draft = false %}
               {% if child_page %}
-                {% if child_page.draft or child_page.published == false %}
+                {% if child_page.published == false %}
                   {% assign child_page_draft = true %}
                 {% endif %}
               {% endif %}
-              {% if child_show and child_draft != true and child_page_draft != true and (child_external or child_page) %}
+              {% if child_show and child_published != false and child_page_draft != true and (child_external or child_page) %}
                 {% assign has_visible_children = true %}
               {% endif %}
             {% endfor %}
 
-            {% if link_show and link_draft != true and has_visible_children %}
+            {% if link_show and link_published != false and has_visible_children %}
               <div class="dropdown">
                 <button class="dropbtn">{{ link.title }} &#9662;</button>
                 <div class="dropdown-content">
                   {% for child in link.children %}
                     {% assign child_show = child.show | default: true %}
-                    {% assign child_draft = child.draft | default: false %}
+                    {% assign child_published = child.published | default: true %}
                     {% assign child_external = child.external | default: false %}
                     {% assign child_page = nil %}
                     {% if child.url %}
@@ -99,11 +99,11 @@ layout: default
                     {% endif %}
                     {% assign child_page_draft = false %}
                     {% if child_page %}
-                      {% if child_page.draft or child_page.published == false %}
+                      {% if child_page.published == false %}
                         {% assign child_page_draft = true %}
                       {% endif %}
                     {% endif %}
-                    {% if child_show and child_draft != true and child_page_draft != true and (child_external or child_page) %}
+                    {% if child_show and child_published != false and child_page_draft != true and (child_external or child_page) %}
                       <a href="{% if child_external %}{{ child.url }}{% else %}{{ child.url | relative_url }}{% endif %}">{{ child.title }}</a>
                     {% endif %}
                   {% endfor %}
@@ -111,7 +111,7 @@ layout: default
               </div>
             {% endif %}
           {% else %}
-            {% if link_show and link_draft != true and page_draft != true and (link_external or linked_page) %}
+            {% if link_show and link_published != false and page_draft != true and (link_external or linked_page) %}
               <a href="{% if link_external %}{{ link.url }}{% else %}{{ link.url | relative_url }}{% endif %}">{{ link.title }}</a>
             {% endif %}
           {% endif %}

@@ -27,7 +27,7 @@ The site will be available at `http://localhost:4000`.
 - Most pages live in top-level folders (e.g., `attend/`, `program/`, `contribute/`).
 - Pages are written in Markdown with YAML front matter.
 - Draft content should use `published: false` until ready to launch.
-- Navigation is driven by `navigation.main` in `_config.yml` and hides draft pages automatically.
+- Navigation is driven by `navigation.main` in `_config.yml` and hides unpublished pages automatically.
 
 ## Contribution Guidelines
 
@@ -41,7 +41,7 @@ Best practices:
 Suggested workflow:
 1. Create a branch for your change.
 2. Update content and verify locally.
-3. Keep pages in draft mode until approved.
+3. Keep pages unpublished (`published: false`) until approved.
 4. Submit a pull request with a short summary and screenshots when relevant.
 
 ## Structure Notes
