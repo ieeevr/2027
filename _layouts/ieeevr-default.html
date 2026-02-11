@@ -1,9 +1,6 @@
 ---
 layout: default
 ---
-<meta name="naver-site-verification" content="460917a0a56c4ba05e6665d1d3e0f876a0674ea4" />
-<meta name="google-site-verification" content="TrhL63yWIYL-hT5hp-Y2AYej0zKZgoPUwzIbDKrdIyM" />
-<!-- For all browsers -->
 <script src="https://kit.fontawesome.com/4eee35f757.js"></script>
 <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
 <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
@@ -13,67 +10,11 @@ layout: default
 
 <button onclick="topFunction()" id="myBtnTop" title="Go to top">Top</button>
 
-<style>
-/* ===== 배너 ===== */
-.ieeevrbanner-wrap {
-  position: relative;
-  width: 100%;
-  max-width: 100%;
-  overflow: hidden;
-  margin-top: 1.5rem;
-  border-radius: 40px 40px 0 0;
-}
-.banner-link {
-  position: relative;
-  display: block;
-  width: 100%;
-  aspect-ratio: 3 / 1; /* 가로:세로 비율 */
-  overflow: hidden;
-}
-.banner-img {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  opacity: 0;
-  visibility: hidden;
-  transition: opacity .9s ease-in-out, visibility .9s ease-in-out;
-}
-.banner-img.active {
-  opacity: 1;
-  visibility: visible;
-}
-.reg_box {
-position: relative; 
-display: contents
-}  
-.reg_box img {
-position: absolute; 
-z-index: 11111; 
-top: 1rem; 
-right: 1rem;
-}  
-  
-/* 접근성: 모션 최소화 설정 존중 */
-@media (prefers-reduced-motion: reduce) {
-  .banner-img { transition: none; }
-}
-/* 모바일 모서리 반경 축소 */
-@media screen and (max-width: 900px) {
-  .ieeevrbanner-wrap { border-radius: 20px 20px 0 0; }
-
-.reg_box img {
-  width: 6rem
-} 
-}  
-</style>
-
 <script>
   var mybutton = document.getElementById("myBtnTop");
 
   window.onscroll = function() {
-      scrollFunction()
+      scrollFunction();
   };
 
   function scrollFunction() {
@@ -102,137 +43,81 @@ right: 1rem;
 <div id="main" role="main">
   <article class="splash" style="margin:0px;" itemscope itemtype="https://schema.org/CreativeWork">
 
-    <!-- banner -->
-    <div class="ieeevrbanner-wrap" id="homeBanner">
-      <p class="reg_box"><a href="https://ieeevr.org/2026/attend/registration/"><img src="https://ieeevr.org/2026/assets/images/reg_btn_2026.png"></a></p>
-      <a href="{{ '/' | relative_url }}" class="banner-link" aria-label="IEEE VR Home (banner)">
-        <!-- 6장 이미지: 파일 경로/이름만 실제 자산에 맞게 유지 또는 변경 -->
-        <img src="{{ '/assets/images/mv_2026_001.jpg' | relative_url }}" alt="Visual 1" class="banner-img active" loading="eager">
-        <img src="{{ '/assets/images/mv_2026_002.jpg' | relative_url }}" alt="Visual 2" class="banner-img" loading="lazy">
-        <img src="{{ '/assets/images/mv_2026_003.jpg' | relative_url }}" alt="Visual 3" class="banner-img" loading="lazy">
-        <img src="{{ '/assets/images/mv_2026_004.jpg' | relative_url }}" alt="Visual 4" class="banner-img" loading="lazy">
-        <!--img src="{{ '/assets/images/mv_2026_005.jpg' | relative_url }}" alt="Visual 5" class="banner-img" loading="lazy"-->
-        <img src="{{ '/assets/images/mv_2026_006.jpg' | relative_url }}" alt="Visual 6" class="banner-img" loading="lazy">
-      </a>
-    </div>
-
     <!-- navbar -->
     <div class="topnav" id="myTopnav">
-      <a href="/2026/" class="active">IEEE VR</a>
+      <a href="{{ '/' | relative_url }}" class="active">{{ site.title | default: "IEEE VR" }}</a>
 
-      <div class="dropdown">
-        <button class="dropbtn">Attend &#9662;</button>
-        <div class="dropdown-content">
-          <a href={{ "/attend/code-of-conduct/" | relative_url }}>Code to Conduct</a>
-          <a href={{ "/attend/registration/" | relative_url }}>Registration</a>
-          <a href={{ "/attend/venue/" | relative_url }}>Access</a>
-          <a href="https://ieeevr2026.mice.link/booking/BQZRCLJ?sort=recommendedForSortAsc" target="_blank">Accommodations</a>
-          <!--a href={{ "/attend/accessibility/" | relative_url }}>Accessibility of the venue</a-->
-          <a href={{ "/attend/conference-center-map/" | relative_url }}>Conference Center Map</a>
-          <!--a href={{ "/attend/food/" | relative_url }}>Getting Food</a-->
-          <a href={{ "/attend/practical-information/" | relative_url }}>Practical information</a>
-          <a href="https://ieeevr2026.org/index.php?GP=member/login" target="_blank">My Account</a>
-          <!--<a href={{ "/attend/getting-there/" | relative_url }}>Getting There</a>-->
-          <!--a href={{ "/attend/DEIA-grants/" | relative_url }}>DEIA-Grants</a-->
-          <a href={{ "/attend/mentorship/" | relative_url }}>DEIA Mentorship</a>
-          <!--<a href={{ "/attend/tourism" | relative_url }}>Tourism</a>-->
-        </div>
-      </div>
+      {% assign nav_links = site.navigation.main | default: site.data.navigation.main %}
+      {% if nav_links %}
+        {% for link in nav_links %}
+          {% assign link_show = link.show | default: true %}
+          {% assign link_published = link.published | default: true %}
+          {% assign link_external = link.external | default: false %}
+          {% assign linked_page = nil %}
+          {% if link.url %}
+            {% assign linked_page = site.pages | where: "url", link.url | first %}
+          {% endif %}
+          {% assign page_draft = false %}
+          {% if linked_page %}
+            {% if linked_page.published == false %}
+              {% assign page_draft = true %}
+            {% endif %}
+          {% endif %}
 
-      <div class="dropdown">
-        <button class="dropbtn">Program &#9662;</button>
-        <div class="dropdown-content">
-          <!--<a href={{ "/program/at-a-glance/" | relative_url }}>At a Glance</a>-->
-          <a href={{ "/program/overview/" | relative_url }}>Program Overview</a>
-          <a href={{ "/program/keynote-speakers/" | relative_url }}>Keynote Speakers</a>
-          <a href={{ "/program/papers/" | relative_url }}>Papers</a>
-          <a href={{ "/program/posters/" | relative_url }}>Posters</a>
-          <a href={{ "/program/panels/" | relative_url }}>Panels</a>
-          <a href={{ "/program/workshop/" | relative_url }}>Workshops</a>
-          <a href={{ "/program/tutorials/" | relative_url }}>Tutorials</a>
-          <a href={{ "/program/xrgallery/" | relative_url }}>XR Gallery</a>
-          <a href={{ "/program/3dui-contest/" | relative_url }}>3DUI Contest</a>
-          <!--<a href={{ "/program/videos/" | relative_url }}>Videos</a>-->
-          <a href={{ "/program/demos/" | relative_url }}>Research Demos</a>
-          <a href={{ "/program/future-faculty-forum/" | relative_url }}>Future Faculty Forum</a>
-          <a href={{ "/program/doctoral-consortium/" | relative_url }}>Doctoral Consortium</a>
-          <a href={{ "/program/social-program/" | relative_url }}>Social Program</a>
-          <!--<a href={{ "/program/forum/" | relative_url }}>Metaverse Industry Forum</a>-->
-          <!--<a href={{ "/program/exchange-event/" | relative_url }}>Youth Scholars Exchange Event</a>-->
-          <!--a href={{ "/program/VRLab-tour/" | relative_url }}>VR Lab tour</a>
-          <a href={{ "/program/Mt-St-Michel-visit/" | relative_url }}>Visit to the Mont Saint Michel</a-->
-        </div>
-      </div>
+          {% if link.children %}
+            {% assign has_visible_children = false %}
+            {% for child in link.children %}
+              {% assign child_show = child.show | default: true %}
+              {% assign child_published = child.published | default: true %}
+              {% assign child_external = child.external | default: false %}
+              {% assign child_page = nil %}
+              {% if child.url %}
+                {% assign child_page = site.pages | where: "url", child.url | first %}
+              {% endif %}
+              {% assign child_page_draft = false %}
+              {% if child_page %}
+                {% if child_page.published == false %}
+                  {% assign child_page_draft = true %}
+                {% endif %}
+              {% endif %}
+              {% if child_show and child_published != false and child_page_draft != true and (child_external or child_page) %}
+                {% assign has_visible_children = true %}
+              {% endif %}
+            {% endfor %}
 
-      <div class="dropdown">
-        <button class="dropbtn">Contribute &#9662;</button>
-        <div class="dropdown-content">
-          <!--<a href={{ "/contribute/exhibitors" | relative_url }}>Call for Exhibitors and Sponsors</a>-->
-          <a href={{ "/contribute/papers/" | relative_url }}>Call for Papers</a>
-          <a href={{ "/contribute/posters/" | relative_url }}>Call for Posters</a>
-          <a href={{ "/contribute/workshops/" | relative_url }}>Call for Workshops</a>
-          <a href={{ "/contribute/3dui-contest/" | relative_url }}>Call for 3DUI Contest Entries</a>
-          <a href={{ "/contribute/demos/" | relative_url }}>Call for Research Demos</a>
-          <a href={{ "/contribute/xrgallery/" | relative_url }}>Call for Proposals "<strong>XR Gallery</strong>"</a>
-          <a href={{ "/contribute/doctoral-consortium/" | relative_url }}>Call for Doctoral Consortium</a>
-          <a href={{ "/contribute/tutorials/" | relative_url }}>Call for Tutorials</a>
-          <!--<a href={{ "/contribute/workshoppapers/" | relative_url }}>Call for Workshop Papers</a>-->
-          <!--<a href={{ "/contribute/panels/" | relative_url }}>Call for Panels</a>-->
-          <!--<a href={{ "/contribute/videos/" | relative_url }}>Call for Videos</a>-->
-          <a href={{ "/contribute/studentVolunteers/" | relative_url }}>Call for Student Volunteers</a>
-          <a href={{ "/contribute/Panels/" | relative_url }}>Call for Panels</a>
-          <a href={{ "/contribute/FutureFacultyForum/" | relative_url }}>Call for Future Faculty Forum</a>
-          <!--<a href={{ "/contribute/satellite-event/" | relative_url }}>Call for Satellite Event</a>-->
-        </div>
-      </div>
+            {% if link_show and link_published != false and has_visible_children %}
+              <div class="dropdown">
+                <button class="dropbtn">{{ link.title }} &#9662;</button>
+                <div class="dropdown-content">
+                  {% for child in link.children %}
+                    {% assign child_show = child.show | default: true %}
+                    {% assign child_published = child.published | default: true %}
+                    {% assign child_external = child.external | default: false %}
+                    {% assign child_page = nil %}
+                    {% if child.url %}
+                      {% assign child_page = site.pages | where: "url", child.url | first %}
+                    {% endif %}
+                    {% assign child_page_draft = false %}
+                    {% if child_page %}
+                      {% if child_page.published == false %}
+                        {% assign child_page_draft = true %}
+                      {% endif %}
+                    {% endif %}
+                    {% if child_show and child_published != false and child_page_draft != true and (child_external or child_page) %}
+                      <a href="{% if child_external %}{{ child.url }}{% else %}{{ child.url | relative_url }}{% endif %}">{{ child.title }}</a>
+                    {% endif %}
+                  {% endfor %}
+                </div>
+              </div>
+            {% endif %}
+          {% else %}
+            {% if link_show and link_published != false and page_draft != true and (link_external or linked_page) %}
+              <a href="{% if link_external %}{{ link.url }}{% else %}{{ link.url | relative_url }}{% endif %}">{{ link.title }}</a>
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+      {% endif %}
 
-      <div class="dropdown">
-        <button class="dropbtn">Awards &#9662;</button>
-        <div class="dropdown-content">
-          <a href={{ "/awards/vgtc" | relative_url }}>VGTC Awards</a>
-          <a href={{ "/awards/conference-awards" | relative_url }}>Conference Awards</a>
-        </div>
-      </div>
-
-      <div class="dropdown">
-        <button class="dropbtn">Committees &#9662;</button>
-        <div class="dropdown-content">
-          <a href={{ "/committees/conference-committee/" | relative_url }}>Conference Committee</a>
-          <a href={{ "/committees/program-committee/" | relative_url }}>Program Committee</a>
-          
-          <a href={{ "/committees/reviewers/" | relative_url }}>Reviewers</a>
-          <a href={{ "/committees/XR⁄VR Standardization Committee/" | relative_url }} target="_blank">XR⁄VR Standardization Committee</a>
-          <a href={{ "/committees/steering-committee/" | relative_url }}>Steering Committee</a>
-          
-          <a href={{ "/committees/sv/" | relative_url }}>Student Volunteers</a>
-        </div>
-      </div>
-
-      <div class="dropdown">
-        <button class="dropbtn">Resources &#9662;</button>
-        <div class="dropdown-content">
-          <a href={{ "/resources/environmental-evaluation" | relative_url }}>Environmental Evaluation</a>
-          <a href={{ "/resources/slide-templates" | relative_url }}>Slide Templates</a>
-          <a href={{ "/resources/poster-templates" | relative_url }}>Poster Templates</a>
-          <!--a href={{ "/resources/poster-teaser-slides" | relative_url }}>Poster Teaser Slides Template</a-->
-          <!--a href={{ "/resources/paper-video-presentation-guidelines" | relative_url }}>Paper Video Presentation Guidelines</a-->
-          <a href={{ "/resources/logos" | relative_url }}>Conference Logos</a>
-          <!--a href={{ "/resources/backgrounds" | relative_url }}>Backgrounds</a-->
-          <a href={{ "/resources/social-media" | relative_url }}>Social Media Template</a>
-        </div>
-      </div>
-
-      <div class="dropdown">
-        <button class="dropbtn">Sponsors & Exhibitors &#9662;</button>
-        <div class="dropdown-content">
-          <a href={{ "/sponsors/call" | relative_url }}>Call for Sponsors & Exhibitors</a>
-          <a href={{ "/sponsors/exhibitor-area" | relative_url }}>Exhibition Area</a>
-          <a href={{ "/sponsors/sponsors-list" | relative_url }}>Sponsors List</a>
-        </div>
-      </div>
-
-      <a href={{ "/store" | relative_url }}>Store</a>
-      <a href="/2026/past-conferences/">Past Conferences</a>
       <a href="javascript:void(0);" style="font-size:16px;" class="icon" onclick="myFunction()">&#9776;</a>
     </div>
 
@@ -247,55 +132,13 @@ right: 1rem;
 
         <!-- right -->
         <div class="column right alignCenter">
-          <div class="confsponsors" id="sponsors">
-            <div style="text-align:center">
-              <a href="https://www.ieee.org" target="_new" style="width:30%;"><img src={{ "/assets/images/sponsors/ieee-logo-white.svg" | relative_url }} alt="IEEE" style="height: 35px;"></a>
-              <a href="https://www.computer.org" target="_new" style="width:30%;"><img src={{ "/assets/images/ieee-cs-logo-white.png" | relative_url }} alt="IEEE Computer Society" style="margin: 0.5rem auto; width: 80%"></a>
-              <a href="http://vgtc.org" target="_new" style="width:30%;"><img src={{ "/assets/images/sponsors/ieee-vgtc-logo-white.svg" | relative_url }} alt="IEEE Visualization and Graphics Technical Community" style="height: 50px;"></a>
-            </div>
-
-            <br>
-            <hr class="social-hr">
-            <div>
-              <ul class="social-icons">
-                <li><a href="https://facebook.com/ieeevr"><img src={{ "/assets/images/social/Facebook.png" | relative_url }} alt="Facebook" target="_blank" /></a></li>
-                <li><a href="http://www.twitter.com/ieeevr"><img src={{ "/assets/images/social/twitter.png" | relative_url }} alt="Twitter" target="_blank" /></a></li>
-                <li><a href="https://www.linkedin.com/showcase/ieee-vr-conference-on-virtual-reality-and-3d-user-interfaces/" target="_blank"><img src={{ "/assets/images/social/linkedin.png" | relative_url }} alt="LinkedIn" /></a></li>
-              </ul>
-            </div>
- <h4 class="sponsor_section">Sponsors</h4>
-<div class="confsponsors-type">Silver</div>
-<a href="https://www.hdc-labs.com/eng/main" target="_blank">
-                            <img class="conf-icon" style="width: 100%;" src="/2026/assets/images/silver_001.png" alt="Silver Banner"></a>
-            
-            <h4 class="sponsor_section">Supporters</h4>
-
-<a href="https://www.complexion.co.kr/" target="_blank">
-                            <img class="conf-icon" style="width: 100%;" src="/2026/assets/images/sup_001.png" alt="Banner">
-                        </a><br/>
-
-            <a href="https://home.sejong.ac.kr/~xrcenter/" target="_blank">
-                            <img class="conf-icon" style="width: 100%;" src="/2026/assets/images/sup_002.png" alt="Banner">
-                        </a><br/>
-
-            <a href="https://www.keti.re.kr/eng/main/main.php" target="_blank">
-                            <img class="conf-icon" style="width: 100%;" src="/2026/assets/images/sup_003.png" alt="Banner">
-                        </a><br/>
-
-
-            <!--a href="https://www.vrkpop.com/ko" target="_blank">
-                            <img class="conf-icon" style="width: 100%; margin-bottom: 0.3rem" src="/2026/assets/images/sup_004.png" alt="Banner">
-                        </a><br/-->
-
-            
-<a href="https://www.exco.co.kr/eng/" target="_blank">
-                            <img class="conf-icon" style="width: 100%;" src="/2026/assets/images/sponsors/exco_banner.gif" alt="Banner">
-                        </a>
-          </div>
+          {% if site.sidebar_note %}
+            <p class="sidebar-note">{{ site.sidebar_note }}</p>
+          {% endif %}
         </div>
       </div>
 
-      <!--  footer -->
+      <!-- footer -->
       <div class="ieeevrfooter">
         <hr>
         <div>
@@ -303,75 +146,15 @@ right: 1rem;
             <img src={{ "/assets/images/sponsors/ieee-logo-white.svg" | relative_url }} alt="IEEE" style="height: 35px;">
           </a>
           <a href="https://www.computer.org" target="_new" style="margin-left: 2rem;">
-            <img src={{ "/assets/images/ieee-cs-logo-white.png" | relative_url }} alt="IEEE Computer Society" style="height: 35px;">
+            <img src={{ "/assets/images/sponsors/ieee-cs-logo-white.svg" | relative_url }} alt="IEEE Computer Society" style="height: 35px;">
           </a>
           <a href="http://vgtc.org" target="_new" style="margin-left: 2rem;">
             <img src={{ "/assets/images/sponsors/ieee-vgtc-logo-white.svg" | relative_url }} alt="IEEE Visualization and Graphics Technical Community" style="height: 35px;">
           </a>
-          <!--a href="https://www.inria.fr/en" target="_new" style="margin-left: 2rem;">
-              <img src={{ "/assets/images/sponsors/inria_logo_white_small.svg" | relative_url }} alt="INRIA" style="height: 35px;">
-          </a-->
         </div>
-        <p style="text-align:center ! important;">©IEEE VR Conference 2026, Sponsored by the IEEE Computer Society and the Visualization and Graphics Technical Committee</p>
+        <p style="text-align:center ! important;">© IEEE VR Conference 2027</p>
       </div>
     </section>
 
   </article>
 </div>
-
-<!-- ===== 배너 슬라이더 스크립트 ===== -->
-<script>
-(function () {
-  // 설정값
-  var INTERVAL = 5000;      // 각 장당 표시 시간(ms)
-  var HOVER_PAUSE = true;   // 호버 시 일시정지 여부
-
-  var wrap = document.getElementById('homeBanner');
-  if (!wrap) return;
-
-  var imgs = wrap.querySelectorAll('.banner-img');
-  if (!imgs.length) return;
-
-  var idx = 0;
-  var timer = null;
-
-  function show(n) {
-    for (var i = 0; i < imgs.length; i++) {
-      if (i === n) imgs[i].classList.add('active');
-      else imgs[i].classList.remove('active');
-    }
-  }
-
-  function next() {
-    idx = (idx + 1) % imgs.length;
-    show(idx);
-  }
-
-  function start() {
-    if (timer) return;
-    timer = setInterval(next, INTERVAL);
-  }
-
-  function stop() {
-    if (!timer) return;
-    clearInterval(timer);
-    timer = null;
-  }
-
-  // 초기 구동
-  show(idx);
-  start();
-
-  // 탭 비활성화/복귀 시 자원 절약
-  document.addEventListener('visibilitychange', function () {
-    if (document.hidden) stop();
-    else start();
-  });
-
-  // 호버 일시정지
-  if (HOVER_PAUSE) {
-    wrap.addEventListener('mouseenter', stop);
-    wrap.addEventListener('mouseleave', start);
-  }
-})();
-</script>

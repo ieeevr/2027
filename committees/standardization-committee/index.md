@@ -1,6 +1,5 @@
 ---
 layout: ieeevr-default
-title: "Posters"
-title_separator: "|"
+title: "Xr⁄Vr Standardization Committee"
 published: false
 ---

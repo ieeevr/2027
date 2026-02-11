@@ -1,6 +1,6 @@
 ---
 layout: ieeevr-default
-title: "Posters"
+title: "Call for Future Faculty Forum"
 title_separator: "|"
 published: false
 ---

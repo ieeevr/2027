@@ -16,16 +16,16 @@ minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt
 
 # Site Settings
 locale                   : "en-US"
-title                    : "IEEE VR 2026"
+title                    : "IEEE VR 2027"
 title_separator          : "|"
-subtitle                 : "" # site tagline that appears below site title in masthead
-name                     : "IEEE VR 2026"
-description              : "The 33rd IEEE Conference on Virtual Reality and 3D User Interfaces"
+subtitle                 : "Melbourne, Australia" # site tagline that appears below site title in masthead
+name                     : "IEEE VR 2027"
+description              : "The IEEE Conference on Virtual Reality and 3D User Interfaces in Melbourne, Australia"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/2026/favicon.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : "/favicon.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 200
@@ -76,8 +76,8 @@ facebook:
   username               : IEEEVR
   app_id                 :
   publisher              :
-  description            : "The 32nd IEEE Conference on Virtual Reality and 3D User Interfaces"
-og_image                 : /assets/images/IEEEVR_2026_OGImage.png
+  description            : "The IEEE Conference on Virtual Reality and 3D User Interfaces"
+og_image                 :
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -95,10 +95,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "IEEE VR 2026"
+  name             : "IEEE VR 2027"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : ""
-  location         : "Saint-Malo, Brittany France"
+  location         : "Melbourne, Australia"
   email            :
   links:
     - label: "Email"
@@ -142,6 +142,130 @@ footer:
       icon: "fab fa-fw fa-instagram"
       # url:
 
+navigation:
+  main:
+    - title: "Attend"
+      children:
+        - title: "Code of Conduct"
+          url: /attend/code-of-conduct/
+        - title: "Registration"
+          url: /attend/registration/
+        - title: "Venue"
+          url: /attend/venue/
+        - title: "Conference Center Map"
+          url: /attend/conference-center-map/
+        - title: "Practical Information"
+          url: /attend/practical-information/
+        - title: "DEIA Mentorship"
+          url: /attend/mentorship/
+        - title: "Accessibility"
+          url: /attend/accessibility/
+        - title: "Accommodations"
+          url: /attend/accommodations/
+        - title: "Food"
+          url: /attend/food/
+        - title: "DEIA Grants"
+          url: /attend/DEIA-grants/
+    - title: "Program"
+      children:
+        - title: "Program Overview"
+          url: /program/overview/
+        - title: "Keynote Speakers"
+          url: /program/keynote-speakers/
+        - title: "Papers"
+          url: /program/papers/
+        - title: "Posters"
+          url: /program/posters/
+        - title: "Panels"
+          url: /program/panels/
+        - title: "Workshops"
+          url: /program/workshop/
+        - title: "Tutorials"
+          url: /program/tutorials/
+        - title: "XR Gallery"
+          url: /program/xrgallery/
+        - title: "3DUI Contest"
+          url: /program/3dui-contest/
+        - title: "Research Demos"
+          url: /program/demos/
+        - title: "Future Faculty Forum"
+          url: /program/future-faculty-forum/
+        - title: "Doctoral Consortium"
+          url: /program/doctoral-consortium/
+        - title: "Social Program"
+          url: /program/social-program/
+        - title: "At a Glance"
+          url: /program/at-a-glance/
+    - title: "Contribute"
+      children:
+        - title: "Call for Papers"
+          url: /contribute/papers/
+        - title: "Call for Posters"
+          url: /contribute/posters/
+        - title: "Call for Workshops"
+          url: /contribute/workshops/
+        - title: "Call for 3DUI Contest Entries"
+          url: /contribute/3dui-contest/
+        - title: "Call for Research Demos"
+          url: /contribute/demos/
+        - title: "Call for Proposals \"XR Gallery\""
+          url: /contribute/xrgallery/
+        - title: "Call for Doctoral Consortium"
+          url: /contribute/doctoral-consortium/
+        - title: "Call for Tutorials"
+          url: /contribute/tutorials/
+        - title: "Call for Student Volunteers"
+          url: /contribute/studentVolunteers/
+        - title: "Call for Panels"
+          url: /contribute/Panels/
+        - title: "Call for Future Faculty Forum"
+          url: /contribute/FutureFacultyForum/
+        - title: "Call for Proposals"
+          url: /contribute/proposals/
+    - title: "Awards"
+      children:
+        - title: "VGTC Awards"
+          url: /awards/vgtc/
+        - title: "Conference Awards"
+          url: /awards/conference-awards/
+    - title: "Committees"
+      children:
+        - title: "Conference Committee"
+          url: /committees/conference-committee/
+        - title: "Program Committee"
+          url: /committees/program-committee/
+        - title: "Reviewers"
+          url: /committees/reviewers/
+        - title: "XR/VR Standardization Committee"
+          url: /committees/XR⁄VR%20Standardization%20Committee/
+        - title: "Steering Committee"
+          url: /committees/steering-committee/
+        - title: "Student Volunteers"
+          url: /committees/sv/
+    - title: "Resources"
+      children:
+        - title: "Environmental Evaluation"
+          url: /resources/environmental-evaluation/
+        - title: "Slide Templates"
+          url: /resources/slide-templates/
+        - title: "Poster Templates"
+          url: /resources/poster-templates/
+        - title: "Conference Logos"
+          url: /resources/logos/
+        - title: "Social Media Template"
+          url: /resources/social-media/
+    - title: "Sponsors & Exhibitors"
+      children:
+        - title: "Call for Sponsors & Exhibitors"
+          url: /sponsors/call/
+        - title: "Exhibition Area"
+          url: /sponsors/exhibitor-area/
+        - title: "Sponsors List"
+          url: /sponsors/sponsors-list/
+    - title: "Store"
+      url: /store/
+    - title: "Past Conferences"
+      url: /past-conferences/
 
 # Reading Files
 include:

@@ -1,6 +1,6 @@
 ---
 layout: ieeevr-default
-title: "Posters"
+title: "Student Volunteers"
 title_separator: "|"
 published: false
 ---
