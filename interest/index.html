@@ -1,0 +1,194 @@
+---
+layout: ieeevr-default
+title: "Express Your Interest"
+title_separator: "|"
+published: true
+---
+
+<style>
+  .interest-wrap { margin: -1rem -1rem 0; }
+
+  .interest-page {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 1.2rem;
+    align-items: stretch;
+    padding: 1rem 1.2rem;
+    max-width: 1100px;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+
+  /* ── Left panel ── */
+  .interest-left {
+    flex: 0 0 42%;
+    text-align: center;
+    padding: 1.2rem 1rem;
+    background: rgba(255,255,255,0.06);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .interest-left h1 {
+    font-size: 1.9rem;
+    font-weight: 900;
+    margin: 0 0 0.25rem;
+    line-height: 1.15;
+  }
+
+  .interest-left .conf-dates {
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 0.2rem 0;
+  }
+
+  .interest-left .conf-location {
+    font-size: 0.88rem;
+    margin: 0 0 0.8rem;
+    opacity: 0.8;
+  }
+
+  .countdown {
+    display: flex;
+    justify-content: center;
+    gap: 0.9rem;
+    margin: 0.6rem 0 0.9rem;
+    flex-wrap: wrap;
+  }
+
+  .countdown-unit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 36px;
+  }
+
+  .countdown-unit .number {
+    font-size: 2rem;
+    font-weight: 900;
+    color: #6dbf67;
+    line-height: 1;
+  }
+
+  .countdown-unit .label {
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    margin-top: 0.15rem;
+    opacity: 0.75;
+  }
+
+  .logos-placeholder {
+    margin-top: 0.9rem;
+    font-size: 0.78rem;
+    opacity: 0.45;
+    font-style: italic;
+  }
+
+  /* ── Right panel — Google Form embed ── */
+  .interest-right {
+    flex: 1 1 0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+    background: #fff;
+    min-height: 480px;
+  }
+
+  .interest-right iframe {
+    width: 100%;
+    height: 100%;
+    min-height: 520px;
+    border: none;
+    display: block;
+  }
+
+  @media (max-width: 680px) {
+    .interest-page  { flex-wrap: wrap; }
+    .interest-left  { flex: 0 0 100%; }
+    .interest-right { min-height: 600px; }
+  }
+</style>
+
+<div class="interest-wrap">
+<div class="interest-page">
+
+  <!-- LEFT: Countdown -->
+  <div class="interest-left">
+    <h1>{{ site.interest.conference_title }}</h1>
+    <p class="conf-dates">{{ site.interest.conference_dates_display }}</p>
+    <p class="conf-location">{{ site.interest.conference_location }}</p>
+
+    <div class="countdown">
+      <div class="countdown-unit">
+        <span class="number" id="cd-weeks">--</span>
+        <span class="label">weeks</span>
+      </div>
+      <div class="countdown-unit">
+        <span class="number" id="cd-days">--</span>
+        <span class="label">days</span>
+      </div>
+      <div class="countdown-unit">
+        <span class="number" id="cd-hours">--</span>
+        <span class="label">hours</span>
+      </div>
+      <div class="countdown-unit">
+        <span class="number" id="cd-minutes">--</span>
+        <span class="label">minutes</span>
+      </div>
+      <div class="countdown-unit">
+        <span class="number" id="cd-seconds">--</span>
+        <span class="label">seconds</span>
+      </div>
+    </div>
+
+    <div class="logos-placeholder">[ Logos will appear here ]</div>
+  </div>
+
+  <!-- RIGHT: Google Form embed -->
+  <div class="interest-right">
+    <iframe
+      src="{{ site.interest.google_form_url }}"
+      title="Express Your Interest Form"
+      loading="lazy">
+      Loading form…
+    </iframe>
+  </div>
+
+</div>
+</div>
+
+<script>
+  // ── Countdown ─────────────────────────────────────────────────
+  // Change conference_date in _config.yml to update the timer
+  var targetDate = new Date("{{ site.interest.conference_date }}T00:00:00");
+
+  function pad(n) { return String(n).padStart(2, "0"); }
+
+  function updateCountdown() {
+    var diff = targetDate - new Date();
+    if (diff <= 0) {
+      ["cd-weeks","cd-days","cd-hours","cd-minutes","cd-seconds"]
+        .forEach(function(id){ document.getElementById(id).textContent = "00"; });
+      return;
+    }
+    var s  = Math.floor(diff / 1000);
+    var sc = s % 60;
+    var m  = Math.floor(s / 60);
+    var mc = m % 60;
+    var h  = Math.floor(m / 60);
+    var hc = h % 24;
+    var d  = Math.floor(h / 24);
+    var w  = Math.floor(d / 7);
+    var dc = d % 7;
+    document.getElementById("cd-weeks").textContent   = pad(w);
+    document.getElementById("cd-days").textContent    = pad(dc);
+    document.getElementById("cd-hours").textContent   = pad(hc);
+    document.getElementById("cd-minutes").textContent = pad(mc);
+    document.getElementById("cd-seconds").textContent = pad(sc);
+  }
+  updateCountdown();
+  setInterval(updateCountdown, 1000);
+</script>

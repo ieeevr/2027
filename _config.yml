@@ -262,6 +262,8 @@ navigation:
           url: /sponsors/exhibitor-area/
         - title: "Sponsors List"
           url: /sponsors/sponsors-list/
+    - title: "Interest"
+      url: /interest/
     - title: "Store"
       url: /store/
     - title: "Past Conferences"
@@ -405,3 +407,18 @@ defaults:
       comments: # true
       share: true
       related: true
+
+# ---------------------------------------------------------------
+# Interest Page Settings — change these values as needed
+# ---------------------------------------------------------------
+interest:
+  # Paste your Google Form embed URL here
+  # In Google Forms: Send → <> Embed → copy the src URL
+  # Enable email alerts: Responses tab → ⋮ → Get email notifications for new responses
+  google_form_url: "https://docs.google.com/forms/d/e/1FAIpQLScjbcwskn_Zdk7d6-4baDb2v3dl7AFvXDWvFEelU7ObSIiUYg/viewform?embedded=true"
+
+  conference_date: "2027-03-20"    # ← countdown target date (YYYY-MM-DD)
+
+  conference_title: "IEEE VR 2027"
+  conference_location: "Melbourne, Australia"
+  conference_dates_display: "Dates to be announced"
