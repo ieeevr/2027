@@ -229,19 +229,7 @@ navigation:
         - title: "Conference Awards"
           url: /awards/conference-awards/
     - title: "Committees"
-      children:
-        - title: "Conference Committee"
-          url: /committees/conference-committee/
-        - title: "Program Committee"
-          url: /committees/program-committee/
-        - title: "Reviewers"
-          url: /committees/reviewers/
-        - title: "XR/VR Standardization Committee"
-          url: /committees/XR⁄VR%20Standardization%20Committee/
-        - title: "Steering Committee"
-          url: /committees/steering-committee/
-        - title: "Student Volunteers"
-          url: /committees/sv/
+      url: /committees/conference-committee/
     - title: "Resources"
       children:
         - title: "Environmental Evaluation"
