@@ -6,171 +6,207 @@ published: true
 ---
 
 <style>
-  .interest-wrap { margin: -1rem -1rem 0; }
+  /* Force the left column to full width on this page */
+  .page__content .row { display: block; }
+  .page__content .column.left  { width: 100%; float: none; padding: 0; }
+  .page__content .column.center,
+  .page__content .column.right { display: none; }
 
-  .interest-page {
+  /* Full-width rectangle */
+  .interest-box {
     display: flex;
-    flex-wrap: nowrap;
-    gap: 1.2rem;
+    width: 100%;
+    min-height: 600px;
+    border: 1px solid #dde3ec;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  }
+
+  /* LEFT half — no padding so image fills edge-to-edge */
+  .interest-left {
+    flex: 0 0 46%;
+    display: flex;
+    flex-direction: column;
     align-items: stretch;
-    padding: 1rem 1.2rem;
-    max-width: 1100px;
-    margin: 0 auto;
+    overflow: hidden;
+  }
+
+  /* Image fills the full top of the left panel */
+  .interest-left .conf-logo {
+    width: 100%;
+    display: block;
+    height: auto;
+    flex-shrink: 0;
+  }
+
+  /* Text + countdown below the image */
+  .interest-left-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem 2rem 2rem;
+    text-align: center;
     box-sizing: border-box;
   }
 
-  /* ── Left panel ── */
-  .interest-left {
-    flex: 0 0 42%;
-    text-align: center;
-    padding: 1.2rem 1rem;
-    background: rgba(255,255,255,0.06);
-    border-radius: 8px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  .interest-left h1 {
-    font-size: 1.9rem;
+  .interest-left-body h1 {
+    font-size: 2rem;
     font-weight: 900;
-    margin: 0 0 0.25rem;
-    line-height: 1.15;
+    color: #0b2a6b;
+    margin: 0 0 0.4rem;
+    line-height: 1.1;
   }
 
-  .interest-left .conf-dates {
+  .conf-dates {
     font-size: 1rem;
     font-weight: 700;
-    margin: 0.2rem 0;
+    color: #007a8c;
+    margin: 0 0 0.2rem;
   }
 
-  .interest-left .conf-location {
-    font-size: 0.88rem;
-    margin: 0 0 0.8rem;
-    opacity: 0.8;
+  .conf-location {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #0b2a6b;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    margin: 0 0 1.4rem;
   }
 
-  .countdown {
+  /* Days — centred, full width of body */
+  .countdown-days-row {
+    width: 100%;
     display: flex;
     justify-content: center;
-    gap: 0.9rem;
-    margin: 0.6rem 0 0.9rem;
-    flex-wrap: wrap;
+    margin-bottom: 0.5rem;
+  }
+
+  .countdown-days-row .countdown-unit {
+    width: 120px;
+  }
+
+  .countdown-days-row .number {
+    font-size: 3.2rem;
+  }
+
+  /* HMS row */
+  .countdown-hms-row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 0;
   }
 
   .countdown-unit {
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-width: 36px;
+    width: 80px;
   }
 
   .countdown-unit .number {
-    font-size: 2rem;
+    font-size: 2.2rem;
     font-weight: 900;
-    color: #6dbf67;
+    font-variant-numeric: tabular-nums;
+    font-family: monospace;
+    color: #0b2a6b;
     line-height: 1;
+    text-align: center;
+    display: block;
+    width: 100%;
   }
 
   .countdown-unit .label {
-    font-size: 0.65rem;
+    font-size: 0.58rem;
     text-transform: uppercase;
-    letter-spacing: 0.04em;
-    margin-top: 0.15rem;
-    opacity: 0.75;
+    letter-spacing: 0.08em;
+    color: #0b2a6b;
+    opacity: 0.65;
+    margin-top: 0.25rem;
+    text-align: center;
   }
 
-  .logos-placeholder {
-    margin-top: 0.9rem;
-    font-size: 0.78rem;
-    opacity: 0.45;
-    font-style: italic;
-  }
-
-  /* ── Right panel — Google Form embed ── */
+  /* RIGHT half */
   .interest-right {
     flex: 1 1 0;
-    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
     overflow: hidden;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
     background: #fff;
-    min-height: 480px;
   }
 
   .interest-right iframe {
-    width: 100%;
-    height: 100%;
-    min-height: 520px;
+    width: 100% !important;
+    flex: 1;
+    min-height: 600px;
     border: none;
     display: block;
   }
 
-  @media (max-width: 680px) {
-    .interest-page  { flex-wrap: wrap; }
-    .interest-left  { flex: 0 0 100%; }
-    .interest-right { min-height: 600px; }
+  @media (max-width: 700px) {
+    .interest-box { flex-direction: column; }
+    .interest-left { border-right: none; border-bottom: 1px solid #dde3ec; }
+    .interest-right iframe { min-height: 560px; }
   }
 </style>
 
-<div class="interest-wrap">
-<div class="interest-page">
+<div class="interest-box">
 
-  <!-- LEFT: Countdown -->
+  <!-- LEFT -->
   <div class="interest-left">
-    <h1>{{ site.interest.conference_title }}</h1>
-    <p class="conf-dates">{{ site.interest.conference_dates_display }}</p>
-    <p class="conf-location">{{ site.interest.conference_location }}</p>
 
-    <div class="countdown">
-      <div class="countdown-unit">
-        <span class="number" id="cd-weeks">--</span>
-        <span class="label">weeks</span>
+    <!-- Image fills full top edge-to-edge -->
+    <img class="conf-logo" src="/resources/backgrounds/VR2027.png" alt="IEEE VR 2027">
+
+    <!-- Text + countdown -->
+    <div class="interest-left-body">
+      <h1>IEEE <span style="color:#007a8c;">VR</span> 2027</h1>
+      <p class="conf-dates">{{ site.interest.conference_dates_display }}</p>
+      <p class="conf-location">{{ site.interest.conference_location }}</p>
+
+      <!-- Days: own centered line -->
+      <div class="countdown-days-row">
+        <div class="countdown-unit">
+          <span class="number" id="cd-days">--</span>
+          <span class="label">days</span>
+        </div>
       </div>
-      <div class="countdown-unit">
-        <span class="number" id="cd-days">--</span>
-        <span class="label">days</span>
-      </div>
-      <div class="countdown-unit">
-        <span class="number" id="cd-hours">--</span>
-        <span class="label">hours</span>
-      </div>
-      <div class="countdown-unit">
-        <span class="number" id="cd-minutes">--</span>
-        <span class="label">minutes</span>
-      </div>
-      <div class="countdown-unit">
-        <span class="number" id="cd-seconds">--</span>
-        <span class="label">seconds</span>
+
+      <!-- Hours / Minutes / Seconds -->
+      <div class="countdown-hms-row">
+        <div class="countdown-unit">
+          <span class="number" id="cd-hours">--</span>
+          <span class="label">hours</span>
+        </div>
+        <div class="countdown-unit">
+          <span class="number" id="cd-minutes">--</span>
+          <span class="label">minutes</span>
+        </div>
+        <div class="countdown-unit">
+          <span class="number" id="cd-seconds">--</span>
+          <span class="label">seconds</span>
+        </div>
       </div>
     </div>
-
-    <div class="logos-placeholder">[ Logos will appear here ]</div>
   </div>
 
-  <!-- RIGHT: Google Form embed -->
+  <!-- RIGHT: Google Form -->
   <div class="interest-right">
-    <iframe
-      src="{{ site.interest.google_form_url }}"
-      title="Express Your Interest Form"
-      loading="lazy">
-      Loading form…
-    </iframe>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScjbcwskn_Zdk7d6-4baDb2v3dl7AFvXDWvFEelU7ObSIiUYg/viewform?embedded=true" width="640" height="1063" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
   </div>
 
-</div>
 </div>
 
 <script>
-  // ── Countdown ─────────────────────────────────────────────────
-  // Change conference_date in _config.yml to update the timer
   var targetDate = new Date("{{ site.interest.conference_date }}T00:00:00");
-
   function pad(n) { return String(n).padStart(2, "0"); }
-
   function updateCountdown() {
     var diff = targetDate - new Date();
     if (diff <= 0) {
-      ["cd-weeks","cd-days","cd-hours","cd-minutes","cd-seconds"]
+      ["cd-days","cd-hours","cd-minutes","cd-seconds"]
         .forEach(function(id){ document.getElementById(id).textContent = "00"; });
       return;
     }
@@ -181,10 +217,7 @@ published: true
     var h  = Math.floor(m / 60);
     var hc = h % 24;
     var d  = Math.floor(h / 24);
-    var w  = Math.floor(d / 7);
-    var dc = d % 7;
-    document.getElementById("cd-weeks").textContent   = pad(w);
-    document.getElementById("cd-days").textContent    = pad(dc);
+    document.getElementById("cd-days").textContent    = pad(d);
     document.getElementById("cd-hours").textContent   = pad(hc);
     document.getElementById("cd-minutes").textContent = pad(mc);
     document.getElementById("cd-seconds").textContent = pad(sc);

@@ -417,8 +417,18 @@ interest:
   # Enable email alerts: Responses tab → ⋮ → Get email notifications for new responses
   google_form_url: "https://docs.google.com/forms/d/e/1FAIpQLScjbcwskn_Zdk7d6-4baDb2v3dl7AFvXDWvFEelU7ObSIiUYg/viewform?embedded=true"
 
-  conference_date: "2027-03-20"    # ← countdown target date (YYYY-MM-DD)
+  conference_date: "2027-02-27"    # ← countdown target date (YYYY-MM-DD)
 
   conference_title: "IEEE VR 2027"
   conference_location: "Melbourne, Australia"
-  conference_dates_display: "Dates to be announced"
+  conference_dates_display: "February 27 – March 3, 2027"
+
+# ---------------------------------------------------------------
+# Site Banner Settings — shown at the top of every page
+# ---------------------------------------------------------------
+banner:
+  image: "/resources/backgrounds/backgroundImage.jpg"  # ← path to banner image
+  title_line1: "IEEE VR"          # ← large top line
+  title_line2: "2027"             # ← large second line
+  location: "Melbourne, Australia"
+  dates: "February 27 – March 3, 2027"

@@ -40,8 +40,118 @@ layout: default
   }
 </script>
 
+<style>
+  /* ── Site Banner ── */
+  .site-banner {
+    position: relative;
+    width: 100%;
+    height: 440px;           /* 10% taller than before — shows more image */
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 10px;        /* white gap at top of page */
+    margin-bottom: -44px;    /* nav overlaps the bottom of the image */
+    padding: 0;
+    border-radius: 28px;  /* rounded all corners */
+  }
+
+  /* image pinned to top so the top of the photo is always visible */
+  .site-banner__bg {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top center;
+    z-index: 0;
+  }
+
+  /* right-side gradient so white text stays readable */
+  .site-banner__overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to left, rgba(5,30,60,0.60) 0%, rgba(5,30,60,0.12) 50%, rgba(0,0,0,0) 100%);
+    z-index: 1;
+  }
+
+  /* text block — right-aligned, vertically centred */
+  .site-banner__content {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+    text-align: right;
+    padding: 1.5rem 3.5rem 1.5rem 1.5rem;
+    max-width: 520px;
+  }
+
+  .site-banner__title {
+    font-size: 4.4rem;
+    font-weight: 900;
+    line-height: 1;
+    margin: 0 0 0.3rem;
+    letter-spacing: 0.01em;
+    color: #ffffff;
+    text-shadow: 0 2px 10px rgba(0,0,0,0.4);
+  }
+
+  .site-banner__title .t-vr {
+    color: #56d8e8;   /* lighter cyan accent on white */
+  }
+
+  .site-banner__dates {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 0.25rem 0 0;
+    letter-spacing: 0.02em;
+    text-shadow: 0 1px 6px rgba(0,0,0,0.4);
+  }
+
+  .site-banner__location {
+    font-size: 1.05rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin: 0.2rem 0 0;
+    text-shadow: 0 1px 6px rgba(0,0,0,0.4);
+    text-align: center;
+    width: 100%;
+  }
+
+  /* nav sits on top of banner bottom edge */
+  .topnav {
+    position: relative;
+    z-index: 10;
+  }
+
+  @media (max-width: 600px) {
+    .site-banner { height: 260px; margin-bottom: -40px; justify-content: center; }
+    .site-banner__content { right: auto; left: 50%; transform: translate(-50%, -50%); text-align: center; padding: 1rem; }
+    .site-banner__title { font-size: 2.4rem; }
+    .site-banner__dates { font-size: 0.9rem; }
+    .site-banner__location { font-size: 0.8rem; }
+  }
+</style>
+
 <div id="main" role="main">
   <article class="splash" style="margin:0px;" itemscope itemtype="https://schema.org/CreativeWork">
+
+    <!-- site-wide banner -->
+    <div class="site-banner">
+      <img class="site-banner__bg" src="{{ site.banner.image | relative_url }}" alt="">
+      <div class="site-banner__overlay"></div>
+      <div class="site-banner__content">
+        <h1 class="site-banner__title">
+          <span class="t-ieee">IEEE </span><span class="t-vr">VR</span><span class="t-year"> 2027</span>
+        </h1>
+        <p class="site-banner__dates">{{ site.banner.dates }}</p>
+        <p class="site-banner__location">{{ site.banner.location }}</p>
+      </div>
+    </div>
 
     <!-- navbar -->
     <div class="topnav" id="myTopnav">
