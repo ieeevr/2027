@@ -3,10 +3,290 @@ layout: ieeevr-default
 title: "Home"
 subtitle: "IEEE VR 2027"
 title_separator: "|"
+aside_component: "home-countdown"
 ---
-<section class="home-intro">
-  <h2>IEEE VR 2027</h2>
-  <p>Dates to be announced. Location: Melbourne, Australia.</p>
-  <p>The IEEE Conference on Virtual Reality and 3D User Interfaces (IEEE VR) is the premier international venue for research and practice in virtual, augmented, and mixed reality.</p>
-  <p>Program details, calls for participation, and registration information will be published as plans are finalized.</p>
+<style>
+  .page__content .column.right {
+    text-align: left !important;
+  }
+
+  .home-shell {
+    color: var(--site-text);
+  }
+
+  .home-intro {
+    padding: 0.5rem 0 0;
+  }
+
+  .home-intro h2 {
+    margin: 0 0 1rem;
+    font-size: clamp(2rem, 3.6vw, 2.8rem);
+    font-weight: 900;
+    color: var(--site-primary);
+    letter-spacing: -0.02em;
+  }
+
+  .home-intro p {
+    max-width: 72rem;
+    margin: 0 0 1rem;
+    line-height: 1.68;
+    color: #324558;
+  }
+
+  .home-intro .lead {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #203246;
+  }
+
+  .page__content .column.right .home-countdown {
+    position: sticky;
+    top: 1rem;
+  }
+
+  .home-countdown {
+    width: 100%;
+    margin: 0;
+    padding: 1.4rem 1.35rem 1.3rem;
+    border: 1px solid #d7e2ee;
+    border-radius: 24px;
+    background:
+      radial-gradient(circle at top right, rgba(14, 118, 188, 0.14), transparent 36%),
+      linear-gradient(180deg, #ffffff 0%, #f6f9fd 100%);
+    box-shadow: 0 18px 48px rgba(16, 34, 58, 0.12);
+  }
+
+  .home-countdown__eyebrow {
+    margin: 0 0 0.35rem;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--site-primary-hover);
+  }
+
+  .home-countdown__title {
+    margin: 0.9rem 0 0;
+    font-size: 0.82rem;
+    font-weight: 700;
+    line-height: 1.3;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #5d738a;
+    text-align: center;
+  }
+
+  .home-countdown__days {
+    margin-bottom: 0.8rem;
+  }
+
+  .home-countdown__grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0.7rem;
+  }
+
+  .home-countdown__unit {
+    padding: 0.9rem 0.55rem 0.8rem;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.92);
+    border: 1px solid rgba(38, 34, 98, 0.08);
+    text-align: center;
+  }
+
+  .home-countdown__unit--days {
+    padding-block: 1rem 0.9rem;
+  }
+
+  .home-countdown__number {
+    display: block;
+    font-family: ui-monospace, SFMono-Regular, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size: 1.9rem;
+    font-weight: 900;
+    line-height: 1;
+    letter-spacing: -0.04em;
+    font-variant-numeric: tabular-nums;
+    color: var(--site-primary);
+  }
+
+  .home-countdown__unit--days .home-countdown__number {
+    font-size: 3.4rem;
+  }
+
+  .home-countdown__label {
+    display: block;
+    margin-top: 0.32rem;
+    font-size: 0.42rem;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    line-height: 1.15;
+    text-transform: uppercase;
+    color: #5d738a;
+    white-space: normal;
+    overflow-wrap: anywhere;
+  }
+
+  .home-interest-panel {
+    margin-top: 1.5rem;
+    border: 1px solid #dbe4ef;
+    border-radius: 28px;
+    overflow: hidden;
+    background: #ffffff;
+    box-shadow: 0 22px 60px rgba(13, 30, 52, 0.12);
+  }
+
+  .home-interest-panel__header {
+    padding: 1.4rem 1.6rem;
+    background:
+      linear-gradient(135deg, rgba(38, 34, 98, 0.96), rgba(14, 118, 188, 0.92));
+    color: #ffffff;
+  }
+
+  .home-interest-panel__header h3 {
+    margin: 0;
+    font-size: clamp(1.45rem, 2.8vw, 2rem);
+    font-weight: 900;
+    letter-spacing: -0.02em;
+  }
+
+  .home-interest-panel__header p {
+    margin: 0.45rem 0 0;
+    max-width: 48rem;
+    font-size: 0.88rem;
+    line-height: 1.65;
+    color: rgba(255, 255, 255, 0.88);
+  }
+
+  .home-interest-panel__body {
+    width: 100%;
+    background: #ffffff;
+  }
+
+  .home-interest-panel__image-wrap {
+    width: 100%;
+    overflow: hidden;
+    background: #eff4fb;
+  }
+
+  .home-interest-panel__image {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .home-interest-panel__form {
+    background: #ffffff;
+    padding: 0;
+    margin-top: 1rem;
+  }
+
+  .home-interest-panel__form iframe {
+    display: block;
+    width: 100%;
+    min-height: 1180px;
+    border: 0;
+    background: #ffffff;
+  }
+
+  @media (max-width: 900px) {
+    .page__content .column.left,
+    .page__content .column.right {
+      width: 100%;
+      float: none;
+      padding: 0;
+    }
+
+    .page__content .column.center {
+      display: none;
+    }
+
+    .page__content .column.right {
+      margin-top: 1.5rem;
+    }
+
+    .page__content .column.right .home-countdown {
+      position: static;
+    }
+
+    .home-interest-panel {
+      margin-top: 2rem;
+      border-radius: 22px;
+    }
+
+    .home-interest-panel__form iframe {
+      min-height: 1320px;
+    }
+  }
+
+  @media (max-width: 640px) {
+    .home-intro p {
+      font-size: 0.95rem;
+      line-height: 1.62;
+    }
+
+    .home-countdown {
+      padding: 1.2rem 1rem 1rem;
+      border-radius: 20px;
+    }
+
+    .home-countdown__grid {
+      gap: 0.55rem;
+    }
+
+    .home-countdown__unit {
+      padding: 0.8rem 0.45rem 0.7rem;
+      border-radius: 14px;
+    }
+
+    .home-countdown__number {
+      font-size: 1.55rem;
+    }
+
+    .home-countdown__unit--days .home-countdown__number {
+      font-size: 2.8rem;
+    }
+
+    .home-countdown__label {
+      font-size: 0.42rem;
+      letter-spacing: 0.02em;
+    }
+
+    .home-interest-panel__header {
+      padding: 1.15rem 1rem;
+    }
+
+    .home-interest-panel__form iframe {
+      max-width: 100%;
+      min-height: 1460px;
+    }
+  }
+</style>
+
+<section class="home-shell">
+  <section class="home-intro">
+    <p class="lead">{{ site.interest.conference_title }} will take place in {{ site.interest.conference_location }} from {{ site.interest.conference_dates_display }}.</p>
+    <p>The IEEE Conference on Virtual Reality and 3D User Interfaces is the premier international venue for advances in virtual, augmented, and mixed reality.</p>
+    <p>The 2027 conference will bring together researchers, practitioners, artists, and industry leaders for a week of papers, posters, demos, workshops, tutorials, and community events in Melbourne.</p>
+    <p>Calls for participation, travel guidance, and registration information will be published here as plans are finalized. If you would like to hear when updates go live, you can leave your details in the form below.</p>
+  </section>
+
+  <section class="home-interest-panel" aria-labelledby="home-interest-title">
+    <div class="home-interest-panel__header">
+      <h3 id="home-interest-title">Express Your Interest</h3>
+      <p>Use the form below if you would like updates about IEEE VR 2027 announcements, participation opportunities, and key deadlines!</p>
+    </div>
+
+    <div class="home-interest-panel__body">
+      <div class="home-interest-panel__image-wrap">
+        <img class="home-interest-panel__image" src="{{ '/assets/images/backgrounds/VR2027.webp' | relative_url }}" alt="{{ site.interest.conference_title }} banner artwork">
+      </div>
+
+      <div class="home-interest-panel__form">
+        <iframe src="{{ site.interest.google_form_url }}" title="IEEE VR 2027 interest form" loading="lazy" referrerpolicy="strict-origin-when-cross-origin">Loading…</iframe>
+      </div>
+    </div>
+  </section>
 </section>

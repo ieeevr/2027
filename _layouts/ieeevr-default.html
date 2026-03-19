@@ -40,8 +40,136 @@ layout: default
   }
 </script>
 
+<style>
+  /* ── Site Banner ── */
+  .site-banner {
+    position: relative;
+    width: 100%;
+    height: 440px;           /* 10% taller than before — shows more image */
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 1rem;       /* white gap at top of page */
+    margin-bottom: -44px;    /* nav overlaps the bottom of the image */
+    padding: 0;
+    border-radius: 28px;  /* rounded all corners */
+  }
+
+  /* image pinned to top so the top of the photo is always visible */
+  .site-banner__bg {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top center;
+    z-index: 0;
+  }
+
+  /* right-side gradient so white text stays readable */
+  .site-banner__overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to left, rgba(5,30,60,0.60) 0%, rgba(5,30,60,0.12) 50%, rgba(0,0,0,0) 100%);
+    z-index: 1;
+  }
+
+  /* text block — right-aligned, vertically centred */
+  .site-banner__content {
+    position: absolute;
+    right: 0;
+    top: 45%;
+    transform: translateY(-50%);
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+    padding: 1.5rem 3.5rem 1.5rem 1.5rem;
+    width: min(100%, 520px);
+    max-width: 520px;
+    box-sizing: border-box;
+  }
+
+  .site-banner__title {
+    font-size: 4.4rem;
+    font-weight: 900;
+    line-height: 1;
+    padding: 0 0 0.3rem;
+    margin: 0;
+    letter-spacing: 0.01em;
+    color: #ffffff;
+    text-shadow: 0 2px 10px rgba(0,0,0,0.4);
+    width: 100%;
+    text-align: inherit;
+  }
+
+  .site-banner__title .t-vr {
+    color: #56d8e8;   /* lighter cyan accent on white */
+  }
+
+  .site-banner__dates {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 0.25rem 0 0;
+    letter-spacing: 0.02em;
+    text-shadow: 0 1px 6px rgba(0,0,0,0.4);
+    width: 100%;
+    text-align: inherit;
+  }
+
+  .site-banner__location {
+    font-size: 1.05rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin: 0.2rem 0 0;
+    text-shadow: 0 1px 6px rgba(0,0,0,0.4);
+    text-align: inherit;
+    width: 100%;
+  }
+
+  /* nav sits on top of banner bottom edge */
+  .topnav {
+    position: relative;
+    z-index: 10;
+  }
+
+  @media (max-width: 600px) {
+    .site-banner { height: 260px; margin-bottom: -40px; justify-content: center; }
+    .site-banner__content {
+      right: auto;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: min(calc(100% - 1rem), 390px);
+      align-items: center;
+      text-align: center;
+      padding: 1rem 1.1rem;
+    }
+    .site-banner__title { font-size: clamp(2.15rem, 9vw, 2.6rem); line-height: 1.05; }
+    .site-banner__dates { font-size: 0.98rem; }
+    .site-banner__location { font-size: 0.82rem; letter-spacing: 0.06em; }
+  }
+</style>
+
 <div id="main" role="main">
   <article class="splash" style="margin:0px;" itemscope itemtype="https://schema.org/CreativeWork">
+
+    <!-- site-wide banner -->
+    <div class="site-banner">
+      <img class="site-banner__bg" src="{{ site.banner.image | relative_url }}" alt="">
+      <div class="site-banner__overlay"></div>
+      <div class="site-banner__content">
+        <h1 class="site-banner__title">
+          <span class="t-ieee">IEEE </span><span class="t-vr">VR</span><span class="t-year"> 2027</span>
+        </h1>
+        <p class="site-banner__dates">{{ site.banner.dates }}</p>
+        <p class="site-banner__location">{{ site.banner.location }}</p>
+      </div>
+    </div>
 
     <!-- navbar -->
     <div class="topnav" id="myTopnav">
@@ -57,11 +185,15 @@ layout: default
           {% if link.url %}
             {% assign linked_page = site.pages | where: "url", link.url | first %}
           {% endif %}
-          {% assign page_draft = false %}
+          {% assign page_hidden = false %}
           {% if linked_page %}
             {% if linked_page.published == false %}
-              {% assign page_draft = true %}
+              {% assign page_hidden = true %}
             {% endif %}
+          {% endif %}
+          {% assign link_has_target = false %}
+          {% if link_external or linked_page %}
+            {% assign link_has_target = true %}
           {% endif %}
 
           {% if link.children %}
@@ -74,13 +206,17 @@ layout: default
               {% if child.url %}
                 {% assign child_page = site.pages | where: "url", child.url | first %}
               {% endif %}
-              {% assign child_page_draft = false %}
+              {% assign child_page_hidden = false %}
               {% if child_page %}
                 {% if child_page.published == false %}
-                  {% assign child_page_draft = true %}
+                  {% assign child_page_hidden = true %}
                 {% endif %}
               {% endif %}
-              {% if child_show and child_published != false and child_page_draft != true and (child_external or child_page) %}
+              {% assign child_has_target = false %}
+              {% if child_external or child_page %}
+                {% assign child_has_target = true %}
+              {% endif %}
+              {% if child_show and child_published != false and child_page_hidden != true and child_has_target %}
                 {% assign has_visible_children = true %}
               {% endif %}
             {% endfor %}
@@ -97,13 +233,17 @@ layout: default
                     {% if child.url %}
                       {% assign child_page = site.pages | where: "url", child.url | first %}
                     {% endif %}
-                    {% assign child_page_draft = false %}
+                    {% assign child_page_hidden = false %}
                     {% if child_page %}
                       {% if child_page.published == false %}
-                        {% assign child_page_draft = true %}
+                        {% assign child_page_hidden = true %}
                       {% endif %}
                     {% endif %}
-                    {% if child_show and child_published != false and child_page_draft != true and (child_external or child_page) %}
+                    {% assign child_has_target = false %}
+                    {% if child_external or child_page %}
+                      {% assign child_has_target = true %}
+                    {% endif %}
+                    {% if child_show and child_published != false and child_page_hidden != true and child_has_target %}
                       <a href="{% if child_external %}{{ child.url }}{% else %}{{ child.url | relative_url }}{% endif %}">{{ child.title }}</a>
                     {% endif %}
                   {% endfor %}
@@ -111,7 +251,7 @@ layout: default
               </div>
             {% endif %}
           {% else %}
-            {% if link_show and link_published != false and page_draft != true and (link_external or linked_page) %}
+            {% if link_show and link_published != false and page_hidden != true and link_has_target %}
               <a href="{% if link_external %}{{ link.url }}{% else %}{{ link.url | relative_url }}{% endif %}">{{ link.title }}</a>
             {% endif %}
           {% endif %}
@@ -132,6 +272,9 @@ layout: default
 
         <!-- right -->
         <div class="column right alignCenter">
+          {% if page.aside_component == "home-countdown" %}
+            {% include home-countdown.html %}
+          {% endif %}
           {% if site.sidebar_note %}
             <p class="sidebar-note">{{ site.sidebar_note }}</p>
           {% endif %}

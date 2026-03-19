@@ -1,0 +1,66 @@
+<aside class="home-countdown" aria-labelledby="homepage-countdown-title">
+  <div class="home-countdown__days">
+    <div class="home-countdown__unit home-countdown__unit--days">
+      <span class="home-countdown__number" id="home-cd-days">--</span>
+      <span class="home-countdown__label">Days</span>
+    </div>
+  </div>
+
+  <div class="home-countdown__grid" aria-label="Countdown in hours, minutes, and seconds">
+    <div class="home-countdown__unit">
+      <span class="home-countdown__number" id="home-cd-hours">--</span>
+      <span class="home-countdown__label">Hours</span>
+    </div>
+    <div class="home-countdown__unit">
+      <span class="home-countdown__number" id="home-cd-minutes">--</span>
+      <span class="home-countdown__label">Minutes</span>
+    </div>
+    <div class="home-countdown__unit">
+      <span class="home-countdown__number" id="home-cd-seconds">--</span>
+      <span class="home-countdown__label">Seconds</span>
+    </div>
+  </div>
+
+  <h3 class="home-countdown__title" id="homepage-countdown-title">Until {{ site.interest.conference_title }}</h3>
+</aside>
+
+<script>
+  var homeTargetDate = new Date("{{ site.interest.conference_date }}T00:00:00");
+
+  function homePadCountdownValue(value) {
+    return String(value).padStart(2, "0");
+  }
+
+  function homeUpdateCountdown() {
+    var diff = homeTargetDate - new Date();
+    var ids = [
+      "home-cd-days",
+      "home-cd-hours",
+      "home-cd-minutes",
+      "home-cd-seconds"
+    ];
+
+    if (diff <= 0) {
+      ids.forEach(function(id) {
+        document.getElementById(id).textContent = "00";
+      });
+      return;
+    }
+
+    var totalSeconds = Math.floor(diff / 1000);
+    var seconds = totalSeconds % 60;
+    var totalMinutes = Math.floor(totalSeconds / 60);
+    var minutes = totalMinutes % 60;
+    var totalHours = Math.floor(totalMinutes / 60);
+    var hours = totalHours % 24;
+    var days = Math.floor(totalHours / 24);
+
+    document.getElementById("home-cd-days").textContent = homePadCountdownValue(days);
+    document.getElementById("home-cd-hours").textContent = homePadCountdownValue(hours);
+    document.getElementById("home-cd-minutes").textContent = homePadCountdownValue(minutes);
+    document.getElementById("home-cd-seconds").textContent = homePadCountdownValue(seconds);
+  }
+
+  homeUpdateCountdown();
+  setInterval(homeUpdateCountdown, 1000);
+</script>
