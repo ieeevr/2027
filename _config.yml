@@ -415,7 +415,7 @@ interest:
 # Site Banner Settings — shown at the top of every page
 # ---------------------------------------------------------------
 banner:
-  image: "/resources/backgrounds/backgroundImage.jpg"  # ← path to banner image
+  image: "/assets/images/backgrounds/backgroundImage.webp"  # ← path to banner image
   title_line1: "IEEE VR"          # ← large top line
   title_line2: "2027"             # ← large second line
   location: "Melbourne, Australia"
