@@ -117,16 +117,28 @@ img {
 	display: none;
 }
 .topnav a.icon {
-	float: right;
+	float: none;
 	display: block;
-	margin-right: 35px;
+	margin-right: 0;
 	height: 53px;
 	width: 50px;
 	line-height: 25px;
+	position: absolute;
+	right: 12px;
+	top: 0;
 }
 .topnav {
     border-radius: 0px 0px 20px 20px;
+    padding-left: 0;
+    position: relative;
 }	 
+.topnav:not(.responsive) > a:first-child {
+	float: none;
+	display: block;
+	text-align: center;
+	padding-left: 72px;
+	padding-right: 72px;
+}
 }
  @media screen and (max-width: 600px) {
 .topnav.responsive {
@@ -134,9 +146,9 @@ img {
 }
 .topnav.responsive .icon {
 	position: absolute;
-	right: 0;
+	right: 12px;
 	top: 0;
-	height: inherit;
+	height: 53px;
 }
 .topnav.responsive a {
 	float: none;

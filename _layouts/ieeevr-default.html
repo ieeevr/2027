@@ -79,22 +79,30 @@ layout: default
   .site-banner__content {
     position: absolute;
     right: 0;
-    top: 50%;
+    top: 45%;
     transform: translateY(-50%);
     z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
     text-align: right;
     padding: 1.5rem 3.5rem 1.5rem 1.5rem;
+    width: min(100%, 520px);
     max-width: 520px;
+    box-sizing: border-box;
   }
 
   .site-banner__title {
     font-size: 4.4rem;
     font-weight: 900;
     line-height: 1;
-    margin: 0 0 0.3rem;
+    padding: 0 0 0.3rem;
+    margin: 0;
     letter-spacing: 0.01em;
     color: #ffffff;
     text-shadow: 0 2px 10px rgba(0,0,0,0.4);
+    width: 100%;
+    text-align: inherit;
   }
 
   .site-banner__title .t-vr {
@@ -108,6 +116,8 @@ layout: default
     margin: 0.25rem 0 0;
     letter-spacing: 0.02em;
     text-shadow: 0 1px 6px rgba(0,0,0,0.4);
+    width: 100%;
+    text-align: inherit;
   }
 
   .site-banner__location {
@@ -118,7 +128,7 @@ layout: default
     color: #ffffff;
     margin: 0.2rem 0 0;
     text-shadow: 0 1px 6px rgba(0,0,0,0.4);
-    text-align: center;
+    text-align: inherit;
     width: 100%;
   }
 
@@ -130,10 +140,18 @@ layout: default
 
   @media (max-width: 600px) {
     .site-banner { height: 260px; margin-bottom: -40px; justify-content: center; }
-    .site-banner__content { right: auto; left: 50%; transform: translate(-50%, -50%); text-align: center; padding: 1rem; }
-    .site-banner__title { font-size: 2.4rem; }
-    .site-banner__dates { font-size: 0.9rem; }
-    .site-banner__location { font-size: 0.8rem; }
+    .site-banner__content {
+      right: auto;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: min(calc(100% - 1rem), 390px);
+      align-items: center;
+      text-align: center;
+      padding: 1rem 1.1rem;
+    }
+    .site-banner__title { font-size: clamp(2.15rem, 9vw, 2.6rem); line-height: 1.05; }
+    .site-banner__dates { font-size: 0.98rem; }
+    .site-banner__location { font-size: 0.82rem; letter-spacing: 0.06em; }
   }
 </style>
 
