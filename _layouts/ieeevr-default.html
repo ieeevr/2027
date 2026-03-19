@@ -185,11 +185,15 @@ layout: default
           {% if link.url %}
             {% assign linked_page = site.pages | where: "url", link.url | first %}
           {% endif %}
-          {% assign page_draft = false %}
+          {% assign page_hidden = false %}
           {% if linked_page %}
             {% if linked_page.published == false %}
-              {% assign page_draft = true %}
+              {% assign page_hidden = true %}
             {% endif %}
+          {% endif %}
+          {% assign link_has_target = false %}
+          {% if link_external or linked_page %}
+            {% assign link_has_target = true %}
           {% endif %}
 
           {% if link.children %}
@@ -202,13 +206,17 @@ layout: default
               {% if child.url %}
                 {% assign child_page = site.pages | where: "url", child.url | first %}
               {% endif %}
-              {% assign child_page_draft = false %}
+              {% assign child_page_hidden = false %}
               {% if child_page %}
                 {% if child_page.published == false %}
-                  {% assign child_page_draft = true %}
+                  {% assign child_page_hidden = true %}
                 {% endif %}
               {% endif %}
-              {% if child_show and child_published != false and child_page_draft != true and (child_external or child_page) %}
+              {% assign child_has_target = false %}
+              {% if child_external or child_page %}
+                {% assign child_has_target = true %}
+              {% endif %}
+              {% if child_show and child_published != false and child_page_hidden != true and child_has_target %}
                 {% assign has_visible_children = true %}
               {% endif %}
             {% endfor %}
@@ -225,13 +233,17 @@ layout: default
                     {% if child.url %}
                       {% assign child_page = site.pages | where: "url", child.url | first %}
                     {% endif %}
-                    {% assign child_page_draft = false %}
+                    {% assign child_page_hidden = false %}
                     {% if child_page %}
                       {% if child_page.published == false %}
-                        {% assign child_page_draft = true %}
+                        {% assign child_page_hidden = true %}
                       {% endif %}
                     {% endif %}
-                    {% if child_show and child_published != false and child_page_draft != true and (child_external or child_page) %}
+                    {% assign child_has_target = false %}
+                    {% if child_external or child_page %}
+                      {% assign child_has_target = true %}
+                    {% endif %}
+                    {% if child_show and child_published != false and child_page_hidden != true and child_has_target %}
                       <a href="{% if child_external %}{{ child.url }}{% else %}{{ child.url | relative_url }}{% endif %}">{{ child.title }}</a>
                     {% endif %}
                   {% endfor %}
@@ -239,7 +251,7 @@ layout: default
               </div>
             {% endif %}
           {% else %}
-            {% if link_show and link_published != false and page_draft != true and (link_external or linked_page) %}
+            {% if link_show and link_published != false and page_hidden != true and link_has_target %}
               <a href="{% if link_external %}{{ link.url }}{% else %}{{ link.url | relative_url }}{% endif %}">{{ link.title }}</a>
             {% endif %}
           {% endif %}

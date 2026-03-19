@@ -8,21 +8,27 @@
 //dark blue:  #00204b
 //warning red: #841525
 
-// The colours in the 2022 color scheme
-$theme-yellow: #14b2d7;
-$theme-yellow-light: #fffbed;
-$theme-teal: #009cb4;
-$theme-navy: #103b62;
+// Shared IEEE VR 2027 theme colors
+$theme-primary: #262262;
+$theme-primary-hover: #0e76bc;
+$theme-primary-tint: #e8f2fb;
 $theme-text: #363636;
 
-$link-color: $theme-teal !default;
-$primary-color: $theme-yellow !default;
+$link-color: $theme-primary-hover !default;
+$primary-color: $theme-primary !default;
 $warning-color: #841525 !default;
 
 //$link-color: #00aeef !default;
 //$primary-color: #00aeef !default;
 //$warning-color: #841525 !default;
 
+
+:root {
+  --site-primary: #{$theme-primary};
+  --site-primary-hover: #{$theme-primary-hover};
+  --site-primary-tint: #{$theme-primary-tint};
+  --site-text: #{$theme-text};
+}
 
 #myBtnTop { // move to the top button
   display: none;
@@ -33,8 +39,8 @@ $warning-color: #841525 !default;
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: $theme-yellow;
-  color: $theme-text;
+  background-color: $theme-primary;
+  color: #fff;
   cursor: pointer;
   padding: 15px;
   border-color: 1px solid white;
@@ -43,26 +49,25 @@ $warning-color: #841525 !default;
 
 @media(hover: hover) and (pointer: fine){
     #myBtnTop:hover {
-    background-color: $theme-navy;
-    color: #f2f2f2;
+    background-color: $theme-primary-hover;
+    color: #fff;
     }
 }
 
 b, strong {
-    color: $theme-yellow;
+    color: $theme-primary;
 }
 
 
 ::-moz-selection { /* Code for Firefox */
-  color: $theme-text;
-  background: $theme-yellow;
+  color: #fff;
+  background: $theme-primary-hover;
 }
 
 ::selection {
-  color: $theme-text;
-  background: $theme-yellow;
+  color: #fff;
+  background: $theme-primary-hover;
 }
-
 
 
 

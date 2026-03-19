@@ -2,7 +2,7 @@
 layout: ieeevr-default
 title: "Conference Committee"
 title_separator: "|"
-published: true
+published: false
 ---
 
 <style>

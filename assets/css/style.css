@@ -1,4 +1,10 @@
 /* From default layout */
+:root {
+	--site-primary: #262262;
+	--site-primary-hover: #0e76bc;
+	--site-primary-tint: #e8f2fb;
+	--site-text: #363636;
+}
 p {
 	text-align: left;
 }
@@ -7,13 +13,18 @@ img {
 	height: auto
 }
 .topnav {
-	overflow: hidden;
-	background-color: #262188;
+	overflow: visible;
+	background-color: var(--site-primary);
 	border-radius: 0px 0px 40px 40px;
 	color: white;
-	padding-left: 5px;
+	padding-left: 0;
 	margin-bottom: 20px;
 	cursor: pointer;
+}
+.topnav:after {
+	content: "";
+	display: table;
+	clear: both;
 }
 .topnav a {
 	float: left;
@@ -25,10 +36,18 @@ img {
 	font-size: 17px;
 	font-weight: bold;
 }
-.topnav a:hover,  .dropdown:hover .dropbtn {
-	background-color: #262188 !important;
+.topnav > a,
+.dropdown .dropbtn {
+	background-color: var(--site-primary);
+}
+.topnav > a:hover,
+.dropdown:hover .dropbtn {
+	background-color: var(--site-primary-hover) !important;
 	color: #fff !important;
 	font-weight: bold;
+}
+.topnav > a:first-child {
+	border-bottom-left-radius: 40px;
 }
 .topnav a:visited {
 	color: white;
@@ -41,7 +60,8 @@ img {
 }
 .dropdown {
 	float: left;
-	overflow: hidden;
+	position: relative;
+	overflow: visible;
 }
 .dropdown .dropbtn {
 	font-size: 17px;
@@ -50,18 +70,21 @@ img {
 	color: white;
 	font-weight: bold;
 	padding: 16px 10px;
-	background-color: #262188;
 	font-family: inherit;
 	margin: 0;
+	cursor: pointer;
 }
 .dropdown-content {
 	display: none;
 	position: absolute;
+	top: 100%;
+	left: 0;
 	background-color: #f3f3f3;
 	min-width: 160px;
 	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 	z-index: 11;
 	line-height: 1;
+	white-space: nowrap;
 }
 .dropdown-content a {
 	float: none;
@@ -138,6 +161,7 @@ img {
 	text-align: center;
 	padding-left: 72px;
 	padding-right: 72px;
+	border-bottom-left-radius: 20px;
 }
 }
  @media screen and (max-width: 600px) {
@@ -162,6 +186,11 @@ img {
 }
 .topnav.responsive .dropdown-content {
 	position: relative;
+	top: auto;
+	left: auto;
+	min-width: 0;
+	box-shadow: none;
+	white-space: normal;
 }
 .topnav.responsive .dropdown-content a {
 	margin-right: 0px;
@@ -179,7 +208,7 @@ b, strong {
 	margin-top: 20px;
 	padding: 0px;
 	border-radius: 40px 40px 0px 0px;
-	border: 1px solid #262188
+	border: 1px solid var(--site-primary)
 }
 .column {
 	float: left;
@@ -249,34 +278,34 @@ b, strong {
 }
 .emailIconSm {
 	font-size: 0.6em;
-	color: #e70087;
+	color: var(--site-primary);
 }
 .emailTextSm {
 	font-size: 0.9em;
-	color: #e70087;
+	color: var(--site-primary);
 	font-weight: bold;/*text-transform: uppercase;*/
 }
 .emailTextSm a {
-	color: #e70087;
+	color: var(--site-primary);
 }
 .emailText {
 	font-size: 0.9em;
-	color: #e70087;
+	color: var(--site-primary);
 	font-weight: bold;
 	text-transform: uppercase;
 }
 .emailText a {
-	color: #e70087;
+	color: var(--site-primary);
 }
 .emailIcon {
 	font-size: 0.9em;
-	color: #e70087;
+	color: var(--site-primary);
 }
 .pink {
-	color: #e70087 !important;
+	color: var(--site-primary) !important;
 }
 .ieeevrmsgbox { /* Any boxes with the theme-primary color as background */
-	background-color: #e70087;
+	background-color: var(--site-primary);
 	;
 	border-radius: 7px;
 	padding: 25px;
@@ -286,7 +315,7 @@ b, strong {
 	background-color: #FFF;
 	border-radius: 7px;
 	padding: 25px;
-	color: #066569;
+	color: var(--site-primary-hover);
 }
 .ieeevrmsgboxInsideNoColor { /* Any boxes with the theme-primary color as background */
 	background-color: #FFF;
@@ -294,17 +323,17 @@ b, strong {
 	padding: 15px;
 }
 .ieeevrmsgboxInsideYellow { /* Any boxes with the theme-primary color as background */
-	background-color: #fbedb5;
+	background-color: var(--site-primary-tint);
 	border-radius: 7px;
 	padding: 25px;
-	color: #066569;
+	color: var(--site-primary-hover);
 }
 .ieeevrmsgboxHR {
 	width: 50% !important;
 	margin: 10px auto;
 }
 .emphasize {
-	color: #e70087;
+	color: var(--site-primary);
 }
 .notice--text {
 	background-color: #f3f3f3 ! important;
@@ -495,7 +524,7 @@ b, strong {
 	font-size: 18px;
 	border: none;
 	outline: none;
-	background-color: #e70087;
+	background-color: var(--site-primary);
 	color: #fff;
 	cursor: pointer;
 	padding: 15px;
@@ -504,7 +533,7 @@ b, strong {
 }
  @media (hover: hover) and (pointer: fine) {
 #myBtnTop:hover {
-	background-color: #066569;
+	background-color: var(--site-primary-hover);
 	color: #fff;
 }
 }
@@ -2393,7 +2422,7 @@ figcaption {
 	left: 0;
 	bottom: 0;
 	height: 4px;
-	background: #e70087;
+	background: var(--site-primary);
 	width: 100%;
 	-webkit-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
