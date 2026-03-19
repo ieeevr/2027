@@ -262,8 +262,6 @@ navigation:
           url: /sponsors/exhibitor-area/
         - title: "Sponsors List"
           url: /sponsors/sponsors-list/
-    - title: "Interest"
-      url: /interest/
     - title: "Store"
       url: /store/
     - title: "Past Conferences"

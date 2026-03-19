@@ -50,7 +50,7 @@ layout: default
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    margin-top: 10px;        /* white gap at top of page */
+    margin-top: 1rem;       /* white gap at top of page */
     margin-bottom: -44px;    /* nav overlaps the bottom of the image */
     padding: 0;
     border-radius: 28px;  /* rounded all corners */
@@ -272,6 +272,9 @@ layout: default
 
         <!-- right -->
         <div class="column right alignCenter">
+          {% if page.aside_component == "home-countdown" %}
+            {% include home-countdown.html %}
+          {% endif %}
           {% if site.sidebar_note %}
             <p class="sidebar-note">{{ site.sidebar_note }}</p>
           {% endif %}
