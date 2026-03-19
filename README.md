@@ -5,7 +5,7 @@ This repository contains the IEEE VR 2027 conference website (Melbourne, Austral
 ## Local Development
 
 Prerequisites:
-- Ruby (3.x recommended)
+- Ruby (4.x recommended)
 - Bundler (`gem install bundler`)
 
 Install dependencies:
