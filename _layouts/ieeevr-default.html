@@ -6,7 +6,7 @@ layout: default
 <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}?version=20240318">
 <link rel="stylesheet" href="{{ '/assets/css/tableStyles.css' | relative_url }}?version=20240318">
-<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}?version=20250801">
+<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}?version=20260320">
 
 <button onclick="topFunction()" id="myBtnTop" title="Go to top">Top</button>
 
@@ -30,14 +30,78 @@ layout: default
       document.documentElement.scrollTop = 0;
   }
 
+  function closeMobileDropdowns() {
+      var nav = document.getElementById("myTopnav");
+      if (!nav) {
+          return;
+      }
+
+      if (nav.contains(document.activeElement) && typeof document.activeElement.blur === "function") {
+          document.activeElement.blur();
+      }
+
+      nav.querySelectorAll(".dropdown").forEach(function(dropdown) {
+          dropdown.classList.remove("is-open");
+      });
+
+      nav.querySelectorAll(".dropbtn").forEach(function(button) {
+          button.setAttribute("aria-expanded", "false");
+      });
+  }
+
   function myFunction() {
-      var x = document.getElementById("myTopnav");
-      if (x.className === "topnav") {
-          x.className += " responsive";
-      } else {
-          x.className = "topnav";
+      var nav = document.getElementById("myTopnav");
+      if (!nav) {
+          return;
+      }
+
+      var isResponsive = nav.classList.toggle("responsive");
+      if (!isResponsive) {
+          closeMobileDropdowns();
       }
   }
+
+  document.addEventListener("DOMContentLoaded", function() {
+      var nav = document.getElementById("myTopnav");
+      if (!nav) {
+          return;
+      }
+
+      nav.querySelectorAll(".dropdown .dropbtn").forEach(function(button) {
+          button.addEventListener("click", function(event) {
+              if (window.innerWidth > 600) {
+                  return;
+              }
+
+              event.preventDefault();
+
+              var dropdown = button.parentElement;
+              var isOpen = dropdown.classList.contains("is-open");
+
+              closeMobileDropdowns();
+
+              if (!isOpen) {
+                  dropdown.classList.add("is-open");
+                  button.setAttribute("aria-expanded", "true");
+              }
+          });
+      });
+
+      document.addEventListener("click", function(event) {
+          if (window.innerWidth > 600 || nav.contains(event.target)) {
+              return;
+          }
+
+          closeMobileDropdowns();
+      });
+
+      window.addEventListener("resize", function() {
+          if (window.innerWidth > 600) {
+              nav.classList.remove("responsive");
+              closeMobileDropdowns();
+          }
+      });
+  });
 </script>
 
 <style>
@@ -223,7 +287,7 @@ layout: default
 
             {% if link_show and link_published != false and has_visible_children %}
               <div class="dropdown">
-                <button class="dropbtn">{{ link.title }} &#9662;</button>
+                <button class="dropbtn" type="button" aria-expanded="false" aria-haspopup="true">{{ link.title }} &#9662;</button>
                 <div class="dropdown-content">
                   {% for child in link.children %}
                     {% assign child_show = child.show | default: true %}
