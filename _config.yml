@@ -222,10 +222,10 @@ navigation:
           url: /contribute/FutureFacultyForum/
         - title: "Call for Proposals"
           url: /contribute/proposals/
+    - title: "VGTC Awards"
+      url: /awards/vgtc/
     - title: "Awards"
       children:
-        - title: "VGTC Awards"
-          url: /awards/vgtc/
         - title: "Conference Awards"
           url: /awards/conference-awards/
     - title: "Committees"
