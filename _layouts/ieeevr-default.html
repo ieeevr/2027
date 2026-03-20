@@ -263,22 +263,23 @@ layout: default
 
     <!-- content -->
     <section class="page__content" itemprop="text">
-      <div class="row">
+      {% capture sidebar_content %}{% include sidebar-widgets.html %}{% endcapture %}
+      {% assign sidebar_content = sidebar_content | strip %}
+
+      <div class="row{% if sidebar_content == '' %} row--full-width{% endif %}">
         <!-- left -->
         <div class="column left">
           {{ content }}
         </div>
-        <div class="column center"></div>
 
-        <!-- right -->
-        <div class="column right alignCenter">
-          {% if page.aside_component == "home-countdown" %}
-            {% include home-countdown.html %}
-          {% endif %}
-          {% if site.sidebar_note %}
-            <p class="sidebar-note">{{ site.sidebar_note }}</p>
-          {% endif %}
-        </div>
+        {% unless sidebar_content == '' %}
+          <div class="column center" aria-hidden="true"></div>
+
+          <!-- right -->
+          <div class="column right">
+            {{ sidebar_content }}
+          </div>
+        {% endunless %}
       </div>
 
       <!-- footer -->
