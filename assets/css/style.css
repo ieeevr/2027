@@ -3590,8 +3590,8 @@ body {
 .page__content h1:hover .header-link, .page__content h2:hover .header-link, .page__content h3:hover .header-link, .page__content h4:hover .header-link, .page__content h5:hover .header-link, .page__content h6:hover .header-link {
 	opacity: 1
 }
-.page__content p, .page__content li, .page__content dl {
-	font-size: 0.8em
+.page__content p, .page__content ul, .page__content ol, .page__content li, .page__content dl {
+	font-size: 0.9em
 }
 .page__content p {
 	margin: 0 0 1.3em;
