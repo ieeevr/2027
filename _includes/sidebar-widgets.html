@@ -1,0 +1,24 @@
+{% assign default_sidebar_widgets = "home-countdown" | split: "|" %}
+{% assign sidebar_widgets = site.sidebar_widgets | default: default_sidebar_widgets %}
+{% if page.sidebar_widgets != nil %}
+  {% assign sidebar_widgets = page.sidebar_widgets %}
+{% endif %}
+
+{% if sidebar_widgets.size > 0 or site.sidebar_note %}
+  <div class="sidebar-widgets">
+    {% for widget in sidebar_widgets %}
+      {% case widget %}
+        {% when "home-countdown" %}
+          <div class="sidebar-widget">
+            {% include home-countdown.html %}
+          </div>
+      {% endcase %}
+    {% endfor %}
+
+    {% if site.sidebar_note %}
+      <div class="sidebar-widget">
+        <p class="sidebar-note">{{ site.sidebar_note }}</p>
+      </div>
+    {% endif %}
+  </div>
+{% endif %}

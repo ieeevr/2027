@@ -391,6 +391,8 @@ compress_html:
   ignore:
     envs: development
 
+sidebar_widgets:
+  - home-countdown
 
 # Defaults
 defaults:
