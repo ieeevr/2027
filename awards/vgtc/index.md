@@ -13,7 +13,7 @@ An overview of the awards and the criteria for each can be found [here](https://
 
 ## Call for Nominations for 2027 IEEE VR Awards and VR Academy
 
-Nominations for the 2027 Awards are open now. Award and Academy criteria and nomination forms are linked below. We invite and encourage members of the Virtual Reality and Mixed Reality community to nominate individuals for the 2027 IEEE VGTC VR Awards and/or for Academy Membership. Self-nomination is allowed. The awards will be presented at the IEEE VR 2027 conference.
+Nominations for the 2027 IEEE VR and VR Academy Awards are open now. Award and Academy criteria and nomination forms are linked below. We invite and encourage members of the Virtual Reality and Mixed Reality community to nominate individuals for the 2027 IEEE VGTC VR Awards and/or for Academy Membership. Self-nomination is allowed. The awards will be presented at the IEEE VR 2027 conference.
 
 ## Nomination Deadlines
 
