@@ -14,10 +14,10 @@ Install dependencies:
 bundle install
 ```
 
-Run the site locally:
+Run the site locally: 
 
 ```bash
-bundle exec jekyll serve --livereload --config _config.yml,_config.local.yml
+npm run dev
 ```
 
 The site will be available at `http://localhost:4000`.
