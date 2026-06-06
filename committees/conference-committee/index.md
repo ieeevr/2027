@@ -37,6 +37,13 @@ published: true
     color: #262188;
     text-decoration: none;
     white-space: nowrap;
+    cursor: pointer;
+    display: none;
+  }
+
+  .committee-section .section-email:hover {
+    color: #007a8c;
+    text-decoration: underline;
   }
 
   .committee-section .section-email:hover {
@@ -251,6 +258,7 @@ published: true
 
 <div class="committee-section">
   <h2>Posters Chairs</h2>
+  <a class="section-email" href="mailto:posters2027@ieeevr.org">posters2027@ieeevr.org</a>
 </div>
 <div class="committee-grid">
   <div class="committee-member">
@@ -282,6 +290,7 @@ published: true
 
 <div class="committee-section">
   <h2>Publication Chairs</h2>
+  <a class="section-email" href="mailto:publication2027@ieeevr.org">publication2027@ieeevr.org</a>
 </div>
 <div class="committee-grid">
   <div class="committee-member">
@@ -308,6 +317,7 @@ published: true
 
 <div class="committee-section">
   <h2>Awards Chairs</h2>
+  <a class="section-email" href="mailto:awards2027@ieeevr.org">awards2027@ieeevr.org</a>
 </div>
 <div class="committee-grid">
   <div class="committee-member">
@@ -360,6 +370,7 @@ published: true
 
 <div class="committee-section">
   <h2>Demos Chairs</h2>
+  <a class="section-email" href="mailto:demo2027@ieeevr.org">demo2027@ieeevr.org</a>
 </div>
 <div class="committee-grid">
   <div class="committee-member">
@@ -428,6 +439,7 @@ published: true
 
 <div class="committee-section">
   <h2>Tutorials Chairs</h2>
+  <a class="section-email" href="mailto:tutorial2027@ieeevr.org">tutorial2027@ieeevr.org</a>
 </div>
 <div class="committee-grid">
   <div class="committee-member">
@@ -465,6 +477,7 @@ published: true
 
 <div class="committee-section">
   <h2>Diversity, Equity, Inclusion, and Accessibility Chairs</h2>
+  <a class="section-email" href="mailto:deia2027@ieeevr.org">deia2027@ieeevr.org</a>
 </div>
 <div class="committee-grid">
   <div class="committee-member">
@@ -486,6 +499,7 @@ published: true
 
 <div class="committee-section">
   <h2>Student Volunteer Chairs</h2>
+  <a class="section-email" href="mailto:studentvolunteers2027@ieeevr.org">studentvolunteers2027@ieeevr.org</a>
 </div>
 <div class="committee-grid">
   <div class="committee-member">
@@ -523,6 +537,7 @@ published: true
 
 <div class="committee-section">
   <h2>Doctoral Consortium Chairs</h2>
+  <a class="section-email" href="mailto:doctoralconsortium2027@ieeevr.org">doctoralconsortium2027@ieeevr.org</a>
 </div>
 <div class="committee-grid">
   <div class="committee-member">
@@ -554,6 +569,7 @@ published: true
 
 <div class="committee-section">
   <h2>Web Chairs</h2>
+  <a class="section-email" href="mailto:web2027@ieeevr.org">web2027@ieeevr.org</a>
 </div>
 <div class="committee-grid">
   <div class="committee-member">

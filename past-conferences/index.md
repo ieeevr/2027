@@ -12,7 +12,7 @@ title_separator: "|"
       <br>
       <a href="https://ieeevr.org/2026" class="specialLink" target="_blank">Website</a>
       &nbsp;|&nbsp;
-      <span class="specialLink">Proceedings (TBD)</span>
+      <a href="https://ieeexplore.ieee.org/xpl/conhome/11457486/proceeding" class="specialLink" target="_blank">Proceedings</a>
     </p>
   </div>
   <hr>
