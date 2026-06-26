@@ -5,6 +5,84 @@ title_separator: "|"
 published: true
 ---
 
+<style>
+  .cfp-toc {
+    background: #f0f4fa;
+    border-radius: 6px;
+    padding: 1.2rem 1.5rem 1rem;
+    margin-bottom: 2rem;
+    font-size: 0.92rem;
+  }
+  .cfp-toc__title {
+    font-weight: 800;
+    font-size: 0.8rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #262262;
+    margin: 0 0 0.75rem;
+  }
+  .cfp-toc ol {
+    margin: 0;
+    padding-left: 1.3rem;
+    columns: 2;
+    column-gap: 2rem;
+  }
+  .cfp-toc li {
+    margin-bottom: 0.3rem;
+    break-inside: avoid;
+  }
+  .cfp-toc a {
+    color: #262262;
+    text-decoration: none;
+  }
+  .cfp-toc a:hover {
+    color: #0e76bc;
+    text-decoration: underline;
+  }
+  .cfp-toc ul {
+    margin: 0.2rem 0 0.3rem;
+    padding-left: 1rem;
+    list-style: disc;
+  }
+  .cfp-toc ul li { margin-bottom: 0.15rem; }
+  @media (max-width: 640px) {
+    .cfp-toc ol { columns: 1; }
+  }
+</style>
+
+<nav class="cfp-toc" aria-label="Table of contents">
+  <p class="cfp-toc__title">Contents</p>
+  <ol>
+    <li><a href="#overview">Overview</a></li>
+    <li><a href="#important-dates">Important Dates</a></li>
+    <li><a href="#submission-guidelines">Submission Guidelines</a>
+      <ul>
+        <li><a href="#contribution-categories">Contribution Categories</a></li>
+        <li><a href="#format">Format</a></li>
+        <li><a href="#review-responsibility">Review Responsibility</a></li>
+      </ul>
+    </li>
+    <li><a href="#topics">Topics</a></li>
+    <li><a href="#review-process">Review Process</a></li>
+    <li><a href="#additional-guidelines">Additional Guidelines</a>
+      <ul>
+        <li><a href="#abstract-submission">Abstract Submission</a></li>
+        <li><a href="#ethics-and-responsibility">Ethics and Responsibility</a></li>
+        <li><a href="#participant-diversity">Participant Diversity</a></li>
+        <li><a href="#review-duties-for-authors">Review Duties for Authors</a></li>
+        <li><a href="#presentation-at-the-conference">Presentation at the Conference</a></li>
+        <li><a href="#submission-language">Submission Language</a></li>
+        <li><a href="#previous-publication-and-plagiarism">Previous Publication and Plagiarism</a></li>
+        <li><a href="#use-of-generative-ai">Use of Generative AI</a></li>
+        <li><a href="#submission-anonymity">Submission Anonymity</a></li>
+        <li><a href="#pre-dissemination-through-public-online-repositories">Pre-dissemination</a></li>
+        <li><a href="#videos">Videos</a></li>
+      </ul>
+    </li>
+    <li><a href="#contacts">Contacts</a></li>
+  </ol>
+</nav>
+
 ## Overview
 
 IEEE VR 2027 seeks original, high-quality papers in all areas related to virtual reality (VR), including augmented reality (AR), mixed reality (MR), and 3D user interfaces (3DUIs). This year there is again a SINGLE submission deadline for a unified review process for both the IEEE TVCG and the conference-only papers. The possible outcomes of this unified process are:
