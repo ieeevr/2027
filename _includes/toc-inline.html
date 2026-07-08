@@ -1,0 +1,23 @@
+<nav class="toc-inline" aria-label="Table of contents" markdown="1">
+  <p class="toc-inline__title">{{ include.title | default: "Contents" }}</p>
+1. TOC
+{:toc}
+</nav>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  var tocLinks = document.querySelectorAll(".toc-inline a");
+  tocLinks.forEach(function(link) {
+    var href = link.getAttribute("href");
+    if (href && href.startsWith("#")) {
+      var targetHeading = document.getElementById(href.substring(1));
+      if (targetHeading) {
+        var shortTitle = targetHeading.getAttribute("data-toc-title");
+        if (shortTitle) {
+          link.textContent = shortTitle;
+        }
+      }
+    }
+  });
+});
+</script>

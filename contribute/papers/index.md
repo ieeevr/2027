@@ -5,83 +5,8 @@ title_separator: "|"
 published: true
 ---
 
-<style>
-  .cfp-toc {
-    background: #f0f4fa;
-    border-radius: 6px;
-    padding: 1.2rem 1.5rem 1rem;
-    margin-bottom: 2rem;
-    font-size: 0.92rem;
-  }
-  .cfp-toc__title {
-    font-weight: 800;
-    font-size: 0.8rem;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    color: #262262;
-    margin: 0 0 0.75rem;
-  }
-  .cfp-toc ol {
-    margin: 0;
-    padding-left: 1.3rem;
-    columns: 2;
-    column-gap: 2rem;
-  }
-  .cfp-toc li {
-    margin-bottom: 0.3rem;
-    break-inside: avoid;
-  }
-  .cfp-toc a {
-    color: #262262;
-    text-decoration: none;
-  }
-  .cfp-toc a:hover {
-    color: #0e76bc;
-    text-decoration: underline;
-  }
-  .cfp-toc ul {
-    margin: 0.2rem 0 0.3rem;
-    padding-left: 1rem;
-    list-style: disc;
-  }
-  .cfp-toc ul li { margin-bottom: 0.15rem; }
-  @media (max-width: 640px) {
-    .cfp-toc ol { columns: 1; }
-  }
-</style>
+{% include toc-inline.html %}
 
-<nav class="cfp-toc" aria-label="Table of contents">
-  <p class="cfp-toc__title">Contents</p>
-  <ol>
-    <li><a href="#overview">Overview</a></li>
-    <li><a href="#important-dates">Important Dates</a></li>
-    <li><a href="#submission-guidelines">Submission Guidelines</a>
-      <ul>
-        <li><a href="#contribution-categories">Contribution Categories</a></li>
-        <li><a href="#format">Format</a></li>
-        <li><a href="#review-responsibility">Review Responsibility</a></li>
-      </ul>
-    </li>
-    <li><a href="#topics">Topics</a></li>
-    <li><a href="#review-process">Review Process</a></li>
-    <li><a href="#additional-guidelines">Additional Guidelines</a>
-      <ul>
-        <li><a href="#abstract-submission">Abstract Submission</a></li>
-        <li><a href="#ethics-and-responsibility">Ethics and Responsibility</a></li>
-        <li><a href="#participant-diversity">Participant Diversity</a></li>
-        <li><a href="#review-duties-for-authors">Review Duties for Authors</a></li>
-        <li><a href="#presentation-at-the-conference">Presentation at the Conference</a></li>
-        <li><a href="#submission-language">Submission Language</a></li>
-        <li><a href="#previous-publication-and-plagiarism">Previous Publication and Plagiarism</a></li>
-        <li><a href="#use-of-generative-ai">Use of Generative AI</a></li>
-        <li><a href="#submission-anonymity">Submission Anonymity</a></li>
-        <li><a href="#pre-dissemination-through-public-online-repositories">Pre-dissemination</a></li>
-        <li><a href="#videos">Videos</a></li>
-      </ul>
-    </li>
-    <li><a href="#contacts">Contacts</a></li>
-  </ol>
-</nav>
 
 ## Overview
 
@@ -134,7 +59,8 @@ Papers must be strictly formatted according to **IEEE VGTC conference** submissi
 
 ![paper_Sample.jpg]({{ '/assets/images/paper_sample/paper_sample.jpg' | relative_url }})
 
-### Review responsibility
+### Review Responsibility
+
 
 All senior authors (those holding a PhD or possessing equivalent expertise) should familiarize themselves with the IEEE VR 2027 **[Review guidelines: TBA]**. Unless serving IEEE VR 2027 in another capacity, ALL SENIOR AUTHORS are expected to volunteer as reviewers and perform their duties in a timely and responsive fashion. This supersedes the prior requirement that one author for each paper commit to reviewing; if a paper has multiple senior co-authors, all are expected to volunteer. Egregious violations of this policy may be considered **highly irresponsible conduct** (e.g., failure to meet deadlines or participate in discussions), which could result in penalties up to and including **DESK REJECTION** of their submitted paper(s).
 
@@ -188,6 +114,7 @@ While no list can be exhaustive, papers should, as a rule of thumb, engage meani
 The review process will have two cycles.
 
 ### Review Cycle I (Submission to Initial Notification)
+{: .no_toc}
 
 Submissions will be assigned to two members of the VR 2027 International Program Committee (IPC): a coordinator (primary) and a secondary reviewer. Submissions that violate the submission guidelines or that receive low review scores from both the coordinator and the secondary reviewer will be rejected early. This stage of the review process will be double blind. We will strive to have all other submissions receive a total of at least three reviews. Based on the reviews and in consultation with a subset of the IPC, the Program Chairs will make one of the following initial recommendations for each submission:
 
@@ -198,6 +125,7 @@ Submissions will be assigned to two members of the VR 2027 International Program
 **Note**: As of IEEE VR 2026, rejected papers will not have the option to be automatically accepted as IEEE VR Posters. Rather, authors of rejected papers will have to resubmit directly to the poster track.
 
 ### Review Cycle II (Initial Notification to Final Decision)
+{: .no_toc}
 
 Each conditionally accepted paper's revision will be reviewed by its coordinator, who will make a final recommendation to the Program Chairs regarding acceptance. If the conditions for acceptance are not met, the paper will be rejected.
 
@@ -276,6 +204,8 @@ This means that both the authors and the reviewers must remain anonymous to each
 **Failure to adhere to the double-blind policy will result in DESK REJECTION.**
 
 ### Pre-dissemination through Public Online Repositories
+{: data-toc-title="Pre-dissemination"}
+
 
 Uploading the submitted manuscript to an online repository (e.g., arXiv) before the end of the review process does not constitute a reason for rejecting the manuscript. However, the authors should be advised that doing so can compromise the anonymity of their manuscript and therefore bias its double-blind review.
 

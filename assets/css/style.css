@@ -5348,3 +5348,74 @@ p.location2 {
 @media (max-width:420px){
   .kspeaker-card .kspeaker-meta p{font-size:.95rem}
 }
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   Inline Table of Contents Component (.toc-inline)
+   ───────────────────────────────────────────────────────────────────────────── */
+.toc-inline {
+  background: var(--site-primary-tint);
+  border-radius: 8px;
+  padding: 1.2rem 1.5rem 1rem;
+  margin-bottom: 2rem;
+  font-size: 0.92rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.toc-inline__title {
+  font-weight: 800;
+  font-size: 0.8rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--site-primary);
+  margin: 0 0 0.75rem;
+}
+
+/* Reset all lists inside ToC */
+.toc-inline ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Multi-column layout for top-level list */
+.toc-inline > ol {
+  columns: 2;
+  column-gap: 2.5rem;
+}
+
+.toc-inline li {
+  margin-bottom: 0.4rem;
+  break-inside: avoid;
+}
+
+.toc-inline a {
+  color: var(--site-primary);
+  text-decoration: none;
+  transition: color 0.15s ease, text-decoration 0.15s ease;
+}
+
+.toc-inline a:hover {
+  color: var(--site-primary-hover);
+  text-decoration: underline;
+}
+
+/* Style for nested sub-lists (H3s) */
+.toc-inline ol ol {
+  margin: 0.3rem 0 0.5rem 0.2rem;
+  padding-left: 0.8rem;
+  border-left: 2px solid rgba(38, 34, 98, 0.2); /* site-primary with opacity for softer look */
+  columns: 1;
+}
+
+.toc-inline ol ol li {
+  margin-bottom: 0.25rem;
+  display: block;
+}
+
+
+@media (max-width: 640px) {
+  .toc-inline > ol {
+    columns: 1;
+  }
+}
+
