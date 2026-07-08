@@ -203,7 +203,8 @@ This means that both the authors and the reviewers must remain anonymous to each
 
 **Failure to adhere to the double-blind policy will result in DESK REJECTION.**
 
-### Pre-dissemination<span class="toc-exclude"> through Public Online Repositories</span>
+### Pre-dissemination through Public Online Repositories
+{: data-toc-title="Pre-dissemination"}
 
 
 Uploading the submitted manuscript to an online repository (e.g., arXiv) before the end of the review process does not constitute a reason for rejecting the manuscript. However, the authors should be advised that doing so can compromise the anonymity of their manuscript and therefore bias its double-blind review.

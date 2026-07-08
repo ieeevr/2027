@@ -5412,10 +5412,6 @@ p.location2 {
   display: block;
 }
 
-/* ── ToC Short Titles Utility Classes ── */
-.toc-inline .toc-exclude {
-  display: none;
-}
 
 @media (max-width: 640px) {
   .toc-inline > ol {
