@@ -189,7 +189,7 @@ The review process will have two cycles.
 
 ### Review Cycle I (Submission to Initial Notification)
 
-Submissions will be assigned to two members of the VR 2027 International Program Committee (IPC): a coordinator (primary) and a secondary reviewer. Submissions that violate the submission guidelines or that receive low review scores from both the coordinator and the secondary reviewer will be rejected early. This stage of the review process will be double blind. We will strive to have all other submissions receive a total of at least three reviews. Based on the reviews and in consultation with a subset of the IPC, the Program Chairs will make one of the following initial recommendations for each submission:
+Submissions will be assigned to two members of the VR 2027 International Program Committee (IPC): a coordinator (primary) and a secondary reviewer. Submissions that violate the submission guidelines or that receive low review scores from both the coordinator and the secondary reviewer will be rejected early. This stage of the review process will be double blind. We will strive to have all other submissions receive a total of at least three reviews. Based on the reviews and in consultation with a subset of the IPC, the Paper Chairs will make one of the following initial recommendations for each submission:
 
 * **Conditionally accepted as IEEE TVCG paper**: Continuing our cooperation with the IEEE Transactions on Visualization and Computer Graphics (TVCG), the top submissions wil* l be considered for publication in a special issue of IEEE TVCG.
 * **Conditionally accepted as conference paper**: These submissions will be considered for inclusion in the Proceedings of IEEE VR, archived in the IEEE Xplore Digital Librar* y.
@@ -199,7 +199,7 @@ Submissions will be assigned to two members of the VR 2027 International Program
 
 ### Review Cycle II (Initial Notification to Final Decision)
 
-Each conditionally accepted paper's revision will be reviewed by its coordinator, who will make a final recommendation to the Program Chairs regarding acceptance. If the conditions for acceptance are not met, the paper will be rejected.
+Each conditionally accepted paper's revision will be reviewed by its coordinator, who will make a final recommendation to the Paper Chairs regarding acceptance. If the conditions for acceptance are not met, the paper will be rejected.
 
 ## Additional Guidelines
 
