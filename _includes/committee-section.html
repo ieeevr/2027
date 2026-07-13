@@ -1,5 +1,6 @@
 {% assign members = site.data.organizing_committee | where: "section", include.section %}
-{% assign email_members = members | where_exp: "m", "m.email and m.email != ''" %}
+{% assign email_members = members | where_exp: "m", "m.email" %}
+{% assign email_members = email_members | where_exp: "m", "m.email != ''" %}
 <div class="committee-section-block">
   <div class="section-header">
     <p>{{ include.section }}</p>
