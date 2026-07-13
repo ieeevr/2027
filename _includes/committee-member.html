@@ -1,0 +1,14 @@
+{% assign member = include.member %}
+<div class="committee-member">
+  <div class="avatar{% if member.image and member.image != '' %} has-image{% else %} anonymous{% endif %}">
+    {% if member.image and member.image != '' %}
+      <img src="/assets/images/committee/{{ member.image }}" alt="{{ member.name }}" onerror="this.onerror=null; this.src='/assets/images/committee/anonymous-avatar.svg'; this.parentNode.classList.remove('has-image'); this.parentNode.classList.add('anonymous');">
+    {% else %}
+      <img src="/assets/images/committee/anonymous-avatar.svg" alt="{{ member.name }}" />
+    {% endif %}
+  </div>
+  <div class="member-name">{{ member.name }}</div>
+  {% if member.affiliation and member.affiliation != '' %}
+    <div class="member-org">{{ member.affiliation }}</div>
+  {% endif %}
+</div>

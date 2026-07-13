@@ -5,7 +5,7 @@ title_separator: "|"
 ---
 
 <div>
-  <h1 id="past-conferences">Past Conferences</h1>
+  <h2 id="past-conferences">Past Conferences</h2>
   <div>
     <p>
       <strong style="color:black">IEEE Virtual Reality 2026 <i>(Daegu, Korea)</i></strong>
