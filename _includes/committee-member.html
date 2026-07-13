@@ -1,10 +1,12 @@
 {% assign member = include.member %}
+{% assign fallback_image_path = "/assets/images/committee/anonymous-avatar.svg" | relative_url %}
 <div class="committee-member">
   <div class="avatar{% if member.image and member.image != '' %} has-image{% else %} anonymous{% endif %}">
     {% if member.image and member.image != '' %}
-      <img src="/assets/images/committee/{{ member.image }}" alt="{{ member.name }}" onerror="this.onerror=null; this.src='/assets/images/committee/anonymous-avatar.svg'; this.parentNode.classList.remove('has-image'); this.parentNode.classList.add('anonymous');">
+      {% assign member_image_path = "/assets/images/committee/" | append: member.image | relative_url %}
+      <img src="{{ member_image_path }}" alt="{{ member.name }}" onerror="this.onerror=null; this.src='{{ fallback_image_path }}'; this.parentNode.classList.remove('has-image'); this.parentNode.classList.add('anonymous');">
     {% else %}
-      <img src="/assets/images/committee/anonymous-avatar.svg" alt="{{ member.name }}" />
+      <img src="{{ fallback_image_path }}" alt="{{ member.name }}" />
     {% endif %}
   </div>
   <div class="member-name">{{ member.name }}</div>
