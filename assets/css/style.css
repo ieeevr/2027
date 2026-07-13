@@ -4826,12 +4826,12 @@ body {
 	margin: 0 auto;
 }
 
-.committee-section-block {
+.committee-page .committee-section-block {
 	margin-bottom: 3rem;
 	padding-bottom: 1rem;
 }
 
-.section-header {
+.committee-page .section-header {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -4840,7 +4840,7 @@ body {
 	border-bottom: none;
 }
 
-.section-header p {
+.committee-page .section-header p {
 	margin: 0;
 	font-size: 1.2em;
 	font-weight: bold;
@@ -4848,7 +4848,7 @@ body {
 	color: var(--site-primary);
 }
 
-.section-email {
+.committee-page .section-email {
 	color: #262262;
 	text-decoration: none;
 	font-size: 0.95rem;
@@ -4856,30 +4856,34 @@ body {
 	white-space: nowrap;
 }
 
-.section-email:hover {
+.committee-page .section-email:hover {
 	color: #e70087;
 	text-decoration: underline;
 }
 
-.committee-grid {
+.committee-page .committee-grid {
 	display: grid;
 	grid-template-columns: repeat(3, minmax(0, 1fr));
 	gap: 2rem 1.5rem;
 	align-items: start;
+	width: 100%;
 }
 
-.committee-member {
+.committee-page .committee-member {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
+	box-sizing: border-box;
+	width: 100%;
+	justify-self: center;
 }
 
-.avatar {
+.committee-page .avatar {
 	border-radius: 50%;
 	overflow: hidden;
 	background: linear-gradient(135deg, #e8ecfb 0%, #d2dbf7 100%);
-	margin-bottom: 1rem;
+	margin: 0 auto 1rem;
 	flex-shrink: 0;
 	aspect-ratio: 1 / 1;
 	border: 3px solid #f5f6fb;
@@ -4889,17 +4893,17 @@ body {
 	justify-content: center;
 }
 
-.avatar.anonymous {
+.committee-page .avatar.anonymous {
 	width: 138px !important;
 	height: 138px !important;
 }
 
-.avatar.has-image {
+.committee-page .avatar.has-image {
 	width: 176px !important;
 	height: 176px !important;
 }
 
-.avatar img {
+.committee-page .avatar img {
 	width: 100% !important;
 	height: 100% !important;
 	object-fit: cover !important;
@@ -4907,7 +4911,7 @@ body {
 	border-radius: 50%;
 }
 
-.member-name {
+.committee-page .member-name {
 	font-weight: 800;
 	color: #111;
 	margin-bottom: 0.1rem;
@@ -4916,7 +4920,7 @@ body {
 	letter-spacing: 0.01em;
 }
 
-.member-org {
+.committee-page .member-org {
 	font-style: italic;
 	color: #6b7280;
 	font-size: 0.82rem;
@@ -4928,28 +4932,6 @@ body {
 	margin-bottom: 1em
 }
 
-.committee-page .committee-grid {
-	display: grid !important;
-	grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
-	gap: 1.35rem 1rem !important;
-	width: 100%;
-}
-
-.committee-page .committee-member {
-	box-sizing: border-box;
-	width: 100%;
-	justify-self: center;
-}
-
-.committee-page .avatar {
-	width: 158px !important;
-	height: 158px !important;
-	aspect-ratio: 1 / 1;
-	border-radius: 50% !important;
-	overflow: hidden !important;
-	margin: 0 auto 0.75rem auto;
-}
-
 @media (max-width: 900px) {
 	.committee-page .committee-grid,
 	.column.left .committee-page .committee-grid {
@@ -4958,6 +4940,17 @@ body {
 }
 
 @media (max-width: 520px) {
+	.committee-page .section-header {
+		align-items: flex-start;
+		flex-direction: column;
+		gap: 0.35rem;
+	}
+
+	.committee-page .section-email {
+		overflow-wrap: anywhere;
+		white-space: normal;
+	}
+
 	.committee-page .committee-grid,
 	.column.left .committee-page .committee-grid {
 		grid-template-columns: 1fr !important;
