@@ -17,7 +17,7 @@ Nominations for the 2027 IEEE VR and VR Academy Awards are open now. Award and A
 
 ## Nomination Deadlines
 
-- July 15, 2026: Best Dissertation Award
+- August 15, 2026: Best Dissertation Award
 - September 15, 2026: All other awards and VR Academy
 
 ## Links to Nomination Forms for VR Awards and VR Academy
