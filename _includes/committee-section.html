@@ -1,0 +1,17 @@
+{% assign members = site.data.organizing_committee | where: "section", include.section %}
+{% assign email_members = members | where_exp: "m", "m.email and m.email != ''" %}
+<div class="committee-section-block">
+  <div class="section-header">
+    <p>{{ include.section }}</p>
+    {% if email_members.size > 0 %}
+      {% assign email = email_members[0].email %}
+      <a class="section-email" href="mailto:{{ email }}">{{ email }}</a>
+    {% endif %}
+  </div>
+
+  <div class="committee-grid">
+    {% for member in members %}
+      {% include committee-member.html member=member %}
+    {% endfor %}
+  </div>
+</div>
