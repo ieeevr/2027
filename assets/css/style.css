@@ -4880,6 +4880,8 @@ body {
 }
 
 .committee-page .avatar {
+	width: 176px;
+	height: 176px;
 	border-radius: 50%;
 	overflow: hidden;
 	background: linear-gradient(135deg, #e8ecfb 0%, #d2dbf7 100%);
@@ -4892,17 +4894,6 @@ body {
 	align-items: center;
 	justify-content: center;
 }
-
-.committee-page .avatar.anonymous {
-	width: 138px !important;
-	height: 138px !important;
-}
-
-.committee-page .avatar.has-image {
-	width: 176px !important;
-	height: 176px !important;
-}
-
 .committee-page .avatar img {
 	width: 100% !important;
 	height: 100% !important;
