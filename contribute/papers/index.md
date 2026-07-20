@@ -16,7 +16,7 @@ IEEE VR 2027 seeks original, high-quality papers in all areas related to virtual
 2. Accept as IEEE VR 2027 conference paper, with presentation at IEEE VR 2027
 3. Reject
 
-Inquiries: TBD
+Inquiries: paper2027@ieeevr.org
 
 ## Important Dates
 
@@ -62,7 +62,7 @@ Papers must be strictly formatted according to **IEEE VGTC conference** submissi
 ### Review Responsibility
 
 
-All senior authors (those holding a PhD or possessing equivalent expertise) should familiarize themselves with the IEEE VR 2027 **[Review guidelines: TBA]**. Unless serving IEEE VR 2027 in another capacity, ALL SENIOR AUTHORS are expected to volunteer as reviewers and perform their duties in a timely and responsive fashion. This supersedes the prior requirement that one author for each paper commit to reviewing; if a paper has multiple senior co-authors, all are expected to volunteer. Egregious violations of this policy may be considered **highly irresponsible conduct** (e.g., failure to meet deadlines or participate in discussions), which could result in penalties up to and including **DESK REJECTION** of their submitted paper(s).
+All senior authors (those holding a PhD or possessing equivalent expertise) should familiarize themselves with the IEEE VR 2027 **[Review guidelines](https://docs.google.com/document/d/1rE8ZCrTDVLrB41cIrWXyj3bpzbKfkQqX/edit?usp=sharing&ouid=102179678883429337311&rtpof=true&sd=true)**. Unless serving IEEE VR 2027 in another capacity, ALL SENIOR AUTHORS are expected to volunteer as reviewers and perform their duties in a timely and responsive fashion. This supersedes the prior requirement that one author for each paper commit to reviewing; if a paper has multiple senior co-authors, all are expected to volunteer. Egregious violations of this policy may be considered **highly irresponsible conduct** (e.g., failure to meet deadlines or participate in discussions), which could result in penalties up to and including **DESK REJECTION** of their submitted paper(s).
 
 ## Topics
 
@@ -223,4 +223,4 @@ Videos must be submitted according to the instructions on the submission website
 * Misha Sra, University of California, Santa Barbara
 * Xubo Yang, Shanghai Jiao Tong University, China
 
-**Contact email:** TBD
+**Contact email:** paper2027@ieeevr.org
