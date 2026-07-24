@@ -18,11 +18,11 @@ As examples, here are the Two Best Poster Awards of IEEE VR 2025, especially for
 1) Valentin Vallageas, David R. Labbe, and Rachid Aissaoui:   
    Proprioception Drift in Virtual Reality: An Experiment with an Unrealistically Long Leg.  
    Extended abstract under DOI [10.1109/VRW66409.2025.00389](https://doi.org/10.1109/VRW66409.2025.00389)  
-   Poster design: PDF   
+   Poster design: [PDF](https://drive.google.com/file/d/1JH4JHoXVFJE158MBNhHnnZAYpejQG4zq/view)   
 2) Lena Holderrieth, Erik Wolf, Marie Luisa Fiedler, Mario Botsch, Marc Erich Latoschik, and Carolin Wienrich:   
    Do You Feel Better? The Impact of Embodying Photorealistic Avatars with Ideal Body Weight on Attractiveness and Self-Esteem in Virtual Reality  
    Extended abstract under DOI [10.1109/VRW66409.2025.00348](https://doi.org/10.1109/VRW66409.2025.00348)   
-   Poster design: PDF
+   Poster design: [PDF](https://drive.google.com/file/d/173uD8NnNUUBlnMOqsO8Yyx4zWGkWvjXy/view)
 
 ## **Important Dates**
 
