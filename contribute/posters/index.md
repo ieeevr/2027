@@ -28,7 +28,7 @@ As examples, here are the Two Best Poster Awards of IEEE VR 2025, especially for
 
 * **December 2, 2026:** Title, category, abstract (100-120 words) and authors information due  
 * **December 7, 2026:** Two-page pdf extended abstract due (plus optional supplementary material)  
-* **January 6, 2026:** Notification of results  
+* **January 6, 2027:** Notification of results  
 * **January 12, 2027:** Camera-ready material and copyright submission via IEEE CPS (to be published in the conference’s abstract and workshop proceedings) and PCS (poster, video, teaser image, and other additional materials)
 
 Each deadline is 23:59:59 AoE (Anywhere on Earth) \== GMT/UTC-12:00 on the stated day, irrespective of the submitter’s location.
