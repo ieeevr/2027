@@ -27,7 +27,7 @@ Each deadline is 23:59:59 AoE (Anywhere on Earth) == GMT/UTC-12:00 on the stated
 | Abstracts due **(REQUIRED)** | **August 24, 2026** |
 | Submissions due | **August 31, 2026** |
 | Initial notifications | November 30, 2026 |
-| Revised submissions due | December 31, 2027 |
+| Revised submissions due | December 31, 2026 |
 | Final notifications | January 7, 2027 |
 | Camera-ready materials due | January 12, 2027 |
 
