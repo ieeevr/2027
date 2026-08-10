@@ -5,7 +5,7 @@ title_separator: "|"
 published: true
 ---
 
-## **Overview**
+# Call for Posters
 
 The 34th IEEE Conference on Virtual Reality and 3D User Interfaces (IEEE VR 2027\) seeks poster submissions that describe recently completed work, highly relevant results of work in progress, or successful systems and applications in all areas related to virtual reality, augmented reality, mixed reality, and 3D user interfaces. Presenting a poster is a great way to get feedback on work that has not yet been published.
 
