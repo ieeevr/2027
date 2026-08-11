@@ -18,7 +18,7 @@ All deadlines are Anywhere on Earth (AoE).
 
 * **Contest registration (title + team members): Friday, 11 December 2026**
 * **Submission** of two-page abstract and video – Wednesday, 16 December, 2026
-* **Notification** of which entries are accepted – Wednesday, 23 January, 2026
+* **Notification** of which entries are accepted – Wednesday, 23 **December**, 2026
 * **Camera-ready** version – Tuesday, 12 January, 2027
 
 ## Overview
