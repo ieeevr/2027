@@ -7,7 +7,7 @@ published: true
 
 <div class="committee-page" markdown="1">
 
-## Conference Committee
+# Conference Committee
 
 {% assign sections_list = site.data.organizing_committee | map: "section" | uniq %}
 {% for section_name in sections_list %}

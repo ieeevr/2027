@@ -7,7 +7,6 @@ published: true
 
 {% include toc-inline.html %}
 
-
 ## Overview
 
 IEEE VR 2027 seeks original, high-quality papers in all areas related to virtual reality (VR), including augmented reality (AR), mixed reality (MR), and 3D user interfaces (3DUIs). This year there is again a SINGLE submission deadline for a unified review process for both the IEEE TVCG and the conference-only papers. The possible outcomes of this unified process are:
@@ -16,7 +15,7 @@ IEEE VR 2027 seeks original, high-quality papers in all areas related to virtual
 2. Accept as IEEE VR 2027 conference paper, with presentation at IEEE VR 2027
 3. Reject
 
-Inquiries: paper2027@ieeevr.org
+Inquiries: papers2027@ieeevr.org
 
 ## Important Dates
 
@@ -223,4 +222,4 @@ Videos must be submitted according to the instructions on the submission website
 * Misha Sra, University of California, Santa Barbara
 * Xubo Yang, Shanghai Jiao Tong University, China
 
-**Contact email:** paper2027@ieeevr.org
+**Contact email:** papers2027@ieeevr.org
