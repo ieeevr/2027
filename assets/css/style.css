@@ -164,7 +164,7 @@ img {
 }
 }
  @media screen and (max-width: 600px) {
-.topnav a:not(:first-child),  .dropdown .dropbtn {
+.topnav > a:not(:first-child),  .dropdown .dropbtn {
 	display: none;
 }
 .topnav a.icon {
@@ -235,6 +235,7 @@ img {
 	background-color: #fff;
 }
 .topnav.responsive .dropdown-content a {
+	display: block;
 	margin-right: 0px;
 	padding-left: 28px;
 }
