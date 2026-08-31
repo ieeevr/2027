@@ -26,7 +26,7 @@ You can find examples presented at previous conferences here:
 * [https://ieeevr.org/2026/program/demos/](https://ieeevr.org/2026/program/demos/)
 * [https://ieeevr.org/2025/program/demos/](https://ieeevr.org/2025/program/demos/)
 * [https://ieeevr.org/2024/program/demos/](https://ieeevr.org/2024/program/demos/)
-* [https://ieeevr.org/2023/progoram/demos/](https://ieeevr.org/2023/progoram/demos/)
+* [https://ieeevr.org/2023/program/demos/](https://ieeevr.org/2023/program/demos/)
 * [https://ieeevr.org/2022/program/demos/](https://ieeevr.org/2022/program/demos/)
 
 ## Overview
