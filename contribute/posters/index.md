@@ -105,4 +105,4 @@ For more information, please contact the Poster Chairs
 
 at the following address:
 
-posters2027 \[at\] ieeevr.org  
+poster2027 \[at\] ieeevr.org  
