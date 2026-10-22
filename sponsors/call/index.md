@@ -435,10 +435,10 @@ sidebar_widgets: []
       <span class="sponsorship-action__label">APPLY NOW</span>
       <span class="sponsorship-action__note">Sponsor Application Form - Contact Details</span>
     </a>
-    <span class="sponsorship-action sponsorship-action--pending" aria-disabled="true">
+    <a class="sponsorship-action" href="https://icmsaust.eventsair.com/ExhibitionPortal/ieee-conference-on-virtual-reality-and-3d-user-interfaces-2027/floorplan/floorplan/live" target="_blank" rel="noopener noreferrer">
       <span class="sponsorship-action__label">VIEW FLOORPLAN</span>
-      <span class="sponsorship-action__note">TBD</span>
-    </span>
+      <span class="sponsorship-action__note">Interactive Exhibition Floorplan</span>
+    </a>
   </nav>
 
   <section class="sponsorship-section" aria-labelledby="connect-with-the-global-vr-community">
