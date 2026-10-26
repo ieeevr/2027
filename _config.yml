@@ -393,6 +393,7 @@ compress_html:
 
 sidebar_widgets:
   - home-countdown
+  - sponsors
 
 # Defaults
 defaults:
