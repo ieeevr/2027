@@ -55,6 +55,10 @@ published: true
     height: auto;
     width: auto;
   }
+
+  .sponsor-logo--zoom {
+    padding: 0.4rem;
+  }
 </style>
 
 <section class="sponsors-page" itemprop="text">
@@ -69,7 +73,7 @@ published: true
         <h2 class="sponsor-tier__title">{{ tier }}</h2>
         <div class="sponsor-tier__grid">
           {% for s in tier_sponsors %}
-            <div class="sponsor-logo">
+            <div class="sponsor-logo{% if s.Name == "University of Melbourne" %} sponsor-logo--zoom{% endif %}">
               {% assign logo_path = "/assets/images/sponsors/2027/" | append: s.Logo | relative_url %}
               {% if s.URL and s.URL != "" %}
                 <a href="{{ s.URL }}" target="_blank" rel="noopener noreferrer">

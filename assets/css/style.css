@@ -456,13 +456,16 @@ b, strong {
 	margin-bottom: 0;
 }
 .sponsor-widget__tier-label {
-	display: inline-block;
-	padding: 0.22rem 0.65rem;
+	display: block;
+	box-sizing: border-box;
+	width: 100%;
+	padding: 0.4rem 0.65rem;
 	border-radius: 999px;
 	font-size: 0.62rem;
 	font-weight: 800;
 	letter-spacing: 0.08em;
 	text-transform: uppercase;
+	text-align: center;
 	color: #ffffff;
 	margin-bottom: 0.5rem;
 }
@@ -480,13 +483,13 @@ b, strong {
 }
 .sponsor-widget__logos {
 	display: flex;
-	flex-wrap: wrap;
-	gap: 0.6rem;
+	flex-direction: column;
+	align-items: center;
+	gap: 0.9rem;
 }
 .sponsor-widget__logos img {
-	max-width: 100%;
-	max-height: 1.8rem;
-	width: auto;
+	width: 70%;
+	max-width: 70%;
 	height: auto;
 }
 .sponsor-widget__logos a,
