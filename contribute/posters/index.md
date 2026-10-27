@@ -76,6 +76,10 @@ The possible outcomes of this review process are:
 
 Authors of accepted posters are expected to address any recommendations and conditions of acceptance prior to the final submission of camera-ready materials. This will be verified by the primary reviewer. 
 
+**Review Responsibility**
+
+Like the Main Paper track, unless serving IEEE VR 2027 in another capacity, ALL SENIOR AUTHORS (those holding a PhD or possessing equivalent expertise) are expected to serve as reviewers for the Poster Track. If a poster abstract has multiple senior co-authors, all are expected to serve. Following the December 2, 2026 submission deadline, the Poster Chairs will select and invite a subset of senior authors to join the Poster Track's International Program Committee (IPC), which is being assembled in parallel. Senior authors should therefore expect to receive an invitation and are expected to accept it and fulfill their reviewing duties. Failure to accept an invitation or egregious violations of reviewing responsibilities, such as failure to meet deadlines, may be considered highly irresponsible conduct and could result in penalties up to and including DESK REJECTION of their submitted poster(s).
+
 **Poster Presentation**
 
 There will be three dedicated days for poster presentations throughout the conference week. Each accepted poster will be assigned to **one** specific day and will have multiple presentation slots throughout that day, e.g., during coffee breaks, to maximize exposure and interaction with conference attendees. During the poster presentation, one or more authors need to be physically present at their poster to discuss their work with other attendees.
