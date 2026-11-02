@@ -1,4 +1,4 @@
-{% assign sponsor_tier_order = "Platinum,Gold,Silver,Bronze" | split: "," %}
+{% assign sponsor_tier_order = "Platinum,Gold,Silver,Bronze,Best Student Presentation Prizes Sponsor,Friends of VR,Exhibitors" | split: "," %}
 {% assign has_sponsors = false %}
 {% for tier in sponsor_tier_order %}
   {% assign tier_sponsors = site.data.sponsors | where: "Tier", tier %}
@@ -16,16 +16,20 @@
     {% assign tier_sponsors = site.data.sponsors | where: "Tier", tier %}
     {% if tier_sponsors.size > 0 %}
       <div class="sponsor-widget__tier">
-        <span class="sponsor-widget__tier-label sponsor-widget__tier-label--{{ tier | downcase }}">{{ tier }}</span>
+        <span class="sponsor-widget__tier-label sponsor-widget__tier-label--{{ tier | slugify }}">{{ tier }}</span>
         <div class="sponsor-widget__logos">
           {% for s in tier_sponsors %}
-            {% assign logo_path = "/assets/images/sponsors/2027/" | append: s.Logo | relative_url %}
-            {% if s.URL and s.URL != "" %}
-              <a href="{{ s.URL }}" target="_blank" rel="noopener noreferrer" title="{{ s.Name }}">
-                <img src="{{ logo_path }}" alt="{{ s.Name }}">
-              </a>
+            {% if s.Logo and s.Logo != "" %}
+              {% assign logo_path = "/assets/images/sponsors/2027/" | append: s.Logo | relative_url %}
+              {% if s.URL and s.URL != "" %}
+                <a href="{{ s.URL }}" target="_blank" rel="noopener noreferrer" title="{{ s.Name }}">
+                  <img src="{{ logo_path }}" alt="{{ s.Name }}">
+                </a>
+              {% else %}
+                <img src="{{ logo_path }}" alt="{{ s.Name }}" title="{{ s.Name }}">
+              {% endif %}
             {% else %}
-              <img src="{{ logo_path }}" alt="{{ s.Name }}" title="{{ s.Name }}">
+              <span class="sponsor-widget__logo-name">{{ s.Name }}</span>
             {% endif %}
           {% endfor %}
         </div>

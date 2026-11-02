@@ -144,12 +144,20 @@ footer:
 
 navigation:
   main:
+    - title: "Attending"
+      children:
+        - title: "Registration"
+          url: /attend/registration/
+        - title: "Accommodation"
+          url: /attend/accommodations/
+        - title: "Destination"
+          url: /attend/destination/
+        - title: "Tours"
+          url: /attend/tours/
     - title: "Attend"
       children:
         - title: "Code of Conduct"
           url: /attend/code-of-conduct/
-        - title: "Registration"
-          url: /attend/registration/
         - title: "Venue"
           url: /attend/venue/
         - title: "Conference Center Map"
@@ -160,8 +168,6 @@ navigation:
           url: /attend/mentorship/
         - title: "Accessibility"
           url: /attend/accessibility/
-        - title: "Accommodations"
-          url: /attend/accommodations/
         - title: "Food"
           url: /attend/food/
         - title: "DEIA Grants"

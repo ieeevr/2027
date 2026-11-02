@@ -59,13 +59,20 @@ published: true
   .sponsor-logo--zoom {
     padding: 0.4rem;
   }
+
+  .sponsor-logo__name {
+    text-align: center;
+    font-weight: 700;
+    color: #25233a;
+    padding: 0 0.5rem;
+  }
 </style>
 
 <section class="sponsors-page" itemprop="text">
   <h1>Sponsors</h1>
   <p>IEEE VR 2027 is grateful to the following organizations for their support.</p>
 
-  {% assign tier_order = "Platinum,Gold,Silver,Bronze" | split: "," %}
+  {% assign tier_order = "Platinum,Gold,Silver,Bronze,Best Student Presentation Prizes Sponsor,Friends of VR,Exhibitors" | split: "," %}
   {% for tier in tier_order %}
     {% assign tier_sponsors = site.data.sponsors | where: "Tier", tier %}
     {% if tier_sponsors.size > 0 %}
@@ -74,13 +81,17 @@ published: true
         <div class="sponsor-tier__grid">
           {% for s in tier_sponsors %}
             <div class="sponsor-logo{% if s.Name == "University of Melbourne" %} sponsor-logo--zoom{% endif %}">
-              {% assign logo_path = "/assets/images/sponsors/2027/" | append: s.Logo | relative_url %}
-              {% if s.URL and s.URL != "" %}
-                <a href="{{ s.URL }}" target="_blank" rel="noopener noreferrer">
+              {% if s.Logo and s.Logo != "" %}
+                {% assign logo_path = "/assets/images/sponsors/2027/" | append: s.Logo | relative_url %}
+                {% if s.URL and s.URL != "" %}
+                  <a href="{{ s.URL }}" target="_blank" rel="noopener noreferrer">
+                    <img src="{{ logo_path }}" alt="{{ s.Name }}">
+                  </a>
+                {% else %}
                   <img src="{{ logo_path }}" alt="{{ s.Name }}">
-                </a>
+                {% endif %}
               {% else %}
-                <img src="{{ logo_path }}" alt="{{ s.Name }}">
+                <span class="sponsor-logo__name">{{ s.Name }}</span>
               {% endif %}
             </div>
           {% endfor %}
