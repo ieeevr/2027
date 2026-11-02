@@ -468,6 +468,7 @@ b, strong {
 	text-align: center;
 	color: #ffffff;
 	margin-bottom: 0.5rem;
+	background: #0e76bc;
 }
 .sponsor-widget__tier-label--platinum {
 	background: #171447;
@@ -480,6 +481,12 @@ b, strong {
 }
 .sponsor-widget__tier-label--bronze {
 	background: #8a5a2b;
+}
+.sponsor-widget__logo-name {
+	display: block;
+	text-align: center;
+	font-weight: 700;
+	color: var(--site-primary);
 }
 .sponsor-widget__logos {
 	display: flex;
