@@ -18,7 +18,7 @@ All deadlines are Anywhere on Earth (AoE).
 
 * **Contest registration (title + team members): Friday, 11 December 2026**
 * **Submission** of two-page abstract and video – Wednesday, 16 December, 2026
-* **Notification** of which entries are accepted – Wednesday, 23 **December**, 2026
+* **Notification** of which entries are accepted – Wednesday, 23 December, 2026
 * **Camera-ready** version – Tuesday, 12 January, 2027
 
 ## Overview
@@ -108,7 +108,7 @@ The final score will combine the expert judges’ evaluations with audience voti
 
 At least **one author of each accepted submission must register for IEEE VR 2027 and present the system on-site.**
 
-## Submission of Abstract and Video - due January 4, 2027
+## Submission of Abstract and Video - due December 16, 2026
 
 Teams should submit their abstract paper and a high-quality video through the online submission system: [https://new.precisionconference.com/~vr](https://new.precisionconference.com/~vr)
 
