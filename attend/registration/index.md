@@ -2,7 +2,7 @@
 layout: ieeevr-default
 title: "Registration"
 title_separator: "|"
-published: false
+published: true
 ---
 
 # Register today for the IEEE Conference on Virtual Reality and 3D User Interfaces (IEEE VR 2027)
@@ -88,7 +88,7 @@ Join us for a memorable Gala Dinner at the Melbourne Museum for dinner, networki
 
 ## Payment Information
 
-<details>
+<details markdown="1">
 <summary>Payment Information</summary>
 
 * All payments must be made in Australian Dollars (AUD) and include 10% GST.
@@ -100,7 +100,7 @@ Join us for a memorable Gala Dinner at the Melbourne Museum for dinner, networki
 
 ## Cancellation Policy
 
-<details>
+<details markdown="1">
 <summary>Cancellation Policy</summary>
 
 **Cancellation of Registration Deadline: Tuesday 29 December 2026**
