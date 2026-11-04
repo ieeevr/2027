@@ -80,7 +80,7 @@ We're thrilled to invite you to IEEE VR 2027, taking place from 27 February to 3
 
 ### Full Registrations
 
-| Registration Type | Early Bird including GST<br>Closes 15 February 2027 | Standard including GST |
+| Registration Type | Early Bird including GST<br>Closes 6 December 2026 | Standard including GST |
 |---|---|---|
 | Member Registration | $1,250 | $1,500 |
 | Student Member Registration | $875 | $1,050 |
@@ -90,7 +90,7 @@ We're thrilled to invite you to IEEE VR 2027, taking place from 27 February to 3
 
 ### Workshop Only Registrations
 
-| Registration Type | Early Bird including GST<br>Closes 15 February 2027 | Standard Including GST |
+| Registration Type | Early Bird including GST<br>Closes 6 December 2026 | Standard Including GST |
 |---|---|---|
 | Workshop Member Registration | $625 | $750 |
 | Workshop Non-Member Registration | $750 | $900 |
@@ -111,8 +111,8 @@ A member is defined as one who is a member of the [IEEE Societies](https://www.i
 | Event | Date |
 |---|---|
 | Early Bird Registration Opens | 2 November 2026 |
-| Early Bird Closes | 15 February 2027 |
-| Standard Registration Opens | 16 February 2027 |
+| Early Bird Closes | 6 December 2026 |
+| Standard Registration Opens | 7 December 2026 |
 | Registration Cancellation Deadline | Tuesday 29 December 2026 |
 | Accommodation Payment Deadline | Wednesday 13 January 2027 |
 
