@@ -9,6 +9,50 @@ published: true
 
 We're thrilled to invite you to IEEE VR 2027, taking place from 27 February to 3 March 2027 at the Melbourne Convention and Exhibition Centre (MCEC). Registration is now open – secure your spot today and take advantage of our Early Bird rates.
 
+<style>
+  .registration-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    flex-wrap: nowrap;
+    background: var(--site-primary);
+    color: #fff;
+    padding: 0.6rem 1.1rem;
+    border-radius: 0.75rem;
+    margin: 0 0 1.5rem;
+    text-align: center;
+  }
+
+  .registration-banner__text {
+    margin: 0;
+    font-size: 1.05rem;
+    font-weight: 800;
+    white-space: nowrap;
+  }
+
+  .registration-banner .btn--primary {
+    background-color: #fff !important;
+    color: var(--site-primary) !important;
+    margin: 0;
+    white-space: nowrap;
+    font-size: 0.7em;
+    padding: 0.35em 1.1em;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+
+  .registration-banner .btn--primary:hover {
+    background-color: var(--site-primary-hover) !important;
+    color: #fff !important;
+  }
+</style>
+
+<div class="registration-banner">
+  <span class="registration-banner__text">Registration is Now Open!</span>
+  <a href="https://icmsaust.eventsair.com/ieee-conference-on-virtual-reality-and-3d-user-interfaces-2027/registration-form" class="btn btn--primary" target="_blank" rel="noopener noreferrer">Register now</a>
+  <a href="https://icmsaust.eventsair.com/ieee-conference-on-virtual-reality-and-3d-user-interfaces-2027/eoi-form" class="btn btn--primary" target="_blank" rel="noopener noreferrer">Express your interest now</a>
+</div>
+
 ## Registration Inclusions
 
 **Full Registration entitlements include:**
