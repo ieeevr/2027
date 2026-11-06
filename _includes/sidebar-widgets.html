@@ -12,6 +12,10 @@
           <div class="sidebar-widget">
             {% include home-countdown.html %}
           </div>
+        {% when "sponsors" %}
+          <div class="sidebar-widget">
+            {% include sponsor-sidebar.html %}
+          </div>
       {% endcase %}
     {% endfor %}
 
