@@ -47,6 +47,21 @@
       border:0;
     }
 
+    .day-toggle {
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:16px;
+      width:100%;
+      text-align:left;
+      white-space:nowrap;
+      cursor:pointer;
+    }
+
+    .day-toggle span {
+      overflow-x:auto;
+    }
+
     /* =========================
        Accordion
     ========================= */
@@ -54,6 +69,18 @@
       list-style: none;
       padding: 20px 20px;
       margin: 0;
+    }
+
+    .day-workshops {
+      max-height:10000px;
+      overflow:hidden;
+      transition:max-height 0.35s ease, padding 0.35s ease;
+    }
+
+    .accordion-wrap.day-collapsed .day-workshops {
+      max-height:0;
+      padding-top:0;
+      padding-bottom:0;
     }
 
     .accordion-item {
@@ -78,8 +105,8 @@
     }
 		 .accordion-item.active,
        .accordion-item:hover {
-      background: var(--primary-soft);
-    }
+		   background: var(--primary-soft);
+		 }
 
     .accordion-text { width:100%; font-size:17px;; line-height:1.3; align-items: center;
       display:flex; flex-wrap:wrap; gap:10px 15px; flex-wrap:nowrap;
@@ -88,7 +115,7 @@
 
     .accordion-text  div:nth-child(1) {width:110px; text-align:Center;}
     .accordion-text  div:nth-child(2) {flex:1; text-align:left;}
-    .accordion-text  div:nth-child(3) {width:110px; text-align:Center; font-weight: 300;}
+    .accordion-text  div:nth-child(3) {width:130px; text-align:Center; font-weight: 300; white-space:nowrap; flex-shrink:0;}
     .accordion-text  div:nth-child(4) {width:200px; text-align:Center; font-weight: 300;}
 
 
@@ -96,30 +123,12 @@
 
 
     /* =========================
-       SVG Icon
-    ========================= */
-    .accordion-icon {
-      width: 20px;
-      height: 20px;
-      flex-shrink: 0;
-      transition: transform var(--transition);
-    }
-
-    .accordion-icon path {
-      stroke: var(--primary);
-      stroke-width: 2;
-      fill: none;
-      stroke-linecap: round;
-      stroke-linejoin: round;
-    }
-
-    /* =========================
-       Content
+    Content
     ========================= */
     .accordion-content {
-      max-height: 0;
-      overflow: hidden;
-      transition: max-height 0.35s ease;
+      max-height:0;
+      overflow:hidden;
+      transition:max-height 0.35s ease;
     }
 
     .accordion-content-inner {
@@ -142,17 +151,29 @@
   font-weight: 700;}
     .accordion-content-inner dl  dd {flex:1;}
 
+    .accordion-icon {
+      width:20px;
+      height:20px;
+      flex-shrink:0;
+      transition:transform var(--transition);
+    }
 
-    /* =========================
-       Active State
-    ========================= */
+    .accordion-icon path {
+      stroke:var(--primary);
+      stroke-width:2;
+      fill:none;
+      stroke-linecap:round;
+      stroke-linejoin:round;
+    }
+
     .accordion-item.active .accordion-content {
-      max-height: 1500px;
+      max-height:1500px;
     }
 
     .accordion-item.active .accordion-icon {
-      transform: rotate(180deg);
+      transform:rotate(180deg);
     }
+
 
     /* =========================
        Mobile
@@ -161,7 +182,7 @@
 	 .accordion-text { flex-wrap:wrap;  }
 	.accordion-text div { font-weight:bold; }
     .accordion-text  div:nth-child(2) {flex-basis:calc(100% - 150px); padding-right:20px;}
-    .accordion-text  div:nth-child(3) {width:130px;}
+    .accordion-text  div:nth-child(3) {width:130px; white-space:nowrap; flex-shrink:0;}
     .accordion-text  div:nth-child(4) {flex:1; text-align:left; padding-right:20px;}
     }
 
