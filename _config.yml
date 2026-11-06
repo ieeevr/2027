@@ -146,6 +146,8 @@ navigation:
   main:
     - title: "Attending"
       children:
+        - title: "Code of Conduct"
+          url: /attend/code-of-conduct/
         - title: "Registration"
           url: /attend/registration/
         - title: "Accommodation"
@@ -156,8 +158,6 @@ navigation:
           url: /attend/tours/
     - title: "Attend"
       children:
-        - title: "Code of Conduct"
-          url: /attend/code-of-conduct/
         - title: "Venue"
           url: /attend/venue/
         - title: "Conference Center Map"
