@@ -144,7 +144,7 @@ footer:
 
 navigation:
   main:
-    - title: "Attending"
+    - title: "Attend"
       children:
         - title: "Code of Conduct"
           url: /attend/code-of-conduct/
@@ -156,8 +156,6 @@ navigation:
           url: /attend/destination/
         - title: "Tours"
           url: /attend/tours/
-    - title: "Attend"
-      children:
         - title: "Venue"
           url: /attend/venue/
         - title: "Conference Center Map"
