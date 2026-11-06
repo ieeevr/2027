@@ -1,19 +1,28 @@
 
+ document.querySelectorAll(".day-toggle").forEach(toggle => {
+   toggle.addEventListener("click", () => {
+     const expanded = toggle.getAttribute("aria-expanded") === "true";
+     toggle.setAttribute("aria-expanded", String(!expanded));
+     toggle.closest(".accordion-wrap").classList.toggle("day-collapsed", expanded);
+   });
+ });
+
  const accordionItems = document.querySelectorAll(".accordion-item");
-    accordionItems.forEach(item => {
-      const header = item.querySelector(".accordion-header");
- 
-      header.addEventListener("click", () => {
-        const isActive = item.classList.contains("active");
- 
-        accordionItems.forEach(i => i.classList.remove("active"));
- 
-        if (!isActive) {
-          item.classList.add("active");
-        }
-      });
-    });
- 
+ accordionItems.forEach(item => {
+   const header = item.querySelector(".accordion-header");
+   header.addEventListener("click", () => {
+     const isActive = item.classList.contains("active");
+     accordionItems.forEach(otherItem => {
+       otherItem.classList.remove("active");
+       otherItem.querySelector(".accordion-header").setAttribute("aria-expanded", "false");
+     });
+     if (!isActive) {
+       item.classList.add("active");
+       header.setAttribute("aria-expanded", "true");
+     }
+   });
+ });
+
   document.addEventListener("DOMContentLoaded", () => {
     const dts = document.querySelectorAll(".accordion-content-inner dd");
  
