@@ -14,7 +14,7 @@ February 27 \- March 3, 2027 | Melbourne, Australia
 
 Each deadline is 23:59:59 AoE (Anywhere on Earth) \== GMT/UTC-12:00 on the stated day, no matter where the submitter is located.
 
-* **November 10, 2026**: Submission deadline
+* **November 22, 2026**: Submission deadline
 * **December 22, 2026**: Notification of acceptance
 * **January 5, 2027**: Camera-ready
 
