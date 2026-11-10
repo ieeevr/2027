@@ -116,6 +116,8 @@ A member is defined as one who is a member of the [IEEE Societies](https://www.i
 | Registration Cancellation Deadline | Tuesday 29 December 2026 |
 | Accommodation Payment Deadline | Wednesday 13 January 2027 |
 
+***The early bird rate will be honoured for all authors post the deadline. Please contact the Conference Secretariat if you are an accepted author and wish to register post the early bird deadline at the discounted rate.***
+
 ## Social Functions
 
 **Welcome Reception**
